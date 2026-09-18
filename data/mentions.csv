@@ -1,0 +1,30 @@
+section,kind,mention,source,status
+"Research / datasets",dataset,"Kaggle thread collecting basketball datasets","https://www.kaggle.com/discussions/general/52669",linked
+"Research / datasets",dataset,"DeepSportRadar v1","https://paperswithcode.com/dataset/deepsportradar-v1",linked
+"Research / datasets",dataset,"data.world basketball catalog","https://data.world/datasets/basketball",linked
+"Research / datasets; GAME TIME / average game",dataset,"wyattowalsh/basketball on Kaggle. Annotated on the average-game doc as the source for per-position and per-decade averages.","https://www.kaggle.com/datasets/wyattowalsh/basketball",linked
+"GAME TIME / average game",wanted,"2023-24 line is drafted (88.9 FGA, 47% FG, 35.1 3PA and 12.8 makes, 21.7 FTA, 33 DREB, 10.6 OREB, 26.7 AST). Per-decade table is a placeholder.","Kaggle annotation in the same document",partial
+"TEAM / front office / efficiency / table",wanted,"Franchise efficiency sketch from Forbes, 22 April 2016. Blazers: lowest payroll in an unnamed dataset, 48 wins, win% 0.524, attendance 98%+, season tickets $47M, suites $6M. Celtics: 14th-lowest payroll, 59% wins.","Forbes / SportNEX, cited in the draft; dataset unnamed",partial
+"PLAYERS / characteristics / physical / height",figure,"Height evolution in the NBA, including a rookie-data claim. Link is an annotation, not yet a series in the repo.","https://runrepeat.com/height-evolution-in-the-nba",linked
+"GAME TIME / officiating / referees / physical",dataset,"2023-24 NBA referee stats. Annotated, not used in the prose yet.","https://www.nbastuffer.com/2023-2024-nba-referee-stats/",linked
+"TEAM / front office / staff/roles",dataset,"Which NBA teams have an analytics department, and front-office staff lists.","https://www.nbastuffer.com/analytics101/nba-teams-that-have-analytics-department/",linked
+"LEAGUE / disputes / arbitration",dataset,"FIBA Basketball Arbitral Tribunal statistics, 2022, PDF.","https://www.fiba.basketball/bat-statistics-2022.pdf",linked
+"PRE-GAME / Why basketball is so good / popularity/reach",figure,"About 450 million people play basketball worldwide. Footnoted to FIBA, year not pinned in the sentence.","FIBA footnote in the draft",cited
+"GAME TIME / flow / study: ball possession effectiveness",study,"Gómez et al. 2013. 7,234 possessions, 40 games, Spanish men's and women's leagues, 2006-07 regular season and playoffs. Binary logistic regression on possession success.","Gómez et al. 2013",cited
+"GAME TIME / skills / scoring / accuracy / AI accuracy study",study,"Li and Zhang 2021, neural shooting-accuracy prediction. Draft says older models around 70% and this model above 90%.","Hongfei Li and Maolin Zhang, 2021",cited
+"GAME TIME / officiating / referees / physical",study,"Paulauskas et al. Twelve referees, seven games in each of two tournaments, heart-rate monitors and wearable tracking. Nabli et al. 2019 cited for fatigue and mental sharpness.","Paulauskas et al.; Nabli et al. 2019",cited
+"GAME TIME / officiating / referees / future/assistance",study,"PICO review of 21 SCOPUS papers on AI assistants for referees.","SCOPUS review, authors not named in the snippet",cited
+"SOCIETY / race / wage gap",study,"Bodvarsson and Brastow 1999. Salary regressions for 1985-86 and 1990-91; employer discrimination present in the first season, not the second. Brown et al. 1991 cited for the 1980s gap.","Bodvarsson and Brastow 1999; Brown et al. 1991",cited
+"PLAYERS / injuries / overview",study,"Ten-year study of 70 professional players, 265 injuries, mostly early-season games. Andreoli et al. 2018: about 11.1% of professional injuries in trunk and spine.","Andreoli et al. 2018; overview paper linked from the doc",cited
+"LEAGUE / competitive balance",study,"Revenue sharing and salary caps compared across NFL, MLB, NBA, and NHL. Study is summarised and not named.","Unnamed paper",missing
+"Annexes / negative studies / dribbling creativity",study,"Sensorimotor cortex activity during dribbling; no significant effect on creative performance. Paper not named.","Unnamed paper",missing
+"TO BASKET-BALL / ball / physics / Nonlinear dynamics of a basketball rolling around the rim",study,"Dynamics of a ball rolling on the rim.","https://link.springer.com/article/10.1007/s11071-021-06507-y",cited
+"ANALYTICS / state of the data / companies / SportsVu",hold,"SportVU tracking, founded 2005, acquired by STATS LLC in 2008. About 1,000,000 entries per game. NBA provider until Second Spectrum replaced it in 2017.","Draft summary; do not host the feed",hold
+"ANALYTICS / state of the data / companies / Second Spectrum",hold,"NBA optical-tracking provider from 2017, replacing SportVU.","Draft summary; do not host the feed",hold
+"ANALYTICS / timeline/development",hold,"Metric genealogy to keep as a glossary, not a dump: rebounding percentage, box plus-minus, RAPM, player-tracking plus-minus, Data Ball from 1997.","Draft timeline",hold
+"ANALYTICS / YOLO/networks",hold,"YOLO tracking note: neighbouring frames used as context. A method, not a dataset to collect.","Draft note",hold
+"PLAYERS / salaries / cap",figure,"Cap rules the draft already states: 2005 CBA capped salaries at 57% of basketball-related income; designated-player exception up to 30% of the cap.","2023 CBA folder nearby; numbers are in the prose",cited
+"LEAGUE / income",wanted,"Revenue ingredients named and not assembled: television, salaries, attendance, licensing, arena.","Section prompt",missing
+"BROADCAST / marketing / spreadsheet of ads",wanted,"Binder item exists. No document body.","None",missing
+"STADIUM / home court advantage",wanted,"Single sentence: home-court advantage appeared to evaporate in the 2024 playoffs. No source in the document.","None",missing
+"FANS / gambling",hold,"Odds set from player statistics, history, and live game state. Describe the machinery. Do not build a betting dataset.","Draft summary",hold

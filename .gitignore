@@ -1,0 +1,10 @@
+.DS_Store
+.env
+.env.*
+.venv/
+__pycache__/
+node_modules/
+
+# Downloaded dumps stay local until a license check says they can be committed.
+data/raw/
+*.sqlite
