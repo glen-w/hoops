@@ -100,6 +100,51 @@ def normalize_league(
 
 OWNERSHIP_STRUCTURE_VOCAB = ["sole", "majority", "group", "public", "municipal", "unknown"]
 
+# Country QID to ISO-3166-1 alpha-2 mapping
+COUNTRY_CODE_MAP = {
+    "Q30": "US",  # United States
+    "Q16": "CA",  # Canada
+}
+
+
+def map_ownership_structure(owner_label: str | None) -> str:
+    """
+    Map owner to ownership_structure vocabulary.
+    
+    Conservative mapping - only map when confident.
+    Default to 'unknown' when unsure.
+    """
+    if not owner_label:
+        return "unknown"
+    
+    owner_lower = owner_label.lower()
+    
+    # Sole ownership indicators
+    if any(indicator in owner_lower for indicator in [
+        "family",  # e.g., "DeVos family"
+    ]):
+        return "sole"
+    
+    # Group ownership indicators
+    if any(indicator in owner_lower for indicator in [
+        " & ",  # e.g., "Maple Leaf Sports & Entertainment"
+        "entertainment",
+        "sports",
+        "group",
+        "llc",
+    ]):
+        return "group"
+    
+    # Municipal/tribal ownership
+    if any(indicator in owner_lower for indicator in [
+        "tribe",  # e.g., "Mohegan Tribe"
+        "tribal",
+    ]):
+        return "municipal"
+    
+    # Default: unknown (includes individual owners that we can't confidently classify)
+    return "unknown"
+
 
 def normalize_team(raw_team: dict[str, Any]) -> dict[str, Any]:
     """
@@ -128,8 +173,9 @@ def normalize_team(raw_team: dict[str, Any]) -> dict[str, Any]:
     # Extract city from HQ or venue
     city = raw_team.get("hq_label")
     
-    # Country: map QID to ISO-3166-1 alpha-2 (simplified for now)
-    country = None  # TODO: implement QID->ISO mapping
+    # Country: map QID to ISO-3166-1 alpha-2
+    country_qid = raw_team.get("country_qid")
+    country = COUNTRY_CODE_MAP.get(country_qid) if country_qid else None
     
     # Founded year from inception
     founded_year = extract_year_from_date(raw_team.get("inception"))
@@ -157,11 +203,8 @@ def normalize_team(raw_team: dict[str, Any]) -> dict[str, Any]:
             pass
     
     # Ownership structure: locked vocabulary only
-    # Default to "unknown" if no owner info
-    ownership_structure = "unknown"
-    if raw_team.get("owner_label"):
-        # Keep as unknown - manual enrichment required
-        ownership_structure = "unknown"
+    # Map from owner_label using conservative heuristics
+    ownership_structure = map_ownership_structure(raw_team.get("owner_label"))
     
     # Confidence: HIGH if we have Wikipedia + QID, MEDIUM if partial, GAP if minimal
     confidence = "GAP"
