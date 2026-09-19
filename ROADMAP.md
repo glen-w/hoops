@@ -42,7 +42,7 @@ The draft already narrates results. The sidecar should point at the paper, and r
 ## 4. Build the tables the draft asks for and does not have
 
 - **Average game, by decade.** The 2023–24 line is already drafted (88.9 field-goal attempts, 47% field goals, 35.1 threes, 21.7 free throws, 33 defensive rebounds, 10.6 offensive rebounds, 26.7 assists). The per-decade table is a placeholder. Source candidate: the Kaggle set above.
-- **Front-office efficiency.** `efficiency / table` sketches 2015–16 from Forbes (Blazers: lowest payroll, 48 wins, attendance over 98%, $47M season tickets) and says "our dataset" without naming it.
+- **Front-office efficiency.** `efficiency / table` sketches 2015–16 from Forbes 22 Apr 2016 (NOT FOUND, searched 2026-09-19). Corrected source: OregonLive 13 May 2016 (Odom) — Blazers lowest payroll ($61.69M), **44 wins** (not 48; that's Boston); Celtics 14th payroll, 48 wins (~59%). Attendance 98%+ is separate (Forbes/Brown Jun 2016, SBJ).
 - **Home court.** One sentence: the advantage "appeared to evaporate in the 2024 playoffs." No source in the document.
 - **Broadcast ads.** Binder item `spreadsheet of ads` has no body.
 - **League income.** Television, salaries, attendance, licensing, arena revenue — named as the ingredients, not assembled.
