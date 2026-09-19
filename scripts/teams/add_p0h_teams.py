@@ -128,6 +128,10 @@ def process_team(team: dict[str, Any], league_id: str, existing_abbrs: set[str])
     """
     qid = team.get("wikidata_qid", "")
     team_id = team.get("team_id", "")
+    # Seed fragment used gleague_* while the desk league_id is g_league.
+    # team_id must start with league_id or the shared desk tests reject the row.
+    if league_id == "g_league" and team_id.startswith("gleague_"):
+        team_id = "g_league_" + team_id[len("gleague_"):]
     name = team.get("name", "")
     short_name = team.get("short_name", "")
     
