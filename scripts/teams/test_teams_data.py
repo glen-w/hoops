@@ -26,11 +26,19 @@ EXPECTED_NBA = 30
 EXPECTED_WNBA = 12
 EXPECTED_EUROLEAGUE_MEN = 20
 EXPECTED_EUROLEAGUE_WOMEN_WITH_QIDS = 22  # 24 in the seed, 2 gaps
+EXPECTED_ABA = 20  # P0h
+EXPECTED_PBA = 12  # P0h
+EXPECTED_G_LEAGUE = 31  # P0h
+EXPECTED_ISRAELI_PREMIER = 14  # P0h
 EXPECTED_TOTAL = (
     EXPECTED_NBA
     + EXPECTED_WNBA
     + EXPECTED_EUROLEAGUE_MEN
     + EXPECTED_EUROLEAGUE_WOMEN_WITH_QIDS
+    + EXPECTED_ABA
+    + EXPECTED_PBA
+    + EXPECTED_G_LEAGUE
+    + EXPECTED_ISRAELI_PREMIER
 )
 
 EXPECTED_COLUMNS = [
@@ -141,6 +149,10 @@ def test_row_counts():
         "wnba": EXPECTED_WNBA,
         "euroleague": EXPECTED_EUROLEAGUE_MEN,
         "euroleague_women": EXPECTED_EUROLEAGUE_WOMEN_WITH_QIDS,
+        "aba": EXPECTED_ABA,
+        "pba": EXPECTED_PBA,
+        "g_league": EXPECTED_G_LEAGUE,
+        "israeli_premier": EXPECTED_ISRAELI_PREMIER,
     }
     if len(teams) != EXPECTED_TOTAL:
         raise TestFailure(f"Total row count mismatch. Expected {EXPECTED_TOTAL}, got {len(teams)}")

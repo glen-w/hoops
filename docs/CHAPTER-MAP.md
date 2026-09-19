@@ -83,9 +83,13 @@ Track which data products support which sections of the manuscript, ensuring eve
 | CBA / 2017 Exhibits | `data/cba/2017/derived/structure.json` | TBD | ready; spike |
 | CBA / 2017 spike documentation | `docs/cba/SPIKE-2017.md` | TBD | ready |
 | CBA / compare 2017-2023 | `docs/cba/COMPARE-2017-2023.md` | TBD | ready |
-| LEAGUE / teams desk | `data/derived/teams/` | TBD | partial — 84 teams (NBA 30 + WNBA 12 + EuroLeague 20 + EuroLeague Women 22); colours/logos/ownership enrichment still open; 2 EuroLeague Women QID gaps in seed |
+| LEAGUE / teams desk | `data/derived/teams/` | TBD | partial — 161 teams (NBA 30 + WNBA 12 + EuroLeague 20 + EuroLeague Women 22 + ABA 20 + PBA 12 + G League 31 + Israeli Premier 14); colours/logos/ownership enrichment still open; 2 EuroLeague Women QID gaps in seed |
 | TEAMS / global / EuroLeague | `data/derived/teams/teams.csv` | TBD | ready |
 | TEAMS / global / EuroLeague Women | `data/derived/teams/teams.csv` | TBD | ready |
+| TEAMS / global / ABA Adriatic | `data/derived/teams/teams.csv` | TBD | ready — P0h |
+| TEAMS / global / PBA | `data/derived/teams/teams.csv` | TBD | ready — P0h |
+| TEAMS / global / G League | `data/derived/teams/teams.csv` | TBD | ready — P0h |
+| TEAMS / global / Israeli Premier | `data/derived/teams/teams.csv` | TBD | ready — P0h |
 | Binder / comparable books desk | `data/derived/books/comparable.csv` | TBD | ready |
 | LEAGUE / franchise bundle | `data/derived/franchise_bundle.csv` | TBD | partial |
 | TEAMS / Liga ACB | `data/derived/teams/ACB-GAPS.md` | Q324867 | gap |
@@ -126,6 +130,8 @@ Track which data products support which sections of the manuscript, ensuring eve
 **Comparable books (2026-09-19):** 19 basketball books for desk reading and comparison. Goodreads ratings are high confidence; Amazon UK ratings and prices are often gaps. See `data/derived/books/README.md` and `comparable.md`.
 
 **Teams P0c (2026-09-19):** 84-row unified desk in `teams.csv` (NBA 30 + WNBA 12 + EuroLeague 20 + EuroLeague Women 22). EuroLeague Women has 2 Wikidata ID gaps in the seed. Logos still deferred.
+
+**Teams P0h (2026-09-19):** 77 teams appended to unified desk (total 161 rows): ABA Adriatic League 20 + PBA 12 + NBA G League 31 + Israeli Basketball Premier League 14. All teams have validated Wikidata QIDs from enwiki pageprops. Sources: `uploads/leagues_seed_fragment_608e.yaml`, `uploads/qid_map_9dbc.md`, `uploads/README_16da.md`. Abbreviations uniquified within each league_id. No invented QIDs or colours.
 
 ## Maintenance
 
