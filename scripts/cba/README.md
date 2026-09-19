@@ -33,6 +33,26 @@ python scripts/cba/validate_cba_structure.py \
 
 ## Scripts
 
+### `cba_lookup.py` (at `scripts/`)
+
+Query committed CBA structure metadata (lookup desk for Scrivener mid-draft).
+
+**Usage:**
+```bash
+python scripts/cba_lookup.py "Article VII"
+python scripts/cba_lookup.py --id article_7_section_1
+python scripts/cba_lookup.py --term "Salary Cap"
+python scripts/cba_lookup.py --list-articles
+```
+
+**Features:**
+- Look up articles, sections, exhibits by name or ID
+- Print edition, clause ID, title, page range
+- No fulltext output (queries metadata only)
+- Works with fixture (status `needs_local_pdf`) or full structure
+
+**See:** [docs/CBA-LOOKUP.md](../../docs/CBA-LOOKUP.md) for detailed usage and Scrivener workflow.
+
 ### `build_cba_structure.py`
 
 Extract structural metadata from CBA PDF.
