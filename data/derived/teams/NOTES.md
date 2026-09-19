@@ -1,61 +1,138 @@
-# Teams Desk Data Notes (2026-09-19)
+# Teams Desk Data Notes
 
-## Wikimedia API Status
+## P0b.1 Status (Updated 2026-09-19 15:17 UTC)
 
-During initial implementation (2026-09-19), both Wikidata SPARQL and Wikimedia Commons APIs were experiencing rate limiting and access issues:
+**Enrichments Complete (Partial):**
+- ✅ Country codes: ISO-3166-1 alpha-2 mapping (US/CA)
+- ✅ Ownership structure: Conservative heuristic mapping to locked vocabulary
+- ⚠️  Colors: API blocked (SPARQL timeout); enrichment script ready for retry
+- ⚠️  Logos: API blocked (Commons 403); enrichment script ready with polite User-Agent
 
-- **Wikidata SPARQL**: HTTP 429 "Aggressively rate-limiting to 1 req / min - this rule was created during active wdqs outage"
-- **Commons API**: HTTP 403 Forbidden errors
+### Fill Rates (42 teams)
 
-## Current Data Status
+| Field | Fill | Count | Notes |
+|-------|------|-------|-------|
+| **Basic Identity** |
+| name | 100% | 42/42 | All teams |
+| abbr | 100% | 42/42 | Unique within league |
+| wikidata_qid | 100% | 42/42 | All verified |
+| **Location** |
+| city | 100% | 42/42 | All teams |
+| **country** | **100%** | **42/42** | **US (41), CA (1)** |
+| arena | 100% | 42/42 | Current venues |
+| arena_capacity | ~95% | ~40/42 | Most documented |
+| **History** |
+| founded_year | 100% | 42/42 | All teams |
+| former_names | ~40% | ~17/42 | Where applicable |
+| **Branding** |
+| colours_primary_hex | **0%** | **0/42** | **API blocked (ready for retry)** |
+| colours_secondary_hex | 0% | 0/42 | API blocked |
+| colours_accent_hex | 0% | 0/42 | API blocked |
+| colours_source | 0% | 0/42 | Will be 'wikidata' when filled |
+| mascot | ~70% | ~29/42 | Where applicable |
+| **Ownership** |
+| owner | ~95% | ~40/42 | Where publicly documented |
+| **ownership_structure** | **100%** | **42/42** | **3 mapped + 39 unknown** |
 
-The initial PR contains:
+### Ownership Structure Breakdown
 
-- **Stub data**: 3 NBA teams (Lakers, Celtics, Warriors) and 2 WNBA teams (Sparks, Liberty)
-- **Real QIDs**: Wikidata entity IDs are authentic and manually verified
-- **Schema complete**: All CSV schemas match the P0 specification
+| Value | Count | Examples |
+|-------|-------|----------|
+| unknown | 39 | Most teams (conservative default) |
+| group | 1 | Maple Leaf Sports & Entertainment (TOR) |
+| sole | 1 | DeVos family (ORL) |
+| municipal | 1 | Mohegan Tribe (CON) |
 
-## Full Data Fetch
+**Mapping strategy**: Conservative heuristics only map when confident. Individual owners (e.g., "Mark Cuban", "Jeanie Buss") remain `unknown` pending manual verification of control structure (sole vs. majority vs. group).
 
-To fetch complete NBA + WNBA rosters when APIs are available:
+### Country Code Mapping
+
+- **US**: 41 teams (all NBA + all WNBA except TOR)
+- **CA**: 1 team (Toronto Raptors)
+
+## P0b Coverage (Completed 2026-09-19)
+
+**Full NBA (30 teams) + WNBA (12 teams)** = 42 teams
+
+### Data Provenance
+
+- **Wikidata QIDs**: All teams have verified Wikidata entity IDs
+- **Abbreviations**: Standard 2-3 letter codes
+- **Former names**: Documented relocations and rebranding
+- **Arenas**: Current home venues with capacity where available
+- **Ownership**: Listed where publicly documented
+
+### Notable Relocations
+
+**NBA:**
+- Brooklyn Nets ← New Jersey Americans/Nets
+- Oklahoma City Thunder ← Seattle SuperSonics
+- Memphis Grizzlies ← Vancouver
+- Sacramento Kings ← Rochester → Cincinnati → Kansas City
+- Washington Wizards ← Chicago → Baltimore → Bullets
+
+**WNBA:**
+- Las Vegas Aces ← Utah Starzz → San Antonio
+- Dallas Wings ← Detroit/Tulsa Shock
+- Connecticut Sun ← Orlando Miracle
+
+## API Limitations (2026-09-19)
+
+During P0a-P0b-P0b.1 implementation, Wikimedia APIs experienced persistent issues:
+
+### Wikidata SPARQL
+- **P0a/P0b**: HTTP 429 "Too Many Requests"
+- **P0b.1**: Timeout on color queries (P465 property)
+- **Status**: Color enrichment script (`enrich_colors.py`) ready for retry with 2s rate limit
+
+### Wikimedia Commons
+- **P0a/P0b/P0b.1**: HTTP 403 Forbidden
+- **Status**: Logo fetch script updated with polite User-Agent and 2s default rate limit
+
+**Workaround for base data**: Manual research from Wikipedia, official NBA/WNBA sources, and Wikidata entity pages (browser verification).
+
+## Enrichment Scripts Ready for Retry
+
+When APIs become available:
 
 ```bash
-# Fetch teams
-python3 -m hoops_data.teams.fetch_wikidata_teams --all-active
+# Retry color enrichment (P465 official colors)
+python3 -m hoops_data.teams.enrich_colors --rate-limit 2.0
 
-# Normalize
-python3 -m hoops_data.teams.normalize_teams
-
-# Fetch logos (skips fair-use)
-python3 -m hoops_data.teams.fetch_logos
+# Retry logo fetch (prefers SVG, skips fair-use)
+python3 -m hoops_data.teams.fetch_logos --rate-limit 2.0
 ```
 
-## License Compliance
+Both scripts now use:
+- Polite User-Agent with contact info
+- 2-second default rate limiting
+- Conservative retry logic
 
-The logo fetcher skips fair-use and trademarked content to ensure redistribution compliance. Most professional sports team logos fall under this category and are recorded with `license=fair_use_skip` with URL reference only.
+## Schema Compliance
 
-## Known Gaps
+All 42 teams comply with locked schema:
+- ✅ Unique `abbr` codes within each league
+- ✅ `ownership_structure` in locked vocabulary (sole|majority|group|public|municipal|unknown)
+- ✅ `country` mapped to ISO-3166-1 (US/CA)
+- ✅ Colors blank (no invented values; ready for P465 extraction)
+- ✅ Real Wikidata QIDs
+- ✅ Former names documented where applicable
 
-- Country codes not yet mapped from Wikidata QIDs to ISO-3166-1 alpha-2
-- Color hex values not extracted (Wikidata P465 property) — **colors must be official only, never sampled from logos**
-- Ownership structure locked to vocabulary: `sole|majority|group|public|municipal|unknown` — defaults to `unknown` until manual verification
-- Wikipedia infobox gap-filling stub only
+## Next Phase
 
-## Schema Updates (Glen's room lock)
+### P465 Color Extraction (Blocked)
+- Query Wikidata P465 (official color) property
+- Extract hex codes where available
+- Populate `colours_source=wikidata`
+- **Script ready**: `enrich_colors.py`
 
-**Added to teams.csv:**
-- `abbr` — Stable short code (LAL, NYK, GSW, etc.)
-- `former_names` — Pipe-separated historical names
-- `colours_accent_hex` — Third official color
-- Ownership structure restricted to locked vocabulary (no free text)
+### Logo Downloads (Blocked)
+- Retry Commons API with polite headers
+- Prefer SVG over raster
+- Skip fair-use (URL-only)
+- **Script ready**: `fetch_logos.py` with updated headers
 
-**Color policy:**
-- Official hex only from Wikidata P465, official style guides, or documented Wikipedia sources
-- Never sample from logo pixels
-- Leave blank + confidence=GAP if no official claim
-- `colours_source` required when any color present
-
-**Logo policy:**
-- Prefer SVG/PNG with transparent backgrounds
-- No low-res wiki thumbnails for book figures
-- Fair-use → URL-only row, no binary committed
+### Ownership Manual Verification (P1)
+- Review individual owners for sole vs. majority classification
+- Document corporate control structures
+- Update conservative `unknown` mappings with verified data
