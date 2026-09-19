@@ -108,10 +108,10 @@ When citing this derived table, credit:
 
 ## Version History
 
-- **2024-09-19:** Initial compilation covering 1979-80 through 2023-24
+- **2026-09-19:** Initial compilation covering 1979-80 through 2023-24
 
 ---
 
-**Last Updated:** 2024-09-19  
+**Last Updated:** 2026-09-19  
 **Script:** `scripts/build_avg_game_by_decade.py`  
 **Output:** `data/derived/avg_game_by_decade.csv`

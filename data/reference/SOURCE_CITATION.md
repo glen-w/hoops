@@ -64,6 +64,6 @@ When using or redistributing this data, please credit:
 
 ---
 
-**Compiled:** 2024-09-19  
+**Compiled:** 2026-09-19  
 **Compiler:** Hoops data sidecar repository  
 **For:** *Hoops: An Uncommon Field Guide to Basketball*
