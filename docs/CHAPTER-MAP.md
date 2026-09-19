@@ -10,7 +10,7 @@ Track which data products support which sections of the manuscript, ensuring eve
 
 | Binder Path | Derived Artifact | Zotero Key | Status |
 |-------------|------------------|------------|--------|
-| GAME TIME / average game | `data/derived/avg_game_by_decade.csv` | TBD | wanted |
+| GAME TIME / average game | `data/derived/avg_game_by_decade.csv` | TBD | ready |
 | STADIUM / home court advantage | `data/derived/home_court_2024_playoffs.md` | TBD | wanted |
 | EXAMPLE: PLAYERS / height evolution | `data/derived/nba_height_series.csv` | TBD | EXAMPLE |
 | EXAMPLE: TEAM / front office / efficiency | `data/derived/franchise_efficiency_2015_16.md` | TBD | EXAMPLE |
