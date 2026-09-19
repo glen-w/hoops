@@ -84,6 +84,7 @@ Track which data products support which sections of the manuscript, ensuring eve
 | CBA / 2017 spike documentation | `docs/cba/SPIKE-2017.md` | TBD | ready |
 | CBA / compare 2017-2023 | `docs/cba/COMPARE-2017-2023.md` | TBD | ready |
 | LEAGUE / teams desk | `data/derived/teams/` | TBD | partial |
+| Binder / comparable books desk | `data/derived/books/comparable.csv` | TBD | ready |
 
 ## Column Definitions
 
@@ -114,6 +115,8 @@ Track which data products support which sections of the manuscript, ensuring eve
 **CBA lookup:** Structure lookup is ready from the committed 2023 metadata (42 articles, 279 sections; PDF SHA-256 `cf59d43fe46f63d7ba07364563046d766c487c26032fcc88432310d47effd9d9`). Verbatim quotes still need the gitignored PDF. Parser package is `src/hoops_data/cba/`. See `docs/cba/SPIKE-REPORT.md` and `docs/CBA-LOOKUP.md`.
 
 **Home court 2024:** Basketball-Reference playoff count is 48–34 (58.5%), high confidence. Regular-season home win rate .5431 is medium. Landmark decade seasons in `data/derived/avg_game_by_decade/` are a light pin; the full decade means stay in `avg_game_by_decade.csv`.
+
+**Comparable books (2026-09-19):** 19 basketball books for desk reading and comparison. Goodreads ratings are high confidence; Amazon UK ratings and prices are often gaps. See `data/derived/books/README.md` and `comparable.md`.
 
 ## Maintenance
 
