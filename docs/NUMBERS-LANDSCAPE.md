@@ -6,19 +6,21 @@
 
 ## The Lay of the Land
 
-Basketball analytics sits at the intersection of **historical box-score abundance** (Basketball-Reference back to 1946), **modern league APIs** (NBA Stats ~1996–present for play-by-play), **tracking proprietary islands** (SportVU/Second Spectrum—cite, don't redistribute), and a **thriving open-source tooling layer** (`nba_api`, `hoopR`, `nbastatR`).
+Basketball analytics sits at the intersection of **historical box-score abundance** (Basketball-Reference back to 1946), **modern league APIs** (NBA Stats ~1996–present for play-by-play), **tracking proprietary islands** (SportVU/Second Spectrum/Hawk-Eye—cite, don't redistribute), and a **thriving open-source tooling layer** (`nba_api`, `hoopR`, `nbastatR`).
+
+**Hard rules for this repository:** Kaggle warehouses are **later/parked**. Client MIT license ≠ data redistribution rights. SportVU GitHub dumps are **legal caution—do not vendor**.
 
 ### What We Have
 
-**Season aggregates are solved.** Basketball-Reference covers decades of team/player box scores and advanced metrics (pace, eFG%, TOV%, etc.). NBA Stats API adds modern endpoints. Both are scrapable for research; neither licenses wholesale commercial database redistribution.
+**Season aggregates are solved.** Basketball-Reference covers decades of team/player box scores and advanced metrics (pace, eFG%, TOV%, BPM, WS, VORP, etc.). NBA Stats API adds modern endpoints (prefer V3 PBP/scoreboard). Both are scrapable for research with etiquette (Sports Reference: ~20 req/min); neither licenses wholesale commercial database redistribution or AI training without written permission.
 
-**Play-by-play is recent but rich.** ESPN-derived feeds (via `hoopR`/sportsdataverse) go back to ~2002. NBA Stats PBP reaches ~1996 for some data types. Convenient GitHub mirrors exist (`shufinskiy/nba_data`, `hoopR-data`) but inherit upstream NBA ToS—use for local analysis, not commercial products.
+**Play-by-play is recent but rich.** ESPN-derived feeds (via `hoopR`/sportsdataverse) go back to ~2002 (through 2026). NBA Stats PBP reaches ~1996 for some endpoints. Convenient GitHub mirrors exist (`shufinskiy/nba_data`, `hoopR-data`) but inherit upstream NBA ToS—**use for local analysis; do NOT vendor the full mirror into this repo's `data/` directory** (violates NBA comprehensive DB restriction).
 
-**College and international are spottier.** Barttorvik offers free efficiency CSVs for NCAA D1. KenPom is paywall. EuroLeague has an unofficial but functional API. FIBA is mostly paywalled.
+**College and international are spottier.** Barttorvik offers free public efficiency CSVs (`{year}_team_results.csv`) for NCAA D1—best open college metric. KenPom is paywall (subscription + paid API; `hoopR` supports with active sub). EuroLeague has an unofficial but widely-used API (`py-euroleague`). FIBA GDAP is mostly paywalled (auth subscription).
 
-**Tracking is proprietary.** SportVU (2013–16 era) and Second Spectrum (current NBA vendor) are league/vendor products. Public "dumps" of SportVU from that era exist in the wild but carry legal/ToS ambiguity—**cite papers, don't commit tracking data to this repo.**
+**Tracking is proprietary with legal caution.** SportVU (2013–16 era), Second Spectrum (~2017–2023), and Hawk-Eye (~2023–present) are league/vendor products. Public "dumps" of SportVU 2015–16 data exist on GitHub (`neilmj/BasketballData` and mirrors) but carry **legal gray area / proprietary caution**—briefly public then withdrawn. MIT license on parsing *code* ≠ data redistribution rights. **Cite papers and methods only; do NOT commit tracking data to this repo or vendor it.** Safe alternative: NBA Stats tracking *aggregates* (LeagueDashPtStats, hustle, speed/distance summaries) and ShotChartDetail coordinates.
 
-**Packages are excellent.** Python's `nba_api` and `basketball_reference_scraper` are P0. R's `hoopR` is a Swiss Army knife (ESPN PBP, NBA Stats, Basketball-Reference scrapers, KenPom with subscription, WNBA via `wehoop`, college). `BasketballAnalyzeR` is in our Zotero analytics collection and aligns with the Zuccolotto/Manisera *Basketball Data Science* textbook.
+**Packages are excellent.** Python's `nba_api` (prefer V3 endpoints) and `basketball_reference_scraper` are P0. R's `hoopR` is a Swiss Army knife (127+ NBA wrappers: ESPN PBP, NBA Stats, Basketball-Reference `bref_*` scrapers, KenPom with subscription, WNBA via `wehoop`, college Torvik). `nbastatR` is R front-office oriented. `BasketballAnalyzeR` is in our Zotero analytics collection (BB4SV25F) and aligns with the Zuccolotto/Manisera *Basketball Data Science* textbook.
 
 ### What We Don't Have (Yet)
 
@@ -29,8 +31,13 @@ Basketball analytics sits at the intersection of **historical box-score abundanc
 
 ### What's Parked
 
-- **Wyatt Walsh Kaggle basketball SQLite** (~1946–2024, huge)—later/auth required per ROADMAP.
-- **Spotrac bulk scrape**—ToS explicitly forbids it; cite individual HTML pages only.
+- **Wyatt Walsh Kaggle basketball SQLite/nbadb** (claims 1946–present; star-schema warehouse)—later/auth required + ToS considerations per ROADMAP section 6.
+- **Nathan Lauga Kaggle nba-games** (~2004–present)—parked per project policy.
+- **Other Kaggle NBA warehouses**—parked per project policy.
+- **Spotrac bulk scrape**—ToS explicitly bans scraping/data mining; cite individual HTML pages only.
+- **KenPom**—cite-only unless active subscription available.
+- **BigDataBall / NBAstuffer data shop**—commercial; cite-only.
+- **Cleaning the Glass**—subscription required (~$5/mo); cite-only.
 
 ---
 
@@ -44,18 +51,24 @@ Basketball analytics sits at the intersection of **historical box-score abundanc
 
 ## P0 for This Repo (Quick List)
 
-1. Basketball-Reference season aggregates (already feeding `avg_game_by_decade`)
-2. `nba_api` or `hoopR` for modern NBA Stats pulls
-3. Basketball-Reference scrapers (`basketball_reference_scraper`, `ballr`, `hoopR bref_*`)
-4. `hoopR-data` or `shufinskiy/nba_data` for PBP research
-5. Barttorvik CSVs (college without KenPom paywall)
-6. EuroLeague API / `py-euroleague` (international)
-7. `wehoop` / `sportsdataverse-py` WNBA
-8. Basketball-Reference contracts (payroll/FO efficiency)
-9. NBA Draft Combine via NBA Stats (anthropometrics)
-10. `awesome-nba-data` (living index)
+**Priority 0 (baseline for manuscript tables & reproducibility):**
 
-**Key constraint:** NBA ToS allows personal/research/news use but prohibits comprehensive database mirrors for commercial/gambling redistribution. **Derive tables locally, cite the source, commit only what's allowed.**
+1. **Basketball-Reference season aggregates**—already feeding `avg_game_by_decade`; BPM/WS/VORP; Sports Reference etiquette (~20 req/min)
+2. **`nba_api` (Python)** — [github.com/swar/nba_api](https://github.com/swar/nba_api) — live stats.nba.com; prefer V3 PBP/scoreboard; document NBA ToS (no full DB publish)
+3. **`hoopR` (R)** — [hoopr.sportsdataverse.org](https://hoopr.sportsdataverse.org/) — R parity; 127+ NBA wrappers; ESPN + NBA Stats + `bref_*`
+4. **`basketball_reference_scraper` / `ballr` / `hoopR bref_*`**—advanced metrics & historical depth; SR etiquette
+5. **`hoopR-data` or `shufinskiy/nba_data`**—PBP research lane; **local analysis only; don't vendor the mirror** (flag NBA ToS)
+6. **Barttorvik CSVs** — [barttorvik.com](https://barttorvik.com/) — public `{year}_team_results.csv`; college without KenPom paywall
+7. **EuroLeague API / `py-euroleague`**—international grain beyond NBA/FIBA GDAP; unofficial but widely used
+8. **`wehoop` / `sportsdataverse-py` WNBA**—gender/league comparison chapters
+9. **Basketball-Reference contracts + NBA Draft Combine**—FO payroll tables & anthropometrics; combine via `hoopR` `nba_draftcombinestats` or `nba_api`
+10. **awesome-nba-data** — [github.com/JovaniPink/awesome-nba-data](https://github.com/JovaniPink/awesome-nba-data) — living index + ToS matrix
+
+**Key constraints:**
+- **NBA ToS:** Personal/research/news use OK; **no comprehensive regularly-updated public database mirrors** or commercial/gambling redistribution without consent.
+- **Sports Reference:** ~20 req/min polite scraping; no competing DB or AI training without written permission.
+- **SportVU dumps:** Legal gray area—**do not vendor**; cite papers/methods only.
+- **Derive tables locally, cite the source, commit only what's allowed.**
 
 ---
 
@@ -85,8 +98,8 @@ Basketball analytics sits at the intersection of **historical box-score abundanc
 
 ## Cross-References
 
-- [DATA-REPOS.md](DATA-REPOS.md)—comprehensive source catalog
-- [open_datasets.csv](open_datasets.csv)—structured table
+- [DATA-REPOS.md](DATA-REPOS.md)—comprehensive source catalog (season aggregates, PBP, packages, college/intl, salaries, tracking, GitHub, paywalled, P0 list)
+- [open_datasets.csv](open_datasets.csv)—structured table (35 sources)
 - [ROADMAP.md](../ROADMAP.md)—repo priorities and out-of-scope items
-- [Open Data Landscape Brief](../uploads/OPEN-DATA-LANDSCAPE_7cbd.md)—2026-09-19 baseline with P0 recommendations
-- [Zotero Dataset Mentions](../uploads/ZOTERO-DATASET-MENTIONS_bb21.md)—library gap analysis
+- [Open Data Landscape Brief](../uploads/OPEN-DATA-LANDSCAPE_14b2.md)—2026-09-19 (CEST) baseline with access flags and P0 recommendations
+- [Zotero Dataset Mentions](../uploads/ZOTERO-DATASET-MENTIONS_819c.md)—library gap analysis (analytics method-heavy, tooling thin; `hoops → data sources` subfolder seeded)
