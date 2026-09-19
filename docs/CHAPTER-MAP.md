@@ -45,6 +45,7 @@ Track which data products support which sections of the manuscript, ensuring eve
 | TEAM / Toronto Raptors / front office | `data/derived/nba_orgs/toronto-raptors.csv` | TBD | ready |
 | TEAM / Utah Jazz / front office | `data/derived/nba_orgs/utah-jazz.csv` | TBD | ready |
 | TEAM / Washington Wizards / front office | `data/derived/nba_orgs/washington-wizards.csv` | TBD | ready |
+| LEAGUE / income | `data/derived/league_income_ingredients.csv` (+ `league_income_methodology.md`) | TBD | READY (v1 ingredients) — media partners/terms HIGH; media dollars & BRI MEDIUM; licensing/arena/local GAP |
 
 ## Column Definitions
 
