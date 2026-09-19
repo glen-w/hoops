@@ -15,6 +15,9 @@ Track which data products support which sections of the manuscript, ensuring eve
 | ANALYTICS / state of the data | `docs/SLOAN-ARCHIVE.md` + `docs/DATA-REPOS.md` + `docs/BASKETBALL-SOFTWARE.md` + `data/sloan/papers.jsonl` | TBD | ready |
 | EXAMPLE: PLAYERS / height evolution | `data/derived/nba_height_series.csv` | TBD | EXAMPLE |
 | EXAMPLE: TEAM / front office / efficiency | `data/derived/franchise_efficiency_2015_16.md` | TBD | EXAMPLE |
+| TEAM / San Antonio Spurs / front office | `data/derived/nba_orgs/san-antonio-spurs.csv` | TBD | partial |
+| TEAM / Denver Nuggets / front office | `data/derived/nba_orgs/denver-nuggets.csv` | TBD | partial |
+| TEAM / Philadelphia 76ers / front office | `data/derived/nba_orgs/philadelphia-76ers.csv` | TBD | partial |
 
 ## Column Definitions
 
