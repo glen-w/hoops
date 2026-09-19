@@ -2,6 +2,9 @@
 """
 Build NBA CBA structure metadata from local PDF.
 
+DEPRECATED: Use scripts/cba/extract_cba.py instead.
+This script is maintained for backward compatibility.
+
 Extracts article/section/exhibit hierarchy from an NBA Collective Bargaining
 Agreement PDF and emits structure.json with metadata only (no fulltext committed).
 

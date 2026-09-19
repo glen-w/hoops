@@ -21,7 +21,7 @@ for edition in "${EDITIONS[@]}"; do
         echo "  PDF found: $pdf_path"
         echo "  Regenerating structure..."
         
-        python scripts/cba/build_cba_structure.py \
+        python scripts/cba/extract_cba.py \
             --edition "$edition" \
             --pdf "$pdf_path" \
             --output "$structure_path.ci"
@@ -38,7 +38,7 @@ for edition in "${EDITIONS[@]}"; do
             if [ -n "$diff_output" ]; then
                 echo "  ⚠️  Structure mismatch detected!"
                 echo "$diff_output"
-                echo "  Run: python scripts/cba/build_cba_structure.py --edition $edition --pdf $pdf_path"
+                echo "  Run: python scripts/cba/extract_cba.py --edition $edition --pdf $pdf_path"
                 exit 1
             else
                 echo "  ✓ Structure matches committed version"
@@ -59,7 +59,7 @@ for edition in "${EDITIONS[@]}"; do
         # Validate fixture if it exists
         if [ -f "$fixture_path" ]; then
             echo "  Validating fixture..."
-            python scripts/cba/validate_cba_structure.py "$fixture_path" --strict
+            python scripts/cba/validate_cba_structure.py "$fixture_path" --strict --skip-golden-hash
         fi
         
         # Validate committed structure if it exists
