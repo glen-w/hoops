@@ -54,6 +54,12 @@ Track which data products support which sections of the manuscript, ensuring eve
 | TEAM / Washington Wizards / front office | `data/derived/nba_orgs/washington-wizards.csv` | TBD | ready |
 | Officiating / referee stats 2023-24 | `data/derived/nba-referees-2023-24/nba_referees_2023_24.csv` | TBD (NBAstuffer) | ready |
 | Disputes / FIBA BAT arbitration | `data/derived/fiba-bat-2022/fiba_bat_arbitration_by_year.csv` | TBD (FIBA official) | ready |
+| TEAM / front office / efficiency | `docs/franchise-efficiency-sources.md` | TBD | source_map |
+| LEAGUE / income | `docs/league-income-sources.md` | TBD | source_map |
+| BROADCAST / ads | `docs/broadcast-ads-sources.md` | TBD | source_map |
+| LEAGUE / income / schema | `docs/SCHEMA-sketch.md` | TBD | wanted |
+| CBA / structure | `docs/cba-structure-pipeline.md` + `docs/CBA-LOOKUP.md` | TBD | ready |
+| CBA / parser feasibility | `docs/CBA-PARSER-FEASIBILITY-2026-09-19.md` | TBD | wanted |
 
 ## Column Definitions
 
@@ -65,6 +71,7 @@ Track which data products support which sections of the manuscript, ensuring eve
   - `missing` — data source unknown or unavailable
   - `hold` — deferred until later phase or decision
   - `ready` — artifact exists and is current
+  - `source_map` — source notes exist; the derived table is not built yet
   - `EXAMPLE` — placeholder row for demonstration
 
 ## Notes
@@ -74,6 +81,8 @@ Track which data products support which sections of the manuscript, ensuring eve
 - Totty & Owens 2011 needs Zotero addition
 
 **NBA org-charts sparse sources:** TOR, CLE, MIL relied more on press releases + NBAstuffer vs. official staff directories; check row-level `confidence` + `as_of` when citing.
+
+**Source notes (2026-09-19):** franchise efficiency, league income, and broadcast ads. The Forbes 22 Apr 2016 Blazers/Celtics attribution in `docs/franchise-efficiency-sources.md` is UNCONFIRMED until the original clipping or URL is supplied.
 
 ## Maintenance
 
