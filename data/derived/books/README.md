@@ -34,3 +34,28 @@ Writer-facing comparable-title table for Glen’s Hoops book desk.
 ## OFFICIAL vs ANECDOTAL
 - **OFFICIAL:** Goodreads rating/count pages; publisher sites (Abrams, Triumph, Nebraska, PRH, Hachette, S&S); Wikipedia bibliographic fields; Amazon product pages when successfully opened.
 - **ANECDOTAL:** Not used for numeric ratings. Reddit/listicle mentions were not used as rating sources.
+
+## Validation
+
+The schema is **locked** and validated by `scripts/books/validate_comparable.py`. Do not modify the column order or add/remove columns without updating the validator.
+
+### Run validator
+
+```bash
+python3 scripts/books/validate_comparable.py
+```
+
+### Run tests
+
+```bash
+python3 -m pytest tests/books/test_comparable.py -v
+```
+
+The validator checks:
+- Exact header match (18 locked columns, order matters)
+- At least 1 data row
+- Required fields non-empty: `title`, `author`, `why_comparable`
+- `lane` values: `narrative`, `analytics`, `how_to_watch`, `history`, `memoir`
+- `confidence` values: `HIGH`, `MEDIUM`, `LOW`, `GAP`
+- `price_as_of` format: empty or ISO date (YYYY-MM-DD)
+- Amazon fields: `GAP` or numeric (no fabricated fills)
