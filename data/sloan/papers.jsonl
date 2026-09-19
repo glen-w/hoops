@@ -1,0 +1,30 @@
+{"year": 2026, "title": "HoopEval: Individual Player Action Evaluation via Deep Reinforcement Learning", "authors": ["Xing Wang", "Yu Fu", "Sheng Xu", "Konstantinos Pelechrinis", "Mingxin Zhang", "Miguel Ángel Gómez Ruano", "Guiliang Liu", "Shaoliang Zhang"], "url": "https://www.sloansportsconference.com/research-papers/hoopeval", "pdf_url": null, "sport": "basketball"}
+{"year": 2026, "title": "Scouting Anyone: Probabilistic Player Archetypes for Any League", "authors": null, "url": "https://www.sloansportsconference.com/research-papers/scouting-anyone", "pdf_url": null, "sport": "basketball"}
+{"year": 2026, "title": "Deep Reinforcement Learning for NBA Player Valuation: A Temporal Difference Approach with Shapley Attribution", "authors": ["Ben Jenkins"], "url": null, "pdf_url": null, "sport": "basketball"}
+{"year": 2025, "title": "A New Framework to Estimate Return on Investment for Player Salaries in the National Basketball Association", "authors": ["Jackson Lautier"], "url": null, "pdf_url": null, "sport": "basketball"}
+{"year": 2024, "title": "Estimating NBA Team Shot Selection Efficiency from Aggregations of True, Continuous Shot Charts: A Generalized Additive Model Approach", "authors": null, "url": "https://www.sloansportsconference.com/research-papers/estimating-nba-team-shot-selection", "pdf_url": null, "sport": "basketball"}
+{"year": 2024, "title": "Analyzing NBA Player Positions and Interactions with Density-Functional Fluctuation Theory", "authors": ["Boris Barron", "Nathan S. Sitaraman", "Tomas A. Arias"], "url": "https://www.sloansportsconference.com/research-papers/analyzing-nba-player-positions-and-interactions-with-density-functional-fluctuation-theory", "pdf_url": null, "sport": "basketball"}
+{"year": 2024, "title": "Beyond the Box Score: Using Psychological Metrics to Forecast NBA Success", "authors": ["Sean Farrell", "Ethan Laity", "Dave Laughlin", "Dean Oliver", "James W. Pennebaker"], "url": null, "pdf_url": null, "sport": "basketball"}
+{"year": 2024, "title": "Approaching In-Venue Quality Tracking from Broadcast Video using Generative AI", "authors": null, "url": null, "pdf_url": null, "sport": "basketball"}
+{"year": 2023, "title": "Estimating Positional Plus-Minus in the NBA", "authors": ["Hua Gong", "Su Chen"], "url": null, "pdf_url": null, "sport": "basketball"}
+{"year": 2023, "title": "How to Predict the Performance of NBA Draft Prospects", "authors": null, "url": null, "pdf_url": null, "sport": "basketball"}
+{"year": 2023, "title": "Improved NBA Adjusted +/- Using Regularization and Out-of-Sample Testing", "authors": null, "url": null, "pdf_url": null, "sport": "basketball"}
+{"year": 2021, "title": "Increasing the shot at a quality draft-decision – A Bayesian approach to improve predicting three-point accuracy translation in the NBA Draft", "authors": null, "url": null, "pdf_url": null, "sport": "basketball"}
+{"year": 2019, "title": "Analytics for the Front Office: Valuing Protections on NBA Draft Picks", "authors": null, "url": null, "pdf_url": null, "sport": "basketball"}
+{"year": 2018, "title": "Bhostgusters: Realtime Interactive Play Sketching with Synthesized NBA Defenses", "authors": null, "url": null, "pdf_url": null, "sport": "basketball"}
+{"year": 2017, "title": "Body Shots: Analyzing Shooting Styles in the NBA using Body-Pose Attributes", "authors": null, "url": null, "pdf_url": null, "sport": "basketball"}
+{"year": 2017, "title": "From Sports to Science: Using Basketball Analytics to Broaden the Appeal of Math and Science Among Youth", "authors": null, "url": null, "pdf_url": null, "sport": "basketball"}
+{"year": 2013, "title": "Acceleration in the NBA: Towards an Algorithmic Taxonomy of Basketball Plays", "authors": null, "url": null, "pdf_url": null, "sport": "basketball"}
+{"year": 2012, "title": "From 5 to 13: Redefining the Positions in Basketball", "authors": null, "url": null, "pdf_url": null, "sport": "basketball"}
+{"year": 2012, "title": "CourtVision: New Visual and Spatial Analytics for the NBA", "authors": null, "url": null, "pdf_url": null, "sport": "basketball"}
+{"year": 2012, "title": "Deconstructing the Rebound with Optical Tracking Data", "authors": null, "url": null, "pdf_url": null, "sport": "basketball"}
+{"year": 2012, "title": "Effort vs. Concentration: The Asymmetric Impact of Pressure on NBA Performance", "authors": null, "url": null, "pdf_url": null, "sport": "basketball"}
+{"year": null, "title": "Graphical Model for Basketball Match Simulation", "authors": null, "url": null, "pdf_url": null, "sport": "basketball"}
+{"year": null, "title": "High-resolution shot capture reveals systematic biases and an improved method for shooter evaluation", "authors": null, "url": null, "pdf_url": null, "sport": "basketball"}
+{"year": null, "title": "How Much Trouble is Early Foul Trouble? Strategically Idling Resources in the NBA", "authors": null, "url": null, "pdf_url": null, "sport": "basketball"}
+{"year": null, "title": "Characterization of Space and Time-Dependence of 3-Point Shots in Basketball", "authors": null, "url": null, "pdf_url": null, "sport": "basketball"}
+{"year": null, "title": "From Markov models to Poisson point processes: Modeling movement in the NBA", "authors": null, "url": null, "pdf_url": null, "sport": "basketball"}
+{"year": null, "title": "A Cluster Analysis of NBA Players", "authors": null, "url": null, "pdf_url": null, "sport": "basketball"}
+{"year": null, "title": "Accounting for Complementary Skill Sets When Evaluating NBA Players' Values to a Specific Team", "authors": null, "url": null, "pdf_url": null, "sport": "basketball"}
+{"year": null, "title": "Enhancing NBA True Shot Charts: A Probabilistic Spatial Approach to Rebounding and Possession Value", "authors": ["Koi Stephanos"], "url": null, "pdf_url": null, "sport": "basketball"}
+{"year": null, "title": "To Crash or Not To Crash: A quantitative look at the relationship between offensive rebounding and transition defense in the NBA", "authors": null, "url": null, "pdf_url": null, "sport": "basketball"}
