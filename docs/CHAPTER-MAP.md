@@ -60,6 +60,8 @@ Track which data products support which sections of the manuscript, ensuring eve
 | LEAGUE / income / schema | `docs/SCHEMA-sketch.md` | TBD | wanted |
 | CBA / structure | `docs/cba-structure-pipeline.md` + `docs/CBA-LOOKUP.md` | TBD | ready |
 | CBA / parser feasibility | `docs/CBA-PARSER-FEASIBILITY-2026-09-19.md` | TBD | wanted |
+| CBA / salary cap / CBA articles | `docs/CBA-LOOKUP.md` + `scripts/cba_lookup.py` | TBD | needs_local_pdf |
+| CBA / defined terms / CBA glossary | `docs/CBA-LOOKUP.md` + `scripts/cba_lookup.py` | TBD | needs_local_pdf |
 
 ## Column Definitions
 
@@ -72,6 +74,7 @@ Track which data products support which sections of the manuscript, ensuring eve
   - `hold` — deferred until later phase or decision
   - `ready` — artifact exists and is current
   - `source_map` — source notes exist; the derived table is not built yet
+  - `needs_local_pdf` — lookup works only after a local CBA PDF is supplied
   - `EXAMPLE` — placeholder row for demonstration
 
 ## Notes
@@ -83,6 +86,8 @@ Track which data products support which sections of the manuscript, ensuring eve
 **NBA org-charts sparse sources:** TOR, CLE, MIL relied more on press releases + NBAstuffer vs. official staff directories; check row-level `confidence` + `as_of` when citing.
 
 **Source notes (2026-09-19):** franchise efficiency, league income, and broadcast ads. The Forbes 22 Apr 2016 Blazers/Celtics attribution in `docs/franchise-efficiency-sources.md` is UNCONFIRMED until the original clipping or URL is supplied.
+
+**CBA lookup:** PDFs at `data/raw/cba/{edition}/cba.pdf` are gitignored. The lookup tools work after a local PDF is supplied and extracted. See `docs/cba-structure-pipeline.md`.
 
 ## Maintenance
 
