@@ -1,0 +1,7 @@
+# Spike scratch — do not publish full CBA to public git
+*.pdf
+text.txt
+text-nolayout.txt
+# Keep metadata + hashes OK to share
+!metadata.json
+!*.sha256
