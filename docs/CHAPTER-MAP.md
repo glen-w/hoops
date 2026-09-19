@@ -120,6 +120,7 @@ Track which data products support which sections of the manuscript, ensuring eve
 | DESK / lookup | `scripts/hoops_ask.py` | TBD | ready |
 | TEAMS / ghost franchises — creative cite-backed vignettes | `docs/creative/ghost-franchises.md` | TBD | ready — 7 vignettes; facts only from ownership ledgers (access 2026-09-20); motif index `data/derived/teams/ghost_franchise_motifs.csv` |
 | CREATIVE / box-score sonnets | `docs/creative/box-score-sonnets/` | TBD | ready — four cite-backed sonnets; numbers from decade, sample-season, and height series |
+| EVIDENCE / CBA pocket guide | `data/derived/cba_defined_terms_pocket/` | TBD | ready — 20 defined-term vignettes from 2017 and 2023 structure metadata; no CBA prose reproduced |
 
 ## Column Definitions
 
