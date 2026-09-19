@@ -118,6 +118,8 @@ Track which data products support which sections of the manuscript, ensuring eve
 
 **Comparable books (2026-09-19):** 19 basketball books for desk reading and comparison. Goodreads ratings are high confidence; Amazon UK ratings and prices are often gaps. See `data/derived/books/README.md` and `comparable.md`.
 
+**Teams P0c (2026-09-19):** Added EuroLeague (men, 20 teams) and EuroLeague Women (22 teams with QIDs; 2 gap teams documented). Data pipeline: `scripts/teams/leagues_seed.yaml` → `fetch_and_normalize_teams.py` → `teams.csv`. Appends to locked 24-column schema with NBA/WNBA. Logos deferred (sparse coverage). Wikidata QIDs verified from enwiki as of 2026-09-19.
+
 ## Maintenance
 
 Update this map whenever:
