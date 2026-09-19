@@ -162,6 +162,9 @@ Track which data products support which sections of the manuscript, ensuring eve
 
 **Teams P0e (2026-09-19):** Expanded to 194-row unified desk appending 8 top domestic leagues: Liga ACB (ES men, 18), LNB Élite (FR men, 16), Basketball Bundesliga (DE men, 18), Lega Basket Serie A (IT men, 16), Greek Basketball League (GR men, 14), Liga Femenina de Baloncesto (ES women, 9 with QIDs + 7 gaps), Ligue Féminine de Basketball (FR women, 10 with QIDs + 2 gaps), WNBL (AU women, 9). Total 11 documented QID gaps. Abbreviations uniquified within each league. Seed merged from P0e fragment (2026-09-19 access date, 2026-27 season). All clubs fetched/normalized from Wikidata. Colours/logos/ownership enrichment still deferred.
 
+| TEAMS / ownership — NBA franchise sales & control | `data/derived/teams/ownership_events.csv` (+ `ownership_timeline_by_team.md`; docs in `docs/ownership/nba_*`) | TBD | READY (v1 ledger) — 158 cite-backed events; pending LAL Kushner/Iger & MIN Stad flagged; blanks intentional |
+| TEAMS / ownership — EuroLeague club structures & sales | `data/derived/teams/euroleague_current_ownership.csv` + `euroleague_ownership_events.csv` (+ `euroleague_ownership_timeline_by_team.md`; docs in `docs/ownership/euroleague_*`) | TBD | READY (v1 ledger) — 20/20 current structures; 54 events; association vs private sale distinguished; EUR blanks intentional |
+
 ## Maintenance
 
 Update this map whenever:
