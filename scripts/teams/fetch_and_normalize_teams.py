@@ -50,21 +50,31 @@ except ImportError:
 WIKIDATA_SPARQL_ENDPOINT = "https://query.wikidata.org/sparql"
 USER_AGENT = "hoops-teams-fetch/1.0 (glen-w/hoops; cursor cloud agent)"
 
-# Locked CSV schema
+# Locked CSV schema (24 columns, matches NBA/WNBA desk from #20/#21)
 CSV_COLUMNS = [
     "team_id",
     "league_id",
     "name",
-    "short_name",
     "abbr",
-    "gender",
-    "country",
-    "founded_year",
-    "colors_hex",
+    "short_name",
     "former_names",
+    "city",
+    "country",
+    "arena",
+    "arena_capacity",
+    "founded_year",
+    "colours_primary_hex",
+    "colours_secondary_hex",
+    "colours_accent_hex",
+    "colours_source",
+    "mascot",
+    "owner",
+    "ownership_structure",
     "wikidata_qid",
     "wikipedia_en",
+    "official_url",
     "as_of",
+    "source_url",
     "confidence"
 ]
 
@@ -192,14 +202,23 @@ def extract_former_names(entity: dict[str, Any]) -> str:
     return "; ".join(set(names)) if names else ""
 
 
-def derive_abbr(short_name: str) -> str:
+def derive_abbr(short_name: str, team_id: str) -> str:
     """
     Derive a simple abbreviation from short_name.
     This is a fallback when no official abbreviation exists.
+    
+    Special cases:
+    - Paris Basketball -> PAR
+    - Partizan Belgrade -> PTZ (to avoid collision with Paris)
     """
-    # Simple heuristic: use first 3 letters of short name, uppercase
     if not short_name:
         return ""
+    
+    # Handle special cases for abbreviation collisions
+    if "partizan" in team_id.lower():
+        return "PTZ"
+    if "paris" in team_id.lower():
+        return "PAR"
     
     # Handle multi-word names (e.g., "Real Madrid" -> "RM")
     words = short_name.split()
@@ -214,7 +233,7 @@ def process_team(team: dict[str, Any], league_id: str, gender: str) -> dict[str,
     """
     Process a single team from the seed and enrich with Wikidata.
     
-    Returns a dict matching CSV_COLUMNS.
+    Returns a dict matching CSV_COLUMNS (24 columns).
     """
     team_id = team.get("team_id", "")
     name = team.get("name", "")
@@ -240,36 +259,51 @@ def process_team(team: dict[str, Any], league_id: str, gender: str) -> dict[str,
     # Extract fields from Wikidata
     country = extract_country_iso(entity) if entity else ""
     founded_year = extract_founded_year(entity) if entity else ""
-    colors_hex = extract_colors_hex(entity) if entity else ""
     former_names = extract_former_names(entity) if entity else ""
     
-    # Derive abbreviation
-    abbr = derive_abbr(short_name)
+    # Derive abbreviation (with collision handling)
+    abbr = derive_abbr(short_name, team_id)
+    
+    # Source URL
+    source_url = f"https://www.wikidata.org/wiki/{qid}" if qid else ""
     
     # Rate limit: be nice to Wikidata
     time.sleep(0.5)
     
+    # Return 24-column row (blanks for unknown values)
     return {
         "team_id": team_id,
         "league_id": league_id,
         "name": name,
-        "short_name": short_name,
         "abbr": abbr,
-        "gender": gender,
-        "country": country,
-        "founded_year": founded_year,
-        "colors_hex": colors_hex,
+        "short_name": short_name,
         "former_names": former_names,
+        "city": "",  # Not available from current Wikidata extraction
+        "country": country,
+        "arena": "",  # Not available
+        "arena_capacity": "",  # Not available
+        "founded_year": founded_year,
+        "colours_primary_hex": "",  # Blank (requires additional Wikidata resolution)
+        "colours_secondary_hex": "",
+        "colours_accent_hex": "",
+        "colours_source": "",
+        "mascot": "",  # Not available
+        "owner": "",  # Not available
+        "ownership_structure": "unknown",  # Set to unknown per requirements
         "wikidata_qid": qid,
         "wikipedia_en": wikipedia_en,
+        "official_url": "",  # Not available
         "as_of": as_of,
-        "confidence": confidence.lower()
+        "source_url": source_url,
+        "confidence": confidence.upper()  # Match NBA/WNBA format (HIGH, not high)
     }
 
 
 def main() -> int:
     """
     Main entry point.
+    
+    Appends EuroLeague teams to existing teams.csv (preserving NBA/WNBA rows).
     """
     repo_root = Path(__file__).parent.parent.parent
     seed_path = repo_root / "scripts" / "teams" / "leagues_seed.yaml"
@@ -279,8 +313,17 @@ def main() -> int:
         print(f"ERROR: Seed file not found: {seed_path}", file=sys.stderr)
         return 1
     
+    # Read existing teams.csv to preserve NBA/WNBA rows
+    existing_teams = []
+    if output_path.exists():
+        print(f"Reading existing teams from {output_path}")
+        with open(output_path, "r", encoding="utf-8") as f:
+            reader = csv.DictReader(f)
+            existing_teams = list(reader)
+        print(f"  Found {len(existing_teams)} existing teams")
+    
     # Read seed
-    print(f"Reading seed from {seed_path}")
+    print(f"\nReading seed from {seed_path}")
     with open(seed_path, "r", encoding="utf-8") as f:
         seed_data = yaml.safe_load(f)
     
@@ -290,8 +333,8 @@ def main() -> int:
         print("ERROR: No leagues found in seed", file=sys.stderr)
         return 1
     
-    # Process all teams
-    all_teams = []
+    # Process all EuroLeague teams
+    euro_teams = []
     
     for league in leagues:
         league_id = league.get("league_id", "")
@@ -304,10 +347,15 @@ def main() -> int:
         for team in teams:
             team_row = process_team(team, league_id, gender)
             if team_row:
-                all_teams.append(team_row)
+                euro_teams.append(team_row)
+    
+    # Combine: existing teams + new EuroLeague teams
+    all_teams = existing_teams + euro_teams
     
     # Write CSV
     print(f"\nWriting {len(all_teams)} teams to {output_path}")
+    print(f"  Existing (NBA/WNBA): {len(existing_teams)}")
+    print(f"  New (EuroLeague): {len(euro_teams)}")
     output_path.parent.mkdir(parents=True, exist_ok=True)
     
     with open(output_path, "w", encoding="utf-8", newline="") as f:
@@ -318,12 +366,17 @@ def main() -> int:
     print(f"\n✓ Done! Wrote {len(all_teams)} teams to {output_path}")
     
     # Print summary statistics
-    men_count = sum(1 for t in all_teams if t["gender"] == "men")
-    women_count = sum(1 for t in all_teams if t["gender"] == "women")
+    nba_count = sum(1 for t in all_teams if t["league_id"] == "nba")
+    wnba_count = sum(1 for t in all_teams if t["league_id"] == "wnba")
+    euro_men_count = sum(1 for t in euro_teams if t["league_id"] == "euroleague")
+    euro_women_count = sum(1 for t in euro_teams if t["league_id"] == "euroleague_women")
     
     print(f"\nSummary:")
-    print(f"  EuroLeague (men): {men_count} teams")
-    print(f"  EuroLeague Women: {women_count} teams")
+    print(f"  NBA: {nba_count} teams (preserved)")
+    print(f"  WNBA: {wnba_count} teams (preserved)")
+    print(f"  EuroLeague (men): {euro_men_count} teams (added)")
+    print(f"  EuroLeague Women: {euro_women_count} teams (added)")
+    print(f"  Total: {len(all_teams)} teams")
     
     return 0
 
