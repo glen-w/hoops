@@ -45,6 +45,8 @@ Track which data products support which sections of the manuscript, ensuring eve
 | TEAM / Toronto Raptors / front office | `data/derived/nba_orgs/toronto-raptors.csv` | TBD | ready |
 | TEAM / Utah Jazz / front office | `data/derived/nba_orgs/utah-jazz.csv` | TBD | ready |
 | TEAM / Washington Wizards / front office | `data/derived/nba_orgs/washington-wizards.csv` | TBD | ready |
+| CBA / salary cap / CBA articles | `docs/CBA-LOOKUP.md` + `data/derived/cba/{2017\|2023}/structure.json` + `scripts/cba_lookup.py` | TBD | needs_local_pdf |
+| CBA / defined terms / CBA glossary | `docs/CBA-LOOKUP.md` + `data/derived/cba/{2017\|2023}/structure.json` + `scripts/cba_lookup.py` | TBD | needs_local_pdf |
 
 ## Column Definitions
 
@@ -61,6 +63,8 @@ Track which data products support which sections of the manuscript, ensuring eve
 ## Notes
 
 **NBA org-charts sparse sources:** TOR, CLE, MIL relied more on press releases + NBAstuffer vs. official staff directories; check row-level `confidence` + `as_of` when citing.
+
+**CBA lookup:** PDFs at `data/raw/cba/{edition}/cba.pdf` are gitignored per IP constraints. CBA lookup tools work after user supplies PDF locally and runs extraction. See `docs/cba-structure-pipeline.md` for instructions.
 
 ## Maintenance
 
