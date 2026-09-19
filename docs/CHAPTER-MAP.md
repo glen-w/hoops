@@ -69,7 +69,7 @@ Track which data products support which sections of the manuscript, ensuring eve
 | CBA / Article XI / Rookie Scale | `data/cba/2023/derived/structure.json` | TBD | ready |
 | CBA / Exhibits | `data/cba/2023/derived/structure.json` | TBD | ready |
 | CBA / spike documentation | `docs/cba/SPIKE-REPORT.md` | TBD | ready |
-| LEAGUE / teams desk | `data/derived/teams/` | TBD | SCAFFOLD |
+| LEAGUE / teams desk | `data/derived/teams/` | TBD | PARTIAL |
 
 ## Column Definitions
 
