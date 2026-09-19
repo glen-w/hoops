@@ -111,6 +111,8 @@ Track which data products support which sections of the manuscript, ensuring eve
 | TEAMS / global / Philippine Basketball Association | `data/derived/teams/teams.csv` | TBD | ready — P0h Philippine men (12 franchise QIDs) |
 | TEAMS / global / NBA G League | `data/derived/teams/teams.csv` | TBD | ready — P0h NBA G League men (31 teams) |
 | TEAMS / global / Israeli Basketball Premier League | `data/derived/teams/teams.csv` | TBD | ready — P0h Israeli Winner League men (14 clubs) |
+| TEAMS / ownership — NBA franchise sales & control | `data/derived/teams/ownership_events.csv` | TBD | ready — v1 ledger, 158 cite-backed events; pending LAL Kushner/Iger and MIN Stad flagged; blanks intentional. Timeline: `ownership_timeline_by_team.md`. Docs: `docs/ownership/nba_*` |
+| TEAMS / ownership — EuroLeague club structures & sales | `data/derived/teams/euroleague_current_ownership.csv` | TBD | ready — v1 ledger, 20/20 current structures and 54 events; association vs private sale distinguished; EUR blanks intentional. Events: `euroleague_ownership_events.csv`. Docs: `docs/ownership/euroleague_*` |
 | Binder / comparable books desk | `data/derived/books/comparable.csv` | TBD | ready |
 | LEAGUE / franchise bundle | `data/derived/franchise_bundle.csv` | TBD | partial |
 | TEAMS / Liga ACB | `data/derived/teams/ACB-GAPS.md` | Q324867 | gap |
