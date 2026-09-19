@@ -83,6 +83,7 @@ Track which data products support which sections of the manuscript, ensuring eve
 | CBA / 2017 Exhibits | `data/cba/2017/derived/structure.json` | TBD | ready; spike |
 | CBA / 2017 spike documentation | `docs/cba/SPIKE-2017.md` | TBD | ready |
 | CBA / compare 2017-2023 | `docs/cba/COMPARE-2017-2023.md` | TBD | ready |
+| LEAGUE / teams desk | `data/derived/teams/` | TBD | scaffold |
 
 ## Column Definitions
 
@@ -96,6 +97,7 @@ Track which data products support which sections of the manuscript, ensuring eve
   - `ready` — artifact exists and is current
   - `source_map` — source notes exist; the derived table is not built yet
   - `quotes_need_pdf` — lookup ready; only verbatim quotes need PDF
+  - `scaffold` — desk layout exists; fetches are not run yet
   - `EXAMPLE` — placeholder row for demonstration
 
 ## Notes

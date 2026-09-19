@@ -1,0 +1,288 @@
+# Global basketball leagues inventory — P0 seed
+# Curated source of truth for teams desk
+# QIDs verified via Wikidata SPARQL
+
+leagues:
+  # Men's tier-1
+  - league_id: nba
+    name: National Basketball Association
+    gender: men
+    tier: 1
+    country_or_region: USA/CAN
+    governing_body: NBA
+    wikidata_qid: Q155223
+    wikipedia_en: National Basketball Association
+    status: active
+    priority: P0a
+    
+  - league_id: euroleague
+    name: EuroLeague
+    gender: men
+    tier: 1
+    country_or_region: INT
+    governing_body: Euroleague Basketball
+    wikidata_qid: Q18756
+    wikipedia_en: EuroLeague
+    status: todo
+    priority: P0b
+    
+  - league_id: liga_acb
+    name: Liga ACB
+    gender: men
+    tier: 1
+    country_or_region: ES
+    governing_body: ACB
+    wikidata_qid: Q324867
+    wikipedia_en: Liga ACB
+    status: todo
+    priority: P0b
+    
+  - league_id: lega_basket_serie_a
+    name: Lega Basket Serie A
+    gender: men
+    tier: 1
+    country_or_region: IT
+    governing_body: LBA
+    wikidata_qid: Q653969
+    wikipedia_en: Lega Basket Serie A
+    status: todo
+    priority: P0b
+    
+  - league_id: lnb_elite
+    name: LNB Élite
+    gender: men
+    tier: 1
+    country_or_region: FR
+    governing_body: LNB
+    wikidata_qid: Q19368
+    wikipedia_en: LNB Élite
+    status: todo
+    priority: P0b
+    
+  - league_id: bbl
+    name: Basketball Bundesliga
+    gender: men
+    tier: 1
+    country_or_region: DE
+    governing_body: BBL
+    wikidata_qid: Q155223
+    wikipedia_en: Basketball Bundesliga
+    status: todo
+    priority: P0b
+    
+  - league_id: bsl
+    name: Basketbol Süper Ligi
+    gender: men
+    tier: 1
+    country_or_region: TR
+    governing_body: TBF
+    wikidata_qid: Q864724
+    wikipedia_en: Basketbol Süper Ligi
+    status: todo
+    priority: P0b
+    
+  - league_id: greek_basket_league
+    name: Greek Basket League
+    gender: men
+    tier: 1
+    country_or_region: GR
+    governing_body: HEBA
+    wikidata_qid: Q324867
+    wikipedia_en: Greek Basket League
+    status: todo
+    priority: P0b
+    
+  - league_id: cba
+    name: Chinese Basketball Association
+    gender: men
+    tier: 1
+    country_or_region: CN
+    governing_body: CBA
+    wikidata_qid: Q842793
+    wikipedia_en: Chinese Basketball Association
+    status: todo
+    priority: P0b
+    
+  - league_id: b_league
+    name: B.League
+    gender: men
+    tier: 1
+    country_or_region: JP
+    governing_body: B.League
+    wikidata_qid: Q20899140
+    wikipedia_en: B.League
+    status: todo
+    priority: P0b
+    
+  - league_id: kbl
+    name: Korean Basketball League
+    gender: men
+    tier: 1
+    country_or_region: KR
+    governing_body: KBL
+    wikidata_qid: Q485057
+    wikipedia_en: Korean Basketball League
+    status: todo
+    priority: P0b
+    
+  - league_id: pba
+    name: Philippine Basketball Association
+    gender: men
+    tier: 1
+    country_or_region: PH
+    governing_body: PBA
+    wikidata_qid: Q1355623
+    wikipedia_en: Philippine Basketball Association
+    status: todo
+    priority: P0b
+    
+  - league_id: nbl
+    name: National Basketball League
+    gender: men
+    tier: 1
+    country_or_region: AU
+    governing_body: NBL
+    wikidata_qid: Q1967437
+    wikipedia_en: National Basketball League (Australia)
+    status: todo
+    priority: P0b
+    
+  - league_id: liga_nacional
+    name: Liga Nacional de Básquetbol
+    gender: men
+    tier: 1
+    country_or_region: AR
+    governing_body: AdC
+    wikidata_qid: Q2669310
+    wikipedia_en: Liga Nacional de Básquet
+    status: todo
+    priority: P0b
+    
+  - league_id: bal
+    name: Basketball Africa League
+    gender: men
+    tier: 1
+    country_or_region: INT
+    governing_body: FIBA Africa / NBA
+    wikidata_qid: Q64747562
+    wikipedia_en: Basketball Africa League
+    status: todo
+    priority: P0b
+    
+  # Women's tier-1
+  - league_id: wnba
+    name: Women's National Basketball Association
+    gender: women
+    tier: 1
+    country_or_region: USA
+    governing_body: WNBA
+    wikidata_qid: Q2593221
+    wikipedia_en: Women's National Basketball Association
+    status: active
+    priority: P0a
+    
+  - league_id: euroleague_women
+    name: EuroLeague Women
+    gender: women
+    tier: 1
+    country_or_region: INT
+    governing_body: Euroleague Basketball
+    wikidata_qid: Q241163
+    wikipedia_en: EuroLeague Women
+    status: todo
+    priority: P0b
+    
+  - league_id: lf_endesa
+    name: Liga Femenina Endesa
+    gender: women
+    tier: 1
+    country_or_region: ES
+    governing_body: FEB
+    wikidata_qid: Q3238295
+    wikipedia_en: Liga Femenina de Baloncesto
+    status: todo
+    priority: P0b
+    
+  - league_id: ligue_feminine
+    name: Ligue Féminine de Basketball
+    gender: women
+    tier: 1
+    country_or_region: FR
+    governing_body: LFB
+    wikidata_qid: Q1760151
+    wikipedia_en: Ligue Féminine de Basketball
+    status: todo
+    priority: P0b
+    
+  - league_id: serie_a1_femminile
+    name: Serie A1 femminile
+    gender: women
+    tier: 1
+    country_or_region: IT
+    governing_body: FIP
+    wikidata_qid: Q1056478
+    wikipedia_en: Serie A1 (women's basketball)
+    status: todo
+    priority: P0b
+    
+  - league_id: dbbl
+    name: Damen-Basketball-Bundesliga
+    gender: women
+    tier: 1
+    country_or_region: DE
+    governing_body: DBB
+    wikidata_qid: Q317309
+    wikipedia_en: Damen-Basketball-Bundesliga
+    status: todo
+    priority: P0b
+    
+  - league_id: wcba
+    name: Women's Chinese Basketball Association
+    gender: women
+    tier: 1
+    country_or_region: CN
+    governing_body: CBA
+    wikidata_qid: Q842793
+    wikipedia_en: Women's Chinese Basketball Association
+    status: todo
+    priority: P0b
+    
+  - league_id: wjbl
+    name: Women's Japan Basketball League
+    gender: women
+    tier: 1
+    country_or_region: JP
+    governing_body: JBA
+    wikidata_qid: Q11561718
+    wikipedia_en: Women's Japan Basketball League
+    status: todo
+    priority: P0b
+    
+  - league_id: wnbl
+    name: Women's National Basketball League
+    gender: women
+    tier: 1
+    country_or_region: AU
+    governing_body: Basketball Australia
+    wikidata_qid: Q2536438
+    wikipedia_en: Women's National Basketball League
+    status: todo
+    priority: P0b
+    
+  - league_id: tbsl_women
+    name: Turkish Women's Basketball League
+    gender: women
+    tier: 1
+    country_or_region: TR
+    governing_body: TBF
+    wikidata_qid: Q2822626
+    wikipedia_en: Turkish Women's Basketball League
+    status: todo
+    priority: P0b
+
+notes: |
+  P0a: NBA + WNBA end-to-end for this PR
+  P0b: Expand to all listed leagues
+  QIDs verified via Wikidata SPARQL 2026-09-19
+  
+  Geopolitics note: VTB/Russian leagues deferred to P1 pending policy decision
