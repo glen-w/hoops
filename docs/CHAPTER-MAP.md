@@ -83,7 +83,7 @@ Track which data products support which sections of the manuscript, ensuring eve
 | CBA / 2017 Exhibits | `data/cba/2017/derived/structure.json` | TBD | ready; spike |
 | CBA / 2017 spike documentation | `docs/cba/SPIKE-2017.md` | TBD | ready |
 | CBA / compare 2017-2023 | `docs/cba/COMPARE-2017-2023.md` | TBD | ready |
-| LEAGUE / teams desk | `data/derived/teams/` | TBD | partial — 84 teams (NBA 30 + WNBA 12 + EuroLeague 20 + EuroLeague Women 22); colours/logos/ownership enrichment still open; 2 EuroLeague Women QID gaps in seed |
+| LEAGUE / teams desk | `data/derived/teams/` | TBD | partial — 84 teams (NBA 30 + WNBA 12 + EuroLeague 24 + EuroLeague Women 20); colours 0% (WDQS outage); logos 0% (WDQS blocked); ownership mostly unknown (conservative default) |
 | TEAMS / global / EuroLeague | `data/derived/teams/teams.csv` | TBD | ready |
 | TEAMS / global / EuroLeague Women | `data/derived/teams/teams.csv` | TBD | ready |
 | Binder / comparable books desk | `data/derived/books/comparable.csv` | TBD | ready |
@@ -120,7 +120,7 @@ Track which data products support which sections of the manuscript, ensuring eve
 
 **Comparable books (2026-09-19):** 19 basketball books for desk reading and comparison. Goodreads ratings are high confidence; Amazon UK ratings and prices are often gaps. See `data/derived/books/README.md` and `comparable.md`.
 
-**Teams P0c (2026-09-19):** 84-row unified desk in `teams.csv` (NBA 30 + WNBA 12 + EuroLeague 20 + EuroLeague Women 22). EuroLeague Women has 2 Wikidata ID gaps in the seed. Logos still deferred.
+**Teams P0d (2026-09-19):** 84-row unified desk in `teams.csv` (NBA 30 + WNBA 12 + EuroLeague Men 24 + EuroLeague Women 20). Colours enrichment attempted but blocked by Wikidata SPARQL outage (HTTP 429 "Aggressively rate-limiting to 1 req / min"). Logos blocked due to WDQS unavailability. Retry scripts ready with polite User-Agent and 2s rate limit. See `data/derived/teams/NOTES.md` for retry instructions.
 
 ## Maintenance
 
