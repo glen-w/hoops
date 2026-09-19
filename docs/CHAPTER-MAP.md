@@ -18,6 +18,22 @@ Track which data products support which sections of the manuscript, ensuring eve
 | TEAM / San Antonio Spurs / front office | `data/derived/nba_orgs/san-antonio-spurs.csv` | TBD | partial |
 | TEAM / Denver Nuggets / front office | `data/derived/nba_orgs/denver-nuggets.csv` | TBD | partial |
 | TEAM / Philadelphia 76ers / front office | `data/derived/nba_orgs/philadelphia-76ers.csv` | TBD | partial |
+| TEAM / Atlanta Hawks / front office | `data/derived/nba_orgs/atlanta-hawks.csv` | TBD | partial |
+| TEAM / Boston Celtics / front office | `data/derived/nba_orgs/boston-celtics.csv` | TBD | partial |
+| TEAM / Brooklyn Nets / front office | `data/derived/nba_orgs/brooklyn-nets.csv` | TBD | partial |
+| TEAM / Chicago Bulls / front office | `data/derived/nba_orgs/chicago-bulls.csv` | TBD | partial |
+| TEAM / Cleveland Cavaliers / front office | `data/derived/nba_orgs/cleveland-cavaliers.csv` | TBD | partial |
+| TEAM / Golden State Warriors / front office | `data/derived/nba_orgs/golden-state-warriors.csv` | TBD | partial |
+| TEAM / Indiana Pacers / front office | `data/derived/nba_orgs/indiana-pacers.csv` | TBD | partial |
+| TEAM / Miami Heat / front office | `data/derived/nba_orgs/miami-heat.csv` | TBD | partial |
+| TEAM / Milwaukee Bucks / front office | `data/derived/nba_orgs/milwaukee-bucks.csv` | TBD | partial |
+| TEAM / New Orleans Pelicans / front office | `data/derived/nba_orgs/new-orleans-pelicans.csv` | TBD | partial |
+| TEAM / New York Knicks / front office | `data/derived/nba_orgs/new-york-knicks.csv` | TBD | partial |
+| TEAM / Oklahoma City Thunder / front office | `data/derived/nba_orgs/oklahoma-city-thunder.csv` | TBD | partial |
+| TEAM / Orlando Magic / front office | `data/derived/nba_orgs/orlando-magic.csv` | TBD | partial |
+| TEAM / Portland Trail Blazers / front office | `data/derived/nba_orgs/portland-trail-blazers.csv` | TBD | partial |
+| TEAM / Toronto Raptors / front office | `data/derived/nba_orgs/toronto-raptors.csv` | TBD | partial |
+| TEAM / Washington Wizards / front office | `data/derived/nba_orgs/washington-wizards.csv` | TBD | partial |
 
 ## Column Definitions
 
