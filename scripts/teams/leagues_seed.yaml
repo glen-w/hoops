@@ -2932,3 +2932,803 @@ leagues:
     source_url: https://en.wikipedia.org/wiki/Tokyo_Haneda_Vickies → pageprops
     confidence: HIGH
     status: ready_for_p0f
+- league_id: nbb
+  name: Novo Basquete Brasil
+  sponsor_name: NBB CAIXA
+  gender: men
+  tier: 1
+  country_or_region: BR
+  governing_body: Liga Nacional de Basquete
+  wikidata_qid: Q1993852
+  wikipedia_en: Novo Basquete Brasil
+  season_label: '2026-27'
+  as_of: '2026-09-19'
+  source_url: https://www.wikidata.org/wiki/Q1993852
+  club_list_source: https://ge.globo.com/basquete/nbb/noticia/2026/08/07/nbb-202627-tera-18-clubes-e-playoffs-com-16-times-veja-formato-e-calendario.ghtml ; https://lnb.com.br/nbb/equipes/
+  confidence: HIGH
+  status: ready_for_p0g
+  teams:
+  - team_id: nbb_cearense
+    name: Basquete Cearense
+    short_name: Cearense
+    wikidata_qid: Q135579
+    wikipedia_en: Fortaleza Basquete Cearense
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Fortaleza_Basquete_Cearense → pageprops
+    confidence: HIGH
+    status: ready_for_p0g
+  - team_id: nbb_bauru
+    name: Bauru Basket
+    short_name: Bauru
+    wikidata_qid: Q4810218
+    wikipedia_en: Bauru Basket
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Bauru_Basket → pageprops
+    confidence: HIGH
+    status: ready_for_p0g
+  - team_id: nbb_botafogo
+    name: Botafogo
+    short_name: Botafogo
+    wikidata_qid: Q16845025
+    wikipedia_en: Botafogo de Futebol e Regatas (basketball)
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Botafogo_de_Futebol_e_Regatas_(basketball) → pageprops
+    confidence: HIGH
+    status: ready_for_p0g
+  - team_id: nbb_brasilia
+    name: CAIXA/Brasília
+    short_name: Brasília
+    wikidata_qid: Q106106681
+    wikipedia_en: null
+    as_of: '2026-09-19'
+    source_url: https://pt.wikipedia.org/wiki/Brasília_Basquete → pageprops
+    confidence: MEDIUM
+    status: ready_for_p0g
+  - team_id: nbb_caxias
+    name: Caxias do Sul Basquete
+    short_name: Caxias
+    wikidata_qid: Q25419909
+    wikipedia_en: null
+    as_of: '2026-09-19'
+    source_url: https://pt.wikipedia.org/wiki/Caxias_do_Sul_Basquete → pageprops
+    confidence: MEDIUM
+    status: ready_for_p0g
+  - team_id: nbb_corinthians
+    name: Corinthians
+    short_name: Corinthians
+    wikidata_qid: Q3493821
+    wikipedia_en: SC Corinthians Paulista (basketball)
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/SC_Corinthians_Paulista_(basketball) → pageprops
+    confidence: HIGH
+    status: ready_for_p0g
+  - team_id: nbb_flamengo
+    name: Flamengo
+    short_name: Flamengo
+    wikidata_qid: Q1136141
+    wikipedia_en: Flamengo Basketball
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Flamengo_Basketball → pageprops
+    confidence: HIGH
+    status: ready_for_p0g
+  - team_id: nbb_franca
+    name: Sesi Franca
+    short_name: Franca
+    wikidata_qid: Q777928
+    wikipedia_en: Franca Basquetebol Clube
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Franca_Basquetebol_Clube → pageprops
+    confidence: HIGH
+    status: ready_for_p0g
+  - team_id: nbb_minas
+    name: Minas Tênis Clube
+    short_name: Minas
+    wikidata_qid: Q3858318
+    wikipedia_en: Minas Tênis Clube (basketball)
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Minas_Tênis_Clube_(basketball) → pageprops
+    confidence: HIGH
+    status: ready_for_p0g
+  - team_id: nbb_mogi
+    name: Mogi Basquete
+    short_name: Mogi
+    wikidata_qid: Q5612799
+    wikipedia_en: Mogi das Cruzes Basquete
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Mogi_das_Cruzes_Basquete → pageprops
+    confidence: HIGH
+    status: ready_for_p0g
+  - team_id: nbb_osasco
+    name: Basket Osasco
+    short_name: Osasco
+    wikidata_qid: Q86738290
+    wikipedia_en: null
+    as_of: '2026-09-19'
+    source_url: https://pt.wikipedia.org/wiki/Basket_Osasco → pageprops
+    confidence: MEDIUM
+    status: ready_for_p0g
+  - team_id: nbb_pato
+    name: Pato Basquete
+    short_name: Pato
+    wikidata_qid: Q65171165
+    wikipedia_en: null
+    as_of: '2026-09-19'
+    source_url: https://pt.wikipedia.org/wiki/Associação_Basquetebol_Arte_de_Pato_Branco → pageprops
+    confidence: MEDIUM
+    status: ready_for_p0g
+  - team_id: nbb_paulistano
+    name: Paulistano
+    short_name: Paulistano
+    wikidata_qid: Q3681246
+    wikipedia_en: Club Athletico Paulistano (basketball)
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Club_Athletico_Paulistano_(basketball) → pageprops
+    confidence: HIGH
+    status: ready_for_p0g
+  - team_id: nbb_pinheiros
+    name: Pinheiros
+    short_name: Pinheiros
+    wikidata_qid: Q14951212
+    wikipedia_en: Esporte Clube Pinheiros (basketball)
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Esporte_Clube_Pinheiros_(basketball) → pageprops
+    confidence: HIGH
+    status: ready_for_p0g
+  - team_id: nbb_sao_jose
+    name: São José Basketball
+    short_name: São José
+    wikidata_qid: Q3979248
+    wikipedia_en: São José Basketball
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/São_José_Basketball → pageprops
+    confidence: HIGH
+    status: ready_for_p0g
+  - team_id: nbb_uniao_corinthians
+    name: Ceisc/União Corinthians
+    short_name: União Corinthians
+    wikidata_qid: Q108705548
+    wikipedia_en: null
+    as_of: '2026-09-19'
+    source_url: https://pt.wikipedia.org/wiki/Basquetebol_do_Esporte_Clube_União_Corinthians → pageprops
+    confidence: MEDIUM
+    status: ready_for_p0g
+  - team_id: nbb_unifacisa
+    name: Unifacisa
+    short_name: Unifacisa
+    wikidata_qid: Q65171535
+    wikipedia_en: null
+    as_of: '2026-09-19'
+    source_url: https://pt.wikipedia.org/wiki/Unifacisa_Basquete → pageprops
+    confidence: MEDIUM
+    status: ready_for_p0g
+  - team_id: nbb_cruzeiro
+    name: Cruzeiro Basquete
+    short_name: Cruzeiro
+    wikidata_qid: null
+    wikipedia_en: null
+    as_of: '2026-09-19'
+    source_url: GAP — no Wikidata QID found on access date
+    confidence: LOW
+    status: gap
+- league_id: lnb_argentina
+  name: Liga Nacional de Básquet
+  sponsor_name: La Liga Nacional
+  gender: men
+  tier: 1
+  country_or_region: AR
+  governing_body: Asociación de Clubes de Básquetbol
+  wikidata_qid: Q1824579
+  wikipedia_en: Liga Nacional de Básquetbol
+  season_label: '2026-27'
+  as_of: '2026-09-19'
+  source_url: https://www.wikidata.org/wiki/Q1824579
+  club_list_source: https://es.wikipedia.org/wiki/Liga_Nacional_de_Básquet_2026-27
+  confidence: HIGH
+  status: ready_for_p0g
+  teams:
+  - team_id: lnb_argentina_argentino
+    name: Argentino de Junín
+    short_name: Argentino
+    wikidata_qid: Q4789500
+    wikipedia_en: Argentino de Junín
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Argentino_de_Junín → pageprops
+    confidence: HIGH
+    status: ready_for_p0g
+  - team_id: lnb_argentina_atenas
+    name: Atenas
+    short_name: Atenas
+    wikidata_qid: Q290787
+    wikipedia_en: Asociación Deportiva Atenas
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Asociación_Deportiva_Atenas → pageprops
+    confidence: HIGH
+    status: ready_for_p0g
+  - team_id: lnb_argentina_boca
+    name: Boca Juniors
+    short_name: Boca
+    wikidata_qid: Q2917357
+    wikipedia_en: Boca Juniors (basketball)
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Boca_Juniors_(basketball) → pageprops
+    confidence: HIGH
+    status: ready_for_p0g
+  - team_id: lnb_argentina_olimpico
+    name: Ciclista Olímpico
+    short_name: Olímpico
+    wikidata_qid: Q5773482
+    wikipedia_en: Ciclista Olímpico
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Ciclista_Olímpico → pageprops
+    confidence: HIGH
+    status: ready_for_p0g
+  - team_id: lnb_argentina_ferro
+    name: Ferro Carril Oeste
+    short_name: Ferro
+    wikidata_qid: Q5774267
+    wikipedia_en: Ferro Carril Oeste (basketball)
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Ferro_Carril_Oeste_(basketball) → pageprops
+    confidence: HIGH
+    status: ready_for_p0g
+  - team_id: lnb_argentina_gimnasia
+    name: Gimnasia y Esgrima (Comodoro Rivadavia)
+    short_name: Gimnasia
+    wikidata_qid: Q650848
+    wikipedia_en: Gimnasia y Esgrima de Comodoro Rivadavia
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Gimnasia_y_Esgrima_de_Comodoro_Rivadavia → pageprops
+    confidence: HIGH
+    status: ready_for_p0g
+  - team_id: lnb_argentina_independiente
+    name: Independiente de Oliva
+    short_name: Independiente
+    wikidata_qid: Q135892984
+    wikipedia_en: null
+    as_of: '2026-09-19'
+    source_url: https://es.wikipedia.org/wiki/Independiente_Deportivo_Social_Club → pageprops
+    confidence: MEDIUM
+    status: ready_for_p0g
+  - team_id: lnb_argentina_instituto
+    name: Instituto
+    short_name: Instituto
+    wikidata_qid: Q21059745
+    wikipedia_en: Instituto ACC (basketball)
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Instituto_ACC_(basketball) → pageprops
+    confidence: HIGH
+    status: ready_for_p0g
+  - team_id: lnb_argentina_la_union
+    name: La Unión de Formosa
+    short_name: La Unión
+    wikidata_qid: Q3821268
+    wikipedia_en: Club La Unión
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Club_La_Unión → pageprops
+    confidence: HIGH
+    status: ready_for_p0g
+  - team_id: lnb_argentina_lanus
+    name: Lanús
+    short_name: Lanús
+    wikidata_qid: Q132802143
+    wikipedia_en: null
+    as_of: '2026-09-19'
+    source_url: https://es.wikipedia.org/wiki/Club_Atlético_Lanús_(baloncesto) → pageprops
+    confidence: MEDIUM
+    status: ready_for_p0g
+  - team_id: lnb_argentina_obera
+    name: Oberá Tenis Club
+    short_name: Oberá
+    wikidata_qid: Q6047942
+    wikipedia_en: Oberá Tenis Club
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Oberá_Tenis_Club → pageprops
+    confidence: HIGH
+    status: ready_for_p0g
+  - team_id: lnb_argentina_penarol
+    name: Peñarol de Mar del Plata
+    short_name: Peñarol
+    wikidata_qid: Q2274304
+    wikipedia_en: Club Atlético Peñarol (Mar del Plata)
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Club_Atlético_Peñarol_(Mar_del_Plata) → pageprops
+    confidence: HIGH
+    status: ready_for_p0g
+  - team_id: lnb_argentina_platense
+    name: Platense
+    short_name: Platense
+    wikidata_qid: Q20021924
+    wikipedia_en: null
+    as_of: '2026-09-19'
+    source_url: https://es.wikipedia.org/wiki/Club_Atlético_Platense_(baloncesto) → pageprops
+    confidence: MEDIUM
+    status: ready_for_p0g
+  - team_id: lnb_argentina_quimsa
+    name: Quimsa
+    short_name: Quimsa
+    wikidata_qid: Q7272059
+    wikipedia_en: Quimsa
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Quimsa → pageprops
+    confidence: HIGH
+    status: ready_for_p0g
+  - team_id: lnb_argentina_racing
+    name: Racing de Chivilcoy
+    short_name: Racing
+    wikidata_qid: Q135855983
+    wikipedia_en: null
+    as_of: '2026-09-19'
+    source_url: https://es.wikipedia.org/wiki/Racing_Club_Chivilcoy → pageprops
+    confidence: MEDIUM
+    status: ready_for_p0g
+  - team_id: lnb_argentina_regatas
+    name: Regatas Corrientes
+    short_name: Regatas
+    wikidata_qid: Q1639861
+    wikipedia_en: Regatas Corrientes
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Regatas_Corrientes → pageprops
+    confidence: HIGH
+    status: ready_for_p0g
+  - team_id: lnb_argentina_san_lorenzo
+    name: San Lorenzo de Almagro
+    short_name: San Lorenzo
+    wikidata_qid: Q20022010
+    wikipedia_en: San Lorenzo de Almagro (basketball)
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/San_Lorenzo_de_Almagro_(basketball) → pageprops
+    confidence: HIGH
+    status: ready_for_p0g
+  - team_id: lnb_argentina_san_martin
+    name: San Martín de Corrientes
+    short_name: San Martín
+    wikidata_qid: Q5136364
+    wikipedia_en: Club San Martín de Corrientes
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Club_San_Martín_de_Corrientes → pageprops
+    confidence: HIGH
+    status: ready_for_p0g
+- league_id: lnbp
+  name: Liga Nacional de Baloncesto Profesional
+  sponsor_name: LigaCaliente.mx LNBP
+  gender: men
+  tier: 1
+  country_or_region: MX
+  governing_body: LNBP
+  wikidata_qid: Q1535763
+  wikipedia_en: Liga Nacional de Baloncesto Profesional
+  season_label: '2026'
+  as_of: '2026-09-19'
+  source_url: https://www.wikidata.org/wiki/Q1535763
+  club_list_source: https://es.wikipedia.org/wiki/Liga_Nacional_de_Baloncesto_Profesional_de_México_2026
+  confidence: HIGH
+  status: ready_for_p0g
+  teams:
+  - team_id: lnbp_abejas
+    name: Abejas de León
+    short_name: Abejas
+    wikidata_qid: Q5654850
+    wikipedia_en: Abejas de León
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Abejas_de_León → pageprops
+    confidence: HIGH
+    status: ready_for_p0g
+  - team_id: lnbp_astros
+    name: Astros de Jalisco
+    short_name: Astros
+    wikidata_qid: Q76761695
+    wikipedia_en: Astros de Jalisco
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Astros_de_Jalisco → pageprops
+    confidence: HIGH
+    status: ready_for_p0g
+  - team_id: lnbp_correcaminos
+    name: Correcaminos UAT Victoria
+    short_name: Correcaminos
+    wikidata_qid: Q5789084
+    wikipedia_en: Correbasket UAT
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Correbasket_UAT → pageprops
+    confidence: HIGH
+    status: ready_for_p0g
+  - team_id: lnbp_diablos
+    name: Diablos Rojos del México
+    short_name: Diablos
+    wikidata_qid: Q126900506
+    wikipedia_en: Diablos Rojos del México (basketball)
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Diablos_Rojos_del_México_(basketball) → pageprops
+    confidence: HIGH
+    status: ready_for_p0g
+  - team_id: lnbp_dorados
+    name: Dorados de Chihuahua
+    short_name: Dorados
+    wikidata_qid: Q5813506
+    wikipedia_en: Dorados de Chihuahua (basketball)
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Dorados_de_Chihuahua_(basketball) → pageprops
+    confidence: HIGH
+    status: ready_for_p0g
+  - team_id: lnbp_calor
+    name: El Calor de Cancún
+    short_name: Calor
+    wikidata_qid: Q126827669
+    wikipedia_en: El Calor de Cancún
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/El_Calor_de_Cancún → pageprops
+    confidence: HIGH
+    status: ready_for_p0g
+  - team_id: lnbp_freseros
+    name: Freseros de Irapuato
+    short_name: Freseros
+    wikidata_qid: Q119084405
+    wikipedia_en: Freseros de Irapuato
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Freseros_de_Irapuato → pageprops
+    confidence: HIGH
+    status: ready_for_p0g
+  - team_id: lnbp_fuerza_regia
+    name: Fuerza Regia de Monterrey
+    short_name: Fuerza Regia
+    wikidata_qid: Q5507227
+    wikipedia_en: Fuerza Regia de Monterrey
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Fuerza_Regia_de_Monterrey → pageprops
+    confidence: HIGH
+    status: ready_for_p0g
+  - team_id: lnbp_gambusinos
+    name: Gambusinos de Fresnillo
+    short_name: Gambusinos
+    wikidata_qid: Q5875053
+    wikipedia_en: Gambusinos de Fresnillo
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Gambusinos_de_Fresnillo → pageprops
+    confidence: HIGH
+    status: ready_for_p0g
+  - team_id: lnbp_lobos
+    name: Lobos Puebla
+    short_name: Lobos
+    wikidata_qid: Q127429144
+    wikipedia_en: Lobos de Puebla
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Lobos_de_Puebla → pageprops
+    confidence: HIGH
+    status: ready_for_p0g
+  - team_id: lnbp_mineros
+    name: Mineros de Zacatecas
+    short_name: Mineros
+    wikidata_qid: Q39082141
+    wikipedia_en: Mineros de Zacatecas (basketball)
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Mineros_de_Zacatecas_(basketball) → pageprops
+    confidence: HIGH
+    status: ready_for_p0g
+  - team_id: lnbp_panteras
+    name: Panteras de Aguascalientes
+    short_name: Panteras
+    wikidata_qid: Q3893445
+    wikipedia_en: Panteras de Aguascalientes
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Panteras_de_Aguascalientes → pageprops
+    confidence: HIGH
+    status: ready_for_p0g
+  - team_id: lnbp_santos
+    name: Santos del Potosí
+    short_name: Santos
+    wikidata_qid: Q6683258
+    wikipedia_en: Santos del Potosí
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Santos_del_Potosí → pageprops
+    confidence: HIGH
+    status: ready_for_p0g
+  - team_id: lnbp_soles
+    name: Soles de Mexicali
+    short_name: Soles
+    wikidata_qid: Q3964286
+    wikipedia_en: Soles de Mexicali
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Soles_de_Mexicali → pageprops
+    confidence: HIGH
+    status: ready_for_p0g
+- league_id: lbf
+  name: Liga de Basquete Feminino
+  sponsor_name: LBF Loterias CAIXA
+  gender: women
+  tier: 1
+  country_or_region: BR
+  governing_body: Liga de Basquete Feminino
+  wikidata_qid: Q18473473
+  wikipedia_en: null
+  season_label: '2026'
+  as_of: '2026-09-19'
+  source_url: https://www.wikidata.org/wiki/Q18473473
+  club_list_source: https://lbf.com.br/documentos/NOTA%2BOFICIAL%2B02-2026%2B-%2BEQUIPES26022026100257000000.pdf ; https://lbf.com.br/noticias/evento-de-sucesso/
+  confidence: MEDIUM
+  status: ready_for_p0g
+  teams:
+  - team_id: lbf_cerrado
+    name: Cerrado Basquete
+    short_name: Cerrado
+    wikidata_qid: Q48863059
+    wikipedia_en: null
+    as_of: '2026-09-19'
+    source_url: https://pt.wikipedia.org/wiki/Cerrado_Basquete → pageprops
+    confidence: MEDIUM
+    status: ready_for_p0g
+  - team_id: lbf_campinas
+    name: Unimed Campinas
+    short_name: Campinas
+    wikidata_qid: null
+    wikipedia_en: null
+    as_of: '2026-09-19'
+    source_url: GAP — no Wikidata QID found on access date
+    confidence: LOW
+    status: gap
+  - team_id: lbf_maringa
+    name: ADRM Maringá
+    short_name: Maringá
+    wikidata_qid: null
+    wikipedia_en: null
+    as_of: '2026-09-19'
+    source_url: GAP — no Wikidata QID found on access date
+    confidence: LOW
+    status: gap
+  - team_id: lbf_santo_andre
+    name: Santo André
+    short_name: Santo André
+    wikidata_qid: null
+    wikipedia_en: null
+    as_of: '2026-09-19'
+    source_url: GAP — no Wikidata QID found on access date
+    confidence: LOW
+    status: gap
+  - team_id: lbf_sao_jose
+    name: Pontz São José
+    short_name: São José
+    wikidata_qid: null
+    wikipedia_en: null
+    as_of: '2026-09-19'
+    source_url: GAP — no Wikidata QID found on access date
+    confidence: LOW
+    status: gap
+  - team_id: lbf_salvador
+    name: Salvador Basketball
+    short_name: Salvador
+    wikidata_qid: null
+    wikipedia_en: null
+    as_of: '2026-09-19'
+    source_url: GAP — no Wikidata QID found on access date
+    confidence: LOW
+    status: gap
+  - team_id: lbf_mesquita
+    name: Sodiê Mesquita
+    short_name: Mesquita
+    wikidata_qid: null
+    wikipedia_en: null
+    as_of: '2026-09-19'
+    source_url: GAP — no Wikidata QID found on access date
+    confidence: LOW
+    status: gap
+  - team_id: lbf_sampaio
+    name: Sampaio Basquete
+    short_name: Sampaio
+    wikidata_qid: null
+    wikipedia_en: null
+    as_of: '2026-09-19'
+    source_url: GAP — no Wikidata QID found on access date
+    confidence: LOW
+    status: gap
+  - team_id: lbf_araraquara
+    name: SESI Araraquara
+    short_name: Araraquara
+    wikidata_qid: null
+    wikipedia_en: null
+    as_of: '2026-09-19'
+    source_url: GAP — no Wikidata QID found on access date
+    confidence: LOW
+    status: gap
+  - team_id: lbf_sport
+    name: Sport Club do Recife
+    short_name: Sport
+    wikidata_qid: null
+    wikipedia_en: null
+    as_of: '2026-09-19'
+    source_url: GAP — no Wikidata QID found on access date
+    confidence: LOW
+    status: gap
+- league_id: lfb_argentina
+  name: Liga Femenina de Básquetbol
+  sponsor_name: Liga Femenina
+  gender: women
+  tier: 1
+  country_or_region: AR
+  governing_body: Asociación de Clubes de Básquetbol
+  wikidata_qid: Q28978418
+  wikipedia_en: null
+  season_label: '2026-27'
+  as_of: '2026-09-19'
+  source_url: https://www.wikidata.org/wiki/Q28978418
+  club_list_source: https://es.wikipedia.org/wiki/Liga_Femenina_de_Básquetbol ; 2026/27 zones from Argentine press (Apertura starts 2026-10-10)
+  confidence: MEDIUM
+  status: ready_for_p0g
+  teams:
+  - team_id: lfb_argentina_berazategui
+    name: Deportivo Berazategui
+    short_name: Berazategui
+    wikidata_qid: Q115708295
+    wikipedia_en: null
+    as_of: '2026-09-19'
+    source_url: https://es.wikipedia.org/wiki/Club_Deportivo_Berazategui → pageprops
+    confidence: MEDIUM
+    status: ready_for_p0g
+  - team_id: lfb_argentina_el_talar
+    name: Club El Talar
+    short_name: El Talar
+    wikidata_qid: Q132304858
+    wikipedia_en: null
+    as_of: '2026-09-19'
+    source_url: https://es.wikipedia.org/wiki/Club_El_Talar → pageprops
+    confidence: MEDIUM
+    status: ready_for_p0g
+  - team_id: lfb_argentina_quilmes
+    name: Quilmes de Mar del Plata
+    short_name: Quilmes
+    wikidata_qid: Q7272005
+    wikipedia_en: Quilmes de Mar del Plata
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Quilmes_de_Mar_del_Plata → pageprops
+    confidence: MEDIUM
+    status: ready_for_p0g
+  - team_id: lfb_argentina_boca
+    name: Boca Juniors (women)
+    short_name: Boca
+    wikidata_qid: Q141268090
+    wikipedia_en: null
+    as_of: '2026-09-19'
+    source_url: https://es.wikipedia.org/wiki/Club_Atlético_Boca_Juniors_(baloncesto_femenino) → pageprops
+    confidence: HIGH
+    status: ready_for_p0g
+  - team_id: lfb_argentina_instituto
+    name: Instituto (women)
+    short_name: Instituto
+    wikidata_qid: null
+    wikipedia_en: null
+    as_of: '2026-09-19'
+    source_url: GAP — no Wikidata QID found on access date
+    confidence: LOW
+    status: gap
+  - team_id: lfb_argentina_hindu
+    name: Hindú Club
+    short_name: Hindú
+    wikidata_qid: null
+    wikipedia_en: null
+    as_of: '2026-09-19'
+    source_url: GAP — no Wikidata QID found on access date
+    confidence: LOW
+    status: gap
+  - team_id: lfb_argentina_chanares
+    name: Chañares de James Craik
+    short_name: Chañares
+    wikidata_qid: null
+    wikipedia_en: null
+    as_of: '2026-09-19'
+    source_url: GAP — no Wikidata QID found on access date
+    confidence: LOW
+    status: gap
+  - team_id: lfb_argentina_rocamora
+    name: Rocamora
+    short_name: Rocamora
+    wikidata_qid: null
+    wikipedia_en: null
+    as_of: '2026-09-19'
+    source_url: GAP — no Wikidata QID found on access date
+    confidence: LOW
+    status: gap
+  - team_id: lfb_argentina_sociedad_espanola
+    name: Sociedad Española
+    short_name: Sociedad Española
+    wikidata_qid: null
+    wikipedia_en: null
+    as_of: '2026-09-19'
+    source_url: GAP — no Wikidata QID found on access date
+    confidence: LOW
+    status: gap
+  - team_id: lfb_argentina_san_jose
+    name: San José de Mendoza
+    short_name: San José
+    wikidata_qid: null
+    wikipedia_en: null
+    as_of: '2026-09-19'
+    source_url: GAP — no Wikidata QID found on access date
+    confidence: LOW
+    status: gap
+  - team_id: lfb_argentina_obras
+    name: Obras (women)
+    short_name: Obras
+    wikidata_qid: null
+    wikipedia_en: null
+    as_of: '2026-09-19'
+    source_url: GAP — no Wikidata QID found on access date
+    confidence: LOW
+    status: gap
+  - team_id: lfb_argentina_union_florida
+    name: Unión Florida
+    short_name: Unión Florida
+    wikidata_qid: null
+    wikipedia_en: null
+    as_of: '2026-09-19'
+    source_url: GAP — no Wikidata QID found on access date
+    confidence: LOW
+    status: gap
+  - team_id: lfb_argentina_nautico
+    name: Náutico Sportivo Avellaneda
+    short_name: Náutico
+    wikidata_qid: null
+    wikipedia_en: null
+    as_of: '2026-09-19'
+    source_url: GAP — no Wikidata QID found on access date
+    confidence: LOW
+    status: gap
+  - team_id: lfb_argentina_ferro
+    name: Ferro Carril Oeste (women)
+    short_name: Ferro
+    wikidata_qid: null
+    wikipedia_en: null
+    as_of: '2026-09-19'
+    source_url: GAP — no Wikidata QID found on access date
+    confidence: LOW
+    status: gap
+  - team_id: lfb_argentina_regatas_sn
+    name: Regatas San Nicolás
+    short_name: Regatas SN
+    wikidata_qid: null
+    wikipedia_en: null
+    as_of: '2026-09-19'
+    source_url: GAP — no Wikidata QID found on access date
+    confidence: LOW
+    status: gap
+  - team_id: lfb_argentina_penarol
+    name: Peñarol (women)
+    short_name: Peñarol
+    wikidata_qid: null
+    wikipedia_en: null
+    as_of: '2026-09-19'
+    source_url: GAP — no Wikidata QID found on access date
+    confidence: LOW
+    status: gap
+  - team_id: lfb_argentina_9_julio
+    name: 9 de Julio
+    short_name: 9 de Julio
+    wikidata_qid: null
+    wikipedia_en: null
+    as_of: '2026-09-19'
+    source_url: GAP — no Wikidata QID found on access date
+    confidence: LOW
+    status: gap
+  - team_id: lfb_argentina_independiente_nqn
+    name: Independiente de Neuquén
+    short_name: Independiente Nqn
+    wikidata_qid: null
+    wikipedia_en: null
+    as_of: '2026-09-19'
+    source_url: GAP — no Wikidata QID found on access date
+    confidence: LOW
+    status: gap
+  - team_id: lfb_argentina_2_del_sur
+    name: 2 del Sur
+    short_name: 2 del Sur
+    wikidata_qid: null
+    wikipedia_en: null
+    as_of: '2026-09-19'
+    source_url: GAP — no Wikidata QID found on access date
+    confidence: LOW
+    status: gap
+  - team_id: lfb_argentina_velez
+    name: Vélez Sarsfield (women)
+    short_name: Vélez
+    wikidata_qid: null
+    wikipedia_en: null
+    as_of: '2026-09-19'
+    source_url: GAP — no Wikidata QID found on access date
+    confidence: LOW
+    status: gap

@@ -98,6 +98,9 @@ COUNTRY_QID_TO_ISO = {
     "Q36": "PL",      # Poland
     "Q213": "CZ",     # Czech Republic
     "Q28": "HU",      # Hungary
+    "Q155": "BR",     # Brazil
+    "Q414": "AR",     # Argentina
+    "Q96": "MX",      # Mexico
     "Q218": "RO",     # Romania
     "Q37": "LT",      # Lithuania
     "Q403": "RS",     # Serbia

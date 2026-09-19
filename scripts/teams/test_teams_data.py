@@ -43,6 +43,12 @@ EXPECTED_BSL = 16  # P0f: Turkish men
 EXPECTED_BAL = 12  # P0f: African men (continental)
 EXPECTED_WCBA = 14  # P0f: Chinese women (21 in seed, 7 gaps)
 EXPECTED_WJBL = 8  # P0f: Japanese women
+# P0g: Americas domestics
+EXPECTED_NBB = 17  # P0g: Brazilian men (18 in seed, 1 gap)
+EXPECTED_LNB_ARGENTINA = 18  # P0g: Argentine men
+EXPECTED_LNBP = 14  # P0g: Mexican men
+EXPECTED_LBF = 1  # P0g: Brazilian women (10 in seed, 9 gaps)
+EXPECTED_LFB_ARGENTINA = 4  # P0g: Argentine women (20 in seed, 16 gaps)
 EXPECTED_TOTAL = (
     EXPECTED_NBA
     + EXPECTED_WNBA
@@ -64,6 +70,11 @@ EXPECTED_TOTAL = (
     + EXPECTED_BAL
     + EXPECTED_WCBA
     + EXPECTED_WJBL
+    + EXPECTED_NBB
+    + EXPECTED_LNB_ARGENTINA
+    + EXPECTED_LNBP
+    + EXPECTED_LBF
+    + EXPECTED_LFB_ARGENTINA
 )
 
 EXPECTED_COLUMNS = [
@@ -103,6 +114,7 @@ VALID_COUNTRY_CODES = {
     "CN", "JP", "KR",  # P0f: Asia
     "NZ",  # P0f: New Zealand (NBL)
     "ML", "NG", "MA", "TN", "EG", "KE", "TZ", "ZA", "AO", "BW", "RW", "SN", "CI", "CM", "LY", "UG", "MZ",  # P0f: Africa (BAL)
+    "BR", "AR", "MX",  # P0g: Americas domestics
     ""  # Empty string allowed for unknown
 }
 
@@ -147,7 +159,9 @@ def euroleague_rows() -> list[dict[str, str]]:
     seed_leagues = {
         "euroleague", "euroleague_women",
         "liga_acb", "lnb_elite", "bbl", "serie_a", "greek_basket_league",
-        "lf_endesa", "lfb", "wnbl"
+        "lf_endesa", "lfb", "wnbl",
+        "cba", "b_league", "kbl", "nbl", "bsl", "bal", "wcba", "wjbl",
+        "nbb", "lnb_argentina", "lnbp", "lbf", "lfb_argentina"
     }
     return [
         team for team in load_teams_csv()
@@ -199,6 +213,11 @@ def test_row_counts():
         "bal": EXPECTED_BAL,
         "wcba": EXPECTED_WCBA,
         "wjbl": EXPECTED_WJBL,
+        "nbb": EXPECTED_NBB,
+        "lnb_argentina": EXPECTED_LNB_ARGENTINA,
+        "lnbp": EXPECTED_LNBP,
+        "lbf": EXPECTED_LBF,
+        "lfb_argentina": EXPECTED_LFB_ARGENTINA,
     }
     if len(teams) != EXPECTED_TOTAL:
         raise TestFailure(f"Total row count mismatch. Expected {EXPECTED_TOTAL}, got {len(teams)}")
@@ -219,9 +238,9 @@ def test_gaps_documented():
             if team.get("status") == "gap":
                 gap_teams.append(team.get("team_id"))
     
-    if len(gap_teams) != 18:
+    if len(gap_teams) != 44:
         raise TestFailure(
-            f"Expected 18 gap teams in seed (2 EuroLeague Women + 7 LF Endesa + 2 LFB + 7 WCBA), found {len(gap_teams)}: {gap_teams}"
+            f"Expected 44 gap teams in seed (2 EuroLeague Women + 7 LF Endesa + 2 LFB + 7 WCBA + 1 NBB + 9 LBF + 16 LFB Argentina), found {len(gap_teams)}"
         )
     
     # Verify gap teams are NOT in CSV
@@ -306,6 +325,19 @@ def test_league_ids():
         "lf_endesa": EXPECTED_LF_ENDESA,
         "lfb": EXPECTED_LFB,
         "wnbl": EXPECTED_WNBL,
+        "cba": EXPECTED_CBA,
+        "b_league": EXPECTED_B_LEAGUE,
+        "kbl": EXPECTED_KBL,
+        "nbl": EXPECTED_NBL,
+        "bsl": EXPECTED_BSL,
+        "bal": EXPECTED_BAL,
+        "wcba": EXPECTED_WCBA,
+        "wjbl": EXPECTED_WJBL,
+        "nbb": EXPECTED_NBB,
+        "lnb_argentina": EXPECTED_LNB_ARGENTINA,
+        "lnbp": EXPECTED_LNBP,
+        "lbf": EXPECTED_LBF,
+        "lfb_argentina": EXPECTED_LFB_ARGENTINA,
     }
     
     for league_id, expected_count in expected_leagues.items():
