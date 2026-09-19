@@ -58,8 +58,13 @@ def get_commons_file_info(filename: str) -> dict[str, Any] | None:
         "iiprop": "url|mime|extmetadata",
     }
     
+    # Polite User-Agent
+    headers = {
+        "User-Agent": "hoops-data/0.1 (glen-w/hoops basketball teams; research; [email protected])",
+    }
+    
     try:
-        response = requests.get(api_url, params=params, timeout=30)
+        response = requests.get(api_url, params=params, headers=headers, timeout=30)
         response.raise_for_status()
         data = response.json()
         
@@ -316,8 +321,8 @@ def main():
     parser.add_argument(
         "--rate-limit",
         type=float,
-        default=1.0,
-        help="Seconds to wait between API requests",
+        default=2.0,
+        help="Seconds to wait between API requests (default: 2s)",
     )
     
     args = parser.parse_args()
