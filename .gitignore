@@ -1,6 +1,9 @@
 .DS_Store
 .env
 .env.*
+
+# Local writing workflow. Not the sidecar, not the manuscript.
+local/
 .venv/
 __pycache__/
 node_modules/
