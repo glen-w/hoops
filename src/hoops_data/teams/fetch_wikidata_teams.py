@@ -18,13 +18,16 @@ from pathlib import Path
 from typing import Any
 
 import yaml
-from SPARQLWrapper import JSON, SPARQLWrapper
+from SPARQLWrapper import JSON, POST, SPARQLWrapper
 
 
 def get_sparql_endpoint() -> SPARQLWrapper:
     """Initialize Wikidata SPARQL endpoint."""
     endpoint = SPARQLWrapper("https://query.wikidata.org/sparql")
     endpoint.setReturnFormat(JSON)
+    # GET is rate-limited hard during WDQS outages. POST is the supported path
+    # for these queries.
+    endpoint.setMethod(POST)
     endpoint.addCustomHttpHeader(
         "User-Agent",
         "hoops-data/0.1 (glen-w/hoops basketball teams desk; research project)",
@@ -67,10 +70,9 @@ def build_teams_query(league_qid: str) -> str:
         ?team wdt:P361 wd:{league_qid} .
       }}
       
-      # Must be a basketball team or sports club
-      {{ ?team wdt:P31 wd:Q476028 . }}  # basketball team
-      UNION
-      {{ ?team wdt:P31 wd:Q4498974 . }}  # sports club
+      # Instance of basketball team (Q13393265). A subclass walk (P279*)
+      # times out on this endpoint. WNBA clubs are typed as this class directly.
+      ?team wdt:P31 wd:Q13393265 .
       
       # Optional: country
       OPTIONAL {{ ?team wdt:P17 ?country . }}
