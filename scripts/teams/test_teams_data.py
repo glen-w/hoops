@@ -26,11 +26,27 @@ EXPECTED_NBA = 30
 EXPECTED_WNBA = 12
 EXPECTED_EUROLEAGUE_MEN = 20
 EXPECTED_EUROLEAGUE_WOMEN_WITH_QIDS = 22  # 24 in the seed, 2 gaps
+EXPECTED_LIGA_ACB = 18  # P0e: Spanish men
+EXPECTED_LNB_ELITE = 16  # P0e: French men
+EXPECTED_BBL = 18  # P0e: German men
+EXPECTED_SERIE_A = 16  # P0e: Italian men
+EXPECTED_GREEK_BASKET_LEAGUE = 14  # P0e: Greek men
+EXPECTED_LF_ENDESA = 9  # P0e: Spanish women (16 in seed, 7 gaps)
+EXPECTED_LFB = 10  # P0e: French women (12 in seed, 2 gaps)
+EXPECTED_WNBL = 9  # P0e: Australian women
 EXPECTED_TOTAL = (
     EXPECTED_NBA
     + EXPECTED_WNBA
     + EXPECTED_EUROLEAGUE_MEN
     + EXPECTED_EUROLEAGUE_WOMEN_WITH_QIDS
+    + EXPECTED_LIGA_ACB
+    + EXPECTED_LNB_ELITE
+    + EXPECTED_BBL
+    + EXPECTED_SERIE_A
+    + EXPECTED_GREEK_BASKET_LEAGUE
+    + EXPECTED_LF_ENDESA
+    + EXPECTED_LFB
+    + EXPECTED_WNBL
 )
 
 EXPECTED_COLUMNS = [
@@ -66,7 +82,7 @@ VALID_CONFIDENCE = {"high", "medium", "low", "gap"}
 # ISO 3166-1 alpha-2 country codes (partial list for validation)
 VALID_COUNTRY_CODES = {
     "BE", "FR", "DE", "IT", "ES", "GR", "TR", "PL", "CZ", "HU", 
-    "RO", "LT", "RS", "IL", "AE", ""  # Empty string allowed for unknown
+    "RO", "LT", "RS", "IL", "AE", "AU", "CA", "US", ""  # Empty string allowed for unknown
 }
 
 
@@ -107,9 +123,14 @@ def test_csv_exists():
 
 def euroleague_rows() -> list[dict[str, str]]:
     """Rows this seed owns. NBA and WNBA stay in the same file."""
+    seed_leagues = {
+        "euroleague", "euroleague_women",
+        "liga_acb", "lnb_elite", "bbl", "serie_a", "greek_basket_league",
+        "lf_endesa", "lfb", "wnbl"
+    }
     return [
         team for team in load_teams_csv()
-        if team.get("league_id") in {"euroleague", "euroleague_women"}
+        if team.get("league_id") in seed_leagues
     ]
 
 
@@ -141,6 +162,14 @@ def test_row_counts():
         "wnba": EXPECTED_WNBA,
         "euroleague": EXPECTED_EUROLEAGUE_MEN,
         "euroleague_women": EXPECTED_EUROLEAGUE_WOMEN_WITH_QIDS,
+        "liga_acb": EXPECTED_LIGA_ACB,
+        "lnb_elite": EXPECTED_LNB_ELITE,
+        "bbl": EXPECTED_BBL,
+        "serie_a": EXPECTED_SERIE_A,
+        "greek_basket_league": EXPECTED_GREEK_BASKET_LEAGUE,
+        "lf_endesa": EXPECTED_LF_ENDESA,
+        "lfb": EXPECTED_LFB,
+        "wnbl": EXPECTED_WNBL,
     }
     if len(teams) != EXPECTED_TOTAL:
         raise TestFailure(f"Total row count mismatch. Expected {EXPECTED_TOTAL}, got {len(teams)}")
@@ -161,9 +190,9 @@ def test_gaps_documented():
             if team.get("status") == "gap":
                 gap_teams.append(team.get("team_id"))
     
-    if len(gap_teams) != 2:
+    if len(gap_teams) != 11:
         raise TestFailure(
-            f"Expected 2 gap teams in seed, found {len(gap_teams)}: {gap_teams}"
+            f"Expected 11 gap teams in seed (2 EuroLeague Women + 7 LF Endesa + 2 LFB), found {len(gap_teams)}: {gap_teams}"
         )
     
     # Verify gap teams are NOT in CSV
@@ -235,23 +264,30 @@ def test_league_ids():
         league_id = team["league_id"]
         league_counts[league_id] = league_counts.get(league_id, 0) + 1
     
-    if "euroleague" not in league_counts:
-        raise TestFailure("No teams found for league_id 'euroleague'")
+    expected_leagues = {
+        "nba": EXPECTED_NBA,
+        "wnba": EXPECTED_WNBA,
+        "euroleague": EXPECTED_EUROLEAGUE_MEN,
+        "euroleague_women": EXPECTED_EUROLEAGUE_WOMEN_WITH_QIDS,
+        "liga_acb": EXPECTED_LIGA_ACB,
+        "lnb_elite": EXPECTED_LNB_ELITE,
+        "bbl": EXPECTED_BBL,
+        "serie_a": EXPECTED_SERIE_A,
+        "greek_basket_league": EXPECTED_GREEK_BASKET_LEAGUE,
+        "lf_endesa": EXPECTED_LF_ENDESA,
+        "lfb": EXPECTED_LFB,
+        "wnbl": EXPECTED_WNBL,
+    }
     
-    if "euroleague_women" not in league_counts:
-        raise TestFailure("No teams found for league_id 'euroleague_women'")
-    
-    if league_counts["euroleague"] != EXPECTED_EUROLEAGUE_MEN:
-        raise TestFailure(
-            f"Expected {EXPECTED_EUROLEAGUE_MEN} euroleague teams, "
-            f"got {league_counts['euroleague']}"
-        )
-    
-    if league_counts["euroleague_women"] != EXPECTED_EUROLEAGUE_WOMEN_WITH_QIDS:
-        raise TestFailure(
-            f"Expected {EXPECTED_EUROLEAGUE_WOMEN_WITH_QIDS} euroleague_women teams, "
-            f"got {league_counts['euroleague_women']}"
-        )
+    for league_id, expected_count in expected_leagues.items():
+        if league_id not in league_counts:
+            raise TestFailure(f"No teams found for league_id '{league_id}'")
+        
+        if league_counts[league_id] != expected_count:
+            raise TestFailure(
+                f"Expected {expected_count} {league_id} teams, "
+                f"got {league_counts[league_id]}"
+            )
     
     print("✓ League IDs correct")
 
