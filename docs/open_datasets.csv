@@ -1,0 +1,32 @@
+name,url,grain,coverage,access,license_notes,package,priority,notes
+Basketball-Reference,https://www.basketball-reference.com/,season/game/player,BAA–present,cite-scrape,Sports Reference data-use; polite scrape,basketball_reference_scraper|ballr|hoopR bref_*,P0,Primary for avg_game_by_decade
+NBA Stats API,https://www.nba.com/stats,game/PBP/tracking-summary,~1996– varies,open-tool,NBA ToS: news/private noncommercial; no comprehensive public DB,nba_api|hoopR|nbastatR,P0,Derive cite; don't mirror wholesale
+nba_api,https://github.com/swar/nba_api,API client,endpoint-dependent,open-tool,MIT wrapper; upstream NBA ToS,nba_api,P0,Python default
+hoopR,https://github.com/sportsdataverse/hoopR,PBP/box/API/BRef,~2002– PBP ESPN,open-tool,MIT; upstream ToS vary,hoopR,P0,R default + bref_* family
+hoopR-data,https://github.com/sportsdataverse/hoopR-data,PBP parquet,~2002–2020s,bulk-mirror,see sportsdataverse,hoopR loaders,P0,Static PBP research
+nbastatR,https://github.com/abresler/nbastatR,API+FO scrapers,modern NBA,open-tool,MIT,nbastatR,P0,R FO-oriented
+shufinskiy/nba_data,https://github.com/shufinskiy/nba_data,PBP/shots,~1996–2024/25,bulk-mirror,Apache-2.0 repo; data from NBA endpoints,,P0,Convenient PBP archive
+pbpstats,https://github.com/dblackrun/pbpstats,possession/lineup,stats.nba dependent,open-tool,MIT,pbpstats,P1,On/off enrichment
+basketball_reference_scraper,https://github.com/vishaalagartha/basketball_reference_scraper,BRef tables,historical,open-tool,MIT + BRef etiquette,basketball_reference_scraper,P0,
+ballr,https://github.com/rtelmore/ballr,BRef per-game,historical,open-tool,CRAN/GitHub,ballr,P1,
+BasketballAnalyzeR,https://cran.r-project.org/package=BasketballAnalyzeR,analysis/viz,book datasets,open-tool,GPL,BasketballAnalyzeR,P1,In Zotero analytics
+wehoop,https://github.com/sportsdataverse/wehoop,WNBA/WBB PBP,ESPN eras,open-tool,MIT,wehoop,P1,
+sportsdataverse-py,https://py.sportsdataverse.org/,ESPN NBA/WNBA,recent seasons,open-tool,see project,sportsdataverse,P1,
+BALLDONTLIE,https://docs.balldontlie.io/,games/players/teams,modern thin history,open-tool,free tier 5 rpm needs key,,P1,Teaching API
+Barttorvik T-Rank,https://barttorvik.com/,team season ratings,~2008–,cite-scrape,public CSVs,,P0,College without KenPom
+KenPom,https://kenpom.com/,team efficiency,modern D1,paywall,subscription; hoopR with sub,hoopR kenpom_*,cite-only,
+EuroLeague live API,https://www.euroleaguebasketball.net/,box/PBP/shots,~2000s– (PBP later),open-tool,unofficial API ToS unclear,py-euroleague,P1,
+FIBA GDAP,https://gdap.fiba.basketball/,official comps,World Cup/Olympics,paywall,subscription API,,cite-only,Not open
+BRef contracts,https://www.basketball-reference.com/contracts/,salaries,multi-year,cite-scrape,SR data-use,,P0,FO payroll tables
+HoopsHype salaries,https://hoopshype.com/salaries/,salaries,current,cite-scrape,scraper fragility (GraphQL),hoopR hoopshype_*,P1,
+Spotrac NBA,https://www.spotrac.com/nba/,contracts/cap,current,cite-scrape,ToS bans scraping,,cite-only,Cite HTML only
+wyattowalsh/basketball Kaggle,https://www.kaggle.com/datasets/wyattowalsh/basketball,SQLite multi-table,1946–~2024,later,CC0-ish confirm; needs Kaggle auth,,later,Parked per ROADMAP
+nathanlauga/nba-games,https://www.kaggle.com/datasets/nathanlauga/nba-games,games+box details,~2004–,bulk-mirror,Kaggle,,P1,
+awesome-nba-data,https://github.com/JovaniPink/awesome-nba-data,catalog,living,open-tool,curation not license,,P0,Index + ToS matrix
+BigDataBall NBA,https://www.bigdataball.com/datasets/nba-data/,PBP/shots Excel,historical paid,paywall,commercial,,cite-only,
+Cleaning the Glass,https://cleaningtheglass.com/,lineup/on-off,modern,paywall,~$5/mo stats,,cite-only,
+SportVU public lore dumps,n/a,xy tracking,~2013–16,proprietary,do not redistribute,,cite-only,Papers only
+Second Spectrum,n/a,optical tracking,NBA official era,proprietary,vendor,,cite-only,
+NBA Draft Combine (Stats),https://www.nba.com/stats/draft/combine,anthro/combine,combine years,open-tool,via NBA Stats wrappers,hoopR nba_draftcombine*,P1,
+ESPN site API (unofficial),https://site.api.espn.com/,scoreboard/PBP,recent,open-tool,ESPN ToS; sportsdataverse wraps,,P1,Upstream of hoopR loads
+wyattowalsh/nba-db,https://github.com/wyattowalsh/nba-db,ETL for nbadb,pipeline,later,companion to Kaggle,,later,
