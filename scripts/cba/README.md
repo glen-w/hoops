@@ -199,9 +199,21 @@ For 2023 edition, expected counts from spike:
 
 Validation fails if counts don't match spike results.
 
+## Status Model: Lookup vs. Quotes
+
+**Once `structure.json` is committed**, CBA operations split into two status levels:
+
+| Operation | Status | Requires PDF? |
+|-----------|--------|---------------|
+| **Lookup** (clause ID, page range, structure) | ✅ **ready** | No — uses committed structure.json |
+| **Quotes** (verbatim text extraction) | ⚠️ **quotes_need_pdf** | Yes — needs PDF bytes |
+
+**UX Rule**: Don't block the writer desk on fulltext. Lookup queries return metadata (clause IDs, page ranges, structure) from committed JSON—no PDF needed. Only quote extraction requires PDF bytes.
+
 ## See Also
 
 - Full documentation: [`docs/cba-structure-pipeline.md`](../../docs/cba-structure-pipeline.md)
+- Lookup UX: [`docs/CBA-LOOKUP.md`](../../docs/CBA-LOOKUP.md)
 - Schema: [`schemas/cba_structure.schema.json`](../../schemas/cba_structure.schema.json)
 - Source README: [`data/raw/cba/README.md`](../../data/raw/cba/README.md)
 - Derived README: [`data/derived/cba/README.md`](../../data/derived/cba/README.md)

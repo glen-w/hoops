@@ -78,8 +78,8 @@ def format_unit(unit: Dict, edition: str, is_fixture: bool = False) -> str:
     
     if is_fixture:
         lines.append("")
-        lines.append("Status: needs_local_pdf")
-        lines.append("(Fixture only - place PDF at data/raw/cba/{}/cba.pdf and regenerate)".format(edition))
+        lines.append("Status: quotes_need_pdf")
+        lines.append("(Fixture — lookup ready, quotes need PDF at data/raw/cba/{}/cba.pdf)".format(edition))
     
     return "\n".join(lines)
 
