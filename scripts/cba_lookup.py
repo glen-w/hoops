@@ -259,12 +259,50 @@ Note: This tool queries committed structure.json metadata only.
         # Support both Infra #13 format (articles/exhibits arrays) and package format (units array)
         units = structure.get('units', [])
         if not units:
-            # Infra #13 format: flatten articles and exhibits
+            # Infra #13 format: flatten articles and exhibits, normalize to package format
             units = []
             for article in structure.get('articles', []):
-                units.append(article)
-                units.extend(article.get('sections', []))
-            units.extend(structure.get('exhibits', []))
+                # Normalize article to package format
+                article_unit = {
+                    'id': article['id'],
+                    'type': 'article',
+                    'title': article.get('label') or f"ARTICLE {article['number']}: {article['title']}",
+                    'parent_id': None,
+                    'page_start': None,  # #13 format doesn't have page numbers
+                    'page_end': None,
+                }
+                units.append(article_unit)
+                
+                # Add sections
+                for section in article.get('sections', []):
+                    # Handle null titles in source data
+                    section_title = section.get('title') or ''
+                    if section_title:
+                        full_title = f"Section {section['number']}: {section_title}"
+                    else:
+                        full_title = f"Section {section['number']}"
+                    
+                    section_unit = {
+                        'id': section['id'],
+                        'type': 'section',
+                        'title': full_title,
+                        'parent_id': article['id'],
+                        'page_start': None,
+                        'page_end': None,
+                    }
+                    units.append(section_unit)
+            
+            # Add exhibits
+            for exhibit in structure.get('exhibits', []):
+                exhibit_unit = {
+                    'id': exhibit['id'],
+                    'type': 'exhibit',
+                    'title': exhibit.get('label') or f"EXHIBIT {exhibit['number']}: {exhibit['title']}",
+                    'parent_id': None,
+                    'page_start': None,
+                    'page_end': None,
+                }
+                units.append(exhibit_unit)
         is_fixture = structure.get('_is_fixture', False)
         
         results = []
