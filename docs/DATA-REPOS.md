@@ -188,13 +188,22 @@ Additional tools and datasets verified for research use:
 
 ## Proprietary / Limited Access (Not for Download)
 
-These datasets are referenced in the book but **not hosted in this repository**:
+These datasets are referenced in the book but **not hosted in this repository**.
+
+**For detailed coverage of commercial tracking and analytics systems, see [BASKETBALL-SOFTWARE.md](BASKETBALL-SOFTWARE.md)**, which provides:
+- Citation guidelines for SportVU, Second Spectrum, Hawk-Eye, Synergy, and other vendors
+- Timeline of NBA/league adoption
+- How to reference proprietary systems in scholarly writing
+- Public secondary sources (press releases, SSAC papers)
+
+**Brief entries below; full details in BASKETBALL-SOFTWARE.md:**
 
 ### SportVU / Second Spectrum
 - **Provider:** NBA official tracking partner (2013–)
 - **Coverage:** Player tracking (25 FPS), ~1 million data points per game
 - **Status:** Proprietary, not publicly available
 - **Book reference:** Analytics chapter (state of the data)
+- **See:** [BASKETBALL-SOFTWARE.md](BASKETBALL-SOFTWARE.md) for citation guidelines
 
 ### DeepSportRadar-v1
 - **Source:** https://paperswithcode.com/dataset/deepsportradar-v1
@@ -208,6 +217,7 @@ These datasets are referenced in the book but **not hosted in this repository**:
 - **Coverage:** Play-type tagging, defensive matchups
 - **Status:** Subscription required; not public
 - **Book reference:** Front-office tools chapter
+- **See:** [BASKETBALL-SOFTWARE.md](BASKETBALL-SOFTWARE.md) for full vendor profile
 
 ---
 
