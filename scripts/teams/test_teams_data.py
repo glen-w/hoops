@@ -49,6 +49,11 @@ EXPECTED_LNB_ARGENTINA = 18  # P0g: Argentine men
 EXPECTED_LNBP = 14  # P0g: Mexican men
 EXPECTED_LBF = 1  # P0g: Brazilian women (10 in seed, 9 gaps)
 EXPECTED_LFB_ARGENTINA = 4  # P0g: Argentine women (20 in seed, 16 gaps)
+# P0h: next domestics (ABA/PBA/G League/Israeli)
+EXPECTED_ABA = 20  # P0h: ABA Adriatic League men 2026-27
+EXPECTED_PBA = 12  # P0h: Philippine Basketball Association men 2025-26
+EXPECTED_G_LEAGUE = 31  # P0h: NBA G League men 2026-27
+EXPECTED_ISRAELI_PREMIER = 14  # P0h: Israeli Premier League men 2026-27
 EXPECTED_TOTAL = (
     EXPECTED_NBA
     + EXPECTED_WNBA
@@ -75,6 +80,10 @@ EXPECTED_TOTAL = (
     + EXPECTED_LNBP
     + EXPECTED_LBF
     + EXPECTED_LFB_ARGENTINA
+    + EXPECTED_ABA
+    + EXPECTED_PBA
+    + EXPECTED_G_LEAGUE
+    + EXPECTED_ISRAELI_PREMIER
 )
 
 EXPECTED_COLUMNS = [
@@ -161,7 +170,8 @@ def euroleague_rows() -> list[dict[str, str]]:
         "liga_acb", "lnb_elite", "bbl", "serie_a", "greek_basket_league",
         "lf_endesa", "lfb", "wnbl",
         "cba", "b_league", "kbl", "nbl", "bsl", "bal", "wcba", "wjbl",
-        "nbb", "lnb_argentina", "lnbp", "lbf", "lfb_argentina"
+        "nbb", "lnb_argentina", "lnbp", "lbf", "lfb_argentina",
+        "aba", "pba", "g_league", "israeli_premier"
     }
     return [
         team for team in load_teams_csv()
@@ -218,6 +228,10 @@ def test_row_counts():
         "lnbp": EXPECTED_LNBP,
         "lbf": EXPECTED_LBF,
         "lfb_argentina": EXPECTED_LFB_ARGENTINA,
+        "aba": EXPECTED_ABA,
+        "pba": EXPECTED_PBA,
+        "g_league": EXPECTED_G_LEAGUE,
+        "israeli_premier": EXPECTED_ISRAELI_PREMIER,
     }
     if len(teams) != EXPECTED_TOTAL:
         raise TestFailure(f"Total row count mismatch. Expected {EXPECTED_TOTAL}, got {len(teams)}")
