@@ -98,6 +98,9 @@ def normalize_league(
     }
 
 
+OWNERSHIP_STRUCTURE_VOCAB = ["sole", "majority", "group", "public", "municipal", "unknown"]
+
+
 def normalize_team(raw_team: dict[str, Any]) -> dict[str, Any]:
     """
     Normalize raw Wikidata team data into teams.csv row.
@@ -131,9 +134,18 @@ def normalize_team(raw_team: dict[str, Any]) -> dict[str, Any]:
     # Founded year from inception
     founded_year = extract_year_from_date(raw_team.get("inception"))
     
-    # Colors: don't invent - leave blank if not hex
+    # Abbreviation: extract from stub data or leave blank
+    abbr = raw_team.get("abbr")  # Will be added to stub data
+    
+    # Former names: pipe-separated if available
+    former_names = raw_team.get("former_names")
+    
+    # Colors: ONLY official hex from Wikidata P465 or official sources
+    # NEVER sample from logo pixels or invent colors
+    # Leave blank + confidence=gap if no official color claim
     colours_primary_hex = None
     colours_secondary_hex = None
+    colours_accent_hex = None
     colours_source = None
     
     # Arena capacity
@@ -143,6 +155,13 @@ def normalize_team(raw_team: dict[str, Any]) -> dict[str, Any]:
             arena_capacity = int(float(raw_team["venue_capacity"]))
         except ValueError:
             pass
+    
+    # Ownership structure: locked vocabulary only
+    # Default to "unknown" if no owner info
+    ownership_structure = "unknown"
+    if raw_team.get("owner_label"):
+        # Keep as unknown - manual enrichment required
+        ownership_structure = "unknown"
     
     # Confidence: HIGH if we have Wikipedia + QID, MEDIUM if partial, GAP if minimal
     confidence = "GAP"
@@ -155,7 +174,9 @@ def normalize_team(raw_team: dict[str, Any]) -> dict[str, Any]:
         "team_id": team_id,
         "league_id": league_id,
         "name": team_label,
+        "abbr": abbr,
         "short_name": team_label.split()[-1] if team_label else None,
+        "former_names": former_names,
         "city": city,
         "country": country,
         "arena": raw_team.get("venue_label"),
@@ -163,10 +184,11 @@ def normalize_team(raw_team: dict[str, Any]) -> dict[str, Any]:
         "founded_year": founded_year,
         "colours_primary_hex": colours_primary_hex,
         "colours_secondary_hex": colours_secondary_hex,
+        "colours_accent_hex": colours_accent_hex,
         "colours_source": colours_source,
         "mascot": raw_team.get("mascot_label"),
-        "owner": raw_team.get("owner_label"),
-        "ownership_structure": None,  # Free text field - leave for manual enrichment
+        "owner": raw_team.get("owner_label"),  # Free text
+        "ownership_structure": ownership_structure,  # Locked vocab only
         "wikidata_qid": team_qid,
         "wikipedia_en": wikipedia_en,
         "official_url": raw_team.get("official_website"),

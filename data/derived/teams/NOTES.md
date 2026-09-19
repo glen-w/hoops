@@ -37,6 +37,25 @@ The logo fetcher skips fair-use and trademarked content to ensure redistribution
 ## Known Gaps
 
 - Country codes not yet mapped from Wikidata QIDs to ISO-3166-1 alpha-2
-- Color hex values not extracted (Wikidata P465 property)
-- Ownership structure free-text field left for manual enrichment
+- Color hex values not extracted (Wikidata P465 property) — **colors must be official only, never sampled from logos**
+- Ownership structure locked to vocabulary: `sole|majority|group|public|municipal|unknown` — defaults to `unknown` until manual verification
 - Wikipedia infobox gap-filling stub only
+
+## Schema Updates (Glen's room lock)
+
+**Added to teams.csv:**
+- `abbr` — Stable short code (LAL, NYK, GSW, etc.)
+- `former_names` — Pipe-separated historical names
+- `colours_accent_hex` — Third official color
+- Ownership structure restricted to locked vocabulary (no free text)
+
+**Color policy:**
+- Official hex only from Wikidata P465, official style guides, or documented Wikipedia sources
+- Never sample from logo pixels
+- Leave blank + confidence=GAP if no official claim
+- `colours_source` required when any color present
+
+**Logo policy:**
+- Prefer SVG/PNG with transparent backgrounds
+- No low-res wiki thumbnails for book figures
+- Fair-use → URL-only row, no binary committed
