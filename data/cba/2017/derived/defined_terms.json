@@ -1,0 +1,679 @@
+{
+  "_derived": true,
+  "_disclaimer": "Locator-first defined-term index from Article I; bodies truncated.",
+  "edition_id": "2017",
+  "source_pdf_sha256": "sha256:66d620ebf682e2ffc55698394fb4635d738bf0e0250aad34f9cc137a25bf051a",
+  "term_count": 83,
+  "defined_terms": [
+    {
+      "term": "Active List",
+      "alt": null,
+      "article": "I",
+      "locator": "cba:2017:art-I:sec-1:(a)",
+      "definition_preview": "(a) \"Active List\" means the list of players, maintained by the NBA, who have signed Player Contracts with a Team and are otherwise eligible to participate in a Regular Season game. (b) \"Agreement\" means this Collective Bargaining Agreement entered into as of January 19, 2017. (c) \"Audit Report\" or \"final Audit Report\" means the audit report prepared in accordance with Article VII, Section 10. (d) …",
+      "review_status": "unreviewed"
+    },
+    {
+      "term": "Agreement",
+      "alt": null,
+      "article": "I",
+      "locator": "cba:2017:art-I:sec-1:(b)",
+      "definition_preview": "(b) \"Agreement\" means this Collective Bargaining Agreement entered into as of January 19, 2017. (c) \"Audit Report\" or \"final Audit Report\" means the audit report prepared in accordance with Article VII, Section 10. (d) \"Average Player Salary\" means, with respect to any Salary Cap Year, Total Salaries (plus any amounts paid by the NBA for such Salary Cap Year pursuant to Article VII, Section 2(b)) …",
+      "review_status": "unreviewed"
+    },
+    {
+      "term": "Audit Report",
+      "alt": "final Audit Report",
+      "article": "I",
+      "locator": "cba:2017:art-I:sec-1:(c)",
+      "definition_preview": "(c) \"Audit Report\" or \"final Audit Report\" means the audit report prepared in accordance with Article VII, Section 10. (d) \"Average Player Salary\" means, with respect to any Salary Cap Year, Total Salaries (plus any amounts paid by the NBA for such Salary Cap Year pursuant to Article VII, Section 2(b)) divided by an amount equal to the product of the number of Teams in the NBA (other than Expansio…",
+      "review_status": "unreviewed"
+    },
+    {
+      "term": "Average Player Salary",
+      "alt": null,
+      "article": "I",
+      "locator": "cba:2017:art-I:sec-1:(d)",
+      "definition_preview": "(d) \"Average Player Salary\" means, with respect to any Salary Cap Year, Total Salaries (plus any amounts paid by the NBA for such Salary Cap Year pursuant to Article VII, Section 2(b)) divided by an amount equal to the product of the number of Teams in the NBA (other than Expansion Teams during their first two (2) Salary Cap Years) multiplied by 13.2. (e) \"Base Compensation\" means the component of…",
+      "review_status": "unreviewed"
+    },
+    {
+      "term": "Base Compensation",
+      "alt": null,
+      "article": "I",
+      "locator": "cba:2017:art-I:sec-1:(e)",
+      "definition_preview": "(e) \"Base Compensation\" means the component of Compensation other than bonuses of any kind. (f) \"Basketball Related Income\" or \"BRI\" means basketball related income as defined in Article VII, Section 1(a) and (b). (g) \"Benefits\" or \"Total Benefits\" means the sum of all amounts paid or to be paid on an accrual basis during any Salary Cap Year by the NBA or NBA Teams, other than Expansion Teams duri…",
+      "review_status": "unreviewed"
+    },
+    {
+      "term": "Basketball Related Income",
+      "alt": "BRI",
+      "article": "I",
+      "locator": "cba:2017:art-I:sec-1:(f)",
+      "definition_preview": "(f) \"Basketball Related Income\" or \"BRI\" means basketball related income as defined in Article VII, Section 1(a) and (b). (g) \"Benefits\" or \"Total Benefits\" means the sum of all amounts paid or to be paid on an accrual basis during any Salary Cap Year by the NBA or NBA Teams, other than Expansion Teams during their first two Salary Cap Years, for the specific benefits set forth in Article IV. (h) …",
+      "review_status": "unreviewed"
+    },
+    {
+      "term": "Benefits",
+      "alt": "Total Benefits",
+      "article": "I",
+      "locator": "cba:2017:art-I:sec-1:(g)",
+      "definition_preview": "(g) \"Benefits\" or \"Total Benefits\" means the sum of all amounts paid or to be paid on an accrual basis during any Salary Cap Year by the NBA or NBA Teams, other than Expansion Teams during their first two Salary Cap Years, for the specific benefits set forth in Article IV. (h) \"Commissioner\" means the Commissioner of the NBA. (i) \"Compensation\" means the compensation that is or could be earned by,…",
+      "review_status": "unreviewed"
+    },
+    {
+      "term": "Commissioner",
+      "alt": null,
+      "article": "I",
+      "locator": "cba:2017:art-I:sec-1:(h)",
+      "definition_preview": "(h) \"Commissioner\" means the Commissioner of the NBA. (i) \"Compensation\" means the compensation that is or could be earned by, or is paid or payable to, an NBA player (including players 2 Article I whose Player Contracts have been terminated) in accordance with a Player Contract (whether such payment is sent to the player directly or to a person or entity designated by a player). (j) \"Contract\" (s…",
+      "review_status": "unreviewed"
+    },
+    {
+      "term": "Compensation",
+      "alt": null,
+      "article": "I",
+      "locator": "cba:2017:art-I:sec-1:(i)",
+      "definition_preview": "(i) \"Compensation\" means the compensation that is or could be earned by, or is paid or payable to, an NBA player (including players 2 Article I whose Player Contracts have been terminated) in accordance with a Player Contract (whether such payment is sent to the player directly or to a person or entity designated by a player). (j) \"Contract\" (see \"Uniform Player Contract\"). (k) \"Current Base Compe…",
+      "review_status": "unreviewed"
+    },
+    {
+      "term": "Current Base Compensation",
+      "alt": null,
+      "article": "I",
+      "locator": "cba:2017:art-I:sec-1:(k)",
+      "definition_preview": "(k) \"Current Base Compensation\" means the component of Base Compensation other than Deferred Base Compensation. (l) \"Current Compensation\" means the component of Compensation other than Deferred Compensation. (m) \"Deferred Base Compensation\" means the component of Deferred Compensation other than bonuses of any kind. (n) \"Deferred Compensation\" means the component of Compensation for a Season that…",
+      "review_status": "unreviewed"
+    },
+    {
+      "term": "Current Compensation",
+      "alt": null,
+      "article": "I",
+      "locator": "cba:2017:art-I:sec-1:(l)",
+      "definition_preview": "(l) \"Current Compensation\" means the component of Compensation other than Deferred Compensation. (m) \"Deferred Base Compensation\" means the component of Deferred Compensation other than bonuses of any kind. (n) \"Deferred Compensation\" means the component of Compensation for a Season that is payable to a player during the period commencing after the May 1 following such Season, in accordance with t…",
+      "review_status": "unreviewed"
+    },
+    {
+      "term": "Deferred Base Compensation",
+      "alt": null,
+      "article": "I",
+      "locator": "cba:2017:art-I:sec-1:(m)",
+      "definition_preview": "(m) \"Deferred Base Compensation\" means the component of Deferred Compensation other than bonuses of any kind. (n) \"Deferred Compensation\" means the component of Compensation for a Season that is payable to a player during the period commencing after the May 1 following such Season, in accordance with the rules set forth in Article VII. The determination of whether Compensation is Deferred Compensa…",
+      "review_status": "unreviewed"
+    },
+    {
+      "term": "Deferred Compensation",
+      "alt": null,
+      "article": "I",
+      "locator": "cba:2017:art-I:sec-1:(n)",
+      "definition_preview": "(n) \"Deferred Compensation\" means the component of Compensation for a Season that is payable to a player during the period commencing after the May 1 following such Season, in accordance with the rules set forth in Article VII. The determination of whether Compensation is Deferred Compensation will be based upon the time set by the Player Contract for the player to receive the Compensation, withou…",
+      "review_status": "unreviewed"
+    },
+    {
+      "term": "Designated Rookie Scale Player",
+      "alt": null,
+      "article": "I",
+      "locator": "cba:2017:art-I:sec-1:(o)",
+      "definition_preview": "(o) \"Designated Rookie Scale Player\" means a player with whom a Team has, pursuant to Article II, Section 7(d) and Article VII, Section 7(b), entered into a Designated Player Rookie Scale Extension. A Team may at any point in time, in respect of any current or future Salary Cap Year, have Salary included in its Team Salary in respect of a maximum of two (2) Designated Rookie Scale Players, provide…",
+      "review_status": "unreviewed"
+    },
+    {
+      "term": "Designated Rookie Scale Player Extension",
+      "alt": null,
+      "article": "I",
+      "locator": "cba:2017:art-I:sec-1:(p)",
+      "definition_preview": "(p) \"Designated Rookie Scale Player Extension\" means an Extension of a Rookie Scale Contract entered into between a Team and its Article I 3 Designated Rookie Scale Player that covers six (6) Seasons from the date the Extension is signed and provides for Salary for the first Salary Cap Year covered by the extended term equal to the player’s applicable Maximum Annual Salary under Article II, Sectio…",
+      "review_status": "unreviewed"
+    },
+    {
+      "term": "Designated Veteran Player",
+      "alt": null,
+      "article": "I",
+      "locator": "cba:2017:art-I:sec-1:(q)",
+      "definition_preview": "(q) \"Designated Veteran Player\" means a player with whom a Team has, pursuant to Article II, Sections 7(a)(ii) or 7(e) and Article VII, Section 7(a), entered into either a Designated Veteran Player Extension or Designated Veteran Player Contract. A Team may at any point in time, in respect of any current or future Salary Cap Year, have Salary included in its Team Salary in respect of a maximum of …",
+      "review_status": "unreviewed"
+    },
+    {
+      "term": "Designated Veteran Player Contract",
+      "alt": null,
+      "article": "I",
+      "locator": "cba:2017:art-I:sec-1:(r)",
+      "definition_preview": "(r) \"Designated Veteran Player Contract\" means a Contract entered into between a Team and its Designated Veteran Player who is a Qualifying Veteran Free Agent that covers five (5) Seasons and provides for Salary for the first Salary Cap Year equal to such percentage above 30% but not greater than 35% (as agreed upon by the Team and the player) of the Salary Cap in effect at the time the Contract i…",
+      "review_status": "unreviewed"
+    },
+    {
+      "term": "Designated Veteran Player Extension",
+      "alt": null,
+      "article": "I",
+      "locator": "cba:2017:art-I:sec-1:(s)",
+      "definition_preview": "(s) \"Designated Veteran Player Extension\" means an Extension of a Contract entered into between a Team and its Designated Veteran Player that covers six (6) Seasons from the date the Extension is signed and 4 Article I provides for Salary for the first Salary Cap Year covered by the extended term equal to thirty percent (30%) or thirty-five percent (35%) (or such other percentage between 30% and 3…",
+      "review_status": "unreviewed"
+    },
+    {
+      "term": "Draft",
+      "alt": "NBA Draft",
+      "article": "I",
+      "locator": "cba:2017:art-I:sec-1:(t)",
+      "definition_preview": "(t) \"Draft\" or \"NBA Draft\" means the NBA’s annual draft of Rookie basketball players. (u) \"Early Qualifying Veteran Free Agent\" means a Veteran Free Agent who, prior to becoming a Veteran Free Agent, played under one (1) or more Player Contracts covering some or all of each of the two (2) preceding Seasons, and who either played exclusively with his Prior Team during such two (2) Seasons, or, if h…",
+      "review_status": "unreviewed"
+    },
+    {
+      "term": "Draft Rookie",
+      "alt": null,
+      "article": "I",
+      "locator": "cba:2017:art-I:sec-1:(i)",
+      "definition_preview": "(i) \"Draft Rookie\" means a Rookie who is selected in the NBA Draft. (ii) \"Non-Draft Rookie\" means a Rookie who is not selected in the NBA Draft for which he is first eligible. (ggg) \"Rookie Free Agent\" means: (i) a Draft Rookie who, pursuant to the provisions of Article VIII, Section 3 or Article X, is no longer subject to the exclusive negotiating rights of any Team, and who may be signed by any …",
+      "review_status": "unreviewed"
+    },
+    {
+      "term": "Early Qualifying Veteran Free Agent",
+      "alt": null,
+      "article": "I",
+      "locator": "cba:2017:art-I:sec-1:(u)",
+      "definition_preview": "(u) \"Early Qualifying Veteran Free Agent\" means a Veteran Free Agent who, prior to becoming a Veteran Free Agent, played under one (1) or more Player Contracts covering some or all of each of the two (2) preceding Seasons, and who either played exclusively with his Prior Team during such two (2) Seasons, or, if he played for more than one (1) Team during such period, changed Teams only (i) by mean…",
+      "review_status": "unreviewed"
+    },
+    {
+      "term": "Effective Season",
+      "alt": null,
+      "article": "I",
+      "locator": "cba:2017:art-I:sec-1:(w)",
+      "definition_preview": "(w) \"Effective Season\" means, with respect to an Early Termination Option, the first Season covered by the Early Termination Option. (For example, if a Contract were to contain an Early Termination Option exercisable following the 2021-22 Season, the Effective Season would be the 2022-23 Season.) (x) \"Estimated Average Player Salary\" means, for a particular Salary Cap Year, one hundred four and on…",
+      "review_status": "unreviewed"
+    },
+    {
+      "term": "Estimated Average Player Salary",
+      "alt": null,
+      "article": "I",
+      "locator": "cba:2017:art-I:sec-1:(x)",
+      "definition_preview": "(x) \"Estimated Average Player Salary\" means, for a particular Salary Cap Year, one hundred four and one-half percent (104.5%) of the prior Salary Cap Year’s Average Player Salary. (y) \"Exception\" means an exception to the rule that a Team’s Team Salary may not exceed the Salary Cap. (z) \"Expansion Team\" means any Team that becomes a member of the NBA through expansion following the effective date …",
+      "review_status": "unreviewed"
+    },
+    {
+      "term": "Exception",
+      "alt": null,
+      "article": "I",
+      "locator": "cba:2017:art-I:sec-1:(y)",
+      "definition_preview": "(y) \"Exception\" means an exception to the rule that a Team’s Team Salary may not exceed the Salary Cap. (z) \"Expansion Team\" means any Team that becomes a member of the NBA through expansion following the effective date of this Agreement and commences play during the term of this Agreement. Article I 5 (aa) \"Extension\" means an amendment to a Player Contract lengthening the term of the Contract fo…",
+      "review_status": "unreviewed"
+    },
+    {
+      "term": "Expansion Team",
+      "alt": null,
+      "article": "I",
+      "locator": "cba:2017:art-I:sec-1:(z)",
+      "definition_preview": "(z) \"Expansion Team\" means any Team that becomes a member of the NBA through expansion following the effective date of this Agreement and commences play during the term of this Agreement. Article I 5 (aa) \"Extension\" means an amendment to a Player Contract lengthening the term of the Contract for a specified period of years. (bb) \"First Round Pick\" means a player selected by a Team in the first ro…",
+      "review_status": "unreviewed"
+    },
+    {
+      "term": "Extension",
+      "alt": null,
+      "article": "I",
+      "locator": "cba:2017:art-I:sec-1",
+      "definition_preview": "\"Extension\" means an amendment to a Player Contract lengthening the term of the Contract for a specified period of years. (bb) \"First Round Pick\" means a player selected by a Team in the first round of the Draft. (cc) \"Free Agent\" means: (i) a Veteran Free Agent; (ii) a Rookie Free Agent; (iii) a Veteran whose Player Contract has been terminated in accordance with the NBA waiver procedure; or (iv)…",
+      "review_status": "unreviewed"
+    },
+    {
+      "term": "First Round Pick",
+      "alt": null,
+      "article": "I",
+      "locator": "cba:2017:art-I:sec-1",
+      "definition_preview": "\"First Round Pick\" means a player selected by a Team in the first round of the Draft. (cc) \"Free Agent\" means: (i) a Veteran Free Agent; (ii) a Rookie Free Agent; (iii) a Veteran whose Player Contract has been terminated in accordance with the NBA waiver procedure; or (iv) a player whose last Player Contract was a 10-Day Contract and who either completed the Contract by rendering the playing servi…",
+      "review_status": "unreviewed"
+    },
+    {
+      "term": "Free Agent",
+      "alt": null,
+      "article": "I",
+      "locator": "cba:2017:art-I:sec-1",
+      "definition_preview": "\"Free Agent\" means: (i) a Veteran Free Agent; (ii) a Rookie Free Agent; (iii) a Veteran whose Player Contract has been terminated in accordance with the NBA waiver procedure; or (iv) a player whose last Player Contract was a 10-Day Contract and who either completed the Contract by rendering the playing services called for thereunder or was released early from such Contract. (dd) \"Generally Recogni…",
+      "review_status": "unreviewed"
+    },
+    {
+      "term": "Generally Recognized League Honors",
+      "alt": null,
+      "article": "I",
+      "locator": "cba:2017:art-I:sec-1",
+      "definition_preview": "\"Generally Recognized League Honors\" means the following NBA league honors awarded to players: NBA Most Valuable Player; NBA Finals Most Valuable Player; NBA Defensive Player of the Year; NBA Sixth Man Award; NBA Most Improved Player; All-NBA Team (First, Second, or Third); NBA All-Defensive Team (First or Second); and All- Star Team Selection. (ee) \"Inactive List\" means the list of players, maint…",
+      "review_status": "unreviewed"
+    },
+    {
+      "term": "Inactive List",
+      "alt": null,
+      "article": "I",
+      "locator": "cba:2017:art-I:sec-1",
+      "definition_preview": "\"Inactive List\" means the list of players, maintained by the NBA, who have signed Player Contracts with a Team and are otherwise ineligible to participate in a Regular Season game. (ff) \"Incentive Compensation\" means the component of Compensation consisting of one (1) or more bonuses described in Article II, Sections 3(b)(ii) and (iii) and 3(c). (gg) \"Likely Bonus\" means Incentive Compensation inc…",
+      "review_status": "unreviewed"
+    },
+    {
+      "term": "Incentive Compensation",
+      "alt": null,
+      "article": "I",
+      "locator": "cba:2017:art-I:sec-1",
+      "definition_preview": "\"Incentive Compensation\" means the component of Compensation consisting of one (1) or more bonuses described in Article II, Sections 3(b)(ii) and (iii) and 3(c). (gg) \"Likely Bonus\" means Incentive Compensation included in a player’s Salary in accordance with Article VII, Section 3(d). (hh) \"Maximum Annual Salary\" means the maximum amount of Salaries and Unlikely Bonuses a player is eligible to re…",
+      "review_status": "unreviewed"
+    },
+    {
+      "term": "Likely Bonus",
+      "alt": null,
+      "article": "I",
+      "locator": "cba:2017:art-I:sec-1",
+      "definition_preview": "\"Likely Bonus\" means Incentive Compensation included in a player’s Salary in accordance with Article VII, Section 3(d). (hh) \"Maximum Annual Salary\" means the maximum amount of Salaries and Unlikely Bonuses a player is eligible to receive in the first Salary Cap Year covered by a Contract or Extension as calculated in accordance with Article II, Section 7. (ii) \"Member\" or \"Team\" means any team th…",
+      "review_status": "unreviewed"
+    },
+    {
+      "term": "Maximum Annual Salary",
+      "alt": null,
+      "article": "I",
+      "locator": "cba:2017:art-I:sec-1",
+      "definition_preview": "\"Maximum Annual Salary\" means the maximum amount of Salaries and Unlikely Bonuses a player is eligible to receive in the first Salary Cap Year covered by a Contract or Extension as calculated in accordance with Article II, Section 7. (ii) \"Member\" or \"Team\" means any team that is a member of the NBA. (jj) \"Minimum Annual Salary\" means the minimum Salary that must be included in a Player Contract (…",
+      "review_status": "unreviewed"
+    },
+    {
+      "term": "Member",
+      "alt": "Team",
+      "article": "I",
+      "locator": "cba:2017:art-I:sec-1",
+      "definition_preview": "\"Member\" or \"Team\" means any team that is a member of the NBA. (jj) \"Minimum Annual Salary\" means the minimum Salary that must be included in a Player Contract (other than a Two-Way Contract) 6 Article I that covers the entire Regular Season in accordance with Article II, Section 6(a). (kk) \"Minimum Annual Salary Scale\" means: (i) for the 2017-18 Salary Cap Year, the Minimum Annual Salary Scale ta…",
+      "review_status": "unreviewed"
+    },
+    {
+      "term": "Minimum Annual Salary",
+      "alt": null,
+      "article": "I",
+      "locator": "cba:2017:art-I:sec-1",
+      "definition_preview": "\"Minimum Annual Salary\" means the minimum Salary that must be included in a Player Contract (other than a Two-Way Contract) 6 Article I that covers the entire Regular Season in accordance with Article II, Section 6(a). (kk) \"Minimum Annual Salary Scale\" means: (i) for the 2017-18 Salary Cap Year, the Minimum Annual Salary Scale table annexed hereto as Exhibit C; and (ii) for each of the 2018-19 th…",
+      "review_status": "unreviewed"
+    },
+    {
+      "term": "Minimum Annual Salary Scale",
+      "alt": null,
+      "article": "I",
+      "locator": "cba:2017:art-I:sec-1",
+      "definition_preview": "\"Minimum Annual Salary Scale\" means: (i) for the 2017-18 Salary Cap Year, the Minimum Annual Salary Scale table annexed hereto as Exhibit C; and (ii) for each of the 2018-19 through 2023-24 Salary Cap Years, the Minimum Annual Salary Scale table for such Salary Cap Year prepared immediately upon the determination of the Salary Cap for such Salary Cap Year in accordance with the provisions of this …",
+      "review_status": "unreviewed"
+    },
+    {
+      "term": "Minimum Player Salary",
+      "alt": null,
+      "article": "I",
+      "locator": "cba:2017:art-I:sec-1",
+      "definition_preview": "\"Minimum Player Salary\" means: (i) with respect to a Contract (other than a Two-Way Contract) that covers the entire Regular Season, the Minimum Annual Salary called for under Article II, Section 6(a); (ii) with respect to a Contract that covers less than the entire Regular Season (other than a Two-Way Contract or 10-Day Contract), the Minimum Annual Salary called for under Article II, Section 6(a…",
+      "review_status": "unreviewed"
+    },
+    {
+      "term": "Minimum Team Salary",
+      "alt": null,
+      "article": "I",
+      "locator": "cba:2017:art-I:sec-1",
+      "definition_preview": "\"Minimum Team Salary\" means the minimum Team Salary a Team must have for a Salary Cap Year as determined in accordance with Article VII, Section 2(b). (nn) \"Moratorium Period\" means, with respect to a Salary Cap Year, the period from 12:01 a.m. eastern time on July 1 of such Salary Cap Year through 12:00 p.m. eastern time on the following July 6 (for clarity, regardless of whether July 6 is a busi…",
+      "review_status": "unreviewed"
+    },
+    {
+      "term": "Moratorium Period",
+      "alt": null,
+      "article": "I",
+      "locator": "cba:2017:art-I:sec-1",
+      "definition_preview": "\"Moratorium Period\" means, with respect to a Salary Cap Year, the period from 12:01 a.m. eastern time on July 1 of such Salary Cap Year through 12:00 p.m. eastern time on the following July 6 (for clarity, regardless of whether July 6 is a business day). (oo) The term \"negotiate\" means, with respect to a player or his representatives on the one hand, and a Team or its representatives on the other …",
+      "review_status": "unreviewed"
+    },
+    {
+      "term": "NBADL Regular Season",
+      "alt": null,
+      "article": "I",
+      "locator": "cba:2017:art-I:sec-1",
+      "definition_preview": "\"NBADL Regular Season\" means, with respect to any NBADL Season, the period beginning on the first day and ending on the last day of regularly scheduled (as opposed to exhibition or playoff) competition between NBADL teams. (qq) \"NBADL Season\" means the period beginning on the first day of NBADL training camp and ending immediately after the last game of the NBADL playoffs. (rr) \"Non-Qualifying Vet…",
+      "review_status": "unreviewed"
+    },
+    {
+      "term": "NBADL Season",
+      "alt": null,
+      "article": "I",
+      "locator": "cba:2017:art-I:sec-1",
+      "definition_preview": "\"NBADL Season\" means the period beginning on the first day of NBADL training camp and ending immediately after the last game of the NBADL playoffs. (rr) \"Non-Qualifying Veteran Free Agent\" means a Veteran Free Agent who is not a Qualifying Veteran Free Agent or an Early Qualifying Veteran Free Agent. (ss) \"Option\" means an option in a Player Contract in favor of a Team or player to extend such Con…",
+      "review_status": "unreviewed"
+    },
+    {
+      "term": "Non-Draft Rookie",
+      "alt": null,
+      "article": "I",
+      "locator": "cba:2017:art-I:sec-1",
+      "definition_preview": "\"Non-Draft Rookie\" means a Rookie who is not selected in the NBA Draft for which he is first eligible. (ggg) \"Rookie Free Agent\" means: (i) a Draft Rookie who, pursuant to the provisions of Article VIII, Section 3 or Article X, is no longer subject to the exclusive negotiating rights of any Team, and who may be signed by any Team; or (ii) a Non-Draft Rookie. (hhh) \"Rookie Salary Scales\" means: (i)…",
+      "review_status": "unreviewed"
+    },
+    {
+      "term": "Non-Qualifying Veteran Free Agent",
+      "alt": null,
+      "article": "I",
+      "locator": "cba:2017:art-I:sec-1",
+      "definition_preview": "\"Non-Qualifying Veteran Free Agent\" means a Veteran Free Agent who is not a Qualifying Veteran Free Agent or an Early Qualifying Veteran Free Agent. (ss) \"Option\" means an option in a Player Contract in favor of a Team or player to extend such Contract beyond its stated term. (tt) \"Option Year\" means the year that would be added to a Player Contract if an Option were exercised. (uu) \"Performance B…",
+      "review_status": "unreviewed"
+    },
+    {
+      "term": "Option",
+      "alt": null,
+      "article": "I",
+      "locator": "cba:2017:art-I:sec-1",
+      "definition_preview": "\"Option\" means an option in a Player Contract in favor of a Team or player to extend such Contract beyond its stated term. (tt) \"Option Year\" means the year that would be added to a Player Contract if an Option were exercised. (uu) \"Performance Bonus\" means any Incentive Compensation described in Article II, Section 3(b)(ii). (vv) \"Player Contract\" (see \"Uniform Player Contract\"). (ww) \"Prior Team…",
+      "review_status": "unreviewed"
+    },
+    {
+      "term": "Option Year",
+      "alt": null,
+      "article": "I",
+      "locator": "cba:2017:art-I:sec-1",
+      "definition_preview": "\"Option Year\" means the year that would be added to a Player Contract if an Option were exercised. (uu) \"Performance Bonus\" means any Incentive Compensation described in Article II, Section 3(b)(ii). (vv) \"Player Contract\" (see \"Uniform Player Contract\"). (ww) \"Prior Team\" means the Team for which a player was last under Contract prior to becoming a Qualifying Veteran Free Agent, Early Qualifying …",
+      "review_status": "unreviewed"
+    },
+    {
+      "term": "Performance Bonus",
+      "alt": null,
+      "article": "I",
+      "locator": "cba:2017:art-I:sec-1",
+      "definition_preview": "\"Performance Bonus\" means any Incentive Compensation described in Article II, Section 3(b)(ii). (vv) \"Player Contract\" (see \"Uniform Player Contract\"). (ww) \"Prior Team\" means the Team for which a player was last under Contract prior to becoming a Qualifying Veteran Free Agent, Early Qualifying Veteran Free Agent or a Non-Qualifying Veteran Free Agent. (xx) \"Qualifying Offer\" means a qualifying of…",
+      "review_status": "unreviewed"
+    },
+    {
+      "term": "Player Contract",
+      "alt": "Contract",
+      "article": "I",
+      "locator": "cba:2017:art-I:sec-1",
+      "definition_preview": "\"Player Contract\" or \"Contract\" means the standard form of written agreement between a person and a Team required for use in the NBA by Article II, pursuant to which such person is employed by such Team as a professional basketball player. (eeee) \"Unlikely Bonus\" means Incentive Compensation excluded from a player’s Salary in accordance with Article VII, Section 3(d). (ffff) \"Unrestricted Free Age…",
+      "review_status": "unreviewed"
+    },
+    {
+      "term": "Prior Team",
+      "alt": null,
+      "article": "I",
+      "locator": "cba:2017:art-I:sec-1",
+      "definition_preview": "\"Prior Team\" means the Team for which a player was last under Contract prior to becoming a Qualifying Veteran Free Agent, Early Qualifying Veteran Free Agent or a Non-Qualifying Veteran Free Agent. (xx) \"Qualifying Offer\" means a qualifying offer as defined in Article XI, Section 1(c). (yy) \"Qualifying Veteran Free Agent\" means a Veteran Free Agent who, prior to becoming a Veteran Free Agent, play…",
+      "review_status": "unreviewed"
+    },
+    {
+      "term": "Qualifying Offer",
+      "alt": null,
+      "article": "I",
+      "locator": "cba:2017:art-I:sec-1",
+      "definition_preview": "\"Qualifying Offer\" means a qualifying offer as defined in Article XI, Section 1(c). (yy) \"Qualifying Veteran Free Agent\" means a Veteran Free Agent who, prior to becoming a Veteran Free Agent, played under one (1) or more Player Contracts covering some or all of each of the three (3) preceding Seasons, and who either played exclusively with his Prior Team during such three (3) Seasons, or, if he p…",
+      "review_status": "unreviewed"
+    },
+    {
+      "term": "Qualifying Veteran Free Agent",
+      "alt": null,
+      "article": "I",
+      "locator": "cba:2017:art-I:sec-1",
+      "definition_preview": "\"Qualifying Veteran Free Agent\" means a Veteran Free Agent who, prior to becoming a Veteran Free Agent, played under one (1) or more Player Contracts covering some or all of each of the three (3) preceding Seasons, and who either played exclusively with his Prior Team during such three (3) Seasons, or, if he played for more than one (1) Team during such period, changed Teams only (i) by means of t…",
+      "review_status": "unreviewed"
+    },
+    {
+      "term": "Regular Salary",
+      "alt": null,
+      "article": "I",
+      "locator": "cba:2017:art-I:sec-1",
+      "definition_preview": "\"Regular Salary\" means a player’s Salary, less any component thereof that is a signing bonus (or deemed a signing bonus in accordance with Article VII) and any component thereof that is Incentive Compensation. (aaa) \"Regular Season\" means, with respect to any Season, the period beginning on the first day and ending on the last day of regularly scheduled (as opposed to exhibition or playoff) compet…",
+      "review_status": "unreviewed"
+    },
+    {
+      "term": "Regular Season",
+      "alt": null,
+      "article": "I",
+      "locator": "cba:2017:art-I:sec-1",
+      "definition_preview": "\"Regular Season\" means, with respect to any Season, the period beginning on the first day and ending on the last day of regularly scheduled (as opposed to exhibition or playoff) competition between NBA Teams. (bbb) \"Renegotiation,\" \"renegotiate,\" or \"renegotiated\" means a Contract amendment that provides for an increase in Salary and/or Unlikely Bonuses. (ccc) \"Replacement Player\" means, where app…",
+      "review_status": "unreviewed"
+    },
+    {
+      "term": "Replacement Player",
+      "alt": null,
+      "article": "I",
+      "locator": "cba:2017:art-I:sec-1",
+      "definition_preview": "\"Replacement Player\" means, where appropriate, either a player who is acquired by a Team pursuant to the Traded Player Exception, or a player who is signed or acquired by a Team pursuant to the Disabled Player Exception. (ddd) \"Required Tender\" means an offer of a Uniform Player Contract to a Draft Rookie, signed by the Team, that: (i) on or before the date specified in Article X is either persona…",
+      "review_status": "unreviewed"
+    },
+    {
+      "term": "Required Tender",
+      "alt": null,
+      "article": "I",
+      "locator": "cba:2017:art-I:sec-1",
+      "definition_preview": "\"Required Tender\" means an offer of a Uniform Player Contract to a Draft Rookie, signed by the Team, that: (i) on or before the date specified in Article X is either personally delivered to the player or his representative or sent by email or pre-paid certified, registered, or overnight mail to the last known address of the player or his representative; (ii) with respect to a First Round Pick, (A)…",
+      "review_status": "unreviewed"
+    },
+    {
+      "term": "Restricted Free Agent",
+      "alt": null,
+      "article": "I",
+      "locator": "cba:2017:art-I:sec-1",
+      "definition_preview": "\"Restricted Free Agent\" means a Veteran Free Agent who is subject to a Team’s right of first refusal in accordance with Article XI. (fff) \"Rookie\" means a person who has never signed a Player Contract with an NBA Team. (i) \"Draft Rookie\" means a Rookie who is selected in the NBA Draft. (ii) \"Non-Draft Rookie\" means a Rookie who is not selected in the NBA Draft for which he is first eligible. (ggg)…",
+      "review_status": "unreviewed"
+    },
+    {
+      "term": "Rookie",
+      "alt": null,
+      "article": "I",
+      "locator": "cba:2017:art-I:sec-1",
+      "definition_preview": "\"Rookie\" means a person who has never signed a Player Contract with an NBA Team. (i) \"Draft Rookie\" means a Rookie who is selected in the NBA Draft. (ii) \"Non-Draft Rookie\" means a Rookie who is not selected in the NBA Draft for which he is first eligible. (ggg) \"Rookie Free Agent\" means: (i) a Draft Rookie who, pursuant to the provisions of Article VIII, Section 3 or Article X, is no longer subje…",
+      "review_status": "unreviewed"
+    },
+    {
+      "term": "Rookie Free Agent",
+      "alt": null,
+      "article": "I",
+      "locator": "cba:2017:art-I:sec-1",
+      "definition_preview": "\"Rookie Free Agent\" means: (i) a Draft Rookie who, pursuant to the provisions of Article VIII, Section 3 or Article X, is no longer subject to the exclusive negotiating rights of any Team, and who may be signed by any Team; or (ii) a Non-Draft Rookie. (hhh) \"Rookie Salary Scales\" means: (i) for the 2017-18 Salary Cap Year, the Rookie Salary Scale table annexed hereto as Exhibit B-1; and (ii) for e…",
+      "review_status": "unreviewed"
+    },
+    {
+      "term": "Rookie Salary Scales",
+      "alt": null,
+      "article": "I",
+      "locator": "cba:2017:art-I:sec-1",
+      "definition_preview": "\"Rookie Salary Scales\" means: (i) for the 2017-18 Salary Cap Year, the Rookie Salary Scale table annexed hereto as Exhibit B-1; and (ii) for each of the 2018-19 through 2023-24 Salary Cap Years, the Rookie Salary Scale table for such Salary Cap Year prepared immediately upon the determination of the Salary Cap for such Salary Cap Year in accordance with the provisions of this Agreement and includi…",
+      "review_status": "unreviewed"
+    },
+    {
+      "term": "Rookie Scale Amounts",
+      "alt": null,
+      "article": "I",
+      "locator": "cba:2017:art-I:sec-1",
+      "definition_preview": "\"Rookie Scale Amounts\" means: (i) for the 2017-18 Salary Cap Year, the amounts set forth in the Rookie Salary Scale table annexed hereto as Exhibit B-1; (ii) for the 2018-19 through 2019-20 Salary Cap Years, the Salary amounts calculated in accordance with Article VIII, Section 4; and (iii) for the 2020-21 through 2023-24 Salary Cap Years, the Salary amounts set forth in the preceding Salary Cap Y…",
+      "review_status": "unreviewed"
+    },
+    {
+      "term": "Rookie Scale Contract",
+      "alt": null,
+      "article": "I",
+      "locator": "cba:2017:art-I:sec-1",
+      "definition_preview": "\"Rookie Scale Contract\" means the initial Uniform Player Contract entered into, in accordance with Article VIII, Section 1 or 2, between a First Round Pick and the Team that holds his draft rights. (kkk) \"Room\" means the extent to which: (i) a Team’s then-current Team Salary is less than the Salary Cap; or (ii) a Team is entitled to use one of the Salary Cap Exceptions set forth in Article VII, Se…",
+      "review_status": "unreviewed"
+    },
+    {
+      "term": "Room",
+      "alt": null,
+      "article": "I",
+      "locator": "cba:2017:art-I:sec-1",
+      "definition_preview": "\"Room\" means the extent to which: (i) a Team’s then-current Team Salary is less than the Salary Cap; or (ii) a Team is entitled to use one of the Salary Cap Exceptions set forth in Article VII, Section 6(c), (d), (e), (f), (g) and (j) (Disabled Player Exception, Bi-annual Exception, Non- Taxpayer Mid-Level Salary Exception, Taxpayer Mid-Level Salary Exception, Mid-Level Salary Exception for Room T…",
+      "review_status": "unreviewed"
+    },
+    {
+      "term": "Salary",
+      "alt": null,
+      "article": "I",
+      "locator": "cba:2017:art-I:sec-1",
+      "definition_preview": "\"Salary\" means, with respect to a Salary Cap Year, a player’s Compensation with respect to the Season covered by such Salary Cap Year, plus any other amount that is deemed to constitute Salary in accordance with the terms of this Agreement, not including Unlikely Bonuses, any benefits the player received in accordance with the terms of this Agreement (including, e.g., the benefits provided for by …",
+      "review_status": "unreviewed"
+    },
+    {
+      "term": "Salary Cap",
+      "alt": null,
+      "article": "I",
+      "locator": "cba:2017:art-I:sec-1",
+      "definition_preview": "\"Salary Cap\" means the maximum allowable Team Salary for each Team for a Salary Cap Year, subject to the rules and exceptions set forth in this Agreement. (nnn) \"Salary Cap Year\" means the period from July 1 through the following June 30. (ooo) \"Season\" or \"NBA Season\" means the period beginning on the first day of NBA training camp and ending immediately after the last game of the NBA Finals. (pp…",
+      "review_status": "unreviewed"
+    },
+    {
+      "term": "Salary Cap Year",
+      "alt": null,
+      "article": "I",
+      "locator": "cba:2017:art-I:sec-1",
+      "definition_preview": "\"Salary Cap Year\" means the period from July 1 through the following June 30. (ooo) \"Season\" or \"NBA Season\" means the period beginning on the first day of NBA training camp and ending immediately after the last game of the NBA Finals. (ppp) \"Second Round Pick\" means a player selected by a Team in the second round of the Draft. (qqq) \"Standard NBA Contract\" means a Contract other than a Two- Way C…",
+      "review_status": "unreviewed"
+    },
+    {
+      "term": "Season",
+      "alt": "NBA Season",
+      "article": "I",
+      "locator": "cba:2017:art-I:sec-1",
+      "definition_preview": "\"Season\" or \"NBA Season\" means the period beginning on the first day of NBA training camp and ending immediately after the last game of the NBA Finals. (ppp) \"Second Round Pick\" means a player selected by a Team in the second round of the Draft. (qqq) \"Standard NBA Contract\" means a Contract other than a Two- Way Contract. Article I 11 (rrr) \"Standard NBA Contract Conversion Option\" means an optio…",
+      "review_status": "unreviewed"
+    },
+    {
+      "term": "Second Round Pick",
+      "alt": null,
+      "article": "I",
+      "locator": "cba:2017:art-I:sec-1",
+      "definition_preview": "\"Second Round Pick\" means a player selected by a Team in the second round of the Draft. (qqq) \"Standard NBA Contract\" means a Contract other than a Two- Way Contract. Article I 11 (rrr) \"Standard NBA Contract Conversion Option\" means an option in a Two-Way Contract in favor of a Team to convert the Contract to a Standard NBA Contract that provides for a Salary for each Salary Cap Year equal to the…",
+      "review_status": "unreviewed"
+    },
+    {
+      "term": "Standard NBA Contract",
+      "alt": null,
+      "article": "I",
+      "locator": "cba:2017:art-I:sec-1",
+      "definition_preview": "\"Standard NBA Contract\" means a Contract other than a Two- Way Contract. Article I 11 (rrr) \"Standard NBA Contract Conversion Option\" means an option in a Two-Way Contract in favor of a Team to convert the Contract to a Standard NBA Contract that provides for a Salary for each Salary Cap Year equal to the player’s applicable Minimum Player Salary and a term equal to the remainder of the original t…",
+      "review_status": "unreviewed"
+    },
+    {
+      "term": "Standard NBA Contract Conversion Option",
+      "alt": null,
+      "article": "I",
+      "locator": "cba:2017:art-I:sec-1",
+      "definition_preview": "\"Standard NBA Contract Conversion Option\" means an option in a Two-Way Contract in favor of a Team to convert the Contract to a Standard NBA Contract that provides for a Salary for each Salary Cap Year equal to the player’s applicable Minimum Player Salary and a term equal to the remainder of the original term of the Two-Way Contract, in accordance with Article II, Section 11(g). (sss) \"Team\" or \"…",
+      "review_status": "unreviewed"
+    },
+    {
+      "term": "Team Affiliate",
+      "alt": null,
+      "article": "I",
+      "locator": "cba:2017:art-I:sec-1",
+      "definition_preview": "\"Team Affiliate\" means: (i) any individual or entity who or which (directly or indirectly) holds an ownership interest in a Team (other than ownership of publicly-traded securities constituting less than five percent (5%) of the ownership interests in a Team) (an \"Owner\"); (ii) any individual or entity who or which (directly or indirectly) controls, is controlled b",
+      "review_status": "unreviewed"
+    },
+    {
+      "term": "Team Salary",
+      "alt": null,
+      "article": "I",
+      "locator": "cba:2017:art-I:sec-1",
+      "definition_preview": "\"Team Salary\" means, with respect to a Salary Cap Year, the sum of all Salaries attributable to a Team’s active and former players plus other amounts as computed in accordance with Article VII, less applicable credit amounts as computed in accordance with Article VII. (vvv) \"Total Salaries\" means the total Salaries included in the Team Salary of all NBA Teams for or with respect to a Salary Cap Ye…",
+      "review_status": "unreviewed"
+    },
+    {
+      "term": "Total Salaries",
+      "alt": null,
+      "article": "I",
+      "locator": "cba:2017:art-I:sec-1",
+      "definition_preview": "\"Total Salaries\" means the total Salaries included in the Team Salary of all NBA Teams for or with respect to a Salary Cap Year in accordance with this Agreement, other than the Salaries included in the Team Salary of Expansion Teams during their first two Salary Cap Years, as determined in accordance with Article VII. For purposes of this definition: (i) Total Salaries shall include all Incentive…",
+      "review_status": "unreviewed"
+    },
+    {
+      "term": "Total Salaries and Benefits",
+      "alt": null,
+      "article": "I",
+      "locator": "cba:2017:art-I:sec-1",
+      "definition_preview": "\"Total Salaries and Benefits\" means the sum of Total Salaries plus Total Benefits. (xxx) \"Traded Player\" means a player whose Player Contract is assigned by one Team to another Team other than by means of the NBA waiver procedure. Article I 13 (yyy) \"Two-Way Contract\" means a Contract between a Two-Way Player and a Team made in accordance with Article II, Section 11. In the event that a Two-Way Co…",
+      "review_status": "unreviewed"
+    },
+    {
+      "term": "Traded Player",
+      "alt": null,
+      "article": "I",
+      "locator": "cba:2017:art-I:sec-1",
+      "definition_preview": "\"Traded Player\" means a player whose Player Contract is assigned by one Team to another Team other than by means of the NBA waiver procedure. Article I 13 (yyy) \"Two-Way Contract\" means a Contract between a Two-Way Player and a Team made in accordance with Article II, Section 11. In the event that a Two-Way Contract is converted to a Standard NBA Contract pursuant to the Team’s exercise of its Sta…",
+      "review_status": "unreviewed"
+    },
+    {
+      "term": "Two-Way Contract",
+      "alt": null,
+      "article": "I",
+      "locator": "cba:2017:art-I:sec-1",
+      "definition_preview": "\"Two-Way Contract\" means a Contract between a Two-Way Player and a Team made in accordance with Article II, Section 11. In the event that a Two-Way Contract is converted to a Standard NBA Contract pursuant to the Team’s exercise of its Standard NBA Contract Conversion Option, the Contract shall no longer be a Two-Way Contract for the purposes of this Agreement. (zzz) \"Two-Way List\" means the list …",
+      "review_status": "unreviewed"
+    },
+    {
+      "term": "Two-Way List",
+      "alt": null,
+      "article": "I",
+      "locator": "cba:2017:art-I:sec-1",
+      "definition_preview": "\"Two-Way List\" means the list of players, maintained by the NBA, who have signed Two-Way Contracts and are eligible to provide services to an NBADL team in accordance with the provisions of this Agreement. (aaaa) \"Two-Way Player\" means a player under a Two-Way Contract in accordance with Article II, Section 11. (bbbb) \"Two-Way Player Salary\" means, with respect to any Two-Way Contract, the Salary …",
+      "review_status": "unreviewed"
+    },
+    {
+      "term": "Two-Way Player",
+      "alt": null,
+      "article": "I",
+      "locator": "cba:2017:art-I:sec-1",
+      "definition_preview": "\"Two-Way Player\" means a player under a Two-Way Contract in accordance with Article II, Section 11. (bbbb) \"Two-Way Player Salary\" means, with respect to any Two-Way Contract, the Salary called for under Article II, Section 11(a). (cccc) \"Two-Way Player Conversion Option\" means an option in a Player Contract with an Exhibit 10 in favor of a Team to convert the Contract to a Two-Way Contract in acc…",
+      "review_status": "unreviewed"
+    },
+    {
+      "term": "Two-Way Player Conversion Option",
+      "alt": null,
+      "article": "I",
+      "locator": "cba:2017:art-I:sec-1",
+      "definition_preview": "\"Two-Way Player Conversion Option\" means an option in a Player Contract with an Exhibit 10 in favor of a Team to convert the Contract to a Two-Way Contract in accordance with Article II, Section 3(q)(ii) and Section 11(i). (dddd) \"Uniform Player Contract\" or \"Player Contract\" or \"Contract\" means the standard form of written agreement between a person and a Team required for use in the NBA by Artic…",
+      "review_status": "unreviewed"
+    },
+    {
+      "term": "Two-Way Player Salary",
+      "alt": null,
+      "article": "I",
+      "locator": "cba:2017:art-I:sec-1",
+      "definition_preview": "\"Two-Way Player Salary\" means, with respect to any Two-Way Contract, the Salary called for under Article II, Section 11(a). (cccc) \"Two-Way Player Conversion Option\" means an option in a Player Contract with an Exhibit 10 in favor of a Team to convert the Contract to a Two-Way Contract in accordance with Article II, Section 3(q)(ii) and Section 11(i). (dddd) \"Uniform Player Contract\" or \"Player Co…",
+      "review_status": "unreviewed"
+    },
+    {
+      "term": "Unlikely Bonus",
+      "alt": null,
+      "article": "I",
+      "locator": "cba:2017:art-I:sec-1",
+      "definition_preview": "\"Unlikely Bonus\" means Incentive Compensation excluded from a player’s Salary in accordance with Article VII, Section 3(d). (ffff) \"Unrestricted Free Agent\" means a Free Agent who is not subject to a Team’s right of first refusal. (gggg) \"Veteran\" or \"Veteran Player\" means a person who has signed at least one Player Contract with an NBA Team. (hhhh) \"Veteran Free Agent\" means a Veteran who complet…",
+      "review_status": "unreviewed"
+    },
+    {
+      "term": "Unrestricted Free Agent",
+      "alt": null,
+      "article": "I",
+      "locator": "cba:2017:art-I:sec-1",
+      "definition_preview": "\"Unrestricted Free Agent\" means a Free Agent who is not subject to a Team’s right of first refusal. (gggg) \"Veteran\" or \"Veteran Player\" means a person who has signed at least one Player Contract with an NBA Team. (hhhh) \"Veteran Free Agent\" means a Veteran who completed his Player Contract (other than a 10-Day Contract) by rendering the playing services called for thereunder. 14 Article I (iiii) …",
+      "review_status": "unreviewed"
+    },
+    {
+      "term": "Veteran",
+      "alt": "Veteran Player",
+      "article": "I",
+      "locator": "cba:2017:art-I:sec-1",
+      "definition_preview": "\"Veteran\" or \"Veteran Player\" means a person who has signed at least one Player Contract with an NBA Team. (hhhh) \"Veteran Free Agent\" means a Veteran who completed his Player Contract (other than a 10-Day Contract) by rendering the playing services called for thereunder. 14 Article I (iiii) \"Years of Service\" means the number of years of NBA service credited to a player in accordance with the fol…",
+      "review_status": "unreviewed"
+    },
+    {
+      "term": "Veteran Free Agent",
+      "alt": null,
+      "article": "I",
+      "locator": "cba:2017:art-I:sec-1",
+      "definition_preview": "\"Veteran Free Agent\" means a Veteran who completed his Player Contract (other than a 10-Day Contract) by rendering the playing services called for thereunder. 14 Article I (iiii) \"Years of Service\" means the number of years of NBA service credited to a player in accordance with the following: a player will be credited with one (1) year of NBA service for each year that he is on an NBA Active List …",
+      "review_status": "unreviewed"
+    },
+    {
+      "term": "Years of Service",
+      "alt": null,
+      "article": "I",
+      "locator": "cba:2017:art-I:sec-1",
+      "definition_preview": "\"Years of Service\" means the number of years of NBA service credited to a player in accordance with the following: a player will be credited with one (1) year of NBA service for each year that he is on an NBA Active List or Inactive List for one (1) or more days during the Regular Season. Notwithstanding the above, a player will not receive credit for a Year of Service for any year in which he: (i…",
+      "review_status": "unreviewed"
+    }
+  ],
+  "review_status": "unreviewed",
+  "notes": [
+    "PDF wraps often split '(a)' and '\"Term\" means' across lines; parser joins those.",
+    "Operational Mid-Level / Tax / Apron / Escrow constructs live in Article VII, not Article I.",
+    "Art I includes a generic defined term 'Exception' pointing at VII constructs."
+  ]
+}

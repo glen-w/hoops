@@ -1,0 +1,760 @@
+{
+  "_derived": true,
+  "_disclaimer": "Rule-based heading/tag index + Art VII §6 Exception subsections; unreviewed.",
+  "edition_id": "2017",
+  "source_pdf_sha256": "sha256:66d620ebf682e2ffc55698394fb4635d738bf0e0250aad34f9cc137a25bf051a",
+  "keyword_rules": [
+    {
+      "pattern": "salary\\s+cap",
+      "tag": "salary_cap"
+    },
+    {
+      "pattern": "basketball\\s+related\\s+income|\\bBRI\\b",
+      "tag": "bri"
+    },
+    {
+      "pattern": "luxury\\s+tax|\\btax\\s+level\\b",
+      "tag": "luxury_tax"
+    },
+    {
+      "pattern": "apron\\s+level|first\\s+apron|second\\s+apron",
+      "tag": "apron"
+    },
+    {
+      "pattern": "mid-?level\\s+salary\\s+exception|mid-?level\\s+exception",
+      "tag": "mid_level_exception"
+    },
+    {
+      "pattern": "bi-?annual\\s+exception",
+      "tag": "bi_annual_exception"
+    },
+    {
+      "pattern": "mid-level\\s+salary\\s+exception\\s+for\\s+room|room\\s+teams",
+      "tag": "room_exception"
+    },
+    {
+      "pattern": "traded\\s+player\\s+exception",
+      "tag": "traded_player_exception"
+    },
+    {
+      "pattern": "disabled\\s+player\\s+exception",
+      "tag": "disabled_player_exception"
+    },
+    {
+      "pattern": "minimum\\s+team\\s+salary",
+      "tag": "minimum_team_salary"
+    },
+    {
+      "pattern": "escrow",
+      "tag": "escrow"
+    },
+    {
+      "pattern": "designated\\s+share",
+      "tag": "designated_share"
+    }
+  ],
+  "exception_subsection_heads": [
+    {
+      "letter": "b",
+      "label": "Veteran Free Agent Exception",
+      "locator": "cba:2017:art-VII:sec-6:(b)",
+      "preview": "(b) Veteran Free Agent Exception. Subject to the rules set forth in Section 6(m) below, beginning at 12:01 p.m. eastern time on the last day of the Moratorium Period following the last Season covered by a Veteran Free Agent’s Player Contract, such player may enter into a new Player Contract with his…",
+      "tags": [
+        "exception"
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "letter": "c",
+      "label": "Disabled Player Exception",
+      "locator": "cba:2017:art-VII:sec-6:(c)",
+      "preview": "(c) Disabled Player Exception. (1) Subject to the rules set forth in Section 6(m) below, a Team may, in accordance with the rules set forth in this Section 6(c), sign or acquire one Replacement Player to replace a player who, as a result of a Disabling Injury or Illness (as defined below), is unable…",
+      "tags": [
+        "disabled_player_exception"
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "letter": "d",
+      "label": "Bi-annual Exception",
+      "locator": "cba:2017:art-VII:sec-6:(d)",
+      "preview": "(d) Bi-annual Exception. Subject to the rules set forth in Section 6(m) below: (1) A Team shall be permitted to use the Bi-annual Exception during a Salary Cap Year only if (i) the Team’s Team Salary at the time the Exception is used and at all times thereafter during the Salary Cap Year does not ex…",
+      "tags": [
+        "bi_annual_exception"
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "letter": "e",
+      "label": "Non-Taxpayer Mid-Level Salary Exception",
+      "locator": "cba:2017:art-VII:sec-6:(e)",
+      "preview": "(e) Non-Taxpayer Mid-Level Salary Exception. Subject to the rules set forth in Section 6(m) below: (1) A Team shall be permitted to use the Non-Taxpayer Mid- Level Salary Exception during a Salary Cap Year only if (i) the Team’s Team Salary at the time the Exception is used and at all times thereaft…",
+      "tags": [
+        "mid_level_exception"
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "letter": "f",
+      "label": "Taxpayer Mid-Level Salary Exception",
+      "locator": "cba:2017:art-VII:sec-6:(f)",
+      "preview": "(f) Taxpayer Mid-Level Salary Exception. Subject to the rules set forth in Section 6(m) below: (1) A Team shall be permitted to use the Taxpayer Mid-Level Salary Exception in a Salary Cap Year only if (i) the Team’s Team Salary immediately following the Team’s use of such Exception exceeds the Tax L…",
+      "tags": [
+        "mid_level_exception"
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "letter": "g",
+      "label": "Mid-Level Salary Exception for Room Teams",
+      "locator": "cba:2017:art-VII:sec-6:(g)",
+      "preview": "(g) Mid-Level Salary Exception for Room Teams. Subject to the rules set forth in Section 6(m) below: (1) In the event (i) a Team’s Team Salary at any time during a Salary Cap Year is below the Salary Cap for such Salary Cap Year such that the Team is not entitled to use the Bi-annual Exception, Non-…",
+      "tags": [
+        "mid_level_exception",
+        "room_exception"
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "letter": "h",
+      "label": "Rookie Exception",
+      "locator": "cba:2017:art-VII:sec-6:(h)",
+      "preview": "(h) Rookie Exception. A Team may enter into a Rookie Scale Contract in accordance with Article VIII, Section 1. (i) Minimum Player Salary Exception. A Team may sign a player to, or acquire by assignment, a Player Contract, not to exceed two (2) Article VII 211 Seasons in length, that provides for a …",
+      "tags": [
+        "exception"
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "letter": "i",
+      "label": "Minimum Player Salary Exception",
+      "locator": "cba:2017:art-VII:sec-6:(i)",
+      "preview": "(i) Minimum Player Salary Exception. A Team may sign a player to, or acquire by assignment, a Player Contract, not to exceed two (2) Article VII 211 Seasons in length, that provides for a Salary for the first Season equal to the Minimum Player Salary applicable to that player (with no bonuses of any…",
+      "tags": [
+        "exception"
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "letter": "j",
+      "label": "Traded Player Exception",
+      "locator": "cba:2017:art-VII:sec-6:(j)",
+      "preview": "(j) Traded Player Exception. (1) Subject to the rules set forth in Section 6(m) below and Section 6(j)(5) below, a Team may, for a period of one (1) year following the date of the trade of a Player Contract to another Team, replace the Traded Player with one (1) or more players acquired by assignmen…",
+      "tags": [
+        "traded_player_exception"
+      ],
+      "review_status": "unreviewed"
+    }
+  ],
+  "headings_index": [
+    {
+      "id": "cba:2017:art-II:sec-6",
+      "unit_type": "section",
+      "label": "cba:2017:art-II §6 Minimum Player Salary",
+      "tags": [
+        "salary_cap"
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "cba:2017:art-II:sec-7",
+      "unit_type": "section",
+      "label": "cba:2017:art-II §7 Maximum Annual Salary",
+      "tags": [
+        "salary_cap"
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "cba:2017:art-II:sec-8",
+      "unit_type": "section",
+      "label": "cba:2017:art-II §8 Promotional Activities",
+      "tags": [
+        "salary_cap"
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "cba:2017:art-IV:sec-8",
+      "unit_type": "section",
+      "label": "cba:2017:art-IV §8 New Benefits Funding",
+      "tags": [
+        "salary_cap"
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "cba:2017:art-IV:sec-9",
+      "unit_type": "section",
+      "label": "cba:2017:art-IV §9 Projected Benefits",
+      "tags": [
+        "luxury_tax",
+        "minimum_team_salary",
+        "salary_cap"
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "cba:2017:art-IV:sec-10",
+      "unit_type": "section",
+      "label": "cba:2017:art-IV §10 Benefit Exclusion Amount",
+      "tags": [
+        "escrow"
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "cba:2017:art-VII",
+      "unit_type": "article",
+      "label": "ARTICLE VII BASKETBALL RELATED INCOME, SALARY CAP, MINIMUM TEAM SALARY, AND ESCROW ARRANGEMENT",
+      "tags": [
+        "bri",
+        "escrow",
+        "minimum_team_salary",
+        "salary_cap"
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "cba:2017:art-VII:sec-1",
+      "unit_type": "section",
+      "label": "cba:2017:art-VII §1 Definitions",
+      "tags": [
+        "bri",
+        "salary_cap"
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "cba:2017:art-VII:sec-2",
+      "unit_type": "section",
+      "label": "cba:2017:art-VII §2 Calculation of Salary Cap and Minimum Team Salary",
+      "tags": [
+        "bri",
+        "minimum_team_salary",
+        "salary_cap"
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "cba:2017:art-VII:sec-3",
+      "unit_type": "section",
+      "label": "cba:2017:art-VII §3 Determination of Salary",
+      "tags": [
+        "salary_cap"
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "cba:2017:art-VII:sec-4",
+      "unit_type": "section",
+      "label": "cba:2017:art-VII §4 Determination of Team Salary",
+      "tags": [
+        "salary_cap"
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "cba:2017:art-VII:sec-5",
+      "unit_type": "section",
+      "label": "cba:2017:art-VII §5 Operation of Salary Cap",
+      "tags": [
+        "salary_cap"
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "cba:2017:art-VII:sec-6",
+      "unit_type": "section",
+      "label": "cba:2017:art-VII §6 Exceptions to the Salary Cap",
+      "tags": [
+        "salary_cap"
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "cba:2017:art-VII:sec-8",
+      "unit_type": "section",
+      "label": "cba:2017:art-VII §8 Trade Rules",
+      "tags": [
+        "salary_cap"
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "cba:2017:art-VII:sec-10",
+      "unit_type": "section",
+      "label": "cba:2017:art-VII §10 Accounting Procedures",
+      "tags": [
+        "bri",
+        "escrow",
+        "salary_cap"
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "cba:2017:art-VII:sec-11",
+      "unit_type": "section",
+      "label": "cba:2017:art-VII §11 Players Association Audit Rights",
+      "tags": [
+        "bri"
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "cba:2017:art-VII:sec-12",
+      "unit_type": "section",
+      "label": "cba:2017:art-VII §12 Escrow and Tax Arrangement",
+      "tags": [
+        "escrow",
+        "salary_cap"
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "cba:2017:art-VIII:sec-4",
+      "unit_type": "section",
+      "label": "cba:2017:art-VIII §4 2018-19 and 2019-20 Rookie Salary Scales",
+      "tags": [
+        "salary_cap"
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "cba:2017:art-XI:sec-2",
+      "unit_type": "section",
+      "label": "cba:2017:art-XI §2 No Individually-Negotiated Right of First Refusal",
+      "tags": [
+        "salary_cap"
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "cba:2017:art-XIII:sec-1",
+      "unit_type": "section",
+      "label": "cba:2017:art-XIII §1 General Prohibitions",
+      "tags": [
+        "bri",
+        "escrow",
+        "salary_cap"
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "cba:2017:art-XIV:sec-11",
+      "unit_type": "section",
+      "label": "cba:2017:art-XIV §11 Effect of Damages on Salary Cap",
+      "tags": [
+        "salary_cap"
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "cba:2017:art-XXVII:sec-5",
+      "unit_type": "section",
+      "label": "cba:2017:art-XXVII §5 Stretched Protected Salary",
+      "tags": [
+        "salary_cap"
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "cba:2017:art-XXVIII:sec-1",
+      "unit_type": "section",
+      "label": "cba:2017:art-XXVIII §1 League Rights",
+      "tags": [
+        "bri"
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "cba:2017:art-XXVIII:sec-2",
+      "unit_type": "section",
+      "label": "cba:2017:art-XXVIII §2 No Suit",
+      "tags": [
+        "bri"
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "cba:2017:art-XXIX:sec-12",
+      "unit_type": "section",
+      "label": "cba:2017:art-XXIX §12 Nondisclosure",
+      "tags": [
+        "bri",
+        "escrow"
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "cba:2017:art-XXXII:sec-10",
+      "unit_type": "section",
+      "label": "cba:2017:art-XXXII §10 Special Procedure for Disputes with Respect to the",
+      "tags": [
+        "escrow"
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "cba:2017:ex-D",
+      "unit_type": "exhibit",
+      "label": "EXHIBIT D BRI EXPENSE RATIOS Team and Related Party Expenses, Article VII, Section 1(a)(6)(v)",
+      "tags": [
+        "bri"
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "cba:2017:art-VII:sec-6:(b)",
+      "unit_type": "subsection",
+      "label": "Veteran Free Agent Exception",
+      "tags": [
+        "exception"
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "cba:2017:art-VII:sec-6:(c)",
+      "unit_type": "subsection",
+      "label": "Disabled Player Exception",
+      "tags": [
+        "disabled_player_exception"
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "cba:2017:art-VII:sec-6:(d)",
+      "unit_type": "subsection",
+      "label": "Bi-annual Exception",
+      "tags": [
+        "bi_annual_exception"
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "cba:2017:art-VII:sec-6:(e)",
+      "unit_type": "subsection",
+      "label": "Non-Taxpayer Mid-Level Salary Exception",
+      "tags": [
+        "mid_level_exception"
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "cba:2017:art-VII:sec-6:(f)",
+      "unit_type": "subsection",
+      "label": "Taxpayer Mid-Level Salary Exception",
+      "tags": [
+        "mid_level_exception"
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "cba:2017:art-VII:sec-6:(g)",
+      "unit_type": "subsection",
+      "label": "Mid-Level Salary Exception for Room Teams",
+      "tags": [
+        "mid_level_exception",
+        "room_exception"
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "cba:2017:art-VII:sec-6:(h)",
+      "unit_type": "subsection",
+      "label": "Rookie Exception",
+      "tags": [
+        "exception"
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "cba:2017:art-VII:sec-6:(i)",
+      "unit_type": "subsection",
+      "label": "Minimum Player Salary Exception",
+      "tags": [
+        "exception"
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "cba:2017:art-VII:sec-6:(j)",
+      "unit_type": "subsection",
+      "label": "Traded Player Exception",
+      "tags": [
+        "traded_player_exception"
+      ],
+      "review_status": "unreviewed"
+    }
+  ],
+  "salary_cap_index": [
+    {
+      "id": "cba:2017:art-II:sec-6",
+      "unit_type": "section",
+      "label": "cba:2017:art-II §6 Minimum Player Salary",
+      "tags": [
+        "salary_cap"
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "cba:2017:art-II:sec-7",
+      "unit_type": "section",
+      "label": "cba:2017:art-II §7 Maximum Annual Salary",
+      "tags": [
+        "salary_cap"
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "cba:2017:art-II:sec-8",
+      "unit_type": "section",
+      "label": "cba:2017:art-II §8 Promotional Activities",
+      "tags": [
+        "salary_cap"
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "cba:2017:art-IV:sec-8",
+      "unit_type": "section",
+      "label": "cba:2017:art-IV §8 New Benefits Funding",
+      "tags": [
+        "salary_cap"
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "cba:2017:art-IV:sec-9",
+      "unit_type": "section",
+      "label": "cba:2017:art-IV §9 Projected Benefits",
+      "tags": [
+        "luxury_tax",
+        "minimum_team_salary",
+        "salary_cap"
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "cba:2017:art-VII",
+      "unit_type": "article",
+      "label": "ARTICLE VII BASKETBALL RELATED INCOME, SALARY CAP, MINIMUM TEAM SALARY, AND ESCROW ARRANGEMENT",
+      "tags": [
+        "bri",
+        "escrow",
+        "minimum_team_salary",
+        "salary_cap"
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "cba:2017:art-VII:sec-1",
+      "unit_type": "section",
+      "label": "cba:2017:art-VII §1 Definitions",
+      "tags": [
+        "bri",
+        "salary_cap"
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "cba:2017:art-VII:sec-2",
+      "unit_type": "section",
+      "label": "cba:2017:art-VII §2 Calculation of Salary Cap and Minimum Team Salary",
+      "tags": [
+        "bri",
+        "minimum_team_salary",
+        "salary_cap"
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "cba:2017:art-VII:sec-3",
+      "unit_type": "section",
+      "label": "cba:2017:art-VII §3 Determination of Salary",
+      "tags": [
+        "salary_cap"
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "cba:2017:art-VII:sec-4",
+      "unit_type": "section",
+      "label": "cba:2017:art-VII §4 Determination of Team Salary",
+      "tags": [
+        "salary_cap"
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "cba:2017:art-VII:sec-5",
+      "unit_type": "section",
+      "label": "cba:2017:art-VII §5 Operation of Salary Cap",
+      "tags": [
+        "salary_cap"
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "cba:2017:art-VII:sec-6",
+      "unit_type": "section",
+      "label": "cba:2017:art-VII §6 Exceptions to the Salary Cap",
+      "tags": [
+        "salary_cap"
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "cba:2017:art-VII:sec-8",
+      "unit_type": "section",
+      "label": "cba:2017:art-VII §8 Trade Rules",
+      "tags": [
+        "salary_cap"
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "cba:2017:art-VII:sec-10",
+      "unit_type": "section",
+      "label": "cba:2017:art-VII §10 Accounting Procedures",
+      "tags": [
+        "bri",
+        "escrow",
+        "salary_cap"
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "cba:2017:art-VII:sec-11",
+      "unit_type": "section",
+      "label": "cba:2017:art-VII §11 Players Association Audit Rights",
+      "tags": [
+        "bri"
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "cba:2017:art-VII:sec-12",
+      "unit_type": "section",
+      "label": "cba:2017:art-VII §12 Escrow and Tax Arrangement",
+      "tags": [
+        "escrow",
+        "salary_cap"
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "cba:2017:art-VIII:sec-4",
+      "unit_type": "section",
+      "label": "cba:2017:art-VIII §4 2018-19 and 2019-20 Rookie Salary Scales",
+      "tags": [
+        "salary_cap"
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "cba:2017:art-XI:sec-2",
+      "unit_type": "section",
+      "label": "cba:2017:art-XI §2 No Individually-Negotiated Right of First Refusal",
+      "tags": [
+        "salary_cap"
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "cba:2017:art-XIII:sec-1",
+      "unit_type": "section",
+      "label": "cba:2017:art-XIII §1 General Prohibitions",
+      "tags": [
+        "bri",
+        "escrow",
+        "salary_cap"
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "cba:2017:art-XIV:sec-11",
+      "unit_type": "section",
+      "label": "cba:2017:art-XIV §11 Effect of Damages on Salary Cap",
+      "tags": [
+        "salary_cap"
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "cba:2017:art-XXVII:sec-5",
+      "unit_type": "section",
+      "label": "cba:2017:art-XXVII §5 Stretched Protected Salary",
+      "tags": [
+        "salary_cap"
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "cba:2017:art-XXVIII:sec-1",
+      "unit_type": "section",
+      "label": "cba:2017:art-XXVIII §1 League Rights",
+      "tags": [
+        "bri"
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "cba:2017:art-XXVIII:sec-2",
+      "unit_type": "section",
+      "label": "cba:2017:art-XXVIII §2 No Suit",
+      "tags": [
+        "bri"
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "cba:2017:art-XXIX:sec-12",
+      "unit_type": "section",
+      "label": "cba:2017:art-XXIX §12 Nondisclosure",
+      "tags": [
+        "bri",
+        "escrow"
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "cba:2017:ex-D",
+      "unit_type": "exhibit",
+      "label": "EXHIBIT D BRI EXPENSE RATIOS Team and Related Party Expenses, Article VII, Section 1(a)(6)(v)",
+      "tags": [
+        "bri"
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "cba:2017:art-VII:sec-6:(e)",
+      "unit_type": "subsection",
+      "label": "Non-Taxpayer Mid-Level Salary Exception",
+      "tags": [
+        "mid_level_exception"
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "cba:2017:art-VII:sec-6:(f)",
+      "unit_type": "subsection",
+      "label": "Taxpayer Mid-Level Salary Exception",
+      "tags": [
+        "mid_level_exception"
+      ],
+      "review_status": "unreviewed"
+    },
+    {
+      "id": "cba:2017:art-VII:sec-6:(g)",
+      "unit_type": "subsection",
+      "label": "Mid-Level Salary Exception for Room Teams",
+      "tags": [
+        "mid_level_exception",
+        "room_exception"
+      ],
+      "review_status": "unreviewed"
+    }
+  ],
+  "review_status": "unreviewed"
+}
