@@ -20,11 +20,11 @@ This is a **citation guide for book authors**, not a data acquisition manual. Ea
 | Vendor/System | Data Type | Typical Access | NBA/League Use | Book-Safe Citation |
 |---------------|-----------|----------------|----------------|-------------------|
 | **SportVU (STATS LLC)** | Optical tracking (XY coordinates, 25 FPS) | Proprietary (discontinued) | NBA 2013–2017 | Primary: NBA press releases, SSAC papers that *discuss* tracking; Secondary: academic papers using archived SportVU |
-| **Second Spectrum** | Optical tracking + AI-derived metrics | Proprietary (NBA partner) | NBA 2017–present | Primary: NBA.com/stats tracking page, Second Spectrum white papers, NBA press releases; Secondary: SSAC papers discussing tracking |
-| **Hawk-Eye (Sony)** | Optical tracking (multi-sport) | Proprietary | Limited NBA use; broader in tennis, soccer, cricket | Primary: Hawk-Eye Innovations press releases; cite where basketball-specific use is documented |
-| **Synergy Sports** | Video tagging, play-type classification | Subscription service | NBA teams, NCAA, FIBA | Primary: Synergy Sports Technology website, team scouting reports (when public); cite as "commercial scouting platform" |
+| **Hawk-Eye (Sony)** | Optical tracking (pose/multi-point 3D, ~14 cameras, 60 FPS) | Proprietary | NBA 2023–present (optical capture) | Primary: Sports Business Journal (2023-03-09), The Guardian (2023-10-20); cite as current NBA optical provider |
+| **Second Spectrum (Genius Sports)** | AI-derived analytics, broadcast augmentation | Proprietary (NBA partner) | NBA 2017–2023 (optical + analytics); 2023–present (analytics engine only) | Primary: NBA.com/stats tracking page, Second Spectrum white papers, Genius Sports partnership announcements; Secondary: SSAC papers |
+| **Synergy Sports** | Video tagging, play-type classification (uses Hawk-Eye optical inputs as of 2023) | Subscription service | NBA teams, NCAA, FIBA | Primary: Synergy Sports Technology website, SBJ (2023-10-27) on Hawk-Eye integration; cite as "commercial scouting platform" |
 | **Stats Perform (formerly Opta)** | Event tagging, advanced stats | Proprietary/Subscription | European leagues, some international | Primary: Stats Perform press releases; cite when discussing international basketball analytics |
-| **Sportradar** | Live data feeds, odds, video tagging | Proprietary API | NBA data partner (betting, media) | Primary: NBA-Sportradar partnership announcements; cite for betting/media context, not raw feeds |
+| **Sportradar** | Live data feeds, odds, video tagging (uses Hawk-Eye optical inputs as of 2023) | Proprietary API | NBA data partner (betting, media) | Primary: NBA-Sportradar partnership announcements, SBJ (2023-10-27); cite for betting/media context, not raw feeds |
 | **ShotTracker** | Sensor-based tracking (wearables + arena) | Proprietary (team/venue contracts) | NBA G-League, NCAA programs | Primary: ShotTracker case studies, NCAA partnership announcements |
 | **Catapult** | Wearable GPS/IMU sensors | Proprietary (subscription) | Training/practice (not NBA games) | Primary: Catapult Sports press releases, team training staff interviews |
 | **Kinexon** | Ultra-wideband (UWB) tracking | Proprietary (venue installation) | FIBA, European leagues, some NBA practice facilities | Primary: Kinexon press releases, FIBA partnership announcements |
@@ -70,22 +70,26 @@ This is a **citation guide for book authors**, not a data acquisition manual. Ea
 
 ---
 
-### Second Spectrum
+### Second Spectrum (Genius Sports)
 
 **Provider:** Second Spectrum (acquired by Genius Sports in 2021)  
-**Technology:** Enhanced optical tracking + machine learning (AI-derived metrics, shot quality, defensive impact)  
+**Technology:** Machine learning and AI-derived analytics engine (processes optical tracking data from hardware providers)  
 **Data produced:**
-- Player and ball tracking (similar to SportVU)
 - Advanced metrics: shot quality, defensive influence, pass quality, off-ball movement scores
-- Augmented reality overlays for broadcasts
-- Real-time coaching tools ("CourtVision" broadcast layer)
+- Augmented reality overlays for broadcasts (ESPN/ABC CourtVision)
+- Real-time coaching tools and team analytics platforms
+- "Dragon" mesh technology (R&D on player mesh modeling)
 
 **NBA adoption timeline:**
 - **2013:** Founded by Rajiv Maheswaran (USC professor) and research team
 - **2015:** Initial NBA partnerships (LA Clippers, Dallas Mavericks)
-- **2017:** Becomes official NBA tracking provider, replacing SportVU
-- **2017–present:** All 30 NBA arenas; expanded to WNBA and international partnerships
+- **2017–2023:** Official NBA tracking provider (both optical capture and analytics)
+- **2023–present:** Analytics engine and League Pass augmentation partner (optical capture transitioned to Sony Hawk-Eye)
 - **2021:** Acquired by Genius Sports
+
+**Important distinction (as of 2023-24):**
+- **Raw optical capture:** Now handled by Sony Hawk-Eye (~14 cameras, 60 FPS, pose/multi-point 3D)
+- **Second Spectrum role:** Processes Hawk-Eye optical data to generate AI-derived metrics, powers team tools, and provides broadcast augmentation (CourtVision)
 
 **Access model:**
 - **Proprietary:** Available only to NBA teams, league office, and broadcast partners
@@ -94,7 +98,7 @@ This is a **citation guide for book authors**, not a data acquisition manual. Ea
 
 **Book-safe citation:**
 - **Primary sources:**
-  - NBA press releases: "NBA Partners with Second Spectrum" (2017)
+  - NBA press releases: "NBA Partners with Second Spectrum" (2017), Genius Sports partnership expansion (League Pass + Dragon)
   - Second Spectrum website: https://www.secondspectrum.com/index.html
   - NBA.com/stats tracking metrics (cite specific endpoints)
   - ESPN CourtVision broadcast examples (cite as "broadcast augmentation," not data source)
@@ -102,46 +106,61 @@ This is a **citation guide for book authors**, not a data acquisition manual. Ea
   - SSAC papers discussing Second Spectrum metrics (2018–present)
   - Trade press: The Athletic, ESPN features on "next-gen stats"
   - Academic papers: Some research labs have collaborated with Second Spectrum for published studies (cite paper, not direct data access)
-- **Citation format:** "Second Spectrum tracking system (NBA official partner, 2017–present)"
+- **Citation format (2017–2023):** "Second Spectrum tracking system (NBA official partner, optical and analytics)"
+- **Citation format (2023–present):** "Second Spectrum analytics engine (NBA partner, processes Hawk-Eye optical data)"
 
 **Public secondary sources:**
 - Second Spectrum company page: https://www.secondspectrum.com/index.html
 - NBA.com tracking stats: https://www.nba.com/stats/
 - SSAC papers: "HoopEval: Individual Player Action Evaluation via Deep Reinforcement Learning" (2026, uses tracking data)
 - Genius Sports acquisition announcement (2021): https://geniussports.com/
+- Genius Sports NBA partnership expansion (League Pass, Dragon): Check Genius Sports press releases
 
 ---
 
 ### Hawk-Eye (Sony)
 
 **Provider:** Hawk-Eye Innovations (Sony subsidiary)  
-**Technology:** Multi-camera optical tracking, originally developed for tennis line-calling; adapted for soccer, cricket, and experimentally for basketball  
+**Technology:** Multi-camera optical tracking system with pose estimation and multi-point 3D tracking  
 **Data produced:**
-- Ball trajectory reconstruction
-- Player tracking (when configured for basketball)
-- Officiating aids (shot clock accuracy, out-of-bounds review)
+- Player and ball positions (pose estimation, skeletal tracking)
+- Multi-point 3D coordinates (more detailed than previous XY tracking)
+- ~14 cameras per arena, 60 frames per second (upgrade from SportVU's 25 FPS)
+- Raw optical data fed to analytics partners (Second Spectrum, Synergy, Sportradar)
 
-**Basketball-specific use:**
-- **Limited NBA adoption:** Not the official NBA tracking system (Second Spectrum holds that contract)
-- **Experimental installations:** Some international leagues and events have tested Hawk-Eye for officiating
-- **Primary use in basketball:** Officiating technology (e.g., FIBA experiments), not player tracking analytics
+**NBA adoption timeline:**
+- **Pre-2023:** Primarily known for tennis line-calling, soccer goal-line technology, cricket ball tracking
+- **2023–present:** Official NBA optical tracking provider (replaced Second Spectrum for raw capture)
+- **Partnership model:** Hawk-Eye provides raw optical data; Second Spectrum processes it for analytics and broadcast augmentation
+
+**Basketball-specific use (as of 2023-24):**
+- **NBA official optical capture:** All 30 NBA arenas equipped with Hawk-Eye camera systems
+- **Data distribution:** Hawk-Eye optical feeds power Second Spectrum analytics, Synergy scouting, Sportradar team platforms
+- **Officiating aids:** Shot clock accuracy, out-of-bounds review (secondary use)
+- **International:** Some FIBA and international leagues use Hawk-Eye for officiating technology
 
 **Access model:**
-- **Proprietary:** Data not publicly available
-- **Broadcast use:** Hawk-Eye graphics appear in some soccer/cricket broadcasts; basketball use is minimal
+- **Proprietary:** Raw optical data not publicly available
+- **Indirect access:** NBA.com/stats metrics (processed by Second Spectrum from Hawk-Eye inputs)
+- **Team platforms:** Teams access analytics via Second Spectrum, Synergy, Sportradar (all using Hawk-Eye optical data)
 
 **Book-safe citation:**
 - **Primary sources:**
-  - Hawk-Eye Innovations press releases (search for basketball-specific announcements)
-  - FIBA officiating technology announcements (if Hawk-Eye is used)
+  - Sports Business Journal (2023-03-09): "NBA bringing in Hawk-Eye for tracking data in 2023-24"
+  - The Guardian (2023-10-20): Hawk-Eye NBA data coverage
+  - Sports Business Journal (2023-10-27): Sportradar/Synergy integration with Hawk-Eye optical inputs
+  - Hawk-Eye Innovations press releases (NBA partnership)
 - **Secondary sources:**
-  - Trade press: mention only when basketball use is confirmed (e.g., international tournament officiating)
-- **Citation format:** "Hawk-Eye optical tracking system (Sony; limited basketball deployment for officiating)"
-- **⚠️ Note:** Do not cite Hawk-Eye as equivalent to SportVU/Second Spectrum for NBA analytics unless specific basketball partnership is documented
+  - Trade press: SBJ, SportTechie, Sports Innovation Lab
+  - FIBA officiating technology announcements (international use)
+- **Citation format (2023–present):** "Hawk-Eye optical tracking system (Sony; NBA official optical provider, 2023–present)"
+- **Citation format (pre-2023):** "Hawk-Eye officiating technology (Sony; limited basketball deployment)"
 
 **Public secondary sources:**
 - Hawk-Eye Innovations website: https://www.hawkeyeinnovations.com/
 - Sony Sports Technology page (Hawk-Eye): https://www.sony.com/en/SonyInfo/technology/activities/Hawk-Eye/
+- Sports Business Journal (2023-03-09): NBA/Hawk-Eye partnership announcement
+- The Guardian (2023-10-20): NBA tracking technology shift
 
 ---
 
@@ -150,15 +169,17 @@ This is a **citation guide for book authors**, not a data acquisition manual. Ea
 ### Synergy Sports Technology
 
 **Provider:** Synergy Sports Technology (acquired by Collegiate Sports Management Group in 2014; later integrated with Stats Perform in some markets)  
-**Technology:** Video indexing and play-type tagging (manual + assisted)  
+**Technology:** Video indexing and play-type tagging (manual + assisted), integrated with optical tracking data  
 **Data produced:**
 - Play-type classifications: pick-and-roll, isolation, post-up, transition, spot-up, off-screen, cuts
 - Defensive matchup tagging
 - Shot location and outcome (make/miss)
 - Video clips indexed by player, team, play type
+- **As of 2023:** Enhanced with Hawk-Eye optical tracking inputs for NBA team platform
 
 **League adoption:**
 - **NBA:** Used by team front offices and coaching staffs (2000s–present); not an official league-wide system but widely adopted
+- **2023:** Integration with Hawk-Eye optical data via Sportradar partnership (see Sports Business Journal 2023-10-27)
 - **NCAA:** Official stats provider for Division I men's and women's basketball (2008–present)
 - **FIBA:** Used by international federations for scouting
 - **WNBA, European leagues:** Various team subscriptions
@@ -171,17 +192,20 @@ This is a **citation guide for book authors**, not a data acquisition manual. Ea
 **Book-safe citation:**
 - **Primary sources:**
   - Synergy Sports Technology website: https://synergysports.com/
+  - Sports Business Journal (2023-10-27): Sportradar/Synergy integration with Hawk-Eye optical inputs
   - NCAA partnership announcements: "NCAA Partners with Synergy Sports" (2008)
   - Team scouting reports: When teams cite Synergy data publicly (e.g., "Player X scored 1.2 PPP in pick-and-roll per Synergy")
 - **Secondary sources:**
   - Draft analyst reports (e.g., The Stepien, ESPN draft coverage citing Synergy)
   - Academic papers using Synergy classifications (e.g., play-type efficiency studies)
-- **Citation format:** "Synergy Sports Technology play-type classification (commercial scouting platform)"
+- **Citation format (2023–present):** "Synergy Sports Technology play-type classification (commercial scouting platform, Hawk-Eye optical integration)"
+- **Citation format (pre-2023):** "Synergy Sports Technology play-type classification (commercial scouting platform)"
 
 **Public secondary sources:**
 - Synergy Sports website: https://synergysports.com/
 - NCAA stats portal (powered by Synergy): https://www.ncaa.com/stats/basketball-men/d1
 - ESPN/The Athletic draft coverage citing Synergy data
+- Sports Business Journal (2023-10-27): Hawk-Eye integration announcement
 
 ---
 
@@ -222,17 +246,19 @@ This is a **citation guide for book authors**, not a data acquisition manual. Ea
 ### Sportradar
 
 **Provider:** Sportradar AG (Swiss company; publicly traded on NASDAQ as SRAD)  
-**Technology:** Live data collection (scorekeeping + event tagging), betting odds aggregation, video tagging  
+**Technology:** Live data collection (scorekeeping + event tagging), betting odds aggregation, video tagging, integrated with optical tracking  
 **Data produced:**
 - Real-time game events (shots, fouls, substitutions)
 - Play-by-play data (timestamped)
 - Betting odds and lines (multi-bookmaker aggregation)
 - Video highlights and tagging
+- **As of 2023:** Enhanced team platform with Hawk-Eye optical tracking inputs (via Synergy partnership)
 
 **NBA adoption:**
 - **2016:** NBA announces Sportradar as official data partner for international betting and media distribution
 - **2018:** Expanded partnership for real-time data feeds to authorized betting operators
-- **Role:** Data distribution and integrity monitoring (not in-arena tracking); complements Second Spectrum
+- **2023:** Integration with Hawk-Eye optical data for team analytics platform (see Sports Business Journal 2023-10-27)
+- **Role:** Data distribution and integrity monitoring; team platform provider
 
 **Access model:**
 - **Proprietary API:** Available to media partners, sportsbooks, and authorized partners
@@ -242,16 +268,19 @@ This is a **citation guide for book authors**, not a data acquisition manual. Ea
 **Book-safe citation:**
 - **Primary sources:**
   - NBA-Sportradar partnership press releases: https://www.nba.com/news/nba-sportradar-partnership-2016
+  - Sports Business Journal (2023-10-27): Sportradar/Synergy integration with Hawk-Eye optical inputs
   - Sportradar website: https://sportradar.com/
 - **Secondary sources:**
   - Trade press: Sports Business Journal, Legal Sports Report (betting/media context)
-- **Citation format:** "Sportradar live data feeds (NBA partner for betting and media distribution, 2016–present)"
-- **⚠️ Context:** Cite when discussing betting markets or media infrastructure, not player tracking or advanced analytics
+- **Citation format (2023–present):** "Sportradar live data feeds and team platform (NBA partner, Hawk-Eye optical integration)"
+- **Citation format (pre-2023):** "Sportradar live data feeds (NBA partner for betting and media distribution)"
+- **⚠️ Context:** Cite when discussing betting markets, media infrastructure, or team analytics platforms
 
 **Public secondary sources:**
 - Sportradar corporate site: https://sportradar.com/
 - NBA data partnership page: https://www.nba.com/news/nba-sportradar-partnership-2016
 - Sports Business Journal coverage of NBA data deals
+- Sports Business Journal (2023-10-27): Hawk-Eye integration announcement
 
 ---
 
@@ -275,7 +304,7 @@ This is a **citation guide for book authors**, not a data acquisition manual. Ea
 - **NBA G-League:** Installed in all G-League arenas (2017–present)
 - **NCAA:** Partnerships with Division I programs (e.g., Purdue, Iowa, Kansas)
 - **High school/AAU:** Expanding into youth basketball programs
-- **Not NBA regular season:** NBA uses Second Spectrum optical tracking instead
+- **Not NBA regular season:** NBA uses Hawk-Eye optical tracking (processed by Second Spectrum) instead
 
 **Access model:**
 - **Proprietary:** Data available only to teams/venues with ShotTracker installations
@@ -513,7 +542,11 @@ Several research groups have published methods to reconstruct player tracking fr
 
 - **SportVU NBA Partnership (2013):** "NBA, STATS LLC Announce Full League Integration of SportVU Player Tracking Technology" — NBA.com press release (archived)
 - **Second Spectrum NBA Partnership (2017):** "NBA Partners with Second Spectrum for Optical Tracking, Data, and Broadcast Augmentation" — NBA.com
+- **Hawk-Eye NBA Partnership (2023):** "NBA bringing in Hawk-Eye for tracking data in 2023-24" — Sports Business Journal, March 9, 2023
+- **Hawk-Eye NBA Coverage (2023):** The Guardian, October 20, 2023 (Hawk-Eye NBA data coverage)
+- **Sportradar/Synergy Hawk-Eye Integration (2023):** Sports Business Journal, October 27, 2023 (Sportradar/Synergy integration with Hawk-Eye optical inputs)
 - **Genius Sports Acquires Second Spectrum (2021):** https://geniussports.com/
+- **Genius Sports NBA Partnership Expansion:** Genius Sports press releases (League Pass, Dragon mesh technology)
 - **NBA-Sportradar Partnership (2016):** https://www.nba.com/news/nba-sportradar-partnership-2016
 - **ShotTracker G-League Partnership (2017):** "NBA G-League Announces Partnership with ShotTracker" — GLeague.NBA.com
 - **FIBA-Kinexon Partnership (2019):** "FIBA Partners with Kinexon for Real-Time Tracking" — FIBA.basketball press release
@@ -531,7 +564,7 @@ Several research groups have published methods to reconstruct player tracking fr
 
 ### NBA & League Resources
 
-- **NBA.com/stats tracking dashboard:** https://www.nba.com/stats/ (Second Spectrum metrics)
+- **NBA.com/stats tracking dashboard:** https://www.nba.com/stats/ (Hawk-Eye optical data processed by Second Spectrum analytics, 2023–present)
 - **FIBA Basketball:** https://www.fiba.basketball/ (tournament stats, BAT reports)
 - **EuroLeague Basketball:** https://www.euroleague.net/ (European league stats)
 - **NCAA Basketball Stats:** https://www.ncaa.com/stats/basketball-men/d1 (powered by Synergy)
@@ -549,7 +582,11 @@ See [SLOAN-ARCHIVE.md](SLOAN-ARCHIVE.md) for full index. Key papers discussing t
 
 - **Grantland / ESPN (2013–2016):** Zach Lowe, Kirk Goldsberry articles on SportVU era
 - **The Athletic (2017–present):** "Next-gen stats" features on Second Spectrum
-- **Sports Business Journal:** Coverage of NBA data partnerships (Sportradar, Second Spectrum)
+- **Sports Business Journal:** Coverage of NBA data partnerships
+  - "NBA bringing in Hawk-Eye for tracking data in 2023-24" (March 9, 2023)
+  - "Sportradar/Synergy integration with Hawk-Eye optical inputs" (October 27, 2023)
+  - Sportradar, Second Spectrum partnership announcements
+- **The Guardian (2023):** Hawk-Eye NBA data coverage (October 20, 2023)
 - **SportTechie:** Sports technology vendor coverage (ShotTracker, Kinexon, Catapult)
 
 ---
