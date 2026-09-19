@@ -2,6 +2,8 @@
 #
 # Fetch wyattowalsh/basketball NBA Database from Kaggle
 #
+# ⚠️  STATUS: PHASE LATER — BLOCKED ON KAGGLE API CREDENTIALS
+#
 # Prerequisites:
 #   - Kaggle API credentials configured (~/.kaggle/kaggle.json)
 #   - Install: pip install kaggle

@@ -12,6 +12,7 @@ Track which data products support which sections of the manuscript, ensuring eve
 |-------------|------------------|------------|--------|
 | GAME TIME / average game | `data/derived/avg_game_by_decade.csv` | TBD | ready |
 | STADIUM / home court advantage | `data/derived/home_court_2024_playoffs.md` | TBD | wanted |
+| ANALYTICS / state of the data | `docs/SLOAN-ARCHIVE.md` + `docs/DATA-REPOS.md` + `data/sloan/papers.jsonl` | TBD | ready |
 | EXAMPLE: PLAYERS / height evolution | `data/derived/nba_height_series.csv` | TBD | EXAMPLE |
 | EXAMPLE: TEAM / front office / efficiency | `data/derived/franchise_efficiency_2015_16.md` | TBD | EXAMPLE |
 
