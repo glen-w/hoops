@@ -83,7 +83,7 @@ Track which data products support which sections of the manuscript, ensuring eve
 | CBA / 2017 Exhibits | `data/cba/2017/derived/structure.json` | TBD | ready; spike |
 | CBA / 2017 spike documentation | `docs/cba/SPIKE-2017.md` | TBD | ready |
 | CBA / compare 2017-2023 | `docs/cba/COMPARE-2017-2023.md` | TBD | ready |
-| LEAGUE / teams desk | `data/derived/teams/` | TBD | partial — 364 teams (NBA 30 + WNBA 12 + EuroLeague 20 + EuroLeague Women 22 + P0e domestics 110 + P0f Asia/Oceania/Africa/Türkiye 116 + P0g Americas domestics 54); colours/logos/ownership enrichment still open; 44 QID gaps documented (2 EuroLeague Women + 7 LF Endesa + 2 LFB + 7 WCBA + 1 NBB + 9 LBF + 16 LFB Argentina) |
+| LEAGUE / teams desk | `data/derived/teams/` | TBD | partial — 441 teams (NBA 30 + WNBA 12 + EuroLeague 20 + EuroLeague Women 22 + P0e domestics 110 + P0f Asia/Oceania/Africa/Türkiye 116 + P0g Americas domestics 54 + P0h next domestics 77); colours/logos/ownership enrichment still open; 44 QID gaps documented (2 EuroLeague Women + 7 LF Endesa + 2 LFB + 7 WCBA + 1 NBB + 9 LBF + 16 LFB Argentina) |
 | TEAMS / global / EuroLeague | `data/derived/teams/teams.csv` | TBD | ready |
 | TEAMS / global / EuroLeague Women | `data/derived/teams/teams.csv` | TBD | ready |
 | TEAMS / global / Liga ACB | `data/derived/teams/teams.csv` | TBD | ready — Spanish men (18 clubs) |
@@ -107,6 +107,10 @@ Track which data products support which sections of the manuscript, ensuring eve
 | TEAMS / global / Liga Nacional de Baloncesto Profesional (MX) | `data/derived/teams/teams.csv` | TBD | ready — Mexican men (14 clubs) |
 | TEAMS / global / Liga de Basquete Feminino | `data/derived/teams/teams.csv` | TBD | ready — Brazilian women (1 club with QID, 9 gaps) |
 | TEAMS / global / Liga Femenina de Básquetbol (AR) | `data/derived/teams/teams.csv` | TBD | ready — Argentine women (4 clubs with QIDs, 16 gaps) |
+| TEAMS / global / ABA Adriatic League | `data/derived/teams/teams.csv` | TBD | ready — P0h regional Adriatic men (20 clubs) |
+| TEAMS / global / Philippine Basketball Association | `data/derived/teams/teams.csv` | TBD | ready — P0h Philippine men (12 franchise QIDs) |
+| TEAMS / global / NBA G League | `data/derived/teams/teams.csv` | TBD | ready — P0h NBA G League men (31 teams) |
+| TEAMS / global / Israeli Basketball Premier League | `data/derived/teams/teams.csv` | TBD | ready — P0h Israeli Winner League men (14 clubs) |
 | Binder / comparable books desk | `data/derived/books/comparable.csv` | TBD | ready |
 
 ## Column Definitions
@@ -142,6 +146,8 @@ Track which data products support which sections of the manuscript, ensuring eve
 **Comparable books (2026-09-19):** 19 basketball books for desk reading and comparison. Goodreads ratings are high confidence; Amazon UK ratings and prices are often gaps. See `data/derived/books/README.md` and `comparable.md`.
 
 **Teams P0c (2026-09-19):** 84-row unified desk in `teams.csv` (NBA 30 + WNBA 12 + EuroLeague 20 + EuroLeague Women 22). EuroLeague Women has 2 Wikidata ID gaps in the seed. Logos still deferred.
+
+**Teams P0h (2026-09-19):** Added 77 next domestics (append-only to 364 → 441 total): ABA Adriatic League 20, PBA 12, NBA G League 31, Israeli Basketball Premier League 14. All teams have validated Wikidata QIDs from enwiki pageprops (sources: `uploads/leagues_seed_fragment_608e.yaml`, `uploads/qid_map_9dbc.md`, `uploads/README_16da.md`). Abbreviations uniquified within each league_id. No invented QIDs or colours. QID traps handled: San Diego Clippers G League used disambiguated enwiki title; Ironi Kiryat Ata used basketball B.C. item.
 
 **Teams P0g (2026-09-19):** Added 54 Americas domestic teams: NBB 17 (Brazil, 1 gap), LNB Argentina 18, LNBP 14 (Mexico), LBF 1 (Brazil women, 9 gaps), LFB Argentina 4 (16 gaps). Total desk: 364 teams, 44 QID gaps documented. Thin women's coverage noted honestly per hard requirements.
 
