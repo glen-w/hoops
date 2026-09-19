@@ -1,0 +1,25 @@
+{
+  "edition": "2023",
+  "title": "NBA Collective Bargaining Agreement 2023-2030",
+  "effective_dates": {
+    "start": "2023-07-01",
+    "end": "2030-06-30"
+  },
+  "source": {
+    "url": "https://nbpa.com/cba",
+    "fetched_at": "2026-09-19T00:00:00Z",
+    "sha256": "cf59d43fe46f63d7ba07364563046d766c487c26032fcc88432310d47effd9d9",
+    "verification_note": "Golden hash from spike - NBA Official 2023 Final PDF"
+  },
+  "structure_summary": {
+    "articles": 42,
+    "sections": 279,
+    "exhibits": 17,
+    "total_pages": null
+  },
+  "license": {
+    "copyright": "NBA and NBPA",
+    "usage": "Proprietary - structure metadata only under fair use",
+    "fulltext": "Not committed - local use only"
+  }
+}

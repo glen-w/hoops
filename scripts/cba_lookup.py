@@ -72,10 +72,14 @@ def format_unit(unit: Dict, edition: str, is_fixture: bool = False) -> str:
         span_len = unit['char_offset_end'] - unit['char_offset_start']
         lines.append(f"Character span: {unit['char_offset_start']}-{unit['char_offset_end']} ({span_len:,} chars)")
     
+    # Show text hash if present
+    if unit.get('text_sha256'):
+        lines.append(f"Content hash: sha256:{unit['text_sha256'][:16]}...")
+    
     if is_fixture:
         lines.append("")
-        lines.append("Status: needs_local_pdf")
-        lines.append("(Fixture only - place PDF at data/raw/cba/{}/cba.pdf and regenerate)".format(edition))
+        lines.append("Status: quotes_need_pdf")
+        lines.append("(Fixture — lookup ready, quotes need PDF at data/raw/cba/{}/cba.pdf)".format(edition))
     
     return "\n".join(lines)
 
@@ -94,11 +98,62 @@ def search_by_title(units: List[Dict], query: str) -> List[Dict]:
 
 
 def search_by_id(units: List[Dict], unit_id: str) -> Optional[Dict]:
-    """Search for unit by exact ID."""
+    """Search for unit by exact ID.
+    
+    Supports both new clause ID format (cba:2023:art-VII:sec-1) and
+    legacy format (article_7_section_1) for backward compatibility.
+    """
+    # Direct match
     for unit in units:
         if unit['id'] == unit_id:
             return unit
+    
+    # Try legacy format conversion (article_7 -> cba:EDITION:art-VII)
+    # This handles structure.fixture.json which may use old IDs
+    if not unit_id.startswith("cba:"):
+        # Extract edition from first unit if available
+        edition = units[0].get('id', '').split(':')[1] if units and ':' in units[0].get('id', '') else '2023'
+        
+        # Convert legacy ID to new format
+        if unit_id.startswith("article_"):
+            # article_7 -> cba:2023:art-VII
+            num = unit_id.replace("article_", "")
+            if num.isdigit():
+                roman = _int_to_roman(int(num))
+                new_id = f"cba:{edition}:art-{roman}"
+                for unit in units:
+                    if unit['id'] == new_id:
+                        return unit
+        elif "section_" in unit_id:
+            # article_7_section_1 -> cba:2023:art-VII:sec-1
+            parts = unit_id.split("_section_")
+            if len(parts) == 2:
+                article_part = parts[0].replace("article_", "")
+                section_num = parts[1]
+                if article_part.isdigit() and section_num.isdigit():
+                    roman = _int_to_roman(int(article_part))
+                    new_id = f"cba:{edition}:art-{roman}:sec-{section_num}"
+                    for unit in units:
+                        if unit['id'] == new_id:
+                            return unit
+    
     return None
+
+
+def _int_to_roman(num: int) -> str:
+    """Convert integer to Roman numeral."""
+    values = [
+        (1000, 'M'), (900, 'CM'), (500, 'D'), (400, 'CD'),
+        (100, 'C'), (90, 'XC'), (50, 'L'), (40, 'XL'),
+        (10, 'X'), (9, 'IX'), (5, 'V'), (4, 'IV'), (1, 'I')
+    ]
+    result = []
+    for value, numeral in values:
+        count = num // value
+        if count:
+            result.append(numeral * count)
+            num -= value * count
+    return ''.join(result)
 
 
 def search_by_term(units: List[Dict], term: str) -> List[Dict]:
