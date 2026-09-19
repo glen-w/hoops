@@ -118,6 +118,40 @@ All 42 teams comply with locked schema:
 - ✅ Real Wikidata QIDs
 - ✅ Former names documented where applicable
 
+## Ownership Enrichment (2026-09-19)
+
+**Status:** Complete for NBA (30) + WNBA (12) = 42 teams
+
+Researcher's ownership patch applied with high-confidence sources:
+- **Patch date:** 2026-09-19
+- **Coverage:** All NBA and WNBA teams
+- **Methodology:** See `ownership_methodology.md` in this directory
+- **Not included:** other leagues (deferred; multi-jurisdiction corporate structures)
+
+### Ownership Structure Distribution
+
+| Structure | NBA | WNBA | Total |
+|-----------|-----|------|-------|
+| sole      | 5   | 1    | 6     |
+| majority  | 20  | 5    | 25    |
+| group     | 4   | 6    | 10    |
+| public    | 1   | 0    | 1     |
+| **Total** | **30** | **12** | **42** |
+
+**High confidence (37):** Standard ownership cites (team FO pages, Wikipedia List of NBA team owners, closing PRs)  
+**Medium confidence (5):** Controlling role clear; stake % or named individual differs by source (DEN, GSW, SAC, WNBA CHI, WNBA DAL)
+
+### Notable Ownership Details
+
+- **Connecticut Sun:** Mohegan → Fertitta family (closed 2026-05-14); structure changed from `municipal` to `sole`
+- **Trail Blazers:** Allen Trust → Tom Dundon (2026 sale)
+- **Celtics:** Grousbeck → William Chisholm majority (closed 2025)
+- **Lakers:** Mark Walter majority; Jeanie Buss remains governor/CEO
+- **Knicks:** Classified as `public` (MSG Sports Corp, NYSE:MSGS) despite Dolan family voting control
+- **Timberwolves/Lynx:** Taylor → Lore & Rodriguez (closed 2025)
+
+See `ownership_methodology.md` for decision rules and source hierarchy.
+
 ## Next Phase
 
 ### P465 Color Extraction (Blocked)
