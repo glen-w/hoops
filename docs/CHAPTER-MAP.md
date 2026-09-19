@@ -21,7 +21,7 @@ Track which data products support which sections of the manuscript, ensuring eve
 | Annexes / negative studies / dribbling creativity | `data/studies/kanatschnig-2023-dribbling-creativity.md` | M53K3EAJ | ready |
 | ANALYTICS / state of the data | `docs/SLOAN-ARCHIVE.md` + `docs/DATA-REPOS.md` + `docs/BASKETBALL-SOFTWARE.md` + `data/sloan/papers.jsonl` | TBD | ready |
 | PLAYERS / height evolution | `data/derived/height-series/nba_height_series.csv` | TBD (RunRepeat / Curcic) | ready |
-| EXAMPLE: TEAM / front office / efficiency | `data/derived/franchise_efficiency_2015_16.md` | TBD | EXAMPLE |
+| TEAM / front office / efficiency | `data/derived/franchise_efficiency_2015_16.md` | OregonLive-Odom-2016-05-13 | ready |
 | TEAM / Atlanta Hawks / front office | `data/derived/nba_orgs/atlanta-hawks.csv` | TBD | ready |
 | TEAM / Boston Celtics / front office | `data/derived/nba_orgs/boston-celtics.csv` | TBD | ready |
 | TEAM / Brooklyn Nets / front office | `data/derived/nba_orgs/brooklyn-nets.csv` | TBD | ready |
@@ -54,7 +54,6 @@ Track which data products support which sections of the manuscript, ensuring eve
 | TEAM / Washington Wizards / front office | `data/derived/nba_orgs/washington-wizards.csv` | TBD | ready |
 | Officiating / referee stats 2023-24 | `data/derived/nba-referees-2023-24/nba_referees_2023_24.csv` | TBD (NBAstuffer) | ready |
 | Disputes / FIBA BAT arbitration | `data/derived/fiba-bat-2022/fiba_bat_arbitration_by_year.csv` | TBD (FIBA official) | ready |
-| TEAM / front office / efficiency | `docs/franchise-efficiency-sources.md` | TBD | source_map |
 | LEAGUE / income | `data/derived/league_income_ingredients.csv` + `data/derived/league_income_methodology.md` | TBD | ready |
 | BROADCAST / ads | `docs/broadcast-ads-sources.md` | TBD | source_map |
 | LEAGUE / income / schema | `docs/SCHEMA-sketch.md` | TBD | wanted |
@@ -85,7 +84,7 @@ Track which data products support which sections of the manuscript, ensuring eve
 
 **NBA org-charts sparse sources:** TOR, CLE, MIL relied more on press releases + NBAstuffer vs. official staff directories; check row-level `confidence` + `as_of` when citing.
 
-**Source notes (2026-09-19):** franchise efficiency, league income, and broadcast ads. The Forbes 22 Apr 2016 Blazers/Celtics attribution in `docs/franchise-efficiency-sources.md` is UNCONFIRMED until the original clipping or URL is supplied. League income v1: media partners and terms are high confidence; media dollars and BRI are medium; licensing, arena, and local revenue are still gaps.
+**Source notes (2026-09-19):** franchise efficiency, league income, and broadcast ads. Forbes 22 Apr 2016 was searched and marked NOT_FOUND; the 2015-16 payroll-vs-wins figures now cite Joel Odom, OregonLive, 13 May 2016 (Blazers 44 wins, not 48). League income v1: media partners and terms are high confidence; media dollars and BRI are medium; licensing, arena, and local revenue are still gaps.
 
 **CBA lookup:** PDFs at `data/raw/cba/{edition}/cba.pdf` are gitignored. The lookup tools work after a local PDF is supplied and extracted. See `docs/cba-structure-pipeline.md`.
 
