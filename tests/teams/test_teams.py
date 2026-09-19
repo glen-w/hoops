@@ -4,6 +4,8 @@ Tests for teams data pipeline.
 Validates schema compliance and data quality for NBA/WNBA teams.
 """
 
+import re
+
 import pandas as pd
 import pytest
 from pathlib import Path
@@ -31,7 +33,9 @@ def test_teams_schema():
         "team_id",
         "league_id",
         "name",
+        "abbr",
         "short_name",
+        "former_names",
         "city",
         "country",
         "arena",
@@ -39,6 +43,7 @@ def test_teams_schema():
         "founded_year",
         "colours_primary_hex",
         "colours_secondary_hex",
+        "colours_accent_hex",
         "colours_source",
         "mascot",
         "owner",
@@ -96,6 +101,62 @@ def test_lakers_row_shape():
     # Validate source_url is Wikidata
     assert lakers_row["source_url"].startswith("https://www.wikidata.org/wiki/"), \
         "source_url should be Wikidata URL"
+    
+    # Validate abbr is present
+    assert pd.notna(lakers_row["abbr"]), "Lakers abbr should be present"
+    assert lakers_row["abbr"] == "LAL", f"Lakers abbr should be LAL, got {lakers_row['abbr']}"
+
+
+def test_ownership_structure_enum():
+    """Validate ownership_structure uses locked vocabulary only."""
+    teams_csv = REPO_ROOT / "data" / "derived" / "teams" / "teams.csv"
+    
+    if not teams_csv.exists():
+        pytest.skip("teams.csv not yet generated")
+    
+    df = pd.read_csv(teams_csv)
+    
+    valid_values = {"sole", "majority", "group", "public", "municipal", "unknown"}
+    
+    for idx, row in df.iterrows():
+        ownership = row["ownership_structure"]
+        if pd.notna(ownership):
+            assert ownership in valid_values, \
+                f"Row {idx} ({row['name']}): ownership_structure '{ownership}' not in locked vocab {valid_values}"
+
+
+def test_no_invented_hex_colors():
+    """Ensure colors are never invented - must be blank or official hex."""
+    teams_csv = REPO_ROOT / "data" / "derived" / "teams" / "teams.csv"
+    
+    if not teams_csv.exists():
+        pytest.skip("teams.csv not yet generated")
+    
+    df = pd.read_csv(teams_csv)
+    
+    hex_pattern = r'^#[0-9A-Fa-f]{6}$'
+    
+    for idx, row in df.iterrows():
+        # Check primary color
+        if pd.notna(row["colours_primary_hex"]):
+            assert pd.notna(row["colours_source"]), \
+                f"Row {idx} ({row['name']}): colours_primary_hex present but colours_source missing"
+            assert re.match(hex_pattern, row["colours_primary_hex"]), \
+                f"Row {idx} ({row['name']}): colours_primary_hex must be #RRGGBB format"
+        
+        # Check secondary color
+        if pd.notna(row["colours_secondary_hex"]):
+            assert pd.notna(row["colours_source"]), \
+                f"Row {idx} ({row['name']}): colours_secondary_hex present but colours_source missing"
+            assert re.match(hex_pattern, row["colours_secondary_hex"]), \
+                f"Row {idx} ({row['name']}): colours_secondary_hex must be #RRGGBB format"
+        
+        # Check accent color
+        if pd.notna(row["colours_accent_hex"]):
+            assert pd.notna(row["colours_source"]), \
+                f"Row {idx} ({row['name']}): colours_accent_hex present but colours_source missing"
+            assert re.match(hex_pattern, row["colours_accent_hex"]), \
+                f"Row {idx} ({row['name']}): colours_accent_hex must be #RRGGBB format"
 
 
 def test_logos_csv_schema():
