@@ -8,6 +8,7 @@ The manuscript stays in Scrivener (`/Users/89298/Documents/Hoops/hoops.scriv`). 
 
 - Roadmap: [ROADMAP.md](ROADMAP.md)
 - What the draft already asks for: [data/mentions.csv](data/mentions.csv)
+- Open basketball data landscape: [docs/NUMBERS-LANDSCAPE.md](docs/NUMBERS-LANDSCAPE.md) | [docs/DATA-REPOS.md](docs/DATA-REPOS.md)
 - Scrivener access from Cursor: [writerslogic/scrivener-mcp](https://github.com/writerslogic/scrivener-mcp), configured in `.cursor/mcp.json`. Reload the window once so the server connects. The project to open is the `.scriv` above, not this repo.
 
 ## Documentation
