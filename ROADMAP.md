@@ -19,11 +19,13 @@ Zotero collection `hoops`: 1,357 items, 1,175 of them journal articles. The larg
 The `datasets` note, and the annotation on `GAME TIME / average game`, point at:
 
 - [Kaggle: basketball datasets thread](https://www.kaggle.com/discussions/general/52669)
-- [wyattowalsh/basketball](https://www.kaggle.com/datasets/wyattowalsh/basketball)
+- [wyattowalsh/basketball](https://www.kaggle.com/datasets/wyattowalsh/basketball) — **Phase later: blocked on Kaggle API credentials**
 - [data.world basketball catalog](https://data.world/datasets/basketball)
 - [DeepSportRadar v1](https://paperswithcode.com/dataset/deepsportradar-v1)
 
 Download into `data/raw/` (gitignored). Commit only a license note and any derived table we are allowed to redistribute. No NBA tracking dumps.
+
+**Note:** The script `scripts/fetch_wyattowalsh.sh` is retained but labeled as requiring Kaggle authentication. Kaggle dataset download is deferred until credentials are available.
 
 ## 3. Match cited studies to Zotero, then decide what to recompute
 

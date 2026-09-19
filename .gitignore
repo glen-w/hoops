@@ -6,9 +6,15 @@ __pycache__/
 node_modules/
 
 # Downloaded dumps stay local until a license check says they can be committed.
+<<<<<<< HEAD
 data/raw/
 !data/raw/**/README.md
 !data/raw/**/LICENSES.md
+=======
+data/raw/**
+!data/raw/LICENSES.md
+!data/raw/.gitkeep
+>>>>>>> main
 *.sqlite
 
 # CBA PDFs and extracted fulltext (league/NBPA proprietary)
