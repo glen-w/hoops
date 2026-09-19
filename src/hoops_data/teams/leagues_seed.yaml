@@ -34,7 +34,7 @@ leagues:
     governing_body: ACB
     wikidata_qid: Q324867
     wikipedia_en: Liga ACB
-    status: todo
+    status: gap_teams
     priority: P0b
     
   - league_id: lega_basket_serie_a

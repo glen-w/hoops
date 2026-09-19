@@ -87,6 +87,10 @@ Track which data products support which sections of the manuscript, ensuring eve
 | TEAMS / global / EuroLeague | `data/derived/teams/teams.csv` | TBD | ready |
 | TEAMS / global / EuroLeague Women | `data/derived/teams/teams.csv` | TBD | ready |
 | Binder / comparable books desk | `data/derived/books/comparable.csv` | TBD | ready |
+| LEAGUE / franchise bundle | `data/derived/franchise_bundle.csv` | TBD | partial |
+| TEAMS / Liga ACB | `data/derived/teams/ACB-GAPS.md` | Q324867 | gap |
+| ANALYTICS / glossary | `docs/ANALYTICS-GLOSSARY.md` | TBD | hold |
+| DESK / lookup | `scripts/hoops_ask.py` | TBD | ready |
 
 ## Column Definitions
 
@@ -102,6 +106,7 @@ Track which data products support which sections of the manuscript, ensuring eve
   - `quotes_need_pdf` — lookup ready; only verbatim quotes need PDF
   - `scaffold` — desk layout exists; fetches are not run yet
   - `partial` — core rows exist; enrichment is still incomplete
+  - `gap` — the league or claim is named, and the missing rows must stay empty
   - `EXAMPLE` — placeholder row for demonstration
 
 ## Notes

@@ -30,6 +30,15 @@ uv run python scripts/build_avg_game_by_decade.py
 
 The script loads season-level league averages, groups them by decade, and writes the mean of each stat.
 
+### Look up a desk row
+
+```bash
+uv run hoops ask "Boston Celtics"
+uv run python scripts/hoops_ask.py "Article VII"
+```
+
+Searches the claim ledger, teams table, NBA org charts, CBA pointer, and chapter map. Each hit includes a confidence. A named GAP stays a GAP. If nothing matches, it says the number is missing.
+
 ### Validate NBA org charts
 
 ```bash
