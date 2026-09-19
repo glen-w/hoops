@@ -1,0 +1,463 @@
+# leagues_seed.yaml — Curated source of truth for global basketball teams
+# This file is the P0 seed for the teams data pipeline.
+# Schema: league_id, name, gender, tier, wikidata_qid, wikipedia_en, teams[]
+# Team schema: team_id, name, short_name, wikidata_qid, wikipedia_en, status
+# status values: ready_for_p0c (has QID, ready to fetch) | gap (no QID; skip fetch)
+
+leagues:
+  - league_id: euroleague
+    name: EuroLeague
+    gender: men
+    tier: 1
+    country_or_region: INT
+    governing_body: Euroleague Basketball
+    wikidata_qid: Q185982
+    wikipedia_en: EuroLeague
+    season_label: "2026-27"
+    as_of: "2026-09-19"
+    source_url: https://www.wikidata.org/wiki/Q185982
+    confidence: HIGH
+    status: ready_for_p0c
+    teams:
+      - team_id: euroleague_anadolu_efes
+        name: Anadolu Efes Istanbul
+        short_name: Anadolu Efes
+        wikidata_qid: Q483738
+        wikipedia_en: Anadolu Efes S.K.
+        as_of: "2026-09-19"
+        source_url: "https://en.wikipedia.org/wiki/Anadolu_Efes_S.K. → pageprops wikibase_item"
+        confidence: HIGH
+        status: ready_for_p0c
+      - team_id: euroleague_asvel
+        name: LDLC ASVEL Villeurbanne
+        short_name: ASVEL
+        wikidata_qid: Q4089
+        wikipedia_en: ASVEL Basket
+        as_of: "2026-09-19"
+        source_url: "https://en.wikipedia.org/wiki/ASVEL_Basket → pageprops wikibase_item"
+        confidence: HIGH
+        status: ready_for_p0c
+      - team_id: euroleague_baskonia
+        name: Baskonia Vitoria-Gasteiz
+        short_name: Baskonia
+        wikidata_qid: Q54927
+        wikipedia_en: Saski Baskonia
+        as_of: "2026-09-19"
+        source_url: "https://en.wikipedia.org/wiki/Saski_Baskonia → pageprops wikibase_item"
+        confidence: HIGH
+        status: ready_for_p0c
+      - team_id: euroleague_besiktas
+        name: Beşiktaş Istanbul
+        short_name: Beşiktaş
+        wikidata_qid: Q854669
+        wikipedia_en: "Beşiktaş J.K. (men's basketball)"
+        as_of: "2026-09-19"
+        source_url: "https://en.wikipedia.org/wiki/Beşiktaş_J.K._(men%27s_basketball) → pageprops wikibase_item"
+        confidence: HIGH
+        status: ready_for_p0c
+      - team_id: euroleague_crvena_zvezda
+        name: Crvena zvezda Meridianbet Belgrade
+        short_name: Crvena zvezda
+        wikidata_qid: Q1132627
+        wikipedia_en: KK Crvena zvezda
+        as_of: "2026-09-19"
+        source_url: "https://en.wikipedia.org/wiki/KK_Crvena_zvezda → pageprops wikibase_item"
+        confidence: HIGH
+        status: ready_for_p0c
+      - team_id: euroleague_dubai
+        name: Dubai Basketball
+        short_name: Dubai
+        wikidata_qid: Q125293758
+        wikipedia_en: Dubai Basketball
+        as_of: "2026-09-19"
+        source_url: "https://en.wikipedia.org/wiki/Dubai_Basketball → pageprops wikibase_item"
+        confidence: HIGH
+        status: ready_for_p0c
+      - team_id: euroleague_olimpia_milano
+        name: EA7 Emporio Armani Milan
+        short_name: Olimpia Milano
+        wikidata_qid: Q36362
+        wikipedia_en: Olimpia Milano
+        as_of: "2026-09-19"
+        source_url: "https://en.wikipedia.org/wiki/Olimpia_Milano → pageprops wikibase_item"
+        confidence: HIGH
+        status: ready_for_p0c
+      - team_id: euroleague_barcelona
+        name: FC Barcelona
+        short_name: Barcelona
+        wikidata_qid: Q54893
+        wikipedia_en: FC Barcelona Bàsquet
+        as_of: "2026-09-19"
+        source_url: "https://en.wikipedia.org/wiki/FC_Barcelona_Bàsquet → pageprops wikibase_item"
+        confidence: HIGH
+        status: ready_for_p0c
+      - team_id: euroleague_bayern
+        name: FC Bayern Munich
+        short_name: Bayern
+        wikidata_qid: Q600149
+        wikipedia_en: FC Bayern Munich (basketball)
+        as_of: "2026-09-19"
+        source_url: "https://en.wikipedia.org/wiki/FC_Bayern_Munich_(basketball) → pageprops wikibase_item"
+        confidence: HIGH
+        status: ready_for_p0c
+      - team_id: euroleague_fenerbahce
+        name: Fenerbahçe Beko Istanbul
+        short_name: Fenerbahçe
+        wikidata_qid: Q239447
+        wikipedia_en: Fenerbahçe S.K. (basketball)
+        as_of: "2026-09-19"
+        source_url: "https://en.wikipedia.org/wiki/Fenerbahçe_S.K._(basketball) → pageprops wikibase_item"
+        confidence: HIGH
+        status: ready_for_p0c
+      - team_id: euroleague_hapoel_tel_aviv
+        name: Hapoel IBI Tel Aviv
+        short_name: Hapoel Tel Aviv
+        wikidata_qid: Q2735525
+        wikipedia_en: Hapoel Tel Aviv B.C.
+        as_of: "2026-09-19"
+        source_url: "https://en.wikipedia.org/wiki/Hapoel_Tel_Aviv_B.C. → pageprops wikibase_item"
+        confidence: HIGH
+        status: ready_for_p0c
+      - team_id: euroleague_maccabi_tel_aviv
+        name: Maccabi Playtika Tel Aviv
+        short_name: Maccabi Tel Aviv
+        wikidata_qid: Q819694
+        wikipedia_en: Maccabi Tel Aviv B.C.
+        as_of: "2026-09-19"
+        source_url: "https://en.wikipedia.org/wiki/Maccabi_Tel_Aviv_B.C. → pageprops wikibase_item"
+        confidence: HIGH
+        status: ready_for_p0c
+      - team_id: euroleague_olympiacos
+        name: Olympiacos Piraeus
+        short_name: Olympiacos
+        wikidata_qid: Q847701
+        wikipedia_en: Olympiacos B.C.
+        as_of: "2026-09-19"
+        source_url: "https://en.wikipedia.org/wiki/Olympiacos_B.C. → pageprops wikibase_item"
+        confidence: HIGH
+        status: ready_for_p0c
+      - team_id: euroleague_panathinaikos
+        name: Panathinaikos AKTOR Athens
+        short_name: Panathinaikos
+        wikidata_qid: Q739287
+        wikipedia_en: Panathinaikos B.C.
+        as_of: "2026-09-19"
+        source_url: "https://en.wikipedia.org/wiki/Panathinaikos_B.C. → pageprops wikibase_item"
+        confidence: HIGH
+        status: ready_for_p0c
+      - team_id: euroleague_paris
+        name: Paris Basketball
+        short_name: Paris
+        wikidata_qid: Q56291131
+        wikipedia_en: Paris Basketball
+        as_of: "2026-09-19"
+        source_url: "https://en.wikipedia.org/wiki/Paris_Basketball → pageprops wikibase_item"
+        confidence: HIGH
+        status: ready_for_p0c
+      - team_id: euroleague_partizan
+        name: Partizan Mozzart Bet Belgrade
+        short_name: Partizan
+        wikidata_qid: Q912247
+        wikipedia_en: KK Partizan
+        as_of: "2026-09-19"
+        source_url: "https://en.wikipedia.org/wiki/KK_Partizan → pageprops wikibase_item"
+        confidence: HIGH
+        status: ready_for_p0c
+      - team_id: euroleague_real_madrid
+        name: Real Madrid
+        short_name: Real Madrid
+        wikidata_qid: Q54922
+        wikipedia_en: Real Madrid Baloncesto
+        as_of: "2026-09-19"
+        source_url: "https://en.wikipedia.org/wiki/Real_Madrid_Baloncesto → pageprops wikibase_item"
+        confidence: HIGH
+        status: ready_for_p0c
+      - team_id: euroleague_valencia
+        name: Valencia Basket
+        short_name: Valencia
+        wikidata_qid: Q54940
+        wikipedia_en: Valencia Basket
+        as_of: "2026-09-19"
+        source_url: "https://en.wikipedia.org/wiki/Valencia_Basket → pageprops wikibase_item"
+        confidence: HIGH
+        status: ready_for_p0c
+      - team_id: euroleague_virtus
+        name: Virtus Segafredo Bologna
+        short_name: Virtus Bologna
+        wikidata_qid: Q36264
+        wikipedia_en: Virtus Bologna
+        as_of: "2026-09-19"
+        source_url: "https://en.wikipedia.org/wiki/Virtus_Bologna → pageprops wikibase_item"
+        confidence: HIGH
+        status: ready_for_p0c
+      - team_id: euroleague_zalgiris
+        name: Žalgiris Kaunas
+        short_name: Žalgiris
+        wikidata_qid: Q393357
+        wikipedia_en: BC Žalgiris
+        as_of: "2026-09-19"
+        source_url: "https://en.wikipedia.org/wiki/BC_Žalgiris → pageprops wikibase_item"
+        confidence: HIGH
+        status: ready_for_p0c
+
+  - league_id: euroleague_women
+    name: EuroLeague Women
+    gender: women
+    tier: 1
+    country_or_region: INT
+    governing_body: FIBA
+    wikidata_qid: Q521068
+    wikipedia_en: EuroLeague Women
+    season_label: "2026-27"
+    as_of: "2026-09-19"
+    source_url: https://www.wikidata.org/wiki/Q521068
+    confidence: HIGH
+    status: ready_for_p0c
+    teams:
+      - team_id: euroleague_women_fenerbahce
+        name: Fenerbahçe Tarfin
+        short_name: Fenerbahçe
+        wikidata_qid: Q1404649
+        wikipedia_en: "Fenerbahçe S.K. (women's basketball)"
+        phase: regular_season
+        as_of: "2026-09-19"
+        source_url: "https://en.wikipedia.org/wiki/Fenerbahçe_S.K._(women%27s_basketball) → pageprops"
+        confidence: HIGH
+        status: ready_for_p0c
+      - team_id: euroleague_women_galatasaray
+        name: Galatasaray Çağdaş Faktoring
+        short_name: Galatasaray
+        wikidata_qid: Q65413
+        wikipedia_en: "Galatasaray S.K. (women's basketball)"
+        phase: regular_season
+        as_of: "2026-09-19"
+        source_url: "https://en.wikipedia.org/wiki/Galatasaray_S.K._(women%27s_basketball) → pageprops"
+        confidence: HIGH
+        status: ready_for_p0c
+      - team_id: euroleague_women_valencia
+        name: Valencia Basket
+        short_name: Valencia
+        wikidata_qid: Q60464673
+        wikipedia_en: Valencia Basket (women)
+        phase: regular_season
+        as_of: "2026-09-19"
+        source_url: "https://en.wikipedia.org/wiki/Valencia_Basket_(women) → pageprops"
+        confidence: HIGH
+        status: ready_for_p0c
+        notes: Distinct from men Q54940
+      - team_id: euroleague_women_zaragoza
+        name: Casademont Zaragoza
+        short_name: Zaragoza
+        wikidata_qid: Q118949146
+        wikipedia_en: null
+        phase: regular_season
+        as_of: "2026-09-19"
+        source_url: "https://www.wikidata.org/wiki/Q118949146"
+        confidence: MEDIUM
+        status: ready_for_p0c
+        notes: "P31=women's basketball team; no enwiki sitelink (wikipedia_en GAP)"
+      - team_id: euroleague_women_basket_landes
+        name: Basket Landes
+        short_name: Landes
+        wikidata_qid: Q2887227
+        wikipedia_en: Basket Landes
+        phase: regular_season
+        as_of: "2026-09-19"
+        source_url: "https://en.wikipedia.org/wiki/Basket_Landes → pageprops"
+        confidence: HIGH
+        status: ready_for_p0c
+      - team_id: euroleague_women_bourges
+        name: Tango Bourges Basket
+        short_name: Bourges
+        wikidata_qid: Q616041
+        wikipedia_en: Tango Bourges Basket
+        phase: regular_season
+        as_of: "2026-09-19"
+        source_url: "https://en.wikipedia.org/wiki/Tango_Bourges_Basket → pageprops"
+        confidence: HIGH
+        status: ready_for_p0c
+      - team_id: euroleague_women_usk_praha
+        name: ZVVZ USK Praha
+        short_name: USK Praha
+        wikidata_qid: Q3547347
+        wikipedia_en: "USK Praha (women's basketball)"
+        phase: regular_season
+        as_of: "2026-09-19"
+        source_url: "https://en.wikipedia.org/wiki/USK_Praha_(women%27s_basketball) → pageprops"
+        confidence: HIGH
+        status: ready_for_p0c
+        notes: Not multi-sport USK Praha
+      - team_id: euroleague_women_schio
+        name: Beretta Famila Schio
+        short_name: Schio
+        wikidata_qid: Q3064877
+        wikipedia_en: PF Schio
+        phase: regular_season
+        as_of: "2026-09-19"
+        source_url: "https://en.wikipedia.org/wiki/PF_Schio → pageprops"
+        confidence: HIGH
+        status: ready_for_p0c
+      - team_id: euroleague_women_lublin
+        name: AZS UMCS Lublin
+        short_name: Lublin
+        wikidata_qid: Q16485007
+        wikipedia_en: null
+        phase: regular_season
+        as_of: "2026-09-19"
+        source_url: "https://www.wikidata.org/wiki/Q16485007"
+        confidence: MEDIUM
+        status: ready_for_p0c
+        notes: "Women's basketball item; enwiki \"AZS UMCS Lublin\" is multi-sport — wikipedia_en GAP"
+      - team_id: euroleague_women_athinaikos
+        name: Athinaikos Qualco
+        short_name: Athinaikos
+        wikidata_qid: Q7562428
+        wikipedia_en: "Athinaikos women's basketball"
+        phase: regular_season
+        as_of: "2026-09-19"
+        source_url: "https://en.wikipedia.org/wiki/Athinaikos_women%27s_basketball → pageprops"
+        confidence: HIGH
+        status: ready_for_p0c
+      - team_id: euroleague_women_kangoeroes
+        name: Kangoeroes Basket Mechelen
+        short_name: Kangoeroes
+        wikidata_qid: null
+        wikipedia_en: null
+        phase: regular_season
+        as_of: "2026-09-19"
+        source_url: "https://www.wikidata.org/w/index.php?search=Kangoeroes+women+basketball&title=Special:Search&type=item"
+        confidence: GAP
+        status: gap
+        notes: "GAP: Wikidata Special:Search found no women-specific item (men's BLB club exists separately)"
+      - team_id: euroleague_women_rapid_bucuresti
+        name: CS Rapid București
+        short_name: Rapid
+        wikidata_qid: Q7947062
+        wikipedia_en: "CS Rapid București (women's basketball)"
+        phase: regular_season
+        as_of: "2026-09-19"
+        source_url: "https://en.wikipedia.org/wiki/CS_Rapid_București_(women%27s_basketball) → pageprops"
+        confidence: HIGH
+        status: ready_for_p0c
+      - team_id: euroleague_women_emlak_konut
+        name: Emlak Konut
+        short_name: Emlak Konut
+        wikidata_qid: Q97218186
+        wikipedia_en: Emlak Konut SK
+        phase: qualifying
+        as_of: "2026-09-19"
+        source_url: "https://en.wikipedia.org/wiki/Emlak_Konut_SK → pageprops"
+        confidence: HIGH
+        status: ready_for_p0c
+      - team_id: euroleague_women_girona
+        name: Spar Girona
+        short_name: Girona
+        wikidata_qid: Q4890678
+        wikipedia_en: Uni Girona CB
+        phase: qualifying
+        as_of: "2026-09-19"
+        source_url: "https://en.wikipedia.org/wiki/Uni_Girona_CB → pageprops"
+        confidence: HIGH
+        status: ready_for_p0c
+      - team_id: euroleague_women_flammes_carolo
+        name: Flammes Carolo Basket
+        short_name: Flammes Carolo
+        wikidata_qid: Q3073321
+        wikipedia_en: Flammes Carolo Basket
+        phase: qualifying
+        as_of: "2026-09-19"
+        source_url: "https://en.wikipedia.org/wiki/Flammes_Carolo_Basket → pageprops"
+        confidence: HIGH
+        status: ready_for_p0c
+      - team_id: euroleague_women_zabiny_brno
+        name: Žabiny Brno
+        short_name: Žabiny Brno
+        wikidata_qid: Q2887247
+        wikipedia_en: Žabiny Brno
+        phase: qualifying
+        as_of: "2026-09-19"
+        source_url: "https://en.wikipedia.org/wiki/Žabiny_Brno → pageprops"
+        confidence: HIGH
+        status: ready_for_p0c
+      - team_id: euroleague_women_kp_brno
+        name: KP Brno
+        short_name: KP Brno
+        wikidata_qid: null
+        wikipedia_en: null
+        phase: qualifying
+        as_of: "2026-09-19"
+        source_url: "https://www.wikidata.org/w/index.php?search=KP+Brno+basketball&title=Special:Search&type=item"
+        confidence: GAP
+        status: gap
+        notes: "GAP: Wikidata Special:Search returned no matching item"
+      - team_id: euroleague_women_reyer_venezia
+        name: Umana Reyer Venezia
+        short_name: Reyer Venezia
+        wikidata_qid: Q2887228
+        wikipedia_en: Reyer Venezia (women)
+        phase: qualifying
+        as_of: "2026-09-19"
+        source_url: "https://en.wikipedia.org/wiki/Reyer_Venezia_(women) → pageprops"
+        confidence: HIGH
+        status: ready_for_p0c
+      - team_id: euroleague_women_dvtk
+        name: DVTK HUN-Therm
+        short_name: DVTK
+        wikidata_qid: Q5205520
+        wikipedia_en: Diósgyőri VTK (basketball)
+        phase: qualifying
+        as_of: "2026-09-19"
+        source_url: "https://en.wikipedia.org/wiki/Diósgyőri_VTK_(basketball) → pageprops"
+        confidence: HIGH
+        status: ready_for_p0c
+      - team_id: euroleague_women_sopron
+        name: Sopron Basket
+        short_name: Sopron
+        wikidata_qid: Q3547259
+        wikipedia_en: Sopron Basket
+        phase: qualifying
+        as_of: "2026-09-19"
+        source_url: "https://en.wikipedia.org/wiki/Sopron_Basket → pageprops"
+        confidence: HIGH
+        status: ready_for_p0c
+      - team_id: euroleague_women_azs_poznan
+        name: AZS Poznań
+        short_name: AZS Poznań
+        wikidata_qid: Q2819636
+        wikipedia_en: "AZS Poznań (women's basketball)"
+        phase: qualifying
+        as_of: "2026-09-19"
+        source_url: "https://en.wikipedia.org/wiki/AZS_Poznań_(women%27s_basketball) → pageprops"
+        confidence: HIGH
+        status: ready_for_p0c
+      - team_id: euroleague_women_panathinaikos
+        name: Panathinaikos AC
+        short_name: Panathinaikos
+        wikidata_qid: Q3191319
+        wikipedia_en: "Panathinaikos women's basketball"
+        phase: qualifying
+        as_of: "2026-09-19"
+        source_url: "https://en.wikipedia.org/wiki/Panathinaikos_women%27s_basketball → pageprops"
+        confidence: HIGH
+        status: ready_for_p0c
+      - team_id: euroleague_women_kibirkstis
+        name: Kibirkštis-TOKS
+        short_name: Kibirkštis
+        wikidata_qid: Q3552971
+        wikipedia_en: BC Kibirkštis
+        phase: qualifying
+        as_of: "2026-09-19"
+        source_url: "https://en.wikipedia.org/wiki/BC_Kibirkštis → pageprops"
+        confidence: HIGH
+        status: ready_for_p0c
+        notes: Item English label still references Kaunas VIČI-Aistės era; enwiki title BC Kibirkštis
+      - team_id: euroleague_women_crvena_zvezda
+        name: KKZ Crvena zvezda
+        short_name: Crvena zvezda
+        wikidata_qid: Q1196018
+        wikipedia_en: ŽKK Crvena zvezda
+        phase: qualifying
+        as_of: "2026-09-19"
+        source_url: "https://en.wikipedia.org/wiki/ŽKK_Crvena_zvezda → pageprops"
+        confidence: HIGH
+        status: ready_for_p0c

@@ -1,0 +1,43 @@
+team_id,league_id,name,short_name,abbr,gender,country,founded_year,colors_hex,former_names,wikidata_qid,wikipedia_en,as_of,confidence
+euroleague_anadolu_efes,euroleague,Anadolu Efes Istanbul,Anadolu Efes,AE,men,TR,1976,,,Q483738,Anadolu Efes S.K.,2026-09-19,high
+euroleague_asvel,euroleague,LDLC ASVEL Villeurbanne,ASVEL,ASV,men,FR,1948,,ASVEL BASKET,Q4089,ASVEL Basket,2026-09-19,high
+euroleague_baskonia,euroleague,Baskonia Vitoria-Gasteiz,Baskonia,BAS,men,ES,1952,,Club Deportivo Vasconia,Q54927,Saski Baskonia,2026-09-19,high
+euroleague_besiktas,euroleague,Beşiktaş Istanbul,Beşiktaş,BEŞ,men,TR,1933,,,Q854669,Beşiktaş J.K. (men's basketball),2026-09-19,high
+euroleague_crvena_zvezda,euroleague,Crvena zvezda Meridianbet Belgrade,Crvena zvezda,CZ,men,RS,1945,,,Q1132627,KK Crvena zvezda,2026-09-19,high
+euroleague_dubai,euroleague,Dubai Basketball,Dubai,DUB,men,,2024,,,Q125293758,Dubai Basketball,2026-09-19,high
+euroleague_olimpia_milano,euroleague,EA7 Emporio Armani Milan,Olimpia Milano,OM,men,IT,1936,,,Q36362,Olimpia Milano,2026-09-19,high
+euroleague_barcelona,euroleague,FC Barcelona,Barcelona,BAR,men,ES,1926,,,Q54893,FC Barcelona Bàsquet,2026-09-19,high
+euroleague_bayern,euroleague,FC Bayern Munich,Bayern,BAY,men,DE,1946,,,Q600149,FC Bayern Munich (basketball),2026-09-19,high
+euroleague_fenerbahce,euroleague,Fenerbahçe Beko Istanbul,Fenerbahçe,FEN,men,TR,1913,,,Q239447,Fenerbahçe S.K. (basketball),2026-09-19,high
+euroleague_hapoel_tel_aviv,euroleague,Hapoel IBI Tel Aviv,Hapoel Tel Aviv,HTA,men,IL,1935,,,Q2735525,Hapoel Tel Aviv B.C.,2026-09-19,high
+euroleague_maccabi_tel_aviv,euroleague,Maccabi Playtika Tel Aviv,Maccabi Tel Aviv,MTA,men,IL,1932,,,Q819694,Maccabi Tel Aviv B.C.,2026-09-19,high
+euroleague_olympiacos,euroleague,Olympiacos Piraeus,Olympiacos,OLY,men,GR,1931,,,Q847701,Olympiacos B.C.,2026-09-19,high
+euroleague_panathinaikos,euroleague,Panathinaikos AKTOR Athens,Panathinaikos,PAN,men,GR,1919,,,Q739287,Panathinaikos B.C.,2026-09-19,high
+euroleague_paris,euroleague,Paris Basketball,Paris,PAR,men,FR,2018,,,Q56291131,Paris Basketball,2026-09-19,high
+euroleague_partizan,euroleague,Partizan Mozzart Bet Belgrade,Partizan,PAR,men,RS,1945,,,Q912247,KK Partizan,2026-09-19,high
+euroleague_real_madrid,euroleague,Real Madrid,Real Madrid,RM,men,ES,1931,,,Q54922,Real Madrid Baloncesto,2026-09-19,high
+euroleague_valencia,euroleague,Valencia Basket,Valencia,VAL,men,ES,1986,,,Q54940,Valencia Basket,2026-09-19,high
+euroleague_virtus,euroleague,Virtus Segafredo Bologna,Virtus Bologna,VB,men,IT,1927,,,Q36264,Virtus Bologna,2026-09-19,high
+euroleague_zalgiris,euroleague,Žalgiris Kaunas,Žalgiris,ŽAL,men,LT,1944,,,Q393357,BC Žalgiris,2026-09-19,high
+euroleague_women_fenerbahce,euroleague_women,Fenerbahçe Tarfin,Fenerbahçe,FEN,women,TR,1954,,,Q1404649,Fenerbahçe S.K. (women's basketball),2026-09-19,high
+euroleague_women_galatasaray,euroleague_women,Galatasaray Çağdaş Faktoring,Galatasaray,GAL,women,TR,1905,,,Q65413,Galatasaray S.K. (women's basketball),2026-09-19,high
+euroleague_women_valencia,euroleague_women,Valencia Basket,Valencia,VAL,women,ES,,,,Q60464673,Valencia Basket (women),2026-09-19,high
+euroleague_women_zaragoza,euroleague_women,Casademont Zaragoza,Zaragoza,ZAR,women,ES,,,,Q118949146,,2026-09-19,medium
+euroleague_women_basket_landes,euroleague_women,Basket Landes,Landes,LAN,women,FR,2003,,,Q2887227,Basket Landes,2026-09-19,high
+euroleague_women_bourges,euroleague_women,Tango Bourges Basket,Bourges,BOU,women,FR,1967,,,Q616041,Tango Bourges Basket,2026-09-19,high
+euroleague_women_usk_praha,euroleague_women,ZVVZ USK Praha,USK Praha,UP,women,CZ,1953,,,Q3547347,USK Praha (women's basketball),2026-09-19,high
+euroleague_women_schio,euroleague_women,Beretta Famila Schio,Schio,SCH,women,IT,1973,,,Q3064877,PF Schio,2026-09-19,high
+euroleague_women_lublin,euroleague_women,AZS UMCS Lublin,Lublin,LUB,women,PL,,,,Q16485007,,2026-09-19,medium
+euroleague_women_athinaikos,euroleague_women,Athinaikos Qualco,Athinaikos,ATH,women,GR,1917,,,Q7562428,Athinaikos women's basketball,2026-09-19,high
+euroleague_women_rapid_bucuresti,euroleague_women,CS Rapid București,Rapid,RAP,women,RO,1934,,,Q7947062,CS Rapid București (women's basketball),2026-09-19,high
+euroleague_women_emlak_konut,euroleague_women,Emlak Konut,Emlak Konut,EK,women,,,,,Q97218186,Emlak Konut SK,2026-09-19,high
+euroleague_women_girona,euroleague_women,Spar Girona,Girona,GIR,women,ES,2005,,,Q4890678,Uni Girona CB,2026-09-19,high
+euroleague_women_flammes_carolo,euroleague_women,Flammes Carolo Basket,Flammes Carolo,FC,women,FR,2002,,,Q3073321,Flammes Carolo Basket,2026-09-19,high
+euroleague_women_zabiny_brno,euroleague_women,Žabiny Brno,Žabiny Brno,ŽB,women,CZ,1993,,,Q2887247,Žabiny Brno,2026-09-19,high
+euroleague_women_reyer_venezia,euroleague_women,Umana Reyer Venezia,Reyer Venezia,RV,women,IT,1925,,,Q2887228,Reyer Venezia (women),2026-09-19,high
+euroleague_women_dvtk,euroleague_women,DVTK HUN-Therm,DVTK,DVT,women,HU,1946,,,Q5205520,Diósgyőri VTK (basketball),2026-09-19,high
+euroleague_women_sopron,euroleague_women,Sopron Basket,Sopron,SOP,women,HU,1921,,,Q3547259,Sopron Basket,2026-09-19,high
+euroleague_women_azs_poznan,euroleague_women,AZS Poznań,AZS Poznań,AP,women,PL,1919,,,Q2819636,AZS Poznań (women's basketball),2026-09-19,high
+euroleague_women_panathinaikos,euroleague_women,Panathinaikos AC,Panathinaikos,PAN,women,GR,1908,,,Q3191319,Panathinaikos women's basketball,2026-09-19,high
+euroleague_women_kibirkstis,euroleague_women,Kibirkštis-TOKS,Kibirkštis,KIB,women,LT,1961,,,Q3552971,BC Kibirkštis,2026-09-19,high
+euroleague_women_crvena_zvezda,euroleague_women,KKZ Crvena zvezda,Crvena zvezda,CZ,women,RS,1945,,,Q1196018,ŽKK Crvena zvezda,2026-09-19,high
