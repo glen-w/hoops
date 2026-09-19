@@ -1,10 +1,6 @@
 # Hoops Data Scripts
 
-## Setup
-
-This project uses [uv](https://github.com/astral-sh/uv) for Python package management.
-
-Initialize the environment:
+Data fetching and transformation scripts for the Hoops manuscript. This project uses [uv](https://github.com/astral-sh/uv).
 
 ```bash
 uv sync
@@ -14,31 +10,25 @@ uv sync
 
 ### Smoke Test
 
-Generate a placeholder derived table to verify the pipeline:
-
 ```bash
 uv run python scripts/smoke_derived.py
 ```
 
-This creates `data/derived/smoke_placeholder.csv` with sample data and confirms the data pipeline structure is working.
+Creates `data/derived/smoke_placeholder.csv` and confirms the pipeline layout.
 
 ### Build Average Game by Decade
 
-Generate per-decade NBA game statistics from published historical records:
+Regenerate decade averages from the committed Basketball-Reference season file. No Kaggle credentials and no API calls.
 
 ```bash
 uv run python scripts/build_avg_game_by_decade.py
 ```
 
-This creates:
-- `data/derived/avg_game_by_decade.csv` — per-decade averages for points, FG%, rebounds, assists, 3PT stats
-- `data/derived/avg_game_by_decade.md` — full methodology note with sources and caveats
+- **Input:** `data/reference/nba_league_averages_by_season.csv` (1979-80 through 2023-24)
+- **Output:** `data/derived/avg_game_by_decade.csv`
+- **Methodology:** `data/derived/avg_game_by_decade_methodology.md`
 
-**Data source**: Compiled from Basketball-Reference.com and NBA.com official league averages (public records)
-
-**Time to run**: < 1 second (uses compiled historical data)
-
-**Output**: 9 decades (1940s-2020s) with per-team-per-game averages
+The script loads season-level league averages, groups them by decade, and writes the mean of each stat.
 
 ### Validate NBA org charts
 
@@ -50,14 +40,13 @@ Checks locked column order and the role vocabulary for every CSV in `data/derive
 
 ## Data Layout
 
-- **`data/raw/`** — Raw downloaded datasets (gitignored). Add source, license, and redistribution notes to `data/raw/LICENSES.md` before fetching new datasets.
-- **`data/derived/`** — Processed tables and analysis outputs (committed to git). Each derived artifact should have clear provenance to its raw source(s).
+- **`data/reference/`** — Small, redistributable source CSVs that derived tables are built from (committed).
+- **`data/raw/`** — Bulky downloads (gitignored). Document license and fetch date in `data/raw/LICENSES.md` before fetching.
+- **`data/derived/`** — Processed tables (committed). Each artifact should point back to its source.
 
-## Adding New Datasets
+Current decade table does not need a Kaggle download. `fetch_basketball_data.py` is only for later box-score or per-position work.
 
-### Fetching wyattowalsh/basketball (optional)
-
-The full NBA Database is optional and blocked until Kaggle API credentials are available. It is not required for the current derived tables.
+## Optional: wyattowalsh/basketball
 
 ```bash
 # Shell wrapper → data/raw/wyattowalsh-basketball/
@@ -67,18 +56,11 @@ bash scripts/fetch_wyattowalsh.sh
 uv run python scripts/fetch_basketball_data.py
 ```
 
-**Prerequisites**:
-1. Kaggle account: https://www.kaggle.com
-2. API token: https://www.kaggle.com/settings → "Create New Token"
-3. Place `kaggle.json` in `~/.kaggle/` with permissions `chmod 600 ~/.kaggle/kaggle.json`
+Prerequisites: a Kaggle API token at `~/.kaggle/kaggle.json` (`chmod 600`). See `data/raw/LICENSES.md`.
 
-See `data/raw/LICENSES.md` for license terms and attribution requirements.
+## Adding a derived table
 
-### Adding Other Datasets
-
-1. Document the source, license, and fetch date in `data/raw/LICENSES.md`
-2. Download raw data to `data/raw/<dataset-name>/`
-3. Write a processing script under `scripts/` that reads from `data/raw/` and writes to `data/derived/`
-4. Document the command to regenerate the derived output in this README
-
-Raw data is never committed. Derived tables must credit their sources.
+1. Prefer a small cited CSV in `data/reference/`. Use gitignored `data/raw/` only for bulky datasets.
+2. Name the script `build_<artifact>.py` and write `data/derived/<artifact>.csv` plus a methodology note.
+3. Update this README, `docs/CHAPTER-MAP.md`, and `data/mentions.csv` if the manuscript cites it.
+4. Add any new dependency to `pyproject.toml` and run `uv lock`.
