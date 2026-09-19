@@ -6,6 +6,7 @@ The manuscript stays in Scrivener (`/Users/89298/Documents/Hoops/hoops.scriv`). 
 
 - Roadmap: [ROADMAP.md](ROADMAP.md)
 - What the draft already asks for: [data/mentions.csv](data/mentions.csv)
+- CBA structure extraction: [docs/cba-structure-pipeline.md](docs/cba-structure-pipeline.md)
 - Scrivener access from Cursor: [writerslogic/scrivener-mcp](https://github.com/writerslogic/scrivener-mcp), configured in `.cursor/mcp.json`. Reload the window once so the server connects. The project to open is the `.scriv` above, not this repo.
 
 Do not commit the manuscript, the Zotero library, or raw tracking dumps. `data/raw/` is gitignored on purpose.

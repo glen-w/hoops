@@ -1,0 +1,2 @@
+# Placeholder for 2017 CBA structure
+# Run: python scripts/cba/build_cba_structure.py --edition 2017 --pdf data/raw/cba/2017/cba.pdf
