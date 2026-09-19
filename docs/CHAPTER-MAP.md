@@ -111,6 +111,8 @@ Track which data products support which sections of the manuscript, ensuring eve
 | TEAMS / global / Philippine Basketball Association | `data/derived/teams/teams.csv` | TBD | ready — P0h Philippine men (12 franchise QIDs) |
 | TEAMS / global / NBA G League | `data/derived/teams/teams.csv` | TBD | ready — P0h NBA G League men (31 teams) |
 | TEAMS / global / Israeli Basketball Premier League | `data/derived/teams/teams.csv` | TBD | ready — P0h Israeli Winner League men (14 clubs) |
+| TEAMS / ownership — NBA franchise sales & control | `data/derived/teams/ownership_events.csv` | TBD | ready — v1 ledger, 158 cite-backed events; pending LAL Kushner/Iger and MIN Stad flagged; blanks intentional. Timeline: `ownership_timeline_by_team.md`. Docs: `docs/ownership/nba_*` |
+| TEAMS / ownership — EuroLeague club structures & sales | `data/derived/teams/euroleague_current_ownership.csv` | TBD | ready — v1 ledger, 20/20 current structures and 54 events; association vs private sale distinguished; EUR blanks intentional. Events: `euroleague_ownership_events.csv`. Docs: `docs/ownership/euroleague_*` |
 | Binder / comparable books desk | `data/derived/books/comparable.csv` | TBD | ready |
 | LEAGUE / franchise bundle | `data/derived/franchise_bundle.csv` | TBD | partial |
 | TEAMS / Liga ACB | `data/derived/teams/ACB-GAPS.md` | Q324867 | gap |
@@ -161,9 +163,6 @@ Track which data products support which sections of the manuscript, ensuring eve
 **Teams P0f (2026-09-19):** 310-row desk (194 prior + 116 new). P0f added Asia/Oceania/Africa/Türkiye domestic leagues (CBA 20 + B.League 26 + KBL 10 + NBL 10 + BSL 16 + BAL 12 + WCBA 14 + WJBL 8). 7 WCBA QID gaps. Total gaps: 18 (2 EuroLeague Women + 7 LF Endesa + 2 LFB + 7 WCBA).
 
 **Teams P0e (2026-09-19):** Expanded to 194-row unified desk appending 8 top domestic leagues: Liga ACB (ES men, 18), LNB Élite (FR men, 16), Basketball Bundesliga (DE men, 18), Lega Basket Serie A (IT men, 16), Greek Basketball League (GR men, 14), Liga Femenina de Baloncesto (ES women, 9 with QIDs + 7 gaps), Ligue Féminine de Basketball (FR women, 10 with QIDs + 2 gaps), WNBL (AU women, 9). Total 11 documented QID gaps. Abbreviations uniquified within each league. Seed merged from P0e fragment (2026-09-19 access date, 2026-27 season). All clubs fetched/normalized from Wikidata. Colours/logos/ownership enrichment still deferred.
-
-| TEAMS / ownership — NBA franchise sales & control | `data/derived/teams/ownership_events.csv` (+ `ownership_timeline_by_team.md`; docs in `docs/ownership/nba_*`) | TBD | READY (v1 ledger) — 158 cite-backed events; pending LAL Kushner/Iger & MIN Stad flagged; blanks intentional |
-| TEAMS / ownership — EuroLeague club structures & sales | `data/derived/teams/euroleague_current_ownership.csv` + `euroleague_ownership_events.csv` (+ `euroleague_ownership_timeline_by_team.md`; docs in `docs/ownership/euroleague_*`) | TBD | READY (v1 ledger) — 20/20 current structures; 54 events; association vs private sale distinguished; EUR blanks intentional |
 
 ## Maintenance
 
