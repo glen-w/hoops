@@ -40,6 +40,14 @@ This creates:
 
 **Output**: 9 decades (1940s-2020s) with per-team-per-game averages
 
+### Validate NBA org charts
+
+```bash
+python3 scripts/validate_nba_orgs.py
+```
+
+Checks locked column order and the role vocabulary for every CSV in `data/derived/nba_orgs/`.
+
 ## Data Layout
 
 - **`data/raw/`** — Raw downloaded datasets (gitignored). Add source, license, and redistribution notes to `data/raw/LICENSES.md` before fetching new datasets.
@@ -47,15 +55,17 @@ This creates:
 
 ## Adding New Datasets
 
-### Fetching wyattowalsh/basketball
+### Fetching wyattowalsh/basketball (optional)
 
-To download the full NBA Database (requires Kaggle API credentials):
+The full NBA Database is optional and blocked until Kaggle API credentials are available. It is not required for the current derived tables.
 
 ```bash
+# Shell wrapper → data/raw/wyattowalsh-basketball/
 bash scripts/fetch_wyattowalsh.sh
-```
 
-This downloads ~2GB+ of NBA data (1946-present) into `data/raw/wyattowalsh-basketball/`.
+# Python fetcher → data/raw/basketball/
+uv run python scripts/fetch_basketball_data.py
+```
 
 **Prerequisites**:
 1. Kaggle account: https://www.kaggle.com
@@ -70,3 +80,5 @@ See `data/raw/LICENSES.md` for license terms and attribution requirements.
 2. Download raw data to `data/raw/<dataset-name>/`
 3. Write a processing script under `scripts/` that reads from `data/raw/` and writes to `data/derived/`
 4. Document the command to regenerate the derived output in this README
+
+Raw data is never committed. Derived tables must credit their sources.
