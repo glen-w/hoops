@@ -276,3 +276,41 @@ def test_wnba_league_present():
     assert wnba_row["gender"] == "women"
     assert wnba_row["tier"] == 1
     assert wnba_row["wikidata_qid"] == "Q2593221"
+
+
+def test_nba_team_count():
+    """Smoke test: Verify NBA has exactly 30 teams."""
+    teams_csv = REPO_ROOT / "data" / "derived" / "teams" / "teams.csv"
+    
+    if not teams_csv.exists():
+        pytest.skip("teams.csv not yet generated")
+    
+    df = pd.read_csv(teams_csv)
+    nba_teams = df[df["league_id"] == "nba"]
+    
+    assert len(nba_teams) == 30, \
+        f"NBA should have 30 teams, found {len(nba_teams)}"
+    
+    # Verify all have unique abbr codes
+    abbr_counts = nba_teams["abbr"].value_counts()
+    assert all(abbr_counts == 1), \
+        f"NBA teams should have unique abbr codes, found duplicates: {abbr_counts[abbr_counts > 1].index.tolist()}"
+
+
+def test_wnba_team_count():
+    """Smoke test: Verify WNBA has 12 teams (as of 2026 season)."""
+    teams_csv = REPO_ROOT / "data" / "derived" / "teams" / "teams.csv"
+    
+    if not teams_csv.exists():
+        pytest.skip("teams.csv not yet generated")
+    
+    df = pd.read_csv(teams_csv)
+    wnba_teams = df[df["league_id"] == "wnba"]
+    
+    assert len(wnba_teams) == 12, \
+        f"WNBA should have 12 teams (2026 roster), found {len(wnba_teams)}"
+    
+    # Verify all have unique abbr codes
+    abbr_counts = wnba_teams["abbr"].value_counts()
+    assert all(abbr_counts == 1), \
+        f"WNBA teams should have unique abbr codes, found duplicates: {abbr_counts[abbr_counts > 1].index.tolist()}"
