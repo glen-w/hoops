@@ -26,11 +26,64 @@ EXPECTED_NBA = 30
 EXPECTED_WNBA = 12
 EXPECTED_EUROLEAGUE_MEN = 20
 EXPECTED_EUROLEAGUE_WOMEN_WITH_QIDS = 22  # 24 in the seed, 2 gaps
+EXPECTED_LIGA_ACB = 18  # P0e: Spanish men
+EXPECTED_LNB_ELITE = 16  # P0e: French men
+EXPECTED_BBL = 18  # P0e: German men
+EXPECTED_SERIE_A = 16  # P0e: Italian men
+EXPECTED_GREEK_BASKET_LEAGUE = 14  # P0e: Greek men
+EXPECTED_LF_ENDESA = 9  # P0e: Spanish women (16 in seed, 7 gaps)
+EXPECTED_LFB = 10  # P0e: French women (12 in seed, 2 gaps)
+EXPECTED_WNBL = 9  # P0e: Australian women
+# P0f: Asia/Oceania/Africa/Turkey domestics
+EXPECTED_CBA = 20  # P0f: Chinese men
+EXPECTED_B_LEAGUE = 26  # P0f: Japanese men
+EXPECTED_KBL = 10  # P0f: Korean men
+EXPECTED_NBL = 10  # P0f: Australian men
+EXPECTED_BSL = 16  # P0f: Turkish men
+EXPECTED_BAL = 12  # P0f: African men (continental)
+EXPECTED_WCBA = 14  # P0f: Chinese women (21 in seed, 7 gaps)
+EXPECTED_WJBL = 8  # P0f: Japanese women
+# P0g: Americas domestics
+EXPECTED_NBB = 17  # P0g: Brazilian men (18 in seed, 1 gap)
+EXPECTED_LNB_ARGENTINA = 18  # P0g: Argentine men
+EXPECTED_LNBP = 14  # P0g: Mexican men
+EXPECTED_LBF = 1  # P0g: Brazilian women (10 in seed, 9 gaps)
+EXPECTED_LFB_ARGENTINA = 4  # P0g: Argentine women (20 in seed, 16 gaps)
+# P0h: next domestics (ABA/PBA/G League/Israeli)
+EXPECTED_ABA = 20  # P0h: ABA Adriatic League men 2026-27
+EXPECTED_PBA = 12  # P0h: Philippine Basketball Association men 2025-26
+EXPECTED_G_LEAGUE = 31  # P0h: NBA G League men 2026-27
+EXPECTED_ISRAELI_PREMIER = 14  # P0h: Israeli Premier League men 2026-27
 EXPECTED_TOTAL = (
     EXPECTED_NBA
     + EXPECTED_WNBA
     + EXPECTED_EUROLEAGUE_MEN
     + EXPECTED_EUROLEAGUE_WOMEN_WITH_QIDS
+    + EXPECTED_LIGA_ACB
+    + EXPECTED_LNB_ELITE
+    + EXPECTED_BBL
+    + EXPECTED_SERIE_A
+    + EXPECTED_GREEK_BASKET_LEAGUE
+    + EXPECTED_LF_ENDESA
+    + EXPECTED_LFB
+    + EXPECTED_WNBL
+    + EXPECTED_CBA
+    + EXPECTED_B_LEAGUE
+    + EXPECTED_KBL
+    + EXPECTED_NBL
+    + EXPECTED_BSL
+    + EXPECTED_BAL
+    + EXPECTED_WCBA
+    + EXPECTED_WJBL
+    + EXPECTED_NBB
+    + EXPECTED_LNB_ARGENTINA
+    + EXPECTED_LNBP
+    + EXPECTED_LBF
+    + EXPECTED_LFB_ARGENTINA
+    + EXPECTED_ABA
+    + EXPECTED_PBA
+    + EXPECTED_G_LEAGUE
+    + EXPECTED_ISRAELI_PREMIER
 )
 
 EXPECTED_COLUMNS = [
@@ -66,7 +119,12 @@ VALID_CONFIDENCE = {"high", "medium", "low", "gap"}
 # ISO 3166-1 alpha-2 country codes (partial list for validation)
 VALID_COUNTRY_CODES = {
     "BE", "FR", "DE", "IT", "ES", "GR", "TR", "PL", "CZ", "HU", 
-    "RO", "LT", "RS", "IL", "AE", ""  # Empty string allowed for unknown
+    "RO", "LT", "RS", "IL", "AE", "AU", "CA", "US",
+    "CN", "JP", "KR",  # P0f: Asia
+    "NZ",  # P0f: New Zealand (NBL)
+    "ML", "NG", "MA", "TN", "EG", "KE", "TZ", "ZA", "AO", "BW", "RW", "SN", "CI", "CM", "LY", "UG", "MZ",  # P0f: Africa (BAL)
+    "BR", "AR", "MX",  # P0g: Americas domestics
+    ""  # Empty string allowed for unknown
 }
 
 
@@ -107,9 +165,17 @@ def test_csv_exists():
 
 def euroleague_rows() -> list[dict[str, str]]:
     """Rows this seed owns. NBA and WNBA stay in the same file."""
+    seed_leagues = {
+        "euroleague", "euroleague_women",
+        "liga_acb", "lnb_elite", "bbl", "serie_a", "greek_basket_league",
+        "lf_endesa", "lfb", "wnbl",
+        "cba", "b_league", "kbl", "nbl", "bsl", "bal", "wcba", "wjbl",
+        "nbb", "lnb_argentina", "lnbp", "lbf", "lfb_argentina",
+        "aba", "pba", "g_league", "israeli_premier"
+    }
     return [
         team for team in load_teams_csv()
-        if team.get("league_id") in {"euroleague", "euroleague_women"}
+        if team.get("league_id") in seed_leagues
     ]
 
 
@@ -141,6 +207,31 @@ def test_row_counts():
         "wnba": EXPECTED_WNBA,
         "euroleague": EXPECTED_EUROLEAGUE_MEN,
         "euroleague_women": EXPECTED_EUROLEAGUE_WOMEN_WITH_QIDS,
+        "liga_acb": EXPECTED_LIGA_ACB,
+        "lnb_elite": EXPECTED_LNB_ELITE,
+        "bbl": EXPECTED_BBL,
+        "serie_a": EXPECTED_SERIE_A,
+        "greek_basket_league": EXPECTED_GREEK_BASKET_LEAGUE,
+        "lf_endesa": EXPECTED_LF_ENDESA,
+        "lfb": EXPECTED_LFB,
+        "wnbl": EXPECTED_WNBL,
+        "cba": EXPECTED_CBA,
+        "b_league": EXPECTED_B_LEAGUE,
+        "kbl": EXPECTED_KBL,
+        "nbl": EXPECTED_NBL,
+        "bsl": EXPECTED_BSL,
+        "bal": EXPECTED_BAL,
+        "wcba": EXPECTED_WCBA,
+        "wjbl": EXPECTED_WJBL,
+        "nbb": EXPECTED_NBB,
+        "lnb_argentina": EXPECTED_LNB_ARGENTINA,
+        "lnbp": EXPECTED_LNBP,
+        "lbf": EXPECTED_LBF,
+        "lfb_argentina": EXPECTED_LFB_ARGENTINA,
+        "aba": EXPECTED_ABA,
+        "pba": EXPECTED_PBA,
+        "g_league": EXPECTED_G_LEAGUE,
+        "israeli_premier": EXPECTED_ISRAELI_PREMIER,
     }
     if len(teams) != EXPECTED_TOTAL:
         raise TestFailure(f"Total row count mismatch. Expected {EXPECTED_TOTAL}, got {len(teams)}")
@@ -161,9 +252,9 @@ def test_gaps_documented():
             if team.get("status") == "gap":
                 gap_teams.append(team.get("team_id"))
     
-    if len(gap_teams) != 2:
+    if len(gap_teams) != 44:
         raise TestFailure(
-            f"Expected 2 gap teams in seed, found {len(gap_teams)}: {gap_teams}"
+            f"Expected 44 gap teams in seed (2 EuroLeague Women + 7 LF Endesa + 2 LFB + 7 WCBA + 1 NBB + 9 LBF + 16 LFB Argentina), found {len(gap_teams)}"
         )
     
     # Verify gap teams are NOT in CSV
@@ -235,23 +326,43 @@ def test_league_ids():
         league_id = team["league_id"]
         league_counts[league_id] = league_counts.get(league_id, 0) + 1
     
-    if "euroleague" not in league_counts:
-        raise TestFailure("No teams found for league_id 'euroleague'")
+    expected_leagues = {
+        "nba": EXPECTED_NBA,
+        "wnba": EXPECTED_WNBA,
+        "euroleague": EXPECTED_EUROLEAGUE_MEN,
+        "euroleague_women": EXPECTED_EUROLEAGUE_WOMEN_WITH_QIDS,
+        "liga_acb": EXPECTED_LIGA_ACB,
+        "lnb_elite": EXPECTED_LNB_ELITE,
+        "bbl": EXPECTED_BBL,
+        "serie_a": EXPECTED_SERIE_A,
+        "greek_basket_league": EXPECTED_GREEK_BASKET_LEAGUE,
+        "lf_endesa": EXPECTED_LF_ENDESA,
+        "lfb": EXPECTED_LFB,
+        "wnbl": EXPECTED_WNBL,
+        "cba": EXPECTED_CBA,
+        "b_league": EXPECTED_B_LEAGUE,
+        "kbl": EXPECTED_KBL,
+        "nbl": EXPECTED_NBL,
+        "bsl": EXPECTED_BSL,
+        "bal": EXPECTED_BAL,
+        "wcba": EXPECTED_WCBA,
+        "wjbl": EXPECTED_WJBL,
+        "nbb": EXPECTED_NBB,
+        "lnb_argentina": EXPECTED_LNB_ARGENTINA,
+        "lnbp": EXPECTED_LNBP,
+        "lbf": EXPECTED_LBF,
+        "lfb_argentina": EXPECTED_LFB_ARGENTINA,
+    }
     
-    if "euroleague_women" not in league_counts:
-        raise TestFailure("No teams found for league_id 'euroleague_women'")
-    
-    if league_counts["euroleague"] != EXPECTED_EUROLEAGUE_MEN:
-        raise TestFailure(
-            f"Expected {EXPECTED_EUROLEAGUE_MEN} euroleague teams, "
-            f"got {league_counts['euroleague']}"
-        )
-    
-    if league_counts["euroleague_women"] != EXPECTED_EUROLEAGUE_WOMEN_WITH_QIDS:
-        raise TestFailure(
-            f"Expected {EXPECTED_EUROLEAGUE_WOMEN_WITH_QIDS} euroleague_women teams, "
-            f"got {league_counts['euroleague_women']}"
-        )
+    for league_id, expected_count in expected_leagues.items():
+        if league_id not in league_counts:
+            raise TestFailure(f"No teams found for league_id '{league_id}'")
+        
+        if league_counts[league_id] != expected_count:
+            raise TestFailure(
+                f"Expected {expected_count} {league_id} teams, "
+                f"got {league_counts[league_id]}"
+            )
     
     print("✓ League IDs correct")
 
