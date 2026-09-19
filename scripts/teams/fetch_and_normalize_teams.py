@@ -98,11 +98,36 @@ COUNTRY_QID_TO_ISO = {
     "Q36": "PL",      # Poland
     "Q213": "CZ",     # Czech Republic
     "Q28": "HU",      # Hungary
+    "Q155": "BR",     # Brazil
+    "Q414": "AR",     # Argentina
+    "Q96": "MX",      # Mexico
     "Q218": "RO",     # Romania
     "Q37": "LT",      # Lithuania
     "Q403": "RS",     # Serbia
     "Q801": "IL",     # Israel
     "Q846": "AE",     # United Arab Emirates
+    "Q408": "AU",     # Australia
+    "Q148": "CN",     # China
+    "Q17": "JP",      # Japan
+    "Q884": "KR",     # South Korea
+    "Q912": "ML",     # Mali
+    "Q1033": "NG",    # Nigeria
+    "Q1028": "MA",    # Morocco
+    "Q948": "TN",     # Tunisia
+    "Q79": "EG",      # Egypt
+    "Q1014": "KE",    # Kenya
+    "Q924": "TZ",     # Tanzania
+    "Q953": "ZA",     # South Africa
+    "Q258": "ZA",     # South Africa (alternate)
+    "Q916": "AO",     # Angola
+    "Q963": "BW",     # Botswana
+    "Q1037": "RW",    # Rwanda
+    "Q1039": "SN",    # Senegal
+    "Q1013": "CI",    # Côte d'Ivoire
+    "Q1009": "CM",    # Cameroon
+    "Q1016": "LY",    # Libya
+    "Q1036": "UG",    # Uganda
+    "Q1029": "MZ",    # Mozambique
 }
 
 
@@ -261,8 +286,8 @@ def process_team(team: dict[str, Any], league_id: str, gender: str) -> dict[str,
     colors_hex = extract_colors_hex(entity) if entity else ""
     former_names = extract_former_names(entity) if entity else ""
     
-    # Derive abbreviation. Partizan and Paris both collapse to PAR.
-    abbr = {"euroleague_partizan": "PTZ"}.get(team_id) or derive_abbr(short_name)
+    # Derive abbreviation (will be uniquified within league later)
+    abbr = derive_abbr(short_name)
     
     # Rate limit: be nice to Wikidata
     time.sleep(0.5)
@@ -319,9 +344,25 @@ def main() -> int:
         
         print(f"\nProcessing {league_name} ({league_id}): {len(teams)} teams")
         
+        # Track abbrs within this league to ensure uniqueness
+        league_abbrs = {}
+        
         for team in teams:
             team_row = process_team(team, league_id, gender)
             if team_row:
+                # Ensure abbr is unique within this league
+                base_abbr = team_row["abbr"]
+                abbr = base_abbr
+                counter = 2
+                while abbr in league_abbrs:
+                    abbr = f"{base_abbr}{counter}"
+                    counter += 1
+                
+                if abbr != base_abbr:
+                    print(f"  Note: Changed abbr for {team_row['team_id']} from {base_abbr} to {abbr} (conflict)")
+                
+                team_row["abbr"] = abbr
+                league_abbrs[abbr] = team_row["team_id"]
                 all_teams.append(team_row)
     
     # Write CSV. Refresh only the leagues in this seed so NBA/WNBA rows stay.
