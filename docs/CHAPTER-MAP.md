@@ -56,6 +56,7 @@ Track which data products support which sections of the manuscript, ensuring eve
 | Disputes / FIBA BAT arbitration | `data/derived/fiba-bat-2022/fiba_bat_arbitration_by_year.csv` | TBD (FIBA official) | ready |
 | LEAGUE / income | `data/derived/league_income_ingredients.csv` + `data/derived/league_income_methodology.md` | TBD | ready |
 | BROADCAST / ads | `docs/broadcast-ads-sources.md` | TBD | source_map |
+| MEDIA / broadcast_ads | `data/derived/broadcast_ads/` | TBD | READY (v1 binder) — rights partners HIGH; rights/ad dollars MEDIUM; inventory ledgers GAP |
 | LEAGUE / income / schema | `docs/SCHEMA-sketch.md` | TBD | wanted |
 | CBA / structure | `docs/cba-structure-pipeline.md` + `docs/CBA-LOOKUP.md` | TBD | ready |
 | CBA / parser feasibility | `docs/CBA-PARSER-FEASIBILITY-2026-09-19.md` | TBD | wanted |
