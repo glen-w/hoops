@@ -60,7 +60,15 @@ Track which data products support which sections of the manuscript, ensuring eve
 | CBA / structure | `docs/cba-structure-pipeline.md` + `docs/CBA-LOOKUP.md` | TBD | ready |
 | CBA / parser feasibility | `docs/CBA-PARSER-FEASIBILITY-2026-09-19.md` | TBD | wanted |
 | CBA / salary cap / CBA articles | `docs/CBA-LOOKUP.md` + `scripts/cba_lookup.py` | TBD | needs_local_pdf |
-| CBA / defined terms / CBA glossary | `docs/CBA-LOOKUP.md` + `scripts/cba_lookup.py` | TBD | needs_local_pdf |
+| CBA / defined terms / CBA glossary | `data/cba/2023/derived/defined_terms.json` | TBD | ready |
+| CBA / Article I / Definitions | `data/cba/2023/derived/structure.json` + `data/cba/2023/derived/defined_terms.json` | TBD | ready |
+| CBA / Article II / Uniform Player Contract | `data/cba/2023/derived/structure.json` | TBD | ready |
+| CBA / Article VII / Team Salary | `data/cba/2023/derived/structure.json` | TBD | ready |
+| CBA / Article VII / Section 6 / Exceptions (MLE) | `data/cba/2023/derived/headings_index.json` | TBD | ready |
+| CBA / Article X / Veteran Free Agents | `data/cba/2023/derived/structure.json` | TBD | ready |
+| CBA / Article XI / Rookie Scale | `data/cba/2023/derived/structure.json` | TBD | ready |
+| CBA / Exhibits | `data/cba/2023/derived/structure.json` | TBD | ready |
+| CBA / spike documentation | `docs/cba/SPIKE-REPORT.md` | TBD | ready |
 
 ## Column Definitions
 
@@ -86,7 +94,7 @@ Track which data products support which sections of the manuscript, ensuring eve
 
 **Source notes (2026-09-19):** franchise efficiency, league income, and broadcast ads. Forbes 22 Apr 2016 was searched and marked NOT_FOUND; the 2015-16 payroll-vs-wins figures now cite Joel Odom, OregonLive, 13 May 2016 (Blazers 44 wins, not 48). League income v1: media partners and terms are high confidence; media dollars and BRI are medium; licensing, arena, and local revenue are still gaps.
 
-**CBA lookup:** PDFs at `data/raw/cba/{edition}/cba.pdf` are gitignored. The lookup tools work after a local PDF is supplied and extracted. See `docs/cba-structure-pipeline.md`.
+**CBA lookup:** PDFs at `data/raw/cba/{edition}/cba.pdf` stay gitignored. The 2023 spike committed structure metadata only (42 articles, 279 sections). PDF SHA-256 `cf59d43fe46f63d7ba07364563046d766c487c26032fcc88432310d47effd9d9`. Parser: `scripts/parse_cba_spike.py`. See `docs/cba/SPIKE-REPORT.md`.
 
 ## Maintenance
 
