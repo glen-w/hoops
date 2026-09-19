@@ -20,6 +20,17 @@ The manuscript stays in Scrivener (`/Users/89298/Documents/Hoops/hoops.scriv`). 
 - **[DATA-REPOS.md](docs/DATA-REPOS.md)** — Source catalog: APIs, dumps, packages, and what not to vendor
 - **[BASKETBALL-SOFTWARE.md](docs/BASKETBALL-SOFTWARE.md)** — Commercial tracking & analytics systems (SportVU, Second Spectrum, Synergy, etc.)
 - **[SLOAN-ARCHIVE.md](docs/SLOAN-ARCHIVE.md)** — MIT Sloan Sports Analytics Conference papers index
+- **[creative/](docs/creative/README.md)** — Cite-backed creative packs (numbers only from derived files)
+- **[ownership/](docs/ownership/nba_README.md)** — NBA and EuroLeague ownership ledgers
+
+## Layout
+
+- `data/derived/` — tables we may commit, one artifact per folder or file pair, with a method note beside it
+- `data/cba/` — committed CBA structure metadata (no agreement text). `data/derived/cba/` is an older fixture, not a second copy
+- `data/studies/` — one note per cited paper
+- `data/raw/` — local downloads, not committed
+- `docs/` — catalogs, the chapter map, creative packs, ownership notes
+- `scripts/` — one-off builders. `src/hoops_data/` — the installed package (`hoops ask`, the CBA parser, the Wikidata fetch)
 
 ## Data Policy
 

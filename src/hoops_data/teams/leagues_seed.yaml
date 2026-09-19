@@ -1,6 +1,6 @@
-# Global basketball leagues inventory — P0 seed
-# Curated source of truth for teams desk
-# QIDs verified via Wikidata SPARQL
+# League inventory for this package's Wikidata fetch (fetch_wikidata_teams.py, normalize_teams.py).
+# Not the seed that built data/derived/teams/teams.csv. That file is scripts/teams/leagues_seed.yaml.
+# QIDs here can disagree with the scripts seed. Do not treat the two files as copies.
 
 leagues:
   # Men's tier-1

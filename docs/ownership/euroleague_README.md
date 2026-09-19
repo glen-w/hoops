@@ -1,11 +1,13 @@
 # Hoops EuroLeague ownership & sales ledger (2026-09-19)
 
-Writer-facing ledger of **EuroLeague club ownership structures and documented sales** for **Glen’s Hoops desk** — parallel to the NBA pack at `/workspace/hoops-nba-ownership-ledger-2026-09-19/`.
+Writer-facing ledger of **EuroLeague club ownership structures and documented sales** for **Glen’s Hoops desk** — parallel to the NBA pack in [nba_README.md](nba_README.md).
 
-**Box path:** `/workspace/hoops-euroleague-ownership-ledger-2026-09-19/`  
+**Landed** in `data/derived/teams/euroleague_current_ownership.csv`, `data/derived/teams/euroleague_ownership_events.csv`, and `data/derived/teams/euroleague_ownership_timeline_by_team.md`. Edit those, not a box copy.
+
+**Built in:** `/workspace/hoops-euroleague-ownership-ledger-2026-09-19/`  
 **Access / as-of:** 2026-09-19  
 **Scope:** All 20 current EuroLeague clubs (2026-27 roster) — Anadolu Efes, ASVEL, Baskonia, Beşiktaş, Crvena zvezda, Dubai Basketball, Olimpia Milano, Barcelona, Bayern, Fenerbahçe, Hapoel Tel Aviv, Maccabi Tel Aviv, Olympiacos, Panathinaikos, Paris Basketball, Partizan, Real Madrid, Valencia, Virtus Bologna, Žalgiris.  
-**Constraint:** Box only — no git PR. **Do not invent prices or owners.**
+**Do not invent prices or owners.**
 
 ## Files
 | File | Role |
@@ -30,10 +32,11 @@ Writer-facing ledger of **EuroLeague club ownership structures and documented sa
 - `event_type`: `sale` \| `majority_stake` \| `minority_stake` \| `founding` \| `rebrand` \| `takeover` \| `association_control` \| `other`
 - Blank `price_eur_reported` = unconfirmed (**do not invent**)
 
-## Intended land (later)
-- **Derived data:** `data/derived/teams/euroleague_ownership_events.csv` (copy/adapt events CSV).
-- Also land `current_ownership.csv` beside it (suggested: `data/derived/teams/euroleague_current_ownership.csv`).
-- **CHAPTER-MAP:** Point writers to this ledger + timeline for EL ownership beats (association control vs private sale, stake changes, price context). Suggested slug: `teams/euroleague_ownership_events`.
+## Landed
+- **Current structures:** `data/derived/teams/euroleague_current_ownership.csv`
+- **Events:** `data/derived/teams/euroleague_ownership_events.csv`
+- **Timeline:** `data/derived/teams/euroleague_ownership_timeline_by_team.md`
+- **Chapter map:** `docs/CHAPTER-MAP.md`, row `TEAMS / ownership — EuroLeague club structures & sales`
 
 ## Stats (this build)
 - Current-structure rows: **20/20** (final thicken: Wikipedia sources cleared from `current_ownership.csv`)
