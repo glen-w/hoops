@@ -4,8 +4,19 @@ Data and processing sandbox for [*Hoops: An Uncommon Field Guide to the Game of 
 
 The manuscript stays in Scrivener (`/Users/89298/Documents/Hoops/hoops.scriv`). Papers stay in the Zotero `hoops` collection. This repo is the sidecar: datasets, derived tables, and the notes that connect them to the draft.
 
+## Quick Links
+
 - Roadmap: [ROADMAP.md](ROADMAP.md)
 - What the draft already asks for: [data/mentions.csv](data/mentions.csv)
 - Scrivener access from Cursor: [writerslogic/scrivener-mcp](https://github.com/writerslogic/scrivener-mcp), configured in `.cursor/mcp.json`. Reload the window once so the server connects. The project to open is the `.scriv` above, not this repo.
 
-Do not commit the manuscript, the Zotero library, or raw tracking dumps. `data/raw/` is gitignored on purpose.
+## Documentation
+
+- **[CHAPTER-MAP.md](docs/CHAPTER-MAP.md)** — Maps Scrivener binder paths to data artifacts
+- **[DATA-REPOS.md](docs/DATA-REPOS.md)** — Open-source basketball data APIs and tools
+- **[BASKETBALL-SOFTWARE.md](docs/BASKETBALL-SOFTWARE.md)** — Commercial tracking & analytics systems (SportVU, Second Spectrum, Synergy, etc.)
+- **[SLOAN-ARCHIVE.md](docs/SLOAN-ARCHIVE.md)** — MIT Sloan Sports Analytics Conference papers index
+
+## Data Policy
+
+Do not commit the manuscript, the Zotero library, or raw tracking dumps. `data/raw/` is gitignored on purpose. For proprietary systems: cite, don't rehost.
