@@ -1,0 +1,14 @@
+{
+  "edition_id": "2023",
+  "label": "2023 NBA Collective Bargaining Agreement Final",
+  "source_url": "https://ak-static.cms.nba.com/wp-content/uploads/sites/4/2024/06/2023-NBA-Collective-Bargaining-Agreement-Final.pdf",
+  "retrieval_date": "2026-09-19T15:44:28.931896+02:00",
+  "original_sha256": "sha256:cf59d43fe46f63d7ba07364563046d766c487c26032fcc88432310d47effd9d9",
+  "text_sha256": "sha256:3b499cae5aee700e61158ee284f2fa08b16563576a2b7872743338af45961f2e",
+  "text_fidelity": "extracted_unverified",
+  "extractor": "pdftotext 25.03.0 (no -layout)",
+  "pdf_bytes": 2903978,
+  "pdf_pages": 686,
+  "http_status_on_fetch": 200,
+  "rights_note": "Not redistributed; local raw only. Copyright NBA/NBPA."
+}
