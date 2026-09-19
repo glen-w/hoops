@@ -84,6 +84,8 @@ Track which data products support which sections of the manuscript, ensuring eve
 | CBA / 2017 spike documentation | `docs/cba/SPIKE-2017.md` | TBD | ready |
 | CBA / compare 2017-2023 | `docs/cba/COMPARE-2017-2023.md` | TBD | ready |
 | LEAGUE / teams desk | `data/derived/teams/` | TBD | partial |
+| TEAMS / global / EuroLeague | `data/derived/teams/teams.csv` | TBD | ready |
+| TEAMS / global / EuroLeague Women | `data/derived/teams/teams.csv` | TBD | ready |
 | Binder / comparable books desk | `data/derived/books/comparable.csv` | TBD | ready |
 
 ## Column Definitions
@@ -117,6 +119,8 @@ Track which data products support which sections of the manuscript, ensuring eve
 **Home court 2024:** Basketball-Reference playoff count is 48–34 (58.5%), high confidence. Regular-season home win rate .5431 is medium. Landmark decade seasons in `data/derived/avg_game_by_decade/` are a light pin; the full decade means stay in `avg_game_by_decade.csv`.
 
 **Comparable books (2026-09-19):** 19 basketball books for desk reading and comparison. Goodreads ratings are high confidence; Amazon UK ratings and prices are often gaps. See `data/derived/books/README.md` and `comparable.md`.
+
+**Teams P0c (2026-09-19):** EuroLeague (20) and EuroLeague Women (22 with Wikidata IDs; 2 gaps left in the seed) are rows in the same `teams.csv` as the NBA and WNBA. Logos are still deferred.
 
 ## Maintenance
 
