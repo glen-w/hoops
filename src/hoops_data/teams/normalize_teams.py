@@ -3,7 +3,9 @@
 Normalize raw Wikidata team data into derived CSVs.
 
 Reads JSONL from data/raw/wikidata/ and writes structured
-leagues.csv, teams.csv to data/derived/teams/.
+leagues.csv and teams.csv. Replaces only leagues marked active in
+src/hoops_data/teams/leagues_seed.yaml. Other leagues already in those
+files, including EuroLeague, are kept.
 
 Usage:
     uv run python -m hoops_data.teams.normalize_teams
@@ -241,6 +243,31 @@ def normalize_team(raw_team: dict[str, Any]) -> dict[str, Any]:
     }
 
 
+def _keep_other_leagues(path: Path, refreshed: pd.DataFrame) -> pd.DataFrame:
+    """Keep rows for leagues this run did not refresh.
+
+    The NBA normalizer and the EuroLeague fetcher share teams.csv.
+    Each writer may replace only the league_ids it just produced.
+    """
+    if refreshed.empty or "league_id" not in refreshed.columns or not path.exists():
+        return refreshed
+
+    existing = pd.read_csv(path, dtype=str).fillna("")
+    if "league_id" not in existing.columns:
+        return refreshed
+
+    refreshed_ids = set(refreshed["league_id"].dropna().astype(str))
+    kept = existing[~existing["league_id"].isin(refreshed_ids)].copy()
+    if kept.empty:
+        return refreshed
+
+    for column in refreshed.columns:
+        if column not in kept.columns:
+            kept[column] = ""
+    kept = kept[list(refreshed.columns)]
+    return pd.concat([refreshed.fillna(""), kept], ignore_index=True)
+
+
 def main():
     parser = argparse.ArgumentParser(
         description="Normalize raw Wikidata teams into derived CSVs"
@@ -281,6 +308,7 @@ def main():
     
     leagues_df = pd.DataFrame(leagues)
     leagues_path = args.output_dir / "leagues.csv"
+    leagues_df = _keep_other_leagues(leagues_path, leagues_df)
     leagues_df.to_csv(leagues_path, index=False)
     print(f"  ✓ Wrote {len(leagues_df)} leagues to {leagues_path}")
     
@@ -300,30 +328,31 @@ def main():
     
     teams_df = pd.DataFrame(teams)
     teams_path = args.output_dir / "teams.csv"
+    teams_df = _keep_other_leagues(teams_path, teams_df)
     teams_df.to_csv(teams_path, index=False)
     print(f"  ✓ Wrote {len(teams_df)} teams to {teams_path}")
-    
-    # Create empty logos.csv with schema
-    print("Creating empty logos.csv...")
-    logos_columns = [
-        "team_id",
-        "logo_kind",
-        "year_start",
-        "year_end",
-        "commons_title",
-        "commons_url",
-        "local_path",
-        "mime",
-        "sha256",
-        "license",
-        "attribution",
-        "as_of",
-        "confidence",
-    ]
-    logos_df = pd.DataFrame(columns=logos_columns)
+
+    # Do not wipe logo rows that another pass already recorded.
     logos_path = args.output_dir / "logos.csv"
-    logos_df.to_csv(logos_path, index=False)
-    print(f"  ✓ Created {logos_path} (schema only)")
+    if not logos_path.exists():
+        print("Creating empty logos.csv...")
+        logos_columns = [
+            "team_id",
+            "logo_kind",
+            "year_start",
+            "year_end",
+            "commons_title",
+            "commons_url",
+            "local_path",
+            "mime",
+            "sha256",
+            "license",
+            "attribution",
+            "as_of",
+            "confidence",
+        ]
+        pd.DataFrame(columns=logos_columns).to_csv(logos_path, index=False)
+        print(f"  ✓ Created {logos_path} (schema only)")
     
     print(f"\n✓ Complete. Wrote {len(leagues_df)} leagues, {len(teams_df)} teams.")
     return 0

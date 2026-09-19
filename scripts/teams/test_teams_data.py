@@ -21,31 +21,44 @@ from typing import Any
 import yaml
 
 
-# Expected row counts
+# Locked desk schema. Same header as data/derived/teams/teams.csv.
+EXPECTED_NBA = 30
+EXPECTED_WNBA = 12
 EXPECTED_EUROLEAGUE_MEN = 20
-EXPECTED_EUROLEAGUE_WOMEN_WITH_QIDS = 22  # 24 total - 2 gaps
-EXPECTED_TOTAL = EXPECTED_EUROLEAGUE_MEN + EXPECTED_EUROLEAGUE_WOMEN_WITH_QIDS
+EXPECTED_EUROLEAGUE_WOMEN_WITH_QIDS = 22  # 24 in the seed, 2 gaps
+EXPECTED_TOTAL = (
+    EXPECTED_NBA
+    + EXPECTED_WNBA
+    + EXPECTED_EUROLEAGUE_MEN
+    + EXPECTED_EUROLEAGUE_WOMEN_WITH_QIDS
+)
 
-# Locked CSV schema
 EXPECTED_COLUMNS = [
     "team_id",
     "league_id",
     "name",
-    "short_name",
     "abbr",
-    "gender",
-    "country",
-    "founded_year",
-    "colors_hex",
+    "short_name",
     "former_names",
+    "city",
+    "country",
+    "arena",
+    "arena_capacity",
+    "founded_year",
+    "colours_primary_hex",
+    "colours_secondary_hex",
+    "colours_accent_hex",
+    "colours_source",
+    "mascot",
+    "owner",
+    "ownership_structure",
     "wikidata_qid",
     "wikipedia_en",
+    "official_url",
     "as_of",
-    "confidence"
+    "source_url",
+    "confidence",
 ]
-
-# Valid gender values
-VALID_GENDERS = {"men", "women"}
 
 # Valid confidence levels
 VALID_CONFIDENCE = {"high", "medium", "low", "gap"}
@@ -108,45 +121,34 @@ def test_schema_locked():
         raise TestFailure("teams.csv is empty")
 
     actual_columns = list(teams[0].keys())
-    required = [
-        "team_id",
-        "league_id",
-        "name",
-        "abbr",
-        "short_name",
-        "country",
-        "wikidata_qid",
-        "wikipedia_en",
-        "as_of",
-        "confidence",
-    ]
-    missing = [col for col in required if col not in actual_columns]
-    if missing:
-        raise TestFailure(f"Missing desk columns: {missing}")
+    if actual_columns != EXPECTED_COLUMNS:
+        raise TestFailure(
+            f"Schema mismatch.\nExpected: {EXPECTED_COLUMNS}\nGot: {actual_columns}"
+        )
 
-    print(f"✓ Desk schema present ({len(actual_columns)} columns)")
+    print(f"✓ Schema locked ({len(EXPECTED_COLUMNS)} columns)")
 
 
 def test_row_counts():
-    """Test that EuroLeague row counts match seed expectations."""
-    teams = euroleague_rows()
+    """Test that the shared desk still has every league."""
+    teams = load_teams_csv()
+    counts = {}
+    for team in teams:
+        counts[team["league_id"]] = counts.get(team["league_id"], 0) + 1
 
-    men_count = sum(1 for t in teams if t["league_id"] == "euroleague")
-    women_count = sum(1 for t in teams if t["league_id"] == "euroleague_women")
+    expected = {
+        "nba": EXPECTED_NBA,
+        "wnba": EXPECTED_WNBA,
+        "euroleague": EXPECTED_EUROLEAGUE_MEN,
+        "euroleague_women": EXPECTED_EUROLEAGUE_WOMEN_WITH_QIDS,
+    }
+    if len(teams) != EXPECTED_TOTAL:
+        raise TestFailure(f"Total row count mismatch. Expected {EXPECTED_TOTAL}, got {len(teams)}")
+    for league_id, count in expected.items():
+        if counts.get(league_id) != count:
+            raise TestFailure(f"{league_id} count mismatch. Expected {count}, got {counts.get(league_id)}")
 
-    if men_count != EXPECTED_EUROLEAGUE_MEN:
-        raise TestFailure(
-            f"EuroLeague (men) count mismatch. Expected {EXPECTED_EUROLEAGUE_MEN}, got {men_count}"
-        )
-
-    if women_count != EXPECTED_EUROLEAGUE_WOMEN_WITH_QIDS:
-        raise TestFailure(
-            f"EuroLeague Women count mismatch. Expected {EXPECTED_EUROLEAGUE_WOMEN_WITH_QIDS}, got {women_count}"
-        )
-
-    print("✓ Row counts match seed:")
-    print(f"  - EuroLeague (men): {men_count} teams")
-    print(f"  - EuroLeague Women: {women_count} teams")
+    print(f"✓ Row counts match ({EXPECTED_TOTAL} teams)")
 
 
 def test_gaps_documented():
