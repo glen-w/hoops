@@ -155,12 +155,22 @@ Current implementation: logos are gitignored; checksums in CSV.
 **NEVER sample colors from logo pixels or invent hex values.**
 
 - Colors must come from official sources only:
-  - Wikidata P465 (official color hex)
+  - Wikidata P465 (official color hex property)
   - Official team style guides
   - Wikipedia infobox (documented source)
 - Leave `colours_*_hex` blank if no official claim exists
 - Set `confidence=GAP` for missing colors
 - Always populate `colours_source` when colors are present
+
+### P465 SPARQL Enrichment (P0b)
+
+The current P0a scaffold leaves colors blank. **P0b work** will:
+- Query Wikidata P465 (official color) property via SPARQL
+- Extract hex values where available
+- Populate `colours_source=wikidata` for P465-sourced colors
+- Leave blanks rather than invent when no official claim exists
+
+Manual enrichment from official style guides is P1.
 
 ## Ownership Structure
 
