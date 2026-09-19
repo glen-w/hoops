@@ -10,7 +10,7 @@ Track which data products support which sections of the manuscript, ensuring eve
 
 | Binder Path | Derived Artifact | Zotero Key | Status |
 |-------------|------------------|------------|--------|
-| GAME TIME / average game | `data/derived/avg_game_by_decade.csv` | TBD | ready |
+| GAME TIME / average game / Style of play / scoring eras (avg game by decade) | `data/derived/avg_game_by_decade/` | TBD | PINNED — 5 landmark seasons HIGH (BRef); full decade means deferred |
 | STADIUM / home court advantage | `data/derived/home_court_2024_playoffs.md` | TBD | wanted |
 | PRE-GAME / popularity | `data/studies/fiba-450-million-players.md` | TBD | ready |
 | LEAGUE / competitive balance | `data/studies/totty-owens-2011-competitive-balance.md` | TBD (add Totty & Owens 2011) | ready |
