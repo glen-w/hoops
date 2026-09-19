@@ -58,6 +58,10 @@ Track which data products support which sections of the manuscript, ensuring eve
   - `ready` — artifact exists and is current
   - `EXAMPLE` — placeholder row for demonstration
 
+## Notes
+
+**NBA org-charts sparse sources:** TOR, CLE, MIL relied more on press releases + NBAstuffer vs. official staff directories; check row-level `confidence` + `as_of` when citing.
+
 ## Maintenance
 
 Update this map whenever:
