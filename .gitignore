@@ -7,6 +7,13 @@ node_modules/
 
 # Downloaded dumps stay local until a license check says they can be committed.
 data/raw/**
+!data/raw/**/
+!data/raw/**/README.md
+!data/raw/**/LICENSES.md
 !data/raw/LICENSES.md
 !data/raw/.gitkeep
 *.sqlite
+
+# CBA PDFs and extracted fulltext (league/NBPA proprietary)
+data/raw/cba/**/*.pdf
+data/raw/cba/**/*.txt
