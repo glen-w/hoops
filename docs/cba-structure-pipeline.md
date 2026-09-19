@@ -6,6 +6,8 @@ This document describes the deterministic pipeline for extracting structural met
 
 The CBA structure pipeline converts official NBA CBA PDFs into machine-readable structural metadata suitable for analysis and cross-referencing. The pipeline commits **only derived artifacts** (structural metadata), never the fulltext of the CBA itself.
 
+**Related:** For querying structure metadata during drafting, see [CBA-LOOKUP.md](CBA-LOOKUP.md) — quick reference CLI for Scrivener mid-draft.
+
 ### Pipeline Flow
 
 ```

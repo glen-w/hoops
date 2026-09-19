@@ -45,6 +45,10 @@ The build script computes and stores the SHA-256 hash in `structure.json` automa
 
 If the PDF is present, CI validation will regenerate structure and diff it against the committed version. If the PDF is absent, CI skips extraction with a clear message.
 
+## Integration with CHAPTER-MAP
+
+Chapters referencing CBA articles (e.g., salary cap, defined terms) can use `scripts/cba_lookup.py` for clause IDs and page ranges. Status `needs_local_pdf` until PDF is regenerated locally. *(Infra owns actual CHAPTER-MAP rows.)*
+
 ## License Note
 
 The CBA text is proprietary. Structural metadata (table of contents, section IDs, page ranges) falls under fair use for research and documentation purposes. This repository does **not** redistribute CBA body text.
