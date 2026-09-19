@@ -42,7 +42,7 @@ def main():
     parser.add_argument(
         "--output",
         type=Path,
-        help="Output path for structure.json (default: data/derived/cba/{edition}/structure.json)"
+        help="Output path for structure.json (default: data/cba/{edition}/derived/structure.json)"
     )
     
     parser.add_argument(
@@ -141,8 +141,8 @@ def main():
         else:
             print("✓ All validations passed", file=sys.stderr)
     
-    # Write output
-    output_path = args.output or Path(f"data/derived/cba/{args.edition}/structure.json")
+    # Write output (canonical Infra #13 path)
+    output_path = args.output or Path(f"data/cba/{args.edition}/derived/structure.json")
     output_path.parent.mkdir(parents=True, exist_ok=True)
     
     with open(output_path, "w") as f:
