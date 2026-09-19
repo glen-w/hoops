@@ -2,1683 +2,2933 @@
 # This file is the P0 seed for the teams data pipeline.
 # Schema: league_id, name, gender, tier, wikidata_qid, wikipedia_en, teams[]
 # Team schema: team_id, name, short_name, wikidata_qid, wikipedia_en, status
-# status values: ready_for_p0c (has QID, ready to fetch) | gap (no QID; skip fetch)
+# status values: ready_for_p0c (has QID, ready to fetch) | ready_for_p0e | ready_for_p0f | gap (no QID; skip fetch)
 
 leagues:
-  - league_id: euroleague
-    name: EuroLeague
-    gender: men
-    tier: 1
-    country_or_region: INT
-    governing_body: Euroleague Basketball
-    wikidata_qid: Q185982
-    wikipedia_en: EuroLeague
-    season_label: "2026-27"
-    as_of: "2026-09-19"
-    source_url: https://www.wikidata.org/wiki/Q185982
+- league_id: euroleague
+  name: EuroLeague
+  gender: men
+  tier: 1
+  country_or_region: INT
+  governing_body: Euroleague Basketball
+  wikidata_qid: Q185982
+  wikipedia_en: EuroLeague
+  season_label: 2026-27
+  as_of: '2026-09-19'
+  source_url: https://www.wikidata.org/wiki/Q185982
+  confidence: HIGH
+  status: ready_for_p0c
+  teams:
+  - team_id: euroleague_anadolu_efes
+    name: Anadolu Efes Istanbul
+    short_name: Anadolu Efes
+    wikidata_qid: Q483738
+    wikipedia_en: Anadolu Efes S.K.
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Anadolu_Efes_S.K. → pageprops wikibase_item
     confidence: HIGH
     status: ready_for_p0c
-    teams:
-      - team_id: euroleague_anadolu_efes
-        name: Anadolu Efes Istanbul
-        short_name: Anadolu Efes
-        wikidata_qid: Q483738
-        wikipedia_en: Anadolu Efes S.K.
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/Anadolu_Efes_S.K. → pageprops wikibase_item"
-        confidence: HIGH
-        status: ready_for_p0c
-      - team_id: euroleague_asvel
-        name: LDLC ASVEL Villeurbanne
-        short_name: ASVEL
-        wikidata_qid: Q4089
-        wikipedia_en: ASVEL Basket
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/ASVEL_Basket → pageprops wikibase_item"
-        confidence: HIGH
-        status: ready_for_p0c
-      - team_id: euroleague_baskonia
-        name: Baskonia Vitoria-Gasteiz
-        short_name: Baskonia
-        wikidata_qid: Q54927
-        wikipedia_en: Saski Baskonia
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/Saski_Baskonia → pageprops wikibase_item"
-        confidence: HIGH
-        status: ready_for_p0c
-      - team_id: euroleague_besiktas
-        name: Beşiktaş Istanbul
-        short_name: Beşiktaş
-        wikidata_qid: Q854669
-        wikipedia_en: "Beşiktaş J.K. (men's basketball)"
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/Beşiktaş_J.K._(men%27s_basketball) → pageprops wikibase_item"
-        confidence: HIGH
-        status: ready_for_p0c
-      - team_id: euroleague_crvena_zvezda
-        name: Crvena zvezda Meridianbet Belgrade
-        short_name: Crvena zvezda
-        wikidata_qid: Q1132627
-        wikipedia_en: KK Crvena zvezda
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/KK_Crvena_zvezda → pageprops wikibase_item"
-        confidence: HIGH
-        status: ready_for_p0c
-      - team_id: euroleague_dubai
-        name: Dubai Basketball
-        short_name: Dubai
-        wikidata_qid: Q125293758
-        wikipedia_en: Dubai Basketball
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/Dubai_Basketball → pageprops wikibase_item"
-        confidence: HIGH
-        status: ready_for_p0c
-      - team_id: euroleague_olimpia_milano
-        name: EA7 Emporio Armani Milan
-        short_name: Olimpia Milano
-        wikidata_qid: Q36362
-        wikipedia_en: Olimpia Milano
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/Olimpia_Milano → pageprops wikibase_item"
-        confidence: HIGH
-        status: ready_for_p0c
-      - team_id: euroleague_barcelona
-        name: FC Barcelona
-        short_name: Barcelona
-        wikidata_qid: Q54893
-        wikipedia_en: FC Barcelona Bàsquet
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/FC_Barcelona_Bàsquet → pageprops wikibase_item"
-        confidence: HIGH
-        status: ready_for_p0c
-      - team_id: euroleague_bayern
-        name: FC Bayern Munich
-        short_name: Bayern
-        wikidata_qid: Q600149
-        wikipedia_en: FC Bayern Munich (basketball)
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/FC_Bayern_Munich_(basketball) → pageprops wikibase_item"
-        confidence: HIGH
-        status: ready_for_p0c
-      - team_id: euroleague_fenerbahce
-        name: Fenerbahçe Beko Istanbul
-        short_name: Fenerbahçe
-        wikidata_qid: Q239447
-        wikipedia_en: Fenerbahçe S.K. (basketball)
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/Fenerbahçe_S.K._(basketball) → pageprops wikibase_item"
-        confidence: HIGH
-        status: ready_for_p0c
-      - team_id: euroleague_hapoel_tel_aviv
-        name: Hapoel IBI Tel Aviv
-        short_name: Hapoel Tel Aviv
-        wikidata_qid: Q2735525
-        wikipedia_en: Hapoel Tel Aviv B.C.
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/Hapoel_Tel_Aviv_B.C. → pageprops wikibase_item"
-        confidence: HIGH
-        status: ready_for_p0c
-      - team_id: euroleague_maccabi_tel_aviv
-        name: Maccabi Playtika Tel Aviv
-        short_name: Maccabi Tel Aviv
-        wikidata_qid: Q819694
-        wikipedia_en: Maccabi Tel Aviv B.C.
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/Maccabi_Tel_Aviv_B.C. → pageprops wikibase_item"
-        confidence: HIGH
-        status: ready_for_p0c
-      - team_id: euroleague_olympiacos
-        name: Olympiacos Piraeus
-        short_name: Olympiacos
-        wikidata_qid: Q847701
-        wikipedia_en: Olympiacos B.C.
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/Olympiacos_B.C. → pageprops wikibase_item"
-        confidence: HIGH
-        status: ready_for_p0c
-      - team_id: euroleague_panathinaikos
-        name: Panathinaikos AKTOR Athens
-        short_name: Panathinaikos
-        wikidata_qid: Q739287
-        wikipedia_en: Panathinaikos B.C.
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/Panathinaikos_B.C. → pageprops wikibase_item"
-        confidence: HIGH
-        status: ready_for_p0c
-      - team_id: euroleague_paris
-        name: Paris Basketball
-        short_name: Paris
-        wikidata_qid: Q56291131
-        wikipedia_en: Paris Basketball
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/Paris_Basketball → pageprops wikibase_item"
-        confidence: HIGH
-        status: ready_for_p0c
-      - team_id: euroleague_partizan
-        name: Partizan Mozzart Bet Belgrade
-        short_name: Partizan
-        wikidata_qid: Q912247
-        wikipedia_en: KK Partizan
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/KK_Partizan → pageprops wikibase_item"
-        confidence: HIGH
-        status: ready_for_p0c
-      - team_id: euroleague_real_madrid
-        name: Real Madrid
-        short_name: Real Madrid
-        wikidata_qid: Q54922
-        wikipedia_en: Real Madrid Baloncesto
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/Real_Madrid_Baloncesto → pageprops wikibase_item"
-        confidence: HIGH
-        status: ready_for_p0c
-      - team_id: euroleague_valencia
-        name: Valencia Basket
-        short_name: Valencia
-        wikidata_qid: Q54940
-        wikipedia_en: Valencia Basket
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/Valencia_Basket → pageprops wikibase_item"
-        confidence: HIGH
-        status: ready_for_p0c
-      - team_id: euroleague_virtus
-        name: Virtus Segafredo Bologna
-        short_name: Virtus Bologna
-        wikidata_qid: Q36264
-        wikipedia_en: Virtus Bologna
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/Virtus_Bologna → pageprops wikibase_item"
-        confidence: HIGH
-        status: ready_for_p0c
-      - team_id: euroleague_zalgiris
-        name: Žalgiris Kaunas
-        short_name: Žalgiris
-        wikidata_qid: Q393357
-        wikipedia_en: BC Žalgiris
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/BC_Žalgiris → pageprops wikibase_item"
-        confidence: HIGH
-        status: ready_for_p0c
-
-  - league_id: euroleague_women
-    name: EuroLeague Women
-    gender: women
-    tier: 1
-    country_or_region: INT
-    governing_body: FIBA
-    wikidata_qid: Q521068
-    wikipedia_en: EuroLeague Women
-    season_label: "2026-27"
-    as_of: "2026-09-19"
-    source_url: https://www.wikidata.org/wiki/Q521068
+  - team_id: euroleague_asvel
+    name: LDLC ASVEL Villeurbanne
+    short_name: ASVEL
+    wikidata_qid: Q4089
+    wikipedia_en: ASVEL Basket
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/ASVEL_Basket → pageprops wikibase_item
     confidence: HIGH
     status: ready_for_p0c
-    teams:
-      - team_id: euroleague_women_fenerbahce
-        name: Fenerbahçe Tarfin
-        short_name: Fenerbahçe
-        wikidata_qid: Q1404649
-        wikipedia_en: "Fenerbahçe S.K. (women's basketball)"
-        phase: regular_season
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/Fenerbahçe_S.K._(women%27s_basketball) → pageprops"
-        confidence: HIGH
-        status: ready_for_p0c
-      - team_id: euroleague_women_galatasaray
-        name: Galatasaray Çağdaş Faktoring
-        short_name: Galatasaray
-        wikidata_qid: Q65413
-        wikipedia_en: "Galatasaray S.K. (women's basketball)"
-        phase: regular_season
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/Galatasaray_S.K._(women%27s_basketball) → pageprops"
-        confidence: HIGH
-        status: ready_for_p0c
-      - team_id: euroleague_women_valencia
-        name: Valencia Basket
-        short_name: Valencia
-        wikidata_qid: Q60464673
-        wikipedia_en: Valencia Basket (women)
-        phase: regular_season
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/Valencia_Basket_(women) → pageprops"
-        confidence: HIGH
-        status: ready_for_p0c
-        notes: Distinct from men Q54940
-      - team_id: euroleague_women_zaragoza
-        name: Casademont Zaragoza
-        short_name: Zaragoza
-        wikidata_qid: Q118949146
-        wikipedia_en: null
-        phase: regular_season
-        as_of: "2026-09-19"
-        source_url: "https://www.wikidata.org/wiki/Q118949146"
-        confidence: MEDIUM
-        status: ready_for_p0c
-        notes: "P31=women's basketball team; no enwiki sitelink (wikipedia_en GAP)"
-      - team_id: euroleague_women_basket_landes
-        name: Basket Landes
-        short_name: Landes
-        wikidata_qid: Q2887227
-        wikipedia_en: Basket Landes
-        phase: regular_season
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/Basket_Landes → pageprops"
-        confidence: HIGH
-        status: ready_for_p0c
-      - team_id: euroleague_women_bourges
-        name: Tango Bourges Basket
-        short_name: Bourges
-        wikidata_qid: Q616041
-        wikipedia_en: Tango Bourges Basket
-        phase: regular_season
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/Tango_Bourges_Basket → pageprops"
-        confidence: HIGH
-        status: ready_for_p0c
-      - team_id: euroleague_women_usk_praha
-        name: ZVVZ USK Praha
-        short_name: USK Praha
-        wikidata_qid: Q3547347
-        wikipedia_en: "USK Praha (women's basketball)"
-        phase: regular_season
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/USK_Praha_(women%27s_basketball) → pageprops"
-        confidence: HIGH
-        status: ready_for_p0c
-        notes: Not multi-sport USK Praha
-      - team_id: euroleague_women_schio
-        name: Beretta Famila Schio
-        short_name: Schio
-        wikidata_qid: Q3064877
-        wikipedia_en: PF Schio
-        phase: regular_season
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/PF_Schio → pageprops"
-        confidence: HIGH
-        status: ready_for_p0c
-      - team_id: euroleague_women_lublin
-        name: AZS UMCS Lublin
-        short_name: Lublin
-        wikidata_qid: Q16485007
-        wikipedia_en: null
-        phase: regular_season
-        as_of: "2026-09-19"
-        source_url: "https://www.wikidata.org/wiki/Q16485007"
-        confidence: MEDIUM
-        status: ready_for_p0c
-        notes: "Women's basketball item; enwiki \"AZS UMCS Lublin\" is multi-sport — wikipedia_en GAP"
-      - team_id: euroleague_women_athinaikos
-        name: Athinaikos Qualco
-        short_name: Athinaikos
-        wikidata_qid: Q7562428
-        wikipedia_en: "Athinaikos women's basketball"
-        phase: regular_season
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/Athinaikos_women%27s_basketball → pageprops"
-        confidence: HIGH
-        status: ready_for_p0c
-      - team_id: euroleague_women_kangoeroes
-        name: Kangoeroes Basket Mechelen
-        short_name: Kangoeroes
-        wikidata_qid: null
-        wikipedia_en: null
-        phase: regular_season
-        as_of: "2026-09-19"
-        source_url: "https://www.wikidata.org/w/index.php?search=Kangoeroes+women+basketball&title=Special:Search&type=item"
-        confidence: GAP
-        status: gap
-        notes: "GAP: Wikidata Special:Search found no women-specific item (men's BLB club exists separately)"
-      - team_id: euroleague_women_rapid_bucuresti
-        name: CS Rapid București
-        short_name: Rapid
-        wikidata_qid: Q7947062
-        wikipedia_en: "CS Rapid București (women's basketball)"
-        phase: regular_season
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/CS_Rapid_București_(women%27s_basketball) → pageprops"
-        confidence: HIGH
-        status: ready_for_p0c
-      - team_id: euroleague_women_emlak_konut
-        name: Emlak Konut
-        short_name: Emlak Konut
-        wikidata_qid: Q97218186
-        wikipedia_en: Emlak Konut SK
-        phase: qualifying
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/Emlak_Konut_SK → pageprops"
-        confidence: HIGH
-        status: ready_for_p0c
-      - team_id: euroleague_women_girona
-        name: Spar Girona
-        short_name: Girona
-        wikidata_qid: Q4890678
-        wikipedia_en: Uni Girona CB
-        phase: qualifying
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/Uni_Girona_CB → pageprops"
-        confidence: HIGH
-        status: ready_for_p0c
-      - team_id: euroleague_women_flammes_carolo
-        name: Flammes Carolo Basket
-        short_name: Flammes Carolo
-        wikidata_qid: Q3073321
-        wikipedia_en: Flammes Carolo Basket
-        phase: qualifying
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/Flammes_Carolo_Basket → pageprops"
-        confidence: HIGH
-        status: ready_for_p0c
-      - team_id: euroleague_women_zabiny_brno
-        name: Žabiny Brno
-        short_name: Žabiny Brno
-        wikidata_qid: Q2887247
-        wikipedia_en: Žabiny Brno
-        phase: qualifying
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/Žabiny_Brno → pageprops"
-        confidence: HIGH
-        status: ready_for_p0c
-      - team_id: euroleague_women_kp_brno
-        name: KP Brno
-        short_name: KP Brno
-        wikidata_qid: null
-        wikipedia_en: null
-        phase: qualifying
-        as_of: "2026-09-19"
-        source_url: "https://www.wikidata.org/w/index.php?search=KP+Brno+basketball&title=Special:Search&type=item"
-        confidence: GAP
-        status: gap
-        notes: "GAP: Wikidata Special:Search returned no matching item"
-      - team_id: euroleague_women_reyer_venezia
-        name: Umana Reyer Venezia
-        short_name: Reyer Venezia
-        wikidata_qid: Q2887228
-        wikipedia_en: Reyer Venezia (women)
-        phase: qualifying
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/Reyer_Venezia_(women) → pageprops"
-        confidence: HIGH
-        status: ready_for_p0c
-      - team_id: euroleague_women_dvtk
-        name: DVTK HUN-Therm
-        short_name: DVTK
-        wikidata_qid: Q5205520
-        wikipedia_en: Diósgyőri VTK (basketball)
-        phase: qualifying
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/Diósgyőri_VTK_(basketball) → pageprops"
-        confidence: HIGH
-        status: ready_for_p0c
-      - team_id: euroleague_women_sopron
-        name: Sopron Basket
-        short_name: Sopron
-        wikidata_qid: Q3547259
-        wikipedia_en: Sopron Basket
-        phase: qualifying
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/Sopron_Basket → pageprops"
-        confidence: HIGH
-        status: ready_for_p0c
-      - team_id: euroleague_women_azs_poznan
-        name: AZS Poznań
-        short_name: AZS Poznań
-        wikidata_qid: Q2819636
-        wikipedia_en: "AZS Poznań (women's basketball)"
-        phase: qualifying
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/AZS_Poznań_(women%27s_basketball) → pageprops"
-        confidence: HIGH
-        status: ready_for_p0c
-      - team_id: euroleague_women_panathinaikos
-        name: Panathinaikos AC
-        short_name: Panathinaikos
-        wikidata_qid: Q3191319
-        wikipedia_en: "Panathinaikos women's basketball"
-        phase: qualifying
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/Panathinaikos_women%27s_basketball → pageprops"
-        confidence: HIGH
-        status: ready_for_p0c
-      - team_id: euroleague_women_kibirkstis
-        name: Kibirkštis-TOKS
-        short_name: Kibirkštis
-        wikidata_qid: Q3552971
-        wikipedia_en: BC Kibirkštis
-        phase: qualifying
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/BC_Kibirkštis → pageprops"
-        confidence: HIGH
-        status: ready_for_p0c
-        notes: Item English label still references Kaunas VIČI-Aistės era; enwiki title BC Kibirkštis
-      - team_id: euroleague_women_crvena_zvezda
-        name: KKZ Crvena zvezda
-        short_name: Crvena zvezda
-        wikidata_qid: Q1196018
-        wikipedia_en: ŽKK Crvena zvezda
-        phase: qualifying
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/ŽKK_Crvena_zvezda → pageprops"
-        confidence: HIGH
-        status: ready_for_p0c
-
-  - league_id: liga_acb
-    name: Liga ACB
-    sponsor_name: Liga Endesa
-    gender: men
-    tier: 1
-    country_or_region: ES
-    governing_body: ACB
-    wikidata_qid: Q1126104
-    wikipedia_en: Liga ACB
-    season_label: "2026-27"
-    as_of: "2026-09-19"
-    source_url: https://www.wikidata.org/wiki/Q1126104
-    club_list_source: "https://en.wikipedia.org/wiki/2026–27_ACB_season"
+  - team_id: euroleague_baskonia
+    name: Baskonia Vitoria-Gasteiz
+    short_name: Baskonia
+    wikidata_qid: Q54927
+    wikipedia_en: Saski Baskonia
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Saski_Baskonia → pageprops wikibase_item
+    confidence: HIGH
+    status: ready_for_p0c
+  - team_id: euroleague_besiktas
+    name: Beşiktaş Istanbul
+    short_name: Beşiktaş
+    wikidata_qid: Q854669
+    wikipedia_en: Beşiktaş J.K. (men's basketball)
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Beşiktaş_J.K._(men%27s_basketball) → pageprops wikibase_item
+    confidence: HIGH
+    status: ready_for_p0c
+  - team_id: euroleague_crvena_zvezda
+    name: Crvena zvezda Meridianbet Belgrade
+    short_name: Crvena zvezda
+    wikidata_qid: Q1132627
+    wikipedia_en: KK Crvena zvezda
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/KK_Crvena_zvezda → pageprops wikibase_item
+    confidence: HIGH
+    status: ready_for_p0c
+  - team_id: euroleague_dubai
+    name: Dubai Basketball
+    short_name: Dubai
+    wikidata_qid: Q125293758
+    wikipedia_en: Dubai Basketball
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Dubai_Basketball → pageprops wikibase_item
+    confidence: HIGH
+    status: ready_for_p0c
+  - team_id: euroleague_olimpia_milano
+    name: EA7 Emporio Armani Milan
+    short_name: Olimpia Milano
+    wikidata_qid: Q36362
+    wikipedia_en: Olimpia Milano
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Olimpia_Milano → pageprops wikibase_item
+    confidence: HIGH
+    status: ready_for_p0c
+  - team_id: euroleague_barcelona
+    name: FC Barcelona
+    short_name: Barcelona
+    wikidata_qid: Q54893
+    wikipedia_en: FC Barcelona Bàsquet
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/FC_Barcelona_Bàsquet → pageprops wikibase_item
+    confidence: HIGH
+    status: ready_for_p0c
+  - team_id: euroleague_bayern
+    name: FC Bayern Munich
+    short_name: Bayern
+    wikidata_qid: Q600149
+    wikipedia_en: FC Bayern Munich (basketball)
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/FC_Bayern_Munich_(basketball) → pageprops wikibase_item
+    confidence: HIGH
+    status: ready_for_p0c
+  - team_id: euroleague_fenerbahce
+    name: Fenerbahçe Beko Istanbul
+    short_name: Fenerbahçe
+    wikidata_qid: Q239447
+    wikipedia_en: Fenerbahçe S.K. (basketball)
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Fenerbahçe_S.K._(basketball) → pageprops wikibase_item
+    confidence: HIGH
+    status: ready_for_p0c
+  - team_id: euroleague_hapoel_tel_aviv
+    name: Hapoel IBI Tel Aviv
+    short_name: Hapoel Tel Aviv
+    wikidata_qid: Q2735525
+    wikipedia_en: Hapoel Tel Aviv B.C.
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Hapoel_Tel_Aviv_B.C. → pageprops wikibase_item
+    confidence: HIGH
+    status: ready_for_p0c
+  - team_id: euroleague_maccabi_tel_aviv
+    name: Maccabi Playtika Tel Aviv
+    short_name: Maccabi Tel Aviv
+    wikidata_qid: Q819694
+    wikipedia_en: Maccabi Tel Aviv B.C.
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Maccabi_Tel_Aviv_B.C. → pageprops wikibase_item
+    confidence: HIGH
+    status: ready_for_p0c
+  - team_id: euroleague_olympiacos
+    name: Olympiacos Piraeus
+    short_name: Olympiacos
+    wikidata_qid: Q847701
+    wikipedia_en: Olympiacos B.C.
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Olympiacos_B.C. → pageprops wikibase_item
+    confidence: HIGH
+    status: ready_for_p0c
+  - team_id: euroleague_panathinaikos
+    name: Panathinaikos AKTOR Athens
+    short_name: Panathinaikos
+    wikidata_qid: Q739287
+    wikipedia_en: Panathinaikos B.C.
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Panathinaikos_B.C. → pageprops wikibase_item
+    confidence: HIGH
+    status: ready_for_p0c
+  - team_id: euroleague_paris
+    name: Paris Basketball
+    short_name: Paris
+    wikidata_qid: Q56291131
+    wikipedia_en: Paris Basketball
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Paris_Basketball → pageprops wikibase_item
+    confidence: HIGH
+    status: ready_for_p0c
+  - team_id: euroleague_partizan
+    name: Partizan Mozzart Bet Belgrade
+    short_name: Partizan
+    wikidata_qid: Q912247
+    wikipedia_en: KK Partizan
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/KK_Partizan → pageprops wikibase_item
+    confidence: HIGH
+    status: ready_for_p0c
+  - team_id: euroleague_real_madrid
+    name: Real Madrid
+    short_name: Real Madrid
+    wikidata_qid: Q54922
+    wikipedia_en: Real Madrid Baloncesto
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Real_Madrid_Baloncesto → pageprops wikibase_item
+    confidence: HIGH
+    status: ready_for_p0c
+  - team_id: euroleague_valencia
+    name: Valencia Basket
+    short_name: Valencia
+    wikidata_qid: Q54940
+    wikipedia_en: Valencia Basket
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Valencia_Basket → pageprops wikibase_item
+    confidence: HIGH
+    status: ready_for_p0c
+  - team_id: euroleague_virtus
+    name: Virtus Segafredo Bologna
+    short_name: Virtus Bologna
+    wikidata_qid: Q36264
+    wikipedia_en: Virtus Bologna
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Virtus_Bologna → pageprops wikibase_item
+    confidence: HIGH
+    status: ready_for_p0c
+  - team_id: euroleague_zalgiris
+    name: Žalgiris Kaunas
+    short_name: Žalgiris
+    wikidata_qid: Q393357
+    wikipedia_en: BC Žalgiris
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/BC_Žalgiris → pageprops wikibase_item
+    confidence: HIGH
+    status: ready_for_p0c
+- league_id: euroleague_women
+  name: EuroLeague Women
+  gender: women
+  tier: 1
+  country_or_region: INT
+  governing_body: FIBA
+  wikidata_qid: Q521068
+  wikipedia_en: EuroLeague Women
+  season_label: 2026-27
+  as_of: '2026-09-19'
+  source_url: https://www.wikidata.org/wiki/Q521068
+  confidence: HIGH
+  status: ready_for_p0c
+  teams:
+  - team_id: euroleague_women_fenerbahce
+    name: Fenerbahçe Tarfin
+    short_name: Fenerbahçe
+    wikidata_qid: Q1404649
+    wikipedia_en: Fenerbahçe S.K. (women's basketball)
+    phase: regular_season
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Fenerbahçe_S.K._(women%27s_basketball) → pageprops
+    confidence: HIGH
+    status: ready_for_p0c
+  - team_id: euroleague_women_galatasaray
+    name: Galatasaray Çağdaş Faktoring
+    short_name: Galatasaray
+    wikidata_qid: Q65413
+    wikipedia_en: Galatasaray S.K. (women's basketball)
+    phase: regular_season
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Galatasaray_S.K._(women%27s_basketball) → pageprops
+    confidence: HIGH
+    status: ready_for_p0c
+  - team_id: euroleague_women_valencia
+    name: Valencia Basket
+    short_name: Valencia
+    wikidata_qid: Q60464673
+    wikipedia_en: Valencia Basket (women)
+    phase: regular_season
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Valencia_Basket_(women) → pageprops
+    confidence: HIGH
+    status: ready_for_p0c
+    notes: Distinct from men Q54940
+  - team_id: euroleague_women_zaragoza
+    name: Casademont Zaragoza
+    short_name: Zaragoza
+    wikidata_qid: Q118949146
+    wikipedia_en: null
+    phase: regular_season
+    as_of: '2026-09-19'
+    source_url: https://www.wikidata.org/wiki/Q118949146
+    confidence: MEDIUM
+    status: ready_for_p0c
+    notes: P31=women's basketball team; no enwiki sitelink (wikipedia_en GAP)
+  - team_id: euroleague_women_basket_landes
+    name: Basket Landes
+    short_name: Landes
+    wikidata_qid: Q2887227
+    wikipedia_en: Basket Landes
+    phase: regular_season
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Basket_Landes → pageprops
+    confidence: HIGH
+    status: ready_for_p0c
+  - team_id: euroleague_women_bourges
+    name: Tango Bourges Basket
+    short_name: Bourges
+    wikidata_qid: Q616041
+    wikipedia_en: Tango Bourges Basket
+    phase: regular_season
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Tango_Bourges_Basket → pageprops
+    confidence: HIGH
+    status: ready_for_p0c
+  - team_id: euroleague_women_usk_praha
+    name: ZVVZ USK Praha
+    short_name: USK Praha
+    wikidata_qid: Q3547347
+    wikipedia_en: USK Praha (women's basketball)
+    phase: regular_season
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/USK_Praha_(women%27s_basketball) → pageprops
+    confidence: HIGH
+    status: ready_for_p0c
+    notes: Not multi-sport USK Praha
+  - team_id: euroleague_women_schio
+    name: Beretta Famila Schio
+    short_name: Schio
+    wikidata_qid: Q3064877
+    wikipedia_en: PF Schio
+    phase: regular_season
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/PF_Schio → pageprops
+    confidence: HIGH
+    status: ready_for_p0c
+  - team_id: euroleague_women_lublin
+    name: AZS UMCS Lublin
+    short_name: Lublin
+    wikidata_qid: Q16485007
+    wikipedia_en: null
+    phase: regular_season
+    as_of: '2026-09-19'
+    source_url: https://www.wikidata.org/wiki/Q16485007
+    confidence: MEDIUM
+    status: ready_for_p0c
+    notes: Women's basketball item; enwiki "AZS UMCS Lublin" is multi-sport — wikipedia_en GAP
+  - team_id: euroleague_women_athinaikos
+    name: Athinaikos Qualco
+    short_name: Athinaikos
+    wikidata_qid: Q7562428
+    wikipedia_en: Athinaikos women's basketball
+    phase: regular_season
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Athinaikos_women%27s_basketball → pageprops
+    confidence: HIGH
+    status: ready_for_p0c
+  - team_id: euroleague_women_kangoeroes
+    name: Kangoeroes Basket Mechelen
+    short_name: Kangoeroes
+    wikidata_qid: null
+    wikipedia_en: null
+    phase: regular_season
+    as_of: '2026-09-19'
+    source_url: https://www.wikidata.org/w/index.php?search=Kangoeroes+women+basketball&title=Special:Search&type=item
+    confidence: GAP
+    status: gap
+    notes: 'GAP: Wikidata Special:Search found no women-specific item (men''s BLB club exists separately)'
+  - team_id: euroleague_women_rapid_bucuresti
+    name: CS Rapid București
+    short_name: Rapid
+    wikidata_qid: Q7947062
+    wikipedia_en: CS Rapid București (women's basketball)
+    phase: regular_season
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/CS_Rapid_București_(women%27s_basketball) → pageprops
+    confidence: HIGH
+    status: ready_for_p0c
+  - team_id: euroleague_women_emlak_konut
+    name: Emlak Konut
+    short_name: Emlak Konut
+    wikidata_qid: Q97218186
+    wikipedia_en: Emlak Konut SK
+    phase: qualifying
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Emlak_Konut_SK → pageprops
+    confidence: HIGH
+    status: ready_for_p0c
+  - team_id: euroleague_women_girona
+    name: Spar Girona
+    short_name: Girona
+    wikidata_qid: Q4890678
+    wikipedia_en: Uni Girona CB
+    phase: qualifying
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Uni_Girona_CB → pageprops
+    confidence: HIGH
+    status: ready_for_p0c
+  - team_id: euroleague_women_flammes_carolo
+    name: Flammes Carolo Basket
+    short_name: Flammes Carolo
+    wikidata_qid: Q3073321
+    wikipedia_en: Flammes Carolo Basket
+    phase: qualifying
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Flammes_Carolo_Basket → pageprops
+    confidence: HIGH
+    status: ready_for_p0c
+  - team_id: euroleague_women_zabiny_brno
+    name: Žabiny Brno
+    short_name: Žabiny Brno
+    wikidata_qid: Q2887247
+    wikipedia_en: Žabiny Brno
+    phase: qualifying
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Žabiny_Brno → pageprops
+    confidence: HIGH
+    status: ready_for_p0c
+  - team_id: euroleague_women_kp_brno
+    name: KP Brno
+    short_name: KP Brno
+    wikidata_qid: null
+    wikipedia_en: null
+    phase: qualifying
+    as_of: '2026-09-19'
+    source_url: https://www.wikidata.org/w/index.php?search=KP+Brno+basketball&title=Special:Search&type=item
+    confidence: GAP
+    status: gap
+    notes: 'GAP: Wikidata Special:Search returned no matching item'
+  - team_id: euroleague_women_reyer_venezia
+    name: Umana Reyer Venezia
+    short_name: Reyer Venezia
+    wikidata_qid: Q2887228
+    wikipedia_en: Reyer Venezia (women)
+    phase: qualifying
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Reyer_Venezia_(women) → pageprops
+    confidence: HIGH
+    status: ready_for_p0c
+  - team_id: euroleague_women_dvtk
+    name: DVTK HUN-Therm
+    short_name: DVTK
+    wikidata_qid: Q5205520
+    wikipedia_en: Diósgyőri VTK (basketball)
+    phase: qualifying
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Diósgyőri_VTK_(basketball) → pageprops
+    confidence: HIGH
+    status: ready_for_p0c
+  - team_id: euroleague_women_sopron
+    name: Sopron Basket
+    short_name: Sopron
+    wikidata_qid: Q3547259
+    wikipedia_en: Sopron Basket
+    phase: qualifying
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Sopron_Basket → pageprops
+    confidence: HIGH
+    status: ready_for_p0c
+  - team_id: euroleague_women_azs_poznan
+    name: AZS Poznań
+    short_name: AZS Poznań
+    wikidata_qid: Q2819636
+    wikipedia_en: AZS Poznań (women's basketball)
+    phase: qualifying
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/AZS_Poznań_(women%27s_basketball) → pageprops
+    confidence: HIGH
+    status: ready_for_p0c
+  - team_id: euroleague_women_panathinaikos
+    name: Panathinaikos AC
+    short_name: Panathinaikos
+    wikidata_qid: Q3191319
+    wikipedia_en: Panathinaikos women's basketball
+    phase: qualifying
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Panathinaikos_women%27s_basketball → pageprops
+    confidence: HIGH
+    status: ready_for_p0c
+  - team_id: euroleague_women_kibirkstis
+    name: Kibirkštis-TOKS
+    short_name: Kibirkštis
+    wikidata_qid: Q3552971
+    wikipedia_en: BC Kibirkštis
+    phase: qualifying
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/BC_Kibirkštis → pageprops
+    confidence: HIGH
+    status: ready_for_p0c
+    notes: Item English label still references Kaunas VIČI-Aistės era; enwiki title BC Kibirkštis
+  - team_id: euroleague_women_crvena_zvezda
+    name: KKZ Crvena zvezda
+    short_name: Crvena zvezda
+    wikidata_qid: Q1196018
+    wikipedia_en: ŽKK Crvena zvezda
+    phase: qualifying
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/ŽKK_Crvena_zvezda → pageprops
+    confidence: HIGH
+    status: ready_for_p0c
+- league_id: liga_acb
+  name: Liga ACB
+  sponsor_name: Liga Endesa
+  gender: men
+  tier: 1
+  country_or_region: ES
+  governing_body: ACB
+  wikidata_qid: Q1126104
+  wikipedia_en: Liga ACB
+  season_label: 2026-27
+  as_of: '2026-09-19'
+  source_url: https://www.wikidata.org/wiki/Q1126104
+  club_list_source: https://en.wikipedia.org/wiki/2026–27_ACB_season
+  confidence: HIGH
+  status: ready_for_p0e
+  teams:
+  - team_id: liga_acb_andorra
+    name: MoraBanc Andorra
+    short_name: Andorra
+    wikidata_qid: Q43973
+    wikipedia_en: BC Andorra
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/BC_Andorra → pageprops
     confidence: HIGH
     status: ready_for_p0e
-    teams:
-      - team_id: liga_acb_andorra
-        name: MoraBanc Andorra
-        short_name: Andorra
-        wikidata_qid: Q43973
-        wikipedia_en: BC Andorra
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/BC_Andorra → pageprops"
-        confidence: HIGH
-        status: ready_for_p0e
-      - team_id: liga_acb_barcelona
-        name: Barça
-        short_name: Barcelona
-        wikidata_qid: Q54893
-        wikipedia_en: FC Barcelona Bàsquet
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/FC_Barcelona_Bàsquet → pageprops"
-        confidence: HIGH
-        status: ready_for_p0e
-      - team_id: liga_acb_baskonia
-        name: Kosner Baskonia
-        short_name: Baskonia
-        wikidata_qid: Q54927
-        wikipedia_en: Saski Baskonia
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/Saski_Baskonia → pageprops"
-        confidence: HIGH
-        status: ready_for_p0e
-      - team_id: liga_acb_bilbao
-        name: Surne Bilbao Basket
-        short_name: Bilbao
-        wikidata_qid: Q54894
-        wikipedia_en: Bilbao Basket
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/Bilbao_Basket → pageprops"
-        confidence: HIGH
-        status: ready_for_p0e
-      - team_id: liga_acb_breogan
-        name: Río Breogán
-        short_name: Breogán
-        wikidata_qid: Q273733
-        wikipedia_en: CB Breogán
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/CB_Breogán → pageprops"
-        confidence: HIGH
-        status: ready_for_p0e
-      - team_id: liga_acb_burgos
-        name: Recoletas Salud San Pablo Burgos
-        short_name: Burgos
-        wikidata_qid: Q20936645
-        wikipedia_en: CB San Pablo Burgos
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/CB_San_Pablo_Burgos → pageprops"
-        confidence: HIGH
-        status: ready_for_p0e
-      - team_id: liga_acb_coruna
-        name: Leyma Coruña
-        short_name: Coruña
-        wikidata_qid: Q3392591
-        wikipedia_en: Básquet Coruña
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/Básquet_Coruña → pageprops"
-        confidence: HIGH
-        status: ready_for_p0e
-      - team_id: liga_acb_girona
-        name: FIATC Girona
-        short_name: Girona
-        wikidata_qid: Q47524454
-        wikipedia_en: Bàsquet Girona
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/Bàsquet_Girona → pageprops"
-        confidence: HIGH
-        status: ready_for_p0e
-      - team_id: liga_acb_joventut
-        name: ASISA Joventut
-        short_name: Joventut
-        wikidata_qid: Q54908
-        wikipedia_en: Joventut Badalona
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/Joventut_Badalona → pageprops"
-        confidence: HIGH
-        status: ready_for_p0e
-      - team_id: liga_acb_lleida
-        name: iLERNA Lleida
-        short_name: Lleida
-        wikidata_qid: Q5473322
-        wikipedia_en: Força Lleida CE
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/Força_Lleida_CE → pageprops"
-        confidence: HIGH
-        status: ready_for_p0e
-      - team_id: liga_acb_manresa
-        name: "Kids&Us Manresa"
-        short_name: Manresa
-        wikidata_qid: Q54912
-        wikipedia_en: Bàsquet Manresa
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/Bàsquet_Manresa → pageprops"
-        confidence: HIGH
-        status: ready_for_p0e
-      - team_id: liga_acb_murcia
-        name: UCAM Murcia
-        short_name: Murcia
-        wikidata_qid: Q54915
-        wikipedia_en: UCAM Murcia CB
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/UCAM_Murcia_CB → pageprops"
-        confidence: HIGH
-        status: ready_for_p0e
-      - team_id: liga_acb_obradoiro
-        name: Monbus Obradoiro
-        short_name: Obradoiro
-        wikidata_qid: Q54918
-        wikipedia_en: Obradoiro CAB
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/Obradoiro_CAB → pageprops"
-        confidence: HIGH
-        status: ready_for_p0e
-      - team_id: liga_acb_real_madrid
-        name: Real Madrid
-        short_name: Real Madrid
-        wikidata_qid: Q54922
-        wikipedia_en: Real Madrid Baloncesto
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/Real_Madrid_Baloncesto → pageprops"
-        confidence: HIGH
-        status: ready_for_p0e
-      - team_id: liga_acb_tenerife
-        name: La Laguna Tenerife
-        short_name: Tenerife
-        wikidata_qid: Q54897
-        wikipedia_en: CB Canarias
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/CB_Canarias → pageprops"
-        confidence: HIGH
-        status: ready_for_p0e
-      - team_id: liga_acb_unicaja
-        name: Unicaja
-        short_name: Unicaja
-        wikidata_qid: Q54910
-        wikipedia_en: Baloncesto Málaga
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/Baloncesto_Málaga → pageprops"
-        confidence: HIGH
-        status: ready_for_p0e
-      - team_id: liga_acb_valencia
-        name: Valencia Basket
-        short_name: Valencia
-        wikidata_qid: Q54940
-        wikipedia_en: Valencia Basket
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/Valencia_Basket → pageprops"
-        confidence: HIGH
-        status: ready_for_p0e
-      - team_id: liga_acb_zaragoza
-        name: Casademont Zaragoza
-        short_name: Zaragoza
-        wikidata_qid: Q54926
-        wikipedia_en: Basket Zaragoza
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/Basket_Zaragoza → pageprops"
-        confidence: HIGH
-        status: ready_for_p0e
-
-  - league_id: lnb_elite
-    name: LNB Élite
-    sponsor_name: Betclic Élite
-    gender: men
-    tier: 1
-    country_or_region: FR
-    governing_body: LNB
-    wikidata_qid: Q15062840
-    wikipedia_en: LNB Élite
-    season_label: "2026-27"
-    as_of: "2026-09-19"
-    source_url: https://www.wikidata.org/wiki/Q15062840
-    club_list_source: "https://en.wikipedia.org/wiki/LNB_Élite (Current teams; 2026–27)"
+  - team_id: liga_acb_barcelona
+    name: Barça
+    short_name: Barcelona
+    wikidata_qid: Q54893
+    wikipedia_en: FC Barcelona Bàsquet
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/FC_Barcelona_Bàsquet → pageprops
     confidence: HIGH
     status: ready_for_p0e
-    teams:
-      - team_id: lnb_elite_asvel
-        name: LDLC ASVEL Villeurbanne
-        short_name: ASVEL
-        wikidata_qid: Q4089
-        wikipedia_en: ASVEL Basket
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/ASVEL_Basket → pageprops"
-        confidence: HIGH
-        status: ready_for_p0e
-      - team_id: lnb_elite_gravelines
-        name: BCM Gravelines-Dunkerque
-        short_name: Gravelines
-        wikidata_qid: Q795707
-        wikipedia_en: BCM Gravelines-Dunkerque
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/BCM_Gravelines-Dunkerque → pageprops"
-        confidence: HIGH
-        status: ready_for_p0e
-      - team_id: lnb_elite_boulazac
-        name: Boulazac Basket Dordogne
-        short_name: Boulazac
-        wikidata_qid: Q785442
-        wikipedia_en: Boulazac Basket Dordogne
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/Boulazac_Basket_Dordogne → pageprops"
-        confidence: HIGH
-        status: ready_for_p0e
-      - team_id: lnb_elite_cholet
-        name: Cholet Basket
-        short_name: Cholet
-        wikidata_qid: Q1075934
-        wikipedia_en: Cholet Basket
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/Cholet_Basket → pageprops"
-        confidence: HIGH
-        status: ready_for_p0e
-      - team_id: lnb_elite_roanne
-        name: Chorale Roanne Basket
-        short_name: Roanne
-        wikidata_qid: Q1076356
-        wikipedia_en: Chorale Roanne Basket
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/Chorale_Roanne_Basket → pageprops"
-        confidence: HIGH
-        status: ready_for_p0e
-      - team_id: lnb_elite_pau
-        name: Élan Béarnais Pau-Lacq-Orthez
-        short_name: Pau-Orthez
-        wikidata_qid: Q274566
-        wikipedia_en: Élan Béarnais
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/Élan_Béarnais → pageprops"
-        confidence: HIGH
-        status: ready_for_p0e
-      - team_id: lnb_elite_chalon
-        name: Élan Chalon
-        short_name: Chalon
-        wikidata_qid: Q274570
-        wikipedia_en: Élan Chalon
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/Élan_Chalon → pageprops"
-        confidence: HIGH
-        status: ready_for_p0e
-      - team_id: lnb_elite_dijon
-        name: JDA Dijon
-        short_name: Dijon
-        wikidata_qid: Q1682230
-        wikipedia_en: JDA Dijon Basket
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/JDA_Dijon_Basket → pageprops"
-        confidence: HIGH
-        status: ready_for_p0e
-      - team_id: lnb_elite_bourg
-        name: JL Bourg
-        short_name: Bourg
-        wikidata_qid: Q1630650
-        wikipedia_en: JL Bourg Basket
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/JL_Bourg_Basket → pageprops"
-        confidence: HIGH
-        status: ready_for_p0e
-      - team_id: lnb_elite_le_mans
-        name: Le Mans Sarthe Basket
-        short_name: Le Mans
-        wikidata_qid: Q40063
-        wikipedia_en: Le Mans Sarthe Basket
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/Le_Mans_Sarthe_Basket → pageprops"
-        confidence: HIGH
-        status: ready_for_p0e
-      - team_id: lnb_elite_limoges
-        name: Limoges CSP
-        short_name: Limoges
-        wikidata_qid: Q1419876
-        wikipedia_en: Limoges CSP
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/Limoges_CSP → pageprops"
-        confidence: HIGH
-        status: ready_for_p0e
-      - team_id: lnb_elite_nanterre
-        name: Nanterre 92
-        short_name: Nanterre
-        wikidata_qid: Q1630671
-        wikipedia_en: Nanterre 92
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/Nanterre_92 → pageprops"
-        confidence: HIGH
-        status: ready_for_p0e
-      - team_id: lnb_elite_paris
-        name: Paris Basketball
-        short_name: Paris
-        wikidata_qid: Q56291131
-        wikipedia_en: Paris Basketball
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/Paris_Basketball → pageprops"
-        confidence: HIGH
-        status: ready_for_p0e
-      - team_id: lnb_elite_strasbourg
-        name: SIG Strasbourg
-        short_name: Strasbourg
-        wikidata_qid: Q2737338
-        wikipedia_en: SIG Strasbourg
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/SIG_Strasbourg → pageprops"
-        confidence: HIGH
-        status: ready_for_p0e
-      - team_id: lnb_elite_nancy
-        name: SLUC Nancy
-        short_name: Nancy
-        wikidata_qid: Q762219
-        wikipedia_en: SLUC Nancy Basket
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/SLUC_Nancy_Basket → pageprops"
-        confidence: HIGH
-        status: ready_for_p0e
-      - team_id: lnb_elite_saint_quentin
-        name: Saint-Quentin Basket-Ball
-        short_name: Saint-Quentin
-        wikidata_qid: Q3463255
-        wikipedia_en: Saint-Quentin Basket-Ball
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/Saint-Quentin_Basket-Ball → pageprops"
-        confidence: HIGH
-        status: ready_for_p0e
-        notes: Replaced AS Monaco after Monaco declined LNB engagement (LNB 31 Aug 2026)
-
-  - league_id: bbl
-    name: Basketball Bundesliga
-    sponsor_name: easyCredit BBL
-    gender: men
-    tier: 1
-    country_or_region: DE
-    governing_body: BBL GmbH
-    wikidata_qid: Q540636
-    wikipedia_en: Basketball Bundesliga
-    season_label: "2026-27"
-    as_of: "2026-09-19"
-    source_url: https://www.wikidata.org/wiki/Q540636
-    club_list_source: "https://en.wikipedia.org/wiki/2026–27_Basketball_Bundesliga"
+  - team_id: liga_acb_baskonia
+    name: Kosner Baskonia
+    short_name: Baskonia
+    wikidata_qid: Q54927
+    wikipedia_en: Saski Baskonia
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Saski_Baskonia → pageprops
     confidence: HIGH
     status: ready_for_p0e
-    teams:
-      - team_id: bbl_alba
-        name: ALBA Berlin
-        short_name: ALBA
-        wikidata_qid: Q643795
-        wikipedia_en: Alba Berlin
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/Alba_Berlin → pageprops"
-        confidence: HIGH
-        status: ready_for_p0e
-      - team_id: bbl_bamberg
-        name: Bamberg Baskets
-        short_name: Bamberg
-        wikidata_qid: Q700366
-        wikipedia_en: Bamberg Baskets
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/Bamberg_Baskets → pageprops"
-        confidence: HIGH
-        status: ready_for_p0e
-      - team_id: bbl_braunschweig
-        name: Basketball Löwen Braunschweig
-        short_name: Braunschweig
-        wikidata_qid: Q532269
-        wikipedia_en: Basketball Löwen Braunschweig
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/Basketball_Löwen_Braunschweig → pageprops"
-        confidence: HIGH
-        status: ready_for_p0e
-      - team_id: bbl_oldenburg
-        name: EWE Baskets Oldenburg
-        short_name: Oldenburg
-        wikidata_qid: Q707861
-        wikipedia_en: Baskets Oldenburg
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/Baskets_Oldenburg → pageprops"
-        confidence: HIGH
-        status: ready_for_p0e
-      - team_id: bbl_bayern
-        name: FC Bayern Munich
-        short_name: Bayern
-        wikidata_qid: Q600149
-        wikipedia_en: FC Bayern Munich (basketball)
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/FC_Bayern_Munich_(basketball) → pageprops"
-        confidence: HIGH
-        status: ready_for_p0e
-      - team_id: bbl_wuerzburg
-        name: Fitness First Würzburg Baskets
-        short_name: Würzburg
-        wikidata_qid: Q480478
-        wikipedia_en: Würzburg Baskets
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/Würzburg_Baskets → pageprops"
-        confidence: HIGH
-        status: ready_for_p0e
-      - team_id: bbl_hamburg
-        name: Veolia Towers Hamburg
-        short_name: Hamburg
-        wikidata_qid: Q17324838
-        wikipedia_en: Hamburg Towers
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/Hamburg_Towers → pageprops"
-        confidence: HIGH
-        status: ready_for_p0e
-      - team_id: bbl_ludwigsburg
-        name: MHP Riesen Ludwigsburg
-        short_name: Ludwigsburg
-        wikidata_qid: Q553293
-        wikipedia_en: Riesen Ludwigsburg
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/Riesen_Ludwigsburg → pageprops"
-        confidence: HIGH
-        status: ready_for_p0e
-      - team_id: bbl_chemnitz
-        name: NINERS Chemnitz
-        short_name: Chemnitz
-        wikidata_qid: Q797164
-        wikipedia_en: Niners Chemnitz
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/Niners_Chemnitz → pageprops"
-        confidence: HIGH
-        status: ready_for_p0e
-      - team_id: bbl_hagen
-        name: Phoenix Hagen
-        short_name: Hagen
-        wikidata_qid: Q463349
-        wikipedia_en: Phoenix Hagen
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/Phoenix_Hagen → pageprops"
-        confidence: HIGH
-        status: ready_for_p0e
-      - team_id: bbl_ulm
-        name: ratiopharm ulm
-        short_name: Ulm
-        wikidata_qid: Q266588
-        wikipedia_en: Ratiopharm Ulm
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/Ratiopharm_Ulm → pageprops"
-        confidence: HIGH
-        status: ready_for_p0e
-      - team_id: bbl_rostock
-        name: Rostock Seawolves
-        short_name: Rostock
-        wikidata_qid: Q18009233
-        wikipedia_en: Rostock Seawolves
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/Rostock_Seawolves → pageprops"
-        confidence: HIGH
-        status: ready_for_p0e
-      - team_id: bbl_vechta
-        name: RASTA Vechta
-        short_name: Vechta
-        wikidata_qid: Q2205512
-        wikipedia_en: SC Rasta Vechta
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/SC_Rasta_Vechta → pageprops"
-        confidence: HIGH
-        status: ready_for_p0e
-      - team_id: bbl_jena
-        name: Science City Jena
-        short_name: Jena
-        wikidata_qid: Q265244
-        wikipedia_en: Science City Jena
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/Science_City_Jena → pageprops"
-        confidence: HIGH
-        status: ready_for_p0e
-      - team_id: bbl_frankfurt
-        name: SKYLINERS Frankfurt
-        short_name: Frankfurt
-        wikidata_qid: Q836109
-        wikipedia_en: Skyliners Frankfurt
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/Skyliners_Frankfurt → pageprops"
-        confidence: HIGH
-        status: ready_for_p0e
-      - team_id: bbl_mbc
-        name: SYNTAINICS MBC
-        short_name: MBC
-        wikidata_qid: Q521663
-        wikipedia_en: Mitteldeutscher BC
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/Mitteldeutscher_BC → pageprops"
-        confidence: HIGH
-        status: ready_for_p0e
-      - team_id: bbl_bonn
-        name: Telekom Baskets Bonn
-        short_name: Bonn
-        wikidata_qid: Q704072
-        wikipedia_en: Telekom Baskets Bonn
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/Telekom_Baskets_Bonn → pageprops"
-        confidence: HIGH
-        status: ready_for_p0e
-      - team_id: bbl_trier
-        name: VET-CONCEPT Gladiators Trier
-        short_name: Trier
-        wikidata_qid: Q22340607
-        wikipedia_en: Gladiators Trier
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/Gladiators_Trier → pageprops"
-        confidence: HIGH
-        status: ready_for_p0e
-
-  - league_id: serie_a
-    name: Lega Basket Serie A
-    sponsor_name: LBA Serie A SisalClub
-    gender: men
-    tier: 1
-    country_or_region: IT
-    governing_body: Lega Basket
-    wikidata_qid: Q929124
-    wikipedia_en: Lega Basket Serie A
-    season_label: "2026-27"
-    as_of: "2026-09-19"
-    source_url: https://www.wikidata.org/wiki/Q929124
-    club_list_source: "https://it.wikipedia.org/wiki/Serie_A_2026-2027_(pallacanestro_maschile)"
+  - team_id: liga_acb_bilbao
+    name: Surne Bilbao Basket
+    short_name: Bilbao
+    wikidata_qid: Q54894
+    wikipedia_en: Bilbao Basket
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Bilbao_Basket → pageprops
     confidence: HIGH
     status: ready_for_p0e
-    teams:
-      - team_id: serie_a_cantu
-        name: Acqua S.Bernardo Cantù
-        short_name: Cantù
-        wikidata_qid: Q36311
-        wikipedia_en: Pallacanestro Cantù
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/Pallacanestro_Cantù → pageprops"
-        confidence: HIGH
-        status: ready_for_p0e
-      - team_id: serie_a_udine
-        name: APU Old Wild West Udine
-        short_name: Udine
-        wikidata_qid: Q3626683
-        wikipedia_en: APU Udine
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/APU_Udine → pageprops"
-        confidence: HIGH
-        status: ready_for_p0e
-      - team_id: serie_a_milano
-        name: EA7 Emporio Armani Milano
-        short_name: Olimpia Milano
-        wikidata_qid: Q36362
-        wikipedia_en: Olimpia Milano
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/Olimpia_Milano → pageprops"
-        confidence: HIGH
-        status: ready_for_p0e
-      - team_id: serie_a_roma_spqr
-        name: BC Roma SPQR
-        short_name: Roma SPQR
-        wikidata_qid: Q140465826
-        wikipedia_en: BC Roma
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/BC_Roma → pageprops"
-        confidence: HIGH
-        status: ready_for_p0e
-        notes: Took over Vanoli Cremona LBA license for 2026–27; enwiki title BC Roma
-      - team_id: serie_a_tortona
-        name: Bertram Derthona Tortona
-        short_name: Derthona
-        wikidata_qid: Q17628735
-        wikipedia_en: Derthona Basket
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/Derthona_Basket → pageprops"
-        confidence: HIGH
-        status: ready_for_p0e
-      - team_id: serie_a_trento
-        name: Dolomiti Energia Trentino
-        short_name: Trento
-        wikidata_qid: Q51167
-        wikipedia_en: Aquila Basket Trento
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/Aquila_Basket_Trento → pageprops"
-        confidence: HIGH
-        status: ready_for_p0e
-      - team_id: serie_a_scafati
-        name: Longobardi Scafati Basket
-        short_name: Scafati
-        wikidata_qid: Q42454
-        wikipedia_en: Scafati Basket
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/Scafati_Basket → pageprops"
-        confidence: HIGH
-        status: ready_for_p0e
-      - team_id: serie_a_maxima_roma
-        name: Maxima Roma
-        short_name: Maxima Roma
-        wikidata_qid: Q140465833
-        wikipedia_en: Maxima Roma
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/Maxima_Roma → pageprops"
-        confidence: HIGH
-        status: ready_for_p0e
-        notes: Took over Pallacanestro Brescia LBA license for 2026–27
-      - team_id: serie_a_napoli
-        name: Napoli Basket
-        short_name: Napoli
-        wikidata_qid: Q31037592
-        wikipedia_en: Napoli Basket
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/Napoli_Basket → pageprops"
-        confidence: HIGH
-        status: ready_for_p0e
-      - team_id: serie_a_treviso
-        name: NutriBullet Treviso
-        short_name: Treviso
-        wikidata_qid: Q17562457
-        wikipedia_en: Universo Treviso Basket
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/Universo_Treviso_Basket → pageprops"
-        confidence: HIGH
-        status: ready_for_p0e
-      - team_id: serie_a_varese
-        name: Openjobmetis Varese
-        short_name: Varese
-        wikidata_qid: Q36551
-        wikipedia_en: Pallacanestro Varese
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/Pallacanestro_Varese → pageprops"
-        confidence: HIGH
-        status: ready_for_p0e
-      - team_id: serie_a_trieste
-        name: Pallacanestro Trieste
-        short_name: Trieste
-        wikidata_qid: Q50884
-        wikipedia_en: Pallacanestro Trieste
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/Pallacanestro_Trieste → pageprops"
-        confidence: HIGH
-        status: ready_for_p0e
-      - team_id: serie_a_verona
-        name: Tezenis Verona
-        short_name: Verona
-        wikidata_qid: Q48969
-        wikipedia_en: Scaligera Basket Verona
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/Scaligera_Basket_Verona → pageprops"
-        confidence: HIGH
-        status: ready_for_p0e
-      - team_id: serie_a_venezia
-        name: Umana Reyer Venezia
-        short_name: Reyer Venezia
-        wikidata_qid: Q36572
-        wikipedia_en: Reyer Venezia
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/Reyer_Venezia → pageprops"
-        confidence: HIGH
-        status: ready_for_p0e
-      - team_id: serie_a_reggio
-        name: UNA Hotels Reggio Emilia
-        short_name: Reggio Emilia
-        wikidata_qid: Q36419
-        wikipedia_en: Pallacanestro Reggiana
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/Pallacanestro_Reggiana → pageprops"
-        confidence: HIGH
-        status: ready_for_p0e
-      - team_id: serie_a_bologna
-        name: Virtus Segafredo Bologna
-        short_name: Virtus Bologna
-        wikidata_qid: Q36264
-        wikipedia_en: Virtus Bologna
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/Virtus_Bologna → pageprops"
-        confidence: HIGH
-        status: ready_for_p0e
-
-  - league_id: greek_basket_league
-    name: Greek Basketball League
-    sponsor_name: Stoiximan GBL
-    gender: men
-    tier: 1
-    country_or_region: GR
-    governing_body: HEBA / ESAKE
-    wikidata_qid: Q29274
-    wikipedia_en: Greek Basketball League
-    season_label: "2026-27"
-    as_of: "2026-09-19"
-    source_url: https://www.wikidata.org/wiki/Q29274
-    club_list_source: "https://el.wikipedia.org/wiki/Πρωτάθλημα_καλαθοσφαίρισης_ανδρών_Greek_Basketball_League_2026–2027"
+  - team_id: liga_acb_breogan
+    name: Río Breogán
+    short_name: Breogán
+    wikidata_qid: Q273733
+    wikipedia_en: CB Breogán
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/CB_Breogán → pageprops
     confidence: HIGH
     status: ready_for_p0e
-    notes: enwiki title is Greek Basketball League (redirect from Greek Basket League)
-    teams:
-      - team_id: greek_basket_league_aek
-        name: AEK Athens
-        short_name: AEK
-        wikidata_qid: Q1982491
-        wikipedia_en: AEK B.C.
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/AEK_B.C. → pageprops"
-        confidence: HIGH
-        status: ready_for_p0e
-      - team_id: greek_basket_league_aris
-        name: Aris Thessaloniki
-        short_name: Aris
-        wikidata_qid: Q8383824
-        wikipedia_en: Aris B.C.
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/Aris_B.C. → pageprops"
-        confidence: HIGH
-        status: ready_for_p0e
-      - team_id: greek_basket_league_vikos
-        name: Vikos Falcons Ioannina
-        short_name: Vikos
-        wikidata_qid: Q135969614
-        wikipedia_en: Vikos Falcons Ioannina B.C.
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/Vikos_Falcons_Ioannina_B.C. → pageprops"
-        confidence: HIGH
-        status: ready_for_p0e
-      - team_id: greek_basket_league_doxa
-        name: Doxa Lefkadas
-        short_name: Doxa
-        wikidata_qid: Q12872679
-        wikipedia_en: Doxa Lefkadas B.C.
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/Doxa_Lefkadas_B.C. → pageprops"
-        confidence: HIGH
-        status: ready_for_p0e
-      - team_id: greek_basket_league_iraklis
-        name: Iraklis Thessaloniki
-        short_name: Iraklis
-        wikidata_qid: Q549055
-        wikipedia_en: "G.S. Iraklis Thessaloniki (men's basketball)"
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/G.S._Iraklis_Thessaloniki_(men%27s_basketball) → pageprops"
-        confidence: HIGH
-        status: ready_for_p0e
-      - team_id: greek_basket_league_karditsa
-        name: ASK Karditsas
-        short_name: Karditsa
-        wikidata_qid: Q25535622
-        wikipedia_en: ASK Karditsas B.C.
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/ASK_Karditsas_B.C. → pageprops"
-        confidence: HIGH
-        status: ready_for_p0e
-      - team_id: greek_basket_league_kolossos
-        name: Kolossos Rodou
-        short_name: Kolossos
-        wikidata_qid: Q1645286
-        wikipedia_en: Kolossos Rodou B.C.
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/Kolossos_Rodou_B.C. → pageprops"
-        confidence: HIGH
-        status: ready_for_p0e
-      - team_id: greek_basket_league_maroussi
-        name: Maroussi
-        short_name: Maroussi
-        wikidata_qid: Q1355529
-        wikipedia_en: Maroussi B.C.
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/Maroussi_B.C. → pageprops"
-        confidence: HIGH
-        status: ready_for_p0e
-      - team_id: greek_basket_league_mykonos
-        name: Mykonos
-        short_name: Mykonos
-        wikidata_qid: Q128033708
-        wikipedia_en: Mykonos B.C.
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/Mykonos_B.C. → pageprops"
-        confidence: HIGH
-        status: ready_for_p0e
-      - team_id: greek_basket_league_olympiacos
-        name: Olympiacos Piraeus
-        short_name: Olympiacos
-        wikidata_qid: Q847701
-        wikipedia_en: Olympiacos B.C.
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/Olympiacos_B.C. → pageprops"
-        confidence: HIGH
-        status: ready_for_p0e
-      - team_id: greek_basket_league_panathinaikos
-        name: Panathinaikos Athens
-        short_name: Panathinaikos
-        wikidata_qid: Q739287
-        wikipedia_en: Panathinaikos B.C.
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/Panathinaikos_B.C. → pageprops"
-        confidence: HIGH
-        status: ready_for_p0e
-      - team_id: greek_basket_league_paok
-        name: PAOK Thessaloniki
-        short_name: PAOK
-        wikidata_qid: Q1343768
-        wikipedia_en: PAOK BC
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/PAOK_BC → pageprops"
-        confidence: HIGH
-        status: ready_for_p0e
-      - team_id: greek_basket_league_peristeri
-        name: Peristeri Athens
-        short_name: Peristeri
-        wikidata_qid: Q19862455
-        wikipedia_en: Peristeri B.C.
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/Peristeri_B.C. → pageprops"
-        confidence: HIGH
-        status: ready_for_p0e
-      - team_id: greek_basket_league_promitheas
-        name: Promitheas Patras
-        short_name: Promitheas
-        wikidata_qid: Q20055221
-        wikipedia_en: Promitheas Patras B.C.
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/Promitheas_Patras_B.C. → pageprops"
-        confidence: HIGH
-        status: ready_for_p0e
-
-  - league_id: lf_endesa
-    name: Liga Femenina de Baloncesto
-    sponsor_name: Liga Femenina Endesa / LF Endesa
-    gender: women
-    tier: 1
-    country_or_region: ES
-    governing_body: FEB
-    wikidata_qid: Q2504807
-    wikipedia_en: Liga Femenina de Baloncesto
-    season_label: "2026-27"
-    as_of: "2026-09-19"
-    source_url: https://www.wikidata.org/wiki/Q2504807
-    club_list_source: "https://en.wikipedia.org/wiki/2026–27_Liga_Femenina_de_Baloncesto"
+  - team_id: liga_acb_burgos
+    name: Recoletas Salud San Pablo Burgos
+    short_name: Burgos
+    wikidata_qid: Q20936645
+    wikipedia_en: CB San Pablo Burgos
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/CB_San_Pablo_Burgos → pageprops
     confidence: HIGH
     status: ready_for_p0e
-    teams:
-      - team_id: lf_endesa_mallorca
-        name: Azulmarino Mallorca Palma
-        short_name: Mallorca
-        wikidata_qid: Q137925516
-        wikipedia_en: null
-        as_of: "2026-09-19"
-        source_url: "https://www.wikidata.org/wiki/Q137925516"
-        confidence: MEDIUM
-        status: gap
-        notes: eswiki Fundación Club Baloncesto Mallorca; no enwiki sitelink (wikipedia_en GAP)
-      - team_id: lf_endesa_ferrol
-        name: BAXI Ferrol
-        short_name: Ferrol
-        wikidata_qid: Q20736183
-        wikipedia_en: Universitario de Ferrol
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/Universitario_de_Ferrol → pageprops"
-        confidence: HIGH
-        status: ready_for_p0e
-      - team_id: lf_endesa_la_seu
-        name: Cadí La Seu
-        short_name: La Seu
-        wikidata_qid: Q3600922
-        wikipedia_en: AE Sedis Bàsquet
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/AE_Sedis_Bàsquet → pageprops"
-        confidence: HIGH
-        status: ready_for_p0e
-      - team_id: lf_endesa_zaragoza
-        name: Casademont Zaragoza
-        short_name: Zaragoza
-        wikidata_qid: Q118949146
-        wikipedia_en: null
-        as_of: "2026-09-19"
-        source_url: "https://www.wikidata.org/wiki/Q118949146"
-        confidence: MEDIUM
-        status: gap
-        notes: Women section item; no enwiki sitelink (wikipedia_en GAP). Do not use men Q54926
-      - team_id: lf_endesa_celta
-        name: Celta Femxa Zorka
-        short_name: Celta
-        wikidata_qid: Q3330276
-        wikipedia_en: Celta de Vigo Baloncesto
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/Celta_de_Vigo_Baloncesto → pageprops"
-        confidence: HIGH
-        status: ready_for_p0e
-      - team_id: lf_endesa_ensino
-        name: Durán Maquinaria Ensino
-        short_name: Ensino
-        wikidata_qid: Q7231325
-        wikipedia_en: Porta XI Ensino
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/Porta_XI_Ensino → pageprops"
-        confidence: HIGH
-        status: ready_for_p0e
-      - team_id: lf_endesa_jairis
-        name: Hozono Global Jairis
-        short_name: Jairis
-        wikidata_qid: Q97666502
-        wikipedia_en: null
-        as_of: "2026-09-19"
-        source_url: "https://www.wikidata.org/wiki/Q97666502"
-        confidence: MEDIUM
-        status: gap
-        notes: eswiki Club Baloncesto Jairis; no enwiki sitelink (wikipedia_en GAP)
-      - team_id: lf_endesa_idk
-        name: IDK Euskotren
-        short_name: IDK
-        wikidata_qid: Q20016784
-        wikipedia_en: null
-        as_of: "2026-09-19"
-        source_url: "https://www.wikidata.org/wiki/Q20016784"
-        confidence: MEDIUM
-        status: gap
-        notes: Wikidata Ibaeta Kirol Elkartea / CD Ibaeta (sponsor IDK/Mirai Euskotren); no enwiki
-      - team_id: lf_endesa_estepona
-        name: Ingeniería Ambiental CAB Estepona
-        short_name: Estepona
-        wikidata_qid: Q114740068
-        wikipedia_en: null
-        as_of: "2026-09-19"
-        source_url: "https://www.wikidata.org/wiki/Q114740068"
-        confidence: MEDIUM
-        status: gap
-        notes: eswiki Club Amigos del Baloncesto Estepona; no enwiki sitelink (wikipedia_en GAP)
-      - team_id: lf_endesa_leganes
-        name: Innova-tsn Leganés
-        short_name: Leganés
-        wikidata_qid: Q118948850
-        wikipedia_en: null
-        as_of: "2026-09-19"
-        source_url: "https://www.wikidata.org/wiki/Q118948850"
-        confidence: MEDIUM
-        status: gap
-        notes: eswiki Club Baloncesto Leganés; no enwiki sitelink (wikipedia_en GAP)
-      - team_id: lf_endesa_araski
-        name: Kutxabank Araski
-        short_name: Araski
-        wikidata_qid: Q21280692
-        wikipedia_en: Araski AES
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/Araski_AES → pageprops"
-        confidence: HIGH
-        status: ready_for_p0e
-      - team_id: lf_endesa_gernika
-        name: Lointek Gernika Bizkaia
-        short_name: Gernika
-        wikidata_qid: Q19947914
-        wikipedia_en: Gernika KESB
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/Gernika_KESB → pageprops"
-        confidence: HIGH
-        status: ready_for_p0e
-      - team_id: lf_endesa_estudiantes
-        name: Movistar Estudiantes
-        short_name: Estudiantes
-        wikidata_qid: Q3059078
-        wikipedia_en: null
-        as_of: "2026-09-19"
-        source_url: "https://www.wikidata.org/wiki/Q3059078"
-        confidence: MEDIUM
-        status: gap
-        notes: Women item Club Baloncesto Estudiantes (femenino); eswiki only. Do not use men Q54900
-      - team_id: lf_endesa_avenida
-        name: Perfumerías Avenida
-        short_name: Avenida
-        wikidata_qid: Q2660154
-        wikipedia_en: CB Avenida
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/CB_Avenida → pageprops"
-        confidence: HIGH
-        status: ready_for_p0e
-      - team_id: lf_endesa_girona
-        name: Spar Girona
-        short_name: Girona
-        wikidata_qid: Q4890678
-        wikipedia_en: Uni Girona CB
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/Uni_Girona_CB → pageprops"
-        confidence: HIGH
-        status: ready_for_p0e
-      - team_id: lf_endesa_valencia
-        name: Valencia Basket
-        short_name: Valencia
-        wikidata_qid: Q60464673
-        wikipedia_en: Valencia Basket (women)
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/Valencia_Basket_(women) → pageprops"
-        confidence: HIGH
-        status: ready_for_p0e
-
-  - league_id: lfb
-    name: Ligue Féminine de Basketball
-    sponsor_name: La Boulangère Wonderligue
-    gender: women
-    tier: 1
-    country_or_region: FR
-    governing_body: FFBB / Ligue Féminine
-    wikidata_qid: Q1249149
-    wikipedia_en: Ligue Féminine de Basketball
-    season_label: "2026-27"
-    as_of: "2026-09-19"
-    source_url: https://www.wikidata.org/wiki/Q1249149
-    club_list_source: "https://fr.wikipedia.org/wiki/Championnat_de_France_féminin_de_basket-ball_2026-2027"
+  - team_id: liga_acb_coruna
+    name: Leyma Coruña
+    short_name: Coruña
+    wikidata_qid: Q3392591
+    wikipedia_en: Básquet Coruña
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Básquet_Coruña → pageprops
     confidence: HIGH
     status: ready_for_p0e
-    teams:
-      - team_id: lfb_angers
-        name: UF Angers Basket 49
-        short_name: Angers
-        wikidata_qid: Q3549990
-        wikipedia_en: Union Féminine Angers Basket 49
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/Union_Féminine_Angers_Basket_49 → pageprops"
-        confidence: HIGH
-        status: ready_for_p0e
-      - team_id: lfb_landes
-        name: Basket Landes
-        short_name: Landes
-        wikidata_qid: Q2887227
-        wikipedia_en: Basket Landes
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/Basket_Landes → pageprops"
-        confidence: HIGH
-        status: ready_for_p0e
-      - team_id: lfb_bourges
-        name: Tango Bourges Basket
-        short_name: Bourges
-        wikidata_qid: Q616041
-        wikipedia_en: Tango Bourges Basket
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/Tango_Bourges_Basket → pageprops"
-        confidence: HIGH
-        status: ready_for_p0e
-      - team_id: lfb_flammes
-        name: Flammes Carolo Basket
-        short_name: Flammes Carolo
-        wikidata_qid: Q3073321
-        wikipedia_en: Flammes Carolo Basket
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/Flammes_Carolo_Basket → pageprops"
-        confidence: HIGH
-        status: ready_for_p0e
-      - team_id: lfb_charnay
-        name: Charnay Basket Bourgogne Sud
-        short_name: Charnay
-        wikidata_qid: Q3156869
-        wikipedia_en: Charnay Basket Bourgogne Sud
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/Charnay_Basket_Bourgogne_Sud → pageprops"
-        confidence: HIGH
-        status: ready_for_p0e
-      - team_id: lfb_chartres
-        name: "C'Chartres Métropole Basket Féminin"
-        short_name: Chartres
-        wikidata_qid: Q16382668
-        wikipedia_en: Chartres Basket Feminin
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/Chartres_Basket_Feminin → pageprops"
-        confidence: HIGH
-        status: ready_for_p0e
-      - team_id: lfb_tronche
-        name: BC La Tronche-Meylan
-        short_name: La Tronche-Meylan
-        wikidata_qid: Q111781676
-        wikipedia_en: null
-        as_of: "2026-09-19"
-        source_url: "https://www.wikidata.org/wiki/Q111781676"
-        confidence: MEDIUM
-        status: gap
-        notes: frwiki BC La Tronche-Meylan; no enwiki. P31=basketball team
-      - team_id: lfb_landerneau
-        name: Landerneau Bretagne Basket
-        short_name: Landerneau
-        wikidata_qid: Q21027377
-        wikipedia_en: Landerneau Bretagne Basket
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/Landerneau_Bretagne_Basket → pageprops"
-        confidence: HIGH
-        status: ready_for_p0e
-      - team_id: lfb_lattes
-        name: BLMA Lattes Montpellier
-        short_name: Lattes
-        wikidata_qid: Q2887232
-        wikipedia_en: Basket Lattes Montpellier Agglomération
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/Basket_Lattes_Montpellier_Agglomération → pageprops"
-        confidence: HIGH
-        status: ready_for_p0e
-      - team_id: lfb_asvel
-        name: LDLC ASVEL Féminin
-        short_name: ASVEL Féminin
-        wikidata_qid: Q3549999
-        wikipedia_en: ASVEL Féminin
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/ASVEL_Féminin → pageprops"
-        confidence: HIGH
-        status: ready_for_p0e
-      - team_id: lfb_toulouse
-        name: Toulouse Métropole Basket
-        short_name: Toulouse
-        wikidata_qid: Q3532914
-        wikipedia_en: null
-        as_of: "2026-09-19"
-        source_url: "https://www.wikidata.org/wiki/Q3532914"
-        confidence: MEDIUM
-        status: gap
-        notes: frwiki/itwiki only; no enwiki sitelink (wikipedia_en GAP)
-      - team_id: lfb_villeneuve
-        name: "ESB Villeneuve-d'Ascq"
-        short_name: "Villeneuve-d'Ascq"
-        wikidata_qid: Q3046087
-        wikipedia_en: "ESB Villeneuve-d'Ascq"
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/ESB_Villeneuve-d%27Ascq → pageprops"
-        confidence: HIGH
-        status: ready_for_p0e
-
-  - league_id: wnbl
-    name: "Women's National Basketball League"
-    sponsor_name: WNBL
-    gender: women
-    tier: 1
-    country_or_region: AU
-    governing_body: Basketball Australia
-    wikidata_qid: Q2378848
-    wikipedia_en: "Women's National Basketball League"
-    season_label: "2026-27"
-    as_of: "2026-09-19"
-    source_url: https://www.wikidata.org/wiki/Q2378848
-    club_list_source: "https://www.wnbl.com.au/news/wnbl-releases-2026-27-schedule-for-biggest-season-yet"
+  - team_id: liga_acb_girona
+    name: FIATC Girona
+    short_name: Girona
+    wikidata_qid: Q47524454
+    wikipedia_en: Bàsquet Girona
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Bàsquet_Girona → pageprops
     confidence: HIGH
     status: ready_for_p0e
-    teams:
-      - team_id: wnbl_adelaide
-        name: Adelaide Lightning
-        short_name: Lightning
-        wikidata_qid: Q2824193
-        wikipedia_en: Adelaide Lightning
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/Adelaide_Lightning → pageprops"
-        confidence: HIGH
-        status: ready_for_p0e
-      - team_id: wnbl_bendigo
-        name: Bendigo Spirit
-        short_name: Spirit
-        wikidata_qid: Q3179109
-        wikipedia_en: Bendigo Spirit
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/Bendigo_Spirit → pageprops"
-        confidence: HIGH
-        status: ready_for_p0e
-      - team_id: wnbl_geelong
-        name: Geelong Venom
-        short_name: Venom
-        wikidata_qid: Q923030
-        wikipedia_en: Geelong Venom
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/Geelong_Venom → pageprops"
-        confidence: HIGH
-        status: ready_for_p0e
-      - team_id: wnbl_perth
-        name: Perth Lynx
-        short_name: Lynx
-        wikidata_qid: Q3376166
-        wikipedia_en: Perth Lynx
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/Perth_Lynx → pageprops"
-        confidence: HIGH
-        status: ready_for_p0e
-      - team_id: wnbl_southside
-        name: Southside Melbourne Flyers
-        short_name: Flyers
-        wikidata_qid: Q3013412
-        wikipedia_en: Southside Melbourne Flyers
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/Southside_Melbourne_Flyers → pageprops"
-        confidence: HIGH
-        status: ready_for_p0e
-      - team_id: wnbl_sydney
-        name: Sydney Flames
-        short_name: Flames
-        wikidata_qid: Q3506848
-        wikipedia_en: Sydney Flames
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/Sydney_Flames → pageprops"
-        confidence: HIGH
-        status: ready_for_p0e
-      - team_id: wnbl_tasmania
-        name: Tasmania Jewels
-        short_name: Jewels
-        wikidata_qid: Q136085356
-        wikipedia_en: Tasmania Jewels
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/Tasmania_Jewels → pageprops"
-        confidence: HIGH
-        status: ready_for_p0e
-        notes: Expansion franchise debut 2026–27
-      - team_id: wnbl_townsville
-        name: Townsville Fire
-        short_name: Fire
-        wikidata_qid: Q3535968
-        wikipedia_en: Townsville Fire
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/Townsville_Fire → pageprops"
-        confidence: HIGH
-        status: ready_for_p0e
-      - team_id: wnbl_canberra
-        name: UC Capitals
-        short_name: Capitals
-        wikidata_qid: Q2936188
-        wikipedia_en: University of Canberra Capitals
-        as_of: "2026-09-19"
-        source_url: "https://en.wikipedia.org/wiki/University_of_Canberra_Capitals → pageprops"
-        confidence: HIGH
-        status: ready_for_p0e
+  - team_id: liga_acb_joventut
+    name: ASISA Joventut
+    short_name: Joventut
+    wikidata_qid: Q54908
+    wikipedia_en: Joventut Badalona
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Joventut_Badalona → pageprops
+    confidence: HIGH
+    status: ready_for_p0e
+  - team_id: liga_acb_lleida
+    name: iLERNA Lleida
+    short_name: Lleida
+    wikidata_qid: Q5473322
+    wikipedia_en: Força Lleida CE
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Força_Lleida_CE → pageprops
+    confidence: HIGH
+    status: ready_for_p0e
+  - team_id: liga_acb_manresa
+    name: Kids&Us Manresa
+    short_name: Manresa
+    wikidata_qid: Q54912
+    wikipedia_en: Bàsquet Manresa
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Bàsquet_Manresa → pageprops
+    confidence: HIGH
+    status: ready_for_p0e
+  - team_id: liga_acb_murcia
+    name: UCAM Murcia
+    short_name: Murcia
+    wikidata_qid: Q54915
+    wikipedia_en: UCAM Murcia CB
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/UCAM_Murcia_CB → pageprops
+    confidence: HIGH
+    status: ready_for_p0e
+  - team_id: liga_acb_obradoiro
+    name: Monbus Obradoiro
+    short_name: Obradoiro
+    wikidata_qid: Q54918
+    wikipedia_en: Obradoiro CAB
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Obradoiro_CAB → pageprops
+    confidence: HIGH
+    status: ready_for_p0e
+  - team_id: liga_acb_real_madrid
+    name: Real Madrid
+    short_name: Real Madrid
+    wikidata_qid: Q54922
+    wikipedia_en: Real Madrid Baloncesto
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Real_Madrid_Baloncesto → pageprops
+    confidence: HIGH
+    status: ready_for_p0e
+  - team_id: liga_acb_tenerife
+    name: La Laguna Tenerife
+    short_name: Tenerife
+    wikidata_qid: Q54897
+    wikipedia_en: CB Canarias
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/CB_Canarias → pageprops
+    confidence: HIGH
+    status: ready_for_p0e
+  - team_id: liga_acb_unicaja
+    name: Unicaja
+    short_name: Unicaja
+    wikidata_qid: Q54910
+    wikipedia_en: Baloncesto Málaga
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Baloncesto_Málaga → pageprops
+    confidence: HIGH
+    status: ready_for_p0e
+  - team_id: liga_acb_valencia
+    name: Valencia Basket
+    short_name: Valencia
+    wikidata_qid: Q54940
+    wikipedia_en: Valencia Basket
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Valencia_Basket → pageprops
+    confidence: HIGH
+    status: ready_for_p0e
+  - team_id: liga_acb_zaragoza
+    name: Casademont Zaragoza
+    short_name: Zaragoza
+    wikidata_qid: Q54926
+    wikipedia_en: Basket Zaragoza
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Basket_Zaragoza → pageprops
+    confidence: HIGH
+    status: ready_for_p0e
+- league_id: lnb_elite
+  name: LNB Élite
+  sponsor_name: Betclic Élite
+  gender: men
+  tier: 1
+  country_or_region: FR
+  governing_body: LNB
+  wikidata_qid: Q15062840
+  wikipedia_en: LNB Élite
+  season_label: 2026-27
+  as_of: '2026-09-19'
+  source_url: https://www.wikidata.org/wiki/Q15062840
+  club_list_source: https://en.wikipedia.org/wiki/LNB_Élite (Current teams; 2026–27)
+  confidence: HIGH
+  status: ready_for_p0e
+  teams:
+  - team_id: lnb_elite_asvel
+    name: LDLC ASVEL Villeurbanne
+    short_name: ASVEL
+    wikidata_qid: Q4089
+    wikipedia_en: ASVEL Basket
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/ASVEL_Basket → pageprops
+    confidence: HIGH
+    status: ready_for_p0e
+  - team_id: lnb_elite_gravelines
+    name: BCM Gravelines-Dunkerque
+    short_name: Gravelines
+    wikidata_qid: Q795707
+    wikipedia_en: BCM Gravelines-Dunkerque
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/BCM_Gravelines-Dunkerque → pageprops
+    confidence: HIGH
+    status: ready_for_p0e
+  - team_id: lnb_elite_boulazac
+    name: Boulazac Basket Dordogne
+    short_name: Boulazac
+    wikidata_qid: Q785442
+    wikipedia_en: Boulazac Basket Dordogne
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Boulazac_Basket_Dordogne → pageprops
+    confidence: HIGH
+    status: ready_for_p0e
+  - team_id: lnb_elite_cholet
+    name: Cholet Basket
+    short_name: Cholet
+    wikidata_qid: Q1075934
+    wikipedia_en: Cholet Basket
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Cholet_Basket → pageprops
+    confidence: HIGH
+    status: ready_for_p0e
+  - team_id: lnb_elite_roanne
+    name: Chorale Roanne Basket
+    short_name: Roanne
+    wikidata_qid: Q1076356
+    wikipedia_en: Chorale Roanne Basket
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Chorale_Roanne_Basket → pageprops
+    confidence: HIGH
+    status: ready_for_p0e
+  - team_id: lnb_elite_pau
+    name: Élan Béarnais Pau-Lacq-Orthez
+    short_name: Pau-Orthez
+    wikidata_qid: Q274566
+    wikipedia_en: Élan Béarnais
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Élan_Béarnais → pageprops
+    confidence: HIGH
+    status: ready_for_p0e
+  - team_id: lnb_elite_chalon
+    name: Élan Chalon
+    short_name: Chalon
+    wikidata_qid: Q274570
+    wikipedia_en: Élan Chalon
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Élan_Chalon → pageprops
+    confidence: HIGH
+    status: ready_for_p0e
+  - team_id: lnb_elite_dijon
+    name: JDA Dijon
+    short_name: Dijon
+    wikidata_qid: Q1682230
+    wikipedia_en: JDA Dijon Basket
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/JDA_Dijon_Basket → pageprops
+    confidence: HIGH
+    status: ready_for_p0e
+  - team_id: lnb_elite_bourg
+    name: JL Bourg
+    short_name: Bourg
+    wikidata_qid: Q1630650
+    wikipedia_en: JL Bourg Basket
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/JL_Bourg_Basket → pageprops
+    confidence: HIGH
+    status: ready_for_p0e
+  - team_id: lnb_elite_le_mans
+    name: Le Mans Sarthe Basket
+    short_name: Le Mans
+    wikidata_qid: Q40063
+    wikipedia_en: Le Mans Sarthe Basket
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Le_Mans_Sarthe_Basket → pageprops
+    confidence: HIGH
+    status: ready_for_p0e
+  - team_id: lnb_elite_limoges
+    name: Limoges CSP
+    short_name: Limoges
+    wikidata_qid: Q1419876
+    wikipedia_en: Limoges CSP
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Limoges_CSP → pageprops
+    confidence: HIGH
+    status: ready_for_p0e
+  - team_id: lnb_elite_nanterre
+    name: Nanterre 92
+    short_name: Nanterre
+    wikidata_qid: Q1630671
+    wikipedia_en: Nanterre 92
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Nanterre_92 → pageprops
+    confidence: HIGH
+    status: ready_for_p0e
+  - team_id: lnb_elite_paris
+    name: Paris Basketball
+    short_name: Paris
+    wikidata_qid: Q56291131
+    wikipedia_en: Paris Basketball
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Paris_Basketball → pageprops
+    confidence: HIGH
+    status: ready_for_p0e
+  - team_id: lnb_elite_strasbourg
+    name: SIG Strasbourg
+    short_name: Strasbourg
+    wikidata_qid: Q2737338
+    wikipedia_en: SIG Strasbourg
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/SIG_Strasbourg → pageprops
+    confidence: HIGH
+    status: ready_for_p0e
+  - team_id: lnb_elite_nancy
+    name: SLUC Nancy
+    short_name: Nancy
+    wikidata_qid: Q762219
+    wikipedia_en: SLUC Nancy Basket
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/SLUC_Nancy_Basket → pageprops
+    confidence: HIGH
+    status: ready_for_p0e
+  - team_id: lnb_elite_saint_quentin
+    name: Saint-Quentin Basket-Ball
+    short_name: Saint-Quentin
+    wikidata_qid: Q3463255
+    wikipedia_en: Saint-Quentin Basket-Ball
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Saint-Quentin_Basket-Ball → pageprops
+    confidence: HIGH
+    status: ready_for_p0e
+    notes: Replaced AS Monaco after Monaco declined LNB engagement (LNB 31 Aug 2026)
+- league_id: bbl
+  name: Basketball Bundesliga
+  sponsor_name: easyCredit BBL
+  gender: men
+  tier: 1
+  country_or_region: DE
+  governing_body: BBL GmbH
+  wikidata_qid: Q540636
+  wikipedia_en: Basketball Bundesliga
+  season_label: 2026-27
+  as_of: '2026-09-19'
+  source_url: https://www.wikidata.org/wiki/Q540636
+  club_list_source: https://en.wikipedia.org/wiki/2026–27_Basketball_Bundesliga
+  confidence: HIGH
+  status: ready_for_p0e
+  teams:
+  - team_id: bbl_alba
+    name: ALBA Berlin
+    short_name: ALBA
+    wikidata_qid: Q643795
+    wikipedia_en: Alba Berlin
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Alba_Berlin → pageprops
+    confidence: HIGH
+    status: ready_for_p0e
+  - team_id: bbl_bamberg
+    name: Bamberg Baskets
+    short_name: Bamberg
+    wikidata_qid: Q700366
+    wikipedia_en: Bamberg Baskets
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Bamberg_Baskets → pageprops
+    confidence: HIGH
+    status: ready_for_p0e
+  - team_id: bbl_braunschweig
+    name: Basketball Löwen Braunschweig
+    short_name: Braunschweig
+    wikidata_qid: Q532269
+    wikipedia_en: Basketball Löwen Braunschweig
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Basketball_Löwen_Braunschweig → pageprops
+    confidence: HIGH
+    status: ready_for_p0e
+  - team_id: bbl_oldenburg
+    name: EWE Baskets Oldenburg
+    short_name: Oldenburg
+    wikidata_qid: Q707861
+    wikipedia_en: Baskets Oldenburg
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Baskets_Oldenburg → pageprops
+    confidence: HIGH
+    status: ready_for_p0e
+  - team_id: bbl_bayern
+    name: FC Bayern Munich
+    short_name: Bayern
+    wikidata_qid: Q600149
+    wikipedia_en: FC Bayern Munich (basketball)
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/FC_Bayern_Munich_(basketball) → pageprops
+    confidence: HIGH
+    status: ready_for_p0e
+  - team_id: bbl_wuerzburg
+    name: Fitness First Würzburg Baskets
+    short_name: Würzburg
+    wikidata_qid: Q480478
+    wikipedia_en: Würzburg Baskets
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Würzburg_Baskets → pageprops
+    confidence: HIGH
+    status: ready_for_p0e
+  - team_id: bbl_hamburg
+    name: Veolia Towers Hamburg
+    short_name: Hamburg
+    wikidata_qid: Q17324838
+    wikipedia_en: Hamburg Towers
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Hamburg_Towers → pageprops
+    confidence: HIGH
+    status: ready_for_p0e
+  - team_id: bbl_ludwigsburg
+    name: MHP Riesen Ludwigsburg
+    short_name: Ludwigsburg
+    wikidata_qid: Q553293
+    wikipedia_en: Riesen Ludwigsburg
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Riesen_Ludwigsburg → pageprops
+    confidence: HIGH
+    status: ready_for_p0e
+  - team_id: bbl_chemnitz
+    name: NINERS Chemnitz
+    short_name: Chemnitz
+    wikidata_qid: Q797164
+    wikipedia_en: Niners Chemnitz
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Niners_Chemnitz → pageprops
+    confidence: HIGH
+    status: ready_for_p0e
+  - team_id: bbl_hagen
+    name: Phoenix Hagen
+    short_name: Hagen
+    wikidata_qid: Q463349
+    wikipedia_en: Phoenix Hagen
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Phoenix_Hagen → pageprops
+    confidence: HIGH
+    status: ready_for_p0e
+  - team_id: bbl_ulm
+    name: ratiopharm ulm
+    short_name: Ulm
+    wikidata_qid: Q266588
+    wikipedia_en: Ratiopharm Ulm
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Ratiopharm_Ulm → pageprops
+    confidence: HIGH
+    status: ready_for_p0e
+  - team_id: bbl_rostock
+    name: Rostock Seawolves
+    short_name: Rostock
+    wikidata_qid: Q18009233
+    wikipedia_en: Rostock Seawolves
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Rostock_Seawolves → pageprops
+    confidence: HIGH
+    status: ready_for_p0e
+  - team_id: bbl_vechta
+    name: RASTA Vechta
+    short_name: Vechta
+    wikidata_qid: Q2205512
+    wikipedia_en: SC Rasta Vechta
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/SC_Rasta_Vechta → pageprops
+    confidence: HIGH
+    status: ready_for_p0e
+  - team_id: bbl_jena
+    name: Science City Jena
+    short_name: Jena
+    wikidata_qid: Q265244
+    wikipedia_en: Science City Jena
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Science_City_Jena → pageprops
+    confidence: HIGH
+    status: ready_for_p0e
+  - team_id: bbl_frankfurt
+    name: SKYLINERS Frankfurt
+    short_name: Frankfurt
+    wikidata_qid: Q836109
+    wikipedia_en: Skyliners Frankfurt
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Skyliners_Frankfurt → pageprops
+    confidence: HIGH
+    status: ready_for_p0e
+  - team_id: bbl_mbc
+    name: SYNTAINICS MBC
+    short_name: MBC
+    wikidata_qid: Q521663
+    wikipedia_en: Mitteldeutscher BC
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Mitteldeutscher_BC → pageprops
+    confidence: HIGH
+    status: ready_for_p0e
+  - team_id: bbl_bonn
+    name: Telekom Baskets Bonn
+    short_name: Bonn
+    wikidata_qid: Q704072
+    wikipedia_en: Telekom Baskets Bonn
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Telekom_Baskets_Bonn → pageprops
+    confidence: HIGH
+    status: ready_for_p0e
+  - team_id: bbl_trier
+    name: VET-CONCEPT Gladiators Trier
+    short_name: Trier
+    wikidata_qid: Q22340607
+    wikipedia_en: Gladiators Trier
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Gladiators_Trier → pageprops
+    confidence: HIGH
+    status: ready_for_p0e
+- league_id: serie_a
+  name: Lega Basket Serie A
+  sponsor_name: LBA Serie A SisalClub
+  gender: men
+  tier: 1
+  country_or_region: IT
+  governing_body: Lega Basket
+  wikidata_qid: Q929124
+  wikipedia_en: Lega Basket Serie A
+  season_label: 2026-27
+  as_of: '2026-09-19'
+  source_url: https://www.wikidata.org/wiki/Q929124
+  club_list_source: https://it.wikipedia.org/wiki/Serie_A_2026-2027_(pallacanestro_maschile)
+  confidence: HIGH
+  status: ready_for_p0e
+  teams:
+  - team_id: serie_a_cantu
+    name: Acqua S.Bernardo Cantù
+    short_name: Cantù
+    wikidata_qid: Q36311
+    wikipedia_en: Pallacanestro Cantù
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Pallacanestro_Cantù → pageprops
+    confidence: HIGH
+    status: ready_for_p0e
+  - team_id: serie_a_udine
+    name: APU Old Wild West Udine
+    short_name: Udine
+    wikidata_qid: Q3626683
+    wikipedia_en: APU Udine
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/APU_Udine → pageprops
+    confidence: HIGH
+    status: ready_for_p0e
+  - team_id: serie_a_milano
+    name: EA7 Emporio Armani Milano
+    short_name: Olimpia Milano
+    wikidata_qid: Q36362
+    wikipedia_en: Olimpia Milano
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Olimpia_Milano → pageprops
+    confidence: HIGH
+    status: ready_for_p0e
+  - team_id: serie_a_roma_spqr
+    name: BC Roma SPQR
+    short_name: Roma SPQR
+    wikidata_qid: Q140465826
+    wikipedia_en: BC Roma
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/BC_Roma → pageprops
+    confidence: HIGH
+    status: ready_for_p0e
+    notes: Took over Vanoli Cremona LBA license for 2026–27; enwiki title BC Roma
+  - team_id: serie_a_tortona
+    name: Bertram Derthona Tortona
+    short_name: Derthona
+    wikidata_qid: Q17628735
+    wikipedia_en: Derthona Basket
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Derthona_Basket → pageprops
+    confidence: HIGH
+    status: ready_for_p0e
+  - team_id: serie_a_trento
+    name: Dolomiti Energia Trentino
+    short_name: Trento
+    wikidata_qid: Q51167
+    wikipedia_en: Aquila Basket Trento
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Aquila_Basket_Trento → pageprops
+    confidence: HIGH
+    status: ready_for_p0e
+  - team_id: serie_a_scafati
+    name: Longobardi Scafati Basket
+    short_name: Scafati
+    wikidata_qid: Q42454
+    wikipedia_en: Scafati Basket
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Scafati_Basket → pageprops
+    confidence: HIGH
+    status: ready_for_p0e
+  - team_id: serie_a_maxima_roma
+    name: Maxima Roma
+    short_name: Maxima Roma
+    wikidata_qid: Q140465833
+    wikipedia_en: Maxima Roma
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Maxima_Roma → pageprops
+    confidence: HIGH
+    status: ready_for_p0e
+    notes: Took over Pallacanestro Brescia LBA license for 2026–27
+  - team_id: serie_a_napoli
+    name: Napoli Basket
+    short_name: Napoli
+    wikidata_qid: Q31037592
+    wikipedia_en: Napoli Basket
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Napoli_Basket → pageprops
+    confidence: HIGH
+    status: ready_for_p0e
+  - team_id: serie_a_treviso
+    name: NutriBullet Treviso
+    short_name: Treviso
+    wikidata_qid: Q17562457
+    wikipedia_en: Universo Treviso Basket
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Universo_Treviso_Basket → pageprops
+    confidence: HIGH
+    status: ready_for_p0e
+  - team_id: serie_a_varese
+    name: Openjobmetis Varese
+    short_name: Varese
+    wikidata_qid: Q36551
+    wikipedia_en: Pallacanestro Varese
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Pallacanestro_Varese → pageprops
+    confidence: HIGH
+    status: ready_for_p0e
+  - team_id: serie_a_trieste
+    name: Pallacanestro Trieste
+    short_name: Trieste
+    wikidata_qid: Q50884
+    wikipedia_en: Pallacanestro Trieste
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Pallacanestro_Trieste → pageprops
+    confidence: HIGH
+    status: ready_for_p0e
+  - team_id: serie_a_verona
+    name: Tezenis Verona
+    short_name: Verona
+    wikidata_qid: Q48969
+    wikipedia_en: Scaligera Basket Verona
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Scaligera_Basket_Verona → pageprops
+    confidence: HIGH
+    status: ready_for_p0e
+  - team_id: serie_a_venezia
+    name: Umana Reyer Venezia
+    short_name: Reyer Venezia
+    wikidata_qid: Q36572
+    wikipedia_en: Reyer Venezia
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Reyer_Venezia → pageprops
+    confidence: HIGH
+    status: ready_for_p0e
+  - team_id: serie_a_reggio
+    name: UNA Hotels Reggio Emilia
+    short_name: Reggio Emilia
+    wikidata_qid: Q36419
+    wikipedia_en: Pallacanestro Reggiana
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Pallacanestro_Reggiana → pageprops
+    confidence: HIGH
+    status: ready_for_p0e
+  - team_id: serie_a_bologna
+    name: Virtus Segafredo Bologna
+    short_name: Virtus Bologna
+    wikidata_qid: Q36264
+    wikipedia_en: Virtus Bologna
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Virtus_Bologna → pageprops
+    confidence: HIGH
+    status: ready_for_p0e
+- league_id: greek_basket_league
+  name: Greek Basketball League
+  sponsor_name: Stoiximan GBL
+  gender: men
+  tier: 1
+  country_or_region: GR
+  governing_body: HEBA / ESAKE
+  wikidata_qid: Q29274
+  wikipedia_en: Greek Basketball League
+  season_label: 2026-27
+  as_of: '2026-09-19'
+  source_url: https://www.wikidata.org/wiki/Q29274
+  club_list_source: https://el.wikipedia.org/wiki/Πρωτάθλημα_καλαθοσφαίρισης_ανδρών_Greek_Basketball_League_2026–2027
+  confidence: HIGH
+  status: ready_for_p0e
+  notes: enwiki title is Greek Basketball League (redirect from Greek Basket League)
+  teams:
+  - team_id: greek_basket_league_aek
+    name: AEK Athens
+    short_name: AEK
+    wikidata_qid: Q1982491
+    wikipedia_en: AEK B.C.
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/AEK_B.C. → pageprops
+    confidence: HIGH
+    status: ready_for_p0e
+  - team_id: greek_basket_league_aris
+    name: Aris Thessaloniki
+    short_name: Aris
+    wikidata_qid: Q8383824
+    wikipedia_en: Aris B.C.
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Aris_B.C. → pageprops
+    confidence: HIGH
+    status: ready_for_p0e
+  - team_id: greek_basket_league_vikos
+    name: Vikos Falcons Ioannina
+    short_name: Vikos
+    wikidata_qid: Q135969614
+    wikipedia_en: Vikos Falcons Ioannina B.C.
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Vikos_Falcons_Ioannina_B.C. → pageprops
+    confidence: HIGH
+    status: ready_for_p0e
+  - team_id: greek_basket_league_doxa
+    name: Doxa Lefkadas
+    short_name: Doxa
+    wikidata_qid: Q12872679
+    wikipedia_en: Doxa Lefkadas B.C.
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Doxa_Lefkadas_B.C. → pageprops
+    confidence: HIGH
+    status: ready_for_p0e
+  - team_id: greek_basket_league_iraklis
+    name: Iraklis Thessaloniki
+    short_name: Iraklis
+    wikidata_qid: Q549055
+    wikipedia_en: G.S. Iraklis Thessaloniki (men's basketball)
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/G.S._Iraklis_Thessaloniki_(men%27s_basketball) → pageprops
+    confidence: HIGH
+    status: ready_for_p0e
+  - team_id: greek_basket_league_karditsa
+    name: ASK Karditsas
+    short_name: Karditsa
+    wikidata_qid: Q25535622
+    wikipedia_en: ASK Karditsas B.C.
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/ASK_Karditsas_B.C. → pageprops
+    confidence: HIGH
+    status: ready_for_p0e
+  - team_id: greek_basket_league_kolossos
+    name: Kolossos Rodou
+    short_name: Kolossos
+    wikidata_qid: Q1645286
+    wikipedia_en: Kolossos Rodou B.C.
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Kolossos_Rodou_B.C. → pageprops
+    confidence: HIGH
+    status: ready_for_p0e
+  - team_id: greek_basket_league_maroussi
+    name: Maroussi
+    short_name: Maroussi
+    wikidata_qid: Q1355529
+    wikipedia_en: Maroussi B.C.
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Maroussi_B.C. → pageprops
+    confidence: HIGH
+    status: ready_for_p0e
+  - team_id: greek_basket_league_mykonos
+    name: Mykonos
+    short_name: Mykonos
+    wikidata_qid: Q128033708
+    wikipedia_en: Mykonos B.C.
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Mykonos_B.C. → pageprops
+    confidence: HIGH
+    status: ready_for_p0e
+  - team_id: greek_basket_league_olympiacos
+    name: Olympiacos Piraeus
+    short_name: Olympiacos
+    wikidata_qid: Q847701
+    wikipedia_en: Olympiacos B.C.
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Olympiacos_B.C. → pageprops
+    confidence: HIGH
+    status: ready_for_p0e
+  - team_id: greek_basket_league_panathinaikos
+    name: Panathinaikos Athens
+    short_name: Panathinaikos
+    wikidata_qid: Q739287
+    wikipedia_en: Panathinaikos B.C.
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Panathinaikos_B.C. → pageprops
+    confidence: HIGH
+    status: ready_for_p0e
+  - team_id: greek_basket_league_paok
+    name: PAOK Thessaloniki
+    short_name: PAOK
+    wikidata_qid: Q1343768
+    wikipedia_en: PAOK BC
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/PAOK_BC → pageprops
+    confidence: HIGH
+    status: ready_for_p0e
+  - team_id: greek_basket_league_peristeri
+    name: Peristeri Athens
+    short_name: Peristeri
+    wikidata_qid: Q19862455
+    wikipedia_en: Peristeri B.C.
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Peristeri_B.C. → pageprops
+    confidence: HIGH
+    status: ready_for_p0e
+  - team_id: greek_basket_league_promitheas
+    name: Promitheas Patras
+    short_name: Promitheas
+    wikidata_qid: Q20055221
+    wikipedia_en: Promitheas Patras B.C.
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Promitheas_Patras_B.C. → pageprops
+    confidence: HIGH
+    status: ready_for_p0e
+- league_id: lf_endesa
+  name: Liga Femenina de Baloncesto
+  sponsor_name: Liga Femenina Endesa / LF Endesa
+  gender: women
+  tier: 1
+  country_or_region: ES
+  governing_body: FEB
+  wikidata_qid: Q2504807
+  wikipedia_en: Liga Femenina de Baloncesto
+  season_label: 2026-27
+  as_of: '2026-09-19'
+  source_url: https://www.wikidata.org/wiki/Q2504807
+  club_list_source: https://en.wikipedia.org/wiki/2026–27_Liga_Femenina_de_Baloncesto
+  confidence: HIGH
+  status: ready_for_p0e
+  teams:
+  - team_id: lf_endesa_mallorca
+    name: Azulmarino Mallorca Palma
+    short_name: Mallorca
+    wikidata_qid: Q137925516
+    wikipedia_en: null
+    as_of: '2026-09-19'
+    source_url: https://www.wikidata.org/wiki/Q137925516
+    confidence: MEDIUM
+    status: gap
+    notes: eswiki Fundación Club Baloncesto Mallorca; no enwiki sitelink (wikipedia_en GAP)
+  - team_id: lf_endesa_ferrol
+    name: BAXI Ferrol
+    short_name: Ferrol
+    wikidata_qid: Q20736183
+    wikipedia_en: Universitario de Ferrol
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Universitario_de_Ferrol → pageprops
+    confidence: HIGH
+    status: ready_for_p0e
+  - team_id: lf_endesa_la_seu
+    name: Cadí La Seu
+    short_name: La Seu
+    wikidata_qid: Q3600922
+    wikipedia_en: AE Sedis Bàsquet
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/AE_Sedis_Bàsquet → pageprops
+    confidence: HIGH
+    status: ready_for_p0e
+  - team_id: lf_endesa_zaragoza
+    name: Casademont Zaragoza
+    short_name: Zaragoza
+    wikidata_qid: Q118949146
+    wikipedia_en: null
+    as_of: '2026-09-19'
+    source_url: https://www.wikidata.org/wiki/Q118949146
+    confidence: MEDIUM
+    status: gap
+    notes: Women section item; no enwiki sitelink (wikipedia_en GAP). Do not use men Q54926
+  - team_id: lf_endesa_celta
+    name: Celta Femxa Zorka
+    short_name: Celta
+    wikidata_qid: Q3330276
+    wikipedia_en: Celta de Vigo Baloncesto
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Celta_de_Vigo_Baloncesto → pageprops
+    confidence: HIGH
+    status: ready_for_p0e
+  - team_id: lf_endesa_ensino
+    name: Durán Maquinaria Ensino
+    short_name: Ensino
+    wikidata_qid: Q7231325
+    wikipedia_en: Porta XI Ensino
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Porta_XI_Ensino → pageprops
+    confidence: HIGH
+    status: ready_for_p0e
+  - team_id: lf_endesa_jairis
+    name: Hozono Global Jairis
+    short_name: Jairis
+    wikidata_qid: Q97666502
+    wikipedia_en: null
+    as_of: '2026-09-19'
+    source_url: https://www.wikidata.org/wiki/Q97666502
+    confidence: MEDIUM
+    status: gap
+    notes: eswiki Club Baloncesto Jairis; no enwiki sitelink (wikipedia_en GAP)
+  - team_id: lf_endesa_idk
+    name: IDK Euskotren
+    short_name: IDK
+    wikidata_qid: Q20016784
+    wikipedia_en: null
+    as_of: '2026-09-19'
+    source_url: https://www.wikidata.org/wiki/Q20016784
+    confidence: MEDIUM
+    status: gap
+    notes: Wikidata Ibaeta Kirol Elkartea / CD Ibaeta (sponsor IDK/Mirai Euskotren); no enwiki
+  - team_id: lf_endesa_estepona
+    name: Ingeniería Ambiental CAB Estepona
+    short_name: Estepona
+    wikidata_qid: Q114740068
+    wikipedia_en: null
+    as_of: '2026-09-19'
+    source_url: https://www.wikidata.org/wiki/Q114740068
+    confidence: MEDIUM
+    status: gap
+    notes: eswiki Club Amigos del Baloncesto Estepona; no enwiki sitelink (wikipedia_en GAP)
+  - team_id: lf_endesa_leganes
+    name: Innova-tsn Leganés
+    short_name: Leganés
+    wikidata_qid: Q118948850
+    wikipedia_en: null
+    as_of: '2026-09-19'
+    source_url: https://www.wikidata.org/wiki/Q118948850
+    confidence: MEDIUM
+    status: gap
+    notes: eswiki Club Baloncesto Leganés; no enwiki sitelink (wikipedia_en GAP)
+  - team_id: lf_endesa_araski
+    name: Kutxabank Araski
+    short_name: Araski
+    wikidata_qid: Q21280692
+    wikipedia_en: Araski AES
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Araski_AES → pageprops
+    confidence: HIGH
+    status: ready_for_p0e
+  - team_id: lf_endesa_gernika
+    name: Lointek Gernika Bizkaia
+    short_name: Gernika
+    wikidata_qid: Q19947914
+    wikipedia_en: Gernika KESB
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Gernika_KESB → pageprops
+    confidence: HIGH
+    status: ready_for_p0e
+  - team_id: lf_endesa_estudiantes
+    name: Movistar Estudiantes
+    short_name: Estudiantes
+    wikidata_qid: Q3059078
+    wikipedia_en: null
+    as_of: '2026-09-19'
+    source_url: https://www.wikidata.org/wiki/Q3059078
+    confidence: MEDIUM
+    status: gap
+    notes: Women item Club Baloncesto Estudiantes (femenino); eswiki only. Do not use men Q54900
+  - team_id: lf_endesa_avenida
+    name: Perfumerías Avenida
+    short_name: Avenida
+    wikidata_qid: Q2660154
+    wikipedia_en: CB Avenida
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/CB_Avenida → pageprops
+    confidence: HIGH
+    status: ready_for_p0e
+  - team_id: lf_endesa_girona
+    name: Spar Girona
+    short_name: Girona
+    wikidata_qid: Q4890678
+    wikipedia_en: Uni Girona CB
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Uni_Girona_CB → pageprops
+    confidence: HIGH
+    status: ready_for_p0e
+  - team_id: lf_endesa_valencia
+    name: Valencia Basket
+    short_name: Valencia
+    wikidata_qid: Q60464673
+    wikipedia_en: Valencia Basket (women)
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Valencia_Basket_(women) → pageprops
+    confidence: HIGH
+    status: ready_for_p0e
+- league_id: lfb
+  name: Ligue Féminine de Basketball
+  sponsor_name: La Boulangère Wonderligue
+  gender: women
+  tier: 1
+  country_or_region: FR
+  governing_body: FFBB / Ligue Féminine
+  wikidata_qid: Q1249149
+  wikipedia_en: Ligue Féminine de Basketball
+  season_label: 2026-27
+  as_of: '2026-09-19'
+  source_url: https://www.wikidata.org/wiki/Q1249149
+  club_list_source: https://fr.wikipedia.org/wiki/Championnat_de_France_féminin_de_basket-ball_2026-2027
+  confidence: HIGH
+  status: ready_for_p0e
+  teams:
+  - team_id: lfb_angers
+    name: UF Angers Basket 49
+    short_name: Angers
+    wikidata_qid: Q3549990
+    wikipedia_en: Union Féminine Angers Basket 49
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Union_Féminine_Angers_Basket_49 → pageprops
+    confidence: HIGH
+    status: ready_for_p0e
+  - team_id: lfb_landes
+    name: Basket Landes
+    short_name: Landes
+    wikidata_qid: Q2887227
+    wikipedia_en: Basket Landes
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Basket_Landes → pageprops
+    confidence: HIGH
+    status: ready_for_p0e
+  - team_id: lfb_bourges
+    name: Tango Bourges Basket
+    short_name: Bourges
+    wikidata_qid: Q616041
+    wikipedia_en: Tango Bourges Basket
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Tango_Bourges_Basket → pageprops
+    confidence: HIGH
+    status: ready_for_p0e
+  - team_id: lfb_flammes
+    name: Flammes Carolo Basket
+    short_name: Flammes Carolo
+    wikidata_qid: Q3073321
+    wikipedia_en: Flammes Carolo Basket
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Flammes_Carolo_Basket → pageprops
+    confidence: HIGH
+    status: ready_for_p0e
+  - team_id: lfb_charnay
+    name: Charnay Basket Bourgogne Sud
+    short_name: Charnay
+    wikidata_qid: Q3156869
+    wikipedia_en: Charnay Basket Bourgogne Sud
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Charnay_Basket_Bourgogne_Sud → pageprops
+    confidence: HIGH
+    status: ready_for_p0e
+  - team_id: lfb_chartres
+    name: C'Chartres Métropole Basket Féminin
+    short_name: Chartres
+    wikidata_qid: Q16382668
+    wikipedia_en: Chartres Basket Feminin
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Chartres_Basket_Feminin → pageprops
+    confidence: HIGH
+    status: ready_for_p0e
+  - team_id: lfb_tronche
+    name: BC La Tronche-Meylan
+    short_name: La Tronche-Meylan
+    wikidata_qid: Q111781676
+    wikipedia_en: null
+    as_of: '2026-09-19'
+    source_url: https://www.wikidata.org/wiki/Q111781676
+    confidence: MEDIUM
+    status: gap
+    notes: frwiki BC La Tronche-Meylan; no enwiki. P31=basketball team
+  - team_id: lfb_landerneau
+    name: Landerneau Bretagne Basket
+    short_name: Landerneau
+    wikidata_qid: Q21027377
+    wikipedia_en: Landerneau Bretagne Basket
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Landerneau_Bretagne_Basket → pageprops
+    confidence: HIGH
+    status: ready_for_p0e
+  - team_id: lfb_lattes
+    name: BLMA Lattes Montpellier
+    short_name: Lattes
+    wikidata_qid: Q2887232
+    wikipedia_en: Basket Lattes Montpellier Agglomération
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Basket_Lattes_Montpellier_Agglomération → pageprops
+    confidence: HIGH
+    status: ready_for_p0e
+  - team_id: lfb_asvel
+    name: LDLC ASVEL Féminin
+    short_name: ASVEL Féminin
+    wikidata_qid: Q3549999
+    wikipedia_en: ASVEL Féminin
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/ASVEL_Féminin → pageprops
+    confidence: HIGH
+    status: ready_for_p0e
+  - team_id: lfb_toulouse
+    name: Toulouse Métropole Basket
+    short_name: Toulouse
+    wikidata_qid: Q3532914
+    wikipedia_en: null
+    as_of: '2026-09-19'
+    source_url: https://www.wikidata.org/wiki/Q3532914
+    confidence: MEDIUM
+    status: gap
+    notes: frwiki/itwiki only; no enwiki sitelink (wikipedia_en GAP)
+  - team_id: lfb_villeneuve
+    name: ESB Villeneuve-d'Ascq
+    short_name: Villeneuve-d'Ascq
+    wikidata_qid: Q3046087
+    wikipedia_en: ESB Villeneuve-d'Ascq
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/ESB_Villeneuve-d%27Ascq → pageprops
+    confidence: HIGH
+    status: ready_for_p0e
+- league_id: wnbl
+  name: Women's National Basketball League
+  sponsor_name: WNBL
+  gender: women
+  tier: 1
+  country_or_region: AU
+  governing_body: Basketball Australia
+  wikidata_qid: Q2378848
+  wikipedia_en: Women's National Basketball League
+  season_label: 2026-27
+  as_of: '2026-09-19'
+  source_url: https://www.wikidata.org/wiki/Q2378848
+  club_list_source: https://www.wnbl.com.au/news/wnbl-releases-2026-27-schedule-for-biggest-season-yet
+  confidence: HIGH
+  status: ready_for_p0e
+  teams:
+  - team_id: wnbl_adelaide
+    name: Adelaide Lightning
+    short_name: Lightning
+    wikidata_qid: Q2824193
+    wikipedia_en: Adelaide Lightning
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Adelaide_Lightning → pageprops
+    confidence: HIGH
+    status: ready_for_p0e
+  - team_id: wnbl_bendigo
+    name: Bendigo Spirit
+    short_name: Spirit
+    wikidata_qid: Q3179109
+    wikipedia_en: Bendigo Spirit
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Bendigo_Spirit → pageprops
+    confidence: HIGH
+    status: ready_for_p0e
+  - team_id: wnbl_geelong
+    name: Geelong Venom
+    short_name: Venom
+    wikidata_qid: Q923030
+    wikipedia_en: Geelong Venom
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Geelong_Venom → pageprops
+    confidence: HIGH
+    status: ready_for_p0e
+  - team_id: wnbl_perth
+    name: Perth Lynx
+    short_name: Lynx
+    wikidata_qid: Q3376166
+    wikipedia_en: Perth Lynx
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Perth_Lynx → pageprops
+    confidence: HIGH
+    status: ready_for_p0e
+  - team_id: wnbl_southside
+    name: Southside Melbourne Flyers
+    short_name: Flyers
+    wikidata_qid: Q3013412
+    wikipedia_en: Southside Melbourne Flyers
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Southside_Melbourne_Flyers → pageprops
+    confidence: HIGH
+    status: ready_for_p0e
+  - team_id: wnbl_sydney
+    name: Sydney Flames
+    short_name: Flames
+    wikidata_qid: Q3506848
+    wikipedia_en: Sydney Flames
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Sydney_Flames → pageprops
+    confidence: HIGH
+    status: ready_for_p0e
+  - team_id: wnbl_tasmania
+    name: Tasmania Jewels
+    short_name: Jewels
+    wikidata_qid: Q136085356
+    wikipedia_en: Tasmania Jewels
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Tasmania_Jewels → pageprops
+    confidence: HIGH
+    status: ready_for_p0e
+    notes: Expansion franchise debut 2026–27
+  - team_id: wnbl_townsville
+    name: Townsville Fire
+    short_name: Fire
+    wikidata_qid: Q3535968
+    wikipedia_en: Townsville Fire
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Townsville_Fire → pageprops
+    confidence: HIGH
+    status: ready_for_p0e
+  - team_id: wnbl_canberra
+    name: UC Capitals
+    short_name: Capitals
+    wikidata_qid: Q2936188
+    wikipedia_en: University of Canberra Capitals
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/University_of_Canberra_Capitals → pageprops
+    confidence: HIGH
+    status: ready_for_p0e
+- league_id: cba
+  name: Chinese Basketball Association
+  sponsor_name: CBA
+  gender: men
+  tier: 1
+  country_or_region: CN
+  governing_body: Chinese Basketball Association
+  wikidata_qid: Q1073722
+  wikipedia_en: Chinese Basketball Association
+  season_label: 2026-27
+  as_of: '2026-09-19'
+  source_url: https://www.wikidata.org/wiki/Q1073722
+  club_list_source: https://en.wikipedia.org/wiki/Chinese_Basketball_Association#Current_clubs
+  confidence: HIGH
+  status: ready_for_p0f
+  teams:
+  - team_id: cba_beijing_ducks
+    name: Beijing Ducks
+    short_name: Ducks
+    wikidata_qid: Q2627897
+    wikipedia_en: Beijing Ducks
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Beijing_Ducks → pageprops
+    confidence: HIGH
+    status: ready_for_p0f
+  - team_id: cba_beijing_royal_fighters
+    name: Beijing Royal Fighters
+    short_name: Royal Fighters
+    wikidata_qid: Q19329545
+    wikipedia_en: Beijing Royal Fighters
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Beijing_Royal_Fighters → pageprops
+    confidence: HIGH
+    status: ready_for_p0f
+  - team_id: cba_fujian
+    name: Fujian Sturgeons
+    short_name: Sturgeons
+    wikidata_qid: Q661783
+    wikipedia_en: Fujian Sturgeons
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Fujian_Sturgeons → pageprops
+    confidence: HIGH
+    status: ready_for_p0f
+  - team_id: cba_guangdong
+    name: Guangdong Southern Tigers
+    short_name: Southern Tigers
+    wikidata_qid: Q2629395
+    wikipedia_en: Guangdong Southern Tigers
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Guangdong_Southern_Tigers → pageprops
+    confidence: HIGH
+    status: ready_for_p0f
+  - team_id: cba_guangzhou
+    name: Guangzhou Loong Lions
+    short_name: Loong Lions
+    wikidata_qid: Q2376602
+    wikipedia_en: Guangzhou Loong Lions
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Guangzhou_Loong_Lions → pageprops
+    confidence: HIGH
+    status: ready_for_p0f
+  - team_id: cba_jiangsu
+    name: Jiangsu Dragons
+    short_name: Dragons
+    wikidata_qid: Q2608377
+    wikipedia_en: Jiangsu Dragons
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Jiangsu_Dragons → pageprops
+    confidence: HIGH
+    status: ready_for_p0f
+  - team_id: cba_jilin
+    name: Jilin Northeast Tigers
+    short_name: Northeast Tigers
+    wikidata_qid: Q2608720
+    wikipedia_en: Jilin Northeast Tigers
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Jilin_Northeast_Tigers → pageprops
+    confidence: HIGH
+    status: ready_for_p0f
+  - team_id: cba_liaoning
+    name: Liaoning Flying Leopards
+    short_name: Flying Leopards
+    wikidata_qid: Q2628340
+    wikipedia_en: Liaoning Flying Leopards
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Liaoning_Flying_Leopards → pageprops
+    confidence: HIGH
+    status: ready_for_p0f
+  - team_id: cba_nanjing
+    name: Nanjing Monkey Kings
+    short_name: Monkey Kings
+    wikidata_qid: Q18418539
+    wikipedia_en: Nanjing Monkey Kings
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Nanjing_Monkey_Kings → pageprops
+    confidence: HIGH
+    status: ready_for_p0f
+  - team_id: cba_ningbo
+    name: Ningbo Rockets
+    short_name: Rockets
+    wikidata_qid: Q108933283
+    wikipedia_en: Ningbo Rockets
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Ningbo_Rockets → pageprops
+    confidence: HIGH
+    status: ready_for_p0f
+  - team_id: cba_qingdao
+    name: Qingdao Eagles
+    short_name: Eagles
+    wikidata_qid: Q2608439
+    wikipedia_en: Qingdao Eagles
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Qingdao_Eagles → pageprops
+    confidence: HIGH
+    status: ready_for_p0f
+  - team_id: cba_shandong
+    name: Shandong Hi-Speed Kirin
+    short_name: Kirin
+    wikidata_qid: Q2608444
+    wikipedia_en: Shandong Hi-Speed Kirin
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Shandong_Hi-Speed_Kirin → pageprops
+    confidence: HIGH
+    status: ready_for_p0f
+  - team_id: cba_shanghai
+    name: Shanghai Sharks
+    short_name: Sharks
+    wikidata_qid: Q2502166
+    wikipedia_en: Shanghai Sharks
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Shanghai_Sharks → pageprops
+    confidence: HIGH
+    status: ready_for_p0f
+  - team_id: cba_shanxi
+    name: Shanxi Loongs
+    short_name: Loongs
+    wikidata_qid: Q2608702
+    wikipedia_en: Shanxi Loongs
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Shanxi_Loongs → pageprops
+    confidence: HIGH
+    status: ready_for_p0f
+  - team_id: cba_shenzhen
+    name: Shenzhen Leopards
+    short_name: Leopards
+    wikidata_qid: Q2608725
+    wikipedia_en: Shenzhen Leopards
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Shenzhen_Leopards → pageprops
+    confidence: HIGH
+    status: ready_for_p0f
+  - team_id: cba_sichuan
+    name: Sichuan Blue Whales
+    short_name: Blue Whales
+    wikidata_qid: Q10924945
+    wikipedia_en: Sichuan Blue Whales
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Sichuan_Blue_Whales → pageprops
+    confidence: HIGH
+    status: ready_for_p0f
+  - team_id: cba_tianjin
+    name: Tianjin Pioneers
+    short_name: Pioneers
+    wikidata_qid: Q2402556
+    wikipedia_en: Tianjin Pioneers
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Tianjin_Pioneers → pageprops
+    confidence: HIGH
+    status: ready_for_p0f
+  - team_id: cba_xinjiang
+    name: Xinjiang Flying Tigers
+    short_name: Flying Tigers
+    wikidata_qid: Q2375161
+    wikipedia_en: Xinjiang Flying Tigers
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Xinjiang_Flying_Tigers → pageprops
+    confidence: HIGH
+    status: ready_for_p0f
+  - team_id: cba_zhejiang_bulls
+    name: Zhejiang Golden Bulls
+    short_name: Golden Bulls
+    wikidata_qid: Q2376573
+    wikipedia_en: Zhejiang Golden Bulls
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Zhejiang_Golden_Bulls → pageprops
+    confidence: HIGH
+    status: ready_for_p0f
+  - team_id: cba_zhejiang_lions
+    name: Zhejiang Lions
+    short_name: Guangsha Lions
+    wikidata_qid: Q2608707
+    wikipedia_en: Zhejiang Lions
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Zhejiang_Lions → pageprops
+    confidence: HIGH
+    status: ready_for_p0f
+    notes: Also known as Zhejiang Guangsha Lions
+- league_id: b_league
+  name: B.League
+  sponsor_name: B.League Premier
+  gender: men
+  tier: 1
+  country_or_region: JP
+  governing_body: Japan Professional Basketball League
+  wikidata_qid: Q20044878
+  wikipedia_en: B.League
+  season_label: 2026-27
+  as_of: '2026-09-19'
+  source_url: https://www.wikidata.org/wiki/Q20044878
+  club_list_source: https://en.wikipedia.org/wiki/B.League#B.League_Premier_(26_teams) ; https://www.bleague.jp/basketlive_news_detail/id=444118
+  confidence: HIGH
+  status: ready_for_p0f
+  notes: Tier-1 = B.League Premier only (26 clubs). B.League One / Next excluded.
+  teams:
+  - team_id: b_league_akita
+    name: Akita Northern Happinets
+    short_name: Akita
+    wikidata_qid: Q4701227
+    wikipedia_en: Akita Northern Happinets
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Akita_Northern_Happinets → pageprops
+    confidence: HIGH
+    status: ready_for_p0f
+  - team_id: b_league_altiri_chiba
+    name: Altiri Chiba
+    short_name: Altiri Chiba
+    wikidata_qid: Q107313713
+    wikipedia_en: Altiri Chiba
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Altiri_Chiba → pageprops
+    confidence: HIGH
+    status: ready_for_p0f
+  - team_id: b_league_alvark
+    name: Alvark Tokyo
+    short_name: Alvark
+    wikidata_qid: Q7830743
+    wikipedia_en: Alvark Tokyo
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Alvark_Tokyo → pageprops
+    confidence: HIGH
+    status: ready_for_p0f
+  - team_id: b_league_chiba_jets
+    name: Chiba Jets
+    short_name: Chiba Jets
+    wikidata_qid: Q18712845
+    wikipedia_en: Chiba Jets
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Chiba_Jets → pageprops
+    confidence: HIGH
+    status: ready_for_p0f
+  - team_id: b_league_gunma
+    name: Gunma Crane Thunders
+    short_name: Gunma
+    wikidata_qid: Q11609530
+    wikipedia_en: Gunma Crane Thunders
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Gunma_Crane_Thunders → pageprops
+    confidence: HIGH
+    status: ready_for_p0f
+  - team_id: b_league_ibaraki
+    name: Ibaraki Robots
+    short_name: Ibaraki
+    wikidata_qid: Q16140652
+    wikipedia_en: Ibaraki Robots
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Ibaraki_Robots → pageprops
+    confidence: HIGH
+    status: ready_for_p0f
+  - team_id: b_league_kawasaki
+    name: Kawasaki Brave Thunders
+    short_name: Kawasaki
+    wikidata_qid: Q11528238
+    wikipedia_en: Kawasaki Brave Thunders
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Kawasaki_Brave_Thunders → pageprops
+    confidence: HIGH
+    status: ready_for_p0f
+  - team_id: b_league_levanga
+    name: Levanga Hokkaido
+    short_name: Levanga
+    wikidata_qid: Q6534875
+    wikipedia_en: Levanga Hokkaido
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Levanga_Hokkaido → pageprops
+    confidence: HIGH
+    status: ready_for_p0f
+  - team_id: b_league_sendai
+    name: Sendai 89ers
+    short_name: Sendai
+    wikidata_qid: Q7450169
+    wikipedia_en: Sendai 89ers
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Sendai_89ers → pageprops
+    confidence: HIGH
+    status: ready_for_p0f
+  - team_id: b_league_sunrockers
+    name: Tokyo Sunrockers
+    short_name: Sunrockers
+    wikidata_qid: Q139697270
+    wikipedia_en: Tokyo Sunrockers
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Tokyo_Sunrockers → pageprops
+    confidence: HIGH
+    status: ready_for_p0f
+    notes: enwiki title Tokyo Sunrockers (redirect from Sunrockers Shibuya)
+  - team_id: b_league_toyama
+    name: Toyama Grouses
+    short_name: Toyama
+    wikidata_qid: Q7830578
+    wikipedia_en: Toyama Grouses
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Toyama_Grouses → pageprops
+    confidence: HIGH
+    status: ready_for_p0f
+  - team_id: b_league_utsunomiya
+    name: Utsunomiya Brex
+    short_name: Brex
+    wikidata_qid: Q6554284
+    wikipedia_en: Utsunomiya Brex
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Utsunomiya_Brex → pageprops
+    confidence: HIGH
+    status: ready_for_p0f
+  - team_id: b_league_yokohama
+    name: Yokohama B-Corsairs
+    short_name: B-Corsairs
+    wikidata_qid: Q11542875
+    wikipedia_en: Yokohama B-Corsairs
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Yokohama_B-Corsairs → pageprops
+    confidence: HIGH
+    status: ready_for_p0f
+  - team_id: b_league_hiroshima
+    name: Hiroshima Dragonflies
+    short_name: Hiroshima
+    wikidata_qid: Q16482313
+    wikipedia_en: Hiroshima Dragonflies
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Hiroshima_Dragonflies → pageprops
+    confidence: HIGH
+    status: ready_for_p0f
+  - team_id: b_league_kobe
+    name: Kobe Storks
+    short_name: Kobe
+    wikidata_qid: Q11392820
+    wikipedia_en: Kobe Storks
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Kobe_Storks → pageprops
+    confidence: HIGH
+    status: ready_for_p0f
+  - team_id: b_league_kyoto
+    name: Kyoto Hannaryz
+    short_name: Kyoto
+    wikidata_qid: Q6452149
+    wikipedia_en: Kyoto Hannaryz
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Kyoto_Hannaryz → pageprops
+    confidence: HIGH
+    status: ready_for_p0f
+  - team_id: b_league_nagasaki
+    name: Nagasaki Velca
+    short_name: Nagasaki
+    wikidata_qid: Q107132152
+    wikipedia_en: Nagasaki Velca
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Nagasaki_Velca → pageprops
+    confidence: HIGH
+    status: ready_for_p0f
+  - team_id: b_league_nagoya
+    name: Nagoya Diamond Dolphins
+    short_name: Nagoya
+    wikidata_qid: Q11357174
+    wikipedia_en: Nagoya Diamond Dolphins
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Nagoya_Diamond_Dolphins → pageprops
+    confidence: HIGH
+    status: ready_for_p0f
+  - team_id: b_league_osaka
+    name: Osaka Evessa
+    short_name: Osaka
+    wikidata_qid: Q3356907
+    wikipedia_en: Osaka Evessa
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Osaka_Evessa → pageprops
+    confidence: HIGH
+    status: ready_for_p0f
+  - team_id: b_league_ryukyu
+    name: Ryukyu Golden Kings
+    short_name: Ryukyu
+    wikidata_qid: Q7385534
+    wikipedia_en: Ryukyu Golden Kings
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Ryukyu_Golden_Kings → pageprops
+    confidence: HIGH
+    status: ready_for_p0f
+  - team_id: b_league_saga
+    name: Saga Ballooners
+    short_name: Saga
+    wikidata_qid: Q53309521
+    wikipedia_en: Saga Ballooners
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Saga_Ballooners → pageprops
+    confidence: HIGH
+    status: ready_for_p0f
+  - team_id: b_league_san_en
+    name: San-en NeoPhoenix
+    short_name: San-en
+    wikidata_qid: Q5644020
+    wikipedia_en: San-en NeoPhoenix
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/San-en_NeoPhoenix → pageprops
+    confidence: HIGH
+    status: ready_for_p0f
+  - team_id: b_league_mikawa
+    name: SeaHorses Mikawa
+    short_name: Mikawa
+    wikidata_qid: Q3607220
+    wikipedia_en: SeaHorses Mikawa
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/SeaHorses_Mikawa → pageprops
+    confidence: HIGH
+    status: ready_for_p0f
+  - team_id: b_league_shiga
+    name: Shiga Lakes
+    short_name: Shiga
+    wikidata_qid: Q7496291
+    wikipedia_en: Shiga Lakes
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Shiga_Lakes → pageprops
+    confidence: HIGH
+    status: ready_for_p0f
+  - team_id: b_league_shimane
+    name: Shimane Susanoo Magic
+    short_name: Shimane
+    wikidata_qid: Q7496829
+    wikipedia_en: Shimane Susanoo Magic
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Shimane_Susanoo_Magic → pageprops
+    confidence: HIGH
+    status: ready_for_p0f
+  - team_id: b_league_shinshu
+    name: Shinshu Brave Warriors
+    short_name: Shinshu
+    wikidata_qid: Q11386080
+    wikipedia_en: Shinshu Brave Warriors
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Shinshu_Brave_Warriors → pageprops
+    confidence: HIGH
+    status: ready_for_p0f
+- league_id: kbl
+  name: Korean Basketball League
+  sponsor_name: KBL
+  gender: men
+  tier: 1
+  country_or_region: KR
+  governing_body: Korean Basketball League
+  wikidata_qid: Q485400
+  wikipedia_en: Korean Basketball League
+  season_label: 2026-27
+  as_of: '2026-09-19'
+  source_url: https://www.wikidata.org/wiki/Q485400
+  club_list_source: https://kbl.or.kr/ ; https://en.wikipedia.org/wiki/Korean_Basketball_League
+  confidence: HIGH
+  status: ready_for_p0f
+  teams:
+  - team_id: kbl_anyang
+    name: Anyang Jung Kwan Jang Red Boosters
+    short_name: Anyang
+    wikidata_qid: Q485398
+    wikipedia_en: Anyang Jung Kwan Jang Red Boosters
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Anyang_Jung_Kwan_Jang_Red_Boosters → pageprops
+    confidence: HIGH
+    status: ready_for_p0f
+  - team_id: kbl_busan
+    name: Busan KCC Egis
+    short_name: KCC
+    wikidata_qid: Q485411
+    wikipedia_en: Busan KCC Egis
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Busan_KCC_Egis → pageprops
+    confidence: HIGH
+    status: ready_for_p0f
+  - team_id: kbl_changwon
+    name: Changwon LG Sakers
+    short_name: LG Sakers
+    wikidata_qid: Q484762
+    wikipedia_en: Changwon LG Sakers
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Changwon_LG_Sakers → pageprops
+    confidence: HIGH
+    status: ready_for_p0f
+  - team_id: kbl_daegu
+    name: Daegu KOGAS Pegasus
+    short_name: KOGAS
+    wikidata_qid: Q484557
+    wikipedia_en: Daegu KOGAS Pegasus
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Daegu_KOGAS_Pegasus → pageprops
+    confidence: HIGH
+    status: ready_for_p0f
+  - team_id: kbl_goyang
+    name: Goyang Sono Skygunners
+    short_name: Sono
+    wikidata_qid: Q483748
+    wikipedia_en: Goyang Sono Skygunners
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Goyang_Sono_Skygunners → pageprops
+    confidence: HIGH
+    status: ready_for_p0f
+  - team_id: kbl_samsung
+    name: Seoul Samsung Thunders
+    short_name: Samsung
+    wikidata_qid: Q483074
+    wikipedia_en: Seoul Samsung Thunders
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Seoul_Samsung_Thunders → pageprops
+    confidence: HIGH
+    status: ready_for_p0f
+  - team_id: kbl_sk
+    name: Seoul SK Knights
+    short_name: SK Knights
+    wikidata_qid: Q490749
+    wikipedia_en: Seoul SK Knights
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Seoul_SK_Knights → pageprops
+    confidence: HIGH
+    status: ready_for_p0f
+  - team_id: kbl_suwon
+    name: Suwon KT Sonicboom
+    short_name: KT
+    wikidata_qid: Q485191
+    wikipedia_en: Suwon KT Sonicboom
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Suwon_KT_Sonicboom → pageprops
+    confidence: HIGH
+    status: ready_for_p0f
+  - team_id: kbl_ulsan
+    name: Ulsan Hyundai Mobis Phoebus
+    short_name: Mobis
+    wikidata_qid: Q490947
+    wikipedia_en: Ulsan Hyundai Mobis Phoebus
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Ulsan_Hyundai_Mobis_Phoebus → pageprops
+    confidence: HIGH
+    status: ready_for_p0f
+  - team_id: kbl_wonju
+    name: Wonju DB Promy
+    short_name: DB Promy
+    wikidata_qid: Q484120
+    wikipedia_en: Wonju DB Promy
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Wonju_DB_Promy → pageprops
+    confidence: HIGH
+    status: ready_for_p0f
+- league_id: nbl
+  name: National Basketball League
+  sponsor_name: Hungry Jack's NBL
+  gender: men
+  tier: 1
+  country_or_region: AU
+  governing_body: Basketball Australia
+  wikidata_qid: Q427823
+  wikipedia_en: National Basketball League (Australia)
+  season_label: 2026-27
+  as_of: '2026-09-19'
+  source_url: https://www.wikidata.org/wiki/Q427823
+  club_list_source: https://en.wikipedia.org/wiki/2026–27_NBL_season
+  confidence: HIGH
+  status: ready_for_p0f
+  teams:
+  - team_id: nbl_adelaide
+    name: Adelaide 36ers
+    short_name: 36ers
+    wikidata_qid: Q2756400
+    wikipedia_en: Adelaide 36ers
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Adelaide_36ers → pageprops
+    confidence: HIGH
+    status: ready_for_p0f
+  - team_id: nbl_brisbane
+    name: Brisbane Bullets
+    short_name: Bullets
+    wikidata_qid: Q2925638
+    wikipedia_en: Brisbane Bullets
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Brisbane_Bullets → pageprops
+    confidence: HIGH
+    status: ready_for_p0f
+  - team_id: nbl_cairns
+    name: Cairns Taipans
+    short_name: Taipans
+    wikidata_qid: Q589167
+    wikipedia_en: Cairns Taipans
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Cairns_Taipans → pageprops
+    confidence: HIGH
+    status: ready_for_p0f
+  - team_id: nbl_illawarra
+    name: Illawarra Hawks
+    short_name: Hawks
+    wikidata_qid: Q2307447
+    wikipedia_en: Illawarra Hawks
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Illawarra_Hawks → pageprops
+    confidence: HIGH
+    status: ready_for_p0f
+  - team_id: nbl_melbourne
+    name: Melbourne United
+    short_name: United
+    wikidata_qid: Q2756356
+    wikipedia_en: Melbourne United
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Melbourne_United → pageprops
+    confidence: HIGH
+    status: ready_for_p0f
+  - team_id: nbl_nz
+    name: New Zealand Breakers
+    short_name: Breakers
+    wikidata_qid: Q2701383
+    wikipedia_en: New Zealand Breakers
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/New_Zealand_Breakers → pageprops
+    confidence: HIGH
+    status: ready_for_p0f
+  - team_id: nbl_perth
+    name: Perth Wildcats
+    short_name: Wildcats
+    wikidata_qid: Q2756389
+    wikipedia_en: Perth Wildcats
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Perth_Wildcats → pageprops
+    confidence: HIGH
+    status: ready_for_p0f
+  - team_id: nbl_se_melbourne
+    name: South East Melbourne Phoenix
+    short_name: Phoenix
+    wikidata_qid: Q60753752
+    wikipedia_en: South East Melbourne Phoenix
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/South_East_Melbourne_Phoenix → pageprops
+    confidence: HIGH
+    status: ready_for_p0f
+  - team_id: nbl_sydney
+    name: Sydney Kings
+    short_name: Kings
+    wikidata_qid: Q1174892
+    wikipedia_en: Sydney Kings
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Sydney_Kings → pageprops
+    confidence: HIGH
+    status: ready_for_p0f
+  - team_id: nbl_tasmania
+    name: Tasmania JackJumpers
+    short_name: JackJumpers
+    wikidata_qid: Q104860401
+    wikipedia_en: Tasmania JackJumpers
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Tasmania_JackJumpers → pageprops
+    confidence: HIGH
+    status: ready_for_p0f
+- league_id: bsl
+  name: Basketbol Süper Ligi
+  sponsor_name: Türkiye Sigorta Basketbol Süper Ligi
+  gender: men
+  tier: 1
+  country_or_region: TR
+  governing_body: Turkish Basketball Federation
+  wikidata_qid: Q1324416
+  wikipedia_en: Basketbol Süper Ligi
+  season_label: 2026-27
+  as_of: '2026-09-19'
+  source_url: https://www.wikidata.org/wiki/Q1324416
+  club_list_source: https://tr.wikipedia.org/wiki/2026-27_Basketbol_Süper_Ligi ; https://www.aa.com.tr/tr/spor/turkiye-sigorta-basketbol-super-liginin-2026-2027-sezonu-fikstur-cekimi-yapildi/4019922
+  confidence: HIGH
+  status: ready_for_p0f
+  teams:
+  - team_id: bsl_anadolu_efes
+    name: Anadolu Efes
+    short_name: Efes
+    wikidata_qid: Q483738
+    wikipedia_en: Anadolu Efes S.K.
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Anadolu_Efes_S.K. → pageprops
+    confidence: HIGH
+    status: ready_for_p0f
+  - team_id: bsl_bahcesehir
+    name: Bahçeşehir Koleji
+    short_name: Bahçeşehir
+    wikidata_qid: Q55569136
+    wikipedia_en: Bahçeşehir Koleji S.K.
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Bahçeşehir_Koleji_S.K. → pageprops
+    confidence: HIGH
+    status: ready_for_p0f
+  - team_id: bsl_bandirma
+    name: Bandırma Bordo
+    short_name: Bandırma
+    wikidata_qid: Q131444426
+    wikipedia_en: null
+    as_of: '2026-09-19'
+    source_url: https://www.wikidata.org/wiki/Q131444426
+    confidence: MEDIUM
+    status: ready_for_p0f
+    notes: Pizza Bulls Bandırma Bordo; QID via Wikidata search; no enwiki
+  - team_id: bsl_besiktas
+    name: Beşiktaş
+    short_name: Beşiktaş
+    wikidata_qid: Q854669
+    wikipedia_en: Beşiktaş J.K. (men's basketball)
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Beşiktaş_J.K._(men's_basketball) → pageprops
+    confidence: HIGH
+    status: ready_for_p0f
+  - team_id: bsl_bursaspor
+    name: Bursaspor
+    short_name: Bursaspor
+    wikidata_qid: Q25480181
+    wikipedia_en: Bursaspor Basketbol
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Bursaspor_Basketbol → pageprops
+    confidence: HIGH
+    status: ready_for_p0f
+  - team_id: bsl_cayirova
+    name: Çayırova Belediyespor
+    short_name: Çayırova
+    wikidata_qid: Q131401621
+    wikipedia_en: null
+    as_of: '2026-09-19'
+    source_url: https://www.wikidata.org/wiki/Q131401621
+    confidence: MEDIUM
+    status: ready_for_p0f
+    notes: QID via Wikidata (Çayirova Belediyesi Basketball Team); no enwiki
+  - team_id: bsl_denizli
+    name: Denizli Basket
+    short_name: Denizli
+    wikidata_qid: Q65220495
+    wikipedia_en: Denizli Basket
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Denizli_Basket → pageprops
+    confidence: HIGH
+    status: ready_for_p0f
+    notes: Also known as Yukatel Merkezefendi / Merkezefendi Belediyesi
+  - team_id: bsl_erokspor
+    name: Esenler Erokspor
+    short_name: Erokspor
+    wikidata_qid: Q135213951
+    wikipedia_en: Esenler Erokspor (basketball)
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Esenler_Erokspor_(basketball) → pageprops
+    confidence: HIGH
+    status: ready_for_p0f
+  - team_id: bsl_fenerbahce
+    name: Fenerbahçe
+    short_name: Fenerbahçe
+    wikidata_qid: Q239447
+    wikipedia_en: Fenerbahçe S.K. (basketball)
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Fenerbahçe_S.K._(basketball) → pageprops
+    confidence: HIGH
+    status: ready_for_p0f
+  - team_id: bsl_galatasaray
+    name: Galatasaray
+    short_name: Galatasaray
+    wikidata_qid: Q1420393
+    wikipedia_en: Galatasaray S.K. (men's basketball)
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Galatasaray_S.K._(men's_basketball) → pageprops
+    confidence: HIGH
+    status: ready_for_p0f
+  - team_id: bsl_karsiyaka
+    name: Karşıyaka
+    short_name: Karşıyaka
+    wikidata_qid: Q1734764
+    wikipedia_en: Karşıyaka Basket
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Karşıyaka_Basket → pageprops
+    confidence: HIGH
+    status: ready_for_p0f
+  - team_id: bsl_korfez
+    name: Körfez Basket
+    short_name: Körfez
+    wikidata_qid: Q111829850
+    wikipedia_en: Körfez Basket
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Körfez_Basket → pageprops
+    confidence: HIGH
+    status: ready_for_p0f
+    notes: Also styled Glint Körfez Basket
+  - team_id: bsl_petkim
+    name: Petkim Spor
+    short_name: Petkim
+    wikidata_qid: Q18712534
+    wikipedia_en: Petkim Spor
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Petkim_Spor → pageprops
+    confidence: HIGH
+    status: ready_for_p0f
+    notes: Aliağa Petkimspor
+  - team_id: bsl_tofas
+    name: Tofaş
+    short_name: Tofaş
+    wikidata_qid: Q2278800
+    wikipedia_en: Tofaş S.K.
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Tofaş_S.K. → pageprops
+    confidence: HIGH
+    status: ready_for_p0f
+  - team_id: bsl_trabzonspor
+    name: Trabzonspor
+    short_name: Trabzonspor
+    wikidata_qid: Q2128426
+    wikipedia_en: Trabzonspor B.K.
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Trabzonspor_B.K. → pageprops
+    confidence: HIGH
+    status: ready_for_p0f
+  - team_id: bsl_turk_telekom
+    name: Türk Telekom
+    short_name: Türk Telekom
+    wikidata_qid: Q1781239
+    wikipedia_en: Türk Telekom B.K.
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Türk_Telekom_B.K. → pageprops
+    confidence: HIGH
+    status: ready_for_p0f
+- league_id: bal
+  name: Basketball Africa League
+  sponsor_name: BAL
+  gender: men
+  tier: 1
+  country_or_region: AF
+  governing_body: NBA / FIBA
+  wikidata_qid: Q61782399
+  wikipedia_en: Basketball Africa League
+  season_label: '2026'
+  as_of: '2026-09-19'
+  source_url: https://www.wikidata.org/wiki/Q61782399
+  club_list_source: https://en.wikipedia.org/wiki/2026_BAL_season
+  confidence: HIGH
+  status: ready_for_p0f
+  notes: Continental club competition. Seeded 2026 BAL Season 6 clubs (most recent completed cycle as of 2026-09-19). Treat
+    as continental clubs.
+  teams:
+  - team_id: bal_al_ahly
+    name: Al Ahly
+    short_name: Al Ahly
+    wikidata_qid: Q4703449
+    wikipedia_en: Al Ahly (basketball)
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Al_Ahly_(basketball) → pageprops
+    confidence: HIGH
+    status: ready_for_p0f
+  - team_id: bal_al_ahly_ly
+    name: Al Ahly Ly
+    short_name: Al Ahly Ly
+    wikidata_qid: Q4702161
+    wikipedia_en: Al Ahly Ly (basketball)
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Al_Ahly_Ly_(basketball) → pageprops
+    confidence: HIGH
+    status: ready_for_p0f
+  - team_id: bal_asc_dakar
+    name: ASC Ville de Dakar
+    short_name: ASC VD
+    wikidata_qid: Q106622353
+    wikipedia_en: ASC Ville de Dakar
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/ASC_Ville_de_Dakar → pageprops
+    confidence: HIGH
+    status: ready_for_p0f
+  - team_id: bal_club_africain
+    name: Club Africain
+    short_name: Club Africain
+    wikidata_qid: Q2980030
+    wikipedia_en: Club Africain (basketball)
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Club_Africain_(basketball) → pageprops
+    confidence: HIGH
+    status: ready_for_p0f
+  - team_id: bal_dar_city
+    name: Dar City
+    short_name: Dar City
+    wikidata_qid: Q136546092
+    wikipedia_en: Dar City BC
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Dar_City_BC → pageprops
+    confidence: HIGH
+    status: ready_for_p0f
+  - team_id: bal_fus_rabat
+    name: FUS Rabat
+    short_name: FUS Rabat
+    wikidata_qid: Q3063463
+    wikipedia_en: FUS Rabat (basketball)
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/FUS_Rabat_(basketball) → pageprops
+    confidence: HIGH
+    status: ready_for_p0f
+  - team_id: bal_jca_kings
+    name: JCA Kings
+    short_name: JCA Kings
+    wikidata_qid: Q137049421
+    wikipedia_en: JCA Kings
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/JCA_Kings → pageprops
+    confidence: HIGH
+    status: ready_for_p0f
+    notes: Jeunesse Club d'Abidjan / JCA Kings
+  - team_id: bal_johannesburg
+    name: Johannesburg Giants
+    short_name: Giants
+    wikidata_qid: Q136768155
+    wikipedia_en: Johannesburg Giants
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Johannesburg_Giants → pageprops
+    confidence: HIGH
+    status: ready_for_p0f
+  - team_id: bal_maktown
+    name: Maktown Flyers
+    short_name: Maktown
+    wikidata_qid: Q137591221
+    wikipedia_en: Maktown Flyers
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Maktown_Flyers → pageprops
+    confidence: HIGH
+    status: ready_for_p0f
+    notes: Formerly Lagos Legends
+  - team_id: bal_nairobi
+    name: Nairobi City Thunder
+    short_name: Thunder
+    wikidata_qid: Q124357752
+    wikipedia_en: Nairobi City Thunder
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Nairobi_City_Thunder → pageprops
+    confidence: HIGH
+    status: ready_for_p0f
+  - team_id: bal_petro
+    name: Petro de Luanda
+    short_name: Petro
+    wikidata_qid: Q2869505
+    wikipedia_en: Petro de Luanda (basketball)
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Petro_de_Luanda_(basketball) → pageprops
+    confidence: HIGH
+    status: ready_for_p0f
+  - team_id: bal_rssb
+    name: RSSB Tigers
+    short_name: RSSB Tigers
+    wikidata_qid: Q125293328
+    wikipedia_en: RSSB Tigers
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/RSSB_Tigers → pageprops
+    confidence: HIGH
+    status: ready_for_p0f
+    notes: 2026 BAL champions; replaced APR
+- league_id: wcba
+  name: Women's Chinese Basketball Association
+  sponsor_name: WCBA
+  gender: women
+  tier: 1
+  country_or_region: CN
+  governing_body: Chinese Basketball Association
+  wikidata_qid: Q836617
+  wikipedia_en: Women's Chinese Basketball Association
+  season_label: 2026-27
+  as_of: '2026-09-19'
+  source_url: https://www.wikidata.org/wiki/Q836617
+  club_list_source: https://en.wikipedia.org/wiki/Women%27s_Chinese_Basketball_Association#Current_clubs
+  confidence: HIGH
+  status: ready_for_p0f
+  notes: 21-club WCBA roster from enwiki Current clubs. 7 GAPs where no QID found.
+  teams:
+  - team_id: wcba_beijing
+    name: Beijing Great Wall
+    short_name: Beijing
+    wikidata_qid: Q16382735
+    wikipedia_en: Beijing Great Wall
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Beijing_Great_Wall → pageprops
+    confidence: HIGH
+    status: ready_for_p0f
+  - team_id: wcba_guangdong
+    name: Guangdong Vermilion Birds
+    short_name: Guangdong
+    wikidata_qid: Q16640392
+    wikipedia_en: Guangdong Vermilion Birds
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Guangdong_Vermilion_Birds → pageprops
+    confidence: HIGH
+    status: ready_for_p0f
+  - team_id: wcba_hebei
+    name: Hebei Win Power
+    short_name: Hebei
+    wikidata_qid: Q60746723
+    wikipedia_en: Hebei Win Power
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Hebei_Win_Power → pageprops
+    confidence: HIGH
+    status: ready_for_p0f
+  - team_id: wcba_heilongjiang
+    name: Heilongjiang Dragons
+    short_name: Heilongjiang
+    wikidata_qid: Q16641492
+    wikipedia_en: Heilongjiang Dragons
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Heilongjiang_Dragons → pageprops
+    confidence: HIGH
+    status: ready_for_p0f
+  - team_id: wcba_henan
+    name: Henan Phoenix
+    short_name: Henan
+    wikidata_qid: Q16641536
+    wikipedia_en: Henan Phoenix
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Henan_Phoenix → pageprops
+    confidence: HIGH
+    status: ready_for_p0f
+  - team_id: wcba_inner_mongolia
+    name: Inner Mongolia Nongxin
+    short_name: Inner Mongolia
+    wikidata_qid: Q141215976
+    wikipedia_en: null
+    as_of: '2026-09-19'
+    source_url: https://www.wikidata.org/wiki/Q141215976
+    confidence: MEDIUM
+    status: ready_for_p0f
+    notes: Inner Mongolia Rural Credit / Nongxin; QID via Wikidata zh label 内蒙古农信
+  - team_id: wcba_jiangsu
+    name: Jiangsu Phoenix
+    short_name: Jiangsu
+    wikidata_qid: Q16645866
+    wikipedia_en: Jiangsu Phoenix
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Jiangsu_Phoenix → pageprops
+    confidence: HIGH
+    status: ready_for_p0f
+  - team_id: wcba_liaoning
+    name: Liaoning Flying Eagles
+    short_name: Liaoning
+    wikidata_qid: Q6540145
+    wikipedia_en: Liaoning Flying Eagles
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Liaoning_Flying_Eagles → pageprops
+    confidence: HIGH
+    status: ready_for_p0f
+  - team_id: wcba_shaanxi
+    name: Shaanxi Red Wolves
+    short_name: Shaanxi
+    wikidata_qid: Q60635567
+    wikipedia_en: Shaanxi Red Wolves
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Shaanxi_Red_Wolves → pageprops
+    confidence: HIGH
+    status: ready_for_p0f
+  - team_id: wcba_shandong
+    name: Shandong Six Stars
+    short_name: Shandong
+    wikidata_qid: Q60774171
+    wikipedia_en: Shandong Six Stars
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Shandong_Six_Stars → pageprops
+    confidence: HIGH
+    status: ready_for_p0f
+  - team_id: wcba_shanghai
+    name: Shanghai Swordfish
+    short_name: Shanghai
+    wikidata_qid: Q3481397
+    wikipedia_en: Shanghai Swordfish
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Shanghai_Swordfish → pageprops
+    confidence: HIGH
+    status: ready_for_p0f
+  - team_id: wcba_shanxi
+    name: Shanxi Flame
+    short_name: Shanxi
+    wikidata_qid: Q3481449
+    wikipedia_en: Shanxi Flame
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Shanxi_Flame → pageprops
+    confidence: HIGH
+    status: ready_for_p0f
+  - team_id: wcba_sichuan
+    name: Sichuan Yuanda Meile
+    short_name: Sichuan
+    wikidata_qid: Q141215961
+    wikipedia_en: Sichuan Yuanda Meile
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Sichuan_Yuanda_Meile → pageprops
+    confidence: HIGH
+    status: ready_for_p0f
+  - team_id: wcba_xinjiang
+    name: Xinjiang Magic Deer
+    short_name: Xinjiang
+    wikidata_qid: Q60635740
+    wikipedia_en: Xinjiang Magic Deer
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Xinjiang_Magic_Deer → pageprops
+    confidence: HIGH
+    status: ready_for_p0f
+  - team_id: wcba_fujian
+    name: Fujian Xiangwang
+    short_name: Fujian
+    wikidata_qid: null
+    wikipedia_en: null
+    as_of: '2026-09-19'
+    source_url: GAP — no Wikidata QID found on access date
+    confidence: LOW
+    status: gap
+    notes: GAP — listed on WCBA current clubs; no confirmed Wikidata QID
+  - team_id: wcba_zhejiang
+    name: Zhejiang Chouzhou Bank
+    short_name: Zhejiang
+    wikidata_qid: null
+    wikipedia_en: null
+    as_of: '2026-09-19'
+    source_url: GAP — no Wikidata QID found on access date
+    confidence: LOW
+    status: gap
+    notes: GAP — listed on WCBA current clubs; no confirmed Wikidata QID
+  - team_id: wcba_tianjin
+    name: Tianjin Guanlan
+    short_name: Tianjin
+    wikidata_qid: null
+    wikipedia_en: null
+    as_of: '2026-09-19'
+    source_url: GAP — no Wikidata QID found on access date
+    confidence: LOW
+    status: gap
+    notes: GAP — listed on WCBA current clubs; no confirmed Wikidata QID
+  - team_id: wcba_wuhan
+    name: Wuhan Shengfan
+    short_name: Wuhan
+    wikidata_qid: null
+    wikipedia_en: null
+    as_of: '2026-09-19'
+    source_url: GAP — no Wikidata QID found on access date
+    confidence: LOW
+    status: gap
+    notes: GAP — listed on WCBA current clubs; no confirmed Wikidata QID
+  - team_id: wcba_xiamen
+    name: Xiamen Sports Group
+    short_name: Xiamen
+    wikidata_qid: null
+    wikipedia_en: null
+    as_of: '2026-09-19'
+    source_url: GAP — no Wikidata QID found on access date
+    confidence: LOW
+    status: gap
+    notes: GAP — listed on WCBA current clubs; no confirmed Wikidata QID
+  - team_id: wcba_hefei
+    name: Hefei Cultural Tourism
+    short_name: Hefei
+    wikidata_qid: null
+    wikipedia_en: null
+    as_of: '2026-09-19'
+    source_url: GAP — no Wikidata QID found on access date
+    confidence: LOW
+    status: gap
+    notes: GAP — listed on WCBA current clubs; no confirmed Wikidata QID
+  - team_id: wcba_jiangxi
+    name: Jiangxi Xiuxing
+    short_name: Jiangxi
+    wikidata_qid: null
+    wikipedia_en: null
+    as_of: '2026-09-19'
+    source_url: GAP — no Wikidata QID found on access date
+    confidence: LOW
+    status: gap
+    notes: GAP — listed on WCBA current clubs; no confirmed Wikidata QID
+- league_id: wjbl
+  name: Women's Japan Basketball League
+  sponsor_name: W League Premier
+  gender: women
+  tier: 1
+  country_or_region: JP
+  governing_body: WJBL
+  wikidata_qid: Q474374
+  wikipedia_en: Women's Japan Basketball League
+  season_label: 2026-27
+  as_of: '2026-09-19'
+  source_url: https://www.wikidata.org/wiki/Q474374
+  club_list_source: https://en.wikipedia.org/wiki/Women%27s_Japan_Basketball_League#Teams
+  confidence: HIGH
+  status: ready_for_p0f
+  notes: Picked WJBL / W League as clear Japan women's top tier (not Women's B.League). Cap = Premier Division only (8 clubs).
+    Future Division excluded. WNBL already in P0e — skipped.
+  teams:
+  - team_id: wjbl_fujitsu
+    name: Fujitsu Red Wave
+    short_name: Fujitsu
+    wikidata_qid: Q24887972
+    wikipedia_en: Fujitsu Red Wave
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Fujitsu_Red_Wave → pageprops
+    confidence: HIGH
+    status: ready_for_p0f
+  - team_id: wjbl_denso
+    name: Denso Iris
+    short_name: Denso
+    wikidata_qid: Q11320879
+    wikipedia_en: Denso Iris
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Denso_Iris → pageprops
+    confidence: HIGH
+    status: ready_for_p0f
+  - team_id: wjbl_chanson
+    name: Chanson V-Magic
+    short_name: Chanson
+    wikidata_qid: Q11307847
+    wikipedia_en: Chanson V-Magic
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Chanson_V-Magic → pageprops
+    confidence: HIGH
+    status: ready_for_p0f
+  - team_id: wjbl_eneos
+    name: Eneos Sunflowers
+    short_name: Eneos
+    wikidata_qid: Q11226741
+    wikipedia_en: Eneos Sunflowers
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Eneos_Sunflowers → pageprops
+    confidence: HIGH
+    status: ready_for_p0f
+  - team_id: wjbl_toyota
+    name: Toyota Antelopes
+    short_name: Toyota
+    wikidata_qid: Q11321673
+    wikipedia_en: Toyota Antelopes
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Toyota_Antelopes → pageprops
+    confidence: HIGH
+    status: ready_for_p0f
+  - team_id: wjbl_boshoku
+    name: Toyota Boshoku Sunshine Rabbits
+    short_name: Sunshine Rabbits
+    wikidata_qid: Q11321670
+    wikipedia_en: Toyota Boshoku Sunshine Rabbits
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Toyota_Boshoku_Sunshine_Rabbits → pageprops
+    confidence: HIGH
+    status: ready_for_p0f
+  - team_id: wjbl_aisin
+    name: Aisin Wings
+    short_name: Aisin
+    wikidata_qid: Q11282154
+    wikipedia_en: Aisin Wings
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Aisin_Wings → pageprops
+    confidence: HIGH
+    status: ready_for_p0f
+  - team_id: wjbl_haneda
+    name: Tokyo Haneda Vickies
+    short_name: Haneda
+    wikidata_qid: Q11610282
+    wikipedia_en: Tokyo Haneda Vickies
+    as_of: '2026-09-19'
+    source_url: https://en.wikipedia.org/wiki/Tokyo_Haneda_Vickies → pageprops
+    confidence: HIGH
+    status: ready_for_p0f

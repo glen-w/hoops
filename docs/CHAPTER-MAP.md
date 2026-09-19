@@ -83,7 +83,7 @@ Track which data products support which sections of the manuscript, ensuring eve
 | CBA / 2017 Exhibits | `data/cba/2017/derived/structure.json` | TBD | ready; spike |
 | CBA / 2017 spike documentation | `docs/cba/SPIKE-2017.md` | TBD | ready |
 | CBA / compare 2017-2023 | `docs/cba/COMPARE-2017-2023.md` | TBD | ready |
-| LEAGUE / teams desk | `data/derived/teams/` | TBD | partial — 194 teams (NBA 30 + WNBA 12 + EuroLeague 20 + EuroLeague Women 22 + Liga ACB 18 + LNB Élite 16 + BBL 18 + Serie A 16 + Greek Basket League 14 + LF Endesa 9 + LFB 10 + WNBL 9); colours/logos/ownership enrichment still open; 11 QID gaps documented (2 EuroLeague Women + 7 LF Endesa + 2 LFB) |
+| LEAGUE / teams desk | `data/derived/teams/` | TBD | partial — 310 teams (NBA 30 + WNBA 12 + EuroLeague 20 + EuroLeague Women 22 + P0e domestics 110 + P0f Asia/Oceania/Africa/Türkiye 116); colours/logos/ownership enrichment still open; 18 QID gaps documented (2 EuroLeague Women + 7 LF Endesa + 2 LFB + 7 WCBA) |
 | TEAMS / global / EuroLeague | `data/derived/teams/teams.csv` | TBD | ready |
 | TEAMS / global / EuroLeague Women | `data/derived/teams/teams.csv` | TBD | ready |
 | TEAMS / global / Liga ACB | `data/derived/teams/teams.csv` | TBD | ready — Spanish men (18 clubs) |
@@ -94,6 +94,14 @@ Track which data products support which sections of the manuscript, ensuring eve
 | TEAMS / global / Liga Femenina de Baloncesto | `data/derived/teams/teams.csv` | TBD | ready — Spanish women (9 clubs with QIDs, 7 gaps) |
 | TEAMS / global / Ligue Féminine de Basketball | `data/derived/teams/teams.csv` | TBD | ready — French women (10 clubs with QIDs, 2 gaps) |
 | TEAMS / global / WNBL | `data/derived/teams/teams.csv` | TBD | ready — Australian women (9 clubs) |
+| TEAMS / global / Chinese Basketball Association | `data/derived/teams/teams.csv` | TBD | ready — Chinese men (20 clubs) |
+| TEAMS / global / B.League | `data/derived/teams/teams.csv` | TBD | ready — Japanese men (26 clubs) |
+| TEAMS / global / Korean Basketball League | `data/derived/teams/teams.csv` | TBD | ready — Korean men (10 clubs) |
+| TEAMS / global / National Basketball League (AU) | `data/derived/teams/teams.csv` | TBD | ready — Australian men (10 clubs) |
+| TEAMS / global / Basketbol Süper Ligi | `data/derived/teams/teams.csv` | TBD | ready — Turkish men (16 clubs) |
+| TEAMS / global / Basketball Africa League | `data/derived/teams/teams.csv` | TBD | ready — African men (12 clubs, continental) |
+| TEAMS / global / Women's Chinese Basketball Association | `data/derived/teams/teams.csv` | TBD | ready — Chinese women (14 clubs with QIDs, 7 gaps) |
+| TEAMS / global / Women's Japan Basketball League | `data/derived/teams/teams.csv` | TBD | ready — Japanese women (8 clubs) |
 | Binder / comparable books desk | `data/derived/books/comparable.csv` | TBD | ready |
 
 ## Column Definitions
@@ -129,6 +137,10 @@ Track which data products support which sections of the manuscript, ensuring eve
 **Comparable books (2026-09-19):** 19 basketball books for desk reading and comparison. Goodreads ratings are high confidence; Amazon UK ratings and prices are often gaps. See `data/derived/books/README.md` and `comparable.md`.
 
 **Teams P0c (2026-09-19):** 84-row unified desk in `teams.csv` (NBA 30 + WNBA 12 + EuroLeague 20 + EuroLeague Women 22). EuroLeague Women has 2 Wikidata ID gaps in the seed. Logos still deferred.
+
+**Teams P0e (2026-09-19):** 194-row desk (84 prior + 110 new). P0e added top European/Australian domestic leagues (ACB 18 + LNB 16 + BBL 18 + Serie A 16 + Greek 14 + LF Endesa 9 + LFB 10 + WNBL 9). 11 QID gaps (2 EuroLeague Women + 7 LF Endesa + 2 LFB).
+
+**Teams P0f (2026-09-19):** 310-row desk (194 prior + 116 new). P0f added Asia/Oceania/Africa/Türkiye domestic leagues (CBA 20 + B.League 26 + KBL 10 + NBL 10 + BSL 16 + BAL 12 + WCBA 14 + WJBL 8). 7 WCBA QID gaps. Total gaps: 18 (2 EuroLeague Women + 7 LF Endesa + 2 LFB + 7 WCBA).
 
 **Teams P0e (2026-09-19):** Expanded to 194-row unified desk appending 8 top domestic leagues: Liga ACB (ES men, 18), LNB Élite (FR men, 16), Basketball Bundesliga (DE men, 18), Lega Basket Serie A (IT men, 16), Greek Basketball League (GR men, 14), Liga Femenina de Baloncesto (ES women, 9 with QIDs + 7 gaps), Ligue Féminine de Basketball (FR women, 10 with QIDs + 2 gaps), WNBL (AU women, 9). Total 11 documented QID gaps. Abbreviations uniquified within each league. Seed merged from P0e fragment (2026-09-19 access date, 2026-27 season). All clubs fetched/normalized from Wikidata. Colours/logos/ownership enrichment still deferred.
 
