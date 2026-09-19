@@ -12,10 +12,25 @@ When writing in Scrivener and you need to reference a CBA article, section, or d
 
 **Important:** This tool queries **committed structure metadata only**. It does not access or print CBA body text (PDFs are gitignored).
 
-## Status
+## Status Model: Lookup vs. Quotes
 
-- **With local PDF:** Full page numbers and character offsets
-- **Without PDF (fixture only):** Status `needs_local_pdf` — article titles and IDs available, but page ranges require regeneration after placing PDF at `data/raw/cba/2023/cba.pdf`
+**Once `structure.json` is committed**, CBA lookup queries are **ready** (not `needs_local_pdf`):
+
+| Operation | Status | Requires PDF? |
+|-----------|--------|---------------|
+| **Lookup** (clause ID, page range, structure) | ✅ **ready** | No — uses committed structure.json |
+| **Quotes** (verbatim text extraction) | ⚠️ **quotes_need_pdf** | Yes — needs PDF bytes |
+
+**UX Rule**: Don't block the writer desk on fulltext. Once structure.json exists:
+- Lookup queries → **ready** (returns clause IDs, page ranges, metadata)
+- Quote extraction → **quotes_need_pdf** (requires PDF)
+
+This split unblocks Scrivener drafting for structure-based references while clearly flagging where PDF bytes are still needed for verbatim quotes.
+
+## Fixture vs. Full Structure
+
+- **With committed structure.json:** Lookup queries fully ready; only quotes need PDF
+- **With fixture only:** Lookup works for clause IDs and structure; page ranges may be null until regenerated
 
 ## Quick Start
 

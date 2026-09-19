@@ -60,8 +60,8 @@ Track which data products support which sections of the manuscript, ensuring eve
 | LEAGUE / income / schema | `docs/SCHEMA-sketch.md` | TBD | wanted |
 | CBA / structure | `docs/cba-structure-pipeline.md` + `docs/CBA-LOOKUP.md` | TBD | ready |
 | CBA / parser feasibility | `docs/CBA-PARSER-FEASIBILITY-2026-09-19.md` | TBD | wanted |
-| CBA / salary cap / CBA articles | `docs/CBA-LOOKUP.md` + `scripts/cba_lookup.py` | TBD | needs_local_pdf |
-| CBA / defined terms / CBA glossary | `docs/CBA-LOOKUP.md` + `scripts/cba_lookup.py` | TBD | needs_local_pdf |
+| CBA / salary cap / CBA articles | `docs/CBA-LOOKUP.md` + `scripts/cba_lookup.py` | TBD | **ready** (lookup); `quotes_need_pdf` (verbatim) |
+| CBA / defined terms / CBA glossary | `docs/CBA-LOOKUP.md` + `scripts/cba_lookup.py` | TBD | **ready** (lookup); `quotes_need_pdf` (verbatim) |
 
 ## Column Definitions
 
@@ -74,7 +74,7 @@ Track which data products support which sections of the manuscript, ensuring eve
   - `hold` — deferred until later phase or decision
   - `ready` — artifact exists and is current
   - `source_map` — source notes exist; the derived table is not built yet
-  - `needs_local_pdf` — lookup works only after a local CBA PDF is supplied
+  - `quotes_need_pdf` — lookup ready; only verbatim quotes need PDF
   - `EXAMPLE` — placeholder row for demonstration
 
 ## Notes
@@ -87,7 +87,9 @@ Track which data products support which sections of the manuscript, ensuring eve
 
 **Source notes (2026-09-19):** franchise efficiency, league income, and broadcast ads. The Forbes 22 Apr 2016 Blazers/Celtics attribution in `docs/franchise-efficiency-sources.md` is UNCONFIRMED until the original clipping or URL is supplied.
 
-**CBA lookup:** PDFs at `data/raw/cba/{edition}/cba.pdf` are gitignored. The lookup tools work after a local PDF is supplied and extracted. See `docs/cba-structure-pipeline.md`.
+**CBA lookup:** Once `structure.json` is committed, lookup queries (clause IDs, page ranges, structure) are **ready** without PDF. Only verbatim quotes require `data/raw/cba/{edition}/cba.pdf` (gitignored). See `docs/cba-structure-pipeline.md`.
+
+**Status split**: `ready` (lookup from committed structure) vs. `quotes_need_pdf` (verbatim text needs PDF bytes). Don't block the writer desk on fulltext—lookup unblocks Scrivener drafting immediately.
 
 ## Maintenance
 
