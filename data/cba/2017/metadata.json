@@ -1,0 +1,14 @@
+{
+  "edition_id": "2017",
+  "label": "2017 NBA Collective Bargaining Agreement",
+  "source_url": "https://ak-static.cms.nba.com/wp-content/uploads/sites/4/2017/10/2017-NBA-Collective-Bargaining-Agreement.pdf",
+  "retrieval_date": "2026-09-19T16:54:50.025173+02:00",
+  "original_sha256": "sha256:66d620ebf682e2ffc55698394fb4635d738bf0e0250aad34f9cc137a25bf051a",
+  "text_sha256": "sha256:8decbe955903378e7c6c525792d4c1ab634e220df4367424a74d0ea00ca33ce5",
+  "text_fidelity": "extracted_unverified",
+  "extractor": "pdftotext 25.03.0 (no -layout)",
+  "pdf_bytes": 2176412,
+  "pdf_pages": 633,
+  "http_status_on_fetch": 200,
+  "rights_note": "Not redistributed; local raw only. Copyright NBA/NBPA."
+}
