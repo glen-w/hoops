@@ -84,11 +84,36 @@ def get_commons_file_info(filename: str) -> dict[str, Any] | None:
             "license_url": license_url,
             "attribution": attribution,
             "commons_url": imageinfo.get("descriptionurl"),
+            "filename": filename,
         }
         
     except Exception as e:
         print(f"  ✗ Error fetching Commons info for {filename}: {e}")
         return None
+
+
+def prefer_svg_variant(filename: str) -> str:
+    """
+    When Commons offers both SVG and raster for the same mark, prefer SVG.
+    
+    Args:
+        filename: Original filename (may be PNG/JPG)
+        
+    Returns:
+        SVG filename if available, otherwise original filename
+    """
+    # Try SVG variant by replacing extension
+    if not filename.lower().endswith('.svg'):
+        base = filename.rsplit('.', 1)[0]
+        svg_candidate = f"{base}.svg"
+        
+        # Check if SVG version exists
+        svg_info = get_commons_file_info(svg_candidate)
+        if svg_info and svg_info.get("mime") == "image/svg+xml":
+            print(f"    ✓ Found SVG variant: {svg_candidate}")
+            return svg_candidate
+    
+    return filename
 
 
 def is_free_license(license_name: str) -> bool:
@@ -182,6 +207,9 @@ def process_team_logo(
         return None
     
     print(f"  Processing {commons_filename} for {team_id}...")
+    
+    # Prefer SVG variant if available
+    commons_filename = prefer_svg_variant(commons_filename)
     
     # Fetch Commons metadata
     file_info = get_commons_file_info(commons_filename)

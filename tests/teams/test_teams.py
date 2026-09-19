@@ -159,6 +159,30 @@ def test_no_invented_hex_colors():
                 f"Row {idx} ({row['name']}): colours_accent_hex must be #RRGGBB format"
 
 
+def test_abbr_unique_within_league():
+    """Validate abbr codes are unique within each league."""
+    teams_csv = REPO_ROOT / "data" / "derived" / "teams" / "teams.csv"
+    
+    if not teams_csv.exists():
+        pytest.skip("teams.csv not yet generated")
+    
+    df = pd.read_csv(teams_csv)
+    
+    # Group by league and check for duplicate abbr codes
+    for league_id, league_teams in df.groupby("league_id"):
+        abbr_counts = league_teams["abbr"].value_counts()
+        duplicates = abbr_counts[abbr_counts > 1]
+        
+        assert len(duplicates) == 0, \
+            f"League {league_id} has duplicate abbr codes: {duplicates.index.tolist()}"
+        
+        # Also check that non-null abbr values exist
+        non_null_abbrs = league_teams["abbr"].dropna()
+        if len(non_null_abbrs) > 0:
+            assert len(non_null_abbrs) == len(set(non_null_abbrs)), \
+                f"League {league_id} has duplicate abbr codes (case sensitivity issue)"
+
+
 def test_logos_csv_schema():
     """Verify logos.csv has required columns."""
     logos_csv = REPO_ROOT / "data" / "derived" / "teams" / "logos.csv"
