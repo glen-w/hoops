@@ -83,7 +83,7 @@ Track which data products support which sections of the manuscript, ensuring eve
 | CBA / 2017 Exhibits | `data/cba/2017/derived/structure.json` | TBD | ready; spike |
 | CBA / 2017 spike documentation | `docs/cba/SPIKE-2017.md` | TBD | ready |
 | CBA / compare 2017-2023 | `docs/cba/COMPARE-2017-2023.md` | TBD | ready |
-| LEAGUE / teams desk | `data/derived/teams/` | TBD | partial — 84 teams (NBA 30 + WNBA 12 + EuroLeague 20 + EuroLeague Women 22); colours/logos/ownership enrichment still open; 2 EuroLeague Women QID gaps in seed |
+| LEAGUE / teams desk | `data/derived/teams/` | TBD | partial — 84 teams (NBA 30 + WNBA 12 + EuroLeague 20 + EuroLeague Women 22); ownership enriched for NBA+WNBA (42 teams, 2026-09-19); EuroLeague ownership unknown; colours/logos enrichment still open; 2 EuroLeague Women QID gaps in seed |
 | TEAMS / global / EuroLeague | `data/derived/teams/teams.csv` | TBD | ready |
 | TEAMS / global / EuroLeague Women | `data/derived/teams/teams.csv` | TBD | ready |
 | Binder / comparable books desk | `data/derived/books/comparable.csv` | TBD | ready |
