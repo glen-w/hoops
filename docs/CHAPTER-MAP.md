@@ -69,6 +69,18 @@ Track which data products support which sections of the manuscript, ensuring eve
 | CBA / Article XI / Rookie Scale | `data/cba/2023/derived/structure.json` | TBD | ready |
 | CBA / Exhibits | `data/cba/2023/derived/structure.json` | TBD | ready |
 | CBA / spike documentation | `docs/cba/SPIKE-REPORT.md` | TBD | ready |
+| CBA / 2017 structure | `data/cba/2017/derived/structure.json` | TBD | ready; spike |
+| CBA / 2017 defined terms | `data/cba/2017/derived/defined_terms.json` | TBD | ready; spike |
+| CBA / 2017 headings index | `data/cba/2017/derived/headings_index.json` | TBD | ready; spike |
+| CBA / 2017 Article I / Definitions | `data/cba/2017/derived/structure.json` + `data/cba/2017/derived/defined_terms.json` | TBD | ready; spike |
+| CBA / 2017 Article II / Uniform Player Contract | `data/cba/2017/derived/structure.json` | TBD | ready; spike |
+| CBA / 2017 Article VII / Team Salary | `data/cba/2017/derived/structure.json` | TBD | ready; spike |
+| CBA / 2017 Article VII / Section 6 / Exceptions (MLE) | `data/cba/2017/derived/headings_index.json` | TBD | ready; spike |
+| CBA / 2017 Article X / Veteran Free Agents | `data/cba/2017/derived/structure.json` | TBD | ready; spike |
+| CBA / 2017 Article XI / Rookie Scale | `data/cba/2017/derived/structure.json` | TBD | ready; spike |
+| CBA / 2017 Exhibits | `data/cba/2017/derived/structure.json` | TBD | ready; spike |
+| CBA / 2017 spike documentation | `docs/cba/SPIKE-2017.md` | TBD | ready |
+| CBA / compare 2017-2023 | `docs/cba/COMPARE-2017-2023.md` | TBD | ready |
 
 ## Column Definitions
 
