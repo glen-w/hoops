@@ -17,7 +17,7 @@ The manuscript stays in Scrivener (`/Users/89298/Documents/Hoops/hoops.scriv`). 
 ## Documentation
 
 - **[CHAPTER-MAP.md](docs/CHAPTER-MAP.md)** — Maps Scrivener binder paths to data artifacts
-- **[DATA-REPOS.md](docs/DATA-REPOS.md)** — Open-source basketball data APIs and tools
+- **[DATA-REPOS.md](docs/DATA-REPOS.md)** — Source catalog: APIs, dumps, packages, and what not to vendor
 - **[BASKETBALL-SOFTWARE.md](docs/BASKETBALL-SOFTWARE.md)** — Commercial tracking & analytics systems (SportVU, Second Spectrum, Synergy, etc.)
 - **[SLOAN-ARCHIVE.md](docs/SLOAN-ARCHIVE.md)** — MIT Sloan Sports Analytics Conference papers index
 

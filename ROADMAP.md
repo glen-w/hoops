@@ -57,11 +57,11 @@ The draft already narrates results. The sidecar should point at the paper, and r
 
 Front-office staff lists on [NBAstuffer](https://www.nbastuffer.com/analytics101/nba-teams-that-have-analytics-department/) are fair game as a small public table.
 
-**Open data landscape baseline (2026-09-19):** [docs/NUMBERS-LANDSCAPE.md](docs/NUMBERS-LANDSCAPE.md) and [docs/DATA-REPOS.md](docs/DATA-REPOS.md) map the ecosystem—season aggregates, PBP, packages (Python/R), college/international, salaries, tracking (cite-only), paywalled, GitHub catalogs, and P0 recommendations for this repo. ~30 sources cataloged in [docs/open_datasets.csv](docs/open_datasets.csv). Cross-reference from analytics chapter "state of the data" narrative.
+The open-data map is [docs/NUMBERS-LANDSCAPE.md](docs/NUMBERS-LANDSCAPE.md), the source catalog is [docs/DATA-REPOS.md](docs/DATA-REPOS.md), and the row list is [docs/open_datasets.csv](docs/open_datasets.csv). Cite that from "state of the data." Do not paste the catalog into the chapter.
 
 ## 6. Later, not this sitting
 
-- Ground a model on the Zotero library. Still a process item in Untangle, not a download.
+- Ground a model on the Zotero library. Custom CLI is parked in [docs/ZOTERO-LLM-PLAN.md](docs/ZOTERO-LLM-PLAN.md). The trial is zotero-rag at `/Users/89298/Documents/zotero-rag`, collection `hoops` only. Not a download.
 - Gambling odds. The fans chapter describes the machinery. Do not build a betting dataset.
 - Anything that would edit the manuscript. Wait for the Sunday call.
 
