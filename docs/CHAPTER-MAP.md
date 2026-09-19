@@ -50,8 +50,8 @@ binder_path,kind,target,status,note
 ## Source Notes & Research
 
 binder_path,kind,target,status,note
-"LEAGUE/efficiency",source_note,docs/franchise-efficiency-forbes-2016.md,source_map,Forbes 2016 valuation + DEA efficiency literature
-"LEAGUE/income",source_note,docs/league-income-ingredients.md,source_map,League revenue ingredients - national media rights + local + gate + sponsorship
-"BROADCAST/ads",source_note,docs/broadcast-ads-vs-rights-fees.md,source_map,Distinction between media rights fees (NBA income) and ad sales (network income)
+"LEAGUE/efficiency",source_note,docs/franchise-efficiency-sources.md,source_map,"Forbes 2016 valuation + DEA efficiency literature; UNCONFIRMED: Forbes '22 Apr 2016' Blazers/Celtics attribution not verified - treat as UNCONFIRMED until original clipping/URL supplied"
+"LEAGUE/income",source_note,docs/league-income-sources.md,source_map,League revenue ingredients - national media rights + local + gate + sponsorship + CBA BRI definitions
+"BROADCAST/ads",source_note,docs/broadcast-ads-sources.md,source_map,Distinction between media rights fees (NBA income) and ad sales (network income); sponsor inventory schema
 "LEAGUE/income/schema",design_note,docs/SCHEMA-sketch.md,wanted,Proposed CSV schemas for franchise valuations and league income components
 "eng/cba-parser",feasibility,docs/CBA-PARSER-FEASIBILITY-2026-09-19.md,wanted,Engineering scaffold for CBA clause parser - research reference
