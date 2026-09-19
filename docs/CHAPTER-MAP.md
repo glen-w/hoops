@@ -69,6 +69,7 @@ Track which data products support which sections of the manuscript, ensuring eve
 | CBA / Article XI / Rookie Scale | `data/cba/2023/derived/structure.json` | TBD | ready |
 | CBA / Exhibits | `data/cba/2023/derived/structure.json` | TBD | ready |
 | CBA / spike documentation | `docs/cba/SPIKE-REPORT.md` | TBD | ready |
+| Binder / comparable books desk | `data/derived/books/comparable.csv` | TBD | ready |
 
 ## Column Definitions
 
@@ -95,6 +96,8 @@ Track which data products support which sections of the manuscript, ensuring eve
 **Source notes (2026-09-19):** franchise efficiency, league income, and broadcast ads. Forbes 22 Apr 2016 was searched and marked NOT_FOUND; the 2015-16 payroll-vs-wins figures now cite Joel Odom, OregonLive, 13 May 2016 (Blazers 44 wins, not 48). League income v1: media partners and terms are high confidence; media dollars and BRI are medium; licensing, arena, and local revenue are still gaps.
 
 **CBA lookup:** Structure lookup is ready from the committed 2023 metadata (42 articles, 279 sections; PDF SHA-256 `cf59d43fe46f63d7ba07364563046d766c487c26032fcc88432310d47effd9d9`). Verbatim quotes still need the gitignored PDF. Parser package is `src/hoops_data/cba/`. See `docs/cba/SPIKE-REPORT.md` and `docs/CBA-LOOKUP.md`.
+
+**Comparable books (2026-09-19):** 19 basketball books for desk reading/comparison. Goodreads ratings HIGH confidence; Amazon UK ratings/prices often GAP (search URLs provided where product pages blocked). Locked schema includes `lane` taxonomy (narrative/analytics/how_to_watch/history/memoir) and `why_comparable` notes for Scrivener filtering. Seeds: Simmons *Book of Basketball*, Taylor *Thinking Basketball*, Greene *How to Watch Basketball Like a Genius*. See `data/derived/books/README.md` for methodology and `comparable.md` for human-readable table.
 
 ## Maintenance
 
