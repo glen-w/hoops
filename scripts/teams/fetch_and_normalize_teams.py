@@ -1,25 +1,14 @@
 #!/usr/bin/env python3
 """
-Fetch and normalize teams data from Wikidata.
+Fetch EuroLeague teams from Wikidata into the shared teams desk.
 
-Reads leagues_seed.yaml and fetches additional metadata from Wikidata
-to generate data/derived/teams/teams.csv with standardized schema.
+Reads scripts/teams/leagues_seed.yaml and refreshes only those league_ids
+in data/derived/teams/teams.csv. NBA, WNBA, and any other league already
+in the file are left in place. Do not append onto the previous EuroLeague
+rows; this script replaces them.
 
-Schema columns (locked):
-- team_id: Unique identifier (from seed)
-- league_id: League identifier
-- name: Full team name (from seed)
-- short_name: Short name/common name (from seed)
-- abbr: Abbreviation (derived or from Wikidata P1813)
-- gender: men | women
-- country: ISO 3166-1 alpha-2 country code (from Wikidata P17)
-- founded_year: Year founded (from Wikidata P571)
-- colors_hex: Official team colors as comma-separated hex codes (Wikidata P462)
-- former_names: Semicolon-separated list of former names (Wikidata P1448)
-- wikidata_qid: Wikidata item ID
-- wikipedia_en: English Wikipedia page title
-- as_of: Data collection date
-- confidence: Confidence level from seed
+Output columns are the locked 24-column desk schema (same header as
+teams.csv). Gender lives on leagues.csv, not on each team row.
 
 Dependencies:
 - PyYAML
