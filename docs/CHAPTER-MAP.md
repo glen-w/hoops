@@ -96,6 +96,14 @@ Track which data products support which sections of the manuscript, ensuring eve
 
 **CBA lookup:** Structure lookup is ready from the committed 2023 metadata (42 articles, 279 sections; PDF SHA-256 `cf59d43fe46f63d7ba07364563046d766c487c26032fcc88432310d47effd9d9`). Verbatim quotes still need the gitignored PDF. Parser package is `src/hoops_data/cba/`. See `docs/cba/SPIKE-REPORT.md` and `docs/CBA-LOOKUP.md`.
 
+| TEAMS / global / EuroLeague | `data/derived/teams/teams.csv` (filter: league_id=euroleague) | TBD | ready |
+| TEAMS / global / EuroLeague Women | `data/derived/teams/teams.csv` (filter: league_id=euroleague_women) | TBD | ready |
+| TEAMS / global / teams metadata | `data/derived/teams/README.md` + `data/derived/teams/teams.csv` | Wikidata (CC0) | ready |
+
+## Notes
+
+**Teams P0c (2026-09-19):** Added EuroLeague (men, 20 teams) and EuroLeague Women (22 teams with QIDs; 2 gap teams documented). Data pipeline: `scripts/teams/leagues_seed.yaml` → `fetch_and_normalize_teams.py` → `teams.csv`. Schema locked with 14 columns. Logos deferred (sparse coverage). Wikidata QIDs verified from enwiki as of 2026-09-19.
+
 ## Maintenance
 
 Update this map whenever:
