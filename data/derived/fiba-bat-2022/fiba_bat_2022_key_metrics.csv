@@ -1,0 +1,9 @@
+metric,value,year,source_url_used,as_of,confidence,notes
+requests_for_arbitration_filed,136,2022,https://assets.fiba.basketball/image/upload/documents-corporate-bat-bat-statistics.pdf,2026-09-19,HIGH,Focal year count
+leading_to_award_or_to_for_lack_of_jurisdiction,101,2022,https://assets.fiba.basketball/image/upload/documents-corporate-bat-bat-statistics.pdf,2026-09-19,HIGH,Awards / TO lack of jurisdiction
+settled_including_consent_award,31,2022,https://assets.fiba.basketball/image/upload/documents-corporate-bat-bat-statistics.pdf,2026-09-19,HIGH,Settled incl. consent awards
+deemed_withdrawn_not_including_settlements,1,2022,https://assets.fiba.basketball/image/upload/documents-corporate-bat-bat-statistics.pdf,2026-09-19,HIGH,Withdrawn (not settlements)
+appeals_before_cas,0,2022,https://assets.fiba.basketball/image/upload/documents-corporate-bat-bat-statistics.pdf,2026-09-19,HIGH,CAS appeals
+appeals_before_sft,1,2022,https://assets.fiba.basketball/image/upload/documents-corporate-bat-bat-statistics.pdf,2026-09-19,HIGH,Swiss Federal Tribunal appeals
+low_value_cases,75,2022,https://assets.fiba.basketball/image/upload/documents-corporate-bat-bat-statistics.pdf,2026-09-19,HIGH,Low-value cases (see PDF footnote ***)
+cumulative_requests_2007_2022,1904,2007-2022,https://assets.fiba.basketball/image/upload/documents-corporate-bat-bat-statistics.pdf,2026-09-19,HIGH,DERIVED cumulative requests through 2022
