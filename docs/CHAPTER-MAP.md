@@ -20,7 +20,7 @@ Track which data products support which sections of the manuscript, ensuring eve
 | GAME TIME / officiating / referees / AI assistants | `data/studies/thomas-acaro-2024-ai-referee-pico.md` | 89QX6WA8 | ready |
 | Annexes / negative studies / dribbling creativity | `data/studies/kanatschnig-2023-dribbling-creativity.md` | M53K3EAJ | ready |
 | ANALYTICS / state of the data | `docs/SLOAN-ARCHIVE.md` + `docs/DATA-REPOS.md` + `docs/BASKETBALL-SOFTWARE.md` + `data/sloan/papers.jsonl` | TBD | ready |
-| EXAMPLE: PLAYERS / height evolution | `data/derived/nba_height_series.csv` | TBD | EXAMPLE |
+| PLAYERS / height evolution | `data/derived/height-series/nba_height_series.csv` | TBD (RunRepeat / Curcic) | ready |
 | EXAMPLE: TEAM / front office / efficiency | `data/derived/franchise_efficiency_2015_16.md` | TBD | EXAMPLE |
 | TEAM / Atlanta Hawks / front office | `data/derived/nba_orgs/atlanta-hawks.csv` | TBD | ready |
 | TEAM / Boston Celtics / front office | `data/derived/nba_orgs/boston-celtics.csv` | TBD | ready |
@@ -52,6 +52,8 @@ Track which data products support which sections of the manuscript, ensuring eve
 | TEAM / Toronto Raptors / front office | `data/derived/nba_orgs/toronto-raptors.csv` | TBD | ready |
 | TEAM / Utah Jazz / front office | `data/derived/nba_orgs/utah-jazz.csv` | TBD | ready |
 | TEAM / Washington Wizards / front office | `data/derived/nba_orgs/washington-wizards.csv` | TBD | ready |
+| Officiating / referee stats 2023-24 | `data/derived/nba-referees-2023-24/nba_referees_2023_24.csv` | TBD (NBAstuffer) | ready |
+| Disputes / FIBA BAT arbitration | `data/derived/fiba-bat-2022/fiba_bat_arbitration_by_year.csv` | TBD (FIBA official) | ready |
 
 ## Column Definitions
 
@@ -70,7 +72,6 @@ Track which data products support which sections of the manuscript, ensuring eve
 **Phase 0 evidence desk (2026-09-19):**
 - Study notes added: competitive balance, dribbling creativity, possession, shooting AI, referee physical/AI, FIBA 450M, home-court 2024
 - Totty & Owens 2011 needs Zotero addition
-- avg_game_by_decade completed via PR #1; do not rebuild (eng owns further transforms)
 
 **NBA org-charts sparse sources:** TOR, CLE, MIL relied more on press releases + NBAstuffer vs. official staff directories; check row-level `confidence` + `as_of` when citing.
 
