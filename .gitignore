@@ -5,8 +5,12 @@
 # Local writing workflow. Not the sidecar, not the manuscript.
 local/
 .venv/
+.pytest_cache/
 __pycache__/
 node_modules/
+
+# Empty local queue file. Not a dataset.
+data/queue-state.json
 
 # Downloaded dumps stay local until a license check says they can be committed.
 data/raw/**

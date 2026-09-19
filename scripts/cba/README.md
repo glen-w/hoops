@@ -33,9 +33,11 @@ python scripts/cba/extract_cba.py \
 
 ### 4. Validate
 
+The validator checks the fixture schema, not the spike indexes in `data/cba/`.
+
 ```bash
 python scripts/cba/validate_cba_structure.py \
-    data/derived/cba/2023/structure.json
+    data/derived/cba/2023/structure.fixture.json
 ```
 
 ## Scripts
@@ -58,7 +60,7 @@ python scripts/cba/extract_cba.py \
 **Arguments:**
 - `--edition`: CBA edition year (2017 or 2023)
 - `--pdf`: Path to CBA PDF file
-- `--output`: Output path (default: `data/derived/cba/{edition}/structure.json`)
+- `--output`: Output path (default: `data/cba/{edition}/derived/structure.json`). That default matches the committed tree. The older fixture lives under `data/derived/cba/` and is a different JSON shape.
 - `--source-url`: Official source URL (default: https://nbpa.com/cba)
 - `--validate-hash`: Strict golden hash validation (2023 only)
 - `--skip-validation`: Skip validation after extraction
@@ -105,7 +107,7 @@ python scripts/cba/validate_cba_structure.py \
 **Example:**
 ```bash
 python scripts/cba/validate_cba_structure.py \
-    data/derived/cba/2023/structure.json \
+    data/derived/cba/2023/structure.fixture.json \
     --strict
 ```
 

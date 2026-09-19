@@ -94,4 +94,4 @@ Sources: cumulative_through_2022_derived row; total_pdf row; 2025 annual row (no
 
 ---
 
-*End of postcards. Motif index: `data/derived/teams/bat_postcard_motifs.csv`.*
+*End of postcards. Motif index: `bat_postcard_motifs.csv`.*

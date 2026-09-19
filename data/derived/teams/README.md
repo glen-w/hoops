@@ -10,7 +10,9 @@
 |------|-------------|-----:|
 | `teams.csv` | NBA, WNBA, EuroLeague, and EuroLeague Women in the shared desk schema | 84 data rows |
 | `logos.csv` | Logo URL references (sparse) | 0 populated |
-| `leagues_seed.yaml` | Curated source of truth (in `scripts/teams/`) | 2 leagues, 44 teams |
+| `leagues_seed.yaml` | Seed for `teams.csv` (in `scripts/teams/`). Not a copy of `src/hoops_data/teams/leagues_seed.yaml` | 2 leagues, 44 teams |
+
+Ownership ledgers sit in this folder too (`ownership_events.csv`, `euroleague_current_ownership.csv`, and their timelines). Writer notes are in `docs/ownership/`. Creative motif indexes are not team tables; they live in `docs/creative/`.
 
 ## Coverage
 

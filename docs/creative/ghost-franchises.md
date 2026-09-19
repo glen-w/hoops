@@ -98,4 +98,4 @@ Sources: RM-1931-founding; RM-assoc-control (https://www.realmadrid.com/en-US/th
 
 ---
 
-*End of vignettes. Motif index: `data/derived/teams/ghost_franchise_motifs.csv`.*
+*End of vignettes. Motif index: `ghost_franchise_motifs.csv`.*
