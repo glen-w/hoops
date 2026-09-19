@@ -62,6 +62,26 @@ Track which data products support which sections of the manuscript, ensuring eve
 
 **NBA org-charts sparse sources:** TOR, CLE, MIL relied more on press releases + NBAstuffer vs. official staff directories; check row-level `confidence` + `as_of` when citing.
 
+## CBA Reference (2023 NBA Collective Bargaining Agreement)
+
+| Binder Path | Derived Artifact | Zotero Key | Status |
+|-------------|------------------|------------|--------|
+| CBA / Article I / Definitions | `data/cba/2023/derived/structure.json` + `data/cba/2023/derived/defined_terms.json` | TBD | ready |
+| CBA / Article II / Uniform Player Contract | `data/cba/2023/derived/structure.json` (cba:2023:art-II, 15 sections) | TBD | ready |
+| CBA / Article VII / Team Salary | `data/cba/2023/derived/structure.json` (cba:2023:art-VII, 12 sections) | TBD | ready |
+| CBA / Article VII / Section 6 / Exceptions (MLE) | `data/cba/2023/derived/headings_index.json` (Mid-Level Exception subsections) | TBD | ready |
+| CBA / Article X / Veteran Free Agents | `data/cba/2023/derived/structure.json` (cba:2023:art-X, 10 sections) | TBD | ready |
+| CBA / Article XI / Rookie Scale | `data/cba/2023/derived/structure.json` (cba:2023:art-XI, 5 sections) | TBD | ready |
+| CBA / Exhibits A-H, I-1 to I-7, J-1, J-2 | `data/cba/2023/derived/structure.json` (17 exhibits) | TBD | ready |
+| CBA / Full spike documentation | `docs/cba/SPIKE-REPORT.md` (42 articles, 279 sections parsed) | TBD | ready |
+
+**CBA provenance:**
+- PDF SHA-256: `sha256:cf59d43fe46f63d7ba07364563046d766c487c26032fcc88432310d47effd9d9`
+- Source: NBA Official 2023 Final (686 pages)
+- Parser spike: `scripts/parse_cba_spike.py`
+- **Copyright note:** PDF & full text remain gitignored (`data/raw/cba/.gitignore`); only structure metadata and ≤500-char previews committed
+- **Engineer P0:** Productize parser under `src/hoops_data/cba/` (see SPIKE-REPORT §5)
+
 ## Maintenance
 
 Update this map whenever:
