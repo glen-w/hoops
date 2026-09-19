@@ -38,18 +38,21 @@ This package provides structured data for basketball teams across major leagues:
 | team_id | Stable slug `{league_id}_{short}_{qid}` |
 | league_id | Foreign key to leagues.csv |
 | name | Full team name |
+| abbr | Stable short code (LAL, NYK, etc.) |
 | short_name | Short identifier |
+| former_names | Pipe-separated former names (optional) |
 | city | Home city |
 | country | ISO-3166-1 alpha-2 |
 | arena | Current home venue name |
 | arena_capacity | Integer capacity or blank |
 | founded_year | Year established |
-| colours_primary_hex | `#RRGGBB` or blank |
-| colours_secondary_hex | `#RRGGBB` or blank |
-| colours_source | wikidata / wiki / official |
+| colours_primary_hex | `#RRGGBB` official hex only (never sampled) |
+| colours_secondary_hex | `#RRGGBB` official hex only |
+| colours_accent_hex | `#RRGGBB` official hex only |
+| colours_source | wikidata / wiki / official (required if colors present) |
 | mascot | Mascot name or blank |
-| owner | Owner person/entity string |
-| ownership_structure | Free text (manual enrichment) |
+| owner | Owner person/entity string (free text) |
+| ownership_structure | Locked vocab: sole \| majority \| group \| public \| municipal \| unknown |
 | wikidata_qid | Wikidata entity QID |
 | wikipedia_en | English Wikipedia article title |
 | official_url | Official team website |
@@ -137,6 +140,8 @@ This pipeline respects intellectual property:
 
 - **Free licenses only**: CC-BY, CC-BY-SA, PD, etc. are downloaded
 - **Fair-use skipped**: Trademarked team logos under fair-use are recorded but not redistributed
+- **SVG/PNG preferred**: Transparent backgrounds where Commons allows
+- **No low-res thumbs**: Wiki thumbnails not suitable for book figures
 - **Attribution**: `logos.csv` includes attribution and license for each file
 
 Do not commit copyrighted binaries to git. Consider:
@@ -144,6 +149,31 @@ Do not commit copyrighted binaries to git. Consider:
 - Git LFS if repo already uses it
 
 Current implementation: logos are gitignored; checksums in CSV.
+
+## Color Policy
+
+**NEVER sample colors from logo pixels or invent hex values.**
+
+- Colors must come from official sources only:
+  - Wikidata P465 (official color hex)
+  - Official team style guides
+  - Wikipedia infobox (documented source)
+- Leave `colours_*_hex` blank if no official claim exists
+- Set `confidence=GAP` for missing colors
+- Always populate `colours_source` when colors are present
+
+## Ownership Structure
+
+Uses locked vocabulary only:
+
+- `sole` — Single owner
+- `majority` — Majority shareholder
+- `group` — Ownership group / consortium
+- `public` — Publicly traded
+- `municipal` — City/government owned
+- `unknown` — Not yet determined
+
+Default to `unknown` until manual enrichment with verified sources.
 
 ## Dependencies
 
