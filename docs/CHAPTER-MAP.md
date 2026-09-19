@@ -11,7 +11,8 @@ Track which data products support which sections of the manuscript, ensuring eve
 | Binder Path | Derived Artifact | Zotero Key | Status |
 |-------------|------------------|------------|--------|
 | GAME TIME / average game | `data/derived/avg_game_by_decade.csv` | TBD | ready |
-| STADIUM / home court advantage | `data/derived/home_court_2024_playoffs.md` (+ csv) | TBD | READY — BRef 48–34 / 58.5% HIGH; RS .5431 MEDIUM |
+| GAME TIME / average game / landmark seasons | `data/derived/avg_game_by_decade/` | TBD | ready |
+| STADIUM / home court advantage | `data/derived/home_court_2024_playoffs.md` + `.csv` | TBD | ready |
 | PRE-GAME / popularity | `data/studies/fiba-450-million-players.md` | TBD | ready |
 | LEAGUE / competitive balance | `data/studies/totty-owens-2011-competitive-balance.md` | TBD (add Totty & Owens 2011) | ready |
 | GAME TIME / flow / possession | `data/studies/gomez-2013-possession.md` | TJLRSX3C | ready |
@@ -96,6 +97,8 @@ Track which data products support which sections of the manuscript, ensuring eve
 **Source notes (2026-09-19):** franchise efficiency, league income, and broadcast ads. Forbes 22 Apr 2016 was searched and marked NOT_FOUND; the 2015-16 payroll-vs-wins figures now cite Joel Odom, OregonLive, 13 May 2016 (Blazers 44 wins, not 48). League income v1: media partners and terms are high confidence; media dollars and BRI are medium; licensing, arena, and local revenue are still gaps.
 
 **CBA lookup:** Structure lookup is ready from the committed 2023 metadata (42 articles, 279 sections; PDF SHA-256 `cf59d43fe46f63d7ba07364563046d766c487c26032fcc88432310d47effd9d9`). Verbatim quotes still need the gitignored PDF. Parser package is `src/hoops_data/cba/`. See `docs/cba/SPIKE-REPORT.md` and `docs/CBA-LOOKUP.md`.
+
+**Home court 2024:** Basketball-Reference playoff count is 48–34 (58.5%), high confidence. Regular-season home win rate .5431 is medium. Landmark decade seasons in `data/derived/avg_game_by_decade/` are a light pin; the full decade means stay in `avg_game_by_decade.csv`.
 
 ## Maintenance
 
