@@ -1,0 +1,5 @@
+# Requirements for NBA CBA structure extraction
+# Install with: pip install -r requirements-cba.txt
+
+pymupdf>=1.23.0
+jsonschema>=4.0.0

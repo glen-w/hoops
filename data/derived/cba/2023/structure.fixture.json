@@ -1,0 +1,96 @@
+{
+  "edition": "2023",
+  "source_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+  "source_url": "https://nbpa.com/cba",
+  "generated_at": "2026-09-19T00:00:00Z",
+  "units": [
+    {
+      "id": "article_1",
+      "type": "article",
+      "title": "Article I: DEFINITIONS",
+      "parent_id": null,
+      "page_start": null,
+      "page_end": null,
+      "char_offset_start": null,
+      "char_offset_end": null,
+      "text_sha256": null
+    },
+    {
+      "id": "article_2",
+      "type": "article",
+      "title": "Article II: PLAYER CONTRACTS",
+      "parent_id": null,
+      "page_start": null,
+      "page_end": null,
+      "char_offset_start": null,
+      "char_offset_end": null,
+      "text_sha256": null
+    },
+    {
+      "id": "article_3",
+      "type": "article",
+      "title": "Article III: ROOKIE SCALE",
+      "parent_id": null,
+      "page_start": null,
+      "page_end": null,
+      "char_offset_start": null,
+      "char_offset_end": null,
+      "text_sha256": null
+    },
+    {
+      "id": "article_4",
+      "type": "article",
+      "title": "Article IV: LIMITATION ON PLAYER CONTRACTS",
+      "parent_id": null,
+      "page_start": null,
+      "page_end": null,
+      "char_offset_start": null,
+      "char_offset_end": null,
+      "text_sha256": null
+    },
+    {
+      "id": "article_5",
+      "type": "article",
+      "title": "Article V: TEAM SALARY",
+      "parent_id": null,
+      "page_start": null,
+      "page_end": null,
+      "char_offset_start": null,
+      "char_offset_end": null,
+      "text_sha256": null
+    },
+    {
+      "id": "article_6",
+      "type": "article",
+      "title": "Article VI: MINIMUM TEAM SALARY",
+      "parent_id": null,
+      "page_start": null,
+      "page_end": null,
+      "char_offset_start": null,
+      "char_offset_end": null,
+      "text_sha256": null
+    },
+    {
+      "id": "article_7",
+      "type": "article",
+      "title": "Article VII: TEAM SALARY CAP",
+      "parent_id": null,
+      "page_start": null,
+      "page_end": null,
+      "char_offset_start": null,
+      "char_offset_end": null,
+      "text_sha256": null
+    },
+    {
+      "id": "article_8",
+      "type": "article",
+      "title": "Article VIII: ROOKIE SCALE AMOUNTS",
+      "parent_id": null,
+      "page_start": null,
+      "page_end": null,
+      "char_offset_start": null,
+      "char_offset_end": null,
+      "text_sha256": null
+    }
+  ]
+}
