@@ -170,3 +170,23 @@ Update this map whenever:
 - A new derived artifact is committed
 - A Scrivener section is restructured
 - A data dependency changes or is resolved
+# CHAPTER-MAP — row to append (FIBA BAT arbitration postcards)
+
+Append-only. Do **not** overwrite existing CHAPTER-MAP rows.
+
+| Binder / section | Data product (repo path) | Status after this pack |
+|------------------|--------------------------|-------------------------|
+| TEAMS / FIBA BAT — creative cite-backed postcards | `docs/creative/bat-arbitration-postcards.md` (+ motif index `data/derived/teams/bat_postcard_motifs.csv`) | **READY (creative v1)** — 7 postcards; counts only from FIBA BAT Statistics PDF / phase-0 CSVs (access 2026-09-20); no invented outcomes, parties, or dollar amounts beyond PDF EUR footnote thresholds |
+
+### Optional research-sidecar note row
+
+| Suggested row | Chapter/use | Status | Source sidecar | Proposed treatment | Next research action |
+|---------------|-------------|--------|----------------|--------------------|----------------------|
+| FIBA BAT arbitration postcards (creative) | TEAMS / contracts & dispute atmosphere beats (caseload, settlements, CAS quieting, low-value track) | READY | `hoops-bat-postcards-2026-09-20/` | Literary postcards + motif CSV; every count tied to phase-0 BAT CSVs / official PDF | Optional: POP table if FIBA publishes Payment Order Proceedings numbers (GAP in current PDF) |
+
+### Suggested slugs
+- `docs/creative/bat-arbitration-postcards`
+- `teams/bat_postcard_motifs`
+
+### Phase-0 data dependency (do not re-transcribe in this PR unless asked)
+- `data/derived/fiba-bat-2022/` (or land from `/workspace/hoops-phase0-tables/fiba-bat-2022/`)
