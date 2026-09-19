@@ -22,38 +22,52 @@ import yaml
 
 
 # Expected row counts
+EXPECTED_NBA = 30
+EXPECTED_WNBA = 12
 EXPECTED_EUROLEAGUE_MEN = 20
 EXPECTED_EUROLEAGUE_WOMEN_WITH_QIDS = 22  # 24 total - 2 gaps
-EXPECTED_TOTAL = EXPECTED_EUROLEAGUE_MEN + EXPECTED_EUROLEAGUE_WOMEN_WITH_QIDS
+EXPECTED_TOTAL = EXPECTED_NBA + EXPECTED_WNBA + EXPECTED_EUROLEAGUE_MEN + EXPECTED_EUROLEAGUE_WOMEN_WITH_QIDS
 
-# Locked CSV schema
+# Locked CSV schema (24 columns, matches NBA/WNBA desk from #20/#21)
 EXPECTED_COLUMNS = [
     "team_id",
     "league_id",
     "name",
-    "short_name",
     "abbr",
-    "gender",
-    "country",
-    "founded_year",
-    "colors_hex",
+    "short_name",
     "former_names",
+    "city",
+    "country",
+    "arena",
+    "arena_capacity",
+    "founded_year",
+    "colours_primary_hex",
+    "colours_secondary_hex",
+    "colours_accent_hex",
+    "colours_source",
+    "mascot",
+    "owner",
+    "ownership_structure",
     "wikidata_qid",
     "wikipedia_en",
+    "official_url",
     "as_of",
+    "source_url",
     "confidence"
 ]
 
-# Valid gender values
-VALID_GENDERS = {"men", "women"}
+# Valid ownership structure vocabulary
+VALID_OWNERSHIP_STRUCTURE = {"sole", "majority", "group", "public", "municipal", "unknown", ""}
 
 # Valid confidence levels
-VALID_CONFIDENCE = {"high", "medium", "low", "gap"}
+VALID_CONFIDENCE = {"HIGH", "MEDIUM", "LOW", "GAP", ""}  # Match NBA/WNBA format
 
 # ISO 3166-1 alpha-2 country codes (partial list for validation)
 VALID_COUNTRY_CODES = {
+    "US", "CA",  # NBA/WNBA
     "BE", "FR", "DE", "IT", "ES", "GR", "TR", "PL", "CZ", "HU", 
-    "RO", "LT", "RS", "IL", "AE", ""  # Empty string allowed for unknown
+    "RO", "LT", "RS", "IL", "AE",  # EuroLeague
+    ""  # Empty string allowed for unknown
 }
 
 
@@ -112,31 +126,45 @@ def test_schema_locked():
 
 
 def test_row_counts():
-    """Test that row counts match seed expectations."""
+    """Test that row counts match expected values."""
     teams = load_teams_csv()
     
     total_count = len(teams)
-    men_count = sum(1 for t in teams if t["gender"] == "men")
-    women_count = sum(1 for t in teams if t["gender"] == "women")
+    nba_count = sum(1 for t in teams if t["league_id"] == "nba")
+    wnba_count = sum(1 for t in teams if t["league_id"] == "wnba")
+    euro_men_count = sum(1 for t in teams if t["league_id"] == "euroleague")
+    euro_women_count = sum(1 for t in teams if t["league_id"] == "euroleague_women")
     
     if total_count != EXPECTED_TOTAL:
         raise TestFailure(
             f"Total row count mismatch. Expected {EXPECTED_TOTAL}, got {total_count}"
         )
     
-    if men_count != EXPECTED_EUROLEAGUE_MEN:
+    if nba_count != EXPECTED_NBA:
         raise TestFailure(
-            f"EuroLeague (men) count mismatch. Expected {EXPECTED_EUROLEAGUE_MEN}, got {men_count}"
+            f"NBA count mismatch. Expected {EXPECTED_NBA}, got {nba_count}"
         )
     
-    if women_count != EXPECTED_EUROLEAGUE_WOMEN_WITH_QIDS:
+    if wnba_count != EXPECTED_WNBA:
         raise TestFailure(
-            f"EuroLeague Women count mismatch. Expected {EXPECTED_EUROLEAGUE_WOMEN_WITH_QIDS}, got {women_count}"
+            f"WNBA count mismatch. Expected {EXPECTED_WNBA}, got {wnba_count}"
         )
     
-    print(f"✓ Row counts match seed:")
-    print(f"  - EuroLeague (men): {men_count} teams")
-    print(f"  - EuroLeague Women: {women_count} teams")
+    if euro_men_count != EXPECTED_EUROLEAGUE_MEN:
+        raise TestFailure(
+            f"EuroLeague (men) count mismatch. Expected {EXPECTED_EUROLEAGUE_MEN}, got {euro_men_count}"
+        )
+    
+    if euro_women_count != EXPECTED_EUROLEAGUE_WOMEN_WITH_QIDS:
+        raise TestFailure(
+            f"EuroLeague Women count mismatch. Expected {EXPECTED_EUROLEAGUE_WOMEN_WITH_QIDS}, got {euro_women_count}"
+        )
+    
+    print(f"✓ Row counts match expected:")
+    print(f"  - NBA: {nba_count} teams")
+    print(f"  - WNBA: {wnba_count} teams")
+    print(f"  - EuroLeague (men): {euro_men_count} teams")
+    print(f"  - EuroLeague Women: {euro_women_count} teams")
     print(f"  - Total: {total_count} teams")
 
 
@@ -172,7 +200,7 @@ def test_required_fields():
     
     required_fields = [
         "team_id", "league_id", "name", "short_name", "abbr",
-        "gender", "wikidata_qid", "as_of", "confidence"
+        "wikidata_qid", "as_of", "confidence"
     ]
     
     for team in teams:
@@ -185,6 +213,37 @@ def test_required_fields():
     print(f"✓ Required fields populated for all teams")
 
 
+def test_abbr_unique_within_league():
+    """Test that abbreviations are unique within each league."""
+    teams = load_teams_csv()
+    
+    # Group teams by league_id
+    by_league = {}
+    for team in teams:
+        league_id = team["league_id"]
+        if league_id not in by_league:
+            by_league[league_id] = []
+        by_league[league_id].append(team)
+    
+    # Check uniqueness within each league
+    for league_id, league_teams in by_league.items():
+        abbrs = [t["abbr"] for t in league_teams]
+        duplicates = [a for a in set(abbrs) if abbrs.count(a) > 1]
+        
+        if duplicates:
+            collision_details = []
+            for dup_abbr in duplicates:
+                colliding_teams = [t["team_id"] for t in league_teams if t["abbr"] == dup_abbr]
+                collision_details.append(f"{dup_abbr}: {', '.join(colliding_teams)}")
+            
+            raise TestFailure(
+                f"Duplicate abbreviations in league {league_id}:\n  " +
+                "\n  ".join(collision_details)
+            )
+    
+    print("✓ Abbreviations are unique within each league")
+
+
 def test_data_integrity():
     """Test data integrity (valid values)."""
     teams = load_teams_csv()
@@ -192,13 +251,13 @@ def test_data_integrity():
     for team in teams:
         team_id = team["team_id"]
         
-        # Gender must be valid
-        if team["gender"] not in VALID_GENDERS:
-            raise TestFailure(f"Invalid gender for {team_id}: {team['gender']}")
-        
         # Confidence must be valid
-        if team["confidence"] not in VALID_CONFIDENCE:
+        if team["confidence"] and team["confidence"] not in VALID_CONFIDENCE:
             raise TestFailure(f"Invalid confidence for {team_id}: {team['confidence']}")
+        
+        # Ownership structure must be valid
+        if team["ownership_structure"] and team["ownership_structure"] not in VALID_OWNERSHIP_STRUCTURE:
+            raise TestFailure(f"Invalid ownership_structure for {team_id}: {team['ownership_structure']}")
         
         # Country code must be valid (or empty)
         if team["country"] and team["country"] not in VALID_COUNTRY_CODES:
@@ -206,7 +265,7 @@ def test_data_integrity():
         
         # QID must start with Q
         qid = team["wikidata_qid"]
-        if not qid.startswith("Q"):
+        if qid and not qid.startswith("Q"):
             raise TestFailure(f"Invalid QID for {team_id}: {qid}")
         
         # League ID must match team_id prefix
@@ -228,18 +287,36 @@ def test_league_ids():
         league_id = team["league_id"]
         league_counts[league_id] = league_counts.get(league_id, 0) + 1
     
+    # Check NBA
+    if "nba" not in league_counts:
+        raise TestFailure("No teams found for league_id 'nba'")
+    if league_counts["nba"] != EXPECTED_NBA:
+        raise TestFailure(
+            f"Expected {EXPECTED_NBA} nba teams, "
+            f"got {league_counts['nba']}"
+        )
+    
+    # Check WNBA
+    if "wnba" not in league_counts:
+        raise TestFailure("No teams found for league_id 'wnba'")
+    if league_counts["wnba"] != EXPECTED_WNBA:
+        raise TestFailure(
+            f"Expected {EXPECTED_WNBA} wnba teams, "
+            f"got {league_counts['wnba']}"
+        )
+    
+    # Check EuroLeague
     if "euroleague" not in league_counts:
         raise TestFailure("No teams found for league_id 'euroleague'")
-    
-    if "euroleague_women" not in league_counts:
-        raise TestFailure("No teams found for league_id 'euroleague_women'")
-    
     if league_counts["euroleague"] != EXPECTED_EUROLEAGUE_MEN:
         raise TestFailure(
             f"Expected {EXPECTED_EUROLEAGUE_MEN} euroleague teams, "
             f"got {league_counts['euroleague']}"
         )
     
+    # Check EuroLeague Women
+    if "euroleague_women" not in league_counts:
+        raise TestFailure("No teams found for league_id 'euroleague_women'")
     if league_counts["euroleague_women"] != EXPECTED_EUROLEAGUE_WOMEN_WITH_QIDS:
         raise TestFailure(
             f"Expected {EXPECTED_EUROLEAGUE_WOMEN_WITH_QIDS} euroleague_women teams, "
@@ -257,6 +334,7 @@ def main() -> int:
         test_row_counts,
         test_gaps_documented,
         test_required_fields,
+        test_abbr_unique_within_league,
         test_data_integrity,
         test_league_ids,
     ]
