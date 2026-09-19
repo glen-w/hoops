@@ -118,6 +118,7 @@ Track which data products support which sections of the manuscript, ensuring eve
 | TEAMS / Liga ACB | `data/derived/teams/ACB-GAPS.md` | Q324867 | gap |
 | ANALYTICS / glossary | `docs/ANALYTICS-GLOSSARY.md` | TBD | hold |
 | DESK / lookup | `scripts/hoops_ask.py` | TBD | ready |
+| TEAMS / ghost franchises — creative cite-backed vignettes | `docs/creative/ghost-franchises.md` (+ motif index `data/derived/teams/ghost_franchise_motifs.csv`) | TBD | READY (creative v1) — 7 vignettes; facts only from ownership ledgers (access 2026-09-20); no invented prices/owners/dates/events |
 
 ## Column Definitions
 
