@@ -12,6 +12,13 @@ Track which data products support which sections of the manuscript, ensuring eve
 |-------------|------------------|------------|--------|
 | GAME TIME / average game | `data/derived/avg_game_by_decade.csv` | TBD | ready |
 | STADIUM / home court advantage | `data/derived/home_court_2024_playoffs.md` | TBD | wanted |
+| PRE-GAME / popularity | `data/studies/fiba-450-million-players.md` | TBD | ready |
+| LEAGUE / competitive balance | `data/studies/totty-owens-2011-competitive-balance.md` | TBD (add Totty & Owens 2011) | ready |
+| GAME TIME / flow / possession | `data/studies/gomez-2013-possession.md` | TJLRSX3C | ready |
+| GAME TIME / shooting AI | `data/studies/li-zhang-2021-shooting-accuracy.md` | ZCHCYQLI | ready |
+| GAME TIME / officiating / referees / physical | `data/studies/paulauskas-2024-referee-hr.md` | 8GYT2RR5, Z5FDUP5M | ready |
+| GAME TIME / officiating / referees / AI assistants | `data/studies/thomas-acaro-2024-ai-referee-pico.md` | 89QX6WA8 | ready |
+| Annexes / negative studies / dribbling creativity | `data/studies/kanatschnig-2023-dribbling-creativity.md` | M53K3EAJ | ready |
 | ANALYTICS / state of the data | `docs/SLOAN-ARCHIVE.md` + `docs/DATA-REPOS.md` + `docs/BASKETBALL-SOFTWARE.md` + `data/sloan/papers.jsonl` | TBD | ready |
 | EXAMPLE: PLAYERS / height evolution | `data/derived/nba_height_series.csv` | TBD | EXAMPLE |
 | EXAMPLE: TEAM / front office / efficiency | `data/derived/franchise_efficiency_2015_16.md` | TBD | EXAMPLE |
@@ -59,6 +66,11 @@ Track which data products support which sections of the manuscript, ensuring eve
   - `EXAMPLE` — placeholder row for demonstration
 
 ## Notes
+
+**Phase 0 evidence desk (2026-09-19):**
+- Study notes added: competitive balance, dribbling creativity, possession, shooting AI, referee physical/AI, FIBA 450M, home-court 2024
+- Totty & Owens 2011 needs Zotero addition
+- avg_game_by_decade completed via PR #1; do not rebuild (eng owns further transforms)
 
 **NBA org-charts sparse sources:** TOR, CLE, MIL relied more on press releases + NBAstuffer vs. official staff directories; check row-level `confidence` + `as_of` when citing.
 
