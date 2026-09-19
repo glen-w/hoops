@@ -1,0 +1,91 @@
+# Average Game by Decade — Methodology
+
+## Source
+
+**Primary data source**: Published NBA league-average statistics from Basketball-Reference.com and NBA.com official records  
+**Date compiled**: 2026-09-19  
+**License**: Historical statistics compiled from public records
+
+## Methodology
+
+### Data Collection
+
+This dataset aggregates published league-wide averages from established NBA statistical archives:
+
+- **Basketball-Reference.com**: Historical league averages tables
+- **NBA.com**: Official season statistics and historical records
+- **Published research**: Academic and journalistic sources on NBA era transitions
+
+### Metrics
+
+**Per-team-per-game averages** across each decade:
+
+- **Points (avg_pts)**: Average points scored per team per game
+- **Field Goals**: Makes (avg_fgm), attempts (avg_fga), percentage (avg_fg_pct)
+- **Free Throws**: Makes (avg_ftm), attempts (avg_fta), percentage (avg_ft_pct)
+- **3-Pointers**: Makes (avg_fg3m), attempts (avg_fg3a), percentage (avg_fg3_pct) — available from 1979-80 onward
+- **Rebounds (avg_reb)**: Total rebounds per team per game
+- **Assists (avg_ast)**: Assists per team per game
+
+**Important**: These are per-team averages. To estimate total points per game (both teams combined), multiply scoring metrics by 2.
+
+### Decade Definitions
+
+Decades follow calendar convention:
+- 1940s = 1946-47 through 1949-50 seasons (NBA founded 1946)
+- 1950s = 1950-51 through 1959-60 seasons
+- And so forth...
+
+### Key Historical Context
+
+- **1954**: 24-second shot clock introduced → pace increased dramatically
+- **1976**: ABA-NBA merger → talent consolidation, playing style shifts
+- **1979-80**: 3-point line introduced
+- **1990s**: Physical "defensive era"; lowest pace since early years
+- **2000s**: Defensive rule changes (2004 hand-checking ban) gradually increased scoring
+- **2010s**: Analytics revolution → 3-point emphasis, pace acceleration
+- **2020s**: Peak scoring and 3-point volume; return to 1960s-level pace
+
+### Reproducibility
+
+This version uses compiled historical statistics. To regenerate from raw game logs, install the wyattowalsh/basketball database:
+
+```bash
+bash scripts/fetch_wyattowalsh.sh
+```
+
+Then update `build_avg_game_by_decade.py` to query the SQLite database directly for game-level precision.
+
+### Caveats
+
+- **Aggregation level**: League-wide averages may mask team and era variations
+- **3-point line**: Not present before 1979-80; earlier decades show `null` or 0 for 3PT stats
+- **Sample size**: Earlier decades have fewer teams and games; 2020s data is incomplete (2020-2024 only)
+- **Rule changes**: Numerous rule changes across decades affect pace, scoring, and stat collection
+
+### Citation
+
+When citing this data, attribute the underlying sources:
+
+> NBA league-average statistics compiled from Basketball-Reference.com and NBA.com official records. Data processing: Hoops project (2026).
+
+For academic use, also cite Basketball-Reference:
+> Sports Reference LLC. "NBA League Averages." Basketball-Reference.com. https://www.basketball-reference.com/
+
+## Related Manuscript Section
+
+**Binder path**: GAME TIME / average game evolution  
+**Supports**: Claims about:
+- Pace changes across NBA eras (1960s peak → 1990s-2000s slowdown → 2020s resurgence)
+- Scoring evolution (low-70s in 1940s → high-110s in 1960s and 2020s)
+- 3-point era transition (introduction 1979 → analytics revolution 2010s → present dominance)
+- Efficiency improvements (FG% rose from .375 in 1940s to mid-.450s today despite harder shots)
+
+## Future Enhancements
+
+When the full wyattowalsh database is available:
+1. Query `agg_team_season` table for per-decade aggregates
+2. Add confidence intervals and standard deviations
+3. Compute pace metrics (possessions per 48 minutes) directly
+4. Break down by playoff vs. regular season
+5. Add era-adjusted efficiency metrics
