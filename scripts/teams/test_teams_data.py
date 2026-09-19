@@ -34,6 +34,15 @@ EXPECTED_GREEK_BASKET_LEAGUE = 14  # P0e: Greek men
 EXPECTED_LF_ENDESA = 9  # P0e: Spanish women (16 in seed, 7 gaps)
 EXPECTED_LFB = 10  # P0e: French women (12 in seed, 2 gaps)
 EXPECTED_WNBL = 9  # P0e: Australian women
+# P0f: Asia/Oceania/Africa/Turkey domestics
+EXPECTED_CBA = 20  # P0f: Chinese men
+EXPECTED_B_LEAGUE = 26  # P0f: Japanese men
+EXPECTED_KBL = 10  # P0f: Korean men
+EXPECTED_NBL = 10  # P0f: Australian men
+EXPECTED_BSL = 16  # P0f: Turkish men
+EXPECTED_BAL = 12  # P0f: African men (continental)
+EXPECTED_WCBA = 14  # P0f: Chinese women (21 in seed, 7 gaps)
+EXPECTED_WJBL = 8  # P0f: Japanese women
 EXPECTED_TOTAL = (
     EXPECTED_NBA
     + EXPECTED_WNBA
@@ -47,6 +56,14 @@ EXPECTED_TOTAL = (
     + EXPECTED_LF_ENDESA
     + EXPECTED_LFB
     + EXPECTED_WNBL
+    + EXPECTED_CBA
+    + EXPECTED_B_LEAGUE
+    + EXPECTED_KBL
+    + EXPECTED_NBL
+    + EXPECTED_BSL
+    + EXPECTED_BAL
+    + EXPECTED_WCBA
+    + EXPECTED_WJBL
 )
 
 EXPECTED_COLUMNS = [
@@ -82,7 +99,11 @@ VALID_CONFIDENCE = {"high", "medium", "low", "gap"}
 # ISO 3166-1 alpha-2 country codes (partial list for validation)
 VALID_COUNTRY_CODES = {
     "BE", "FR", "DE", "IT", "ES", "GR", "TR", "PL", "CZ", "HU", 
-    "RO", "LT", "RS", "IL", "AE", "AU", "CA", "US", ""  # Empty string allowed for unknown
+    "RO", "LT", "RS", "IL", "AE", "AU", "CA", "US",
+    "CN", "JP", "KR",  # P0f: Asia
+    "NZ",  # P0f: New Zealand (NBL)
+    "ML", "NG", "MA", "TN", "EG", "KE", "TZ", "ZA", "AO", "BW", "RW", "SN", "CI", "CM", "LY", "UG", "MZ",  # P0f: Africa (BAL)
+    ""  # Empty string allowed for unknown
 }
 
 
@@ -170,6 +191,14 @@ def test_row_counts():
         "lf_endesa": EXPECTED_LF_ENDESA,
         "lfb": EXPECTED_LFB,
         "wnbl": EXPECTED_WNBL,
+        "cba": EXPECTED_CBA,
+        "b_league": EXPECTED_B_LEAGUE,
+        "kbl": EXPECTED_KBL,
+        "nbl": EXPECTED_NBL,
+        "bsl": EXPECTED_BSL,
+        "bal": EXPECTED_BAL,
+        "wcba": EXPECTED_WCBA,
+        "wjbl": EXPECTED_WJBL,
     }
     if len(teams) != EXPECTED_TOTAL:
         raise TestFailure(f"Total row count mismatch. Expected {EXPECTED_TOTAL}, got {len(teams)}")
@@ -190,9 +219,9 @@ def test_gaps_documented():
             if team.get("status") == "gap":
                 gap_teams.append(team.get("team_id"))
     
-    if len(gap_teams) != 11:
+    if len(gap_teams) != 18:
         raise TestFailure(
-            f"Expected 11 gap teams in seed (2 EuroLeague Women + 7 LF Endesa + 2 LFB), found {len(gap_teams)}: {gap_teams}"
+            f"Expected 18 gap teams in seed (2 EuroLeague Women + 7 LF Endesa + 2 LFB + 7 WCBA), found {len(gap_teams)}: {gap_teams}"
         )
     
     # Verify gap teams are NOT in CSV

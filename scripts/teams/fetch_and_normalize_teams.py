@@ -104,6 +104,27 @@ COUNTRY_QID_TO_ISO = {
     "Q801": "IL",     # Israel
     "Q846": "AE",     # United Arab Emirates
     "Q408": "AU",     # Australia
+    "Q148": "CN",     # China
+    "Q17": "JP",      # Japan
+    "Q884": "KR",     # South Korea
+    "Q912": "ML",     # Mali
+    "Q1033": "NG",    # Nigeria
+    "Q1028": "MA",    # Morocco
+    "Q948": "TN",     # Tunisia
+    "Q79": "EG",      # Egypt
+    "Q1014": "KE",    # Kenya
+    "Q924": "TZ",     # Tanzania
+    "Q953": "ZA",     # South Africa
+    "Q258": "ZA",     # South Africa (alternate)
+    "Q916": "AO",     # Angola
+    "Q963": "BW",     # Botswana
+    "Q1037": "RW",    # Rwanda
+    "Q1039": "SN",    # Senegal
+    "Q1013": "CI",    # Côte d'Ivoire
+    "Q1009": "CM",    # Cameroon
+    "Q1016": "LY",    # Libya
+    "Q1036": "UG",    # Uganda
+    "Q1029": "MZ",    # Mozambique
 }
 
 
@@ -262,8 +283,8 @@ def process_team(team: dict[str, Any], league_id: str, gender: str) -> dict[str,
     colors_hex = extract_colors_hex(entity) if entity else ""
     former_names = extract_former_names(entity) if entity else ""
     
-    # Derive abbreviation. Partizan and Paris both collapse to PAR.
-    abbr = {"euroleague_partizan": "PTZ"}.get(team_id) or derive_abbr(short_name)
+    # Derive abbreviation (will be uniquified within league later)
+    abbr = derive_abbr(short_name)
     
     # Rate limit: be nice to Wikidata
     time.sleep(0.5)
