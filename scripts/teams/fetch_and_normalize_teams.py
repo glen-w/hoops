@@ -103,6 +103,7 @@ COUNTRY_QID_TO_ISO = {
     "Q403": "RS",     # Serbia
     "Q801": "IL",     # Israel
     "Q846": "AE",     # United Arab Emirates
+    "Q408": "AU",     # Australia
 }
 
 
@@ -319,9 +320,25 @@ def main() -> int:
         
         print(f"\nProcessing {league_name} ({league_id}): {len(teams)} teams")
         
+        # Track abbrs within this league to ensure uniqueness
+        league_abbrs = {}
+        
         for team in teams:
             team_row = process_team(team, league_id, gender)
             if team_row:
+                # Ensure abbr is unique within this league
+                base_abbr = team_row["abbr"]
+                abbr = base_abbr
+                counter = 2
+                while abbr in league_abbrs:
+                    abbr = f"{base_abbr}{counter}"
+                    counter += 1
+                
+                if abbr != base_abbr:
+                    print(f"  Note: Changed abbr for {team_row['team_id']} from {base_abbr} to {abbr} (conflict)")
+                
+                team_row["abbr"] = abbr
+                league_abbrs[abbr] = team_row["team_id"]
                 all_teams.append(team_row)
     
     # Write CSV. Refresh only the leagues in this seed so NBA/WNBA rows stay.
