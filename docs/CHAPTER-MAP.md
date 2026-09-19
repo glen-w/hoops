@@ -55,7 +55,7 @@ Track which data products support which sections of the manuscript, ensuring eve
 | Officiating / referee stats 2023-24 | `data/derived/nba-referees-2023-24/nba_referees_2023_24.csv` | TBD (NBAstuffer) | ready |
 | Disputes / FIBA BAT arbitration | `data/derived/fiba-bat-2022/fiba_bat_arbitration_by_year.csv` | TBD (FIBA official) | ready |
 | TEAM / front office / efficiency | `docs/franchise-efficiency-sources.md` | TBD | source_map |
-| LEAGUE / income | `docs/league-income-sources.md` | TBD | source_map |
+| LEAGUE / income | `data/derived/league_income_ingredients.csv` + `data/derived/league_income_methodology.md` | TBD | ready |
 | BROADCAST / ads | `docs/broadcast-ads-sources.md` | TBD | source_map |
 | LEAGUE / income / schema | `docs/SCHEMA-sketch.md` | TBD | wanted |
 | CBA / structure | `docs/cba-structure-pipeline.md` + `docs/CBA-LOOKUP.md` | TBD | ready |
@@ -85,7 +85,7 @@ Track which data products support which sections of the manuscript, ensuring eve
 
 **NBA org-charts sparse sources:** TOR, CLE, MIL relied more on press releases + NBAstuffer vs. official staff directories; check row-level `confidence` + `as_of` when citing.
 
-**Source notes (2026-09-19):** franchise efficiency, league income, and broadcast ads. The Forbes 22 Apr 2016 Blazers/Celtics attribution in `docs/franchise-efficiency-sources.md` is UNCONFIRMED until the original clipping or URL is supplied.
+**Source notes (2026-09-19):** franchise efficiency, league income, and broadcast ads. The Forbes 22 Apr 2016 Blazers/Celtics attribution in `docs/franchise-efficiency-sources.md` is UNCONFIRMED until the original clipping or URL is supplied. League income v1: media partners and terms are high confidence; media dollars and BRI are medium; licensing, arena, and local revenue are still gaps.
 
 **CBA lookup:** PDFs at `data/raw/cba/{edition}/cba.pdf` are gitignored. The lookup tools work after a local PDF is supplied and extracted. See `docs/cba-structure-pipeline.md`.
 
