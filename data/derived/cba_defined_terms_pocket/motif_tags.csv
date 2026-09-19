@@ -1,0 +1,47 @@
+term,edition,article_ref,motif_tags,guide_slug
+Basketball Related Income,2017,cba:2017:art-I:sec-1:(f),cap|revenue|governance,basketball-related-income-bri
+Basketball Related Income,2023,cba:2023:art-I:sec-1:(h),cap|revenue|governance,basketball-related-income-bri
+Salary Cap,2017,cba:2017:art-I:sec-1,cap|trade|governance,salary-cap
+Salary Cap,2023,cba:2023:art-I:sec-1,cap|trade|governance,salary-cap
+Team Salary,2017,cba:2017:art-I:sec-1,cap|trade,team-salary
+Team Salary,2023,cba:2023:art-I:sec-1,cap|trade,team-salary
+Exception,2017,cba:2017:art-I:sec-1:(y),cap|trade,exception
+Exception,2023,cba:2023:art-I:sec-1:(x),cap|trade,exception
+Room,2017,cba:2017:art-I:sec-1,cap|trade,room
+Room,2023,cba:2023:art-I:sec-1,cap|trade,room
+Moratorium Period,2017,cba:2017:art-I:sec-1,cap|trade|governance,moratorium-period
+Moratorium Period,2023,cba:2023:art-I:sec-1,cap|trade|governance,moratorium-period
+Designated Veteran Player,2017,cba:2017:art-I:sec-1:(q),cap|trade|player,designated-veteran-player
+Designated Veteran Player,2023,cba:2023:art-I:sec-1:(p),cap|trade|player,designated-veteran-player
+Qualifying Veteran Free Agent,2017,cba:2017:art-I:sec-1:(yy),cap|trade|player,qualifying-veteran-free-agent
+Qualifying Veteran Free Agent,2023,cba:2023:art-I:sec-1,cap|trade|player,qualifying-veteran-free-agent
+Early Qualifying Veteran Free Agent,2017,cba:2017:art-I:sec-1:(u),cap|trade|player,early-qualifying-veteran-free-agent
+Early Qualifying Veteran Free Agent,2023,cba:2023:art-I:sec-1:(t),cap|trade|player,early-qualifying-veteran-free-agent
+Non-Qualifying Veteran Free Agent,2017,cba:2017:art-I:sec-1:(rr),cap|trade|player,non-qualifying-veteran-free-agent
+Non-Qualifying Veteran Free Agent,2023,cba:2023:art-I:sec-1,cap|trade|player,non-qualifying-veteran-free-agent
+Rookie Scale Contract,2017,cba:2017:art-I:sec-1,cap|player|draft,rookie-scale-contract
+Rookie Scale Contract,2023,cba:2023:art-I:sec-1,cap|player|draft,rookie-scale-contract
+Two-Way Contract,2017,cba:2017:art-I:sec-1:(yyy),cap|player|roster,two-way-contract
+Two-Way Contract,2023,cba:2023:art-I:sec-1,cap|player|roster,two-way-contract
+Likely Bonus,2017,cba:2017:art-I:sec-1,cap|player,likely-bonus
+Likely Bonus,2023,cba:2023:art-I:sec-1,cap|player,likely-bonus
+Unlikely Bonus,2017,cba:2017:art-I:sec-1,cap|player,unlikely-bonus
+Unlikely Bonus,2023,cba:2023:art-I:sec-1,cap|player,unlikely-bonus
+Minimum Team Salary,2017,cba:2017:art-I:sec-1,cap|governance,minimum-team-salary
+Minimum Team Salary,2023,cba:2023:art-I:sec-1,cap|governance,minimum-team-salary
+Minimum Player Salary,2017,cba:2017:art-I:sec-1,cap|player,minimum-player-salary
+Minimum Player Salary,2023,cba:2023:art-I:sec-1,cap|player,minimum-player-salary
+Maximum Annual Salary,2017,cba:2017:art-I:sec-1,cap|player,maximum-annual-salary
+Maximum Annual Salary,2023,cba:2023:art-I:sec-1,cap|player,maximum-annual-salary
+Years of Service,2017,cba:2017:art-I:sec-1,player|governance,years-of-service
+Years of Service,2023,cba:2023:art-I:sec-1,player|governance,years-of-service
+Active List,2017,cba:2017:art-I:sec-1:(a),roster|governance,active-list-inactive-list
+Active List,2023,cba:2023:art-I:sec-1:(c),roster|governance,active-list-inactive-list
+Inactive List,2017,cba:2017:art-I:sec-1,roster|governance,active-list-inactive-list
+Inactive List,2023,cba:2023:art-I:sec-1,roster|governance,active-list-inactive-list
+Option,2017,cba:2017:art-I:sec-1:(ss),cap|player|roster,option-option-year
+Option,2023,cba:2023:art-I:sec-1,cap|player|roster,option-option-year
+Option Year,2017,cba:2017:art-I:sec-1,cap|player|roster,option-option-year
+Option Year,2023,cba:2023:art-I:sec-1,cap|player|roster,option-option-year
+Prior Team,2017,cba:2017:art-I:sec-1:(ww),cap|trade|player,prior-team
+Prior Team,2023,cba:2023:art-I:sec-1,cap|trade|player,prior-team
