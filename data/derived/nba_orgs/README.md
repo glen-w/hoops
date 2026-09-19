@@ -37,6 +37,8 @@ Map liberally when titles span departments; prefer the **primary** function. Exa
 **Path pattern:** `data/derived/nba_orgs/{team_slug}.csv`  
 **Slugs:** kebab-case full names (`san-antonio-spurs`, `denver-nuggets`, `philadelphia-76ers`, `boston-celtics`, …).
 
+**Sparse official directory caveats:** TOR, CLE, MIL relied more on press releases + NBAstuffer; writers should treat row-level `confidence` + `as_of` as authoritative when citing.
+
 Optional sidecars (not required by Infra): `teams/{team_slug}.jsonl`, `teams/{abbr}.md` research notes.
 
 ---
