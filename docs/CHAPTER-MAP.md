@@ -118,6 +118,8 @@ Track which data products support which sections of the manuscript, ensuring eve
 | TEAMS / Liga ACB | `data/derived/teams/ACB-GAPS.md` | Q324867 | gap |
 | ANALYTICS / glossary | `docs/ANALYTICS-GLOSSARY.md` | TBD | hold |
 | DESK / lookup | `scripts/hoops_ask.py` | TBD | ready |
+| DESK / field guide | `docs/OPEN-THE-DESK.md` | TBD | ready |
+| DESK / journey index | `data/derived/desk/desk_journeys.csv` | TBD | ready |
 
 ## Column Definitions
 
