@@ -14,7 +14,7 @@ Writer-facing chronological ledger of NBA franchise ownership changes for **Glen
 | `ownership_events.csv` | Event-level ledger (one row per ownership/structure event) |
 | `ownership_timeline_by_team.md` | One short section per franchise: current owner + key prior sales |
 | `methodology.md` | Source preference, vocab, price hygiene, gaps |
-| `trends.md` | Stretch one-pager: sole→group, PE, price escalation (cited) |
+| `nba_methodology.md` | Source rules and confidence bands |
 | `README.md` | This file — land path + CHAPTER-MAP note |
 
 ## CSV schema (`ownership_events.csv`)

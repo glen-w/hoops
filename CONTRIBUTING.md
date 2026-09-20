@@ -1,6 +1,6 @@
 # Contributing to the hoops sidecar
 
-Read [SCOPE.md](SCOPE.md) first. Public git holds **artifacts**, not thinking. Creative and motif indexes live under gitignored `local/` (one repo).
+Read [AGENTS.md](AGENTS.md) (short) and [SCOPE.md](SCOPE.md) (full). Public git holds **artifacts**, not thinking. Creative and motif indexes live under gitignored `local/` (one repo).
 
 ## PR checklist (humans and agents)
 

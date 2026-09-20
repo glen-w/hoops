@@ -58,7 +58,8 @@ Field-guide voice is a **manuscript** and **site** job. Motif indexes and creati
 - `docs/DATA-REPOS.md`, `NUMBERS-LANDSCAPE.md`, `open_datasets.csv`, `EVIDENCE.md`
 - `docs/*-sources.md`, ownership `*_methodology.md` / `*_README.md` (not trends essays)
 - `docs/CBA-LOOKUP.md`, `docs/cba-structure-pipeline.md`, `docs/cba/COMPARE-*.md`
-- `scripts/`, `src/`, `schemas/`, `tests/`, `ROADMAP.md`, `README.md`, `SCOPE.md`, `CONTRIBUTING.md`
+- `docs/colour/`, `docs/teams/` — short methodology for landed colour/name artifacts
+- `scripts/`, `src/`, `schemas/`, `tests/`, `ROADMAP.md`, `README.md`, `SCOPE.md`, `CONTRIBUTING.md`, `AGENTS.md`
 - `pyproject.toml`, lockfiles, CI config
 
 ### Deny (do not add)

@@ -6,7 +6,7 @@ The manuscript stays in Scrivener (`/Users/89298/Documents/Hoops/hoops.scriv`). 
 
 ## Quick Links
 
-- **What belongs here:** [SCOPE.md](SCOPE.md) · [CONTRIBUTING.md](CONTRIBUTING.md)
+- **What belongs here:** [AGENTS.md](AGENTS.md) · [SCOPE.md](SCOPE.md) · [CONTRIBUTING.md](CONTRIBUTING.md)
 - Roadmap: [ROADMAP.md](ROADMAP.md)
 - What the draft already asks for: [data/mentions.csv](data/mentions.csv)
 - Open basketball data landscape: [docs/NUMBERS-LANDSCAPE.md](docs/NUMBERS-LANDSCAPE.md) | [docs/DATA-REPOS.md](docs/DATA-REPOS.md)
