@@ -4,7 +4,7 @@ This directory contains **user-supplied** NBA Collective Bargaining Agreement PD
 
 ## ⚠️ Not in Git
 
-CBA PDFs are **gitignored** and must be provided locally. The league and NBPA retain copyright over CBA text. This repository commits only **derived structural metadata** (article/section/exhibit IDs, titles, page ranges, content hashes) to `data/derived/cba/`.
+CBA PDFs are **gitignored** and must be provided locally. The league and NBPA retain copyright over CBA text. This repository commits structural metadata (article/section/exhibit indexes, page ranges, content hashes) to [`data/cba/`](../../cba/README.md). `data/derived/cba/` is an older fixture with a different JSON shape. Do not treat the two trees as copies.
 
 ## Source
 
@@ -20,15 +20,8 @@ CBA PDFs are **gitignored** and must be provided locally. The league and NBPA re
 2. **Place it locally:**
    - `data/raw/cba/2023/cba.pdf` (for 2023 edition)
    - `data/raw/cba/2017/cba.pdf` (for 2017 edition)
-3. **Run the extraction script:**
-   ```bash
-   python scripts/cba/build_cba_structure.py --edition 2023 --pdf data/raw/cba/2023/cba.pdf
-   ```
-4. **Commit only the derived structure:**
-   ```bash
-   git add data/derived/cba/2023/structure.json
-   git commit -m "Update 2023 CBA structure"
-   ```
+3. **The committed indexes are already in** `data/cba/<edition>/derived/`. Lookup reads that tree first.
+4. **If you regenerate,** `scripts/cba/extract_cba.py` writes `data/cba/<edition>/derived/structure.json` by default. The deprecated `build_cba_structure.py` writes the older fixture shape under `data/derived/cba/`. Do not overwrite one tree with the other's output.
 
 ## File Provenance
 
@@ -43,7 +36,7 @@ The build script computes and stores the SHA-256 hash in `structure.json` automa
 
 ## Regenerating
 
-If the PDF is present, CI validation will regenerate structure and diff it against the committed version. If the PDF is absent, CI skips extraction with a clear message.
+`scripts/cba/ci_validate.sh` still diffs a regeneration against `data/derived/cba/`, the fixture tree. It does not check the indexes in `data/cba/`. If the PDF is absent, that script skips extraction.
 
 ## Integration with CHAPTER-MAP
 

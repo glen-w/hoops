@@ -118,6 +118,10 @@ Track which data products support which sections of the manuscript, ensuring eve
 | TEAMS / Liga ACB | `data/derived/teams/ACB-GAPS.md` | Q324867 | gap |
 | ANALYTICS / glossary | `docs/ANALYTICS-GLOSSARY.md` | TBD | hold |
 | DESK / lookup | `scripts/hoops_ask.py` | TBD | ready |
+| TEAMS / ghost franchises — creative cite-backed vignettes | `docs/creative/ghost-franchises.md` | TBD | ready — 7 vignettes; facts only from ownership ledgers (access 2026-09-20); motif index `docs/creative/ghost_franchise_motifs.csv` |
+| CREATIVE / box-score sonnets | `docs/creative/box-score-sonnets/` | TBD | ready — four cite-backed sonnets; numbers from decade, sample-season, and height series |
+| EVIDENCE / CBA pocket guide | `data/derived/cba_defined_terms_pocket/` | TBD | ready — 20 defined-term vignettes from 2017 and 2023 structure metadata; no CBA prose reproduced |
+| TEAMS / FIBA BAT — creative cite-backed postcards | `docs/creative/bat-arbitration-postcards.md` | TBD | ready — 7 postcards; counts from `data/derived/fiba-bat-2022/` and the FIBA BAT Statistics PDF (access 2026-09-20); motif index `docs/creative/bat_postcard_motifs.csv` |
 | CBA / salary — Cap·Tax·Apron·MLE (2016-17–2026-27) | `data/derived/salary_cap_apron/nba_salary_cap_apron_history.csv` | TBD | ready — pr.nba.com only; aprons from 2023-24 |
 | CBA / salary — Cap/apron methodology | `data/derived/salary_cap_apron/methodology.md` | TBD | ready — primary-source-only rule |
 

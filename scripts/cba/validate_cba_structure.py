@@ -8,8 +8,8 @@ Uses the hoops_data.cba.validate module for comprehensive validation including:
 - Structure integrity checks
 
 Usage:
-    python scripts/cba/validate_cba_structure.py data/derived/cba/2023/structure.json
-    python scripts/cba/validate_cba_structure.py data/derived/cba/*/structure.json --strict
+    python scripts/cba/validate_cba_structure.py data/derived/cba/2023/structure.fixture.json
+    python scripts/cba/validate_cba_structure.py data/derived/cba/2023/structure.fixture.json --strict
 """
 
 import argparse

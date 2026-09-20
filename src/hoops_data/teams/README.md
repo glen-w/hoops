@@ -6,7 +6,7 @@ Reproducible pipeline for scraping Wikidata/Wikipedia/Commons for top-tier men's
 
 This package provides structured data for basketball teams across major leagues:
 
-- **`leagues_seed.yaml`** — Curated P0 league inventory with Wikidata QIDs
+- **`leagues_seed.yaml`** — League inventory for this package's Wikidata fetch. The seed behind `teams.csv` is `scripts/teams/leagues_seed.yaml`. These are not copies, and QIDs can disagree.
 - **`fetch_wikidata_teams.py`** — SPARQL queries to Wikidata for team metadata
 - **`normalize_teams.py`** — Converts raw JSONL to derived CSV tables
 - **`fetch_logos.py`** — Downloads free-license logos from Wikimedia Commons

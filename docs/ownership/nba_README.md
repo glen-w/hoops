@@ -2,10 +2,11 @@
 
 Writer-facing chronological ledger of NBA franchise ownership changes for **Glen’s Hoops desk**.
 
-**Box path:** `/workspace/hoops-nba-ownership-ledger-2026-09-19/`  
+**Landed** in `data/derived/teams/ownership_events.csv` and `data/derived/teams/ownership_timeline_by_team.md`. Edit those, not a box copy. There is no second copy of this note under `data/derived/teams/ownership/`.
+
+**Built in:** `/workspace/hoops-nba-ownership-ledger-2026-09-19/`  
 **Access / as-of:** 2026-09-19  
-**Scope:** All 30 current NBA franchises; 2000–2026 sales plus thickened pre-2000 / 20th-century founding, early sales, and multi-city ownership paths.  
-**Constraint:** Box only — no git PR in this pass.
+**Scope:** All 30 current NBA franchises; 2000–2026 sales plus thickened pre-2000 / 20th-century founding, early sales, and multi-city ownership paths.
 
 ## Files
 | File | Role |
@@ -24,9 +25,10 @@ Writer-facing chronological ledger of NBA franchise ownership changes for **Glen
 - `confidence`: `HIGH` \| `MEDIUM` \| `LOW`
 - Blank `price_usd_reported` = unconfirmed (**do not invent**); see `price_notes` / GAP language.
 
-## Intended land (later)
-- **Derived data:** `data/derived/teams/ownership_events.csv` (copy/adapt this CSV).
-- **CHAPTER-MAP:** Add a row pointing writers to this ledger + timeline for ownership beats (sales, control stakes, relocation-with-owner, price context). Suggested slug: `teams/ownership_events` / “NBA franchise ownership & sales ledger”.
+## Landed
+- **Events:** `data/derived/teams/ownership_events.csv`
+- **Timeline:** `data/derived/teams/ownership_timeline_by_team.md`
+- **Chapter map:** `docs/CHAPTER-MAP.md`, row `TEAMS / ownership — NBA franchise sales & control`
 
 ## Pending deals (do not treat as closed control)
 - **LAL:** Mark Walter → Josh Kushner & Bob Iger group (~$12.5B reported) — announced 2026-08-12; BOG pending as of access date.
