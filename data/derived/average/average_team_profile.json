@@ -4,7 +4,7 @@
   "as_of_access": "2026-09-20",
   "n_teams": 30,
   "sources": {
-    "teams_desk": "/workspace/hoops-swatches-work/data/derived/teams/teams.csv",
+    "teams_desk": "data/derived/teams/teams.csv",
     "metro_us": "https://www2.census.gov/programs-surveys/popest/datasets/2020-2023/metro/totals/cbsa-est2023-alldata.csv",
     "metro_toronto": "https://en.wikipedia.org/wiki/Greater_Toronto_Area (StatCan 2021 via Wikipedia; access 2026-09-20)",
     "conference_division": "https://en.wikipedia.org/wiki/National_Basketball_Association (access 2026-09-20)"
