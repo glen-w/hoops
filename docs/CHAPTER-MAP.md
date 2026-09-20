@@ -12,8 +12,8 @@ Track which data products support which sections of the manuscript, ensuring eve
 
 | Binder Path | Derived Artifact | Zotero Key | Status |
 |-------------|------------------|------------|--------|
-| GAME TIME / average game | `data/derived/avg_game_by_decade.csv` | TBD | ready |
-| GAME TIME / average game / landmark seasons | `data/derived/avg_game_by_decade/` | TBD | ready |
+| GAME TIME / average game | `data/derived/avg_game_by_decade/avg_game_by_decade.csv` | TBD (Basketball-Reference) | ready — decade means 1979-80…2023-24 + pace; partial 1970s/2020s |
+| GAME TIME / average game / landmarks | `data/derived/avg_game_by_decade/sample_seasons_landmarks.csv` | TBD (Basketball-Reference) | ready — see methodology beside pack |
 | STADIUM / home court advantage | `data/derived/home_court_2024_playoffs.md` + `.csv` | TBD | ready |
 | PRE-GAME / popularity | `data/studies/fiba-450-million-players.md` | TBD | ready |
 | LEAGUE / competitive balance | `data/studies/totty-owens-2011-competitive-balance.md` | TBD (add Totty & Owens 2011) | ready |
@@ -82,34 +82,9 @@ Track which data products support which sections of the manuscript, ensuring eve
 | CBA / 2017 Article XI / Rookie Scale | `data/cba/2017/derived/structure.json` | TBD | ready |
 | CBA / 2017 Exhibits | `data/cba/2017/derived/structure.json` | TBD | ready |
 | CBA / compare 2017-2023 | `docs/cba/COMPARE-2017-2023.md` | TBD | ready |
-| LEAGUE / teams desk | `data/derived/teams/` | TBD | partial — 441 teams; ownership enriched; colours/logos open; QID gaps in gap notes |
-| TEAMS / global / EuroLeague | `data/derived/teams/teams.csv` | TBD | ready |
-| TEAMS / global / EuroLeague Women | `data/derived/teams/teams.csv` | TBD | ready |
-| TEAMS / global / Liga ACB | `data/derived/teams/teams.csv` | TBD | ready — Spanish men (18 clubs) |
-| TEAMS / global / LNB Élite | `data/derived/teams/teams.csv` | TBD | ready — French men (16 clubs) |
-| TEAMS / global / Basketball Bundesliga | `data/derived/teams/teams.csv` | TBD | ready — German men (18 clubs) |
-| TEAMS / global / Lega Basket Serie A | `data/derived/teams/teams.csv` | TBD | ready — Italian men (16 clubs) |
-| TEAMS / global / Greek Basketball League | `data/derived/teams/teams.csv` | TBD | ready — Greek men (14 clubs) |
-| TEAMS / global / Liga Femenina de Baloncesto | `data/derived/teams/teams.csv` | TBD | ready — Spanish women (9 clubs with QIDs, 7 gaps) |
-| TEAMS / global / Ligue Féminine de Basketball | `data/derived/teams/teams.csv` | TBD | ready — French women (10 clubs with QIDs, 2 gaps) |
-| TEAMS / global / WNBL | `data/derived/teams/teams.csv` | TBD | ready — Australian women (9 clubs) |
-| TEAMS / global / Chinese Basketball Association | `data/derived/teams/teams.csv` | TBD | ready — Chinese men (20 clubs) |
-| TEAMS / global / B.League | `data/derived/teams/teams.csv` | TBD | ready — Japanese men (26 clubs) |
-| TEAMS / global / Korean Basketball League | `data/derived/teams/teams.csv` | TBD | ready — Korean men (10 clubs) |
-| TEAMS / global / National Basketball League (AU) | `data/derived/teams/teams.csv` | TBD | ready — Australian men (10 clubs) |
-| TEAMS / global / Basketbol Süper Ligi | `data/derived/teams/teams.csv` | TBD | ready — Turkish men (16 clubs) |
-| TEAMS / global / Basketball Africa League | `data/derived/teams/teams.csv` | TBD | ready — African men (12 clubs, continental) |
-| TEAMS / global / Women's Chinese Basketball Association | `data/derived/teams/teams.csv` | TBD | ready — Chinese women (14 clubs with QIDs, 7 gaps) |
-| TEAMS / global / Women's Japan Basketball League | `data/derived/teams/teams.csv` | TBD | ready — Japanese women (8 clubs) |
-| TEAMS / global / Novo Basquete Brasil | `data/derived/teams/teams.csv` | TBD | ready — Brazilian men (17 clubs with QIDs, 1 gap) |
-| TEAMS / global / Liga Nacional de Básquet (AR) | `data/derived/teams/teams.csv` | TBD | ready — Argentine men (18 clubs) |
-| TEAMS / global / Liga Nacional de Baloncesto Profesional (MX) | `data/derived/teams/teams.csv` | TBD | ready — Mexican men (14 clubs) |
-| TEAMS / global / Liga de Basquete Feminino | `data/derived/teams/teams.csv` | TBD | ready — Brazilian women (1 club with QID, 9 gaps) |
-| TEAMS / global / Liga Femenina de Básquetbol (AR) | `data/derived/teams/teams.csv` | TBD | ready — Argentine women (4 clubs with QIDs, 16 gaps) |
-| TEAMS / global / ABA Adriatic League | `data/derived/teams/teams.csv` | TBD | ready — P0h regional Adriatic men (20 clubs) |
-| TEAMS / global / Philippine Basketball Association | `data/derived/teams/teams.csv` | TBD | ready — P0h Philippine men (12 franchise QIDs) |
-| TEAMS / global / NBA G League | `data/derived/teams/teams.csv` | TBD | ready — P0h NBA G League men (31 teams) |
-| TEAMS / global / Israeli Basketball Premier League | `data/derived/teams/teams.csv` | TBD | ready — P0h Israeli Winner League men (14 clubs) |
+| LEAGUE / teams desk | `data/derived/teams/teams.csv` | TBD | partial — 441 teams; NBA/WNBA/G League full; EuroLeague/domestics enriched; QID gaps noted |
+| TEAMS / global / EuroLeague men + women | `data/derived/teams/teams.csv` | TBD | ready — 38 clubs |
+| TEAMS / global / domestic leagues | `data/derived/teams/teams.csv` | TBD | partial — ACB/LNB/BBL/Serie A/Greek/CBA/B.League/KBL/NBL/BSL/BAL/NBB/LNB/LNBP/Adriatic/PBA/Israeli; QID gaps in women's domestics |
 | TEAMS / ownership — NBA franchise sales & control | `data/derived/teams/ownership_events.csv` | TBD | ready — 158 events; LAL/MIN flags; see `ownership_timeline_by_team.md`, `docs/ownership/nba_*` |
 | TEAMS / ownership — EuroLeague club structures & sales | `data/derived/teams/euroleague_current_ownership.csv` | TBD | ready — 20/20 structures, 54 events; see euroleague events CSV + `docs/ownership/euroleague_*` |
 | Binder / comparable books desk | `data/derived/books/comparable.csv` | TBD | ready |
@@ -120,17 +95,15 @@ Track which data products support which sections of the manuscript, ensuring eve
 | CBA / salary — Cap·Tax·Apron·MLE (2016-17–2026-27) | `data/derived/salary_cap_apron/nba_salary_cap_apron_history.csv` | TBD | ready — pr.nba.com only; aprons from 2023-24 |
 | CBA / salary — Cap/apron methodology | `data/derived/salary_cap_apron/methodology.md` | TBD | ready — primary-source-only rule |
 | TEAMS / relocation graph | `data/derived/teams/relocation_edges.csv` | TBD | ready — nodes and edges from `teams.csv` former_names; see `relocation_methodology.md` |
-| TEAMS / mascot bestiary | `data/derived/teams/mascot_bestiary.csv` | TBD | ready — 441 rows; 30 HIGH with mascot text, 411 GAP; see `mascot_methodology.md` |
-| TEAMS / abbreviation phonology | `data/derived/teams/abbr_phonology.csv` | TBD | ready — 441 abbreviation pattern rows; see `abbr_phonology_methodology.md` |
 | AVERAGE / teams composite | `data/derived/average/average_team_profile.md` | TBD | ready — ownership mode majority; median capacity 19019; colour GAP |
 | AVERAGE / players universe | `data/derived/average/nba_players_historical.csv` | TBD | ready — 4550 rows; coverage ≤2018 |
 | AVERAGE / videogame ratings seed | `data/derived/average/nba_videogame_ratings_seed.csv` | TBD | ready — 97 rows; see sources note |
 | AVERAGE / methodology | `docs/average/methodology.md` | TBD | ready — no mean hex; no string-mean names |
-
 | COLOUR / paint corpora seed | `data/derived/paint/dulux_colours.csv` | B4QRGG3Q; 9XJJWT6G | ready — Dulux 442 + Pantone 540 seeds with per-row source URLs |
 | COLOUR / NBA team hex cite | `data/derived/teams/nba_team_colours_cited.csv` | VPFRT5BC | ready — MEDIUM from wiki sports-colour module; does not fill teams.csv colour GAP |
 | COLOUR / paint × team crosswalk | `data/derived/paint/team_colour_paint_matches.csv` | VPFRT5BC | ready — CIE76 ΔE nearest paint; 180 match rows |
 | TEAMS / Chinese NBA name renderings | `data/derived/teams/nba_team_names_zh.csv` | CM7M2WZN | ready — 30/30 hans+hant; see `docs/teams/nba_team_names_zh_methodology.md` |
+| TEAM / front office / staff/roles | `data/derived/nba_analytics_staff/nba_analytics_dept_counts.csv` | TBD (NBAstuffer) | ready — MEDIUM third-party; 30 teams; Current-only |
 
 ## Column Definitions
 

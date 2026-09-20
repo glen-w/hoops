@@ -1,0 +1,8 @@
+season,metric,label,draft_value,bref_value,delta_bref_minus_draft,status,source_url,access_date
+2023-24,fga,field-goal attempts,88.9,88.9,0.0,MATCH,https://www.basketball-reference.com/leagues/NBA_stats_per_game.html,2026-09-20
+2023-24,fg_pct,field-goal pct (draft said 47%),0.47,0.474,0.004,MATCH,https://www.basketball-reference.com/leagues/NBA_stats_per_game.html,2026-09-20
+2023-24,fg3a,three-point attempts,35.1,35.1,0.0,MATCH,https://www.basketball-reference.com/leagues/NBA_stats_per_game.html,2026-09-20
+2023-24,fta,free-throw attempts,21.7,21.7,0.0,MATCH,https://www.basketball-reference.com/leagues/NBA_stats_per_game.html,2026-09-20
+2023-24,drb,defensive rebounds,33.0,33.0,0.0,MATCH,https://www.basketball-reference.com/leagues/NBA_stats_per_game.html,2026-09-20
+2023-24,orb,offensive rebounds,10.6,10.6,0.0,MATCH,https://www.basketball-reference.com/leagues/NBA_stats_per_game.html,2026-09-20
+2023-24,ast,assists,26.7,26.7,0.0,MATCH,https://www.basketball-reference.com/leagues/NBA_stats_per_game.html,2026-09-20
