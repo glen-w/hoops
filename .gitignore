@@ -1,0 +1,34 @@
+.DS_Store
+.env
+.env.*
+
+# Local writing workflow. Not the sidecar, not the manuscript.
+# Put creative drafts, spike diaries, notebooks, and agent scratch here.
+local/
+local/**
+.venv/
+.pytest_cache/
+__pycache__/
+node_modules/
+
+# Common untracked scratch names if someone forgets local/
+**/scratch/
+**/*-scratch.md
+**/AGENT-NOTES.md
+**/CHAPTER-MAP-append.md
+
+# Empty local queue file. Not a dataset.
+data/queue-state.json
+
+# Downloaded dumps stay local until a license check says they can be committed.
+data/raw/**
+!data/raw/**/
+!data/raw/**/README.md
+!data/raw/**/LICENSES.md
+!data/raw/LICENSES.md
+!data/raw/.gitkeep
+*.sqlite
+
+# CBA PDFs and extracted fulltext (league/NBPA proprietary)
+data/raw/cba/**/*.pdf
+data/raw/cba/**/*.txt

@@ -1,0 +1,85 @@
+team_id,league_id,name,org_chart,cba_articles,income_ingredients,bundle_status,notes
+nba_celtics_q131371,nba,Boston Celtics,data/derived/nba_orgs/boston-celtics.csv,data/cba/2023/derived/structure.json (cba:2023:art-VII); data/cba/2023/derived/headings_index.json,data/derived/league_income_ingredients.csv,ready,
+nba_nets_q976396,nba,Brooklyn Nets,data/derived/nba_orgs/brooklyn-nets.csv,data/cba/2023/derived/structure.json (cba:2023:art-VII); data/cba/2023/derived/headings_index.json,data/derived/league_income_ingredients.csv,ready,
+nba_knicks_q131364,nba,New York Knicks,data/derived/nba_orgs/new-york-knicks.csv,data/cba/2023/derived/structure.json (cba:2023:art-VII); data/cba/2023/derived/headings_index.json,data/derived/league_income_ingredients.csv,ready,
+nba_76ers_q138089,nba,Philadelphia 76ers,data/derived/nba_orgs/philadelphia-76ers.csv,data/cba/2023/derived/structure.json (cba:2023:art-VII); data/cba/2023/derived/headings_index.json,data/derived/league_income_ingredients.csv,ready,
+nba_raptors_q329816,nba,Toronto Raptors,data/derived/nba_orgs/toronto-raptors.csv,data/cba/2023/derived/structure.json (cba:2023:art-VII); data/cba/2023/derived/headings_index.json,data/derived/league_income_ingredients.csv,ready,
+nba_bulls_q128109,nba,Chicago Bulls,data/derived/nba_orgs/chicago-bulls.csv,data/cba/2023/derived/structure.json (cba:2023:art-VII); data/cba/2023/derived/headings_index.json,data/derived/league_income_ingredients.csv,ready,
+nba_cavaliers_q162990,nba,Cleveland Cavaliers,data/derived/nba_orgs/cleveland-cavaliers.csv,data/cba/2023/derived/structure.json (cba:2023:art-VII); data/cba/2023/derived/headings_index.json,data/derived/league_income_ingredients.csv,ready,
+nba_pistons_q169637,nba,Detroit Pistons,data/derived/nba_orgs/detroit-pistons.csv,data/cba/2023/derived/structure.json (cba:2023:art-VII); data/cba/2023/derived/headings_index.json,data/derived/league_income_ingredients.csv,ready,
+nba_pacers_q170329,nba,Indiana Pacers,data/derived/nba_orgs/indiana-pacers.csv,data/cba/2023/derived/structure.json (cba:2023:art-VII); data/cba/2023/derived/headings_index.json,data/derived/league_income_ingredients.csv,ready,
+nba_bucks_q169165,nba,Milwaukee Bucks,data/derived/nba_orgs/milwaukee-bucks.csv,data/cba/2023/derived/structure.json (cba:2023:art-VII); data/cba/2023/derived/headings_index.json,data/derived/league_income_ingredients.csv,ready,
+nba_hawks_q140558,nba,Atlanta Hawks,data/derived/nba_orgs/atlanta-hawks.csv,data/cba/2023/derived/structure.json (cba:2023:art-VII); data/cba/2023/derived/headings_index.json,data/derived/league_income_ingredients.csv,ready,
+nba_hornets_q162954,nba,Charlotte Hornets,data/derived/nba_orgs/charlotte-hornets.csv,data/cba/2023/derived/structure.json (cba:2023:art-VII); data/cba/2023/derived/headings_index.json,data/derived/league_income_ingredients.csv,ready,
+nba_heat_q169138,nba,Miami Heat,data/derived/nba_orgs/miami-heat.csv,data/cba/2023/derived/structure.json (cba:2023:art-VII); data/cba/2023/derived/headings_index.json,data/derived/league_income_ingredients.csv,ready,
+nba_magic_q180950,nba,Orlando Magic,data/derived/nba_orgs/orlando-magic.csv,data/cba/2023/derived/structure.json (cba:2023:art-VII); data/cba/2023/derived/headings_index.json,data/derived/league_income_ingredients.csv,ready,
+nba_wizards_q161337,nba,Washington Wizards,data/derived/nba_orgs/washington-wizards.csv,data/cba/2023/derived/structure.json (cba:2023:art-VII); data/cba/2023/derived/headings_index.json,data/derived/league_income_ingredients.csv,ready,
+nba_nuggets_q165529,nba,Denver Nuggets,data/derived/nba_orgs/denver-nuggets.csv,data/cba/2023/derived/structure.json (cba:2023:art-VII); data/cba/2023/derived/headings_index.json,data/derived/league_income_ingredients.csv,ready,
+nba_timberwolves_q157376,nba,Minnesota Timberwolves,data/derived/nba_orgs/minnesota-timberwolves.csv,data/cba/2023/derived/structure.json (cba:2023:art-VII); data/cba/2023/derived/headings_index.json,data/derived/league_income_ingredients.csv,ready,
+nba_thunder_q180748,nba,Oklahoma City Thunder,data/derived/nba_orgs/oklahoma-city-thunder.csv,data/cba/2023/derived/structure.json (cba:2023:art-VII); data/cba/2023/derived/headings_index.json,data/derived/league_income_ingredients.csv,ready,
+nba_blazers_q180950,nba,Portland Trail Blazers,data/derived/nba_orgs/portland-trail-blazers.csv,data/cba/2023/derived/structure.json (cba:2023:art-VII); data/cba/2023/derived/headings_index.json,data/derived/league_income_ingredients.csv,ready,
+nba_jazz_q166105,nba,Utah Jazz,data/derived/nba_orgs/utah-jazz.csv,data/cba/2023/derived/structure.json (cba:2023:art-VII); data/cba/2023/derived/headings_index.json,data/derived/league_income_ingredients.csv,ready,
+nba_warriors_q169661,nba,Golden State Warriors,data/derived/nba_orgs/golden-state-warriors.csv,data/cba/2023/derived/structure.json (cba:2023:art-VII); data/cba/2023/derived/headings_index.json,data/derived/league_income_ingredients.csv,ready,
+nba_clippers_q976893,nba,LA Clippers,data/derived/nba_orgs/la-clippers.csv,data/cba/2023/derived/structure.json (cba:2023:art-VII); data/cba/2023/derived/headings_index.json,data/derived/league_income_ingredients.csv,ready,
+nba_lakers_q121661,nba,Los Angeles Lakers,data/derived/nba_orgs/los-angeles-lakers.csv,data/cba/2023/derived/structure.json (cba:2023:art-VII); data/cba/2023/derived/headings_index.json,data/derived/league_income_ingredients.csv,ready,
+nba_suns_q164177,nba,Phoenix Suns,data/derived/nba_orgs/phoenix-suns.csv,data/cba/2023/derived/structure.json (cba:2023:art-VII); data/cba/2023/derived/headings_index.json,data/derived/league_income_ingredients.csv,ready,
+nba_kings_q166105,nba,Sacramento Kings,data/derived/nba_orgs/sacramento-kings.csv,data/cba/2023/derived/structure.json (cba:2023:art-VII); data/cba/2023/derived/headings_index.json,data/derived/league_income_ingredients.csv,ready,
+nba_mavericks_q169542,nba,Dallas Mavericks,data/derived/nba_orgs/dallas-mavericks.csv,data/cba/2023/derived/structure.json (cba:2023:art-VII); data/cba/2023/derived/headings_index.json,data/derived/league_income_ingredients.csv,ready,
+nba_rockets_q160893,nba,Houston Rockets,data/derived/nba_orgs/houston-rockets.csv,data/cba/2023/derived/structure.json (cba:2023:art-VII); data/cba/2023/derived/headings_index.json,data/derived/league_income_ingredients.csv,ready,
+nba_grizzlies_q169950,nba,Memphis Grizzlies,data/derived/nba_orgs/memphis-grizzlies.csv,data/cba/2023/derived/structure.json (cba:2023:art-VII); data/cba/2023/derived/headings_index.json,data/derived/league_income_ingredients.csv,ready,
+nba_pelicans_q180950,nba,New Orleans Pelicans,data/derived/nba_orgs/new-orleans-pelicans.csv,data/cba/2023/derived/structure.json (cba:2023:art-VII); data/cba/2023/derived/headings_index.json,data/derived/league_income_ingredients.csv,ready,
+nba_spurs_q164177,nba,San Antonio Spurs,data/derived/nba_orgs/san-antonio-spurs.csv,data/cba/2023/derived/structure.json (cba:2023:art-VII); data/cba/2023/derived/headings_index.json,data/derived/league_income_ingredients.csv,ready,
+wnba_dream_q140558,wnba,Atlanta Dream,,,,partial,"No org chart. Do not invent staff, colors, or owners."
+wnba_sky_q131371,wnba,Chicago Sky,,,,partial,"No org chart. Do not invent staff, colors, or owners."
+wnba_sun_q162990,wnba,Connecticut Sun,,,,partial,"No org chart. Do not invent staff, colors, or owners."
+wnba_wings_q169637,wnba,Dallas Wings,,,,partial,"No org chart. Do not invent staff, colors, or owners."
+wnba_fever_q170329,wnba,Indiana Fever,,,,partial,"No org chart. Do not invent staff, colors, or owners."
+wnba_aces_q169165,wnba,Las Vegas Aces,,,,partial,"No org chart. Do not invent staff, colors, or owners."
+wnba_sparks_q1441324,wnba,Los Angeles Sparks,,,,partial,"No org chart. Do not invent staff, colors, or owners."
+wnba_lynx_q140558,wnba,Minnesota Lynx,,,,partial,"No org chart. Do not invent staff, colors, or owners."
+wnba_liberty_q1426420,wnba,New York Liberty,,,,partial,"No org chart. Do not invent staff, colors, or owners."
+wnba_mercury_q162954,wnba,Phoenix Mercury,,,,partial,"No org chart. Do not invent staff, colors, or owners."
+wnba_storm_q169138,wnba,Seattle Storm,,,,partial,"No org chart. Do not invent staff, colors, or owners."
+wnba_mystics_q180950,wnba,Washington Mystics,,,,partial,"No org chart. Do not invent staff, colors, or owners."
+euroleague_anadolu_efes,euroleague,Anadolu Efes Istanbul,,,,partial,"No org chart. Do not invent staff, colors, or owners."
+euroleague_asvel,euroleague,LDLC ASVEL Villeurbanne,,,,partial,"No org chart. Do not invent staff, colors, or owners."
+euroleague_baskonia,euroleague,Baskonia Vitoria-Gasteiz,,,,partial,"No org chart. Do not invent staff, colors, or owners."
+euroleague_besiktas,euroleague,Beşiktaş Istanbul,,,,partial,"No org chart. Do not invent staff, colors, or owners."
+euroleague_crvena_zvezda,euroleague,Crvena zvezda Meridianbet Belgrade,,,,partial,"No org chart. Do not invent staff, colors, or owners."
+euroleague_dubai,euroleague,Dubai Basketball,,,,partial,"No org chart. Do not invent staff, colors, or owners."
+euroleague_olimpia_milano,euroleague,EA7 Emporio Armani Milan,,,,partial,"No org chart. Do not invent staff, colors, or owners."
+euroleague_barcelona,euroleague,FC Barcelona,,,,partial,"No org chart. Do not invent staff, colors, or owners."
+euroleague_bayern,euroleague,FC Bayern Munich,,,,partial,"No org chart. Do not invent staff, colors, or owners."
+euroleague_fenerbahce,euroleague,Fenerbahçe Beko Istanbul,,,,partial,"No org chart. Do not invent staff, colors, or owners."
+euroleague_hapoel_tel_aviv,euroleague,Hapoel IBI Tel Aviv,,,,partial,"No org chart. Do not invent staff, colors, or owners."
+euroleague_maccabi_tel_aviv,euroleague,Maccabi Playtika Tel Aviv,,,,partial,"No org chart. Do not invent staff, colors, or owners."
+euroleague_olympiacos,euroleague,Olympiacos Piraeus,,,,partial,"No org chart. Do not invent staff, colors, or owners."
+euroleague_panathinaikos,euroleague,Panathinaikos AKTOR Athens,,,,partial,"No org chart. Do not invent staff, colors, or owners."
+euroleague_paris,euroleague,Paris Basketball,,,,partial,"No org chart. Do not invent staff, colors, or owners."
+euroleague_partizan,euroleague,Partizan Mozzart Bet Belgrade,,,,partial,"No org chart. Do not invent staff, colors, or owners."
+euroleague_real_madrid,euroleague,Real Madrid,,,,partial,"No org chart. Do not invent staff, colors, or owners."
+euroleague_valencia,euroleague,Valencia Basket,,,,partial,"No org chart. Do not invent staff, colors, or owners."
+euroleague_virtus,euroleague,Virtus Segafredo Bologna,,,,partial,"No org chart. Do not invent staff, colors, or owners."
+euroleague_zalgiris,euroleague,Žalgiris Kaunas,,,,partial,"No org chart. Do not invent staff, colors, or owners."
+euroleague_women_fenerbahce,euroleague_women,Fenerbahçe Tarfin,,,,partial,"No org chart. Do not invent staff, colors, or owners."
+euroleague_women_galatasaray,euroleague_women,Galatasaray Çağdaş Faktoring,,,,partial,"No org chart. Do not invent staff, colors, or owners."
+euroleague_women_valencia,euroleague_women,Valencia Basket,,,,partial,"No org chart. Do not invent staff, colors, or owners."
+euroleague_women_zaragoza,euroleague_women,Casademont Zaragoza,,,,partial,"No org chart. Do not invent staff, colors, or owners."
+euroleague_women_basket_landes,euroleague_women,Basket Landes,,,,partial,"No org chart. Do not invent staff, colors, or owners."
+euroleague_women_bourges,euroleague_women,Tango Bourges Basket,,,,partial,"No org chart. Do not invent staff, colors, or owners."
+euroleague_women_usk_praha,euroleague_women,ZVVZ USK Praha,,,,partial,"No org chart. Do not invent staff, colors, or owners."
+euroleague_women_schio,euroleague_women,Beretta Famila Schio,,,,partial,"No org chart. Do not invent staff, colors, or owners."
+euroleague_women_lublin,euroleague_women,AZS UMCS Lublin,,,,partial,"No org chart. Do not invent staff, colors, or owners."
+euroleague_women_athinaikos,euroleague_women,Athinaikos Qualco,,,,partial,"No org chart. Do not invent staff, colors, or owners."
+euroleague_women_rapid_bucuresti,euroleague_women,CS Rapid București,,,,partial,"No org chart. Do not invent staff, colors, or owners."
+euroleague_women_emlak_konut,euroleague_women,Emlak Konut,,,,partial,"No org chart. Do not invent staff, colors, or owners."
+euroleague_women_girona,euroleague_women,Spar Girona,,,,partial,"No org chart. Do not invent staff, colors, or owners."
+euroleague_women_flammes_carolo,euroleague_women,Flammes Carolo Basket,,,,partial,"No org chart. Do not invent staff, colors, or owners."
+euroleague_women_zabiny_brno,euroleague_women,Žabiny Brno,,,,partial,"No org chart. Do not invent staff, colors, or owners."
+euroleague_women_reyer_venezia,euroleague_women,Umana Reyer Venezia,,,,partial,"No org chart. Do not invent staff, colors, or owners."
+euroleague_women_dvtk,euroleague_women,DVTK HUN-Therm,,,,partial,"No org chart. Do not invent staff, colors, or owners."
+euroleague_women_sopron,euroleague_women,Sopron Basket,,,,partial,"No org chart. Do not invent staff, colors, or owners."
+euroleague_women_azs_poznan,euroleague_women,AZS Poznań,,,,partial,"No org chart. Do not invent staff, colors, or owners."
+euroleague_women_panathinaikos,euroleague_women,Panathinaikos AC,,,,partial,"No org chart. Do not invent staff, colors, or owners."
+euroleague_women_kibirkstis,euroleague_women,Kibirkštis-TOKS,,,,partial,"No org chart. Do not invent staff, colors, or owners."
+euroleague_women_crvena_zvezda,euroleague_women,KKZ Crvena zvezda,,,,partial,"No org chart. Do not invent staff, colors, or owners."

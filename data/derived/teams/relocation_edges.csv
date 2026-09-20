@@ -1,0 +1,53 @@
+edge_id,from_label,to_team_id,to_city,year_approx,source_field,source_url,confidence,notes
+edge_0001,New Jersey Americans,nba_nets_q976396,Brooklyn,,former_names,https://www.wikidata.org/wiki/Q976396,MEDIUM,Inferred from former_names field; year unknown
+edge_0002,New York Nets,nba_nets_q976396,Brooklyn,,former_names,https://www.wikidata.org/wiki/Q976396,MEDIUM,Name change; same market unclear without additional sources
+edge_0003,New Jersey Nets,nba_nets_q976396,Brooklyn,,former_names,https://www.wikidata.org/wiki/Q976396,MEDIUM,Inferred from former_names field; year unknown
+edge_0004,Syracuse Nationals,nba_76ers_q138089,Philadelphia,,former_names,https://www.wikidata.org/wiki/Q138089,MEDIUM,Inferred from former_names field; year unknown
+edge_0005,Fort Wayne Zollner Pistons,nba_pistons_q169637,Detroit,,former_names,https://www.wikidata.org/wiki/Q169637,MEDIUM,Inferred from former_names field; year unknown
+edge_0006,Tri-Cities Blackhawks,nba_hawks_q140558,Atlanta,,former_names,https://www.wikidata.org/wiki/Q140558,MEDIUM,Inferred from former_names field; year unknown
+edge_0007,Milwaukee Hawks,nba_hawks_q140558,Atlanta,,former_names,https://www.wikidata.org/wiki/Q140558,MEDIUM,Inferred from former_names field; year unknown
+edge_0008,St. Louis Hawks,nba_hawks_q140558,Atlanta,,former_names,https://www.wikidata.org/wiki/Q140558,MEDIUM,Inferred from former_names field; year unknown
+edge_0009,Charlotte Bobcats,nba_hornets_q162954,Charlotte,,former_names,https://www.wikidata.org/wiki/Q162954,MEDIUM,Inferred from former_names field; year unknown
+edge_0010,Chicago Packers,nba_wizards_q161337,"Washington, D.C.",,former_names,https://www.wikidata.org/wiki/Q161337,MEDIUM,Inferred from former_names field; year unknown
+edge_0011,Chicago Zephyrs,nba_wizards_q161337,"Washington, D.C.",,former_names,https://www.wikidata.org/wiki/Q161337,MEDIUM,Inferred from former_names field; year unknown
+edge_0012,Baltimore Bullets,nba_wizards_q161337,"Washington, D.C.",,former_names,https://www.wikidata.org/wiki/Q161337,MEDIUM,Inferred from former_names field; year unknown
+edge_0013,Capital Bullets,nba_wizards_q161337,"Washington, D.C.",,former_names,https://www.wikidata.org/wiki/Q161337,MEDIUM,Name change; same market unclear without additional sources
+edge_0014,Washington Bullets,nba_wizards_q161337,"Washington, D.C.",,former_names,https://www.wikidata.org/wiki/Q161337,MEDIUM,Name change; same market unclear without additional sources
+edge_0015,Seattle SuperSonics,nba_thunder_q180748,Oklahoma City,,former_names,https://www.wikidata.org/wiki/Q180748,MEDIUM,Inferred from former_names field; year unknown
+edge_0016,New Orleans Jazz,nba_jazz_q166105,Salt Lake City,,former_names,https://www.wikidata.org/wiki/Q166105,MEDIUM,Inferred from former_names field; year unknown
+edge_0017,Philadelphia Warriors,nba_warriors_q169661,San Francisco,,former_names,https://www.wikidata.org/wiki/Q169661,MEDIUM,Name change; same market unclear without additional sources
+edge_0018,San Francisco Warriors,nba_warriors_q169661,San Francisco,,former_names,https://www.wikidata.org/wiki/Q169661,MEDIUM,Name change; same market unclear without additional sources
+edge_0019,Buffalo Braves,nba_clippers_q976893,Los Angeles,,former_names,https://www.wikidata.org/wiki/Q976893,MEDIUM,Name change; same market unclear without additional sources
+edge_0020,San Diego Clippers,nba_clippers_q976893,Los Angeles,,former_names,https://www.wikidata.org/wiki/Q976893,MEDIUM,Inferred from former_names field; year unknown
+edge_0021,Minneapolis Lakers,nba_lakers_q121661,Los Angeles,,former_names,https://www.wikidata.org/wiki/Q121661,MEDIUM,Inferred from former_names field; year unknown
+edge_0022,Rochester Seagrams,nba_kings_q166105,Sacramento,,former_names,https://www.wikidata.org/wiki/Q166105,MEDIUM,Inferred from former_names field; year unknown
+edge_0023,Rochester Pros,nba_kings_q166105,Sacramento,,former_names,https://www.wikidata.org/wiki/Q166105,MEDIUM,Inferred from former_names field; year unknown
+edge_0024,Rochester Royals,nba_kings_q166105,Sacramento,,former_names,https://www.wikidata.org/wiki/Q166105,MEDIUM,Inferred from former_names field; year unknown
+edge_0025,Cincinnati Royals,nba_kings_q166105,Sacramento,,former_names,https://www.wikidata.org/wiki/Q166105,MEDIUM,Name change; same market unclear without additional sources
+edge_0026,Kansas City-Omaha Kings,nba_kings_q166105,Sacramento,,former_names,https://www.wikidata.org/wiki/Q166105,MEDIUM,Inferred from former_names field; year unknown
+edge_0027,Kansas City Kings,nba_kings_q166105,Sacramento,,former_names,https://www.wikidata.org/wiki/Q166105,MEDIUM,Inferred from former_names field; year unknown
+edge_0028,San Diego Rockets,nba_rockets_q160893,Houston,,former_names,https://www.wikidata.org/wiki/Q160893,MEDIUM,Inferred from former_names field; year unknown
+edge_0029,Vancouver Grizzlies,nba_grizzlies_q169950,Memphis,,former_names,https://www.wikidata.org/wiki/Q169950,MEDIUM,Inferred from former_names field; year unknown
+edge_0030,New Orleans Hornets,nba_pelicans_q180950,New Orleans,,former_names,https://www.wikidata.org/wiki/Q180950,MEDIUM,Inferred from former_names field; year unknown
+edge_0031,New Orleans/Oklahoma City Hornets,nba_pelicans_q180950,New Orleans,,former_names,https://www.wikidata.org/wiki/Q180950,MEDIUM,Inferred from former_names field; year unknown
+edge_0032,Dallas Chaparrals,nba_spurs_q164177,San Antonio,,former_names,https://www.wikidata.org/wiki/Q164177,MEDIUM,Inferred from former_names field; year unknown
+edge_0033,Texas Chaparrals,nba_spurs_q164177,San Antonio,,former_names,https://www.wikidata.org/wiki/Q164177,MEDIUM,Inferred from former_names field; year unknown
+edge_0034,Orlando Miracle,wnba_sun_q162990,Uncasville,,former_names,https://www.wikidata.org/wiki/Q162990,MEDIUM,Inferred from former_names field; year unknown
+edge_0035,Detroit Shock,wnba_wings_q169637,Dallas,,former_names,https://www.wikidata.org/wiki/Q169637,MEDIUM,Inferred from former_names field; year unknown
+edge_0036,Tulsa Shock,wnba_wings_q169637,Dallas,,former_names,https://www.wikidata.org/wiki/Q169637,MEDIUM,Inferred from former_names field; year unknown
+edge_0037,Utah Starzz,wnba_aces_q169165,Las Vegas,,former_names,https://www.wikidata.org/wiki/Q169165,MEDIUM,Inferred from former_names field; year unknown
+edge_0038,San Antonio Silver Stars,wnba_aces_q169165,Las Vegas,,former_names,https://www.wikidata.org/wiki/Q169165,MEDIUM,Inferred from former_names field; year unknown
+edge_0039,San Antonio Stars,wnba_aces_q169165,Las Vegas,,former_names,https://www.wikidata.org/wiki/Q169165,MEDIUM,Inferred from former_names field; year unknown
+edge_0040,ASVEL BASKET,euroleague_asvel,,,former_names,https://www.wikidata.org/wiki/Q4089,MEDIUM,Name change; same market unclear without additional sources
+edge_0041,Club Deportivo Vasconia,euroleague_baskonia,,,former_names,https://www.wikidata.org/wiki/Q54927,MEDIUM,Name change; same market unclear without additional sources
+edge_0042,Club Deportivo Vasconia,liga_acb_baskonia,,,former_names,https://www.wikidata.org/wiki/Q54927,MEDIUM,Name change; same market unclear without additional sources
+edge_0043,Penya Spirit of Badalona,liga_acb_joventut,,,former_names,https://www.wikidata.org/wiki/Q54908,MEDIUM,Name change; same market unclear without additional sources
+edge_0044,UCAM Murcia CB,liga_acb_murcia,,,former_names,https://www.wikidata.org/wiki/Q54915,MEDIUM,Name change; same market unclear without additional sources
+edge_0045,ASVEL BASKET,lnb_elite_asvel,,,former_names,https://www.wikidata.org/wiki/Q4089,MEDIUM,Name change; same market unclear without additional sources
+edge_0046,Jeunesse laïque de Bourg-en-Bresse,lnb_elite_bourg,,,former_names,https://www.wikidata.org/wiki/Q1630650,MEDIUM,Name change; same market unclear without additional sources
+edge_0047,Basketball-Vereinigung Chemnitz 99,bbl_chemnitz,,,former_names,https://www.wikidata.org/wiki/Q797164,MEDIUM,Name change; same market unclear without additional sources
+edge_0048,Opel Skyliners,bbl_frankfurt,,,former_names,https://www.wikidata.org/wiki/Q836109,MEDIUM,Name change; same market unclear without additional sources
+edge_0049,Γυμναστικός Σύλλογος Αγιάς «Ηρακλής» Καλαθοσφαιρική Ανώνυμη Εταιρεία,greek_basket_league_iraklis,,,former_names,https://www.wikidata.org/wiki/Q549055,MEDIUM,Name change; same market unclear without additional sources
+edge_0050,Γυμναστικός Σύλλογος Αμαρουσίου,greek_basket_league_maroussi,,,former_names,https://www.wikidata.org/wiki/Q1355529,MEDIUM,Name change; same market unclear without additional sources
+edge_0051,株式会社レバンガ北海道,b_league_levanga,,,former_names,https://www.wikidata.org/wiki/Q6534875,MEDIUM,Name change; same market unclear without additional sources
+edge_0052,Asociación Atlética Quimsa,lnb_argentina_quimsa,,,former_names,https://www.wikidata.org/wiki/Q7272059,MEDIUM,Name change; same market unclear without additional sources

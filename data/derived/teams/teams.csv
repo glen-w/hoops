@@ -1,0 +1,442 @@
+team_id,league_id,name,abbr,short_name,former_names,city,country,arena,arena_capacity,founded_year,colours_primary_hex,colours_secondary_hex,colours_accent_hex,colours_source,mascot,owner,ownership_structure,wikidata_qid,wikipedia_en,official_url,as_of,source_url,confidence
+nba_celtics_q131371,nba,Boston Celtics,BOS,Celtics,,Boston,US,TD Garden,19156,1946,,,,,Lucky the Leprechaun,William Chisholm,majority,Q131371,Boston Celtics,https://www.nba.com/celtics,2026-09-19,https://www.wikidata.org/wiki/Q131371,HIGH
+nba_nets_q976396,nba,Brooklyn Nets,BKN,Nets,New Jersey Americans|New York Nets|New Jersey Nets,Brooklyn,US,Barclays Center,17732,1967,,,,,,Joe Tsai,majority,Q976396,Brooklyn Nets,https://www.nba.com/nets,2026-09-19,https://www.wikidata.org/wiki/Q976396,HIGH
+nba_knicks_q131364,nba,New York Knicks,NYK,Knicks,,New York City,US,Madison Square Garden,19812,1946,,,,,,Madison Square Garden Sports Corp. (James L. Dolan),public,Q131364,New York Knicks,https://www.nba.com/knicks,2026-09-19,https://www.wikidata.org/wiki/Q131364,HIGH
+nba_76ers_q138089,nba,Philadelphia 76ers,PHI,76ers,Syracuse Nationals,Philadelphia,US,Wells Fargo Center,20478,1946,,,,,Franklin the Dog,Josh Harris & David Blitzer,group,Q138089,Philadelphia 76ers,https://www.nba.com/sixers,2026-09-19,https://www.wikidata.org/wiki/Q138089,HIGH
+nba_raptors_q329816,nba,Toronto Raptors,TOR,Raptors,,Toronto,CA,Scotiabank Arena,19800,1995,,,,,The Raptor,Maple Leaf Sports & Entertainment,group,Q329816,Toronto Raptors,https://www.nba.com/raptors,2026-09-19,https://www.wikidata.org/wiki/Q329816,HIGH
+nba_bulls_q128109,nba,Chicago Bulls,CHI,Bulls,,Chicago,US,United Center,20917,1966,,,,,Benny the Bull,Jerry Reinsdorf,majority,Q128109,Chicago Bulls,https://www.nba.com/bulls,2026-09-19,https://www.wikidata.org/wiki/Q128109,HIGH
+nba_cavaliers_q162990,nba,Cleveland Cavaliers,CLE,Cavaliers,,Cleveland,US,Rocket Mortgage FieldHouse,19432,1970,,,,,Moondog,Dan Gilbert,majority,Q162990,Cleveland Cavaliers,https://www.nba.com/cavaliers,2026-09-19,https://www.wikidata.org/wiki/Q162990,HIGH
+nba_pistons_q169637,nba,Detroit Pistons,DET,Pistons,Fort Wayne Zollner Pistons,Detroit,US,Little Caesars Arena,20491,1941,,,,,Hooper,Tom Gores,sole,Q169637,Detroit Pistons,https://www.nba.com/pistons,2026-09-19,https://www.wikidata.org/wiki/Q169637,HIGH
+nba_pacers_q170329,nba,Indiana Pacers,IND,Pacers,,Indianapolis,US,Gainbridge Fieldhouse,17923,1967,,,,,Boomer,Herbert Simon,majority,Q170329,Indiana Pacers,https://www.nba.com/pacers,2026-09-19,https://www.wikidata.org/wiki/Q170329,HIGH
+nba_bucks_q169165,nba,Milwaukee Bucks,MIL,Bucks,,Milwaukee,US,Fiserv Forum,17341,1968,,,,,Bango,Wesley Edens,majority,Q169165,Milwaukee Bucks,https://www.nba.com/bucks,2026-09-19,https://www.wikidata.org/wiki/Q169165,HIGH
+nba_hawks_q140558,nba,Atlanta Hawks,ATL,Hawks,Tri-Cities Blackhawks|Milwaukee Hawks|St. Louis Hawks,Atlanta,US,State Farm Arena,16888,1946,,,,,Harry the Hawk,Tony Ressler,majority,Q140558,Atlanta Hawks,https://www.nba.com/hawks,2026-09-19,https://www.wikidata.org/wiki/Q140558,HIGH
+nba_hornets_q162954,nba,Charlotte Hornets,CHA,Hornets,Charlotte Bobcats,Charlotte,US,Spectrum Center,19077,1988,,,,,Hugo,Gabe Plotkin & Rick Schnall,group,Q162954,Charlotte Hornets,https://www.nba.com/hornets,2026-09-19,https://www.wikidata.org/wiki/Q162954,HIGH
+nba_heat_q169138,nba,Miami Heat,MIA,Heat,,Miami,US,Kaseya Center,19600,1988,,,,,Burnie,Micky Arison,majority,Q169138,Miami Heat,https://www.nba.com/heat,2026-09-19,https://www.wikidata.org/wiki/Q169138,HIGH
+nba_magic_q180950,nba,Orlando Magic,ORL,Magic,,Orlando,US,Amway Center,18846,1989,,,,,Stuff the Magic Dragon,Dan DeVos,majority,Q180950,Orlando Magic,https://www.nba.com/magic,2026-09-19,https://www.wikidata.org/wiki/Q180950,HIGH
+nba_wizards_q161337,nba,Washington Wizards,WAS,Wizards,Chicago Packers|Chicago Zephyrs|Baltimore Bullets|Capital Bullets|Washington Bullets,"Washington, D.C.",US,Capital One Arena,20356,1961,,,,,G-Wiz,Ted Leonsis,majority,Q161337,Washington Wizards,https://www.nba.com/wizards,2026-09-19,https://www.wikidata.org/wiki/Q161337,HIGH
+nba_nuggets_q165529,nba,Denver Nuggets,DEN,Nuggets,,Denver,US,Ball Arena,19520,1967,,,,,Rocky,Kroenke Sports & Entertainment (Ann Walton Kroenke),majority,Q165529,Denver Nuggets,https://www.nba.com/nuggets,2026-09-19,https://www.wikidata.org/wiki/Q165529,MEDIUM
+nba_timberwolves_q157376,nba,Minnesota Timberwolves,MIN,Timberwolves,,Minneapolis,US,Target Center,18978,1989,,,,,Crunch,Marc Lore & Alex Rodriguez,group,Q157376,Minnesota Timberwolves,https://www.nba.com/timberwolves,2026-09-19,https://www.wikidata.org/wiki/Q157376,HIGH
+nba_thunder_q180748,nba,Oklahoma City Thunder,OKC,Thunder,Seattle SuperSonics,Oklahoma City,US,Paycom Center,18203,1967,,,,,Rumble the Bison,Clay Bennett,majority,Q180748,Oklahoma City Thunder,https://www.nba.com/thunder,2026-09-19,https://www.wikidata.org/wiki/Q180748,HIGH
+nba_blazers_q180950,nba,Portland Trail Blazers,POR,Blazers,,Portland,US,Moda Center,19393,1970,,,,,Blaze the Trail Cat,Tom Dundon,majority,Q180950,Portland Trail Blazers,https://www.nba.com/blazers,2026-09-19,https://www.wikidata.org/wiki/Q180950,HIGH
+nba_jazz_q166105,nba,Utah Jazz,UTA,Jazz,New Orleans Jazz,Salt Lake City,US,Delta Center,18306,1974,,,,,Jazz Bear,Ryan Smith,majority,Q166105,Utah Jazz,https://www.nba.com/jazz,2026-09-19,https://www.wikidata.org/wiki/Q166105,HIGH
+nba_warriors_q169661,nba,Golden State Warriors,GSW,Warriors,Philadelphia Warriors|San Francisco Warriors,San Francisco,US,Chase Center,18064,1946,,,,,,Joe Lacob,majority,Q169661,Golden State Warriors,https://www.nba.com/warriors,2026-09-19,https://www.wikidata.org/wiki/Q169661,MEDIUM
+nba_clippers_q976893,nba,LA Clippers,LAC,Clippers,Buffalo Braves|San Diego Clippers,Los Angeles,US,Crypto.com Arena,19060,1970,,,,,Chuck the Condor,Steve Ballmer,sole,Q976893,LA Clippers,https://www.nba.com/clippers,2026-09-19,https://www.wikidata.org/wiki/Q976893,HIGH
+nba_lakers_q121661,nba,Los Angeles Lakers,LAL,Lakers,Minneapolis Lakers,Los Angeles,US,Crypto.com Arena,19060,1947,,,,,,Mark Walter,majority,Q121661,Los Angeles Lakers,https://www.nba.com/lakers,2026-09-19,https://www.wikidata.org/wiki/Q121661,HIGH
+nba_suns_q164177,nba,Phoenix Suns,PHX,Suns,,Phoenix,US,Footprint Center,18055,1968,,,,,Go the Gorilla,Mat Ishbia,majority,Q164177,Phoenix Suns,https://www.nba.com/suns,2026-09-19,https://www.wikidata.org/wiki/Q164177,HIGH
+nba_kings_q166105,nba,Sacramento Kings,SAC,Kings,Rochester Seagrams|Rochester Pros|Rochester Royals|Cincinnati Royals|Kansas City-Omaha Kings|Kansas City Kings,Sacramento,US,Golden 1 Center,17608,1923,,,,,Slamson,Vivek Ranadivé,majority,Q166105,Sacramento Kings,https://www.nba.com/kings,2026-09-19,https://www.wikidata.org/wiki/Q166105,MEDIUM
+nba_mavericks_q169542,nba,Dallas Mavericks,DAL,Mavericks,,Dallas,US,American Airlines Center,19200,1980,,,,,Champ,Miriam Adelson / Patrick Dumont,majority,Q169542,Dallas Mavericks,https://www.nba.com/mavericks,2026-09-19,https://www.wikidata.org/wiki/Q169542,HIGH
+nba_rockets_q160893,nba,Houston Rockets,HOU,Rockets,San Diego Rockets,Houston,US,Toyota Center,18055,1967,,,,,Clutch the Rocket Bear,Tilman Fertitta,sole,Q160893,Houston Rockets,https://www.nba.com/rockets,2026-09-19,https://www.wikidata.org/wiki/Q160893,HIGH
+nba_grizzlies_q169950,nba,Memphis Grizzlies,MEM,Grizzlies,Vancouver Grizzlies,Memphis,US,FedExForum,17794,1995,,,,,Grizz,Robert J. Pera,sole,Q169950,Memphis Grizzlies,https://www.nba.com/grizzlies,2026-09-19,https://www.wikidata.org/wiki/Q169950,HIGH
+nba_pelicans_q180950,nba,New Orleans Pelicans,NOP,Pelicans,New Orleans Hornets|New Orleans/Oklahoma City Hornets,New Orleans,US,Smoothie King Center,16867,2002,,,,,Pierre the Pelican,Gayle Benson,sole,Q180950,New Orleans Pelicans,https://www.nba.com/pelicans,2026-09-19,https://www.wikidata.org/wiki/Q180950,HIGH
+nba_spurs_q164177,nba,San Antonio Spurs,SAS,Spurs,Dallas Chaparrals|Texas Chaparrals,San Antonio,US,Frost Bank Center,18418,1967,,,,,The Coyote,Peter J. Holt,majority,Q164177,San Antonio Spurs,https://www.nba.com/spurs,2026-09-19,https://www.wikidata.org/wiki/Q164177,HIGH
+wnba_dream_q140558,wnba,Atlanta Dream,ATL,Dream,,Atlanta,US,Gateway Center Arena,3500,2008,,,,,,Larry Gottesdiener,group,Q140558,Atlanta Dream,https://dream.wnba.com,2026-09-19,https://www.wikidata.org/wiki/Q140558,HIGH
+wnba_sky_q131371,wnba,Chicago Sky,CHI,Sky,,Chicago,US,Wintrust Arena,10387,2006,,,,,,Michael Alter,group,Q131371,Chicago Sky,https://sky.wnba.com,2026-09-19,https://www.wikidata.org/wiki/Q131371,MEDIUM
+wnba_sun_q162990,wnba,Connecticut Sun,CON,Sun,Orlando Miracle,Uncasville,US,Mohegan Sun Arena,9323,1999,,,,,,Tilman J. Fertitta,sole,Q162990,Connecticut Sun,https://sun.wnba.com,2026-09-19,https://www.wikidata.org/wiki/Q162990,HIGH
+wnba_wings_q169637,wnba,Dallas Wings,DAL,Wings,Detroit Shock|Tulsa Shock,Dallas,US,College Park Center,7000,1998,,,,,,Bill Cameron,group,Q169637,Dallas Wings,https://wings.wnba.com,2026-09-19,https://www.wikidata.org/wiki/Q169637,MEDIUM
+wnba_fever_q170329,wnba,Indiana Fever,IND,Fever,,Indianapolis,US,Gainbridge Fieldhouse,17923,2000,,,,,Freddy Fever,Herbert Simon,majority,Q170329,Indiana Fever,https://fever.wnba.com,2026-09-19,https://www.wikidata.org/wiki/Q170329,HIGH
+wnba_aces_q169165,wnba,Las Vegas Aces,LV,Aces,Utah Starzz|San Antonio Silver Stars|San Antonio Stars,Las Vegas,US,Michelob Ultra Arena,12000,1997,,,,,,Mark Davis,majority,Q169165,Las Vegas Aces,https://aces.wnba.com,2026-09-19,https://www.wikidata.org/wiki/Q169165,HIGH
+wnba_sparks_q1441324,wnba,Los Angeles Sparks,LA,Sparks,,Los Angeles,US,Crypto.com Arena,19060,1997,,,,,,Mark Walter (Sparks LA Sports),group,Q1441324,Los Angeles Sparks,https://sparks.wnba.com,2026-09-19,https://www.wikidata.org/wiki/Q1441324,HIGH
+wnba_lynx_q140558,wnba,Minnesota Lynx,MIN,Lynx,,Minneapolis,US,Target Center,18978,1999,,,,,,Alex Rodriguez & Marc Lore,group,Q140558,Minnesota Lynx,https://lynx.wnba.com,2026-09-19,https://www.wikidata.org/wiki/Q140558,HIGH
+wnba_liberty_q1426420,wnba,New York Liberty,NY,Liberty,,New York City,US,Barclays Center,17732,1997,,,,,Ellie the Elephant,Joe Tsai & Clara Wu Tsai,majority,Q1426420,New York Liberty,https://liberty.wnba.com,2026-09-19,https://www.wikidata.org/wiki/Q1426420,HIGH
+wnba_mercury_q162954,wnba,Phoenix Mercury,PHX,Mercury,,Phoenix,US,Footprint Center,18055,1997,,,,,,Mat Ishbia,majority,Q162954,Phoenix Mercury,https://mercury.wnba.com,2026-09-19,https://www.wikidata.org/wiki/Q162954,HIGH
+wnba_storm_q169138,wnba,Seattle Storm,SEA,Storm,,Seattle,US,Climate Pledge Arena,18100,2000,,,,,Doppler,Force 10 Hoops LLC,group,Q169138,Seattle Storm,https://storm.wnba.com,2026-09-19,https://www.wikidata.org/wiki/Q169138,HIGH
+wnba_mystics_q180950,wnba,Washington Mystics,WAS,Mystics,,"Washington, D.C.",US,Entertainment and Sports Arena,4200,1998,,,,,Pax,Monumental Sports & Entertainment (Ted Leonsis),majority,Q180950,Washington Mystics,https://mystics.wnba.com,2026-09-19,https://www.wikidata.org/wiki/Q180950,HIGH
+euroleague_anadolu_efes,euroleague,Anadolu Efes Istanbul,AE,Anadolu Efes,,,TR,,,1976,,,,,,,,Q483738,Anadolu Efes S.K.,,2026-09-19,https://www.wikidata.org/wiki/Q483738,HIGH
+euroleague_asvel,euroleague,LDLC ASVEL Villeurbanne,ASV,ASVEL,ASVEL BASKET,,FR,,,1948,,,,,,,,Q4089,ASVEL Basket,,2026-09-19,https://www.wikidata.org/wiki/Q4089,HIGH
+euroleague_baskonia,euroleague,Baskonia Vitoria-Gasteiz,BAS,Baskonia,Club Deportivo Vasconia,,ES,,,1952,,,,,,,,Q54927,Saski Baskonia,,2026-09-19,https://www.wikidata.org/wiki/Q54927,HIGH
+euroleague_besiktas,euroleague,Beşiktaş Istanbul,BEŞ,Beşiktaş,,,TR,,,1933,,,,,,,,Q854669,Beşiktaş J.K. (men's basketball),,2026-09-19,https://www.wikidata.org/wiki/Q854669,HIGH
+euroleague_crvena_zvezda,euroleague,Crvena zvezda Meridianbet Belgrade,CZ,Crvena zvezda,,,RS,,,1945,,,,,,,,Q1132627,KK Crvena zvezda,,2026-09-19,https://www.wikidata.org/wiki/Q1132627,HIGH
+euroleague_dubai,euroleague,Dubai Basketball,DUB,Dubai,,,,,,2024,,,,,,,,Q125293758,Dubai Basketball,,2026-09-19,https://www.wikidata.org/wiki/Q125293758,HIGH
+euroleague_olimpia_milano,euroleague,EA7 Emporio Armani Milan,OM,Olimpia Milano,,,IT,,,1936,,,,,,,,Q36362,Olimpia Milano,,2026-09-19,https://www.wikidata.org/wiki/Q36362,HIGH
+euroleague_barcelona,euroleague,FC Barcelona,BAR,Barcelona,,,ES,,,1926,,,,,,,,Q54893,FC Barcelona Bàsquet,,2026-09-19,https://www.wikidata.org/wiki/Q54893,HIGH
+euroleague_bayern,euroleague,FC Bayern Munich,BAY,Bayern,,,DE,,,1946,,,,,,,,Q600149,FC Bayern Munich (basketball),,2026-09-19,https://www.wikidata.org/wiki/Q600149,HIGH
+euroleague_fenerbahce,euroleague,Fenerbahçe Beko Istanbul,FEN,Fenerbahçe,,,TR,,,1913,,,,,,,,Q239447,Fenerbahçe S.K. (basketball),,2026-09-19,https://www.wikidata.org/wiki/Q239447,HIGH
+euroleague_hapoel_tel_aviv,euroleague,Hapoel IBI Tel Aviv,HTA,Hapoel Tel Aviv,,,IL,,,1935,,,,,,,,Q2735525,Hapoel Tel Aviv B.C.,,2026-09-19,https://www.wikidata.org/wiki/Q2735525,HIGH
+euroleague_maccabi_tel_aviv,euroleague,Maccabi Playtika Tel Aviv,MTA,Maccabi Tel Aviv,,,IL,,,1932,,,,,,,,Q819694,Maccabi Tel Aviv B.C.,,2026-09-19,https://www.wikidata.org/wiki/Q819694,HIGH
+euroleague_olympiacos,euroleague,Olympiacos Piraeus,OLY,Olympiacos,,,GR,,,1931,,,,,,,,Q847701,Olympiacos B.C.,,2026-09-19,https://www.wikidata.org/wiki/Q847701,HIGH
+euroleague_panathinaikos,euroleague,Panathinaikos AKTOR Athens,PAN,Panathinaikos,,,GR,,,1919,,,,,,,,Q739287,Panathinaikos B.C.,,2026-09-19,https://www.wikidata.org/wiki/Q739287,HIGH
+euroleague_paris,euroleague,Paris Basketball,PAR,Paris,,,FR,,,2018,,,,,,,,Q56291131,Paris Basketball,,2026-09-19,https://www.wikidata.org/wiki/Q56291131,HIGH
+euroleague_partizan,euroleague,Partizan Mozzart Bet Belgrade,PAR2,Partizan,,,RS,,,1945,,,,,,,,Q912247,KK Partizan,,2026-09-19,https://www.wikidata.org/wiki/Q912247,HIGH
+euroleague_real_madrid,euroleague,Real Madrid,RM,Real Madrid,,,ES,,,1931,,,,,,,,Q54922,Real Madrid Baloncesto,,2026-09-19,https://www.wikidata.org/wiki/Q54922,HIGH
+euroleague_valencia,euroleague,Valencia Basket,VAL,Valencia,,,ES,,,1986,,,,,,,,Q54940,Valencia Basket,,2026-09-19,https://www.wikidata.org/wiki/Q54940,HIGH
+euroleague_virtus,euroleague,Virtus Segafredo Bologna,VB,Virtus Bologna,,,IT,,,1927,,,,,,,,Q36264,Virtus Bologna,,2026-09-19,https://www.wikidata.org/wiki/Q36264,HIGH
+euroleague_zalgiris,euroleague,Žalgiris Kaunas,ŽAL,Žalgiris,,,LT,,,1944,,,,,,,,Q393357,BC Žalgiris,,2026-09-19,https://www.wikidata.org/wiki/Q393357,HIGH
+euroleague_women_fenerbahce,euroleague_women,Fenerbahçe Tarfin,FEN,Fenerbahçe,,,TR,,,1954,,,,,,,,Q1404649,Fenerbahçe S.K. (women's basketball),,2026-09-19,https://www.wikidata.org/wiki/Q1404649,HIGH
+euroleague_women_galatasaray,euroleague_women,Galatasaray Çağdaş Faktoring,GAL,Galatasaray,,,TR,,,1905,,,,,,,,Q65413,Galatasaray S.K. (women's basketball),,2026-09-19,https://www.wikidata.org/wiki/Q65413,HIGH
+euroleague_women_valencia,euroleague_women,Valencia Basket,VAL,Valencia,,,ES,,,,,,,,,,,Q60464673,Valencia Basket (women),,2026-09-19,https://www.wikidata.org/wiki/Q60464673,HIGH
+euroleague_women_zaragoza,euroleague_women,Casademont Zaragoza,ZAR,Zaragoza,,,ES,,,,,,,,,,,Q118949146,,,2026-09-19,https://www.wikidata.org/wiki/Q118949146,MEDIUM
+euroleague_women_basket_landes,euroleague_women,Basket Landes,LAN,Landes,,,FR,,,2003,,,,,,,,Q2887227,Basket Landes,,2026-09-19,https://www.wikidata.org/wiki/Q2887227,HIGH
+euroleague_women_bourges,euroleague_women,Tango Bourges Basket,BOU,Bourges,,,FR,,,1967,,,,,,,,Q616041,Tango Bourges Basket,,2026-09-19,https://www.wikidata.org/wiki/Q616041,HIGH
+euroleague_women_usk_praha,euroleague_women,ZVVZ USK Praha,UP,USK Praha,,,CZ,,,1953,,,,,,,,Q3547347,USK Praha (women's basketball),,2026-09-19,https://www.wikidata.org/wiki/Q3547347,HIGH
+euroleague_women_schio,euroleague_women,Beretta Famila Schio,SCH,Schio,,,IT,,,1973,,,,,,,,Q3064877,PF Schio,,2026-09-19,https://www.wikidata.org/wiki/Q3064877,HIGH
+euroleague_women_lublin,euroleague_women,AZS UMCS Lublin,LUB,Lublin,,,PL,,,,,,,,,,,Q16485007,,,2026-09-19,https://www.wikidata.org/wiki/Q16485007,MEDIUM
+euroleague_women_athinaikos,euroleague_women,Athinaikos Qualco,ATH,Athinaikos,,,GR,,,1917,,,,,,,,Q7562428,Athinaikos women's basketball,,2026-09-19,https://www.wikidata.org/wiki/Q7562428,HIGH
+euroleague_women_rapid_bucuresti,euroleague_women,CS Rapid București,RAP,Rapid,,,RO,,,1934,,,,,,,,Q7947062,CS Rapid București (women's basketball),,2026-09-19,https://www.wikidata.org/wiki/Q7947062,HIGH
+euroleague_women_emlak_konut,euroleague_women,Emlak Konut,EK,Emlak Konut,,,,,,,,,,,,,,Q97218186,Emlak Konut SK,,2026-09-19,https://www.wikidata.org/wiki/Q97218186,HIGH
+euroleague_women_girona,euroleague_women,Spar Girona,GIR,Girona,,,ES,,,2005,,,,,,,,Q4890678,Uni Girona CB,,2026-09-19,https://www.wikidata.org/wiki/Q4890678,HIGH
+euroleague_women_flammes_carolo,euroleague_women,Flammes Carolo Basket,FC,Flammes Carolo,,,FR,,,2002,,,,,,,,Q3073321,Flammes Carolo Basket,,2026-09-19,https://www.wikidata.org/wiki/Q3073321,HIGH
+euroleague_women_zabiny_brno,euroleague_women,Žabiny Brno,ŽB,Žabiny Brno,,,CZ,,,1993,,,,,,,,Q2887247,Žabiny Brno,,2026-09-19,https://www.wikidata.org/wiki/Q2887247,HIGH
+euroleague_women_reyer_venezia,euroleague_women,Umana Reyer Venezia,RV,Reyer Venezia,,,IT,,,1925,,,,,,,,Q2887228,Reyer Venezia (women),,2026-09-19,https://www.wikidata.org/wiki/Q2887228,HIGH
+euroleague_women_dvtk,euroleague_women,DVTK HUN-Therm,DVT,DVTK,,,HU,,,1946,,,,,,,,Q5205520,Diósgyőri VTK (basketball),,2026-09-19,https://www.wikidata.org/wiki/Q5205520,HIGH
+euroleague_women_sopron,euroleague_women,Sopron Basket,SOP,Sopron,,,HU,,,1921,,,,,,,,Q3547259,Sopron Basket,,2026-09-19,https://www.wikidata.org/wiki/Q3547259,HIGH
+euroleague_women_azs_poznan,euroleague_women,AZS Poznań,AP,AZS Poznań,,,PL,,,1919,,,,,,,,Q2819636,AZS Poznań (women's basketball),,2026-09-19,https://www.wikidata.org/wiki/Q2819636,HIGH
+euroleague_women_panathinaikos,euroleague_women,Panathinaikos AC,PAN,Panathinaikos,,,GR,,,1908,,,,,,,,Q3191319,Panathinaikos women's basketball,,2026-09-19,https://www.wikidata.org/wiki/Q3191319,HIGH
+euroleague_women_kibirkstis,euroleague_women,Kibirkštis-TOKS,KIB,Kibirkštis,,,LT,,,1961,,,,,,,,Q3552971,BC Kibirkštis,,2026-09-19,https://www.wikidata.org/wiki/Q3552971,HIGH
+euroleague_women_crvena_zvezda,euroleague_women,KKZ Crvena zvezda,CZ,Crvena zvezda,,,RS,,,1945,,,,,,,,Q1196018,ŽKK Crvena zvezda,,2026-09-19,https://www.wikidata.org/wiki/Q1196018,HIGH
+liga_acb_andorra,liga_acb,MoraBanc Andorra,AND,Andorra,,,,,,1970,,,,,,,,Q43973,BC Andorra,,2026-09-19,https://www.wikidata.org/wiki/Q43973,HIGH
+liga_acb_barcelona,liga_acb,Barça,BAR,Barcelona,,,ES,,,1926,,,,,,,,Q54893,FC Barcelona Bàsquet,,2026-09-19,https://www.wikidata.org/wiki/Q54893,HIGH
+liga_acb_baskonia,liga_acb,Kosner Baskonia,BAS,Baskonia,Club Deportivo Vasconia,,ES,,,1952,,,,,,,,Q54927,Saski Baskonia,,2026-09-19,https://www.wikidata.org/wiki/Q54927,HIGH
+liga_acb_bilbao,liga_acb,Surne Bilbao Basket,BIL,Bilbao,,,ES,,,2000,,,,,,,,Q54894,Bilbao Basket,,2026-09-19,https://www.wikidata.org/wiki/Q54894,HIGH
+liga_acb_breogan,liga_acb,Río Breogán,BRE,Breogán,,,ES,,,1966,,,,,,,,Q273733,CB Breogán,,2026-09-19,https://www.wikidata.org/wiki/Q273733,HIGH
+liga_acb_burgos,liga_acb,Recoletas Salud San Pablo Burgos,BUR,Burgos,,,ES,,,2015,,,,,,,,Q20936645,CB San Pablo Burgos,,2026-09-19,https://www.wikidata.org/wiki/Q20936645,HIGH
+liga_acb_coruna,liga_acb,Leyma Coruña,COR,Coruña,,,ES,,,1996,,,,,,,,Q3392591,Básquet Coruña,,2026-09-19,https://www.wikidata.org/wiki/Q3392591,HIGH
+liga_acb_girona,liga_acb,FIATC Girona,GIR,Girona,,,ES,,,2014,,,,,,,,Q47524454,Bàsquet Girona,,2026-09-19,https://www.wikidata.org/wiki/Q47524454,HIGH
+liga_acb_joventut,liga_acb,ASISA Joventut,JOV,Joventut,Penya Spirit of Badalona,,ES,,,1930,,,,,,,,Q54908,Joventut Badalona,,2026-09-19,https://www.wikidata.org/wiki/Q54908,HIGH
+liga_acb_lleida,liga_acb,iLERNA Lleida,LLE,Lleida,,,ES,,,2012,,,,,,,,Q5473322,Força Lleida CE,,2026-09-19,https://www.wikidata.org/wiki/Q5473322,HIGH
+liga_acb_manresa,liga_acb,Kids&Us Manresa,MAN,Manresa,,,ES,,,1931,,,,,,,,Q54912,Bàsquet Manresa,,2026-09-19,https://www.wikidata.org/wiki/Q54912,HIGH
+liga_acb_murcia,liga_acb,UCAM Murcia,MUR,Murcia,UCAM Murcia CB,,ES,,,1985,,,,,,,,Q54915,UCAM Murcia CB,,2026-09-19,https://www.wikidata.org/wiki/Q54915,HIGH
+liga_acb_obradoiro,liga_acb,Monbus Obradoiro,OBR,Obradoiro,,,ES,,,1970,,,,,,,,Q54918,Obradoiro CAB,,2026-09-19,https://www.wikidata.org/wiki/Q54918,HIGH
+liga_acb_real_madrid,liga_acb,Real Madrid,RM,Real Madrid,,,ES,,,1931,,,,,,,,Q54922,Real Madrid Baloncesto,,2026-09-19,https://www.wikidata.org/wiki/Q54922,HIGH
+liga_acb_tenerife,liga_acb,La Laguna Tenerife,TEN,Tenerife,,,ES,,,1939,,,,,,,,Q54897,CB Canarias,,2026-09-19,https://www.wikidata.org/wiki/Q54897,HIGH
+liga_acb_unicaja,liga_acb,Unicaja,UNI,Unicaja,,,ES,,,1992,,,,,,,,Q54910,Baloncesto Málaga,,2026-09-19,https://www.wikidata.org/wiki/Q54910,HIGH
+liga_acb_valencia,liga_acb,Valencia Basket,VAL,Valencia,,,ES,,,1986,,,,,,,,Q54940,Valencia Basket,,2026-09-19,https://www.wikidata.org/wiki/Q54940,HIGH
+liga_acb_zaragoza,liga_acb,Casademont Zaragoza,ZAR,Zaragoza,,,ES,,,2002,,,,,,,,Q54926,Basket Zaragoza,,2026-09-19,https://www.wikidata.org/wiki/Q54926,HIGH
+lnb_elite_asvel,lnb_elite,LDLC ASVEL Villeurbanne,ASV,ASVEL,ASVEL BASKET,,FR,,,1948,,,,,,,,Q4089,ASVEL Basket,,2026-09-19,https://www.wikidata.org/wiki/Q4089,HIGH
+lnb_elite_gravelines,lnb_elite,BCM Gravelines-Dunkerque,GRA,Gravelines,,,FR,,,1984,,,,,,,,Q795707,BCM Gravelines-Dunkerque,,2026-09-19,https://www.wikidata.org/wiki/Q795707,HIGH
+lnb_elite_boulazac,lnb_elite,Boulazac Basket Dordogne,BOU,Boulazac,,,FR,,,1992,,,,,,,,Q785442,Boulazac Basket Dordogne,,2026-09-19,https://www.wikidata.org/wiki/Q785442,HIGH
+lnb_elite_cholet,lnb_elite,Cholet Basket,CHO,Cholet,,,FR,,,1975,,,,,,,,Q1075934,Cholet Basket,,2026-09-19,https://www.wikidata.org/wiki/Q1075934,HIGH
+lnb_elite_roanne,lnb_elite,Chorale Roanne Basket,ROA,Roanne,,,FR,,,1937,,,,,,,,Q1076356,Chorale Roanne Basket,,2026-09-19,https://www.wikidata.org/wiki/Q1076356,HIGH
+lnb_elite_pau,lnb_elite,Élan Béarnais Pau-Lacq-Orthez,PAU,Pau-Orthez,,,FR,,,1931,,,,,,,,Q274566,Élan Béarnais,,2026-09-19,https://www.wikidata.org/wiki/Q274566,HIGH
+lnb_elite_chalon,lnb_elite,Élan Chalon,CHA,Chalon,,,FR,,,1955,,,,,,,,Q274570,Élan Chalon,,2026-09-19,https://www.wikidata.org/wiki/Q274570,HIGH
+lnb_elite_dijon,lnb_elite,JDA Dijon,DIJ,Dijon,,,FR,,,1880,,,,,,,,Q1682230,JDA Dijon Basket,,2026-09-19,https://www.wikidata.org/wiki/Q1682230,HIGH
+lnb_elite_bourg,lnb_elite,JL Bourg,BOU2,Bourg,Jeunesse laïque de Bourg-en-Bresse,,FR,,,1910,,,,,,,,Q1630650,JL Bourg Basket,,2026-09-19,https://www.wikidata.org/wiki/Q1630650,HIGH
+lnb_elite_le_mans,lnb_elite,Le Mans Sarthe Basket,LM,Le Mans,,,FR,,,1939,,,,,,,,Q40063,Le Mans Sarthe Basket,,2026-09-19,https://www.wikidata.org/wiki/Q40063,HIGH
+lnb_elite_limoges,lnb_elite,Limoges CSP,LIM,Limoges,,,FR,,,1929,,,,,,,,Q1419876,Limoges CSP,,2026-09-19,https://www.wikidata.org/wiki/Q1419876,HIGH
+lnb_elite_nanterre,lnb_elite,Nanterre 92,NAN,Nanterre,,,FR,,,1927,,,,,,,,Q1630671,Nanterre 92,,2026-09-19,https://www.wikidata.org/wiki/Q1630671,HIGH
+lnb_elite_paris,lnb_elite,Paris Basketball,PAR,Paris,,,FR,,,2018,,,,,,,,Q56291131,Paris Basketball,,2026-09-19,https://www.wikidata.org/wiki/Q56291131,HIGH
+lnb_elite_strasbourg,lnb_elite,SIG Strasbourg,STR,Strasbourg,,,FR,,,1928,,,,,,,,Q2737338,SIG Strasbourg,,2026-09-19,https://www.wikidata.org/wiki/Q2737338,HIGH
+lnb_elite_nancy,lnb_elite,SLUC Nancy,NAN2,Nancy,,,FR,,,1967,,,,,,,,Q762219,SLUC Nancy Basket,,2026-09-19,https://www.wikidata.org/wiki/Q762219,HIGH
+lnb_elite_saint_quentin,lnb_elite,Saint-Quentin Basket-Ball,SAI,Saint-Quentin,,,FR,,,1973,,,,,,,,Q3463255,Saint-Quentin Basket-Ball,,2026-09-19,https://www.wikidata.org/wiki/Q3463255,HIGH
+bbl_alba,bbl,ALBA Berlin,ALB,ALBA,,,DE,,,1991,,,,,,,,Q643795,Alba Berlin,,2026-09-19,https://www.wikidata.org/wiki/Q643795,HIGH
+bbl_bamberg,bbl,Bamberg Baskets,BAM,Bamberg,,,DE,,,1955,,,,,,,,Q700366,Bamberg Baskets,,2026-09-19,https://www.wikidata.org/wiki/Q700366,HIGH
+bbl_braunschweig,bbl,Basketball Löwen Braunschweig,BRA,Braunschweig,,,DE,,,2000,,,,,,,,Q532269,Basketball Löwen Braunschweig,,2026-09-19,https://www.wikidata.org/wiki/Q532269,HIGH
+bbl_oldenburg,bbl,EWE Baskets Oldenburg,OLD,Oldenburg,,,DE,,,2001,,,,,,,,Q707861,Baskets Oldenburg,,2026-09-19,https://www.wikidata.org/wiki/Q707861,HIGH
+bbl_bayern,bbl,FC Bayern Munich,BAY,Bayern,,,DE,,,1946,,,,,,,,Q600149,FC Bayern Munich (basketball),,2026-09-19,https://www.wikidata.org/wiki/Q600149,HIGH
+bbl_wuerzburg,bbl,Fitness First Würzburg Baskets,WÜR,Würzburg,,,DE,,,2007,,,,,,,,Q480478,Würzburg Baskets,,2026-09-19,https://www.wikidata.org/wiki/Q480478,HIGH
+bbl_hamburg,bbl,Veolia Towers Hamburg,HAM,Hamburg,,,DE,,,2013,,,,,,,,Q17324838,Hamburg Towers,,2026-09-19,https://www.wikidata.org/wiki/Q17324838,HIGH
+bbl_ludwigsburg,bbl,MHP Riesen Ludwigsburg,LUD,Ludwigsburg,,,DE,,,1960,,,,,,,,Q553293,Riesen Ludwigsburg,,2026-09-19,https://www.wikidata.org/wiki/Q553293,HIGH
+bbl_chemnitz,bbl,NINERS Chemnitz,CHE,Chemnitz,Basketball-Vereinigung Chemnitz 99,,DE,,,1999,,,,,,,,Q797164,Niners Chemnitz,,2026-09-19,https://www.wikidata.org/wiki/Q797164,HIGH
+bbl_hagen,bbl,Phoenix Hagen,HAG,Hagen,,,DE,,,2004,,,,,,,,Q463349,Phoenix Hagen,,2026-09-19,https://www.wikidata.org/wiki/Q463349,HIGH
+bbl_ulm,bbl,ratiopharm ulm,ULM,Ulm,,,DE,,,2001,,,,,,,,Q266588,Ratiopharm Ulm,,2026-09-19,https://www.wikidata.org/wiki/Q266588,HIGH
+bbl_rostock,bbl,Rostock Seawolves,ROS,Rostock,,,DE,,,1994,,,,,,,,Q18009233,Rostock Seawolves,,2026-09-19,https://www.wikidata.org/wiki/Q18009233,HIGH
+bbl_vechta,bbl,RASTA Vechta,VEC,Vechta,,,DE,,,1979,,,,,,,,Q2205512,SC Rasta Vechta,,2026-09-19,https://www.wikidata.org/wiki/Q2205512,HIGH
+bbl_jena,bbl,Science City Jena,JEN,Jena,,,DE,,,1994,,,,,,,,Q265244,Science City Jena,,2026-09-19,https://www.wikidata.org/wiki/Q265244,HIGH
+bbl_frankfurt,bbl,SKYLINERS Frankfurt,FRA,Frankfurt,Opel Skyliners,,DE,,,1999,,,,,,,,Q836109,Skyliners Frankfurt,,2026-09-19,https://www.wikidata.org/wiki/Q836109,HIGH
+bbl_mbc,bbl,SYNTAINICS MBC,MBC,MBC,,,DE,,,1958,,,,,,,,Q521663,Mitteldeutscher BC,,2026-09-19,https://www.wikidata.org/wiki/Q521663,HIGH
+bbl_bonn,bbl,Telekom Baskets Bonn,BON,Bonn,,,DE,,,1995,,,,,,,,Q704072,Telekom Baskets Bonn,,2026-09-19,https://www.wikidata.org/wiki/Q704072,HIGH
+bbl_trier,bbl,VET-CONCEPT Gladiators Trier,TRI,Trier,,,DE,,,2015,,,,,,,,Q22340607,Gladiators Trier,,2026-09-19,https://www.wikidata.org/wiki/Q22340607,HIGH
+serie_a_cantu,serie_a,Acqua S.Bernardo Cantù,CAN,Cantù,,,IT,,,1936,,,,,,,,Q36311,Pallacanestro Cantù,,2026-09-19,https://www.wikidata.org/wiki/Q36311,HIGH
+serie_a_udine,serie_a,APU Old Wild West Udine,UDI,Udine,,,IT,,,1944,,,,,,,,Q3626683,APU Udine,,2026-09-19,https://www.wikidata.org/wiki/Q3626683,HIGH
+serie_a_milano,serie_a,EA7 Emporio Armani Milano,OM,Olimpia Milano,,,IT,,,1936,,,,,,,,Q36362,Olimpia Milano,,2026-09-19,https://www.wikidata.org/wiki/Q36362,HIGH
+serie_a_roma_spqr,serie_a,BC Roma SPQR,RS,Roma SPQR,,,IT,,,2026,,,,,,,,Q140465826,BC Roma,,2026-09-19,https://www.wikidata.org/wiki/Q140465826,HIGH
+serie_a_tortona,serie_a,Bertram Derthona Tortona,DER,Derthona,,,IT,,,1946,,,,,,,,Q17628735,Derthona Basket,,2026-09-19,https://www.wikidata.org/wiki/Q17628735,HIGH
+serie_a_trento,serie_a,Dolomiti Energia Trentino,TRE,Trento,,,IT,,,1995,,,,,,,,Q51167,Aquila Basket Trento,,2026-09-19,https://www.wikidata.org/wiki/Q51167,HIGH
+serie_a_scafati,serie_a,Longobardi Scafati Basket,SCA,Scafati,,,IT,,,1969,,,,,,,,Q42454,Scafati Basket,,2026-09-19,https://www.wikidata.org/wiki/Q42454,HIGH
+serie_a_maxima_roma,serie_a,Maxima Roma,MR,Maxima Roma,,,IT,,,2026,,,,,,,,Q140465833,Maxima Roma,,2026-09-19,https://www.wikidata.org/wiki/Q140465833,HIGH
+serie_a_napoli,serie_a,Napoli Basket,NAP,Napoli,,,,,,,,,,,,,,Q31037592,Napoli Basket,,2026-09-19,https://www.wikidata.org/wiki/Q31037592,HIGH
+serie_a_treviso,serie_a,NutriBullet Treviso,TRE2,Treviso,,,IT,,,2012,,,,,,,,Q17562457,Universo Treviso Basket,,2026-09-19,https://www.wikidata.org/wiki/Q17562457,HIGH
+serie_a_varese,serie_a,Openjobmetis Varese,VAR,Varese,,,IT,,,1945,,,,,,,,Q36551,Pallacanestro Varese,,2026-09-19,https://www.wikidata.org/wiki/Q36551,HIGH
+serie_a_trieste,serie_a,Pallacanestro Trieste,TRI,Trieste,,,IT,,,1975,,,,,,,,Q50884,Pallacanestro Trieste,,2026-09-19,https://www.wikidata.org/wiki/Q50884,HIGH
+serie_a_verona,serie_a,Tezenis Verona,VER,Verona,,,IT,,,1951,,,,,,,,Q48969,Scaligera Basket Verona,,2026-09-19,https://www.wikidata.org/wiki/Q48969,HIGH
+serie_a_venezia,serie_a,Umana Reyer Venezia,RV,Reyer Venezia,,,IT,,,1925,,,,,,,,Q36572,Reyer Venezia,,2026-09-19,https://www.wikidata.org/wiki/Q36572,HIGH
+serie_a_reggio,serie_a,UNA Hotels Reggio Emilia,RE,Reggio Emilia,,,IT,,,1974,,,,,,,,Q36419,Pallacanestro Reggiana,,2026-09-19,https://www.wikidata.org/wiki/Q36419,HIGH
+serie_a_bologna,serie_a,Virtus Segafredo Bologna,VB,Virtus Bologna,,,IT,,,1927,,,,,,,,Q36264,Virtus Bologna,,2026-09-19,https://www.wikidata.org/wiki/Q36264,HIGH
+greek_basket_league_aek,greek_basket_league,AEK Athens,AEK,AEK,,,GR,,,1924,,,,,,,,Q1982491,AEK B.C.,,2026-09-19,https://www.wikidata.org/wiki/Q1982491,HIGH
+greek_basket_league_aris,greek_basket_league,Aris Thessaloniki,ARI,Aris,,,GR,,,1922,,,,,,,,Q8383824,Aris B.C.,,2026-09-19,https://www.wikidata.org/wiki/Q8383824,HIGH
+greek_basket_league_vikos,greek_basket_league,Vikos Falcons Ioannina,VIK,Vikos,,,GR,,,2022,,,,,,,,Q135969614,Vikos Falcons Ioannina B.C.,,2026-09-19,https://www.wikidata.org/wiki/Q135969614,HIGH
+greek_basket_league_doxa,greek_basket_league,Doxa Lefkadas,DOX,Doxa,,,GR,,,1982,,,,,,,,Q12872679,Doxa Lefkadas B.C.,,2026-09-19,https://www.wikidata.org/wiki/Q12872679,HIGH
+greek_basket_league_iraklis,greek_basket_league,Iraklis Thessaloniki,IRA,Iraklis,Γυμναστικός Σύλλογος Αγιάς «Ηρακλής» Καλαθοσφαιρική Ανώνυμη Εταιρεία,,GR,,,1908,,,,,,,,Q549055,G.S. Iraklis Thessaloniki (men's basketball),,2026-09-19,https://www.wikidata.org/wiki/Q549055,HIGH
+greek_basket_league_karditsa,greek_basket_league,ASK Karditsas,KAR,Karditsa,,,GR,,,2006,,,,,,,,Q25535622,ASK Karditsas B.C.,,2026-09-19,https://www.wikidata.org/wiki/Q25535622,HIGH
+greek_basket_league_kolossos,greek_basket_league,Kolossos Rodou,KOL,Kolossos,,,GR,,,1963,,,,,,,,Q1645286,Kolossos Rodou B.C.,,2026-09-19,https://www.wikidata.org/wiki/Q1645286,HIGH
+greek_basket_league_maroussi,greek_basket_league,Maroussi,MAR,Maroussi,Γυμναστικός Σύλλογος Αμαρουσίου,,GR,,,1950,,,,,,,,Q1355529,Maroussi B.C.,,2026-09-19,https://www.wikidata.org/wiki/Q1355529,HIGH
+greek_basket_league_mykonos,greek_basket_league,Mykonos,MYK,Mykonos,,,GR,,,1981,,,,,,,,Q128033708,Mykonos B.C.,,2026-09-19,https://www.wikidata.org/wiki/Q128033708,HIGH
+greek_basket_league_olympiacos,greek_basket_league,Olympiacos Piraeus,OLY,Olympiacos,,,GR,,,1931,,,,,,,,Q847701,Olympiacos B.C.,,2026-09-19,https://www.wikidata.org/wiki/Q847701,HIGH
+greek_basket_league_panathinaikos,greek_basket_league,Panathinaikos Athens,PAN,Panathinaikos,,,GR,,,1919,,,,,,,,Q739287,Panathinaikos B.C.,,2026-09-19,https://www.wikidata.org/wiki/Q739287,HIGH
+greek_basket_league_paok,greek_basket_league,PAOK Thessaloniki,PAO,PAOK,,,GR,,,1928,,,,,,,,Q1343768,PAOK BC,,2026-09-19,https://www.wikidata.org/wiki/Q1343768,HIGH
+greek_basket_league_peristeri,greek_basket_league,Peristeri Athens,PER,Peristeri,,,GR,,,1971,,,,,,,,Q19862455,Peristeri B.C.,,2026-09-19,https://www.wikidata.org/wiki/Q19862455,HIGH
+greek_basket_league_promitheas,greek_basket_league,Promitheas Patras,PRO,Promitheas,,,GR,,,1985,,,,,,,,Q20055221,Promitheas Patras B.C.,,2026-09-19,https://www.wikidata.org/wiki/Q20055221,HIGH
+lf_endesa_ferrol,lf_endesa,BAXI Ferrol,FER,Ferrol,,,ES,,,1997,,,,,,,,Q20736183,Universitario de Ferrol,,2026-09-19,https://www.wikidata.org/wiki/Q20736183,HIGH
+lf_endesa_la_seu,lf_endesa,Cadí La Seu,LS,La Seu,,,ES,,,1965,,,,,,,,Q3600922,AE Sedis Bàsquet,,2026-09-19,https://www.wikidata.org/wiki/Q3600922,HIGH
+lf_endesa_celta,lf_endesa,Celta Femxa Zorka,CEL,Celta,,,ES,,,1996,,,,,,,,Q3330276,Celta de Vigo Baloncesto,,2026-09-19,https://www.wikidata.org/wiki/Q3330276,HIGH
+lf_endesa_ensino,lf_endesa,Durán Maquinaria Ensino,ENS,Ensino,,,ES,,,1980,,,,,,,,Q7231325,Porta XI Ensino,,2026-09-19,https://www.wikidata.org/wiki/Q7231325,HIGH
+lf_endesa_araski,lf_endesa,Kutxabank Araski,ARA,Araski,,,ES,,,2010,,,,,,,,Q21280692,Araski AES,,2026-09-19,https://www.wikidata.org/wiki/Q21280692,HIGH
+lf_endesa_gernika,lf_endesa,Lointek Gernika Bizkaia,GER,Gernika,,,ES,,,1996,,,,,,,,Q19947914,Gernika KESB,,2026-09-19,https://www.wikidata.org/wiki/Q19947914,HIGH
+lf_endesa_avenida,lf_endesa,Perfumerías Avenida,AVE,Avenida,,,ES,,,1988,,,,,,,,Q2660154,CB Avenida,,2026-09-19,https://www.wikidata.org/wiki/Q2660154,HIGH
+lf_endesa_girona,lf_endesa,Spar Girona,GIR,Girona,,,ES,,,2005,,,,,,,,Q4890678,Uni Girona CB,,2026-09-19,https://www.wikidata.org/wiki/Q4890678,HIGH
+lf_endesa_valencia,lf_endesa,Valencia Basket,VAL,Valencia,,,ES,,,,,,,,,,,Q60464673,Valencia Basket (women),,2026-09-19,https://www.wikidata.org/wiki/Q60464673,HIGH
+lfb_angers,lfb,UF Angers Basket 49,ANG,Angers,,,FR,,,2004,,,,,,,,Q3549990,Union Féminine Angers Basket 49,,2026-09-19,https://www.wikidata.org/wiki/Q3549990,HIGH
+lfb_landes,lfb,Basket Landes,LAN,Landes,,,FR,,,2003,,,,,,,,Q2887227,Basket Landes,,2026-09-19,https://www.wikidata.org/wiki/Q2887227,HIGH
+lfb_bourges,lfb,Tango Bourges Basket,BOU,Bourges,,,FR,,,1967,,,,,,,,Q616041,Tango Bourges Basket,,2026-09-19,https://www.wikidata.org/wiki/Q616041,HIGH
+lfb_flammes,lfb,Flammes Carolo Basket,FC,Flammes Carolo,,,FR,,,2002,,,,,,,,Q3073321,Flammes Carolo Basket,,2026-09-19,https://www.wikidata.org/wiki/Q3073321,HIGH
+lfb_charnay,lfb,Charnay Basket Bourgogne Sud,CHA,Charnay,,,FR,,,1957,,,,,,,,Q3156869,Charnay Basket Bourgogne Sud,,2026-09-19,https://www.wikidata.org/wiki/Q3156869,HIGH
+lfb_chartres,lfb,C'Chartres Métropole Basket Féminin,CHA2,Chartres,,,FR,,,1959,,,,,,,,Q16382668,Chartres Basket Feminin,,2026-09-19,https://www.wikidata.org/wiki/Q16382668,HIGH
+lfb_landerneau,lfb,Landerneau Bretagne Basket,LAN2,Landerneau,,,FR,,,2011,,,,,,,,Q21027377,Landerneau Bretagne Basket,,2026-09-19,https://www.wikidata.org/wiki/Q21027377,HIGH
+lfb_lattes,lfb,BLMA Lattes Montpellier,LAT,Lattes,,,FR,,,1974,,,,,,,,Q2887232,Basket Lattes Montpellier Agglomération,,2026-09-19,https://www.wikidata.org/wiki/Q2887232,HIGH
+lfb_asvel,lfb,LDLC ASVEL Féminin,AF,ASVEL Féminin,,,FR,,,2000,,,,,,,,Q3549999,ASVEL Féminin,,2026-09-19,https://www.wikidata.org/wiki/Q3549999,HIGH
+lfb_villeneuve,lfb,ESB Villeneuve-d'Ascq,VIL,Villeneuve-d'Ascq,,,FR,,,1987,,,,,,,,Q3046087,ESB Villeneuve-d'Ascq,,2026-09-19,https://www.wikidata.org/wiki/Q3046087,HIGH
+wnbl_adelaide,wnbl,Adelaide Lightning,LIG,Lightning,,,AU,,,1993,,,,,,,,Q2824193,Adelaide Lightning,,2026-09-19,https://www.wikidata.org/wiki/Q2824193,HIGH
+wnbl_bendigo,wnbl,Bendigo Spirit,SPI,Spirit,,,AU,,,2007,,,,,,,,Q3179109,Bendigo Spirit,,2026-09-19,https://www.wikidata.org/wiki/Q3179109,HIGH
+wnbl_geelong,wnbl,Geelong Venom,VEN,Venom,,,AU,,,1984,,,,,,,,Q923030,Geelong Venom,,2026-09-19,https://www.wikidata.org/wiki/Q923030,HIGH
+wnbl_perth,wnbl,Perth Lynx,LYN,Lynx,,,AU,,,1988,,,,,,,,Q3376166,Perth Lynx,,2026-09-19,https://www.wikidata.org/wiki/Q3376166,HIGH
+wnbl_southside,wnbl,Southside Melbourne Flyers,FLY,Flyers,,,AU,,,1992,,,,,,,,Q3013412,Southside Melbourne Flyers,,2026-09-19,https://www.wikidata.org/wiki/Q3013412,HIGH
+wnbl_sydney,wnbl,Sydney Flames,FLA,Flames,,,AU,,,1981,,,,,,,,Q3506848,Sydney Flames,,2026-09-19,https://www.wikidata.org/wiki/Q3506848,HIGH
+wnbl_tasmania,wnbl,Tasmania Jewels,JEW,Jewels,,,AU,,,2025,,,,,,,,Q136085356,Tasmania Jewels,,2026-09-19,https://www.wikidata.org/wiki/Q136085356,HIGH
+wnbl_townsville,wnbl,Townsville Fire,FIR,Fire,,,AU,,,2001,,,,,,,,Q3535968,Townsville Fire,,2026-09-19,https://www.wikidata.org/wiki/Q3535968,HIGH
+wnbl_canberra,wnbl,UC Capitals,CAP,Capitals,,,AU,,,1984,,,,,,,,Q2936188,University of Canberra Capitals,,2026-09-19,https://www.wikidata.org/wiki/Q2936188,HIGH
+cba_beijing_ducks,cba,Beijing Ducks,DUC,Ducks,,,CN,,,1956,,,,,,,,Q2627897,Beijing Ducks,,2026-09-19,https://www.wikidata.org/wiki/Q2627897,HIGH
+cba_beijing_royal_fighters,cba,Beijing Royal Fighters,RF,Royal Fighters,,,CN,,,2009,,,,,,,,Q19329545,Beijing Royal Fighters,,2026-09-19,https://www.wikidata.org/wiki/Q19329545,HIGH
+cba_fujian,cba,Fujian Sturgeons,STU,Sturgeons,,,CN,,,1999,,,,,,,,Q661783,Fujian Sturgeons,,2026-09-19,https://www.wikidata.org/wiki/Q661783,HIGH
+cba_guangdong,cba,Guangdong Southern Tigers,ST,Southern Tigers,,,CN,,,1993,,,,,,,,Q2629395,Guangdong Southern Tigers,,2026-09-19,https://www.wikidata.org/wiki/Q2629395,HIGH
+cba_guangzhou,cba,Guangzhou Loong Lions,LL,Loong Lions,,,CN,,,2000,,,,,,,,Q2376602,Guangzhou Loong Lions,,2026-09-19,https://www.wikidata.org/wiki/Q2376602,HIGH
+cba_jiangsu,cba,Jiangsu Dragons,DRA,Dragons,,,CN,,,1996,,,,,,,,Q2608377,Jiangsu Dragons,,2026-09-19,https://www.wikidata.org/wiki/Q2608377,HIGH
+cba_jilin,cba,Jilin Northeast Tigers,NT,Northeast Tigers,,,CN,,,1956,,,,,,,,Q2608720,Jilin Northeast Tigers,,2026-09-19,https://www.wikidata.org/wiki/Q2608720,HIGH
+cba_liaoning,cba,Liaoning Flying Leopards,FL,Flying Leopards,,,CN,,,1995,,,,,,,,Q2628340,Liaoning Flying Leopards,,2026-09-19,https://www.wikidata.org/wiki/Q2628340,HIGH
+cba_nanjing,cba,Nanjing Monkey Kings,MK,Monkey Kings,,,CN,,,2007,,,,,,,,Q18418539,Nanjing Monkey Kings,,2026-09-19,https://www.wikidata.org/wiki/Q18418539,HIGH
+cba_ningbo,cba,Ningbo Rockets,ROC,Rockets,,,CN,,,,,,,,,,,Q108933283,Ningbo Rockets,,2026-09-19,https://www.wikidata.org/wiki/Q108933283,HIGH
+cba_qingdao,cba,Qingdao Eagles,EAG,Eagles,,,CN,,,2003,,,,,,,,Q2608439,Qingdao Eagles,,2026-09-19,https://www.wikidata.org/wiki/Q2608439,HIGH
+cba_shandong,cba,Shandong Hi-Speed Kirin,KIR,Kirin,,,CN,,,1995,,,,,,,,Q2608444,Shandong Hi-Speed Kirin,,2026-09-19,https://www.wikidata.org/wiki/Q2608444,HIGH
+cba_shanghai,cba,Shanghai Sharks,SHA,Sharks,,,CN,,,1996,,,,,,,,Q2502166,Shanghai Sharks,,2026-09-19,https://www.wikidata.org/wiki/Q2502166,HIGH
+cba_shanxi,cba,Shanxi Loongs,LOO,Loongs,,,CN,,,,,,,,,,,Q2608702,Shanxi Loongs,,2026-09-19,https://www.wikidata.org/wiki/Q2608702,HIGH
+cba_shenzhen,cba,Shenzhen Leopards,LEO,Leopards,,,CN,,,2003,,,,,,,,Q2608725,Shenzhen Leopards,,2026-09-19,https://www.wikidata.org/wiki/Q2608725,HIGH
+cba_sichuan,cba,Sichuan Blue Whales,BW,Blue Whales,,,CN,,,2009,,,,,,,,Q10924945,Sichuan Blue Whales,,2026-09-19,https://www.wikidata.org/wiki/Q10924945,HIGH
+cba_tianjin,cba,Tianjin Pioneers,PIO,Pioneers,,,CN,,,1952,,,,,,,,Q2402556,Tianjin Pioneers,,2026-09-19,https://www.wikidata.org/wiki/Q2402556,HIGH
+cba_xinjiang,cba,Xinjiang Flying Tigers,FT,Flying Tigers,,,CN,,,2002,,,,,,,,Q2375161,Xinjiang Flying Tigers,,2026-09-19,https://www.wikidata.org/wiki/Q2375161,HIGH
+cba_zhejiang_bulls,cba,Zhejiang Golden Bulls,GB,Golden Bulls,,,CN,,,1995,,,,,,,,Q2376573,Zhejiang Golden Bulls,,2026-09-19,https://www.wikidata.org/wiki/Q2376573,HIGH
+cba_zhejiang_lions,cba,Zhejiang Lions,GL,Guangsha Lions,,,CN,,,2005,,,,,,,,Q2608707,Zhejiang Lions,,2026-09-19,https://www.wikidata.org/wiki/Q2608707,HIGH
+b_league_akita,b_league,Akita Northern Happinets,AKI,Akita,,,JP,,,2009,,,,,,,,Q4701227,Akita Northern Happinets,,2026-09-19,https://www.wikidata.org/wiki/Q4701227,HIGH
+b_league_altiri_chiba,b_league,Altiri Chiba,AC,Altiri Chiba,,,JP,,,2020,,,,,,,,Q107313713,Altiri Chiba,,2026-09-19,https://www.wikidata.org/wiki/Q107313713,HIGH
+b_league_alvark,b_league,Alvark Tokyo,ALV,Alvark,,,JP,,,2016,,,,,,,,Q7830743,Alvark Tokyo,,2026-09-19,https://www.wikidata.org/wiki/Q7830743,HIGH
+b_league_chiba_jets,b_league,Chiba Jets,CJ,Chiba Jets,,,JP,,,2005,,,,,,,,Q18712845,Chiba Jets,,2026-09-19,https://www.wikidata.org/wiki/Q18712845,HIGH
+b_league_gunma,b_league,Gunma Crane Thunders,GUN,Gunma,,,JP,,,2011,,,,,,,,Q11609530,Gunma Crane Thunders,,2026-09-19,https://www.wikidata.org/wiki/Q11609530,HIGH
+b_league_ibaraki,b_league,Ibaraki Robots,IBA,Ibaraki,,,JP,,,,,,,,,,,Q16140652,Ibaraki Robots,,2026-09-19,https://www.wikidata.org/wiki/Q16140652,HIGH
+b_league_kawasaki,b_league,Kawasaki Brave Thunders,KAW,Kawasaki,,,JP,,,2006,,,,,,,,Q11528238,Kawasaki Brave Thunders,,2026-09-19,https://www.wikidata.org/wiki/Q11528238,HIGH
+b_league_levanga,b_league,Levanga Hokkaido,LEV,Levanga,株式会社レバンガ北海道,,JP,,,2006,,,,,,,,Q6534875,Levanga Hokkaido,,2026-09-19,https://www.wikidata.org/wiki/Q6534875,HIGH
+b_league_sendai,b_league,Sendai 89ers,SEN,Sendai,,,JP,,,2004,,,,,,,,Q7450169,Sendai 89ers,,2026-09-19,https://www.wikidata.org/wiki/Q7450169,HIGH
+b_league_sunrockers,b_league,Tokyo Sunrockers,SUN,Sunrockers,,,JP,,,,,,,,,,,Q139697270,Tokyo Sunrockers,,2026-09-19,https://www.wikidata.org/wiki/Q139697270,HIGH
+b_league_toyama,b_league,Toyama Grouses,TOY,Toyama,,,JP,,,2007,,,,,,,,Q7830578,Toyama Grouses,,2026-09-19,https://www.wikidata.org/wiki/Q7830578,HIGH
+b_league_utsunomiya,b_league,Utsunomiya Brex,BRE,Brex,,,JP,,,2006,,,,,,,,Q6554284,Utsunomiya Brex,,2026-09-19,https://www.wikidata.org/wiki/Q6554284,HIGH
+b_league_yokohama,b_league,Yokohama B-Corsairs,B-C,B-Corsairs,,,JP,,,,,,,,,,,Q11542875,Yokohama B-Corsairs,,2026-09-19,https://www.wikidata.org/wiki/Q11542875,HIGH
+b_league_hiroshima,b_league,Hiroshima Dragonflies,HIR,Hiroshima,,,JP,,,2013,,,,,,,,Q16482313,Hiroshima Dragonflies,,2026-09-19,https://www.wikidata.org/wiki/Q16482313,HIGH
+b_league_kobe,b_league,Kobe Storks,KOB,Kobe,,,JP,,,2011,,,,,,,,Q11392820,Kobe Storks,,2026-09-19,https://www.wikidata.org/wiki/Q11392820,HIGH
+b_league_kyoto,b_league,Kyoto Hannaryz,KYO,Kyoto,,,JP,,,2009,,,,,,,,Q6452149,Kyoto Hannaryz,,2026-09-19,https://www.wikidata.org/wiki/Q6452149,HIGH
+b_league_nagasaki,b_league,Nagasaki Velca,NAG,Nagasaki,,,JP,,,2020,,,,,,,,Q107132152,Nagasaki Velca,,2026-09-19,https://www.wikidata.org/wiki/Q107132152,HIGH
+b_league_nagoya,b_league,Nagoya Diamond Dolphins,NAG2,Nagoya,,,JP,,,,,,,,,,,Q11357174,Nagoya Diamond Dolphins,,2026-09-19,https://www.wikidata.org/wiki/Q11357174,HIGH
+b_league_osaka,b_league,Osaka Evessa,OSA,Osaka,,,JP,,,2004,,,,,,,,Q3356907,Osaka Evessa,,2026-09-19,https://www.wikidata.org/wiki/Q3356907,HIGH
+b_league_ryukyu,b_league,Ryukyu Golden Kings,RYU,Ryukyu,,,JP,,,2006,,,,,,,,Q7385534,Ryukyu Golden Kings,,2026-09-19,https://www.wikidata.org/wiki/Q7385534,HIGH
+b_league_saga,b_league,Saga Ballooners,SAG,Saga,,,JP,,,2018,,,,,,,,Q53309521,Saga Ballooners,,2026-09-19,https://www.wikidata.org/wiki/Q53309521,HIGH
+b_league_san_en,b_league,San-en NeoPhoenix,SAN,San-en,,,JP,,,2008,,,,,,,,Q5644020,San-en NeoPhoenix,,2026-09-19,https://www.wikidata.org/wiki/Q5644020,HIGH
+b_league_mikawa,b_league,SeaHorses Mikawa,MIK,Mikawa,,,JP,,,2016,,,,,,,,Q3607220,SeaHorses Mikawa,,2026-09-19,https://www.wikidata.org/wiki/Q3607220,HIGH
+b_league_shiga,b_league,Shiga Lakes,SHI,Shiga,,,JP,,,2007,,,,,,,,Q7496291,Shiga Lakes,,2026-09-19,https://www.wikidata.org/wiki/Q7496291,HIGH
+b_league_shimane,b_league,Shimane Susanoo Magic,SHI2,Shimane,,,JP,,,2007,,,,,,,,Q7496829,Shimane Susanoo Magic,,2026-09-19,https://www.wikidata.org/wiki/Q7496829,HIGH
+b_league_shinshu,b_league,Shinshu Brave Warriors,SHI3,Shinshu,,,JP,,,,,,,,,,,Q11386080,Shinshu Brave Warriors,,2026-09-19,https://www.wikidata.org/wiki/Q11386080,HIGH
+kbl_anyang,kbl,Anyang Jung Kwan Jang Red Boosters,ANY,Anyang,,,KR,,,1997,,,,,,,,Q485398,Anyang Jung Kwan Jang Red Boosters,,2026-09-19,https://www.wikidata.org/wiki/Q485398,HIGH
+kbl_busan,kbl,Busan KCC Egis,KCC,KCC,,,KR,,,1978,,,,,,,,Q485411,Busan KCC Egis,,2026-09-19,https://www.wikidata.org/wiki/Q485411,HIGH
+kbl_changwon,kbl,Changwon LG Sakers,LS,LG Sakers,,,KR,,,1997,,,,,,,,Q484762,Changwon LG Sakers,,2026-09-19,https://www.wikidata.org/wiki/Q484762,HIGH
+kbl_daegu,kbl,Daegu KOGAS Pegasus,KOG,KOGAS,,,KR,,,1996,,,,,,,,Q484557,Daegu KOGAS Pegasus,,2026-09-19,https://www.wikidata.org/wiki/Q484557,HIGH
+kbl_goyang,kbl,Goyang Sono Skygunners,SON,Sono,,,KR,,,1996,,,,,,,,Q483748,Goyang Sono Skygunners,,2026-09-19,https://www.wikidata.org/wiki/Q483748,HIGH
+kbl_samsung,kbl,Seoul Samsung Thunders,SAM,Samsung,,,KR,,,1978,,,,,,,,Q483074,Seoul Samsung Thunders,,2026-09-19,https://www.wikidata.org/wiki/Q483074,HIGH
+kbl_sk,kbl,Seoul SK Knights,SK,SK Knights,,,KR,,,1997,,,,,,,,Q490749,Seoul SK Knights,,2026-09-19,https://www.wikidata.org/wiki/Q490749,HIGH
+kbl_suwon,kbl,Suwon KT Sonicboom,KT,KT,,,KR,,,1997,,,,,,,,Q485191,Suwon KT Sonicboom,,2026-09-19,https://www.wikidata.org/wiki/Q485191,HIGH
+kbl_ulsan,kbl,Ulsan Hyundai Mobis Phoebus,MOB,Mobis,,,KR,,,1997,,,,,,,,Q490947,Ulsan Hyundai Mobis Phoebus,,2026-09-19,https://www.wikidata.org/wiki/Q490947,HIGH
+kbl_wonju,kbl,Wonju DB Promy,DP,DB Promy,,,KR,,,1997,,,,,,,,Q484120,Wonju DB Promy,,2026-09-19,https://www.wikidata.org/wiki/Q484120,HIGH
+nbl_adelaide,nbl,Adelaide 36ers,36E,36ers,,,AU,,,1982,,,,,,,,Q2756400,Adelaide 36ers,,2026-09-19,https://www.wikidata.org/wiki/Q2756400,HIGH
+nbl_brisbane,nbl,Brisbane Bullets,BUL,Bullets,,,AU,,,1979,,,,,,,,Q2925638,Brisbane Bullets,,2026-09-19,https://www.wikidata.org/wiki/Q2925638,HIGH
+nbl_cairns,nbl,Cairns Taipans,TAI,Taipans,,,AU,,,1999,,,,,,,,Q589167,Cairns Taipans,,2026-09-19,https://www.wikidata.org/wiki/Q589167,HIGH
+nbl_illawarra,nbl,Illawarra Hawks,HAW,Hawks,,,AU,,,1979,,,,,,,,Q2307447,Illawarra Hawks,,2026-09-19,https://www.wikidata.org/wiki/Q2307447,HIGH
+nbl_melbourne,nbl,Melbourne United,UNI,United,,,AU,,,1984,,,,,,,,Q2756356,Melbourne United,,2026-09-19,https://www.wikidata.org/wiki/Q2756356,HIGH
+nbl_nz,nbl,New Zealand Breakers,BRE,Breakers,,,AU,,,2003,,,,,,,,Q2701383,New Zealand Breakers,,2026-09-19,https://www.wikidata.org/wiki/Q2701383,HIGH
+nbl_perth,nbl,Perth Wildcats,WIL,Wildcats,,,AU,,,1982,,,,,,,,Q2756389,Perth Wildcats,,2026-09-19,https://www.wikidata.org/wiki/Q2756389,HIGH
+nbl_se_melbourne,nbl,South East Melbourne Phoenix,PHO,Phoenix,,,AU,,,,,,,,,,,Q60753752,South East Melbourne Phoenix,,2026-09-19,https://www.wikidata.org/wiki/Q60753752,HIGH
+nbl_sydney,nbl,Sydney Kings,KIN,Kings,,,AU,,,1988,,,,,,,,Q1174892,Sydney Kings,,2026-09-19,https://www.wikidata.org/wiki/Q1174892,HIGH
+nbl_tasmania,nbl,Tasmania JackJumpers,JAC,JackJumpers,,,AU,,,,,,,,,,,Q104860401,Tasmania JackJumpers,,2026-09-19,https://www.wikidata.org/wiki/Q104860401,HIGH
+bsl_anadolu_efes,bsl,Anadolu Efes,EFE,Efes,,,TR,,,1976,,,,,,,,Q483738,Anadolu Efes S.K.,,2026-09-19,https://www.wikidata.org/wiki/Q483738,HIGH
+bsl_bahcesehir,bsl,Bahçeşehir Koleji,BAH,Bahçeşehir,,,TR,,,2017,,,,,,,,Q55569136,Bahçeşehir Koleji S.K.,,2026-09-19,https://www.wikidata.org/wiki/Q55569136,HIGH
+bsl_bandirma,bsl,Bandırma Bordo,BAN,Bandırma,,,TR,,,,,,,,,,,Q131444426,,,2026-09-19,https://www.wikidata.org/wiki/Q131444426,MEDIUM
+bsl_besiktas,bsl,Beşiktaş,BEŞ,Beşiktaş,,,TR,,,1933,,,,,,,,Q854669,Beşiktaş J.K. (men's basketball),,2026-09-19,https://www.wikidata.org/wiki/Q854669,HIGH
+bsl_bursaspor,bsl,Bursaspor,BUR,Bursaspor,,,TR,,,2014,,,,,,,,Q25480181,Bursaspor Basketbol,,2026-09-19,https://www.wikidata.org/wiki/Q25480181,HIGH
+bsl_cayirova,bsl,Çayırova Belediyespor,ÇAY,Çayırova,,,TR,,,2016,,,,,,,,Q131401621,,,2026-09-19,https://www.wikidata.org/wiki/Q131401621,MEDIUM
+bsl_denizli,bsl,Denizli Basket,DEN,Denizli,,,TR,,,2017,,,,,,,,Q65220495,Denizli Basket,,2026-09-19,https://www.wikidata.org/wiki/Q65220495,HIGH
+bsl_erokspor,bsl,Esenler Erokspor,ERO,Erokspor,,,TR,,,2022,,,,,,,,Q135213951,Esenler Erokspor (basketball),,2026-09-19,https://www.wikidata.org/wiki/Q135213951,HIGH
+bsl_fenerbahce,bsl,Fenerbahçe,FEN,Fenerbahçe,,,TR,,,1913,,,,,,,,Q239447,Fenerbahçe S.K. (basketball),,2026-09-19,https://www.wikidata.org/wiki/Q239447,HIGH
+bsl_galatasaray,bsl,Galatasaray,GAL,Galatasaray,,,TR,,,1923,,,,,,,,Q1420393,Galatasaray S.K. (men's basketball),,2026-09-19,https://www.wikidata.org/wiki/Q1420393,HIGH
+bsl_karsiyaka,bsl,Karşıyaka,KAR,Karşıyaka,,,TR,,,1966,,,,,,,,Q1734764,Karşıyaka Basket,,2026-09-19,https://www.wikidata.org/wiki/Q1734764,HIGH
+bsl_korfez,bsl,Körfez Basket,KÖR,Körfez,,,TR,,,1994,,,,,,,,Q111829850,Körfez Basket,,2026-09-19,https://www.wikidata.org/wiki/Q111829850,HIGH
+bsl_petkim,bsl,Petkim Spor,PET,Petkim,,,TR,,,2013,,,,,,,,Q18712534,Petkim Spor,,2026-09-19,https://www.wikidata.org/wiki/Q18712534,HIGH
+bsl_tofas,bsl,Tofaş,TOF,Tofaş,,,TR,,,1974,,,,,,,,Q2278800,Tofaş S.K.,,2026-09-19,https://www.wikidata.org/wiki/Q2278800,HIGH
+bsl_trabzonspor,bsl,Trabzonspor,TRA,Trabzonspor,,,TR,,,2008,,,,,,,,Q2128426,Trabzonspor B.K.,,2026-09-19,https://www.wikidata.org/wiki/Q2128426,HIGH
+bsl_turk_telekom,bsl,Türk Telekom,TT,Türk Telekom,,,TR,,,1954,,,,,,,,Q1781239,Türk Telekom B.K.,,2026-09-19,https://www.wikidata.org/wiki/Q1781239,HIGH
+bal_al_ahly,bal,Al Ahly,AA,Al Ahly,,,EG,,,1907,,,,,,,,Q4703449,Al Ahly (basketball),,2026-09-19,https://www.wikidata.org/wiki/Q4703449,HIGH
+bal_al_ahly_ly,bal,Al Ahly Ly,AAL,Al Ahly Ly,,,LY,,,,,,,,,,,Q4702161,Al Ahly Ly (basketball),,2026-09-19,https://www.wikidata.org/wiki/Q4702161,HIGH
+bal_asc_dakar,bal,ASC Ville de Dakar,AV,ASC VD,,,,,,1980,,,,,,,,Q106622353,ASC Ville de Dakar,,2026-09-19,https://www.wikidata.org/wiki/Q106622353,HIGH
+bal_club_africain,bal,Club Africain,CA,Club Africain,,,TN,,,1956,,,,,,,,Q2980030,Club Africain (basketball),,2026-09-19,https://www.wikidata.org/wiki/Q2980030,HIGH
+bal_dar_city,bal,Dar City,DC,Dar City,,,TZ,,,,,,,,,,,Q136546092,Dar City BC,,2026-09-19,https://www.wikidata.org/wiki/Q136546092,HIGH
+bal_fus_rabat,bal,FUS Rabat,FR,FUS Rabat,,,MA,,,1946,,,,,,,,Q3063463,FUS Rabat (basketball),,2026-09-19,https://www.wikidata.org/wiki/Q3063463,HIGH
+bal_jca_kings,bal,JCA Kings,JK,JCA Kings,,,,,,2010,,,,,,,,Q137049421,JCA Kings,,2026-09-19,https://www.wikidata.org/wiki/Q137049421,HIGH
+bal_johannesburg,bal,Johannesburg Giants,GIA,Giants,,,ZA,,,2025,,,,,,,,Q136768155,Johannesburg Giants,,2026-09-19,https://www.wikidata.org/wiki/Q136768155,HIGH
+bal_maktown,bal,Maktown Flyers,MAK,Maktown,,,NG,,,2021,,,,,,,,Q137591221,Maktown Flyers,,2026-09-19,https://www.wikidata.org/wiki/Q137591221,HIGH
+bal_nairobi,bal,Nairobi City Thunder,THU,Thunder,,,,,,,,,,,,,,Q124357752,Nairobi City Thunder,,2026-09-19,https://www.wikidata.org/wiki/Q124357752,HIGH
+bal_petro,bal,Petro de Luanda,PET,Petro,,,AO,,,1980,,,,,,,,Q2869505,Petro de Luanda (basketball),,2026-09-19,https://www.wikidata.org/wiki/Q2869505,HIGH
+bal_rssb,bal,RSSB Tigers,RT,RSSB Tigers,,,RW,,,2019,,,,,,,,Q125293328,RSSB Tigers,,2026-09-19,https://www.wikidata.org/wiki/Q125293328,HIGH
+wcba_beijing,wcba,Beijing Great Wall,BEI,Beijing,,,CN,,,,,,,,,,,Q16382735,Beijing Great Wall,,2026-09-19,https://www.wikidata.org/wiki/Q16382735,HIGH
+wcba_guangdong,wcba,Guangdong Vermilion Birds,GUA,Guangdong,,,CN,,,,,,,,,,,Q16640392,Guangdong Vermilion Birds,,2026-09-19,https://www.wikidata.org/wiki/Q16640392,HIGH
+wcba_hebei,wcba,Hebei Win Power,HEB,Hebei,,,CN,,,,,,,,,,,Q60746723,Hebei Win Power,,2026-09-19,https://www.wikidata.org/wiki/Q60746723,HIGH
+wcba_heilongjiang,wcba,Heilongjiang Dragons,HEI,Heilongjiang,,,CN,,,1997,,,,,,,,Q16641492,Heilongjiang Dragons,,2026-09-19,https://www.wikidata.org/wiki/Q16641492,HIGH
+wcba_henan,wcba,Henan Phoenix,HEN,Henan,,,CN,,,,,,,,,,,Q16641536,Henan Phoenix,,2026-09-19,https://www.wikidata.org/wiki/Q16641536,HIGH
+wcba_inner_mongolia,wcba,Inner Mongolia Nongxin,IM,Inner Mongolia,,,CN,,,,,,,,,,,Q141215976,,,2026-09-19,https://www.wikidata.org/wiki/Q141215976,MEDIUM
+wcba_jiangsu,wcba,Jiangsu Phoenix,JIA,Jiangsu,,,CN,,,,,,,,,,,Q16645866,Jiangsu Phoenix,,2026-09-19,https://www.wikidata.org/wiki/Q16645866,HIGH
+wcba_liaoning,wcba,Liaoning Flying Eagles,LIA,Liaoning,,,CN,,,,,,,,,,,Q6540145,Liaoning Flying Eagles,,2026-09-19,https://www.wikidata.org/wiki/Q6540145,HIGH
+wcba_shaanxi,wcba,Shaanxi Red Wolves,SHA,Shaanxi,,,CN,,,,,,,,,,,Q60635567,Shaanxi Red Wolves,,2026-09-19,https://www.wikidata.org/wiki/Q60635567,HIGH
+wcba_shandong,wcba,Shandong Six Stars,SHA2,Shandong,,,CN,,,,,,,,,,,Q60774171,Shandong Six Stars,,2026-09-19,https://www.wikidata.org/wiki/Q60774171,HIGH
+wcba_shanghai,wcba,Shanghai Swordfish,SHA3,Shanghai,,,CN,,,,,,,,,,,Q3481397,Shanghai Swordfish,,2026-09-19,https://www.wikidata.org/wiki/Q3481397,HIGH
+wcba_shanxi,wcba,Shanxi Flame,SHA4,Shanxi,,,CN,,,,,,,,,,,Q3481449,Shanxi Flame,,2026-09-19,https://www.wikidata.org/wiki/Q3481449,HIGH
+wcba_sichuan,wcba,Sichuan Yuanda Meile,SIC,Sichuan,,,CN,,,,,,,,,,,Q141215961,Sichuan Yuanda Meile,,2026-09-19,https://www.wikidata.org/wiki/Q141215961,HIGH
+wcba_xinjiang,wcba,Xinjiang Magic Deer,XIN,Xinjiang,,,CN,,,,,,,,,,,Q60635740,Xinjiang Magic Deer,,2026-09-19,https://www.wikidata.org/wiki/Q60635740,HIGH
+wjbl_fujitsu,wjbl,Fujitsu Red Wave,FUJ,Fujitsu,,,JP,,,1985,,,,,,,,Q24887972,Fujitsu Red Wave,,2026-09-19,https://www.wikidata.org/wiki/Q24887972,HIGH
+wjbl_denso,wjbl,Denso Iris,DEN,Denso,,,JP,,,1962,,,,,,,,Q11320879,Denso Iris,,2026-09-19,https://www.wikidata.org/wiki/Q11320879,HIGH
+wjbl_chanson,wjbl,Chanson V-Magic,CHA,Chanson,,,JP,,,1962,,,,,,,,Q11307847,Chanson V-Magic,,2026-09-19,https://www.wikidata.org/wiki/Q11307847,HIGH
+wjbl_eneos,wjbl,Eneos Sunflowers,ENE,Eneos,,,JP,,,1969,,,,,,,,Q11226741,Eneos Sunflowers,,2026-09-19,https://www.wikidata.org/wiki/Q11226741,HIGH
+wjbl_toyota,wjbl,Toyota Antelopes,TOY,Toyota,,,JP,,,1963,,,,,,,,Q11321673,Toyota Antelopes,,2026-09-19,https://www.wikidata.org/wiki/Q11321673,HIGH
+wjbl_boshoku,wjbl,Toyota Boshoku Sunshine Rabbits,SR,Sunshine Rabbits,,,JP,,,1980,,,,,,,,Q11321670,Toyota Boshoku Sunshine Rabbits,,2026-09-19,https://www.wikidata.org/wiki/Q11321670,HIGH
+wjbl_aisin,wjbl,Aisin Wings,AIS,Aisin,,,JP,,,1979,,,,,,,,Q11282154,Aisin Wings,,2026-09-19,https://www.wikidata.org/wiki/Q11282154,HIGH
+wjbl_haneda,wjbl,Tokyo Haneda Vickies,HAN,Haneda,,,JP,,,1971,,,,,,,,Q11610282,Tokyo Haneda Vickies,,2026-09-19,https://www.wikidata.org/wiki/Q11610282,HIGH
+nbb_cearense,nbb,Basquete Cearense,CEA,Cearense,,,BR,,,2012,,,,,,,,Q135579,Fortaleza Basquete Cearense,,2026-09-19,https://www.wikidata.org/wiki/Q135579,HIGH
+nbb_bauru,nbb,Bauru Basket,BAU,Bauru,,,BR,,,1994,,,,,,,,Q4810218,Bauru Basket,,2026-09-19,https://www.wikidata.org/wiki/Q4810218,HIGH
+nbb_botafogo,nbb,Botafogo,BOT,Botafogo,,,BR,,,,,,,,,,,Q16845025,Botafogo de Futebol e Regatas (basketball),,2026-09-19,https://www.wikidata.org/wiki/Q16845025,HIGH
+nbb_brasilia,nbb,CAIXA/Brasília,BRA,Brasília,,,BR,,,2018,,,,,,,,Q106106681,,,2026-09-19,https://www.wikidata.org/wiki/Q106106681,MEDIUM
+nbb_caxias,nbb,Caxias do Sul Basquete,CAX,Caxias,,,BR,,,,,,,,,,,Q25419909,,,2026-09-19,https://www.wikidata.org/wiki/Q25419909,MEDIUM
+nbb_corinthians,nbb,Corinthians,COR,Corinthians,,,BR,,,1928,,,,,,,,Q3493821,SC Corinthians Paulista (basketball),,2026-09-19,https://www.wikidata.org/wiki/Q3493821,HIGH
+nbb_flamengo,nbb,Flamengo,FLA,Flamengo,,,BR,,,1919,,,,,,,,Q1136141,Flamengo Basketball,,2026-09-19,https://www.wikidata.org/wiki/Q1136141,HIGH
+nbb_franca,nbb,Sesi Franca,FRA,Franca,,,BR,,,1959,,,,,,,,Q777928,Franca Basquetebol Clube,,2026-09-19,https://www.wikidata.org/wiki/Q777928,HIGH
+nbb_minas,nbb,Minas Tênis Clube,MIN,Minas,,,BR,,,,,,,,,,,Q3858318,Minas Tênis Clube (basketball),,2026-09-19,https://www.wikidata.org/wiki/Q3858318,HIGH
+nbb_mogi,nbb,Mogi Basquete,MOG,Mogi,,,BR,,,1995,,,,,,,,Q5612799,Mogi das Cruzes Basquete,,2026-09-19,https://www.wikidata.org/wiki/Q5612799,HIGH
+nbb_osasco,nbb,Basket Osasco,OSA,Osasco,,,BR,,,,,,,,,,,Q86738290,,,2026-09-19,https://www.wikidata.org/wiki/Q86738290,MEDIUM
+nbb_pato,nbb,Pato Basquete,PAT,Pato,,,BR,,,,,,,,,,,Q65171165,,,2026-09-19,https://www.wikidata.org/wiki/Q65171165,MEDIUM
+nbb_paulistano,nbb,Paulistano,PAU,Paulistano,,,BR,,,1922,,,,,,,,Q3681246,Club Athletico Paulistano (basketball),,2026-09-19,https://www.wikidata.org/wiki/Q3681246,HIGH
+nbb_pinheiros,nbb,Pinheiros,PIN,Pinheiros,,,BR,,,1926,,,,,,,,Q14951212,Esporte Clube Pinheiros (basketball),,2026-09-19,https://www.wikidata.org/wiki/Q14951212,HIGH
+nbb_sao_jose,nbb,São José Basketball,SJ,São José,,,BR,,,1948,,,,,,,,Q3979248,São José Basketball,,2026-09-19,https://www.wikidata.org/wiki/Q3979248,HIGH
+nbb_uniao_corinthians,nbb,Ceisc/União Corinthians,UC,União Corinthians,,,BR,,,1939,,,,,,,,Q108705548,,,2026-09-19,https://www.wikidata.org/wiki/Q108705548,MEDIUM
+nbb_unifacisa,nbb,Unifacisa,UNI,Unifacisa,,,BR,,,2012,,,,,,,,Q65171535,,,2026-09-19,https://www.wikidata.org/wiki/Q65171535,MEDIUM
+lnb_argentina_argentino,lnb_argentina,Argentino de Junín,ARG,Argentino,,,AR,,,1935,,,,,,,,Q4789500,Argentino de Junín,,2026-09-19,https://www.wikidata.org/wiki/Q4789500,HIGH
+lnb_argentina_atenas,lnb_argentina,Atenas,ATE,Atenas,,,AR,,,1938,,,,,,,,Q290787,Asociación Deportiva Atenas,,2026-09-19,https://www.wikidata.org/wiki/Q290787,HIGH
+lnb_argentina_boca,lnb_argentina,Boca Juniors,BOC,Boca,,,AR,,,1929,,,,,,,,Q2917357,Boca Juniors (basketball),,2026-09-19,https://www.wikidata.org/wiki/Q2917357,HIGH
+lnb_argentina_olimpico,lnb_argentina,Ciclista Olímpico,OLÍ,Olímpico,,,AR,,,1921,,,,,,,,Q5773482,Ciclista Olímpico,,2026-09-19,https://www.wikidata.org/wiki/Q5773482,HIGH
+lnb_argentina_ferro,lnb_argentina,Ferro Carril Oeste,FER,Ferro,,,AR,,,1941,,,,,,,,Q5774267,Ferro Carril Oeste (basketball),,2026-09-19,https://www.wikidata.org/wiki/Q5774267,HIGH
+lnb_argentina_gimnasia,lnb_argentina,Gimnasia y Esgrima (Comodoro Rivadavia),GIM,Gimnasia,,,AR,,,1919,,,,,,,,Q650848,Gimnasia y Esgrima de Comodoro Rivadavia,,2026-09-19,https://www.wikidata.org/wiki/Q650848,HIGH
+lnb_argentina_independiente,lnb_argentina,Independiente de Oliva,IND,Independiente,,,AR,,,,,,,,,,,Q135892984,,,2026-09-19,https://www.wikidata.org/wiki/Q135892984,MEDIUM
+lnb_argentina_instituto,lnb_argentina,Instituto,INS,Instituto,,,AR,,,,,,,,,,,Q21059745,Instituto ACC (basketball),,2026-09-19,https://www.wikidata.org/wiki/Q21059745,HIGH
+lnb_argentina_la_union,lnb_argentina,La Unión de Formosa,LU,La Unión,,,AR,,,2004,,,,,,,,Q3821268,Club La Unión,,2026-09-19,https://www.wikidata.org/wiki/Q3821268,HIGH
+lnb_argentina_lanus,lnb_argentina,Lanús,LAN,Lanús,,,AR,,,,,,,,,,,Q132802143,,,2026-09-19,https://www.wikidata.org/wiki/Q132802143,MEDIUM
+lnb_argentina_obera,lnb_argentina,Oberá Tenis Club,OBE,Oberá,,,AR,,,1940,,,,,,,,Q6047942,Oberá Tenis Club,,2026-09-19,https://www.wikidata.org/wiki/Q6047942,HIGH
+lnb_argentina_penarol,lnb_argentina,Peñarol de Mar del Plata,PEÑ,Peñarol,,,AR,,,1922,,,,,,,,Q2274304,Club Atlético Peñarol (Mar del Plata),,2026-09-19,https://www.wikidata.org/wiki/Q2274304,HIGH
+lnb_argentina_platense,lnb_argentina,Platense,PLA,Platense,,,AR,,,,,,,,,,,Q20021924,,,2026-09-19,https://www.wikidata.org/wiki/Q20021924,MEDIUM
+lnb_argentina_quimsa,lnb_argentina,Quimsa,QUI,Quimsa,Asociación Atlética Quimsa,,AR,,,1989,,,,,,,,Q7272059,Quimsa,,2026-09-19,https://www.wikidata.org/wiki/Q7272059,HIGH
+lnb_argentina_racing,lnb_argentina,Racing de Chivilcoy,RAC,Racing,,,AR,,,,,,,,,,,Q135855983,,,2026-09-19,https://www.wikidata.org/wiki/Q135855983,MEDIUM
+lnb_argentina_regatas,lnb_argentina,Regatas Corrientes,REG,Regatas,,,AR,,,1923,,,,,,,,Q1639861,Regatas Corrientes,,2026-09-19,https://www.wikidata.org/wiki/Q1639861,HIGH
+lnb_argentina_san_lorenzo,lnb_argentina,San Lorenzo de Almagro,SL,San Lorenzo,,,AR,,,1935,,,,,,,,Q20022010,San Lorenzo de Almagro (basketball),,2026-09-19,https://www.wikidata.org/wiki/Q20022010,HIGH
+lnb_argentina_san_martin,lnb_argentina,San Martín de Corrientes,SM,San Martín,,,AR,,,1932,,,,,,,,Q5136364,Club San Martín de Corrientes,,2026-09-19,https://www.wikidata.org/wiki/Q5136364,HIGH
+lnbp_abejas,lnbp,Abejas de León,ABE,Abejas,,,MX,,,2009,,,,,,,,Q5654850,Abejas de León,,2026-09-19,https://www.wikidata.org/wiki/Q5654850,HIGH
+lnbp_astros,lnbp,Astros de Jalisco,AST,Astros,,,MX,,,2019,,,,,,,,Q76761695,Astros de Jalisco,,2026-09-19,https://www.wikidata.org/wiki/Q76761695,HIGH
+lnbp_correcaminos,lnbp,Correcaminos UAT Victoria,COR,Correcaminos,,,MX,,,2000,,,,,,,,Q5789084,Correbasket UAT,,2026-09-19,https://www.wikidata.org/wiki/Q5789084,HIGH
+lnbp_diablos,lnbp,Diablos Rojos del México,DIA,Diablos,,,MX,,,,,,,,,,,Q126900506,Diablos Rojos del México (basketball),,2026-09-19,https://www.wikidata.org/wiki/Q126900506,HIGH
+lnbp_dorados,lnbp,Dorados de Chihuahua,DOR,Dorados,,,MX,,,1931,,,,,,,,Q5813506,Dorados de Chihuahua (basketball),,2026-09-19,https://www.wikidata.org/wiki/Q5813506,HIGH
+lnbp_calor,lnbp,El Calor de Cancún,CAL,Calor,,,MX,,,,,,,,,,,Q126827669,El Calor de Cancún,,2026-09-19,https://www.wikidata.org/wiki/Q126827669,HIGH
+lnbp_freseros,lnbp,Freseros de Irapuato,FRE,Freseros,,,MX,,,,,,,,,,,Q119084405,Freseros de Irapuato,,2026-09-19,https://www.wikidata.org/wiki/Q119084405,HIGH
+lnbp_fuerza_regia,lnbp,Fuerza Regia de Monterrey,FR,Fuerza Regia,,,MX,,,2001,,,,,,,,Q5507227,Fuerza Regia de Monterrey,,2026-09-19,https://www.wikidata.org/wiki/Q5507227,HIGH
+lnbp_gambusinos,lnbp,Gambusinos de Fresnillo,GAM,Gambusinos,,,MX,,,2002,,,,,,,,Q5875053,Gambusinos de Fresnillo,,2026-09-19,https://www.wikidata.org/wiki/Q5875053,HIGH
+lnbp_lobos,lnbp,Lobos Puebla,LOB,Lobos,,,MX,,,,,,,,,,,Q127429144,Lobos de Puebla,,2026-09-19,https://www.wikidata.org/wiki/Q127429144,HIGH
+lnbp_mineros,lnbp,Mineros de Zacatecas,MIN,Mineros,,,MX,,,2017,,,,,,,,Q39082141,Mineros de Zacatecas (basketball),,2026-09-19,https://www.wikidata.org/wiki/Q39082141,HIGH
+lnbp_panteras,lnbp,Panteras de Aguascalientes,PAN,Panteras,,,MX,,,1972,,,,,,,,Q3893445,Panteras de Aguascalientes,,2026-09-19,https://www.wikidata.org/wiki/Q3893445,HIGH
+lnbp_santos,lnbp,Santos del Potosí,SAN,Santos,,,MX,,,1969,,,,,,,,Q6683258,Santos del Potosí,,2026-09-19,https://www.wikidata.org/wiki/Q6683258,HIGH
+lnbp_soles,lnbp,Soles de Mexicali,SOL,Soles,,,MX,,,2005,,,,,,,,Q3964286,Soles de Mexicali,,2026-09-19,https://www.wikidata.org/wiki/Q3964286,HIGH
+lbf_cerrado,lbf,Cerrado Basquete,CER,Cerrado,,,BR,,,2016,,,,,,,,Q48863059,,,2026-09-19,https://www.wikidata.org/wiki/Q48863059,MEDIUM
+lfb_argentina_berazategui,lfb_argentina,Deportivo Berazategui,BER,Berazategui,,,AR,,,1917,,,,,,,,Q115708295,,,2026-09-19,https://www.wikidata.org/wiki/Q115708295,MEDIUM
+lfb_argentina_el_talar,lfb_argentina,Club El Talar,ET,El Talar,,,AR,,,1931,,,,,,,,Q132304858,,,2026-09-19,https://www.wikidata.org/wiki/Q132304858,MEDIUM
+lfb_argentina_quilmes,lfb_argentina,Quilmes de Mar del Plata,QUI,Quilmes,,,AR,,,1922,,,,,,,,Q7272005,Quilmes de Mar del Plata,,2026-09-19,https://www.wikidata.org/wiki/Q7272005,MEDIUM
+lfb_argentina_boca,lfb_argentina,Boca Juniors (women),BOC,Boca,,,AR,,,1931,,,,,,,,Q141268090,,,2026-09-19,https://www.wikidata.org/wiki/Q141268090,HIGH
+aba_borac,aba,Borac Mozzart,BOR,Borac,,,,,,,,,,,,,,Q685422,KK Borac Čačak,,2026-09-19,https://www.wikidata.org/wiki/Q685422,HIGH
+aba_buducnost,aba,Budućnost VOLI,BUD,Budućnost,,,,,,,,,,,,,,Q32801,KK Budućnost,,2026-09-19,https://www.wikidata.org/wiki/Q32801,HIGH
+aba_cedevita,aba,Cedevita Olimpija,CED,Cedevita,,,,,,,,,,,,,,Q65043623,KK Cedevita Olimpija,,2026-09-19,https://www.wikidata.org/wiki/Q65043623,HIGH
+aba_cibona,aba,Cibona,CIB,Cibona,,,,,,,,,,,,,,Q916967,KK Cibona,,2026-09-19,https://www.wikidata.org/wiki/Q916967,HIGH
+aba_zvezda,aba,Crvena zvezda Meridianbet,CZ,Crvena zvezda,,,,,,,,,,,,,,Q1132627,KK Crvena zvezda,,2026-09-19,https://www.wikidata.org/wiki/Q1132627,HIGH
+aba_fmp,aba,FMP,FMP,FMP,,,,,,,,,,,,,,Q3446443,KK FMP,,2026-09-19,https://www.wikidata.org/wiki/Q3446443,HIGH
+aba_siroki,aba,Široki TT Kabeli,ŠIR,Široki,,,,,,,,,,,,,,Q938409,HKK Široki,,2026-09-19,https://www.wikidata.org/wiki/Q938409,HIGH
+aba_igokea,aba,Igokea m:tel,IGO,Igokea,,,,,,,,,,,,,,Q2627170,KK Igokea,,2026-09-19,https://www.wikidata.org/wiki/Q2627170,HIGH
+aba_krka,aba,Krka,KRK,Krka,,,,,,,,,,,,,,Q955141,KK Krka,,2026-09-19,https://www.wikidata.org/wiki/Q955141,HIGH
+aba_slovan,aba,Slovan Bratislava,SLO,Slovan,,,,,,,,,,,,,,Q2877124,BC Slovan Bratislava,,2026-09-19,https://www.wikidata.org/wiki/Q2877124,HIGH
+aba_vienna,aba,Vienna,VIE,Vienna,,,,,,,,,,,,,,Q810271,BC Vienna,,2026-09-19,https://www.wikidata.org/wiki/Q810271,HIGH
+aba_bosna,aba,Bosna BH Telecom,BOS,Bosna,,,,,,,,,,,,,,Q1479090,KK Bosna Royal,,2026-09-19,https://www.wikidata.org/wiki/Q1479090,HIGH
+aba_dubai,aba,Dubai Basketball,DUB,Dubai,,,,,,,,,,,,,,Q125293758,Dubai Basketball,,2026-09-19,https://www.wikidata.org/wiki/Q125293758,HIGH
+aba_mega,aba,Mega Superbet,MEG,Mega,,,,,,,,,,,,,,Q2350795,KK Mega Basket,,2026-09-19,https://www.wikidata.org/wiki/Q2350795,HIGH
+aba_partizan,aba,Partizan Mozzart Bet,PAR,Partizan,,,,,,,,,,,,,,Q912247,KK Partizan,,2026-09-19,https://www.wikidata.org/wiki/Q912247,HIGH
+aba_ilirija,aba,Perspektiva Ilirija,ILI,Ilirija,,,,,,,,,,,,,,Q30640890,KK Ilirija,,2026-09-19,https://www.wikidata.org/wiki/Q30640890,HIGH
+aba_derby,aba,SC Derby,DER,Derby,,,,,,,,,,,,,,Q39048566,KK Studentski centar,,2026-09-19,https://www.wikidata.org/wiki/Q39048566,HIGH
+aba_spartak,aba,Spartak Office Shoes,SPA,Spartak,,,,,,,,,,,,,,Q6332304,KK Spartak Subotica,,2026-09-19,https://www.wikidata.org/wiki/Q6332304,HIGH
+aba_cluj,aba,U-BT Cluj-Napoca,CLU,Cluj,,,,,,,,,,,,,,Q2894335,U-BT Cluj-Napoca,,2026-09-19,https://www.wikidata.org/wiki/Q2894335,HIGH
+aba_zadar,aba,Zadar,ZAD,Zadar,,,,,,,,,,,,,,Q1141306,KK Zadar,,2026-09-19,https://www.wikidata.org/wiki/Q1141306,HIGH
+pba_ginebra,pba,Barangay Ginebra San Miguel,GIN,Ginebra,,,,,,,,,,,,,,Q3545715,Barangay Ginebra San Miguel,,2026-09-19,https://www.wikidata.org/wiki/Q3545715,HIGH
+pba_blackwater,pba,Blackwater Bossing,BLA,Blackwater,,,,,,,,,,,,,,Q17064173,Blackwater Bossing,,2026-09-19,https://www.wikidata.org/wiki/Q17064173,HIGH
+pba_converge,pba,Converge FiberXers,CON,Converge,,,,,,,,,,,,,,Q111944491,Converge FiberXers,,2026-09-19,https://www.wikidata.org/wiki/Q111944491,HIGH
+pba_magnolia,pba,Magnolia Chicken Timplados Hotshots,MAG,Magnolia,,,,,,,,,,,,,,Q2014801,Magnolia Chicken Timplados Hotshots,,2026-09-19,https://www.wikidata.org/wiki/Q2014801,HIGH
+pba_meralco,pba,Meralco Bolts,MER,Meralco,,,,,,,,,,,,,,Q6817922,Meralco Bolts,,2026-09-19,https://www.wikidata.org/wiki/Q6817922,HIGH
+pba_nlex,pba,NLEX Road Warriors,NLE,NLEX,,,,,,,,,,,,,,Q25303072,NLEX Road Warriors,,2026-09-19,https://www.wikidata.org/wiki/Q25303072,HIGH
+pba_phoenix,pba,Phoenix Super LPG Fuel Masters,PHO,Phoenix,,,,,,,,,,,,,,Q23022630,Phoenix Super LPG Fuel Masters,,2026-09-19,https://www.wikidata.org/wiki/Q23022630,HIGH
+pba_ros,pba,Rain or Shine Elasto Painters,ROS,Rain or Shine,,,,,,,,,,,,,,Q7284522,Rain or Shine Elasto Painters,,2026-09-19,https://www.wikidata.org/wiki/Q7284522,HIGH
+pba_smb,pba,San Miguel Beermen,SM,San Miguel,,,,,,,,,,,,,,Q2112949,San Miguel Beermen,,2026-09-19,https://www.wikidata.org/wiki/Q2112949,HIGH
+pba_terrafirma,pba,Terrafirma Dyip,TER,Terrafirma,,,,,,,,,,,,,,Q18388151,Terrafirma Dyip,,2026-09-19,https://www.wikidata.org/wiki/Q18388151,HIGH
+pba_titan,pba,Titan Ultra Giant Risers,TU,Titan Ultra,,,,,,,,,,,,,,Q136509485,Titan Ultra Giant Risers,,2026-09-19,https://www.wikidata.org/wiki/Q136509485,HIGH
+pba_tnt,pba,TNT Tropang 5G,TNT,TNT,,,,,,,,,,,,,,Q3547210,TNT Tropang 5G,,2026-09-19,https://www.wikidata.org/wiki/Q3547210,HIGH
+g_league_austin,g_league,Austin Spurs,AUS,Austin,,,,,,,,,,,,,,Q781184,Austin Spurs,,2026-09-19,https://www.wikidata.org/wiki/Q781184,HIGH
+g_league_capital_city,g_league,Capital City Go-Go,GO-,Go-Go,,,,,,,,,,,,,,Q30484057,Capital City Go-Go,,2026-09-19,https://www.wikidata.org/wiki/Q30484057,HIGH
+g_league_cleveland,g_league,Cleveland Charge,CHA,Charge,,,,,,,,,,,,,,Q1033853,Cleveland Charge,,2026-09-19,https://www.wikidata.org/wiki/Q1033853,HIGH
+g_league_coachella,g_league,Coachella Valley Lakers,CV,Coachella Valley,,,,,,,,,,,,,,Q1781055,Coachella Valley Lakers,,2026-09-19,https://www.wikidata.org/wiki/Q1781055,HIGH
+g_league_college_park,g_league,College Park Skyhawks,CP,College Park,,,,,,,,,,,,,,Q27831902,College Park Skyhawks,,2026-09-19,https://www.wikidata.org/wiki/Q27831902,HIGH
+g_league_delaware,g_league,Delaware Blue Coats,DEL,Delaware,,,,,,,,,,,,,,Q12415759,Delaware Blue Coats,,2026-09-19,https://www.wikidata.org/wiki/Q12415759,HIGH
+g_league_grand_rapids,g_league,Grand Rapids Gold,GR,Grand Rapids,,,,,,,,,,,,,,Q16982503,Grand Rapids Gold,,2026-09-19,https://www.wikidata.org/wiki/Q16982503,HIGH
+g_league_greensboro,g_league,Greensboro Swarm,GRE,Greensboro,,,,,,,,,,,,,,Q22019870,Greensboro Swarm,,2026-09-19,https://www.wikidata.org/wiki/Q22019870,HIGH
+g_league_iowa,g_league,Iowa Wolves,IOW,Iowa,,,,,,,,,,,,,,Q737759,Iowa Wolves,,2026-09-19,https://www.wikidata.org/wiki/Q737759,HIGH
+g_league_laketown,g_league,Laketown Squadron,LAK,Laketown,,,,,,,,,,,,,,Q57766132,Laketown Squadron,,2026-09-19,https://www.wikidata.org/wiki/Q57766132,HIGH
+g_league_long_island,g_league,Long Island Nets,LI,Long Island,,,,,,,,,,,,,,Q21412534,Long Island Nets,,2026-09-19,https://www.wikidata.org/wiki/Q21412534,HIGH
+g_league_maine,g_league,Maine Celtics,MAI,Maine,,,,,,,,,,,,,,Q935157,Maine Celtics,,2026-09-19,https://www.wikidata.org/wiki/Q935157,HIGH
+g_league_memphis,g_league,Memphis Hustle,MEM,Memphis,,,,,,,,,,,,,,Q28529216,Memphis Hustle,,2026-09-19,https://www.wikidata.org/wiki/Q28529216,HIGH
+g_league_mexico_city,g_league,Mexico City Capitanes,CAP,Capitanes,,,,,,,,,,,,,,Q39081462,Mexico City Capitanes,,2026-09-19,https://www.wikidata.org/wiki/Q39081462,HIGH
+g_league_motor_city,g_league,Motor City Cruise,MC,Motor City,,,,,,,,,,,,,,Q804409,Motor City Cruise,,2026-09-19,https://www.wikidata.org/wiki/Q804409,HIGH
+g_league_noblesville,g_league,Noblesville Boom,NOB,Noblesville,,,,,,,,,,,,,,Q1438822,Noblesville Boom,,2026-09-19,https://www.wikidata.org/wiki/Q1438822,HIGH
+g_league_okc,g_league,Oklahoma City Blue,OB,OKC Blue,,,,,,,,,,,,,,Q1575624,Oklahoma City Blue,,2026-09-19,https://www.wikidata.org/wiki/Q1575624,HIGH
+g_league_osceola,g_league,Osceola Magic,OSC,Osceola,,,,,,,,,,,,,,Q126436,Osceola Magic,,2026-09-19,https://www.wikidata.org/wiki/Q126436,HIGH
+g_league_raptors905,g_league,Raptors 905,R9,Raptors 905,,,,,,,,,,,,,,Q20537231,Raptors 905,,2026-09-19,https://www.wikidata.org/wiki/Q20537231,HIGH
+g_league_rgv,g_league,Rio Grande Valley Vipers,RGV,RGV,,,,,,,,,,,,,,Q1933075,Rio Grande Valley Vipers,,2026-09-19,https://www.wikidata.org/wiki/Q1933075,HIGH
+g_league_rip_city,g_league,Rip City Remix,RC,Rip City,,,,,,,,,,,,,,Q118897936,Rip City Remix,,2026-09-19,https://www.wikidata.org/wiki/Q118897936,HIGH
+g_league_salt_lake,g_league,Salt Lake City Stars,SLC,Salt Lake City,,,,,,,,,,,,,,Q573543,Salt Lake City Stars,,2026-09-19,https://www.wikidata.org/wiki/Q573543,HIGH
+g_league_san_diego,g_league,San Diego Clippers,SD,San Diego,,,,,,,,,,,,,,Q29996625,San Diego Clippers (NBA G League),,2026-09-19,https://www.wikidata.org/wiki/Q29996625,HIGH
+g_league_santa_cruz,g_league,Santa Cruz Warriors,SC,Santa Cruz,,,,,,,,,,,,,,Q24665,Santa Cruz Warriors,,2026-09-19,https://www.wikidata.org/wiki/Q24665,HIGH
+g_league_sioux_falls,g_league,Sioux Falls Skyforce,SF,Sioux Falls,,,,,,,,,,,,,,Q2060261,Sioux Falls Skyforce,,2026-09-19,https://www.wikidata.org/wiki/Q2060261,HIGH
+g_league_stockton,g_league,Stockton Kings,STO,Stockton,,,,,,,,,,,,,,Q600353,Stockton Kings,,2026-09-19,https://www.wikidata.org/wiki/Q600353,HIGH
+g_league_texas,g_league,Texas Legends,TEX,Texas,,,,,,,,,,,,,,Q168506,Texas Legends,,2026-09-19,https://www.wikidata.org/wiki/Q168506,HIGH
+g_league_valley,g_league,Valley Suns,VAL,Valley,,,,,,,,,,,,,,Q124649324,Valley Suns,,2026-09-19,https://www.wikidata.org/wiki/Q124649324,HIGH
+g_league_westchester,g_league,Westchester Knicks,WES,Westchester,,,,,,,,,,,,,,Q15927936,Westchester Knicks,,2026-09-19,https://www.wikidata.org/wiki/Q15927936,HIGH
+g_league_windy_city,g_league,Windy City Bulls,WC,Windy City,,,,,,,,,,,,,,Q21468330,Windy City Bulls,,2026-09-19,https://www.wikidata.org/wiki/Q21468330,HIGH
+g_league_wisconsin,g_league,Wisconsin Herd,WIS,Wisconsin,,,,,,,,,,,,,,Q28735245,Wisconsin Herd,,2026-09-19,https://www.wikidata.org/wiki/Q28735245,HIGH
+israeli_premier_herzliya,israeli_premier,Bnei Herzliya,HER,Herzliya,,,,,,,,,,,,,,Q2561821,Bnei Herzliya Basket,,2026-09-19,https://www.wikidata.org/wiki/Q2561821,HIGH
+israeli_premier_beer_sheva,israeli_premier,Hapoel Be'er Sheva/Dimona,BS,Be'er Sheva,,,,,,,,,,,,,,Q7030702,Hapoel Be'er Sheva B.C.,,2026-09-19,https://www.wikidata.org/wiki/Q7030702,HIGH
+israeli_premier_galil,israeli_premier,Hapoel Galil Elyon,GE,Galil Elyon,,,,,,,,,,,,,,Q2349328,Hapoel Galil Elyon,,2026-09-19,https://www.wikidata.org/wiki/Q2349328,HIGH
+israeli_premier_haemek,israeli_premier,Hapoel HaEmek,HAE,HaEmek,,,,,,,,,,,,,,Q962380,Hapoel HaEmek,,2026-09-19,https://www.wikidata.org/wiki/Q962380,HIGH
+israeli_premier_holon,israeli_premier,Hapoel Holon,HOL,Holon,,,,,,,,,,,,,,Q2557393,Hapoel Holon B.C.,,2026-09-19,https://www.wikidata.org/wiki/Q2557393,HIGH
+israeli_premier_eilat,israeli_premier,Hapoel Ironi Eilat,EIL,Eilat,,,,,,,,,,,,,,Q5652155,Hapoel Ironi Eilat,,2026-09-19,https://www.wikidata.org/wiki/Q5652155,HIGH
+israeli_premier_jerusalem,israeli_premier,Hapoel Jerusalem,JER,Jerusalem,,,,,,,,,,,,,,Q46005,Hapoel Jerusalem B.C.,,2026-09-19,https://www.wikidata.org/wiki/Q46005,HIGH
+israeli_premier_hapoel_ta,israeli_premier,Hapoel Tel Aviv,HT,Hapoel TA,,,,,,,,,,,,,,Q2735525,Hapoel Tel Aviv B.C.,,2026-09-19,https://www.wikidata.org/wiki/Q2735525,HIGH
+israeli_premier_kiryat_ata,israeli_premier,Ironi Kiryat Ata,KA,Kiryat Ata,,,,,,,,,,,,,,Q5362001,Ironi Kiryat Ata B.C.,,2026-09-19,https://www.wikidata.org/wiki/Q5362001,HIGH
+israeli_premier_ness_ziona,israeli_premier,Ironi Ness Ziona,NZ,Ness Ziona,,,,,,,,,,,,,,Q6738361,Ironi Ness Ziona B.C.,,2026-09-19,https://www.wikidata.org/wiki/Q6738361,HIGH
+israeli_premier_ashdod,israeli_premier,Maccabi Ashdod,ASH,Ashdod,,,,,,,,,,,,,,Q431912,Maccabi Ashdod B.C.,,2026-09-19,https://www.wikidata.org/wiki/Q431912,HIGH
+israeli_premier_ramat_gan,israeli_premier,Maccabi Ironi Ramat Gan,RG,Ramat Gan,,,,,,,,,,,,,,Q2776934,Maccabi Ironi Ramat Gan,,2026-09-19,https://www.wikidata.org/wiki/Q2776934,HIGH
+israeli_premier_rishon,israeli_premier,Maccabi Rishon LeZion,RIS,Rishon,,,,,,,,,,,,,,Q1882568,Maccabi Rishon LeZion (basketball),,2026-09-19,https://www.wikidata.org/wiki/Q1882568,HIGH
+israeli_premier_maccabi_ta,israeli_premier,Maccabi Tel Aviv,MT,Maccabi TA,,,,,,,,,,,,,,Q819694,Maccabi Tel Aviv B.C.,,2026-09-19,https://www.wikidata.org/wiki/Q819694,HIGH

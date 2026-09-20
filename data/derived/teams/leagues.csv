@@ -1,0 +1,6 @@
+league_id,name,gender,tier,country_or_region,governing_body,wikidata_qid,wikipedia_en,season_label,as_of,source_url,confidence
+nba,National Basketball Association,men,1,USA/CAN,NBA,Q155223,National Basketball Association,2025-26,2026-09-19,https://www.wikidata.org/wiki/Q155223,HIGH
+wnba,Women's National Basketball Association,women,1,USA,WNBA,Q2593221,Women's National Basketball Association,2025-26,2026-09-19,https://www.wikidata.org/wiki/Q2593221,HIGH
+euroleague,EuroLeague,men,1,INT,Euroleague Basketball,Q185982,EuroLeague,2026-27,2026-09-19,https://www.wikidata.org/wiki/Q185982,HIGH
+euroleague_women,EuroLeague Women,women,1,INT,FIBA,Q521068,EuroLeague Women,2026-27,2026-09-19,https://www.wikidata.org/wiki/Q521068,HIGH
+liga_acb,Liga ACB,men,1,ES,ACB,Q324867,Liga ACB,2025-26,2026-09-19,https://www.wikidata.org/wiki/Q324867,HIGH
