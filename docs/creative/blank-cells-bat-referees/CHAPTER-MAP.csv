@@ -1,0 +1,4 @@
+topic,path,cite,status
+Blank-cell manifesto,docs/creative/blank-cells-bat-referees/01-blank-cell-manifesto.md,data/derived/salary_cap_apron/nba_salary_cap_apron_history.csv,COMPLETE
+FIBA BAT seismograph,docs/creative/blank-cells-bat-referees/02-fiba-bat-seismograph.md,data/derived/fiba-bat-2022/fiba_bat_arbitration_by_year.csv,COMPLETE
+Referee invisible athlete,docs/creative/blank-cells-bat-referees/03-referee-invisible-athlete.md,data/derived/nba-referees-2023-24/nba_referees_2023_24.csv,COMPLETE
