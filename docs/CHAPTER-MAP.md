@@ -131,6 +131,8 @@ Track which data products support which sections of the manuscript, ensuring eve
 | COLOUR / NBA team hex cite | `data/derived/teams/nba_team_colours_cited.csv` | VPFRT5BC | ready — MEDIUM from wiki sports-colour module; does not fill teams.csv colour GAP |
 | COLOUR / paint × team crosswalk | `data/derived/paint/team_colour_paint_matches.csv` | VPFRT5BC | ready — CIE76 ΔE nearest paint; 180 match rows |
 | TEAMS / Chinese NBA name renderings | `data/derived/teams/nba_team_names_zh.csv` | CM7M2WZN | ready — 30/30 hans+hant; see `docs/teams/nba_team_names_zh_methodology.md` |
+| GAME TIME / average game | `data/derived/avg_game_by_decade/avg_game_by_decade.csv` | TBD (Basketball-Reference) | ready — decade means 1979-80…2023-24 + pace; partial 1970s/2020s |
+| TEAM / front office / staff/roles | `data/derived/nba_analytics_staff/nba_analytics_dept_counts.csv` | TBD (NBAstuffer) | ready — MEDIUM third-party; 30 teams; Current-only |
 
 ## Column Definitions
 
