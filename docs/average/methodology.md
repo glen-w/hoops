@@ -13,7 +13,7 @@ Every “average” product is a **summary of observed distributions** (mode / m
 
 | Input | Path / URL | Use |
 |-------|------------|-----|
-| Teams desk | `/workspace/hoops-swatches-work/data/derived/teams/teams.csv` (NBA `league_id=nba`, n=30) | city, arena, capacity, ownership_structure, colours_* , founded_year |
+| Teams desk | `data/derived/teams/teams.csv` (NBA `league_id=nba`, n=30) | city, arena, capacity, ownership_structure, colours_* , founded_year |
 | US metro pop | Census Bureau `cbsa-est2023-alldata.csv` (CBSA MSA, POPESTIMATE2023) | metro_pop for US homes |
 | Toronto | Wikipedia *Greater Toronto Area* reporting StatCan **2021** census (6,712,341) | CA market only; flagged non-comparable vintage |
 | Conference/division | Wikipedia *National Basketball Association* (access 2026-09-20) | current 6×5 alignment |
