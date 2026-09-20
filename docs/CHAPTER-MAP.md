@@ -175,7 +175,7 @@ Track which data products support which sections of the manuscript, ensuring eve
 
 **Relocation graph (2026-09-20):** 52 edges + 535 nodes derived from teams.csv former_names field. Edges link former city/name to current franchise. Year data unavailable (left blank). Confidence MEDIUM (heuristic city inference). See `data/derived/teams/relocation_edges.csv`, `relocation_nodes.csv`, and `relocation_methodology.md`.
 
-**Mascot bestiary (2026-09-20):** 441 entries classifying team mascots into interpretive taxonomy (animal/human/abstract/object/unknown). 84 teams with mascots (HIGH confidence), 357 GAP rows (no mascot listed). See `data/derived/teams/mascot_bestiary.csv` and `mascot_methodology.md`.
+**Mascot bestiary (2026-09-20):** 441 entries classifying team mascots into interpretive taxonomy (animal/human/abstract/object/unknown). 30 tagged HIGH (mascot present), 411 GAP (no mascot listed in source). See `data/derived/teams/mascot_bestiary.csv` and `mascot_methodology.md`.
 
 **Abbreviation phonology (2026-09-20):** 441 entries analysing team abbreviation patterns (city_initials, nickname_clip, state, trigram/tetragram). Linguistics-adjacent structural data. See `data/derived/teams/abbr_phonology.csv` and `abbr_phonology_methodology.md`.
 
