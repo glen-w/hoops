@@ -2,6 +2,8 @@
 
 This document maps Scrivener binder paths to derived data artifacts, Zotero keys, and dataset status.
 
+**Scope:** spine only. Append at most one 4-cell row per new cite-backed artifact. Do **not** append creative blurbs, motif essays, or Phase diaries to Notes — see [SCOPE.md](../SCOPE.md). Draft hedges belong in `data/studies/`.
+
 ## Purpose
 
 Track which data products support which sections of the manuscript, ensuring every table/figure reference has a clear pipeline back to sources documented in `data/raw/LICENSES.md` and cited in Zotero `hoops`.
