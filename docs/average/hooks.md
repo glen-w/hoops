@@ -1,5 +1,7 @@
 # Research hooks — Average Desk (pop-sci book)
 
+> **Out of scope for new work.** Voice/hooks belong in Scrivener or `local/`. Kept as legacy until migration — see [SCOPE.md](../../SCOPE.md). Prefer `data/derived/average/` tables + `methodology.md`.
+
 Access 2026-09-20. Each hook ties to a Phase-1 artifact; none invent numbers.
 
 ## Team hooks

@@ -68,3 +68,5 @@ The open-data map is [docs/NUMBERS-LANDSCAPE.md](docs/NUMBERS-LANDSCAPE.md), the
 ## Out of scope
 
 Writing the book. The website. Fetching PDFs. Committing `.scriv`, Zotero, or proprietary tracking data.
+
+Creative packs, speculative essays, spike/phase diaries, and agent process theatre — see [SCOPE.md](SCOPE.md). Voice experiments go in Scrivener or gitignored `local/`, not new public PRs.

@@ -2,6 +2,8 @@
 
 This document maps Scrivener binder paths to derived data artifacts, Zotero keys, and dataset status.
 
+**Scope:** spine only. Append at most one 4-cell row per new cite-backed artifact. Do **not** append creative blurbs, motif essays, or Phase diaries to Notes — see [SCOPE.md](../SCOPE.md). Draft hedges belong in `data/studies/`.
+
 ## Purpose
 
 Track which data products support which sections of the manuscript, ensuring every table/figure reference has a clear pipeline back to sources documented in `data/raw/LICENSES.md` and cited in Zotero `hoops`.
@@ -138,6 +140,10 @@ Track which data products support which sections of the manuscript, ensuring eve
 | AVERAGE / players universe | `data/derived/average/nba_players_historical.csv` | TBD | ready — 4550 rows; coverage ends ≤2018; draft fields blank |
 | AVERAGE / videogame ratings seed | `data/derived/average/nba_videogame_ratings_seed.csv` | TBD | ready — 97 rows from HoopsHype; see sources note for Phase-2 |
 | AVERAGE / methodology | `docs/average/methodology.md` | TBD | ready — no mean hex; no string-mean names |
+| COLOUR / paint corpora seed | `data/derived/paint/dulux_colours.csv` | B4QRGG3Q; 9XJJWT6G | ready — Dulux 442 + Pantone 540 seeds with per-row source URLs |
+| COLOUR / NBA team hex cite | `data/derived/teams/nba_team_colours_cited.csv` | VPFRT5BC | ready — MEDIUM from wiki sports-colour module; does not fill teams.csv colour GAP |
+| COLOUR / paint × team crosswalk | `data/derived/paint/team_colour_paint_matches.csv` | VPFRT5BC | ready — CIE76 ΔE nearest paint; 180 match rows |
+| TEAMS / Chinese NBA name renderings | `data/derived/teams/nba_team_names_zh.csv` | CM7M2WZN | ready — 30/30 hans+hant; see `docs/teams/nba_team_names_zh_methodology.md` |
 
 ## Column Definitions
 
