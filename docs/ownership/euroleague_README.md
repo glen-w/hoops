@@ -16,7 +16,7 @@ Writer-facing ledger of **EuroLeague club ownership structures and documented sa
 | `ownership_events.csv` | Event-level ledger (sales, stakes, founding, association_control, …) |
 | `ownership_timeline_by_team.md` | One short section per current EL club |
 | `methodology.md` | Sources, association vs private, price hygiene, gaps |
-| `trends.md` | Optional one-pager: PE / multi-club / Gulf entry (cited) |
+| `euroleague_methodology.md` | Source rules and confidence bands |
 | `README.md` | This file — land path |
 
 ## CSV schemas

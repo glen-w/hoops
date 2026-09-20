@@ -61,7 +61,7 @@ The open-data map is [docs/NUMBERS-LANDSCAPE.md](docs/NUMBERS-LANDSCAPE.md), the
 
 ## 6. Later, not this sitting
 
-- Ground a model on the Zotero library. Custom CLI is parked in [docs/ZOTERO-LLM-PLAN.md](docs/ZOTERO-LLM-PLAN.md). The trial is zotero-rag at `/Users/89298/Documents/zotero-rag`, collection `hoops` only. Not a download.
+- Ground a model on the Zotero library. Trial is zotero-rag at `/Users/89298/Documents/zotero-rag`, collection `hoops` only. Plan notes stay in `local/` if needed — not a download, not a public sidecar doc.
 - Gambling odds. The fans chapter describes the machinery. Do not build a betting dataset.
 - Anything that would edit the manuscript. Wait for the Sunday call.
 
