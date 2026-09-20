@@ -3,11 +3,19 @@
 .env.*
 
 # Local writing workflow. Not the sidecar, not the manuscript.
+# Put creative drafts, spike diaries, notebooks, and agent scratch here.
 local/
+local/**
 .venv/
 .pytest_cache/
 __pycache__/
 node_modules/
+
+# Common untracked scratch names if someone forgets local/
+**/scratch/
+**/*-scratch.md
+**/AGENT-NOTES.md
+**/CHAPTER-MAP-append.md
 
 # Empty local queue file. Not a dataset.
 data/queue-state.json
