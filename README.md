@@ -22,7 +22,6 @@ The manuscript stays in Scrivener (`/Users/89298/Documents/Hoops/hoops.scriv`). 
 - **[BASKETBALL-SOFTWARE.md](docs/BASKETBALL-SOFTWARE.md)** — Commercial tracking & analytics systems (SportVU, Second Spectrum, Synergy, etc.)
 - **[SLOAN-ARCHIVE.md](docs/SLOAN-ARCHIVE.md)** — MIT Sloan Sports Analytics Conference papers index
 - **[ownership/](docs/ownership/nba_README.md)** — NBA and EuroLeague ownership ledgers (methodology + CSV spines)
-- **[creative/](docs/creative/README.md)** — Frozen legacy packs; do not add more
 
 ## Layout
 

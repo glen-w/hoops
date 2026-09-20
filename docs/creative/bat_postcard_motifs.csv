@@ -1,8 +1,0 @@
-year_or_span,motif_id,motif_tags,one_line_hook,source_url,confidence
-2007,BAT-PC-2007-two-filings,"origin;caseload;zero_pending",Two requests filed in 2007 — blank docket learning to count,https://assets.fiba.basketball/image/upload/documents-corporate-bat-bat-statistics.pdf,HIGH
-2007-2018,BAT-PC-climb-to-188,"caseload_rise;peak_filings",Annual filings climb from 2 (2007) to peak 188 (2017),https://assets.fiba.basketball/image/upload/documents-corporate-bat-bat-statistics.pdf,HIGH
-2018,BAT-PC-consent-award-season,"settlements;consent_award;footnote_star",Settled column crests at 51 in 2018 (incl. consent awards per footnote *),https://assets.fiba.basketball/image/upload/documents-corporate-bat-bat-statistics.pdf,HIGH
-2008-2024,BAT-PC-quieting-of-cas,"cas_appeals;sft_appeals;pattern",CAS appeals loud early (peak 7 in 2009) then often 0; 37 CAS / 10 SFT PDF total,https://assets.fiba.basketball/image/upload/documents-corporate-bat-bat-statistics.pdf,HIGH
-2007-2023,BAT-PC-below-threshold,"low_value;footnote_starstarstar;eur_bands",Low-value track (EUR bands per ***) peaks at 108 cases in 2023,https://assets.fiba.basketball/image/upload/documents-corporate-bat-bat-statistics.pdf,HIGH
-2022,BAT-PC-focal-year-136,"focal_year;key_metrics;retired_url",2022: 136 filings / 101 awards / 31 settled / 0 CAS / 1 SFT / 75 low-value,https://assets.fiba.basketball/image/upload/documents-corporate-bat-bat-statistics.pdf,HIGH
-2007-2025,BAT-PC-1904-incomplete,"cumulative;pdf_total;pending_2025",1904 requests through 2022; PDF total 2249; 2025 still shows 74 pending,https://assets.fiba.basketball/image/upload/documents-corporate-bat-bat-statistics.pdf,HIGH
