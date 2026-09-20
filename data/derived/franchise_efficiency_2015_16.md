@@ -2,7 +2,6 @@
 
 **Access date:** 2026-09-19 (Europe/Paris / PT)  
 **Kind:** study-style note (not a rebuilt 30-team table)  
-**Prior pin:** `/workspace/hoops-forbes-efficiency-pin-2026-09-19.md`  
 **Mentions row:** `TEAM / front office / efficiency / table` (Forbes 22 Apr 2016 sketch)
 
 ---

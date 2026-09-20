@@ -173,7 +173,6 @@ Track which data products support which sections of the manuscript, ensuring eve
 | COLOUR / paint language | `data/derived/paint/dulux_colours.csv` (+ pantone seed) | B4QRGG3Q; 9XJJWT6G | READY (seed; full Dulux 5032 on box raw) |
 | COLOUR / team hex cite | `data/derived/teams/nba_team_colours_cited.csv` | VPFRT5BC | READY (MEDIUM; wiki module; teams.csv GAP 0/30) |
 | COLOUR / paint×team crosswalk | `data/derived/paint/team_colour_paint_matches.csv` | VPFRT5BC | READY (CIE76 ΔE; 180 rows) |
-| COLOUR / paint hooks | `docs/colour/paint_team_hooks.md` (from pack `hooks.md`) | B4QRGG3Q | READY (5 cite-backed hooks) |
 
 ## Maintenance
 

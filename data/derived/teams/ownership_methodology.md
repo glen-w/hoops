@@ -13,7 +13,7 @@ No invented owners, emails, or colours. Prefer leaving `unknown` / blank over gu
 2. **Team front-office / staff directory / media guide** when they name Owner, Governor, Chairman, or Managing Partner.
 3. **Wikipedia *List of NBA team owners*** (table scrape 2026-09-19) for controlling name + reported stake % when present.
 4. **Team Wikipedia infobox “Owner(s)”** for WNBA when no better FO page was fetched under rate limits.
-5. **Cross-check** against the same-day org-chart pack at `/workspace/hoops-nba-org-charts/` (`role=ownership` rows). Conflicts are called out in `notes` and usually drop confidence to MEDIUM.
+5. **Cross-check** against the same-day org-chart pack (`role=ownership` rows). Conflicts are called out in `notes` and usually drop confidence to MEDIUM.
 6. **Wikidata P127** was attempted via SPARQL on access date; the query endpoint returned empty/non-JSON under timeout. Do **not** treat missing P127 as evidence of no owner — leave structure unknown only when *public* controlling identity is unclear, not because Wikidata is empty.
 7. **Forbes valuation lists** (NBA 2025; WNBA 2026) are useful for owner *names* but often list multiple principals without stake math. Used as secondary confirmation only; never sole basis for `sole` vs `majority`.
 
