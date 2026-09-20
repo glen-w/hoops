@@ -1,0 +1,4166 @@
+{
+  "entities": {
+    "Q159893": {
+      "type": "item",
+      "id": "Q159893",
+      "labels": {
+        "zh-hans": {
+          "language": "zh-hans",
+          "value": "亚特兰大老鹰"
+        },
+        "zh-hant": {
+          "language": "zh-hant",
+          "value": "亞特蘭大老鷹"
+        },
+        "zh-hk": {
+          "language": "zh-hk",
+          "value": "阿特蘭大鷹隊"
+        },
+        "zh-cn": {
+          "language": "zh-cn",
+          "value": "亚特兰大老鹰"
+        },
+        "zh-tw": {
+          "language": "zh-tw",
+          "value": "亞特蘭大老鷹"
+        },
+        "en": {
+          "language": "en",
+          "value": "Atlanta Hawks"
+        },
+        "zh": {
+          "language": "zh",
+          "value": "亚特兰大老鹰"
+        }
+      },
+      "aliases": {
+        "zh": [
+          {
+            "language": "zh",
+            "value": "亚特兰大鹰"
+          },
+          {
+            "language": "zh",
+            "value": "圣路易斯鹰"
+          },
+          {
+            "language": "zh",
+            "value": "聖路易老鷹"
+          },
+          {
+            "language": "zh",
+            "value": "亞特蘭大老鷹"
+          }
+        ],
+        "en": [
+          {
+            "language": "en",
+            "value": "St. Louis Hawks"
+          },
+          {
+            "language": "en",
+            "value": "Milwaukee Hawks"
+          },
+          {
+            "language": "en",
+            "value": "Tri-Cities Blackhawks"
+          }
+        ],
+        "zh-cn": [
+          {
+            "language": "zh-cn",
+            "value": "三城黑鹰队"
+          }
+        ]
+      },
+      "sitelinks": {
+        "anwiki": {
+          "site": "anwiki",
+          "title": "Atlanta Hawks",
+          "badges": []
+        },
+        "arwiki": {
+          "site": "arwiki",
+          "title": "أتلانتا هوكس",
+          "badges": []
+        },
+        "arzwiki": {
+          "site": "arzwiki",
+          "title": "اتلانتا هوكس",
+          "badges": []
+        },
+        "astwiki": {
+          "site": "astwiki",
+          "title": "Atlanta Hawks",
+          "badges": []
+        },
+        "azwiki": {
+          "site": "azwiki",
+          "title": "Atlanta Hoks",
+          "badges": []
+        },
+        "be_x_oldwiki": {
+          "site": "be_x_oldwiki",
+          "title": "Атланта Гокс",
+          "badges": []
+        },
+        "bewiki": {
+          "site": "bewiki",
+          "title": "Атланта Хокс",
+          "badges": []
+        },
+        "bgwiki": {
+          "site": "bgwiki",
+          "title": "Атланта Хоукс",
+          "badges": []
+        },
+        "bnwiki": {
+          "site": "bnwiki",
+          "title": "আটলান্টা হক্‌স",
+          "badges": []
+        },
+        "bswiki": {
+          "site": "bswiki",
+          "title": "Atlanta Hawks",
+          "badges": []
+        },
+        "cawiki": {
+          "site": "cawiki",
+          "title": "Atlanta Hawks",
+          "badges": []
+        },
+        "cebwiki": {
+          "site": "cebwiki",
+          "title": "Atlanta Hawks",
+          "badges": []
+        },
+        "cewiki": {
+          "site": "cewiki",
+          "title": "Атланта Хокс",
+          "badges": []
+        },
+        "cswiki": {
+          "site": "cswiki",
+          "title": "Atlanta Hawks",
+          "badges": []
+        },
+        "dawiki": {
+          "site": "dawiki",
+          "title": "Atlanta Hawks",
+          "badges": []
+        },
+        "dewiki": {
+          "site": "dewiki",
+          "title": "Atlanta Hawks",
+          "badges": []
+        },
+        "diqwiki": {
+          "site": "diqwiki",
+          "title": "Atlanta Hawks",
+          "badges": []
+        },
+        "elwiki": {
+          "site": "elwiki",
+          "title": "Ατλάντα Χοκς",
+          "badges": []
+        },
+        "enwiki": {
+          "site": "enwiki",
+          "title": "Atlanta Hawks",
+          "badges": []
+        },
+        "eowiki": {
+          "site": "eowiki",
+          "title": "Atlanta Hawks",
+          "badges": []
+        },
+        "eswiki": {
+          "site": "eswiki",
+          "title": "Atlanta Hawks",
+          "badges": []
+        },
+        "etwiki": {
+          "site": "etwiki",
+          "title": "Atlanta Hawks",
+          "badges": []
+        },
+        "euwiki": {
+          "site": "euwiki",
+          "title": "Atlanta Hawks",
+          "badges": []
+        },
+        "fawiki": {
+          "site": "fawiki",
+          "title": "آتلانتا هاوکس",
+          "badges": []
+        },
+        "fiwiki": {
+          "site": "fiwiki",
+          "title": "Atlanta Hawks",
+          "badges": []
+        },
+        "frwiki": {
+          "site": "frwiki",
+          "title": "Hawks d'Atlanta",
+          "badges": []
+        },
+        "gawiki": {
+          "site": "gawiki",
+          "title": "Atlanta Hawks",
+          "badges": []
+        },
+        "glwiki": {
+          "site": "glwiki",
+          "title": "Atlanta Hawks",
+          "badges": []
+        },
+        "hakwiki": {
+          "site": "hakwiki",
+          "title": "Atlanta Hawks",
+          "badges": []
+        },
+        "hewiki": {
+          "site": "hewiki",
+          "title": "אטלנטה הוקס",
+          "badges": []
+        },
+        "hiwiki": {
+          "site": "hiwiki",
+          "title": "अटलांटा हॉक्स",
+          "badges": []
+        },
+        "hrwiki": {
+          "site": "hrwiki",
+          "title": "Atlanta Hawks",
+          "badges": []
+        },
+        "huwiki": {
+          "site": "huwiki",
+          "title": "Atlanta Hawks",
+          "badges": []
+        },
+        "hywiki": {
+          "site": "hywiki",
+          "title": "Ատլանտա Հոքս",
+          "badges": []
+        },
+        "idwiki": {
+          "site": "idwiki",
+          "title": "Atlanta Hawks",
+          "badges": []
+        },
+        "iowiki": {
+          "site": "iowiki",
+          "title": "Atlanta Hawks",
+          "badges": []
+        },
+        "iswiki": {
+          "site": "iswiki",
+          "title": "Atlanta Hawks",
+          "badges": []
+        },
+        "itwiki": {
+          "site": "itwiki",
+          "title": "Atlanta Hawks",
+          "badges": []
+        },
+        "jawiki": {
+          "site": "jawiki",
+          "title": "アトランタ・ホークス",
+          "badges": []
+        },
+        "kawiki": {
+          "site": "kawiki",
+          "title": "ატლანტა ჰოუქსი",
+          "badges": []
+        },
+        "kowiki": {
+          "site": "kowiki",
+          "title": "애틀랜타 호크스",
+          "badges": []
+        },
+        "ltwiki": {
+          "site": "ltwiki",
+          "title": "Atlantos Hawks",
+          "badges": []
+        },
+        "lvwiki": {
+          "site": "lvwiki",
+          "title": "Atlantas \"Hawks\"",
+          "badges": []
+        },
+        "mlwiki": {
+          "site": "mlwiki",
+          "title": "അറ്റ്‌ലാന്റ്റ ഹോക്ക്സ്",
+          "badges": []
+        },
+        "mnwiki": {
+          "site": "mnwiki",
+          "title": "Атланта Хоокс",
+          "badges": []
+        },
+        "mrwiki": {
+          "site": "mrwiki",
+          "title": "अटलांटा हॉक्स",
+          "badges": []
+        },
+        "mznwiki": {
+          "site": "mznwiki",
+          "title": "آتلانتا هاوکز",
+          "badges": []
+        },
+        "nlwiki": {
+          "site": "nlwiki",
+          "title": "Atlanta Hawks",
+          "badges": []
+        },
+        "nowiki": {
+          "site": "nowiki",
+          "title": "Atlanta Hawks",
+          "badges": []
+        },
+        "plwiki": {
+          "site": "plwiki",
+          "title": "Atlanta Hawks",
+          "badges": []
+        },
+        "ptwiki": {
+          "site": "ptwiki",
+          "title": "Atlanta Hawks",
+          "badges": []
+        },
+        "rowiki": {
+          "site": "rowiki",
+          "title": "Atlanta Hawks",
+          "badges": []
+        },
+        "ruwiki": {
+          "site": "ruwiki",
+          "title": "Атланта Хокс",
+          "badges": []
+        },
+        "ruwikinews": {
+          "site": "ruwikinews",
+          "title": "Категория:Атланта Хокс",
+          "badges": []
+        },
+        "shwiki": {
+          "site": "shwiki",
+          "title": "Atlanta Hawks",
+          "badges": []
+        },
+        "simplewiki": {
+          "site": "simplewiki",
+          "title": "Atlanta Hawks",
+          "badges": []
+        },
+        "slwiki": {
+          "site": "slwiki",
+          "title": "Atlanta Hawks",
+          "badges": []
+        },
+        "srwiki": {
+          "site": "srwiki",
+          "title": "Атланта хокси",
+          "badges": []
+        },
+        "svwiki": {
+          "site": "svwiki",
+          "title": "Atlanta Hawks",
+          "badges": []
+        },
+        "swwiki": {
+          "site": "swwiki",
+          "title": "Atlanta Hawks",
+          "badges": []
+        },
+        "tawiki": {
+          "site": "tawiki",
+          "title": "அட்லான்டா ஹாக்ஸ்",
+          "badges": []
+        },
+        "thwiki": {
+          "site": "thwiki",
+          "title": "แอตแลนตา ฮอกส์",
+          "badges": []
+        },
+        "tlwiki": {
+          "site": "tlwiki",
+          "title": "Atlanta Hawks",
+          "badges": [
+            "Q70893996"
+          ]
+        },
+        "trwiki": {
+          "site": "trwiki",
+          "title": "Atlanta Hawks",
+          "badges": []
+        },
+        "ukwiki": {
+          "site": "ukwiki",
+          "title": "Атланта Гокс",
+          "badges": []
+        },
+        "uzwiki": {
+          "site": "uzwiki",
+          "title": "Atlanta Hawks",
+          "badges": []
+        },
+        "vecwiki": {
+          "site": "vecwiki",
+          "title": "Atlanta Hawks",
+          "badges": []
+        },
+        "vowiki": {
+          "site": "vowiki",
+          "title": "Atlanta Hawks",
+          "badges": []
+        },
+        "wuuwiki": {
+          "site": "wuuwiki",
+          "title": "亚特兰大老鹰",
+          "badges": []
+        },
+        "yowiki": {
+          "site": "yowiki",
+          "title": "Atlanta Hawks",
+          "badges": []
+        },
+        "zh_min_nanwiki": {
+          "site": "zh_min_nanwiki",
+          "title": "Atlanta Hawks",
+          "badges": []
+        },
+        "zh_yuewiki": {
+          "site": "zh_yuewiki",
+          "title": "亞特蘭大鷹",
+          "badges": []
+        },
+        "zhwiki": {
+          "site": "zhwiki",
+          "title": "亚特兰大老鹰",
+          "badges": []
+        }
+      }
+    },
+    "Q163480": {
+      "type": "item",
+      "id": "Q163480",
+      "labels": {
+        "zh-hans": {
+          "language": "zh-hans",
+          "value": "夏洛特黄蜂"
+        },
+        "zh-hant": {
+          "language": "zh-hant",
+          "value": "夏洛特黃蜂"
+        },
+        "zh-hk": {
+          "language": "zh-hk",
+          "value": "夏洛特黃蜂"
+        },
+        "zh-cn": {
+          "language": "zh-cn",
+          "value": "夏洛特黄蜂"
+        },
+        "zh-tw": {
+          "language": "zh-tw",
+          "value": "夏洛特黃蜂"
+        },
+        "en": {
+          "language": "en",
+          "value": "Charlotte Hornets"
+        },
+        "zh": {
+          "language": "zh",
+          "value": "夏洛特黃蜂"
+        }
+      },
+      "aliases": {
+        "zh": [
+          {
+            "language": "zh",
+            "value": "Charlotte Bobcats"
+          }
+        ],
+        "en": [
+          {
+            "language": "en",
+            "value": "Charlotte Bobcats"
+          }
+        ],
+        "zh-cn": [
+          {
+            "language": "zh-cn",
+            "value": "夏洛特山猫"
+          }
+        ],
+        "zh-hans": [
+          {
+            "language": "zh-hans",
+            "value": "夏洛特山猫"
+          }
+        ],
+        "zh-hant": [
+          {
+            "language": "zh-hant",
+            "value": "夏洛特山貓"
+          }
+        ],
+        "zh-hk": [
+          {
+            "language": "zh-hk",
+            "value": "夏洛特山貓"
+          }
+        ]
+      },
+      "sitelinks": {
+        "anwiki": {
+          "site": "anwiki",
+          "title": "Charlotte Hornets",
+          "badges": []
+        },
+        "arwiki": {
+          "site": "arwiki",
+          "title": "شارلوت هورنتس",
+          "badges": []
+        },
+        "arzwiki": {
+          "site": "arzwiki",
+          "title": "شارلوت هورنتس",
+          "badges": []
+        },
+        "astwiki": {
+          "site": "astwiki",
+          "title": "Charlotte Hornets",
+          "badges": []
+        },
+        "azwiki": {
+          "site": "azwiki",
+          "title": "Şarlott Hornets",
+          "badges": []
+        },
+        "bat_smgwiki": {
+          "site": "bat_smgwiki",
+          "title": "Charlotte Bobcats",
+          "badges": []
+        },
+        "be_x_oldwiki": {
+          "site": "be_x_oldwiki",
+          "title": "Шарлот Горнэтс",
+          "badges": []
+        },
+        "bewiki": {
+          "site": "bewiki",
+          "title": "Шарлат Хорнетс",
+          "badges": []
+        },
+        "bgwiki": {
+          "site": "bgwiki",
+          "title": "Шарлът Хорнетс",
+          "badges": []
+        },
+        "bswiki": {
+          "site": "bswiki",
+          "title": "Charlotte Hornets",
+          "badges": []
+        },
+        "cawiki": {
+          "site": "cawiki",
+          "title": "Charlotte Hornets",
+          "badges": []
+        },
+        "cebwiki": {
+          "site": "cebwiki",
+          "title": "Charlotte Hornets",
+          "badges": []
+        },
+        "cswiki": {
+          "site": "cswiki",
+          "title": "Charlotte Hornets (2014)",
+          "badges": []
+        },
+        "dawiki": {
+          "site": "dawiki",
+          "title": "Charlotte Hornets",
+          "badges": []
+        },
+        "dewiki": {
+          "site": "dewiki",
+          "title": "Charlotte Hornets",
+          "badges": []
+        },
+        "diqwiki": {
+          "site": "diqwiki",
+          "title": "Charlotte Hornets",
+          "badges": []
+        },
+        "elwiki": {
+          "site": "elwiki",
+          "title": "Σάρλοτ Χόρνετς",
+          "badges": []
+        },
+        "enwiki": {
+          "site": "enwiki",
+          "title": "Charlotte Hornets",
+          "badges": []
+        },
+        "eswiki": {
+          "site": "eswiki",
+          "title": "Charlotte Hornets",
+          "badges": []
+        },
+        "etwiki": {
+          "site": "etwiki",
+          "title": "Charlotte Hornets",
+          "badges": []
+        },
+        "euwiki": {
+          "site": "euwiki",
+          "title": "Charlotte Hornets",
+          "badges": []
+        },
+        "fawiki": {
+          "site": "fawiki",
+          "title": "شارلوت هورنتس",
+          "badges": []
+        },
+        "fiwiki": {
+          "site": "fiwiki",
+          "title": "Charlotte Hornets",
+          "badges": []
+        },
+        "frwiki": {
+          "site": "frwiki",
+          "title": "Hornets de Charlotte (NBA)",
+          "badges": []
+        },
+        "glwiki": {
+          "site": "glwiki",
+          "title": "Charlotte Hornets",
+          "badges": []
+        },
+        "hakwiki": {
+          "site": "hakwiki",
+          "title": "Charlotte Hornets",
+          "badges": []
+        },
+        "hewiki": {
+          "site": "hewiki",
+          "title": "שארלוט הורנטס",
+          "badges": []
+        },
+        "hiwiki": {
+          "site": "hiwiki",
+          "title": "चार्लोट होरनेट्स",
+          "badges": []
+        },
+        "hrwiki": {
+          "site": "hrwiki",
+          "title": "Charlotte Hornets",
+          "badges": []
+        },
+        "huwiki": {
+          "site": "huwiki",
+          "title": "Charlotte Hornets",
+          "badges": []
+        },
+        "hywiki": {
+          "site": "hywiki",
+          "title": "Շառլոթ Հորնեթս",
+          "badges": []
+        },
+        "idwiki": {
+          "site": "idwiki",
+          "title": "Charlotte Hornets",
+          "badges": []
+        },
+        "iowiki": {
+          "site": "iowiki",
+          "title": "Charlotte Hornets",
+          "badges": []
+        },
+        "iswiki": {
+          "site": "iswiki",
+          "title": "Charlotte Hornets",
+          "badges": []
+        },
+        "itwiki": {
+          "site": "itwiki",
+          "title": "Charlotte Hornets",
+          "badges": []
+        },
+        "jawiki": {
+          "site": "jawiki",
+          "title": "シャーロット・ホーネッツ",
+          "badges": []
+        },
+        "kawiki": {
+          "site": "kawiki",
+          "title": "შარლოტ ჰორნეტსი",
+          "badges": []
+        },
+        "kowiki": {
+          "site": "kowiki",
+          "title": "샬럿 호니츠",
+          "badges": []
+        },
+        "ltwiki": {
+          "site": "ltwiki",
+          "title": "Šarlotės Hornets",
+          "badges": []
+        },
+        "lvwiki": {
+          "site": "lvwiki",
+          "title": "Šarlotas \"Hornets\"",
+          "badges": []
+        },
+        "mkwiki": {
+          "site": "mkwiki",
+          "title": "Шарлот Хорнетс",
+          "badges": []
+        },
+        "mlwiki": {
+          "site": "mlwiki",
+          "title": "ഷാർ‌ലൊറ്റ് ബോബ്‌ക്യാറ്റ്സ്",
+          "badges": []
+        },
+        "mnwiki": {
+          "site": "mnwiki",
+          "title": "Шарлотт Бобкэтс",
+          "badges": []
+        },
+        "mrwiki": {
+          "site": "mrwiki",
+          "title": "शार्लट बॉबकॅट्स",
+          "badges": []
+        },
+        "mznwiki": {
+          "site": "mznwiki",
+          "title": "شارلوت بابکتز",
+          "badges": []
+        },
+        "nlwiki": {
+          "site": "nlwiki",
+          "title": "Charlotte Hornets",
+          "badges": []
+        },
+        "nowiki": {
+          "site": "nowiki",
+          "title": "Charlotte Hornets",
+          "badges": []
+        },
+        "plwiki": {
+          "site": "plwiki",
+          "title": "Charlotte Hornets",
+          "badges": []
+        },
+        "ptwiki": {
+          "site": "ptwiki",
+          "title": "Charlotte Hornets",
+          "badges": []
+        },
+        "rowiki": {
+          "site": "rowiki",
+          "title": "Charlotte Hornets",
+          "badges": []
+        },
+        "ruwiki": {
+          "site": "ruwiki",
+          "title": "Шарлотт Хорнетс",
+          "badges": []
+        },
+        "ruwikinews": {
+          "site": "ruwikinews",
+          "title": "Категория:Шарлотт Хорнетс",
+          "badges": []
+        },
+        "shwiki": {
+          "site": "shwiki",
+          "title": "Charlotte Hornets",
+          "badges": []
+        },
+        "simplewiki": {
+          "site": "simplewiki",
+          "title": "Charlotte Hornets (NBA)",
+          "badges": []
+        },
+        "slwiki": {
+          "site": "slwiki",
+          "title": "Charlotte Hornets",
+          "badges": []
+        },
+        "srwiki": {
+          "site": "srwiki",
+          "title": "Шарлот хорнетси",
+          "badges": []
+        },
+        "svwiki": {
+          "site": "svwiki",
+          "title": "Charlotte Hornets",
+          "badges": []
+        },
+        "swwiki": {
+          "site": "swwiki",
+          "title": "Charlotte Hornets",
+          "badges": []
+        },
+        "tawiki": {
+          "site": "tawiki",
+          "title": "ஷார்லட் பாப்கேட்ஸ்",
+          "badges": []
+        },
+        "thwiki": {
+          "site": "thwiki",
+          "title": "ชาล็อตฮอร์เน็ตส์",
+          "badges": []
+        },
+        "tlwiki": {
+          "site": "tlwiki",
+          "title": "Charlotte Hornets",
+          "badges": [
+            "Q70893996"
+          ]
+        },
+        "trwiki": {
+          "site": "trwiki",
+          "title": "Charlotte Hornets",
+          "badges": []
+        },
+        "ukwiki": {
+          "site": "ukwiki",
+          "title": "Шарлотт Горнетс",
+          "badges": []
+        },
+        "vecwiki": {
+          "site": "vecwiki",
+          "title": "Charlotte Hornets",
+          "badges": []
+        },
+        "viwiki": {
+          "site": "viwiki",
+          "title": "Charlotte Hornets",
+          "badges": []
+        },
+        "vowiki": {
+          "site": "vowiki",
+          "title": "Charlotte Hornets",
+          "badges": []
+        },
+        "wuuwiki": {
+          "site": "wuuwiki",
+          "title": "夏洛特黄蜂",
+          "badges": []
+        },
+        "yowiki": {
+          "site": "yowiki",
+          "title": "Charlotte Bobcats",
+          "badges": []
+        },
+        "zh_min_nanwiki": {
+          "site": "zh_min_nanwiki",
+          "title": "Charlotte Hornets",
+          "badges": []
+        },
+        "zh_yuewiki": {
+          "site": "zh_yuewiki",
+          "title": "夏洛特黃蜂",
+          "badges": []
+        },
+        "zhwiki": {
+          "site": "zhwiki",
+          "title": "夏洛特黃蜂",
+          "badges": []
+        }
+      }
+    },
+    "Q169138": {
+      "type": "item",
+      "id": "Q169138",
+      "labels": {
+        "zh-hans": {
+          "language": "zh-hans",
+          "value": "迈阿密热火"
+        },
+        "zh-hant": {
+          "language": "zh-hant",
+          "value": "邁阿密熱火"
+        },
+        "zh-hk": {
+          "language": "zh-hk",
+          "value": "邁阿密熱火"
+        },
+        "zh-cn": {
+          "language": "zh-cn",
+          "value": "迈阿密热火"
+        },
+        "zh-tw": {
+          "language": "zh-tw",
+          "value": "邁阿密熱火"
+        },
+        "en": {
+          "language": "en",
+          "value": "Miami Heat"
+        },
+        "zh": {
+          "language": "zh",
+          "value": "迈阿密热火"
+        }
+      },
+      "aliases": {
+        "zh": [
+          {
+            "language": "zh",
+            "value": "邁阿密熱火隊"
+          },
+          {
+            "language": "zh",
+            "value": "迈阿密热"
+          },
+          {
+            "language": "zh",
+            "value": "迈阿密热队"
+          },
+          {
+            "language": "zh",
+            "value": "热火"
+          },
+          {
+            "language": "zh",
+            "value": "迈阿密热火队"
+          },
+          {
+            "language": "zh",
+            "value": "熱火隊"
+          }
+        ],
+        "en": [
+          {
+            "language": "en",
+            "value": "Heat"
+          }
+        ]
+      },
+      "sitelinks": {
+        "anwiki": {
+          "site": "anwiki",
+          "title": "Miami Heat",
+          "badges": []
+        },
+        "arwiki": {
+          "site": "arwiki",
+          "title": "ميامي هيت",
+          "badges": []
+        },
+        "arzwiki": {
+          "site": "arzwiki",
+          "title": "ميامى هيت",
+          "badges": []
+        },
+        "astwiki": {
+          "site": "astwiki",
+          "title": "Miami Heat",
+          "badges": []
+        },
+        "azwiki": {
+          "site": "azwiki",
+          "title": "Mayami Hit",
+          "badges": []
+        },
+        "be_x_oldwiki": {
+          "site": "be_x_oldwiki",
+          "title": "Маямі Гіт",
+          "badges": []
+        },
+        "bewiki": {
+          "site": "bewiki",
+          "title": "Маямі Хіт",
+          "badges": []
+        },
+        "bgwiki": {
+          "site": "bgwiki",
+          "title": "Маями Хийт",
+          "badges": []
+        },
+        "bswiki": {
+          "site": "bswiki",
+          "title": "Miami Heat",
+          "badges": []
+        },
+        "cawiki": {
+          "site": "cawiki",
+          "title": "Miami Heat",
+          "badges": []
+        },
+        "cswiki": {
+          "site": "cswiki",
+          "title": "Miami Heat",
+          "badges": []
+        },
+        "dawiki": {
+          "site": "dawiki",
+          "title": "Miami Heat",
+          "badges": []
+        },
+        "dewiki": {
+          "site": "dewiki",
+          "title": "Miami Heat",
+          "badges": []
+        },
+        "diqwiki": {
+          "site": "diqwiki",
+          "title": "Miami Heat",
+          "badges": []
+        },
+        "elwiki": {
+          "site": "elwiki",
+          "title": "Μαϊάμι Χιτ",
+          "badges": []
+        },
+        "enwiki": {
+          "site": "enwiki",
+          "title": "Miami Heat",
+          "badges": []
+        },
+        "eowiki": {
+          "site": "eowiki",
+          "title": "Miami Heat",
+          "badges": []
+        },
+        "eswiki": {
+          "site": "eswiki",
+          "title": "Miami Heat",
+          "badges": []
+        },
+        "etwiki": {
+          "site": "etwiki",
+          "title": "Miami Heat",
+          "badges": []
+        },
+        "euwiki": {
+          "site": "euwiki",
+          "title": "Miami Heat",
+          "badges": []
+        },
+        "fawiki": {
+          "site": "fawiki",
+          "title": "میامی هیت",
+          "badges": []
+        },
+        "fiwiki": {
+          "site": "fiwiki",
+          "title": "Miami Heat",
+          "badges": []
+        },
+        "frwiki": {
+          "site": "frwiki",
+          "title": "Heat de Miami",
+          "badges": []
+        },
+        "glwiki": {
+          "site": "glwiki",
+          "title": "Miami Heat",
+          "badges": []
+        },
+        "hakwiki": {
+          "site": "hakwiki",
+          "title": "Miami Heat",
+          "badges": []
+        },
+        "hewiki": {
+          "site": "hewiki",
+          "title": "מיאמי היט",
+          "badges": []
+        },
+        "hiwiki": {
+          "site": "hiwiki",
+          "title": "मायामी हीट",
+          "badges": []
+        },
+        "hrwiki": {
+          "site": "hrwiki",
+          "title": "Miami Heat",
+          "badges": []
+        },
+        "huwiki": {
+          "site": "huwiki",
+          "title": "Miami Heat",
+          "badges": []
+        },
+        "hywiki": {
+          "site": "hywiki",
+          "title": "Մայամի Հիթ",
+          "badges": []
+        },
+        "idwiki": {
+          "site": "idwiki",
+          "title": "Miami Heat",
+          "badges": []
+        },
+        "iswiki": {
+          "site": "iswiki",
+          "title": "Miami Heat",
+          "badges": []
+        },
+        "itwiki": {
+          "site": "itwiki",
+          "title": "Miami Heat",
+          "badges": []
+        },
+        "jawiki": {
+          "site": "jawiki",
+          "title": "マイアミ・ヒート",
+          "badges": []
+        },
+        "kawiki": {
+          "site": "kawiki",
+          "title": "მაიამი ჰიტი",
+          "badges": []
+        },
+        "kowiki": {
+          "site": "kowiki",
+          "title": "마이애미 히트",
+          "badges": []
+        },
+        "ltwiki": {
+          "site": "ltwiki",
+          "title": "Majamio Heat",
+          "badges": []
+        },
+        "lvwiki": {
+          "site": "lvwiki",
+          "title": "Maiami \"Heat\"",
+          "badges": []
+        },
+        "mkwiki": {
+          "site": "mkwiki",
+          "title": "Мајами Хит",
+          "badges": []
+        },
+        "mlwiki": {
+          "site": "mlwiki",
+          "title": "മയാമി ഹീറ്റ്",
+          "badges": []
+        },
+        "mnwiki": {
+          "site": "mnwiki",
+          "title": "Майами Хийт",
+          "badges": []
+        },
+        "mrwiki": {
+          "site": "mrwiki",
+          "title": "मायामी हीट",
+          "badges": []
+        },
+        "mznwiki": {
+          "site": "mznwiki",
+          "title": "میامی هیت",
+          "badges": []
+        },
+        "nlwiki": {
+          "site": "nlwiki",
+          "title": "Miami Heat",
+          "badges": []
+        },
+        "nowiki": {
+          "site": "nowiki",
+          "title": "Miami Heat",
+          "badges": []
+        },
+        "plwiki": {
+          "site": "plwiki",
+          "title": "Miami Heat",
+          "badges": []
+        },
+        "ptwiki": {
+          "site": "ptwiki",
+          "title": "Miami Heat",
+          "badges": []
+        },
+        "rowiki": {
+          "site": "rowiki",
+          "title": "Miami Heat",
+          "badges": []
+        },
+        "ruwiki": {
+          "site": "ruwiki",
+          "title": "Майами Хит",
+          "badges": []
+        },
+        "ruwikinews": {
+          "site": "ruwikinews",
+          "title": "Категория:Майами Хит",
+          "badges": []
+        },
+        "shwiki": {
+          "site": "shwiki",
+          "title": "Miami Heat",
+          "badges": []
+        },
+        "simplewiki": {
+          "site": "simplewiki",
+          "title": "Miami Heat",
+          "badges": []
+        },
+        "slwiki": {
+          "site": "slwiki",
+          "title": "Miami Heat",
+          "badges": []
+        },
+        "sqwiki": {
+          "site": "sqwiki",
+          "title": "Miami Heat",
+          "badges": []
+        },
+        "srwiki": {
+          "site": "srwiki",
+          "title": "Мајами хит",
+          "badges": []
+        },
+        "svwiki": {
+          "site": "svwiki",
+          "title": "Miami Heat",
+          "badges": []
+        },
+        "swwiki": {
+          "site": "swwiki",
+          "title": "Miami Heat",
+          "badges": []
+        },
+        "tawiki": {
+          "site": "tawiki",
+          "title": "மயாமி ஹீட்",
+          "badges": []
+        },
+        "tlwiki": {
+          "site": "tlwiki",
+          "title": "Miami Heat",
+          "badges": [
+            "Q70894304"
+          ]
+        },
+        "trwiki": {
+          "site": "trwiki",
+          "title": "Miami Heat",
+          "badges": []
+        },
+        "ukwiki": {
+          "site": "ukwiki",
+          "title": "Маямі Гіт",
+          "badges": []
+        },
+        "vecwiki": {
+          "site": "vecwiki",
+          "title": "Miami Heat",
+          "badges": []
+        },
+        "viwiki": {
+          "site": "viwiki",
+          "title": "Miami Heat",
+          "badges": []
+        },
+        "vowiki": {
+          "site": "vowiki",
+          "title": "Miami Heat",
+          "badges": []
+        },
+        "wuuwiki": {
+          "site": "wuuwiki",
+          "title": "迈阿密热火",
+          "badges": []
+        },
+        "yowiki": {
+          "site": "yowiki",
+          "title": "Miami Heat",
+          "badges": []
+        },
+        "zh_min_nanwiki": {
+          "site": "zh_min_nanwiki",
+          "title": "Miami Heat",
+          "badges": []
+        },
+        "zh_yuewiki": {
+          "site": "zh_yuewiki",
+          "title": "邁亞美熱火",
+          "badges": []
+        },
+        "zhwiki": {
+          "site": "zhwiki",
+          "title": "迈阿密热火",
+          "badges": []
+        }
+      }
+    },
+    "Q161337": {
+      "type": "item",
+      "id": "Q161337",
+      "labels": {
+        "zh-hans": {
+          "language": "zh-hans",
+          "value": "奥兰多魔术"
+        },
+        "zh-hant": {
+          "language": "zh-hant",
+          "value": "奧蘭多魔術"
+        },
+        "zh-hk": {
+          "language": "zh-hk",
+          "value": "奧蘭多魔術"
+        },
+        "zh-cn": {
+          "language": "zh-cn",
+          "value": "奥兰多魔术"
+        },
+        "zh-tw": {
+          "language": "zh-tw",
+          "value": "奧蘭多魔術"
+        },
+        "en": {
+          "language": "en",
+          "value": "Orlando Magic"
+        },
+        "zh": {
+          "language": "zh",
+          "value": "奥兰多魔术"
+        }
+      },
+      "aliases": {
+        "zh": [
+          {
+            "language": "zh",
+            "value": "奧蘭多魔術隊"
+          },
+          {
+            "language": "zh",
+            "value": "Orlando Magic"
+          },
+          {
+            "language": "zh",
+            "value": "奥兰多魔术队"
+          }
+        ]
+      },
+      "sitelinks": {
+        "anwiki": {
+          "site": "anwiki",
+          "title": "Orlando Magic",
+          "badges": []
+        },
+        "arwiki": {
+          "site": "arwiki",
+          "title": "أورلاندو ماجيك",
+          "badges": []
+        },
+        "arzwiki": {
+          "site": "arzwiki",
+          "title": "اورلاندو ماجيك",
+          "badges": []
+        },
+        "astwiki": {
+          "site": "astwiki",
+          "title": "Orlando Magic",
+          "badges": []
+        },
+        "azwiki": {
+          "site": "azwiki",
+          "title": "Orlando Mecik",
+          "badges": []
+        },
+        "be_x_oldwiki": {
+          "site": "be_x_oldwiki",
+          "title": "Арланда Мэджык",
+          "badges": []
+        },
+        "bewiki": {
+          "site": "bewiki",
+          "title": "Арланда Меджык",
+          "badges": []
+        },
+        "bgwiki": {
+          "site": "bgwiki",
+          "title": "Орландо Меджик",
+          "badges": []
+        },
+        "bswiki": {
+          "site": "bswiki",
+          "title": "Orlando Magic",
+          "badges": []
+        },
+        "cawiki": {
+          "site": "cawiki",
+          "title": "Orlando Magic",
+          "badges": []
+        },
+        "cebwiki": {
+          "site": "cebwiki",
+          "title": "Orlando Magic",
+          "badges": []
+        },
+        "cswiki": {
+          "site": "cswiki",
+          "title": "Orlando Magic",
+          "badges": []
+        },
+        "dawiki": {
+          "site": "dawiki",
+          "title": "Orlando Magic",
+          "badges": []
+        },
+        "dewiki": {
+          "site": "dewiki",
+          "title": "Orlando Magic",
+          "badges": []
+        },
+        "diqwiki": {
+          "site": "diqwiki",
+          "title": "Orlando Magic",
+          "badges": []
+        },
+        "elwiki": {
+          "site": "elwiki",
+          "title": "Ορλάντο Μάτζικ",
+          "badges": []
+        },
+        "enwiki": {
+          "site": "enwiki",
+          "title": "Orlando Magic",
+          "badges": []
+        },
+        "eowiki": {
+          "site": "eowiki",
+          "title": "Orlando Magic",
+          "badges": []
+        },
+        "eswiki": {
+          "site": "eswiki",
+          "title": "Orlando Magic",
+          "badges": []
+        },
+        "etwiki": {
+          "site": "etwiki",
+          "title": "Orlando Magic",
+          "badges": []
+        },
+        "euwiki": {
+          "site": "euwiki",
+          "title": "Orlando Magic",
+          "badges": []
+        },
+        "fawiki": {
+          "site": "fawiki",
+          "title": "اورلندو مجیک",
+          "badges": []
+        },
+        "fiwiki": {
+          "site": "fiwiki",
+          "title": "Orlando Magic",
+          "badges": []
+        },
+        "frwiki": {
+          "site": "frwiki",
+          "title": "Magic d'Orlando",
+          "badges": []
+        },
+        "glwiki": {
+          "site": "glwiki",
+          "title": "Orlando Magic",
+          "badges": []
+        },
+        "hakwiki": {
+          "site": "hakwiki",
+          "title": "Orlando Magic",
+          "badges": []
+        },
+        "hewiki": {
+          "site": "hewiki",
+          "title": "אורלנדו מג'יק",
+          "badges": []
+        },
+        "hiwiki": {
+          "site": "hiwiki",
+          "title": "ओरलैंडो मैजिक",
+          "badges": []
+        },
+        "hrwiki": {
+          "site": "hrwiki",
+          "title": "Orlando Magic",
+          "badges": []
+        },
+        "huwiki": {
+          "site": "huwiki",
+          "title": "Orlando Magic",
+          "badges": []
+        },
+        "hywiki": {
+          "site": "hywiki",
+          "title": "Օռլանդո Մեջիք",
+          "badges": []
+        },
+        "idwiki": {
+          "site": "idwiki",
+          "title": "Orlando Magic",
+          "badges": []
+        },
+        "iswiki": {
+          "site": "iswiki",
+          "title": "Orlando Magic",
+          "badges": []
+        },
+        "itwiki": {
+          "site": "itwiki",
+          "title": "Orlando Magic",
+          "badges": []
+        },
+        "jawiki": {
+          "site": "jawiki",
+          "title": "オーランド・マジック",
+          "badges": []
+        },
+        "kawiki": {
+          "site": "kawiki",
+          "title": "ორლანდო მეჯიკი",
+          "badges": []
+        },
+        "kowiki": {
+          "site": "kowiki",
+          "title": "올랜도 매직",
+          "badges": []
+        },
+        "ltwiki": {
+          "site": "ltwiki",
+          "title": "Orlando Magic",
+          "badges": []
+        },
+        "lvwiki": {
+          "site": "lvwiki",
+          "title": "Orlando \"Magic\"",
+          "badges": []
+        },
+        "mkwiki": {
+          "site": "mkwiki",
+          "title": "Орландо Меџик",
+          "badges": []
+        },
+        "mlwiki": {
+          "site": "mlwiki",
+          "title": "ഒർലാന്റോ മാജിക്",
+          "badges": []
+        },
+        "mnwiki": {
+          "site": "mnwiki",
+          "title": "Орландо Мэжик",
+          "badges": []
+        },
+        "mrwiki": {
+          "site": "mrwiki",
+          "title": "ओरलँडो मॅजिक",
+          "badges": []
+        },
+        "mznwiki": {
+          "site": "mznwiki",
+          "title": "اورلندو مجیک",
+          "badges": []
+        },
+        "nlwiki": {
+          "site": "nlwiki",
+          "title": "Orlando Magic",
+          "badges": []
+        },
+        "nowiki": {
+          "site": "nowiki",
+          "title": "Orlando Magic",
+          "badges": []
+        },
+        "plwiki": {
+          "site": "plwiki",
+          "title": "Orlando Magic",
+          "badges": []
+        },
+        "ptwiki": {
+          "site": "ptwiki",
+          "title": "Orlando Magic",
+          "badges": []
+        },
+        "rowiki": {
+          "site": "rowiki",
+          "title": "Orlando Magic",
+          "badges": []
+        },
+        "ruwiki": {
+          "site": "ruwiki",
+          "title": "Орландо Мэджик",
+          "badges": []
+        },
+        "ruwikinews": {
+          "site": "ruwikinews",
+          "title": "Категория:Орландо Мэджик",
+          "badges": []
+        },
+        "shwiki": {
+          "site": "shwiki",
+          "title": "Orlando Magic",
+          "badges": []
+        },
+        "simplewiki": {
+          "site": "simplewiki",
+          "title": "Orlando Magic",
+          "badges": []
+        },
+        "srwiki": {
+          "site": "srwiki",
+          "title": "Орландо меџик",
+          "badges": []
+        },
+        "svwiki": {
+          "site": "svwiki",
+          "title": "Orlando Magic",
+          "badges": []
+        },
+        "swwiki": {
+          "site": "swwiki",
+          "title": "Orlando Magic",
+          "badges": []
+        },
+        "tawiki": {
+          "site": "tawiki",
+          "title": "ஒர்லான்டோ மேஜிக்",
+          "badges": []
+        },
+        "thwiki": {
+          "site": "thwiki",
+          "title": "ออร์แลนโด แมจิก",
+          "badges": []
+        },
+        "tlwiki": {
+          "site": "tlwiki",
+          "title": "Orlando Magic",
+          "badges": [
+            "Q70893996"
+          ]
+        },
+        "trwiki": {
+          "site": "trwiki",
+          "title": "Orlando Magic",
+          "badges": []
+        },
+        "ukwiki": {
+          "site": "ukwiki",
+          "title": "Орландо Меджик",
+          "badges": []
+        },
+        "vecwiki": {
+          "site": "vecwiki",
+          "title": "Orlando Magic",
+          "badges": []
+        },
+        "viwiki": {
+          "site": "viwiki",
+          "title": "Orlando Magic",
+          "badges": []
+        },
+        "vowiki": {
+          "site": "vowiki",
+          "title": "Orlando Magic",
+          "badges": []
+        },
+        "wuuwiki": {
+          "site": "wuuwiki",
+          "title": "奥兰多魔术",
+          "badges": []
+        },
+        "yowiki": {
+          "site": "yowiki",
+          "title": "Orlando Magic",
+          "badges": []
+        },
+        "zh_min_nanwiki": {
+          "site": "zh_min_nanwiki",
+          "title": "Orlando Magic",
+          "badges": []
+        },
+        "zh_yuewiki": {
+          "site": "zh_yuewiki",
+          "title": "奧蘭多魔術",
+          "badges": []
+        },
+        "zhwiki": {
+          "site": "zhwiki",
+          "title": "奥兰多魔术",
+          "badges": []
+        }
+      }
+    },
+    "Q169165": {
+      "type": "item",
+      "id": "Q169165",
+      "labels": {
+        "zh-hans": {
+          "language": "zh-hans",
+          "value": "华盛顿奇才"
+        },
+        "zh-hant": {
+          "language": "zh-hant",
+          "value": "華盛頓奇才"
+        },
+        "zh-hk": {
+          "language": "zh-hk",
+          "value": "華盛頓巫師"
+        },
+        "zh-cn": {
+          "language": "zh-cn",
+          "value": "华盛顿奇才"
+        },
+        "zh-tw": {
+          "language": "zh-tw",
+          "value": "華盛頓巫師"
+        },
+        "en": {
+          "language": "en",
+          "value": "Washington Wizards"
+        },
+        "zh": {
+          "language": "zh",
+          "value": "华盛顿奇才"
+        }
+      },
+      "aliases": {
+        "zh": [
+          {
+            "language": "zh",
+            "value": "华盛顿奇才队"
+          },
+          {
+            "language": "zh",
+            "value": "華盛頓巫師"
+          },
+          {
+            "language": "zh",
+            "value": "华盛顿子弹队"
+          },
+          {
+            "language": "zh",
+            "value": "奇才队"
+          },
+          {
+            "language": "zh",
+            "value": "華盛頓巫師隊"
+          },
+          {
+            "language": "zh",
+            "value": "巴尔的摩子弹队"
+          },
+          {
+            "language": "zh",
+            "value": "巴爾的摩子彈"
+          },
+          {
+            "language": "zh",
+            "value": "华盛顿子弹"
+          }
+        ],
+        "en": [
+          {
+            "language": "en",
+            "value": "Chicago Zephyrs"
+          },
+          {
+            "language": "en",
+            "value": "Chicago Packers"
+          },
+          {
+            "language": "en",
+            "value": "Baltimore Bullets"
+          },
+          {
+            "language": "en",
+            "value": "Capital Bullets"
+          },
+          {
+            "language": "en",
+            "value": "Washington Bullets"
+          },
+          {
+            "language": "en",
+            "value": "The Wiz"
+          }
+        ]
+      },
+      "sitelinks": {
+        "anwiki": {
+          "site": "anwiki",
+          "title": "Washington Wizards",
+          "badges": []
+        },
+        "arwiki": {
+          "site": "arwiki",
+          "title": "واشنطن ويزاردز",
+          "badges": []
+        },
+        "arzwiki": {
+          "site": "arzwiki",
+          "title": "واشنطن ويزاردز",
+          "badges": []
+        },
+        "astwiki": {
+          "site": "astwiki",
+          "title": "Washington Wizards",
+          "badges": []
+        },
+        "azwiki": {
+          "site": "azwiki",
+          "title": "Vaşinqton Uizards",
+          "badges": []
+        },
+        "be_x_oldwiki": {
+          "site": "be_x_oldwiki",
+          "title": "Вашынгтон Ўізардс",
+          "badges": []
+        },
+        "bewiki": {
+          "site": "bewiki",
+          "title": "Вашынгтон Уізардс",
+          "badges": []
+        },
+        "bgwiki": {
+          "site": "bgwiki",
+          "title": "Вашингтон Уизърдс",
+          "badges": []
+        },
+        "bswiki": {
+          "site": "bswiki",
+          "title": "Washington Wizards",
+          "badges": []
+        },
+        "cawiki": {
+          "site": "cawiki",
+          "title": "Washington Wizards",
+          "badges": []
+        },
+        "cebwiki": {
+          "site": "cebwiki",
+          "title": "Washington Wizard",
+          "badges": []
+        },
+        "cswiki": {
+          "site": "cswiki",
+          "title": "Washington Wizards",
+          "badges": []
+        },
+        "dawiki": {
+          "site": "dawiki",
+          "title": "Washington Wizards",
+          "badges": []
+        },
+        "dewiki": {
+          "site": "dewiki",
+          "title": "Washington Wizards",
+          "badges": []
+        },
+        "diqwiki": {
+          "site": "diqwiki",
+          "title": "Washington Wizards",
+          "badges": []
+        },
+        "elwiki": {
+          "site": "elwiki",
+          "title": "Ουάσινγκτον Ουίζαρντς",
+          "badges": []
+        },
+        "enwiki": {
+          "site": "enwiki",
+          "title": "Washington Wizards",
+          "badges": []
+        },
+        "eowiki": {
+          "site": "eowiki",
+          "title": "Washington Wizards",
+          "badges": []
+        },
+        "eswiki": {
+          "site": "eswiki",
+          "title": "Washington Wizards",
+          "badges": [
+            "Q17437798"
+          ]
+        },
+        "etwiki": {
+          "site": "etwiki",
+          "title": "Washington Wizards",
+          "badges": []
+        },
+        "euwiki": {
+          "site": "euwiki",
+          "title": "Washington Wizards",
+          "badges": []
+        },
+        "fawiki": {
+          "site": "fawiki",
+          "title": "واشینگتن ویزاردز",
+          "badges": []
+        },
+        "fiwiki": {
+          "site": "fiwiki",
+          "title": "Washington Wizards",
+          "badges": []
+        },
+        "frwiki": {
+          "site": "frwiki",
+          "title": "Wizards de Washington",
+          "badges": []
+        },
+        "glwiki": {
+          "site": "glwiki",
+          "title": "Washington Wizards",
+          "badges": []
+        },
+        "hakwiki": {
+          "site": "hakwiki",
+          "title": "Washington Wizards",
+          "badges": []
+        },
+        "hewiki": {
+          "site": "hewiki",
+          "title": "וושינגטון ויזארדס",
+          "badges": []
+        },
+        "hiwiki": {
+          "site": "hiwiki",
+          "title": "वाशिंगटन विज़र्डस",
+          "badges": []
+        },
+        "hrwiki": {
+          "site": "hrwiki",
+          "title": "Washington Wizards",
+          "badges": []
+        },
+        "huwiki": {
+          "site": "huwiki",
+          "title": "Washington Wizards",
+          "badges": []
+        },
+        "hywiki": {
+          "site": "hywiki",
+          "title": "Վաշինգտոն Վիզարդս",
+          "badges": []
+        },
+        "idwiki": {
+          "site": "idwiki",
+          "title": "Washington Wizards",
+          "badges": []
+        },
+        "iswiki": {
+          "site": "iswiki",
+          "title": "Washington Wizards",
+          "badges": []
+        },
+        "itwiki": {
+          "site": "itwiki",
+          "title": "Washington Wizards",
+          "badges": []
+        },
+        "jawiki": {
+          "site": "jawiki",
+          "title": "ワシントン・ウィザーズ",
+          "badges": []
+        },
+        "kawiki": {
+          "site": "kawiki",
+          "title": "ვაშინგტონ უიზარდსი",
+          "badges": []
+        },
+        "kowiki": {
+          "site": "kowiki",
+          "title": "워싱턴 위저즈",
+          "badges": []
+        },
+        "ltwiki": {
+          "site": "ltwiki",
+          "title": "Vašingtono Wizards",
+          "badges": []
+        },
+        "lvwiki": {
+          "site": "lvwiki",
+          "title": "Vašingtonas \"Wizards\"",
+          "badges": []
+        },
+        "mkwiki": {
+          "site": "mkwiki",
+          "title": "Вашингтон Визардс",
+          "badges": []
+        },
+        "mlwiki": {
+          "site": "mlwiki",
+          "title": "വാഷിംഗ്ടൺ വിസാർഡ്സ്",
+          "badges": []
+        },
+        "mnwiki": {
+          "site": "mnwiki",
+          "title": "Вашингтон Уизардс",
+          "badges": []
+        },
+        "mrwiki": {
+          "site": "mrwiki",
+          "title": "वॉशिंग्टन विझार्ड्स",
+          "badges": []
+        },
+        "mznwiki": {
+          "site": "mznwiki",
+          "title": "واشینگتن ویزاردز",
+          "badges": []
+        },
+        "nlwiki": {
+          "site": "nlwiki",
+          "title": "Washington Wizards",
+          "badges": []
+        },
+        "nowiki": {
+          "site": "nowiki",
+          "title": "Washington Wizards",
+          "badges": []
+        },
+        "plwiki": {
+          "site": "plwiki",
+          "title": "Washington Wizards",
+          "badges": []
+        },
+        "ptwiki": {
+          "site": "ptwiki",
+          "title": "Washington Wizards",
+          "badges": []
+        },
+        "rowiki": {
+          "site": "rowiki",
+          "title": "Washington Wizards",
+          "badges": []
+        },
+        "ruwiki": {
+          "site": "ruwiki",
+          "title": "Вашингтон Уизардс",
+          "badges": []
+        },
+        "ruwikinews": {
+          "site": "ruwikinews",
+          "title": "Категория:Вашингтон Уизардс",
+          "badges": []
+        },
+        "shwiki": {
+          "site": "shwiki",
+          "title": "Washington Wizards",
+          "badges": []
+        },
+        "simplewiki": {
+          "site": "simplewiki",
+          "title": "Washington Wizards",
+          "badges": []
+        },
+        "srwiki": {
+          "site": "srwiki",
+          "title": "Вашингтон визардси",
+          "badges": []
+        },
+        "svwiki": {
+          "site": "svwiki",
+          "title": "Washington Wizards",
+          "badges": []
+        },
+        "swwiki": {
+          "site": "swwiki",
+          "title": "Washington Wizards",
+          "badges": []
+        },
+        "tawiki": {
+          "site": "tawiki",
+          "title": "வாஷிங்டன் விசர்ட்ஸ்",
+          "badges": []
+        },
+        "tlwiki": {
+          "site": "tlwiki",
+          "title": "Washington Wizards",
+          "badges": [
+            "Q70894304"
+          ]
+        },
+        "trwiki": {
+          "site": "trwiki",
+          "title": "Washington Wizards",
+          "badges": []
+        },
+        "ukwiki": {
+          "site": "ukwiki",
+          "title": "Вашингтон Візардс",
+          "badges": []
+        },
+        "urwiki": {
+          "site": "urwiki",
+          "title": "واشنگٹن وزرڈز",
+          "badges": []
+        },
+        "vecwiki": {
+          "site": "vecwiki",
+          "title": "Washington Wizards",
+          "badges": []
+        },
+        "viwiki": {
+          "site": "viwiki",
+          "title": "Washington Wizards",
+          "badges": []
+        },
+        "vowiki": {
+          "site": "vowiki",
+          "title": "Washington Wizards",
+          "badges": []
+        },
+        "wuuwiki": {
+          "site": "wuuwiki",
+          "title": "华盛顿奇才",
+          "badges": []
+        },
+        "yowiki": {
+          "site": "yowiki",
+          "title": "Washington Wizards",
+          "badges": []
+        },
+        "zh_min_nanwiki": {
+          "site": "zh_min_nanwiki",
+          "title": "Washington Wizards",
+          "badges": []
+        },
+        "zh_yuewiki": {
+          "site": "zh_yuewiki",
+          "title": "華盛頓巫師",
+          "badges": []
+        },
+        "zhwiki": {
+          "site": "zhwiki",
+          "title": "华盛顿奇才",
+          "badges": []
+        }
+      }
+    },
+    "Q162954": {
+      "type": "item",
+      "id": "Q162954",
+      "labels": {
+        "zh-hans": {
+          "language": "zh-hans",
+          "value": "丹佛掘金"
+        },
+        "zh-hant": {
+          "language": "zh-hant",
+          "value": "丹佛金塊"
+        },
+        "zh-hk": {
+          "language": "zh-hk",
+          "value": "丹佛金塊"
+        },
+        "zh-cn": {
+          "language": "zh-cn",
+          "value": "丹佛掘金"
+        },
+        "zh-tw": {
+          "language": "zh-tw",
+          "value": "丹佛金塊"
+        },
+        "en": {
+          "language": "en",
+          "value": "Denver Nuggets"
+        },
+        "zh": {
+          "language": "zh",
+          "value": "丹佛金塊"
+        }
+      },
+      "aliases": {
+        "zh": [
+          {
+            "language": "zh",
+            "value": "金塊隊"
+          },
+          {
+            "language": "zh",
+            "value": "丹佛金塊隊"
+          },
+          {
+            "language": "zh",
+            "value": "丹佛掘金隊"
+          },
+          {
+            "language": "zh",
+            "value": "丹佛掘金队"
+          },
+          {
+            "language": "zh",
+            "value": "掘金"
+          }
+        ],
+        "en": [
+          {
+            "language": "en",
+            "value": "Nugs"
+          }
+        ]
+      },
+      "sitelinks": {
+        "anwiki": {
+          "site": "anwiki",
+          "title": "Denver Nuggets",
+          "badges": []
+        },
+        "arwiki": {
+          "site": "arwiki",
+          "title": "دنفر ناغتس",
+          "badges": []
+        },
+        "arzwiki": {
+          "site": "arzwiki",
+          "title": "دنفر ناجتس",
+          "badges": []
+        },
+        "astwiki": {
+          "site": "astwiki",
+          "title": "Denver Nuggets",
+          "badges": []
+        },
+        "azwiki": {
+          "site": "azwiki",
+          "title": "Denver Naqqets",
+          "badges": []
+        },
+        "be_x_oldwiki": {
+          "site": "be_x_oldwiki",
+          "title": "Дэнвэр Нагетс",
+          "badges": []
+        },
+        "bewiki": {
+          "site": "bewiki",
+          "title": "Дэнвер Нагетс",
+          "badges": []
+        },
+        "bgwiki": {
+          "site": "bgwiki",
+          "title": "Денвър Нъгетс",
+          "badges": []
+        },
+        "bnwiki": {
+          "site": "bnwiki",
+          "title": "ডেনভার নাগেট্‌স",
+          "badges": []
+        },
+        "bswiki": {
+          "site": "bswiki",
+          "title": "Denver Nuggets",
+          "badges": []
+        },
+        "cawiki": {
+          "site": "cawiki",
+          "title": "Denver Nuggets",
+          "badges": []
+        },
+        "cebwiki": {
+          "site": "cebwiki",
+          "title": "Denver Nuggets",
+          "badges": []
+        },
+        "commonswiki": {
+          "site": "commonswiki",
+          "title": "Denver Nuggets",
+          "badges": []
+        },
+        "cswiki": {
+          "site": "cswiki",
+          "title": "Denver Nuggets",
+          "badges": []
+        },
+        "dawiki": {
+          "site": "dawiki",
+          "title": "Denver Nuggets",
+          "badges": []
+        },
+        "dewiki": {
+          "site": "dewiki",
+          "title": "Denver Nuggets",
+          "badges": []
+        },
+        "diqwiki": {
+          "site": "diqwiki",
+          "title": "Denver Nuggets",
+          "badges": []
+        },
+        "elwiki": {
+          "site": "elwiki",
+          "title": "Ντένβερ Νάγκετς",
+          "badges": []
+        },
+        "enwiki": {
+          "site": "enwiki",
+          "title": "Denver Nuggets",
+          "badges": []
+        },
+        "eswiki": {
+          "site": "eswiki",
+          "title": "Denver Nuggets",
+          "badges": []
+        },
+        "etwiki": {
+          "site": "etwiki",
+          "title": "Denver Nuggets",
+          "badges": []
+        },
+        "euwiki": {
+          "site": "euwiki",
+          "title": "Denver Nuggets",
+          "badges": []
+        },
+        "fawiki": {
+          "site": "fawiki",
+          "title": "دنور ناگتس",
+          "badges": []
+        },
+        "fiwiki": {
+          "site": "fiwiki",
+          "title": "Denver Nuggets",
+          "badges": []
+        },
+        "frwiki": {
+          "site": "frwiki",
+          "title": "Nuggets de Denver",
+          "badges": []
+        },
+        "gawiki": {
+          "site": "gawiki",
+          "title": "Denver Nuggets",
+          "badges": []
+        },
+        "glwiki": {
+          "site": "glwiki",
+          "title": "Denver Nuggets",
+          "badges": []
+        },
+        "hakwiki": {
+          "site": "hakwiki",
+          "title": "Denver Nuggets",
+          "badges": []
+        },
+        "hewiki": {
+          "site": "hewiki",
+          "title": "דנוור נאגטס",
+          "badges": []
+        },
+        "hiwiki": {
+          "site": "hiwiki",
+          "title": "डैनवर नगेट्स",
+          "badges": []
+        },
+        "hrwiki": {
+          "site": "hrwiki",
+          "title": "Denver Nuggets",
+          "badges": []
+        },
+        "huwiki": {
+          "site": "huwiki",
+          "title": "Denver Nuggets",
+          "badges": []
+        },
+        "hywiki": {
+          "site": "hywiki",
+          "title": "Դենվեր Նագեթս",
+          "badges": []
+        },
+        "idwiki": {
+          "site": "idwiki",
+          "title": "Denver Nuggets",
+          "badges": []
+        },
+        "iswiki": {
+          "site": "iswiki",
+          "title": "Denver Nuggets",
+          "badges": []
+        },
+        "itwiki": {
+          "site": "itwiki",
+          "title": "Denver Nuggets",
+          "badges": []
+        },
+        "jawiki": {
+          "site": "jawiki",
+          "title": "デンバー・ナゲッツ",
+          "badges": []
+        },
+        "kawiki": {
+          "site": "kawiki",
+          "title": "დენვერ ნაგეტსი",
+          "badges": []
+        },
+        "kowiki": {
+          "site": "kowiki",
+          "title": "덴버 너기츠",
+          "badges": []
+        },
+        "ltwiki": {
+          "site": "ltwiki",
+          "title": "Denverio Nuggets",
+          "badges": []
+        },
+        "lvwiki": {
+          "site": "lvwiki",
+          "title": "Denveras \"Nuggets\"",
+          "badges": []
+        },
+        "mnwiki": {
+          "site": "mnwiki",
+          "title": "Денвер Наггетс",
+          "badges": []
+        },
+        "mrwiki": {
+          "site": "mrwiki",
+          "title": "डेन्व्हर नगेट्स",
+          "badges": []
+        },
+        "mznwiki": {
+          "site": "mznwiki",
+          "title": "دنور ناگتس",
+          "badges": []
+        },
+        "nlwiki": {
+          "site": "nlwiki",
+          "title": "Denver Nuggets",
+          "badges": []
+        },
+        "nowiki": {
+          "site": "nowiki",
+          "title": "Denver Nuggets",
+          "badges": []
+        },
+        "plwiki": {
+          "site": "plwiki",
+          "title": "Denver Nuggets",
+          "badges": []
+        },
+        "ptwiki": {
+          "site": "ptwiki",
+          "title": "Denver Nuggets",
+          "badges": []
+        },
+        "rowiki": {
+          "site": "rowiki",
+          "title": "Denver Nuggets",
+          "badges": []
+        },
+        "ruwiki": {
+          "site": "ruwiki",
+          "title": "Денвер Наггетс",
+          "badges": []
+        },
+        "ruwikinews": {
+          "site": "ruwikinews",
+          "title": "Категория:Денвер Наггетс",
+          "badges": []
+        },
+        "shwiki": {
+          "site": "shwiki",
+          "title": "Denver Nuggets",
+          "badges": []
+        },
+        "simplewiki": {
+          "site": "simplewiki",
+          "title": "Denver Nuggets",
+          "badges": []
+        },
+        "slwiki": {
+          "site": "slwiki",
+          "title": "Denver Nuggets",
+          "badges": []
+        },
+        "srwiki": {
+          "site": "srwiki",
+          "title": "Денвер нагетси",
+          "badges": []
+        },
+        "svwiki": {
+          "site": "svwiki",
+          "title": "Denver Nuggets",
+          "badges": []
+        },
+        "swwiki": {
+          "site": "swwiki",
+          "title": "Denver Nuggets",
+          "badges": []
+        },
+        "tawiki": {
+          "site": "tawiki",
+          "title": "டென்வர் நகெட்ஸ்",
+          "badges": []
+        },
+        "thwiki": {
+          "site": "thwiki",
+          "title": "เดนเวอร์ นักเก็ตส์",
+          "badges": []
+        },
+        "tlwiki": {
+          "site": "tlwiki",
+          "title": "Denver Nuggets",
+          "badges": [
+            "Q70894304"
+          ]
+        },
+        "trwiki": {
+          "site": "trwiki",
+          "title": "Denver Nuggets",
+          "badges": []
+        },
+        "ukwiki": {
+          "site": "ukwiki",
+          "title": "Денвер Наггетс",
+          "badges": []
+        },
+        "uzwiki": {
+          "site": "uzwiki",
+          "title": "Denver Nuggets",
+          "badges": []
+        },
+        "vecwiki": {
+          "site": "vecwiki",
+          "title": "Denver Nuggets",
+          "badges": []
+        },
+        "viwiki": {
+          "site": "viwiki",
+          "title": "Denver Nuggets",
+          "badges": []
+        },
+        "vowiki": {
+          "site": "vowiki",
+          "title": "Denver Nuggets",
+          "badges": []
+        },
+        "wuuwiki": {
+          "site": "wuuwiki",
+          "title": "丹佛掘金",
+          "badges": []
+        },
+        "yowiki": {
+          "site": "yowiki",
+          "title": "Denver Nuggets",
+          "badges": []
+        },
+        "zh_min_nanwiki": {
+          "site": "zh_min_nanwiki",
+          "title": "Denver Nuggets",
+          "badges": []
+        },
+        "zh_yuewiki": {
+          "site": "zh_yuewiki",
+          "title": "丹佛金塊",
+          "badges": []
+        },
+        "zhwiki": {
+          "site": "zhwiki",
+          "title": "丹佛掘金",
+          "badges": []
+        }
+      }
+    },
+    "Q170558": {
+      "type": "item",
+      "id": "Q170558",
+      "labels": {
+        "zh-hans": {
+          "language": "zh-hans",
+          "value": "明尼苏达森林狼"
+        },
+        "zh-hant": {
+          "language": "zh-hant",
+          "value": "明尼蘇達灰狼"
+        },
+        "zh-hk": {
+          "language": "zh-hk",
+          "value": "明尼蘇達木狼"
+        },
+        "zh-cn": {
+          "language": "zh-cn",
+          "value": "明尼苏达森林狼"
+        },
+        "zh-tw": {
+          "language": "zh-tw",
+          "value": "明尼蘇達灰狼"
+        },
+        "en": {
+          "language": "en",
+          "value": "Minnesota Timberwolves"
+        },
+        "zh": {
+          "language": "zh",
+          "value": "明尼苏达森林狼"
+        }
+      },
+      "aliases": {
+        "zh": [
+          {
+            "language": "zh",
+            "value": "明尼蘇達灰狼隊"
+          },
+          {
+            "language": "zh",
+            "value": "灰狼隊"
+          },
+          {
+            "language": "zh",
+            "value": "明尼蘇達木狼隊"
+          },
+          {
+            "language": "zh",
+            "value": "明尼蘇達木狼"
+          },
+          {
+            "language": "zh",
+            "value": "明尼苏达森林狼队"
+          },
+          {
+            "language": "zh",
+            "value": "明尼蘇達灰狼"
+          },
+          {
+            "language": "zh",
+            "value": "Minnesota Timberwolves"
+          }
+        ],
+        "en": [
+          {
+            "language": "en",
+            "value": "T-Wolves"
+          },
+          {
+            "language": "en",
+            "value": "Wolves"
+          },
+          {
+            "language": "en",
+            "value": "T'Wolves"
+          },
+          {
+            "language": "en",
+            "value": "Twolves"
+          },
+          {
+            "language": "en",
+            "value": "The Wolves"
+          }
+        ]
+      },
+      "sitelinks": {
+        "anwiki": {
+          "site": "anwiki",
+          "title": "Minnesota Timberwolves",
+          "badges": []
+        },
+        "arwiki": {
+          "site": "arwiki",
+          "title": "منيسوتا تمبر ولفز",
+          "badges": []
+        },
+        "arzwiki": {
+          "site": "arzwiki",
+          "title": "مينيسوتا تمبر ولفز",
+          "badges": []
+        },
+        "astwiki": {
+          "site": "astwiki",
+          "title": "Minnesota Timberwolves",
+          "badges": []
+        },
+        "azwiki": {
+          "site": "azwiki",
+          "title": "Minnesota Timbervulvz",
+          "badges": []
+        },
+        "be_x_oldwiki": {
+          "site": "be_x_oldwiki",
+          "title": "Мінэсота Тымбэрўулвз",
+          "badges": []
+        },
+        "bewiki": {
+          "site": "bewiki",
+          "title": "Мінесота Тымбервулвз",
+          "badges": []
+        },
+        "bgwiki": {
+          "site": "bgwiki",
+          "title": "Минесота Тимбърулвс",
+          "badges": []
+        },
+        "bswiki": {
+          "site": "bswiki",
+          "title": "Minnesota Timberwolves",
+          "badges": []
+        },
+        "cawiki": {
+          "site": "cawiki",
+          "title": "Minnesota Timberwolves",
+          "badges": []
+        },
+        "cswiki": {
+          "site": "cswiki",
+          "title": "Minnesota Timberwolves",
+          "badges": []
+        },
+        "dawiki": {
+          "site": "dawiki",
+          "title": "Minnesota Timberwolves",
+          "badges": []
+        },
+        "dewiki": {
+          "site": "dewiki",
+          "title": "Minnesota Timberwolves",
+          "badges": []
+        },
+        "diqwiki": {
+          "site": "diqwiki",
+          "title": "Minnesota Timberwolves",
+          "badges": []
+        },
+        "elwiki": {
+          "site": "elwiki",
+          "title": "Μινεσότα Τίμπεργουλβς",
+          "badges": []
+        },
+        "enwiki": {
+          "site": "enwiki",
+          "title": "Minnesota Timberwolves",
+          "badges": []
+        },
+        "eswiki": {
+          "site": "eswiki",
+          "title": "Minnesota Timberwolves",
+          "badges": []
+        },
+        "etwiki": {
+          "site": "etwiki",
+          "title": "Minnesota Timberwolves",
+          "badges": []
+        },
+        "euwiki": {
+          "site": "euwiki",
+          "title": "Minnesota Timberwolves",
+          "badges": []
+        },
+        "fawiki": {
+          "site": "fawiki",
+          "title": "مینه‌سوتا تیمبرولوز",
+          "badges": []
+        },
+        "fiwiki": {
+          "site": "fiwiki",
+          "title": "Minnesota Timberwolves",
+          "badges": []
+        },
+        "frwiki": {
+          "site": "frwiki",
+          "title": "Timberwolves du Minnesota",
+          "badges": []
+        },
+        "glwiki": {
+          "site": "glwiki",
+          "title": "Minnesota Timberwolves",
+          "badges": []
+        },
+        "hakwiki": {
+          "site": "hakwiki",
+          "title": "Minnesota Timberwolves",
+          "badges": []
+        },
+        "hewiki": {
+          "site": "hewiki",
+          "title": "מינסוטה טימברוולבס",
+          "badges": []
+        },
+        "hiwiki": {
+          "site": "hiwiki",
+          "title": "मिनेसोटा टिम्बरवॉल्वस",
+          "badges": []
+        },
+        "hrwiki": {
+          "site": "hrwiki",
+          "title": "Minnesota Timberwolves",
+          "badges": []
+        },
+        "huwiki": {
+          "site": "huwiki",
+          "title": "Minnesota Timberwolves",
+          "badges": []
+        },
+        "hywiki": {
+          "site": "hywiki",
+          "title": "Մինեսոտա Թիմբերվուլվզ",
+          "badges": []
+        },
+        "idwiki": {
+          "site": "idwiki",
+          "title": "Minnesota Timberwolves",
+          "badges": []
+        },
+        "iswiki": {
+          "site": "iswiki",
+          "title": "Minnesota Timberwolves",
+          "badges": []
+        },
+        "itwiki": {
+          "site": "itwiki",
+          "title": "Minnesota Timberwolves",
+          "badges": []
+        },
+        "jawiki": {
+          "site": "jawiki",
+          "title": "ミネソタ・ティンバーウルブズ",
+          "badges": []
+        },
+        "kawiki": {
+          "site": "kawiki",
+          "title": "მინესოტა ტიმბერვულვზი",
+          "badges": []
+        },
+        "kowiki": {
+          "site": "kowiki",
+          "title": "미네소타 팀버울브스",
+          "badges": []
+        },
+        "ltwiki": {
+          "site": "ltwiki",
+          "title": "Minesotos Timberwolves",
+          "badges": []
+        },
+        "lvwiki": {
+          "site": "lvwiki",
+          "title": "Minesotas \"Timberwolves\"",
+          "badges": []
+        },
+        "mnwiki": {
+          "site": "mnwiki",
+          "title": "Миннесота Тимбервулвз",
+          "badges": []
+        },
+        "mrwiki": {
+          "site": "mrwiki",
+          "title": "मिनेसोटा टिंबरवुल्व्झ",
+          "badges": []
+        },
+        "mznwiki": {
+          "site": "mznwiki",
+          "title": "مینسوتا تیمبرولوز",
+          "badges": []
+        },
+        "nlwiki": {
+          "site": "nlwiki",
+          "title": "Minnesota Timberwolves",
+          "badges": []
+        },
+        "nowiki": {
+          "site": "nowiki",
+          "title": "Minnesota Timberwolves",
+          "badges": []
+        },
+        "plwiki": {
+          "site": "plwiki",
+          "title": "Minnesota Timberwolves",
+          "badges": []
+        },
+        "ptwiki": {
+          "site": "ptwiki",
+          "title": "Minnesota Timberwolves",
+          "badges": []
+        },
+        "rowiki": {
+          "site": "rowiki",
+          "title": "Minnesota Timberwolves",
+          "badges": []
+        },
+        "ruwiki": {
+          "site": "ruwiki",
+          "title": "Миннесота Тимбервулвз",
+          "badges": []
+        },
+        "ruwikinews": {
+          "site": "ruwikinews",
+          "title": "Категория:Миннесота Тимбервулвз",
+          "badges": []
+        },
+        "shwiki": {
+          "site": "shwiki",
+          "title": "Minnesota Timberwolves",
+          "badges": []
+        },
+        "simplewiki": {
+          "site": "simplewiki",
+          "title": "Minnesota Timberwolves",
+          "badges": []
+        },
+        "srwiki": {
+          "site": "srwiki",
+          "title": "Минесота тимбервулвси",
+          "badges": []
+        },
+        "svwiki": {
+          "site": "svwiki",
+          "title": "Minnesota Timberwolves",
+          "badges": []
+        },
+        "swwiki": {
+          "site": "swwiki",
+          "title": "Minnesota Timberwolves",
+          "badges": []
+        },
+        "tawiki": {
+          "site": "tawiki",
+          "title": "மினசோட்டா டிம்பர்வுல்வ்ஸ்",
+          "badges": []
+        },
+        "tlwiki": {
+          "site": "tlwiki",
+          "title": "Minnesota Timberwolves",
+          "badges": [
+            "Q70893996"
+          ]
+        },
+        "trwiki": {
+          "site": "trwiki",
+          "title": "Minnesota Timberwolves",
+          "badges": []
+        },
+        "ukwiki": {
+          "site": "ukwiki",
+          "title": "Міннесота Тімбервулвз",
+          "badges": []
+        },
+        "vecwiki": {
+          "site": "vecwiki",
+          "title": "Minnesota Timberwolves",
+          "badges": []
+        },
+        "viwiki": {
+          "site": "viwiki",
+          "title": "Minnesota Timberwolves",
+          "badges": []
+        },
+        "vowiki": {
+          "site": "vowiki",
+          "title": "Minnesota Timberwolves",
+          "badges": []
+        },
+        "wuuwiki": {
+          "site": "wuuwiki",
+          "title": "明尼苏达森林狼",
+          "badges": []
+        },
+        "yowiki": {
+          "site": "yowiki",
+          "title": "Minnesota Timberwolves",
+          "badges": []
+        },
+        "zh_min_nanwiki": {
+          "site": "zh_min_nanwiki",
+          "title": "Minnesota Timberwolves",
+          "badges": []
+        },
+        "zh_yuewiki": {
+          "site": "zh_yuewiki",
+          "title": "明尼蘇達木狼",
+          "badges": []
+        },
+        "zhwiki": {
+          "site": "zhwiki",
+          "title": "明尼苏达森林狼",
+          "badges": []
+        }
+      }
+    },
+    "Q180950": {
+      "type": "item",
+      "id": "Q180950",
+      "labels": {
+        "zh-hans": {
+          "language": "zh-hans",
+          "value": "俄克拉荷马城雷霆"
+        },
+        "zh-hant": {
+          "language": "zh-hant",
+          "value": "奧克拉荷馬雷霆"
+        },
+        "zh-hk": {
+          "language": "zh-hk",
+          "value": "奧克拉荷馬雷霆"
+        },
+        "zh-cn": {
+          "language": "zh-cn",
+          "value": "俄克拉荷马城雷霆"
+        },
+        "zh-tw": {
+          "language": "zh-tw",
+          "value": "奧克拉荷馬雷霆"
+        },
+        "en": {
+          "language": "en",
+          "value": "Oklahoma City Thunder"
+        },
+        "zh": {
+          "language": "zh",
+          "value": "俄克拉荷马城雷霆"
+        }
+      },
+      "aliases": {
+        "zh": [
+          {
+            "language": "zh",
+            "value": "奧克拉荷馬雷霆"
+          },
+          {
+            "language": "zh",
+            "value": "俄克拉何马城雷霆"
+          }
+        ],
+        "en": [
+          {
+            "language": "en",
+            "value": "OKC Thunder"
+          }
+        ]
+      },
+      "sitelinks": {
+        "anwiki": {
+          "site": "anwiki",
+          "title": "Oklahoma City Thunder",
+          "badges": []
+        },
+        "arwiki": {
+          "site": "arwiki",
+          "title": "أوكلاهوما سيتي ثاندر",
+          "badges": []
+        },
+        "arzwiki": {
+          "site": "arzwiki",
+          "title": "اوكلاهوما سيتى ثاندر",
+          "badges": []
+        },
+        "astwiki": {
+          "site": "astwiki",
+          "title": "Oklahoma City Thunder",
+          "badges": []
+        },
+        "azwiki": {
+          "site": "azwiki",
+          "title": "Oklahoma-Siti Tander",
+          "badges": []
+        },
+        "be_x_oldwiki": {
+          "site": "be_x_oldwiki",
+          "title": "Аклагома-Сіці Тандэр",
+          "badges": []
+        },
+        "bewiki": {
+          "site": "bewiki",
+          "title": "Аклахома-Сіці Тандэр",
+          "badges": []
+        },
+        "bgwiki": {
+          "site": "bgwiki",
+          "title": "Оклахома Сити Тъндър",
+          "badges": []
+        },
+        "bswiki": {
+          "site": "bswiki",
+          "title": "Oklahoma City Thunder",
+          "badges": []
+        },
+        "cawiki": {
+          "site": "cawiki",
+          "title": "Oklahoma City Thunder",
+          "badges": []
+        },
+        "cswiki": {
+          "site": "cswiki",
+          "title": "Oklahoma City Thunder",
+          "badges": []
+        },
+        "dawiki": {
+          "site": "dawiki",
+          "title": "Oklahoma City Thunder",
+          "badges": []
+        },
+        "dewiki": {
+          "site": "dewiki",
+          "title": "Oklahoma City Thunder",
+          "badges": []
+        },
+        "diqwiki": {
+          "site": "diqwiki",
+          "title": "Oklahoma City Thunder",
+          "badges": []
+        },
+        "elwiki": {
+          "site": "elwiki",
+          "title": "Οκλαχόμα Σίτι Θάντερ",
+          "badges": []
+        },
+        "enwiki": {
+          "site": "enwiki",
+          "title": "Oklahoma City Thunder",
+          "badges": []
+        },
+        "eowiki": {
+          "site": "eowiki",
+          "title": "Oklahoma City Thunder",
+          "badges": []
+        },
+        "eswiki": {
+          "site": "eswiki",
+          "title": "Oklahoma City Thunder",
+          "badges": []
+        },
+        "etwiki": {
+          "site": "etwiki",
+          "title": "Oklahoma City Thunder",
+          "badges": []
+        },
+        "euwiki": {
+          "site": "euwiki",
+          "title": "Oklahoma City Thunder",
+          "badges": []
+        },
+        "fawiki": {
+          "site": "fawiki",
+          "title": "اکلاهما سیتی تاندر",
+          "badges": []
+        },
+        "fiwiki": {
+          "site": "fiwiki",
+          "title": "Oklahoma City Thunder",
+          "badges": []
+        },
+        "frwiki": {
+          "site": "frwiki",
+          "title": "Thunder d'Oklahoma City",
+          "badges": []
+        },
+        "glwiki": {
+          "site": "glwiki",
+          "title": "Oklahoma City Thunder",
+          "badges": []
+        },
+        "hakwiki": {
+          "site": "hakwiki",
+          "title": "Oklahoma City Thunder",
+          "badges": []
+        },
+        "hewiki": {
+          "site": "hewiki",
+          "title": "אוקלהומה סיטי ת'אנדר",
+          "badges": []
+        },
+        "hrwiki": {
+          "site": "hrwiki",
+          "title": "Oklahoma City Thunder",
+          "badges": []
+        },
+        "huwiki": {
+          "site": "huwiki",
+          "title": "Oklahoma City Thunder",
+          "badges": []
+        },
+        "hywiki": {
+          "site": "hywiki",
+          "title": "Օկլահոմա Սիթի Թանդեր",
+          "badges": []
+        },
+        "idwiki": {
+          "site": "idwiki",
+          "title": "Oklahoma City Thunder",
+          "badges": []
+        },
+        "iswiki": {
+          "site": "iswiki",
+          "title": "Oklahoma City Thunder",
+          "badges": []
+        },
+        "itwiki": {
+          "site": "itwiki",
+          "title": "Oklahoma City Thunder",
+          "badges": []
+        },
+        "jawiki": {
+          "site": "jawiki",
+          "title": "オクラホマシティ・サンダー",
+          "badges": []
+        },
+        "jvwiki": {
+          "site": "jvwiki",
+          "title": "Oklahoma City Thunder",
+          "badges": []
+        },
+        "kawiki": {
+          "site": "kawiki",
+          "title": "ოკლაჰომა-სიტი თანდერი",
+          "badges": []
+        },
+        "kowiki": {
+          "site": "kowiki",
+          "title": "오클라호마시티 선더",
+          "badges": []
+        },
+        "ltwiki": {
+          "site": "ltwiki",
+          "title": "Oklahoma City Thunder",
+          "badges": []
+        },
+        "lvwiki": {
+          "site": "lvwiki",
+          "title": "Oklahomasitijas \"Thunder\"",
+          "badges": []
+        },
+        "mkwiki": {
+          "site": "mkwiki",
+          "title": "Оклахома Сити Тандер",
+          "badges": []
+        },
+        "mnwiki": {
+          "site": "mnwiki",
+          "title": "Оклахома Сити Тандер",
+          "badges": []
+        },
+        "mrwiki": {
+          "site": "mrwiki",
+          "title": "ओक्लाहोमा सिटी थंडर",
+          "badges": []
+        },
+        "nlwiki": {
+          "site": "nlwiki",
+          "title": "Oklahoma City Thunder",
+          "badges": []
+        },
+        "nowiki": {
+          "site": "nowiki",
+          "title": "Oklahoma City Thunder",
+          "badges": []
+        },
+        "plwiki": {
+          "site": "plwiki",
+          "title": "Oklahoma City Thunder",
+          "badges": []
+        },
+        "ptwiki": {
+          "site": "ptwiki",
+          "title": "Oklahoma City Thunder",
+          "badges": []
+        },
+        "rowiki": {
+          "site": "rowiki",
+          "title": "Oklahoma City Thunder",
+          "badges": []
+        },
+        "ruwiki": {
+          "site": "ruwiki",
+          "title": "Оклахома-Сити Тандер",
+          "badges": [
+            "Q17437798"
+          ]
+        },
+        "ruwikinews": {
+          "site": "ruwikinews",
+          "title": "Категория:Оклахома-Сити Тандер",
+          "badges": []
+        },
+        "simplewiki": {
+          "site": "simplewiki",
+          "title": "Oklahoma City Thunder",
+          "badges": []
+        },
+        "srwiki": {
+          "site": "srwiki",
+          "title": "Оклахома Сити тандер",
+          "badges": []
+        },
+        "svwiki": {
+          "site": "svwiki",
+          "title": "Oklahoma City Thunder",
+          "badges": []
+        },
+        "swwiki": {
+          "site": "swwiki",
+          "title": "Oklahoma City Thunder",
+          "badges": []
+        },
+        "tawiki": {
+          "site": "tawiki",
+          "title": "ஓக்லஹோமா நகர் தண்டர்",
+          "badges": []
+        },
+        "tlwiki": {
+          "site": "tlwiki",
+          "title": "Oklahoma City Thunder",
+          "badges": [
+            "Q70893996"
+          ]
+        },
+        "trwiki": {
+          "site": "trwiki",
+          "title": "Oklahoma City Thunder",
+          "badges": []
+        },
+        "ukwiki": {
+          "site": "ukwiki",
+          "title": "Оклахома-Сіті Тандер",
+          "badges": []
+        },
+        "vecwiki": {
+          "site": "vecwiki",
+          "title": "Oklahoma City Thunder",
+          "badges": []
+        },
+        "viwiki": {
+          "site": "viwiki",
+          "title": "Oklahoma City Thunder",
+          "badges": []
+        },
+        "vowiki": {
+          "site": "vowiki",
+          "title": "Oklahoma City Thunder",
+          "badges": []
+        },
+        "wuuwiki": {
+          "site": "wuuwiki",
+          "title": "俄克拉何马城雷霆",
+          "badges": []
+        },
+        "yowiki": {
+          "site": "yowiki",
+          "title": "Oklahoma City Thunder",
+          "badges": []
+        },
+        "zh_min_nanwiki": {
+          "site": "zh_min_nanwiki",
+          "title": "Oklahoma City Thunder",
+          "badges": []
+        },
+        "zh_yuewiki": {
+          "site": "zh_yuewiki",
+          "title": "俄克拉荷馬雷霆",
+          "badges": []
+        },
+        "zhwiki": {
+          "site": "zhwiki",
+          "title": "俄克拉荷马城雷霆",
+          "badges": []
+        }
+      }
+    },
+    "Q167253": {
+      "type": "item",
+      "id": "Q167253",
+      "labels": {
+        "zh-hans": {
+          "language": "zh-hans",
+          "value": "波特兰开拓者"
+        },
+        "zh-hant": {
+          "language": "zh-hant",
+          "value": "波特蘭拓荒者"
+        },
+        "zh-hk": {
+          "language": "zh-hk",
+          "value": "波特蘭拓荒者"
+        },
+        "zh-cn": {
+          "language": "zh-cn",
+          "value": "波特兰开拓者"
+        },
+        "zh-tw": {
+          "language": "zh-tw",
+          "value": "波特蘭拓荒者"
+        },
+        "en": {
+          "language": "en",
+          "value": "Portland Trail Blazers"
+        },
+        "zh": {
+          "language": "zh",
+          "value": "波特蘭拓荒者"
+        }
+      },
+      "aliases": {
+        "zh": [
+          {
+            "language": "zh",
+            "value": "波特兰开拓者队"
+          },
+          {
+            "language": "zh",
+            "value": "波特蘭拓荒者隊"
+          }
+        ],
+        "en": [
+          {
+            "language": "en",
+            "value": "Portland Blazers"
+          }
+        ]
+      },
+      "sitelinks": {
+        "anwiki": {
+          "site": "anwiki",
+          "title": "Portland Trail Blazers",
+          "badges": []
+        },
+        "arwiki": {
+          "site": "arwiki",
+          "title": "بورتلاند ترايل بلايزرز",
+          "badges": []
+        },
+        "arzwiki": {
+          "site": "arzwiki",
+          "title": "بورتلاند ترايل بلايزرز",
+          "badges": []
+        },
+        "astwiki": {
+          "site": "astwiki",
+          "title": "Portland Trail Blazers",
+          "badges": []
+        },
+        "azwiki": {
+          "site": "azwiki",
+          "title": "Portlend Treyl Bleyzers",
+          "badges": []
+        },
+        "be_x_oldwiki": {
+          "site": "be_x_oldwiki",
+          "title": "Портлэнд Трэйл Блэйзэрз",
+          "badges": []
+        },
+        "bewiki": {
+          "site": "bewiki",
+          "title": "Портленд Трэйл Блэйзерс",
+          "badges": []
+        },
+        "bgwiki": {
+          "site": "bgwiki",
+          "title": "Портланд Трейл Блейзърс",
+          "badges": []
+        },
+        "bswiki": {
+          "site": "bswiki",
+          "title": "Portland Trail Blazers",
+          "badges": []
+        },
+        "cawiki": {
+          "site": "cawiki",
+          "title": "Portland Trail Blazers",
+          "badges": []
+        },
+        "cebwiki": {
+          "site": "cebwiki",
+          "title": "Portland Trail Blazers",
+          "badges": []
+        },
+        "cswiki": {
+          "site": "cswiki",
+          "title": "Portland Trail Blazers",
+          "badges": []
+        },
+        "dawiki": {
+          "site": "dawiki",
+          "title": "Portland Trail Blazers",
+          "badges": []
+        },
+        "dewiki": {
+          "site": "dewiki",
+          "title": "Portland Trail Blazers",
+          "badges": []
+        },
+        "diqwiki": {
+          "site": "diqwiki",
+          "title": "Portland Trail Blazers",
+          "badges": []
+        },
+        "elwiki": {
+          "site": "elwiki",
+          "title": "Πόρτλαντ Τρέιλ Μπλέιζερς",
+          "badges": []
+        },
+        "enwiki": {
+          "site": "enwiki",
+          "title": "Portland Trail Blazers",
+          "badges": []
+        },
+        "eowiki": {
+          "site": "eowiki",
+          "title": "Portland Trail Blazers",
+          "badges": []
+        },
+        "eswiki": {
+          "site": "eswiki",
+          "title": "Portland Trail Blazers",
+          "badges": [
+            "Q17437798"
+          ]
+        },
+        "etwiki": {
+          "site": "etwiki",
+          "title": "Portland Trail Blazers",
+          "badges": []
+        },
+        "euwiki": {
+          "site": "euwiki",
+          "title": "Portland Trail Blazers",
+          "badges": []
+        },
+        "fawiki": {
+          "site": "fawiki",
+          "title": "پورتلند تریل بلیزرز",
+          "badges": []
+        },
+        "fiwiki": {
+          "site": "fiwiki",
+          "title": "Portland Trail Blazers",
+          "badges": []
+        },
+        "frwiki": {
+          "site": "frwiki",
+          "title": "Trail Blazers de Portland",
+          "badges": []
+        },
+        "glwiki": {
+          "site": "glwiki",
+          "title": "Portland Trail Blazers",
+          "badges": []
+        },
+        "hakwiki": {
+          "site": "hakwiki",
+          "title": "Portland Trail Blazers",
+          "badges": []
+        },
+        "hewiki": {
+          "site": "hewiki",
+          "title": "פורטלנד טרייל בלייזרס",
+          "badges": []
+        },
+        "hiwiki": {
+          "site": "hiwiki",
+          "title": "पोर्टलैंड ट्रेल ब्लेज़र्स",
+          "badges": []
+        },
+        "hrwiki": {
+          "site": "hrwiki",
+          "title": "Portland Trail Blazers",
+          "badges": []
+        },
+        "huwiki": {
+          "site": "huwiki",
+          "title": "Portland Trail Blazers",
+          "badges": []
+        },
+        "hywiki": {
+          "site": "hywiki",
+          "title": "Պորտլենդ Թրեյլ Բլեյզերս",
+          "badges": []
+        },
+        "idwiki": {
+          "site": "idwiki",
+          "title": "Portland Trail Blazers",
+          "badges": []
+        },
+        "iswiki": {
+          "site": "iswiki",
+          "title": "Portland Trail Blazers",
+          "badges": []
+        },
+        "itwiki": {
+          "site": "itwiki",
+          "title": "Portland Trail Blazers",
+          "badges": []
+        },
+        "jawiki": {
+          "site": "jawiki",
+          "title": "ポートランド・トレイルブレイザーズ",
+          "badges": []
+        },
+        "kawiki": {
+          "site": "kawiki",
+          "title": "პორტლენდ ტრეილ ბლეიზერსი",
+          "badges": []
+        },
+        "kowiki": {
+          "site": "kowiki",
+          "title": "포틀랜드 트레일블레이저스",
+          "badges": []
+        },
+        "ltwiki": {
+          "site": "ltwiki",
+          "title": "Portlando Trail Blazers",
+          "badges": []
+        },
+        "lvwiki": {
+          "site": "lvwiki",
+          "title": "Portlendas \"Trail Blazers\"",
+          "badges": []
+        },
+        "mkwiki": {
+          "site": "mkwiki",
+          "title": "Портланд Трејлблејзерс",
+          "badges": []
+        },
+        "mnwiki": {
+          "site": "mnwiki",
+          "title": "Портленд Трэйл Блэйзерс",
+          "badges": []
+        },
+        "mrwiki": {
+          "site": "mrwiki",
+          "title": "पोर्टलंड ट्रेलब्लेझर्स",
+          "badges": []
+        },
+        "mznwiki": {
+          "site": "mznwiki",
+          "title": "پورتلند تریل بلیزرز",
+          "badges": []
+        },
+        "nlwiki": {
+          "site": "nlwiki",
+          "title": "Portland Trail Blazers",
+          "badges": []
+        },
+        "nowiki": {
+          "site": "nowiki",
+          "title": "Portland Trail Blazers",
+          "badges": []
+        },
+        "plwiki": {
+          "site": "plwiki",
+          "title": "Portland Trail Blazers",
+          "badges": []
+        },
+        "ptwiki": {
+          "site": "ptwiki",
+          "title": "Portland Trail Blazers",
+          "badges": []
+        },
+        "rowiki": {
+          "site": "rowiki",
+          "title": "Portland Trail Blazers",
+          "badges": []
+        },
+        "ruwiki": {
+          "site": "ruwiki",
+          "title": "Портленд Трэйл Блэйзерс",
+          "badges": []
+        },
+        "ruwikinews": {
+          "site": "ruwikinews",
+          "title": "Категория:Портленд Трэйл Блэйзерс",
+          "badges": []
+        },
+        "scowiki": {
+          "site": "scowiki",
+          "title": "Portland Trail Blazers",
+          "badges": []
+        },
+        "shwiki": {
+          "site": "shwiki",
+          "title": "Portland Trail Blazers",
+          "badges": []
+        },
+        "simplewiki": {
+          "site": "simplewiki",
+          "title": "Portland Trail Blazers",
+          "badges": []
+        },
+        "skwiki": {
+          "site": "skwiki",
+          "title": "Portland Trail Blazers",
+          "badges": []
+        },
+        "srwiki": {
+          "site": "srwiki",
+          "title": "Портланд трејлблејзерси",
+          "badges": []
+        },
+        "svwiki": {
+          "site": "svwiki",
+          "title": "Portland Trail Blazers",
+          "badges": []
+        },
+        "swwiki": {
+          "site": "swwiki",
+          "title": "Portland Trail Blazers",
+          "badges": []
+        },
+        "tawiki": {
+          "site": "tawiki",
+          "title": "போர்ட்லன்ட் டிரயில் பிளேசர்ஸ்",
+          "badges": []
+        },
+        "tlwiki": {
+          "site": "tlwiki",
+          "title": "Portland Trail Blazers",
+          "badges": [
+            "Q70894304"
+          ]
+        },
+        "trwiki": {
+          "site": "trwiki",
+          "title": "Portland Trail Blazers",
+          "badges": []
+        },
+        "ukwiki": {
+          "site": "ukwiki",
+          "title": "Портленд Трейл Блейзерс",
+          "badges": []
+        },
+        "vecwiki": {
+          "site": "vecwiki",
+          "title": "Portland Trail Blazers",
+          "badges": []
+        },
+        "viwiki": {
+          "site": "viwiki",
+          "title": "Portland Trail Blazers",
+          "badges": []
+        },
+        "vowiki": {
+          "site": "vowiki",
+          "title": "Portland Trail Blazers",
+          "badges": []
+        },
+        "wuuwiki": {
+          "site": "wuuwiki",
+          "title": "波特兰开拓者",
+          "badges": []
+        },
+        "xhwiki": {
+          "site": "xhwiki",
+          "title": "IPortland Trailblazers",
+          "badges": []
+        },
+        "yowiki": {
+          "site": "yowiki",
+          "title": "Portland Trail Blazers",
+          "badges": []
+        },
+        "zh_min_nanwiki": {
+          "site": "zh_min_nanwiki",
+          "title": "Portland Trail Blazers",
+          "badges": []
+        },
+        "zh_yuewiki": {
+          "site": "zh_yuewiki",
+          "title": "砵崙拓荒者",
+          "badges": []
+        },
+        "zhwiki": {
+          "site": "zhwiki",
+          "title": "波特兰开拓者",
+          "badges": []
+        }
+      }
+    },
+    "Q170649": {
+      "type": "item",
+      "id": "Q170649",
+      "labels": {
+        "zh-hans": {
+          "language": "zh-hans",
+          "value": "犹他爵士"
+        },
+        "zh-hant": {
+          "language": "zh-hant",
+          "value": "猶他爵士"
+        },
+        "zh-hk": {
+          "language": "zh-hk",
+          "value": "猶他爵士"
+        },
+        "zh-cn": {
+          "language": "zh-cn",
+          "value": "犹他爵士"
+        },
+        "zh-tw": {
+          "language": "zh-tw",
+          "value": "猶他爵士"
+        },
+        "en": {
+          "language": "en",
+          "value": "Utah Jazz"
+        },
+        "zh": {
+          "language": "zh",
+          "value": "犹他爵士"
+        }
+      },
+      "aliases": {
+        "zh": [
+          {
+            "language": "zh",
+            "value": "爵士隊"
+          },
+          {
+            "language": "zh",
+            "value": "猶他爵士隊"
+          },
+          {
+            "language": "zh",
+            "value": "犹他爵士队"
+          },
+          {
+            "language": "zh",
+            "value": "新奧爾良爵士"
+          },
+          {
+            "language": "zh",
+            "value": "新奥尔良爵士"
+          }
+        ],
+        "en": [
+          {
+            "language": "en",
+            "value": "New Orleans Jazz"
+          }
+        ]
+      },
+      "sitelinks": {
+        "anwiki": {
+          "site": "anwiki",
+          "title": "Utah Jazz",
+          "badges": []
+        },
+        "arwiki": {
+          "site": "arwiki",
+          "title": "يوتا جاز",
+          "badges": []
+        },
+        "arzwiki": {
+          "site": "arzwiki",
+          "title": "يوتا جاز",
+          "badges": []
+        },
+        "astwiki": {
+          "site": "astwiki",
+          "title": "Utah Jazz",
+          "badges": []
+        },
+        "azwiki": {
+          "site": "azwiki",
+          "title": "Yuta Caz",
+          "badges": []
+        },
+        "be_x_oldwiki": {
+          "site": "be_x_oldwiki",
+          "title": "Юта Джаз",
+          "badges": []
+        },
+        "bewiki": {
+          "site": "bewiki",
+          "title": "Юта Джаз",
+          "badges": []
+        },
+        "bgwiki": {
+          "site": "bgwiki",
+          "title": "Юта Джаз",
+          "badges": []
+        },
+        "bswiki": {
+          "site": "bswiki",
+          "title": "Utah Jazz",
+          "badges": []
+        },
+        "cawiki": {
+          "site": "cawiki",
+          "title": "Utah Jazz",
+          "badges": []
+        },
+        "cswiki": {
+          "site": "cswiki",
+          "title": "Utah Jazz",
+          "badges": []
+        },
+        "dawiki": {
+          "site": "dawiki",
+          "title": "Utah Jazz",
+          "badges": []
+        },
+        "dewiki": {
+          "site": "dewiki",
+          "title": "Utah Jazz",
+          "badges": []
+        },
+        "diqwiki": {
+          "site": "diqwiki",
+          "title": "Utah Jazz",
+          "badges": []
+        },
+        "elwiki": {
+          "site": "elwiki",
+          "title": "Γιούτα Τζαζ",
+          "badges": []
+        },
+        "enwiki": {
+          "site": "enwiki",
+          "title": "Utah Jazz",
+          "badges": []
+        },
+        "eowiki": {
+          "site": "eowiki",
+          "title": "Utah Jazz",
+          "badges": []
+        },
+        "eswiki": {
+          "site": "eswiki",
+          "title": "Utah Jazz",
+          "badges": []
+        },
+        "etwiki": {
+          "site": "etwiki",
+          "title": "Utah Jazz",
+          "badges": []
+        },
+        "euwiki": {
+          "site": "euwiki",
+          "title": "Utah Jazz",
+          "badges": []
+        },
+        "fawiki": {
+          "site": "fawiki",
+          "title": "یوتا جاز",
+          "badges": []
+        },
+        "fiwiki": {
+          "site": "fiwiki",
+          "title": "Utah Jazz",
+          "badges": []
+        },
+        "frwiki": {
+          "site": "frwiki",
+          "title": "Jazz de l'Utah",
+          "badges": []
+        },
+        "glwiki": {
+          "site": "glwiki",
+          "title": "Utah Jazz",
+          "badges": []
+        },
+        "hakwiki": {
+          "site": "hakwiki",
+          "title": "Utah Jazz",
+          "badges": []
+        },
+        "hewiki": {
+          "site": "hewiki",
+          "title": "יוטה ג'אז",
+          "badges": []
+        },
+        "hiwiki": {
+          "site": "hiwiki",
+          "title": "यूटा जैज़",
+          "badges": []
+        },
+        "hrwiki": {
+          "site": "hrwiki",
+          "title": "Utah Jazz",
+          "badges": []
+        },
+        "htwiki": {
+          "site": "htwiki",
+          "title": "Djaz Utah",
+          "badges": []
+        },
+        "huwiki": {
+          "site": "huwiki",
+          "title": "Utah Jazz",
+          "badges": []
+        },
+        "hywiki": {
+          "site": "hywiki",
+          "title": "Յութա Ջազ",
+          "badges": []
+        },
+        "idwiki": {
+          "site": "idwiki",
+          "title": "Utah Jazz",
+          "badges": []
+        },
+        "iswiki": {
+          "site": "iswiki",
+          "title": "Utah Jazz",
+          "badges": []
+        },
+        "itwiki": {
+          "site": "itwiki",
+          "title": "Utah Jazz",
+          "badges": []
+        },
+        "jawiki": {
+          "site": "jawiki",
+          "title": "ユタ・ジャズ",
+          "badges": []
+        },
+        "kawiki": {
+          "site": "kawiki",
+          "title": "იუტა ჯაზი",
+          "badges": []
+        },
+        "kowiki": {
+          "site": "kowiki",
+          "title": "유타 재즈",
+          "badges": []
+        },
+        "ltwiki": {
+          "site": "ltwiki",
+          "title": "Jutos Jazz",
+          "badges": []
+        },
+        "lvwiki": {
+          "site": "lvwiki",
+          "title": "Jūtas \"Jazz\"",
+          "badges": []
+        },
+        "mnwiki": {
+          "site": "mnwiki",
+          "title": "Юта Жаз",
+          "badges": []
+        },
+        "mrwiki": {
+          "site": "mrwiki",
+          "title": "युटा जॅझ",
+          "badges": []
+        },
+        "mznwiki": {
+          "site": "mznwiki",
+          "title": "یوتا جاز",
+          "badges": []
+        },
+        "nlwiki": {
+          "site": "nlwiki",
+          "title": "Utah Jazz",
+          "badges": []
+        },
+        "nowiki": {
+          "site": "nowiki",
+          "title": "Utah Jazz",
+          "badges": []
+        },
+        "plwiki": {
+          "site": "plwiki",
+          "title": "Utah Jazz",
+          "badges": []
+        },
+        "ptwiki": {
+          "site": "ptwiki",
+          "title": "Utah Jazz",
+          "badges": []
+        },
+        "rowiki": {
+          "site": "rowiki",
+          "title": "Utah Jazz",
+          "badges": []
+        },
+        "ruwiki": {
+          "site": "ruwiki",
+          "title": "Юта Джаз",
+          "badges": []
+        },
+        "ruwikinews": {
+          "site": "ruwikinews",
+          "title": "Категория:Юта Джаз",
+          "badges": []
+        },
+        "shwiki": {
+          "site": "shwiki",
+          "title": "Utah Jazz",
+          "badges": []
+        },
+        "simplewiki": {
+          "site": "simplewiki",
+          "title": "Utah Jazz",
+          "badges": []
+        },
+        "srwiki": {
+          "site": "srwiki",
+          "title": "Јута џез",
+          "badges": []
+        },
+        "svwiki": {
+          "site": "svwiki",
+          "title": "Utah Jazz",
+          "badges": []
+        },
+        "swwiki": {
+          "site": "swwiki",
+          "title": "Utah Jazz",
+          "badges": []
+        },
+        "tawiki": {
+          "site": "tawiki",
+          "title": "யூட்டா ஜேஸ்",
+          "badges": []
+        },
+        "tlwiki": {
+          "site": "tlwiki",
+          "title": "Utah Jazz",
+          "badges": [
+            "Q70894304"
+          ]
+        },
+        "trwiki": {
+          "site": "trwiki",
+          "title": "Utah Jazz",
+          "badges": []
+        },
+        "ukwiki": {
+          "site": "ukwiki",
+          "title": "Юта Джаз",
+          "badges": []
+        },
+        "uzwiki": {
+          "site": "uzwiki",
+          "title": "Utah Jazz",
+          "badges": []
+        },
+        "vecwiki": {
+          "site": "vecwiki",
+          "title": "Utah Jazz",
+          "badges": []
+        },
+        "viwiki": {
+          "site": "viwiki",
+          "title": "Utah Jazz",
+          "badges": []
+        },
+        "vowiki": {
+          "site": "vowiki",
+          "title": "Utah Jazz",
+          "badges": []
+        },
+        "wuuwiki": {
+          "site": "wuuwiki",
+          "title": "犹他爵士",
+          "badges": []
+        },
+        "yowiki": {
+          "site": "yowiki",
+          "title": "Utah Jazz",
+          "badges": []
+        },
+        "zh_min_nanwiki": {
+          "site": "zh_min_nanwiki",
+          "title": "Utah Jazz",
+          "badges": []
+        },
+        "zh_yuewiki": {
+          "site": "zh_yuewiki",
+          "title": "猶他爵士",
+          "badges": []
+        },
+        "zhwiki": {
+          "site": "zhwiki",
+          "title": "犹他爵士",
+          "badges": []
+        }
+      }
+    }
+  },
+  "success": 1
+}

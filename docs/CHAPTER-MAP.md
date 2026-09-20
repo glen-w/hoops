@@ -138,6 +138,10 @@ Track which data products support which sections of the manuscript, ensuring eve
 | AVERAGE / players universe | `data/derived/average/nba_players_historical.csv` | TBD | ready — 4550 rows; coverage ends ≤2018; draft fields blank |
 | AVERAGE / videogame ratings seed | `data/derived/average/nba_videogame_ratings_seed.csv` | TBD | ready — 97 rows from HoopsHype; see sources note for Phase-2 |
 | AVERAGE / methodology | `docs/average/methodology.md` | TBD | ready — no mean hex; no string-mean names |
+| TEAMS / Chinese renderings | `data/derived/teams/nba_team_names_zh.csv` | CM7M2WZN | READY (30/30 hans+hant; city/nick cite-split) |
+| TEAMS / Chinese renderings | `docs/teams/nba_team_names_zh_methodology.md` (from pack `methodology.md`) | CM7M2WZN | READY |
+| TEAMS / Chinese renderings | Pack README + PR body | CM7M2WZN | READY |
+| TEAMS / Chinese renderings | Wikidata raw resolve JSON under pack `data/raw/` | CM7M2WZN | SUPPORTING |
 
 ## Column Definitions
 
@@ -191,6 +195,8 @@ Track which data products support which sections of the manuscript, ensuring eve
 **Abbreviation phonology (2026-09-20):** 441 entries analysing team abbreviation patterns (city_initials, nickname_clip, state, trigram/tetragram). Linguistics-adjacent structural data. See `data/derived/teams/abbr_phonology.csv` and `abbr_phonology_methodology.md`.
 
 **Average Desk Phase 1 (2026-09-20):** Added artifacts in `data/derived/average/` and `docs/average/`: composite average team profile (mode ownership=majority; median capacity=19019; primary colour GAP 0/30); historical NBA players CSV (4550 rows, coverage ≤2018); videogame ratings seed (97 rows from HoopsHype); methodology with honesty locks (no mean hex, no string-mean names).
+
+**Chinese NBA team names (2026-09-20):** Added `data/derived/teams/nba_team_names_zh.csv` (30 current franchises; 30/30 zh_hans/zh_hant; 0 GAP); methodology `docs/teams/nba_team_names_zh_methodology.md`; pack README `docs/teams/nba_team_names_zh_pack_readme.md`; Wikidata raw resolve JSON in `data/raw/wikidata_nba_teams_zh/`. Traditional primary = Wikidata zh-tw (Taiwan media convention). HK variants retained in notes. QIDs re-resolved via enwiki (teams.csv QIDs not trusted). City/nickname split cite-backed. Zotero key CM7M2WZN.
 
 ## Maintenance
 
