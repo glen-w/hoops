@@ -1,18 +1,20 @@
 # Teams Data — Global Basketball
 
-**Scope**: International basketball teams with Wikidata integration  
-**Status**: P0c complete (EuroLeague + EuroLeague Women)  
-**As of**: 2026-09-19
+**Scope**: Shared desk schema for NBA, WNBA, G League, EuroLeague, and domestic leagues  
+**Status**: **441** teams in `teams.csv` (P0h landed; colours/logos enrichment still open)  
+**As of**: 2026-09-20
 
 ## Files
 
 | File | Description | Rows |
 |------|-------------|-----:|
-| `teams.csv` | NBA, WNBA, EuroLeague, and EuroLeague Women in the shared desk schema | 84 data rows |
-| `logos.csv` | Logo URL references (sparse) | 0 populated |
-| `leagues_seed.yaml` | Seed for `teams.csv` (in `scripts/teams/`). Not a copy of `src/hoops_data/teams/leagues_seed.yaml` | 2 leagues, 44 teams |
+| `teams.csv` | All leagues in the shared desk schema | 441 |
+| `leagues.csv` | League spine (gender, country, etc.) | see file |
+| `logos.csv` | Logo URL references (sparse) | sparse |
+| `relocation_edges.csv` / `relocation_nodes.csv` | Franchise relocation graph | cite-backed |
+| Ownership CSVs | NBA + EuroLeague ledgers (see filenames below) | see files |
 
-Ownership ledgers sit in this folder too (`ownership_events.csv`, `euroleague_current_ownership.csv`, and their timelines). Writer notes are in `docs/ownership/`. Creative and motif indexes live under `author/`, not team tables.
+Ownership ledgers sit in this folder too (`ownership_events.csv`, `euroleague_current_ownership.csv`, and their timelines). Writer notes are in `docs/ownership/`. Chinese name renderings and cited team hexes are cite-backed tables here; interpretive mascot/abbr packs live under `author/derived-creative/teams/`.
 
 ## Coverage
 

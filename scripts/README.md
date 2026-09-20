@@ -18,17 +18,17 @@ Creates `data/derived/smoke_placeholder.csv` and confirms the pipeline layout.
 
 ### Build Average Game by Decade
 
-Regenerate decade averages from the committed Basketball-Reference season file. No Kaggle credentials and no API calls.
+**Cite the pack:** `data/derived/avg_game_by_decade/` (decade means + full season series + landmarks + methodology).
+
+Optional comparison rebuild from the older committed reference CSV (does **not** overwrite the pack):
 
 ```bash
 uv run python scripts/build_avg_game_by_decade.py
 ```
 
-- **Input:** `data/reference/nba_league_averages_by_season.csv` (1979-80 through 2023-24)
-- **Output:** `data/derived/avg_game_by_decade.csv`
-- **Methodology:** `data/derived/avg_game_by_decade_methodology.md`
-
-The script loads season-level league averages, groups them by decade, and writes the mean of each stat.
+- **Input:** `data/reference/nba_league_averages_by_season.csv`
+- **Output:** `data/derived/avg_game_by_decade/avg_game_by_decade_from_reference.csv`
+- **Canonical cite:** `data/derived/avg_game_by_decade/avg_game_by_decade.csv`
 
 ### Look up a desk row
 
