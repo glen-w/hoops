@@ -2,8 +2,8 @@
 .env
 .env.*
 
-# Local writing workflow. Not the sidecar, not the manuscript.
-# Put creative drafts, spike diaries, notebooks, and agent scratch here.
+# Machine-only scratch (secrets, huge dumps, throwaway REPL).
+# Creative packs and process notes are committed under author/.
 local/
 local/**
 .venv/

@@ -61,7 +61,7 @@ The open-data map is [docs/NUMBERS-LANDSCAPE.md](docs/NUMBERS-LANDSCAPE.md), the
 
 ## 6. Later, not this sitting
 
-- Ground a model on the Zotero library. Trial is zotero-rag at `/Users/89298/Documents/zotero-rag`, collection `hoops` only. Plan notes stay in `local/` if needed — not a download, not a public sidecar doc.
+- Ground a model on the Zotero library. Trial is zotero-rag at `/Users/89298/Documents/zotero-rag`, collection `hoops` only. Plan notes stay in `author/process/` if needed — not a download, not a citeable sidecar doc.
 - Gambling odds. The fans chapter describes the machinery. Do not build a betting dataset.
 - Anything that would edit the manuscript. Wait for the Sunday call.
 
@@ -69,4 +69,4 @@ The open-data map is [docs/NUMBERS-LANDSCAPE.md](docs/NUMBERS-LANDSCAPE.md), the
 
 Writing the book. The website. Fetching PDFs. Committing `.scriv`, Zotero, or proprietary tracking data.
 
-Creative packs, speculative essays, spike/phase diaries, and agent process theatre — see [SCOPE.md](SCOPE.md). Voice experiments go in Scrivener or gitignored `local/`, not new public PRs.
+Creative packs, speculative essays, spike/phase diaries, and agent process theatre live under committed [`author/`](author/README.md) — see [SCOPE.md](SCOPE.md). Voice experiments also go in Scrivener. Do not land them under `docs/` or `data/derived/`.

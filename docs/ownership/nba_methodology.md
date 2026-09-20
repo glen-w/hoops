@@ -37,7 +37,7 @@ Chronological ledger of how NBA ownership structure changed: sales, controlling/
 2. **Pre-2000 / 20th-century thicken:** founding/expansion purchases, famous early sales, multi-city franchise paths (Hawks, Kings, Warriors, Clippers, Lakers, Nets ABA, Sonics, Sixers/Nationals, Bullets/Wizards, etc.).
 3. Famous historical + modern anchors (Clippers Sterling→Ballmer; Lakers Cooke→Buss→Walter; Suns Colangelo→Sarver→Ishbia; Mavs Carter→Perot→Cuban→Adelson/Dumont; Jazz Miller→Smith; Blazers Weinberg→Allen→Dundon; etc.).
 4. Expansion / relocation ownership beats (CHA return, Sonics→OKC, Vancouver→Memphis, Buffalo→SD→LA, Rochester→SAC path).
-5. Stretch narrative (if any) stays in `local/` — not public.
+5. Stretch narrative (if any) stays in `author/` — not a citeable artifact.
 
 ## Final thicken (2026-09-19)
 Wikipedia-led MEDIUM rows upgraded to Star-Gazette / Remember the ABA / SFGate / Journal Sentinel / NYT / Hawks.com / LA Times / NBA Communications / SBJ / OregonLive / UPI where findable. POR Weinberg controlling stake corrected from 1972→1976; added Sarkowsky←Schmertz 1972. BKN-2004 price filled at $300M (NYT). NYK-1997 package path updated to Cablevision/ITT contemporaneous ~$650M headline (team-only still GAP). **Still do not invent.**

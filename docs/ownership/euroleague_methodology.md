@@ -64,7 +64,7 @@ Use `association_control` / `founding` / structure rows instead. Sponsorship nam
 2. Documented private sales / takeovers / stake changes.
 3. Association_control anchors for multi-sport corps.
 4. Blank prices when not public (intentional).
-5. Optional stretch narrative stays in `local/` — cited only, not public.
+5. Optional stretch narrative stays in `author/` — cited only, not a citeable artifact.
 
 ## Final thicken (2026-09-19)
 Wikipedia leads on events + current_ownership replaced with club official / El País / AS / JSD Partizan / KK Crvena zvezda / Virtus.it / Žalgiris.lt / Olympiacos BC / Hapoel BC / Fenerbahçe.org / Real Madrid / Barça where findable. Valencia Roig controlling-stake date corrected to **1986** (AS). Beşiktaş Basketbol A.Ş. still MEDIUM pending Turkish registry %. **Still do not invent prices or owners.**

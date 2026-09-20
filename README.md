@@ -2,7 +2,7 @@
 
 Data and processing sandbox for [*Hoops: An Uncommon Field Guide to the Game of Basketball*](https://glenwright.earth/projects/hoops/).
 
-The manuscript stays in Scrivener (`/Users/89298/Documents/Hoops/hoops.scriv`). Papers stay in the Zotero `hoops` collection. This repo is the sidecar: datasets, derived tables, and the short notes that connect them to the draft — **not** essays, creative packs, or agent process theatre.
+The manuscript stays in Scrivener (`/Users/89298/Documents/Hoops/hoops.scriv`). Papers stay in the Zotero `hoops` collection. This repo is the sidecar: datasets, derived tables, and the short notes that connect them to the draft. Creative packs and process notes live under committed [`author/`](author/README.md) so every clone and cloud agent sees them — they are not citeable artifacts.
 
 ## Quick Links
 
@@ -30,7 +30,8 @@ The manuscript stays in Scrivener (`/Users/89298/Documents/Hoops/hoops.scriv`). 
 - `data/studies/` — one short note per cited paper or draft hedge
 - `data/raw/` — local downloads, not committed
 - `docs/` — catalogs and the chapter map (not creative essays or spike diaries)
-- `local/` — gitignored author/agent scratch (creative drafts, notebooks, process)
+- `author/` — committed creative + process workspace (not citeable). See [author/README.md](author/README.md)
+- `local/` — gitignored machine-only scratch (secrets, huge dumps, throwaway REPL)
 - `scripts/` — builders that emit committed artifacts. `src/hoops_data/` — the installed package (`hoops ask`, the CBA parser, the Wikidata fetch)
 
 ## Data Policy

@@ -12,7 +12,7 @@
 | `logos.csv` | Logo URL references (sparse) | 0 populated |
 | `leagues_seed.yaml` | Seed for `teams.csv` (in `scripts/teams/`). Not a copy of `src/hoops_data/teams/leagues_seed.yaml` | 2 leagues, 44 teams |
 
-Ownership ledgers sit in this folder too (`ownership_events.csv`, `euroleague_current_ownership.csv`, and their timelines). Writer notes are in `docs/ownership/`. Creative and motif indexes are local-only (`local/`), not team tables.
+Ownership ledgers sit in this folder too (`ownership_events.csv`, `euroleague_current_ownership.csv`, and their timelines). Writer notes are in `docs/ownership/`. Creative and motif indexes live under `author/`, not team tables.
 
 ## Coverage
 
