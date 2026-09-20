@@ -124,9 +124,13 @@ Track which data products support which sections of the manuscript, ensuring eve
 | TEAMS / FIBA BAT — creative cite-backed postcards | `docs/creative/bat-arbitration-postcards.md` | TBD | ready — 7 postcards; counts from `data/derived/fiba-bat-2022/` and the FIBA BAT Statistics PDF (access 2026-09-20); motif index `docs/creative/bat_postcard_motifs.csv` |
 | CBA / salary — Cap·Tax·Apron·MLE (2016-17–2026-27) | `data/derived/salary_cap_apron/nba_salary_cap_apron_history.csv` | TBD | ready — pr.nba.com only; aprons from 2023-24 |
 | CBA / salary — Cap/apron methodology | `data/derived/salary_cap_apron/methodology.md` | TBD | ready — primary-source-only rule |
-| Anthropometry of the paint — NBA height league-by-season secular trend (climate/anthropometry voice) | `docs/creative/anthropometry-of-the-paint.md` (+ motifs in `data/derived/teams/creative_pops_motifs.csv`) | `/workspace/hoops-phase0-tables/height-series/nba_height_league_by_season.csv`, `nba_height_series.csv`, `METHODOLOGY.md` (RunRepeat/Curcic extract; seasons 1946-47→2020-21; access 2026-09-20) | **READY (creative v1)** — no invented heights; series ends 2020-21 as published |
-| Stratigraphy of the average game — by-decade averages as geologic layers (pace/scoring archaeology) | `docs/creative/stratigraphy-of-the-average-game.md` (+ motifs in `data/derived/teams/creative_pops_motifs.csv`) | `/workspace/hoops-swatches-work/data/derived/avg_game_by_decade.csv`, `/workspace/hoops-avg-game-by-decade/sample_seasons.csv`, methodology mirrors (BRef league averages; access 2026-09-20) | **READY (creative v1)** — no invented pace/3PA blanks; 1970s/2020s thin/incomplete beds noted |
-| The thermostat that is the salary cap — Cap/tax/apron as control system (institutional design) | `docs/creative/salary-cap-thermostat.md` (+ motifs in `data/derived/teams/creative_pops_motifs.csv`) | `/workspace/hoops-thicken-book-data-2026-09-20/data/derived/salary_cap_apron/nba_salary_cap_apron_history.csv`, `methodology.md` (official pr.nba.com PRs 2016-17→2026-27; access 2026-09-20) | **READY (creative v1)** — blanks preserved; no aggregator apron backfill |
+| CREATIVE / anthropometry of the paint | `docs/creative/anthropometry-of-the-paint.md` | TBD | ready — height league-by-season trend; motif index `data/derived/teams/creative_pops_motifs.csv`; series ends 2020-21 |
+| CREATIVE / stratigraphy of the average game | `docs/creative/stratigraphy-of-the-average-game.md` | TBD | ready — by-decade averages as layers; cites `avg_game_by_decade` and sample seasons |
+| CREATIVE / salary-cap thermostat | `docs/creative/salary-cap-thermostat.md` | TBD | ready — cap/tax/apron as control system; cites official salary_cap_apron history |
+| CREATIVE / blank cells, BAT, referees | `docs/creative/blank-cells-bat-referees/` | TBD | ready — three essays on blank cells, FIBA BAT caseload, and referee workloads |
+| TEAMS / relocation graph | `data/derived/teams/relocation_edges.csv` | TBD | ready — nodes and edges from `teams.csv` former_names; see `relocation_methodology.md` |
+| TEAMS / mascot bestiary | `data/derived/teams/mascot_bestiary.csv` | TBD | ready — 441 rows; 30 HIGH with mascot text, 411 GAP; see `mascot_methodology.md` |
+| TEAMS / abbreviation phonology | `data/derived/teams/abbr_phonology.csv` | TBD | ready — 441 abbreviation pattern rows; see `abbr_phonology_methodology.md` |
 
 ## Column Definitions
 
@@ -172,6 +176,12 @@ Track which data products support which sections of the manuscript, ensuring eve
 **Teams P0f (2026-09-19):** 310-row desk (194 prior + 116 new). P0f added Asia/Oceania/Africa/Türkiye domestic leagues (CBA 20 + B.League 26 + KBL 10 + NBL 10 + BSL 16 + BAL 12 + WCBA 14 + WJBL 8). 7 WCBA QID gaps. Total gaps: 18 (2 EuroLeague Women + 7 LF Endesa + 2 LFB + 7 WCBA).
 
 **Teams P0e (2026-09-19):** Expanded to 194-row unified desk appending 8 top domestic leagues: Liga ACB (ES men, 18), LNB Élite (FR men, 16), Basketball Bundesliga (DE men, 18), Lega Basket Serie A (IT men, 16), Greek Basketball League (GR men, 14), Liga Femenina de Baloncesto (ES women, 9 with QIDs + 7 gaps), Ligue Féminine de Basketball (FR women, 10 with QIDs + 2 gaps), WNBL (AU women, 9). Total 11 documented QID gaps. Abbreviations uniquified within each league. Seed merged from P0e fragment (2026-09-19 access date, 2026-27 season). All clubs fetched/normalized from Wikidata. Colours/logos/ownership enrichment still deferred.
+
+**Relocation graph (2026-09-20):** 52 edges + 535 nodes derived from teams.csv former_names field. Edges link former city/name to current franchise. Year data unavailable (left blank). Confidence MEDIUM (heuristic city inference). See `data/derived/teams/relocation_edges.csv`, `relocation_nodes.csv`, and `relocation_methodology.md`.
+
+**Mascot bestiary (2026-09-20):** 441 entries classifying team mascots into interpretive taxonomy (animal/human/abstract/object/unknown). 30 tagged HIGH (mascot present), 411 GAP (no mascot listed in source). See `data/derived/teams/mascot_bestiary.csv` and `mascot_methodology.md`.
+
+**Abbreviation phonology (2026-09-20):** 441 entries analysing team abbreviation patterns (city_initials, nickname_clip, state, trigram/tetragram). Linguistics-adjacent structural data. See `data/derived/teams/abbr_phonology.csv` and `abbr_phonology_methodology.md`.
 
 ## Maintenance
 
