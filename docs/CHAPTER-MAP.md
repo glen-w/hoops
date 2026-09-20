@@ -118,8 +118,8 @@ Track which data products support which sections of the manuscript, ensuring eve
 | TEAMS / Liga ACB | `data/derived/teams/ACB-GAPS.md` | Q324867 | gap |
 | ANALYTICS / glossary | `docs/ANALYTICS-GLOSSARY.md` | TBD | hold |
 | DESK / lookup | `scripts/hoops_ask.py` | TBD | ready |
-| CBA / salary / front office | NBA Salary Cap · Tax · Apron · MLE history (2016-17–2026-27) | `data/derived/salary_cap_apron/nba_salary_cap_apron_history.csv` | TBD | ready — Official `pr.nba.com` only; aprons from 2023-24 |
-| CBA / salary | Methodology | `data/derived/salary_cap_apron/methodology.md` | TBD | ready — Blanks = not in PR |
+| CBA / salary — Cap·Tax·Apron·MLE (2016-17–2026-27) | `data/derived/salary_cap_apron/nba_salary_cap_apron_history.csv` | TBD | ready — pr.nba.com only; aprons from 2023-24 |
+| CBA / salary — Cap/apron methodology | `data/derived/salary_cap_apron/methodology.md` | TBD | ready — primary-source-only rule |
 
 ## Column Definitions
 
