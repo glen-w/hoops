@@ -1,0 +1,536 @@
+node_id,label,kind,team_id,as_of
+node_aba_borac_1130cabe,Borac Mozzart,franchise,aba_borac,2026-09-19
+node_aba_bosna_ee961d4c,Bosna BH Telecom,franchise,aba_bosna,2026-09-19
+node_aba_buducnost_d219255f,Budućnost VOLI,franchise,aba_buducnost,2026-09-19
+node_aba_cedevita_fed2f9a7,Cedevita Olimpija,franchise,aba_cedevita,2026-09-19
+node_aba_cibona_d25599d0,Cibona,franchise,aba_cibona,2026-09-19
+node_aba_cluj_666e2a0b,U-BT Cluj-Napoca,franchise,aba_cluj,2026-09-19
+node_aba_derby_d9ea339e,SC Derby,franchise,aba_derby,2026-09-19
+node_aba_dubai_7409dfcd,Dubai Basketball,franchise,aba_dubai,2026-09-19
+node_aba_fmp_df839b88,FMP,franchise,aba_fmp,2026-09-19
+node_aba_igokea_38ce4bed,Igokea m:tel,franchise,aba_igokea,2026-09-19
+node_aba_ilirija_7263a3e9,Perspektiva Ilirija,franchise,aba_ilirija,2026-09-19
+node_aba_krka_93b341bc,Krka,franchise,aba_krka,2026-09-19
+node_aba_mega_b8219bca,Mega Superbet,franchise,aba_mega,2026-09-19
+node_aba_partizan_f5409b07,Partizan Mozzart Bet,franchise,aba_partizan,2026-09-19
+node_aba_siroki_a2455ab8,Široki TT Kabeli,franchise,aba_siroki,2026-09-19
+node_aba_slovan_7409912b,Slovan Bratislava,franchise,aba_slovan,2026-09-19
+node_aba_spartak_583f5298,Spartak Office Shoes,franchise,aba_spartak,2026-09-19
+node_aba_vienna_601f9226,Vienna,franchise,aba_vienna,2026-09-19
+node_aba_zadar_ccab5b00,Zadar,franchise,aba_zadar,2026-09-19
+node_aba_zvezda_a24f4113,Crvena zvezda Meridianbet,franchise,aba_zvezda,2026-09-19
+node_b_league_akita_7098d6be,Akita Northern Happinets,franchise,b_league_akita,2026-09-19
+node_b_league_altiri_chiba_4a3c468c,Altiri Chiba,franchise,b_league_altiri_chiba,2026-09-19
+node_b_league_alvark_e63ccae3,Alvark Tokyo,franchise,b_league_alvark,2026-09-19
+node_b_league_chiba_jets_54a5399b,Chiba Jets,franchise,b_league_chiba_jets,2026-09-19
+node_b_league_gunma_e296f7c1,Gunma Crane Thunders,franchise,b_league_gunma,2026-09-19
+node_b_league_hiroshima_9461899c,Hiroshima Dragonflies,franchise,b_league_hiroshima,2026-09-19
+node_b_league_ibaraki_db403c82,Ibaraki Robots,franchise,b_league_ibaraki,2026-09-19
+node_b_league_kawasaki_133680d6,Kawasaki Brave Thunders,franchise,b_league_kawasaki,2026-09-19
+node_b_league_kobe_fcf31114,Kobe Storks,franchise,b_league_kobe,2026-09-19
+node_b_league_kyoto_1769625c,Kyoto Hannaryz,franchise,b_league_kyoto,2026-09-19
+node_b_league_levanga_6b29c183,株式会社レバンガ北海道,aka,b_league_levanga,2026-09-19
+node_b_league_levanga_d7e4477a,Levanga Hokkaido,franchise,b_league_levanga,2026-09-19
+node_b_league_mikawa_1318479b,SeaHorses Mikawa,franchise,b_league_mikawa,2026-09-19
+node_b_league_nagasaki_1329cab3,Nagasaki Velca,franchise,b_league_nagasaki,2026-09-19
+node_b_league_nagoya_58390faa,Nagoya Diamond Dolphins,franchise,b_league_nagoya,2026-09-19
+node_b_league_osaka_3d9fa251,Osaka Evessa,franchise,b_league_osaka,2026-09-19
+node_b_league_ryukyu_8cc239a8,Ryukyu Golden Kings,franchise,b_league_ryukyu,2026-09-19
+node_b_league_saga_018d17a7,Saga Ballooners,franchise,b_league_saga,2026-09-19
+node_b_league_san_en_bfe5da96,San-en NeoPhoenix,franchise,b_league_san_en,2026-09-19
+node_b_league_sendai_4173307b,Sendai 89ers,franchise,b_league_sendai,2026-09-19
+node_b_league_shiga_773ddaa4,Shiga Lakes,franchise,b_league_shiga,2026-09-19
+node_b_league_shimane_718b6ec1,Shimane Susanoo Magic,franchise,b_league_shimane,2026-09-19
+node_b_league_shinshu_51c2732b,Shinshu Brave Warriors,franchise,b_league_shinshu,2026-09-19
+node_b_league_sunrockers_4f839545,Tokyo Sunrockers,franchise,b_league_sunrockers,2026-09-19
+node_b_league_toyama_a8198aa6,Toyama Grouses,franchise,b_league_toyama,2026-09-19
+node_b_league_utsunomiya_fb1f0b3b,Utsunomiya Brex,franchise,b_league_utsunomiya,2026-09-19
+node_b_league_yokohama_b48052b3,Yokohama B-Corsairs,franchise,b_league_yokohama,2026-09-19
+node_bal_al_ahly_a61b0996,Al Ahly,franchise,bal_al_ahly,2026-09-19
+node_bal_al_ahly_ly_05feee93,Al Ahly Ly,franchise,bal_al_ahly_ly,2026-09-19
+node_bal_asc_dakar_7c65d416,ASC Ville de Dakar,franchise,bal_asc_dakar,2026-09-19
+node_bal_club_africain_846a4267,Club Africain,franchise,bal_club_africain,2026-09-19
+node_bal_dar_city_070cd6a7,Dar City,franchise,bal_dar_city,2026-09-19
+node_bal_fus_rabat_034f7486,FUS Rabat,franchise,bal_fus_rabat,2026-09-19
+node_bal_jca_kings_66e22a23,JCA Kings,franchise,bal_jca_kings,2026-09-19
+node_bal_johannesburg_8e44e416,Johannesburg Giants,franchise,bal_johannesburg,2026-09-19
+node_bal_maktown_970ee95f,Maktown Flyers,franchise,bal_maktown,2026-09-19
+node_bal_nairobi_f0caa35f,Nairobi City Thunder,franchise,bal_nairobi,2026-09-19
+node_bal_petro_d4462b5b,Petro de Luanda,franchise,bal_petro,2026-09-19
+node_bal_rssb_8de6b404,RSSB Tigers,franchise,bal_rssb,2026-09-19
+node_bbl_alba_cfb98cd4,ALBA Berlin,franchise,bbl_alba,2026-09-19
+node_bbl_bamberg_3fb4271a,Bamberg Baskets,franchise,bbl_bamberg,2026-09-19
+node_bbl_bayern_de3454c2,FC Bayern Munich,franchise,bbl_bayern,2026-09-19
+node_bbl_bonn_2e3cfecc,Telekom Baskets Bonn,franchise,bbl_bonn,2026-09-19
+node_bbl_braunschweig_01642ca4,Basketball Löwen Braunschweig,franchise,bbl_braunschweig,2026-09-19
+node_bbl_chemnitz_6c7bc5b3,Basketball-Vereinigung Chemnitz 99,aka,bbl_chemnitz,2026-09-19
+node_bbl_chemnitz_c32c7b40,NINERS Chemnitz,franchise,bbl_chemnitz,2026-09-19
+node_bbl_frankfurt_7acd7a3f,SKYLINERS Frankfurt,franchise,bbl_frankfurt,2026-09-19
+node_bbl_frankfurt_aaffa0c3,Opel Skyliners,aka,bbl_frankfurt,2026-09-19
+node_bbl_hagen_b21ddb57,Phoenix Hagen,franchise,bbl_hagen,2026-09-19
+node_bbl_hamburg_5a1de745,Veolia Towers Hamburg,franchise,bbl_hamburg,2026-09-19
+node_bbl_jena_0fa36cca,Science City Jena,franchise,bbl_jena,2026-09-19
+node_bbl_ludwigsburg_979e6e8c,MHP Riesen Ludwigsburg,franchise,bbl_ludwigsburg,2026-09-19
+node_bbl_mbc_642cc52b,SYNTAINICS MBC,franchise,bbl_mbc,2026-09-19
+node_bbl_oldenburg_c6b65cd4,EWE Baskets Oldenburg,franchise,bbl_oldenburg,2026-09-19
+node_bbl_rostock_d7959c5d,Rostock Seawolves,franchise,bbl_rostock,2026-09-19
+node_bbl_trier_50405e45,VET-CONCEPT Gladiators Trier,franchise,bbl_trier,2026-09-19
+node_bbl_ulm_cfcc0512,ratiopharm ulm,franchise,bbl_ulm,2026-09-19
+node_bbl_vechta_0c61e722,RASTA Vechta,franchise,bbl_vechta,2026-09-19
+node_bbl_wuerzburg_630c3edf,Fitness First Würzburg Baskets,franchise,bbl_wuerzburg,2026-09-19
+node_bsl_anadolu_efes_50c5255d,Anadolu Efes,franchise,bsl_anadolu_efes,2026-09-19
+node_bsl_bahcesehir_15482a04,Bahçeşehir Koleji,franchise,bsl_bahcesehir,2026-09-19
+node_bsl_bandirma_7e3c35d5,Bandırma Bordo,franchise,bsl_bandirma,2026-09-19
+node_bsl_besiktas_4cef278f,Beşiktaş,franchise,bsl_besiktas,2026-09-19
+node_bsl_bursaspor_ce881df4,Bursaspor,franchise,bsl_bursaspor,2026-09-19
+node_bsl_cayirova_33d73a54,Çayırova Belediyespor,franchise,bsl_cayirova,2026-09-19
+node_bsl_denizli_e437de00,Denizli Basket,franchise,bsl_denizli,2026-09-19
+node_bsl_erokspor_410374d3,Esenler Erokspor,franchise,bsl_erokspor,2026-09-19
+node_bsl_fenerbahce_e95a52ae,Fenerbahçe,franchise,bsl_fenerbahce,2026-09-19
+node_bsl_galatasaray_bd35d091,Galatasaray,franchise,bsl_galatasaray,2026-09-19
+node_bsl_karsiyaka_b7d0a011,Karşıyaka,franchise,bsl_karsiyaka,2026-09-19
+node_bsl_korfez_7947bd59,Körfez Basket,franchise,bsl_korfez,2026-09-19
+node_bsl_petkim_c25f9b03,Petkim Spor,franchise,bsl_petkim,2026-09-19
+node_bsl_tofas_3e557939,Tofaş,franchise,bsl_tofas,2026-09-19
+node_bsl_trabzonspor_2a13f6de,Trabzonspor,franchise,bsl_trabzonspor,2026-09-19
+node_bsl_turk_telekom_bd28a9ff,Türk Telekom,franchise,bsl_turk_telekom,2026-09-19
+node_cba_beijing_ducks_20aa936d,Beijing Ducks,franchise,cba_beijing_ducks,2026-09-19
+node_cba_beijing_royal_fighters_6ac9b11e,Beijing Royal Fighters,franchise,cba_beijing_royal_fighters,2026-09-19
+node_cba_fujian_8ca2c29e,Fujian Sturgeons,franchise,cba_fujian,2026-09-19
+node_cba_guangdong_8c850b99,Guangdong Southern Tigers,franchise,cba_guangdong,2026-09-19
+node_cba_guangzhou_0b3f0045,Guangzhou Loong Lions,franchise,cba_guangzhou,2026-09-19
+node_cba_jiangsu_f58f0d06,Jiangsu Dragons,franchise,cba_jiangsu,2026-09-19
+node_cba_jilin_21e72c6e,Jilin Northeast Tigers,franchise,cba_jilin,2026-09-19
+node_cba_liaoning_8c615573,Liaoning Flying Leopards,franchise,cba_liaoning,2026-09-19
+node_cba_nanjing_733958a8,Nanjing Monkey Kings,franchise,cba_nanjing,2026-09-19
+node_cba_ningbo_a26840ac,Ningbo Rockets,franchise,cba_ningbo,2026-09-19
+node_cba_qingdao_8b866057,Qingdao Eagles,franchise,cba_qingdao,2026-09-19
+node_cba_shandong_94fbb216,Shandong Hi-Speed Kirin,franchise,cba_shandong,2026-09-19
+node_cba_shanghai_a49f292b,Shanghai Sharks,franchise,cba_shanghai,2026-09-19
+node_cba_shanxi_8e8a0825,Shanxi Loongs,franchise,cba_shanxi,2026-09-19
+node_cba_shenzhen_63f54ce4,Shenzhen Leopards,franchise,cba_shenzhen,2026-09-19
+node_cba_sichuan_a2cfe6ca,Sichuan Blue Whales,franchise,cba_sichuan,2026-09-19
+node_cba_tianjin_4e35fc15,Tianjin Pioneers,franchise,cba_tianjin,2026-09-19
+node_cba_xinjiang_3f99e12a,Xinjiang Flying Tigers,franchise,cba_xinjiang,2026-09-19
+node_cba_zhejiang_bulls_d16e185f,Zhejiang Golden Bulls,franchise,cba_zhejiang_bulls,2026-09-19
+node_cba_zhejiang_lions_e66db766,Zhejiang Lions,franchise,cba_zhejiang_lions,2026-09-19
+node_euroleague_anadolu_efes_3c2cef85,Anadolu Efes Istanbul,franchise,euroleague_anadolu_efes,2026-09-19
+node_euroleague_asvel_83080590,ASVEL BASKET,aka,euroleague_asvel,2026-09-19
+node_euroleague_asvel_86ed4900,LDLC ASVEL Villeurbanne,franchise,euroleague_asvel,2026-09-19
+node_euroleague_barcelona_6096c6fc,FC Barcelona,franchise,euroleague_barcelona,2026-09-19
+node_euroleague_baskonia_7ede11bd,Baskonia Vitoria-Gasteiz,franchise,euroleague_baskonia,2026-09-19
+node_euroleague_baskonia_9ceb8a21,Club Deportivo Vasconia,aka,euroleague_baskonia,2026-09-19
+node_euroleague_bayern_de3454c2,FC Bayern Munich,franchise,euroleague_bayern,2026-09-19
+node_euroleague_besiktas_bff4c03e,Beşiktaş Istanbul,franchise,euroleague_besiktas,2026-09-19
+node_euroleague_crvena_zvezda_5878b19f,Crvena zvezda Meridianbet Belgrade,franchise,euroleague_crvena_zvezda,2026-09-19
+node_euroleague_dubai_7409dfcd,Dubai Basketball,franchise,euroleague_dubai,2026-09-19
+node_euroleague_fenerbahce_6a92a9fc,Fenerbahçe Beko Istanbul,franchise,euroleague_fenerbahce,2026-09-19
+node_euroleague_hapoel_tel_aviv_cdceca54,Hapoel IBI Tel Aviv,franchise,euroleague_hapoel_tel_aviv,2026-09-19
+node_euroleague_maccabi_tel_aviv_f73b2046,Maccabi Playtika Tel Aviv,franchise,euroleague_maccabi_tel_aviv,2026-09-19
+node_euroleague_olimpia_milano_5b2e3fa9,EA7 Emporio Armani Milan,franchise,euroleague_olimpia_milano,2026-09-19
+node_euroleague_olympiacos_39e0c53b,Olympiacos Piraeus,franchise,euroleague_olympiacos,2026-09-19
+node_euroleague_panathinaikos_af74993d,Panathinaikos AKTOR Athens,franchise,euroleague_panathinaikos,2026-09-19
+node_euroleague_paris_9d3a474d,Paris Basketball,franchise,euroleague_paris,2026-09-19
+node_euroleague_partizan_a8e09b0a,Partizan Mozzart Bet Belgrade,franchise,euroleague_partizan,2026-09-19
+node_euroleague_real_madrid_93330b41,Real Madrid,franchise,euroleague_real_madrid,2026-09-19
+node_euroleague_valencia_0df66f67,Valencia Basket,franchise,euroleague_valencia,2026-09-19
+node_euroleague_virtus_8d414637,Virtus Segafredo Bologna,franchise,euroleague_virtus,2026-09-19
+node_euroleague_women_athinaikos_01f9f430,Athinaikos Qualco,franchise,euroleague_women_athinaikos,2026-09-19
+node_euroleague_women_azs_poznan_7f9ef9ea,AZS Poznań,franchise,euroleague_women_azs_poznan,2026-09-19
+node_euroleague_women_basket_landes_fa6cdbe0,Basket Landes,franchise,euroleague_women_basket_landes,2026-09-19
+node_euroleague_women_bourges_14d7cd2b,Tango Bourges Basket,franchise,euroleague_women_bourges,2026-09-19
+node_euroleague_women_crvena_zvezda_740d1550,KKZ Crvena zvezda,franchise,euroleague_women_crvena_zvezda,2026-09-19
+node_euroleague_women_dvtk_6a518018,DVTK HUN-Therm,franchise,euroleague_women_dvtk,2026-09-19
+node_euroleague_women_emlak_konut_eda12729,Emlak Konut,franchise,euroleague_women_emlak_konut,2026-09-19
+node_euroleague_women_fenerbahce_b10d797b,Fenerbahçe Tarfin,franchise,euroleague_women_fenerbahce,2026-09-19
+node_euroleague_women_flammes_carolo_f5ff2e7f,Flammes Carolo Basket,franchise,euroleague_women_flammes_carolo,2026-09-19
+node_euroleague_women_galatasaray_9b72f869,Galatasaray Çağdaş Faktoring,franchise,euroleague_women_galatasaray,2026-09-19
+node_euroleague_women_girona_09bee7ae,Spar Girona,franchise,euroleague_women_girona,2026-09-19
+node_euroleague_women_kibirkstis_f37dd575,Kibirkštis-TOKS,franchise,euroleague_women_kibirkstis,2026-09-19
+node_euroleague_women_lublin_e2a96767,AZS UMCS Lublin,franchise,euroleague_women_lublin,2026-09-19
+node_euroleague_women_panathinaikos_fc4ce460,Panathinaikos AC,franchise,euroleague_women_panathinaikos,2026-09-19
+node_euroleague_women_rapid_bucuresti_4e4157c8,CS Rapid București,franchise,euroleague_women_rapid_bucuresti,2026-09-19
+node_euroleague_women_reyer_venezia_7a9735d0,Umana Reyer Venezia,franchise,euroleague_women_reyer_venezia,2026-09-19
+node_euroleague_women_schio_a0a7db1b,Beretta Famila Schio,franchise,euroleague_women_schio,2026-09-19
+node_euroleague_women_sopron_734691d3,Sopron Basket,franchise,euroleague_women_sopron,2026-09-19
+node_euroleague_women_usk_praha_8d2d736b,ZVVZ USK Praha,franchise,euroleague_women_usk_praha,2026-09-19
+node_euroleague_women_valencia_0df66f67,Valencia Basket,franchise,euroleague_women_valencia,2026-09-19
+node_euroleague_women_zabiny_brno_03c1bfeb,Žabiny Brno,franchise,euroleague_women_zabiny_brno,2026-09-19
+node_euroleague_women_zaragoza_028a6c54,Casademont Zaragoza,franchise,euroleague_women_zaragoza,2026-09-19
+node_euroleague_zalgiris_b01b72df,Žalgiris Kaunas,franchise,euroleague_zalgiris,2026-09-19
+node_g_league_austin_7a5e775e,Austin Spurs,franchise,g_league_austin,2026-09-19
+node_g_league_capital_city_5631ef99,Capital City Go-Go,franchise,g_league_capital_city,2026-09-19
+node_g_league_cleveland_5e0f42a6,Cleveland Charge,franchise,g_league_cleveland,2026-09-19
+node_g_league_coachella_1bc31e32,Coachella Valley Lakers,franchise,g_league_coachella,2026-09-19
+node_g_league_college_park_bde38c46,College Park Skyhawks,franchise,g_league_college_park,2026-09-19
+node_g_league_delaware_21e3aec6,Delaware Blue Coats,franchise,g_league_delaware,2026-09-19
+node_g_league_grand_rapids_89c5b6df,Grand Rapids Gold,franchise,g_league_grand_rapids,2026-09-19
+node_g_league_greensboro_6ec396a0,Greensboro Swarm,franchise,g_league_greensboro,2026-09-19
+node_g_league_iowa_deb104fa,Iowa Wolves,franchise,g_league_iowa,2026-09-19
+node_g_league_laketown_12785d62,Laketown Squadron,franchise,g_league_laketown,2026-09-19
+node_g_league_long_island_42553641,Long Island Nets,franchise,g_league_long_island,2026-09-19
+node_g_league_maine_ab62da28,Maine Celtics,franchise,g_league_maine,2026-09-19
+node_g_league_memphis_71bf0bc4,Memphis Hustle,franchise,g_league_memphis,2026-09-19
+node_g_league_mexico_city_86e72afd,Mexico City Capitanes,franchise,g_league_mexico_city,2026-09-19
+node_g_league_motor_city_ea45c089,Motor City Cruise,franchise,g_league_motor_city,2026-09-19
+node_g_league_noblesville_cfdec564,Noblesville Boom,franchise,g_league_noblesville,2026-09-19
+node_g_league_okc_aca6f005,Oklahoma City Blue,franchise,g_league_okc,2026-09-19
+node_g_league_osceola_cfd87ef7,Osceola Magic,franchise,g_league_osceola,2026-09-19
+node_g_league_raptors905_cbd94ca8,Raptors 905,franchise,g_league_raptors905,2026-09-19
+node_g_league_rgv_4c72590c,Rio Grande Valley Vipers,franchise,g_league_rgv,2026-09-19
+node_g_league_rip_city_0c5181b2,Rip City Remix,franchise,g_league_rip_city,2026-09-19
+node_g_league_salt_lake_b94fed42,Salt Lake City Stars,franchise,g_league_salt_lake,2026-09-19
+node_g_league_san_diego_6497cdec,San Diego Clippers,franchise,g_league_san_diego,2026-09-19
+node_g_league_santa_cruz_bb549201,Santa Cruz Warriors,franchise,g_league_santa_cruz,2026-09-19
+node_g_league_sioux_falls_9fc4b13d,Sioux Falls Skyforce,franchise,g_league_sioux_falls,2026-09-19
+node_g_league_stockton_8a1b85cb,Stockton Kings,franchise,g_league_stockton,2026-09-19
+node_g_league_texas_0bd89dd4,Texas Legends,franchise,g_league_texas,2026-09-19
+node_g_league_valley_5ef5e57e,Valley Suns,franchise,g_league_valley,2026-09-19
+node_g_league_westchester_5d9192c5,Westchester Knicks,franchise,g_league_westchester,2026-09-19
+node_g_league_windy_city_74977176,Windy City Bulls,franchise,g_league_windy_city,2026-09-19
+node_g_league_wisconsin_e2ee1002,Wisconsin Herd,franchise,g_league_wisconsin,2026-09-19
+node_greek_basket_league_aek_c8734b77,AEK Athens,franchise,greek_basket_league_aek,2026-09-19
+node_greek_basket_league_aris_c22bad6e,Aris Thessaloniki,franchise,greek_basket_league_aris,2026-09-19
+node_greek_basket_league_doxa_df8b0ee4,Doxa Lefkadas,franchise,greek_basket_league_doxa,2026-09-19
+node_greek_basket_league_iraklis_573466cb,Iraklis Thessaloniki,franchise,greek_basket_league_iraklis,2026-09-19
+node_greek_basket_league_iraklis_bfd7e925,Γυμναστικός Σύλλογος Αγιάς «Ηρακλής» Καλαθοσφαιρική Ανώνυμη Εταιρεία,aka,greek_basket_league_iraklis,2026-09-19
+node_greek_basket_league_karditsa_32fbe21d,ASK Karditsas,franchise,greek_basket_league_karditsa,2026-09-19
+node_greek_basket_league_kolossos_65ca5b03,Kolossos Rodou,franchise,greek_basket_league_kolossos,2026-09-19
+node_greek_basket_league_maroussi_1b3aad50,Γυμναστικός Σύλλογος Αμαρουσίου,aka,greek_basket_league_maroussi,2026-09-19
+node_greek_basket_league_maroussi_b1de2d3d,Maroussi,franchise,greek_basket_league_maroussi,2026-09-19
+node_greek_basket_league_mykonos_fdd5174c,Mykonos,franchise,greek_basket_league_mykonos,2026-09-19
+node_greek_basket_league_olympiacos_39e0c53b,Olympiacos Piraeus,franchise,greek_basket_league_olympiacos,2026-09-19
+node_greek_basket_league_panathinaikos_2aee674f,Panathinaikos Athens,franchise,greek_basket_league_panathinaikos,2026-09-19
+node_greek_basket_league_paok_a888d60c,PAOK Thessaloniki,franchise,greek_basket_league_paok,2026-09-19
+node_greek_basket_league_peristeri_22e3ee45,Peristeri Athens,franchise,greek_basket_league_peristeri,2026-09-19
+node_greek_basket_league_promitheas_1851ef64,Promitheas Patras,franchise,greek_basket_league_promitheas,2026-09-19
+node_greek_basket_league_vikos_4d2238ce,Vikos Falcons Ioannina,franchise,greek_basket_league_vikos,2026-09-19
+node_israeli_premier_ashdod_da0545ac,Maccabi Ashdod,franchise,israeli_premier_ashdod,2026-09-19
+node_israeli_premier_beer_sheva_a657dbb7,Hapoel Be'er Sheva/Dimona,franchise,israeli_premier_beer_sheva,2026-09-19
+node_israeli_premier_eilat_8cadbb63,Hapoel Ironi Eilat,franchise,israeli_premier_eilat,2026-09-19
+node_israeli_premier_galil_bed5ab56,Hapoel Galil Elyon,franchise,israeli_premier_galil,2026-09-19
+node_israeli_premier_haemek_b807387d,Hapoel HaEmek,franchise,israeli_premier_haemek,2026-09-19
+node_israeli_premier_hapoel_ta_8aced695,Hapoel Tel Aviv,franchise,israeli_premier_hapoel_ta,2026-09-19
+node_israeli_premier_herzliya_eec0986f,Bnei Herzliya,franchise,israeli_premier_herzliya,2026-09-19
+node_israeli_premier_holon_6bbba984,Hapoel Holon,franchise,israeli_premier_holon,2026-09-19
+node_israeli_premier_jerusalem_a526ca63,Hapoel Jerusalem,franchise,israeli_premier_jerusalem,2026-09-19
+node_israeli_premier_kiryat_ata_518bc0b4,Ironi Kiryat Ata,franchise,israeli_premier_kiryat_ata,2026-09-19
+node_israeli_premier_maccabi_ta_54c98fe1,Maccabi Tel Aviv,franchise,israeli_premier_maccabi_ta,2026-09-19
+node_israeli_premier_ness_ziona_bdb05c59,Ironi Ness Ziona,franchise,israeli_premier_ness_ziona,2026-09-19
+node_israeli_premier_ramat_gan_0c888d6c,Maccabi Ironi Ramat Gan,franchise,israeli_premier_ramat_gan,2026-09-19
+node_israeli_premier_rishon_e0001d54,Maccabi Rishon LeZion,franchise,israeli_premier_rishon,2026-09-19
+node_kbl_anyang_43094192,Anyang Jung Kwan Jang Red Boosters,franchise,kbl_anyang,2026-09-19
+node_kbl_busan_4cd3f6fe,Busan KCC Egis,franchise,kbl_busan,2026-09-19
+node_kbl_changwon_a0783e25,Changwon LG Sakers,franchise,kbl_changwon,2026-09-19
+node_kbl_daegu_c0d13d79,Daegu KOGAS Pegasus,franchise,kbl_daegu,2026-09-19
+node_kbl_goyang_694e185d,Goyang Sono Skygunners,franchise,kbl_goyang,2026-09-19
+node_kbl_samsung_748e9a34,Seoul Samsung Thunders,franchise,kbl_samsung,2026-09-19
+node_kbl_sk_93b1147b,Seoul SK Knights,franchise,kbl_sk,2026-09-19
+node_kbl_suwon_a90457ff,Suwon KT Sonicboom,franchise,kbl_suwon,2026-09-19
+node_kbl_ulsan_50bad690,Ulsan Hyundai Mobis Phoebus,franchise,kbl_ulsan,2026-09-19
+node_kbl_wonju_b5b43958,Wonju DB Promy,franchise,kbl_wonju,2026-09-19
+node_lbf_cerrado_34333357,Cerrado Basquete,franchise,lbf_cerrado,2026-09-19
+node_lf_endesa_araski_9da19a40,Kutxabank Araski,franchise,lf_endesa_araski,2026-09-19
+node_lf_endesa_avenida_ea9e81a8,Perfumerías Avenida,franchise,lf_endesa_avenida,2026-09-19
+node_lf_endesa_celta_82f8be24,Celta Femxa Zorka,franchise,lf_endesa_celta,2026-09-19
+node_lf_endesa_ensino_3dbad6c0,Durán Maquinaria Ensino,franchise,lf_endesa_ensino,2026-09-19
+node_lf_endesa_ferrol_13b7f046,BAXI Ferrol,franchise,lf_endesa_ferrol,2026-09-19
+node_lf_endesa_gernika_84d968f9,Lointek Gernika Bizkaia,franchise,lf_endesa_gernika,2026-09-19
+node_lf_endesa_girona_09bee7ae,Spar Girona,franchise,lf_endesa_girona,2026-09-19
+node_lf_endesa_la_seu_64adb3b0,Cadí La Seu,franchise,lf_endesa_la_seu,2026-09-19
+node_lf_endesa_valencia_0df66f67,Valencia Basket,franchise,lf_endesa_valencia,2026-09-19
+node_lfb_angers_c45876ca,UF Angers Basket 49,franchise,lfb_angers,2026-09-19
+node_lfb_argentina_berazategui_8a34a1f8,Deportivo Berazategui,franchise,lfb_argentina_berazategui,2026-09-19
+node_lfb_argentina_boca_7e53ee11,Boca Juniors (women),franchise,lfb_argentina_boca,2026-09-19
+node_lfb_argentina_el_talar_c50a84de,Club El Talar,franchise,lfb_argentina_el_talar,2026-09-19
+node_lfb_argentina_quilmes_efb8fa95,Quilmes de Mar del Plata,franchise,lfb_argentina_quilmes,2026-09-19
+node_lfb_asvel_cdfa2fc8,LDLC ASVEL Féminin,franchise,lfb_asvel,2026-09-19
+node_lfb_bourges_14d7cd2b,Tango Bourges Basket,franchise,lfb_bourges,2026-09-19
+node_lfb_charnay_7ff28393,Charnay Basket Bourgogne Sud,franchise,lfb_charnay,2026-09-19
+node_lfb_chartres_09f61144,C'Chartres Métropole Basket Féminin,franchise,lfb_chartres,2026-09-19
+node_lfb_flammes_f5ff2e7f,Flammes Carolo Basket,franchise,lfb_flammes,2026-09-19
+node_lfb_landerneau_a180b26b,Landerneau Bretagne Basket,franchise,lfb_landerneau,2026-09-19
+node_lfb_landes_fa6cdbe0,Basket Landes,franchise,lfb_landes,2026-09-19
+node_lfb_lattes_a8c9c186,BLMA Lattes Montpellier,franchise,lfb_lattes,2026-09-19
+node_lfb_villeneuve_caedcf9e,ESB Villeneuve-d'Ascq,franchise,lfb_villeneuve,2026-09-19
+node_liga_acb_andorra_e39edeaf,MoraBanc Andorra,franchise,liga_acb_andorra,2026-09-19
+node_liga_acb_barcelona_3aee162c,Barça,franchise,liga_acb_barcelona,2026-09-19
+node_liga_acb_baskonia_9ceb8a21,Club Deportivo Vasconia,aka,liga_acb_baskonia,2026-09-19
+node_liga_acb_baskonia_a1c59b03,Kosner Baskonia,franchise,liga_acb_baskonia,2026-09-19
+node_liga_acb_bilbao_e79b7859,Surne Bilbao Basket,franchise,liga_acb_bilbao,2026-09-19
+node_liga_acb_breogan_2e495f59,Río Breogán,franchise,liga_acb_breogan,2026-09-19
+node_liga_acb_burgos_d223b582,Recoletas Salud San Pablo Burgos,franchise,liga_acb_burgos,2026-09-19
+node_liga_acb_coruna_638aef59,Leyma Coruña,franchise,liga_acb_coruna,2026-09-19
+node_liga_acb_girona_cc409719,FIATC Girona,franchise,liga_acb_girona,2026-09-19
+node_liga_acb_joventut_6c53df34,Penya Spirit of Badalona,aka,liga_acb_joventut,2026-09-19
+node_liga_acb_joventut_f55dad9e,ASISA Joventut,franchise,liga_acb_joventut,2026-09-19
+node_liga_acb_lleida_a74421fe,iLERNA Lleida,franchise,liga_acb_lleida,2026-09-19
+node_liga_acb_manresa_b89f8a89,Kids&Us Manresa,franchise,liga_acb_manresa,2026-09-19
+node_liga_acb_murcia_204d97ca,UCAM Murcia CB,aka,liga_acb_murcia,2026-09-19
+node_liga_acb_murcia_edd91d84,UCAM Murcia,franchise,liga_acb_murcia,2026-09-19
+node_liga_acb_obradoiro_efa5d361,Monbus Obradoiro,franchise,liga_acb_obradoiro,2026-09-19
+node_liga_acb_real_madrid_93330b41,Real Madrid,franchise,liga_acb_real_madrid,2026-09-19
+node_liga_acb_tenerife_e2dde90d,La Laguna Tenerife,franchise,liga_acb_tenerife,2026-09-19
+node_liga_acb_unicaja_7d72e927,Unicaja,franchise,liga_acb_unicaja,2026-09-19
+node_liga_acb_valencia_0df66f67,Valencia Basket,franchise,liga_acb_valencia,2026-09-19
+node_liga_acb_zaragoza_028a6c54,Casademont Zaragoza,franchise,liga_acb_zaragoza,2026-09-19
+node_lnb_argentina_argentino_7b846505,Argentino de Junín,franchise,lnb_argentina_argentino,2026-09-19
+node_lnb_argentina_atenas_1dc73973,Atenas,franchise,lnb_argentina_atenas,2026-09-19
+node_lnb_argentina_boca_77a45f95,Boca Juniors,franchise,lnb_argentina_boca,2026-09-19
+node_lnb_argentina_ferro_3d924e56,Ferro Carril Oeste,franchise,lnb_argentina_ferro,2026-09-19
+node_lnb_argentina_gimnasia_90b49c36,Gimnasia y Esgrima (Comodoro Rivadavia),franchise,lnb_argentina_gimnasia,2026-09-19
+node_lnb_argentina_independiente_b357a6d7,Independiente de Oliva,franchise,lnb_argentina_independiente,2026-09-19
+node_lnb_argentina_instituto_98fea833,Instituto,franchise,lnb_argentina_instituto,2026-09-19
+node_lnb_argentina_la_union_d10732ea,La Unión de Formosa,franchise,lnb_argentina_la_union,2026-09-19
+node_lnb_argentina_lanus_d3f61bd2,Lanús,franchise,lnb_argentina_lanus,2026-09-19
+node_lnb_argentina_obera_a1e4efc4,Oberá Tenis Club,franchise,lnb_argentina_obera,2026-09-19
+node_lnb_argentina_olimpico_375a8035,Ciclista Olímpico,franchise,lnb_argentina_olimpico,2026-09-19
+node_lnb_argentina_penarol_81eefe14,Peñarol de Mar del Plata,franchise,lnb_argentina_penarol,2026-09-19
+node_lnb_argentina_platense_408ef341,Platense,franchise,lnb_argentina_platense,2026-09-19
+node_lnb_argentina_quimsa_46867ca3,Quimsa,franchise,lnb_argentina_quimsa,2026-09-19
+node_lnb_argentina_quimsa_6ee7b7ad,Asociación Atlética Quimsa,aka,lnb_argentina_quimsa,2026-09-19
+node_lnb_argentina_racing_8457eaef,Racing de Chivilcoy,franchise,lnb_argentina_racing,2026-09-19
+node_lnb_argentina_regatas_c86d51cc,Regatas Corrientes,franchise,lnb_argentina_regatas,2026-09-19
+node_lnb_argentina_san_lorenzo_bbdfdfa8,San Lorenzo de Almagro,franchise,lnb_argentina_san_lorenzo,2026-09-19
+node_lnb_argentina_san_martin_12d23295,San Martín de Corrientes,franchise,lnb_argentina_san_martin,2026-09-19
+node_lnb_elite_asvel_83080590,ASVEL BASKET,aka,lnb_elite_asvel,2026-09-19
+node_lnb_elite_asvel_86ed4900,LDLC ASVEL Villeurbanne,franchise,lnb_elite_asvel,2026-09-19
+node_lnb_elite_boulazac_3237e528,Boulazac Basket Dordogne,franchise,lnb_elite_boulazac,2026-09-19
+node_lnb_elite_bourg_df085b1b,JL Bourg,franchise,lnb_elite_bourg,2026-09-19
+node_lnb_elite_bourg_ee0763bb,Jeunesse laïque de Bourg-en-Bresse,aka,lnb_elite_bourg,2026-09-19
+node_lnb_elite_chalon_98973b19,Élan Chalon,franchise,lnb_elite_chalon,2026-09-19
+node_lnb_elite_cholet_ddcbf23d,Cholet Basket,franchise,lnb_elite_cholet,2026-09-19
+node_lnb_elite_dijon_1e06f9aa,JDA Dijon,franchise,lnb_elite_dijon,2026-09-19
+node_lnb_elite_gravelines_dbaa05e9,BCM Gravelines-Dunkerque,franchise,lnb_elite_gravelines,2026-09-19
+node_lnb_elite_le_mans_9063ac28,Le Mans Sarthe Basket,franchise,lnb_elite_le_mans,2026-09-19
+node_lnb_elite_limoges_ae2aef67,Limoges CSP,franchise,lnb_elite_limoges,2026-09-19
+node_lnb_elite_nancy_85bf3988,SLUC Nancy,franchise,lnb_elite_nancy,2026-09-19
+node_lnb_elite_nanterre_5b0c7ab2,Nanterre 92,franchise,lnb_elite_nanterre,2026-09-19
+node_lnb_elite_paris_9d3a474d,Paris Basketball,franchise,lnb_elite_paris,2026-09-19
+node_lnb_elite_pau_625eb144,Élan Béarnais Pau-Lacq-Orthez,franchise,lnb_elite_pau,2026-09-19
+node_lnb_elite_roanne_3df51205,Chorale Roanne Basket,franchise,lnb_elite_roanne,2026-09-19
+node_lnb_elite_saint_quentin_debaf03e,Saint-Quentin Basket-Ball,franchise,lnb_elite_saint_quentin,2026-09-19
+node_lnb_elite_strasbourg_d62fc195,SIG Strasbourg,franchise,lnb_elite_strasbourg,2026-09-19
+node_lnbp_abejas_34704a95,Abejas de León,franchise,lnbp_abejas,2026-09-19
+node_lnbp_astros_ab0955ea,Astros de Jalisco,franchise,lnbp_astros,2026-09-19
+node_lnbp_calor_4fc9cb24,El Calor de Cancún,franchise,lnbp_calor,2026-09-19
+node_lnbp_correcaminos_bf35d1f4,Correcaminos UAT Victoria,franchise,lnbp_correcaminos,2026-09-19
+node_lnbp_diablos_27577841,Diablos Rojos del México,franchise,lnbp_diablos,2026-09-19
+node_lnbp_dorados_a1ad116c,Dorados de Chihuahua,franchise,lnbp_dorados,2026-09-19
+node_lnbp_freseros_71448985,Freseros de Irapuato,franchise,lnbp_freseros,2026-09-19
+node_lnbp_fuerza_regia_b112d327,Fuerza Regia de Monterrey,franchise,lnbp_fuerza_regia,2026-09-19
+node_lnbp_gambusinos_36847e76,Gambusinos de Fresnillo,franchise,lnbp_gambusinos,2026-09-19
+node_lnbp_lobos_524fc9ff,Lobos Puebla,franchise,lnbp_lobos,2026-09-19
+node_lnbp_mineros_443c2792,Mineros de Zacatecas,franchise,lnbp_mineros,2026-09-19
+node_lnbp_panteras_be52da47,Panteras de Aguascalientes,franchise,lnbp_panteras,2026-09-19
+node_lnbp_santos_c2355db7,Santos del Potosí,franchise,lnbp_santos,2026-09-19
+node_lnbp_soles_b750dfea,Soles de Mexicali,franchise,lnbp_soles,2026-09-19
+node_nba_76ers_q138089_3064b320,Philadelphia,city,nba_76ers_q138089,2026-09-19
+node_nba_76ers_q138089_338d2281,Philadelphia 76ers,franchise,nba_76ers_q138089,2026-09-19
+node_nba_76ers_q138089_bb44fb0a,Syracuse Nationals,aka,nba_76ers_q138089,2026-09-19
+node_nba_blazers_q180950_cea6d143,Portland Trail Blazers,franchise,nba_blazers_q180950,2026-09-19
+node_nba_blazers_q180950_e7410c7c,Portland,city,nba_blazers_q180950,2026-09-19
+node_nba_bucks_q169165_dded8ff5,Milwaukee Bucks,franchise,nba_bucks_q169165,2026-09-19
+node_nba_bucks_q169165_effc4bc7,Milwaukee,city,nba_bucks_q169165,2026-09-19
+node_nba_bulls_q128109_72dcb547,Chicago Bulls,franchise,nba_bulls_q128109,2026-09-19
+node_nba_bulls_q128109_9cfa1e69,Chicago,city,nba_bulls_q128109,2026-09-19
+node_nba_cavaliers_q162990_11b91567,Cleveland,city,nba_cavaliers_q162990,2026-09-19
+node_nba_cavaliers_q162990_fd9bb08e,Cleveland Cavaliers,franchise,nba_cavaliers_q162990,2026-09-19
+node_nba_celtics_q131371_2b91f740,Boston Celtics,franchise,nba_celtics_q131371,2026-09-19
+node_nba_celtics_q131371_cb725823,Boston,city,nba_celtics_q131371,2026-09-19
+node_nba_clippers_q976893_2b499593,LA Clippers,franchise,nba_clippers_q976893,2026-09-19
+node_nba_clippers_q976893_6497cdec,San Diego Clippers,aka,nba_clippers_q976893,2026-09-19
+node_nba_clippers_q976893_be5663c8,Buffalo Braves,aka,nba_clippers_q976893,2026-09-19
+node_nba_clippers_q976893_d0aa2dff,Los Angeles,city,nba_clippers_q976893,2026-09-19
+node_nba_grizzlies_q169950_0d4202ed,Memphis,city,nba_grizzlies_q169950,2026-09-19
+node_nba_grizzlies_q169950_2e77ff0d,Memphis Grizzlies,franchise,nba_grizzlies_q169950,2026-09-19
+node_nba_grizzlies_q169950_38cd7e94,Vancouver Grizzlies,aka,nba_grizzlies_q169950,2026-09-19
+node_nba_hawks_q140558_06b0a78d,Atlanta Hawks,franchise,nba_hawks_q140558,2026-09-19
+node_nba_hawks_q140558_4a2e060f,Milwaukee Hawks,aka,nba_hawks_q140558,2026-09-19
+node_nba_hawks_q140558_8b1c40ce,Atlanta,city,nba_hawks_q140558,2026-09-19
+node_nba_hawks_q140558_bb920ac3,Tri-Cities Blackhawks,aka,nba_hawks_q140558,2026-09-19
+node_nba_hawks_q140558_c0845f92,St. Louis Hawks,aka,nba_hawks_q140558,2026-09-19
+node_nba_heat_q169138_0f5de708,Miami,city,nba_heat_q169138,2026-09-19
+node_nba_heat_q169138_9c9b015b,Miami Heat,franchise,nba_heat_q169138,2026-09-19
+node_nba_hornets_q162954_0705f03a,Charlotte Bobcats,aka,nba_hornets_q162954,2026-09-19
+node_nba_hornets_q162954_249a6787,Charlotte Hornets,franchise,nba_hornets_q162954,2026-09-19
+node_nba_hornets_q162954_7647b2d8,Charlotte,city,nba_hornets_q162954,2026-09-19
+node_nba_jazz_q166105_4ff930b7,Utah Jazz,franchise,nba_jazz_q166105,2026-09-19
+node_nba_jazz_q166105_c9186108,Salt Lake City,city,nba_jazz_q166105,2026-09-19
+node_nba_jazz_q166105_f2c1bbe6,New Orleans Jazz,aka,nba_jazz_q166105,2026-09-19
+node_nba_kings_q166105_2e10711e,Rochester Royals,aka,nba_kings_q166105,2026-09-19
+node_nba_kings_q166105_2ff4bdbe,Sacramento,city,nba_kings_q166105,2026-09-19
+node_nba_kings_q166105_3e1637a5,Sacramento Kings,franchise,nba_kings_q166105,2026-09-19
+node_nba_kings_q166105_8f2d0440,Rochester Pros,aka,nba_kings_q166105,2026-09-19
+node_nba_kings_q166105_af4a2b3e,Kansas City Kings,aka,nba_kings_q166105,2026-09-19
+node_nba_kings_q166105_c384a325,Cincinnati Royals,aka,nba_kings_q166105,2026-09-19
+node_nba_kings_q166105_cef278eb,Rochester Seagrams,aka,nba_kings_q166105,2026-09-19
+node_nba_kings_q166105_e4634d16,Kansas City-Omaha Kings,aka,nba_kings_q166105,2026-09-19
+node_nba_knicks_q131364_d97e023d,New York City,city,nba_knicks_q131364,2026-09-19
+node_nba_knicks_q131364_e29fde10,New York Knicks,franchise,nba_knicks_q131364,2026-09-19
+node_nba_lakers_q121661_33de0656,Los Angeles Lakers,franchise,nba_lakers_q121661,2026-09-19
+node_nba_lakers_q121661_c7829409,Minneapolis Lakers,aka,nba_lakers_q121661,2026-09-19
+node_nba_lakers_q121661_d0aa2dff,Los Angeles,city,nba_lakers_q121661,2026-09-19
+node_nba_magic_q180950_728abcbd,Orlando Magic,franchise,nba_magic_q180950,2026-09-19
+node_nba_magic_q180950_d4d2ea49,Orlando,city,nba_magic_q180950,2026-09-19
+node_nba_mavericks_q169542_09ea9b5e,Dallas,city,nba_mavericks_q169542,2026-09-19
+node_nba_mavericks_q169542_6b131f46,Dallas Mavericks,franchise,nba_mavericks_q169542,2026-09-19
+node_nba_nets_q976396_102d3a59,New Jersey Americans,aka,nba_nets_q976396,2026-09-19
+node_nba_nets_q976396_38cfd0ff,New Jersey Nets,aka,nba_nets_q976396,2026-09-19
+node_nba_nets_q976396_3dfef114,Brooklyn,city,nba_nets_q976396,2026-09-19
+node_nba_nets_q976396_4954f403,New York Nets,aka,nba_nets_q976396,2026-09-19
+node_nba_nets_q976396_7294c37f,Brooklyn Nets,franchise,nba_nets_q976396,2026-09-19
+node_nba_nuggets_q165529_67100af8,Denver,city,nba_nuggets_q165529,2026-09-19
+node_nba_nuggets_q165529_eee0f618,Denver Nuggets,franchise,nba_nuggets_q165529,2026-09-19
+node_nba_pacers_q170329_8b9c1179,Indianapolis,city,nba_pacers_q170329,2026-09-19
+node_nba_pacers_q170329_ec8f11bc,Indiana Pacers,franchise,nba_pacers_q170329,2026-09-19
+node_nba_pelicans_q180950_3ba1d214,New Orleans/Oklahoma City Hornets,aka,nba_pelicans_q180950,2026-09-19
+node_nba_pelicans_q180950_78b60adb,New Orleans Hornets,aka,nba_pelicans_q180950,2026-09-19
+node_nba_pelicans_q180950_ac69cbc8,New Orleans,city,nba_pelicans_q180950,2026-09-19
+node_nba_pelicans_q180950_b4ceef44,New Orleans Pelicans,franchise,nba_pelicans_q180950,2026-09-19
+node_nba_pistons_q169637_1206c1cb,Detroit,city,nba_pistons_q169637,2026-09-19
+node_nba_pistons_q169637_bbad2818,Detroit Pistons,franchise,nba_pistons_q169637,2026-09-19
+node_nba_pistons_q169637_c99f7d96,Fort Wayne Zollner Pistons,aka,nba_pistons_q169637,2026-09-19
+node_nba_raptors_q329816_7e965ba0,Toronto Raptors,franchise,nba_raptors_q329816,2026-09-19
+node_nba_raptors_q329816_948ce72b,Toronto,city,nba_raptors_q329816,2026-09-19
+node_nba_rockets_q160893_a25b2dff,Houston,city,nba_rockets_q160893,2026-09-19
+node_nba_rockets_q160893_ce98c07b,San Diego Rockets,aka,nba_rockets_q160893,2026-09-19
+node_nba_rockets_q160893_fb2f265e,Houston Rockets,franchise,nba_rockets_q160893,2026-09-19
+node_nba_spurs_q164177_938256db,San Antonio,city,nba_spurs_q164177,2026-09-19
+node_nba_spurs_q164177_dbfeba80,San Antonio Spurs,franchise,nba_spurs_q164177,2026-09-19
+node_nba_spurs_q164177_e5d285c9,Dallas Chaparrals,aka,nba_spurs_q164177,2026-09-19
+node_nba_spurs_q164177_f690ee87,Texas Chaparrals,aka,nba_spurs_q164177,2026-09-19
+node_nba_suns_q164177_12427f85,Phoenix Suns,franchise,nba_suns_q164177,2026-09-19
+node_nba_suns_q164177_5047bc59,Phoenix,city,nba_suns_q164177,2026-09-19
+node_nba_thunder_q180748_790ee7b6,Seattle SuperSonics,aka,nba_thunder_q180748,2026-09-19
+node_nba_thunder_q180748_7d7f18dd,Oklahoma City,city,nba_thunder_q180748,2026-09-19
+node_nba_thunder_q180748_a2127158,Oklahoma City Thunder,franchise,nba_thunder_q180748,2026-09-19
+node_nba_timberwolves_q157376_c3958472,Minneapolis,city,nba_timberwolves_q157376,2026-09-19
+node_nba_timberwolves_q157376_cc9e6841,Minnesota Timberwolves,franchise,nba_timberwolves_q157376,2026-09-19
+node_nba_warriors_q169661_842d1683,San Francisco Warriors,aka,nba_warriors_q169661,2026-09-19
+node_nba_warriors_q169661_a77dc464,Philadelphia Warriors,aka,nba_warriors_q169661,2026-09-19
+node_nba_warriors_q169661_f4334fdf,San Francisco,city,nba_warriors_q169661,2026-09-19
+node_nba_warriors_q169661_f63edb83,Golden State Warriors,franchise,nba_warriors_q169661,2026-09-19
+node_nba_wizards_q161337_063571a5,Chicago Zephyrs,aka,nba_wizards_q161337,2026-09-19
+node_nba_wizards_q161337_20289be2,Washington Bullets,aka,nba_wizards_q161337,2026-09-19
+node_nba_wizards_q161337_271677cd,Baltimore Bullets,aka,nba_wizards_q161337,2026-09-19
+node_nba_wizards_q161337_315a131d,Washington Wizards,franchise,nba_wizards_q161337,2026-09-19
+node_nba_wizards_q161337_44a6a4ee,Chicago Packers,aka,nba_wizards_q161337,2026-09-19
+node_nba_wizards_q161337_9a8995d0,"Washington, D.C.",city,nba_wizards_q161337,2026-09-19
+node_nba_wizards_q161337_c5ed4d9e,Capital Bullets,aka,nba_wizards_q161337,2026-09-19
+node_nbb_bauru_e3c4c102,Bauru Basket,franchise,nbb_bauru,2026-09-19
+node_nbb_botafogo_e0e9f295,Botafogo,franchise,nbb_botafogo,2026-09-19
+node_nbb_brasilia_57bbfe82,CAIXA/Brasília,franchise,nbb_brasilia,2026-09-19
+node_nbb_caxias_2412188f,Caxias do Sul Basquete,franchise,nbb_caxias,2026-09-19
+node_nbb_cearense_d1624a76,Basquete Cearense,franchise,nbb_cearense,2026-09-19
+node_nbb_corinthians_b68d3da5,Corinthians,franchise,nbb_corinthians,2026-09-19
+node_nbb_flamengo_da5aa53c,Flamengo,franchise,nbb_flamengo,2026-09-19
+node_nbb_franca_f9ae0698,Sesi Franca,franchise,nbb_franca,2026-09-19
+node_nbb_minas_642272bc,Minas Tênis Clube,franchise,nbb_minas,2026-09-19
+node_nbb_mogi_6a7ce8db,Mogi Basquete,franchise,nbb_mogi,2026-09-19
+node_nbb_osasco_3e2ae8cd,Basket Osasco,franchise,nbb_osasco,2026-09-19
+node_nbb_pato_5cd19e2b,Pato Basquete,franchise,nbb_pato,2026-09-19
+node_nbb_paulistano_3d3e53b0,Paulistano,franchise,nbb_paulistano,2026-09-19
+node_nbb_pinheiros_b6ac812c,Pinheiros,franchise,nbb_pinheiros,2026-09-19
+node_nbb_sao_jose_26c9e587,São José Basketball,franchise,nbb_sao_jose,2026-09-19
+node_nbb_uniao_corinthians_e3f878cd,Ceisc/União Corinthians,franchise,nbb_uniao_corinthians,2026-09-19
+node_nbb_unifacisa_9cc75fc5,Unifacisa,franchise,nbb_unifacisa,2026-09-19
+node_nbl_adelaide_e07738ec,Adelaide 36ers,franchise,nbl_adelaide,2026-09-19
+node_nbl_brisbane_5d2f0237,Brisbane Bullets,franchise,nbl_brisbane,2026-09-19
+node_nbl_cairns_355f1d90,Cairns Taipans,franchise,nbl_cairns,2026-09-19
+node_nbl_illawarra_cf9fcc9b,Illawarra Hawks,franchise,nbl_illawarra,2026-09-19
+node_nbl_melbourne_eb99bff6,Melbourne United,franchise,nbl_melbourne,2026-09-19
+node_nbl_nz_7836df76,New Zealand Breakers,franchise,nbl_nz,2026-09-19
+node_nbl_perth_d9e9f3ac,Perth Wildcats,franchise,nbl_perth,2026-09-19
+node_nbl_se_melbourne_6c9561e9,South East Melbourne Phoenix,franchise,nbl_se_melbourne,2026-09-19
+node_nbl_sydney_7cc1a8c4,Sydney Kings,franchise,nbl_sydney,2026-09-19
+node_nbl_tasmania_629b4271,Tasmania JackJumpers,franchise,nbl_tasmania,2026-09-19
+node_pba_blackwater_5a5d90b1,Blackwater Bossing,franchise,pba_blackwater,2026-09-19
+node_pba_converge_e98495be,Converge FiberXers,franchise,pba_converge,2026-09-19
+node_pba_ginebra_2f944a4e,Barangay Ginebra San Miguel,franchise,pba_ginebra,2026-09-19
+node_pba_magnolia_70fb5f2b,Magnolia Chicken Timplados Hotshots,franchise,pba_magnolia,2026-09-19
+node_pba_meralco_da91819d,Meralco Bolts,franchise,pba_meralco,2026-09-19
+node_pba_nlex_6d47fa48,NLEX Road Warriors,franchise,pba_nlex,2026-09-19
+node_pba_phoenix_8f7a046b,Phoenix Super LPG Fuel Masters,franchise,pba_phoenix,2026-09-19
+node_pba_ros_472e3d02,Rain or Shine Elasto Painters,franchise,pba_ros,2026-09-19
+node_pba_smb_602985ae,San Miguel Beermen,franchise,pba_smb,2026-09-19
+node_pba_terrafirma_6c394468,Terrafirma Dyip,franchise,pba_terrafirma,2026-09-19
+node_pba_titan_2bf8f382,Titan Ultra Giant Risers,franchise,pba_titan,2026-09-19
+node_pba_tnt_53fb9cbb,TNT Tropang 5G,franchise,pba_tnt,2026-09-19
+node_serie_a_bologna_8d414637,Virtus Segafredo Bologna,franchise,serie_a_bologna,2026-09-19
+node_serie_a_cantu_2ee95876,Acqua S.Bernardo Cantù,franchise,serie_a_cantu,2026-09-19
+node_serie_a_maxima_roma_704f8842,Maxima Roma,franchise,serie_a_maxima_roma,2026-09-19
+node_serie_a_milano_f5acb954,EA7 Emporio Armani Milano,franchise,serie_a_milano,2026-09-19
+node_serie_a_napoli_96acb011,Napoli Basket,franchise,serie_a_napoli,2026-09-19
+node_serie_a_reggio_e8c5b47c,UNA Hotels Reggio Emilia,franchise,serie_a_reggio,2026-09-19
+node_serie_a_roma_spqr_32adb467,BC Roma SPQR,franchise,serie_a_roma_spqr,2026-09-19
+node_serie_a_scafati_4b930fdc,Longobardi Scafati Basket,franchise,serie_a_scafati,2026-09-19
+node_serie_a_tortona_c9f81d92,Bertram Derthona Tortona,franchise,serie_a_tortona,2026-09-19
+node_serie_a_trento_08ff147b,Dolomiti Energia Trentino,franchise,serie_a_trento,2026-09-19
+node_serie_a_treviso_4df68c10,NutriBullet Treviso,franchise,serie_a_treviso,2026-09-19
+node_serie_a_trieste_51072de6,Pallacanestro Trieste,franchise,serie_a_trieste,2026-09-19
+node_serie_a_udine_86009ddc,APU Old Wild West Udine,franchise,serie_a_udine,2026-09-19
+node_serie_a_varese_31b5f3e8,Openjobmetis Varese,franchise,serie_a_varese,2026-09-19
+node_serie_a_venezia_7a9735d0,Umana Reyer Venezia,franchise,serie_a_venezia,2026-09-19
+node_serie_a_verona_e8f93808,Tezenis Verona,franchise,serie_a_verona,2026-09-19
+node_wcba_beijing_9cd3d0da,Beijing Great Wall,franchise,wcba_beijing,2026-09-19
+node_wcba_guangdong_2ac2265f,Guangdong Vermilion Birds,franchise,wcba_guangdong,2026-09-19
+node_wcba_hebei_69fb8db2,Hebei Win Power,franchise,wcba_hebei,2026-09-19
+node_wcba_heilongjiang_bfe28f21,Heilongjiang Dragons,franchise,wcba_heilongjiang,2026-09-19
+node_wcba_henan_56c36d87,Henan Phoenix,franchise,wcba_henan,2026-09-19
+node_wcba_inner_mongolia_479eb028,Inner Mongolia Nongxin,franchise,wcba_inner_mongolia,2026-09-19
+node_wcba_jiangsu_3d1e8734,Jiangsu Phoenix,franchise,wcba_jiangsu,2026-09-19
+node_wcba_liaoning_f8ea3e5c,Liaoning Flying Eagles,franchise,wcba_liaoning,2026-09-19
+node_wcba_shaanxi_2799f391,Shaanxi Red Wolves,franchise,wcba_shaanxi,2026-09-19
+node_wcba_shandong_1e3356b4,Shandong Six Stars,franchise,wcba_shandong,2026-09-19
+node_wcba_shanghai_d5983333,Shanghai Swordfish,franchise,wcba_shanghai,2026-09-19
+node_wcba_shanxi_5613788d,Shanxi Flame,franchise,wcba_shanxi,2026-09-19
+node_wcba_sichuan_7104f18d,Sichuan Yuanda Meile,franchise,wcba_sichuan,2026-09-19
+node_wcba_xinjiang_5e577ca5,Xinjiang Magic Deer,franchise,wcba_xinjiang,2026-09-19
+node_wjbl_aisin_af37449b,Aisin Wings,franchise,wjbl_aisin,2026-09-19
+node_wjbl_boshoku_220217dc,Toyota Boshoku Sunshine Rabbits,franchise,wjbl_boshoku,2026-09-19
+node_wjbl_chanson_eeceeb83,Chanson V-Magic,franchise,wjbl_chanson,2026-09-19
+node_wjbl_denso_6f4cf388,Denso Iris,franchise,wjbl_denso,2026-09-19
+node_wjbl_eneos_7838c960,Eneos Sunflowers,franchise,wjbl_eneos,2026-09-19
+node_wjbl_fujitsu_f4b08919,Fujitsu Red Wave,franchise,wjbl_fujitsu,2026-09-19
+node_wjbl_haneda_2ee6780e,Tokyo Haneda Vickies,franchise,wjbl_haneda,2026-09-19
+node_wjbl_toyota_e97ab344,Toyota Antelopes,franchise,wjbl_toyota,2026-09-19
+node_wnba_aces_q169165_05c27bf0,Las Vegas,city,wnba_aces_q169165,2026-09-19
+node_wnba_aces_q169165_1090f5f5,San Antonio Silver Stars,aka,wnba_aces_q169165,2026-09-19
+node_wnba_aces_q169165_18287a75,Utah Starzz,aka,wnba_aces_q169165,2026-09-19
+node_wnba_aces_q169165_35817337,San Antonio Stars,aka,wnba_aces_q169165,2026-09-19
+node_wnba_aces_q169165_85e0862c,Las Vegas Aces,franchise,wnba_aces_q169165,2026-09-19
+node_wnba_dream_q140558_0e3d0b4c,Atlanta Dream,franchise,wnba_dream_q140558,2026-09-19
+node_wnba_dream_q140558_8b1c40ce,Atlanta,city,wnba_dream_q140558,2026-09-19
+node_wnba_fever_q170329_237b43ed,Indiana Fever,franchise,wnba_fever_q170329,2026-09-19
+node_wnba_fever_q170329_8b9c1179,Indianapolis,city,wnba_fever_q170329,2026-09-19
+node_wnba_liberty_q1426420_1a7904f3,New York Liberty,franchise,wnba_liberty_q1426420,2026-09-19
+node_wnba_liberty_q1426420_d97e023d,New York City,city,wnba_liberty_q1426420,2026-09-19
+node_wnba_lynx_q140558_107d449e,Minnesota Lynx,franchise,wnba_lynx_q140558,2026-09-19
+node_wnba_lynx_q140558_c3958472,Minneapolis,city,wnba_lynx_q140558,2026-09-19
+node_wnba_mercury_q162954_2663bf1d,Phoenix Mercury,franchise,wnba_mercury_q162954,2026-09-19
+node_wnba_mercury_q162954_5047bc59,Phoenix,city,wnba_mercury_q162954,2026-09-19
+node_wnba_mystics_q180950_9a8995d0,"Washington, D.C.",city,wnba_mystics_q180950,2026-09-19
+node_wnba_mystics_q180950_a364920f,Washington Mystics,franchise,wnba_mystics_q180950,2026-09-19
+node_wnba_sky_q131371_9cfa1e69,Chicago,city,wnba_sky_q131371,2026-09-19
+node_wnba_sky_q131371_b96015ff,Chicago Sky,franchise,wnba_sky_q131371,2026-09-19
+node_wnba_sparks_q1441324_7ab3f4ca,Los Angeles Sparks,franchise,wnba_sparks_q1441324,2026-09-19
+node_wnba_sparks_q1441324_d0aa2dff,Los Angeles,city,wnba_sparks_q1441324,2026-09-19
+node_wnba_storm_q169138_1419066b,Seattle Storm,franchise,wnba_storm_q169138,2026-09-19
+node_wnba_storm_q169138_4c54c163,Seattle,city,wnba_storm_q169138,2026-09-19
+node_wnba_sun_q162990_1b750559,Orlando Miracle,aka,wnba_sun_q162990,2026-09-19
+node_wnba_sun_q162990_581c2c62,Uncasville,city,wnba_sun_q162990,2026-09-19
+node_wnba_sun_q162990_c3664233,Connecticut Sun,franchise,wnba_sun_q162990,2026-09-19
+node_wnba_wings_q169637_06504077,Dallas Wings,franchise,wnba_wings_q169637,2026-09-19
+node_wnba_wings_q169637_09ea9b5e,Dallas,city,wnba_wings_q169637,2026-09-19
+node_wnba_wings_q169637_8065d4e6,Detroit Shock,aka,wnba_wings_q169637,2026-09-19
+node_wnba_wings_q169637_e1c79505,Tulsa Shock,aka,wnba_wings_q169637,2026-09-19
+node_wnbl_adelaide_a11c40e2,Adelaide Lightning,franchise,wnbl_adelaide,2026-09-19
+node_wnbl_bendigo_b564983f,Bendigo Spirit,franchise,wnbl_bendigo,2026-09-19
+node_wnbl_canberra_1c95a081,UC Capitals,franchise,wnbl_canberra,2026-09-19
+node_wnbl_geelong_26b1d2b6,Geelong Venom,franchise,wnbl_geelong,2026-09-19
+node_wnbl_perth_310a4efa,Perth Lynx,franchise,wnbl_perth,2026-09-19
+node_wnbl_southside_5e03c2c4,Southside Melbourne Flyers,franchise,wnbl_southside,2026-09-19
+node_wnbl_sydney_18f1d9ec,Sydney Flames,franchise,wnbl_sydney,2026-09-19
+node_wnbl_tasmania_12286892,Tasmania Jewels,franchise,wnbl_tasmania,2026-09-19
+node_wnbl_townsville_c3755765,Townsville Fire,franchise,wnbl_townsville,2026-09-19
