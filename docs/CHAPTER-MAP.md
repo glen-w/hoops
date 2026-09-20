@@ -124,6 +124,10 @@ Track which data products support which sections of the manuscript, ensuring eve
 | TEAMS / FIBA BAT — creative cite-backed postcards | `docs/creative/bat-arbitration-postcards.md` | TBD | ready — 7 postcards; counts from `data/derived/fiba-bat-2022/` and the FIBA BAT Statistics PDF (access 2026-09-20); motif index `docs/creative/bat_postcard_motifs.csv` |
 | CBA / salary — Cap·Tax·Apron·MLE (2016-17–2026-27) | `data/derived/salary_cap_apron/nba_salary_cap_apron_history.csv` | TBD | ready — pr.nba.com only; aprons from 2023-24 |
 | CBA / salary — Cap/apron methodology | `data/derived/salary_cap_apron/methodology.md` | TBD | ready — primary-source-only rule |
+| AVERAGE / teams composite | `data/derived/average/average_team_profile.md` (+ `.json`, `average_team_inputs.csv`) | TBD | ready — Mode ownership=majority; median capacity=19019; colour **GAP** 0/30 |
+| AVERAGE / players universe | `data/derived/average/nba_players_historical.csv` (+ `nba_players_summary.md`) | TBD | ready — **4550** rows; coverage ≤2018 ends; modal first/last with distributions; draft blank |
+| AVERAGE / videogame ratings seed | `data/derived/average/nba_videogame_ratings_seed.csv` (+ `nba_videogame_ratings_sources.md`) | TBD | ready — **97** rows; HoopsHype `__NEXT_DATA__`; certainty tags; expand via roster crawl/Archive |
+| AVERAGE / methodology | `docs/average/methodology.md` (from pack `methodology.md`) | TBD | ready — No mean hex; no string-mean names; Phase-2 expansion listed |
 
 ## Column Definitions
 
@@ -169,6 +173,8 @@ Track which data products support which sections of the manuscript, ensuring eve
 **Teams P0f (2026-09-19):** 310-row desk (194 prior + 116 new). P0f added Asia/Oceania/Africa/Türkiye domestic leagues (CBA 20 + B.League 26 + KBL 10 + NBL 10 + BSL 16 + BAL 12 + WCBA 14 + WJBL 8). 7 WCBA QID gaps. Total gaps: 18 (2 EuroLeague Women + 7 LF Endesa + 2 LFB + 7 WCBA).
 
 **Teams P0e (2026-09-19):** Expanded to 194-row unified desk appending 8 top domestic leagues: Liga ACB (ES men, 18), LNB Élite (FR men, 16), Basketball Bundesliga (DE men, 18), Lega Basket Serie A (IT men, 16), Greek Basketball League (GR men, 14), Liga Femenina de Baloncesto (ES women, 9 with QIDs + 7 gaps), Ligue Féminine de Basketball (FR women, 10 with QIDs + 2 gaps), WNBL (AU women, 9). Total 11 documented QID gaps. Abbreviations uniquified within each league. Seed merged from P0e fragment (2026-09-19 access date, 2026-27 season). All clubs fetched/normalized from Wikidata. Colours/logos/ownership enrichment still deferred.
+
+**Average Desk Phase 1 (2026-09-20):** Added 4 artifacts in `data/derived/average/` and `docs/average/`: composite average team profile (mode ownership=majority; median capacity=19019; primary colour GAP 0/30); historical NBA players CSV (4550 rows, coverage ≤2018, modal first/last with distributions, draft fields blank); videogame ratings seed (97 rows from HoopsHype `__NEXT_DATA__`; certainty tags; sources documented for Phase-2 expansion); methodology with honesty locks (no mean hex, no string-mean names).
 
 ## Maintenance
 

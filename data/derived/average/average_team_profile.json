@@ -1,0 +1,88 @@
+{
+  "label": "average_nba_team_composite",
+  "disclaimer": "COMPOSITE OF DISTRIBUTIONS \u2014 not a fictional franchise. No invented hex; colour is GAP until official hex filled (P0d).",
+  "as_of_access": "2026-09-20",
+  "n_teams": 30,
+  "sources": {
+    "teams_desk": "/workspace/hoops-swatches-work/data/derived/teams/teams.csv",
+    "metro_us": "https://www2.census.gov/programs-surveys/popest/datasets/2020-2023/metro/totals/cbsa-est2023-alldata.csv",
+    "metro_toronto": "https://en.wikipedia.org/wiki/Greater_Toronto_Area (StatCan 2021 via Wikipedia; access 2026-09-20)",
+    "conference_division": "https://en.wikipedia.org/wiki/National_Basketball_Association (access 2026-09-20)"
+  },
+  "arena_capacity": {
+    "n": 30,
+    "min": 16867,
+    "median": 19019,
+    "mean": 18814.3,
+    "max": 20917,
+    "unit": "seats",
+    "source_field": "teams.csv arena_capacity"
+  },
+  "ownership_structure": {
+    "mode": "majority",
+    "mode_count": 20,
+    "mode_share_pct": 66.7,
+    "distribution": {
+      "majority": 20,
+      "sole": 5,
+      "group": 4,
+      "public": 1
+    },
+    "honesty": "Mode of teams.csv ownership_structure \u2014 not a made-up legal form."
+  },
+  "colours_primary_hex": {
+    "status": "GAP",
+    "filled_n": 0,
+    "gap_n": 30,
+    "modal_hex": null,
+    "honesty": "NEVER invent a mean hex. 0/30 primary hex filled in teams.csv as of teams desk; report GAP until P0d enrichment. Modal among filled would apply only when filled_n>0."
+  },
+  "conference_mix": {
+    "distribution": {
+      "Eastern": 15,
+      "Western": 15
+    },
+    "note": "NBA is balanced 15/15 by construction under current alignment."
+  },
+  "division_mix": {
+    "distribution": {
+      "Atlantic": 5,
+      "Central": 5,
+      "Southeast": 5,
+      "Northwest": 5,
+      "Pacific": 5,
+      "Southwest": 5
+    },
+    "note": "Six divisions \u00d7 five teams."
+  },
+  "metro_population": {
+    "n_with_pop": 30,
+    "n_us_census_2023": 29,
+    "n_statcan_2021_toronto": 1,
+    "us_msa_median": 4342304,
+    "us_msa_mean": 5664906.0,
+    "us_msa_min": 962165,
+    "us_msa_max": 19498249,
+    "all_including_toronto_median": 4454632,
+    "band_mode": "mid_large_2.5_5M",
+    "band_mode_count": 9,
+    "band_distribution": {
+      "mid_large_2.5_5M": 9,
+      "large_5_10M": 9,
+      "mid_1_2.5M": 7,
+      "megacity_10M+": 4,
+      "under_1M": 1
+    },
+    "honesty": "US figures are Census Bureau CBSA July 1 2023 estimates. Toronto uses StatCan 2021 via Wikipedia \u2014 different vintage/definition; kept in band mix but flagged. Shared metros (NYK+BKN; LAL+LAC) counted once per team (duplicate market rows by design)."
+  },
+  "founded_year": {
+    "median": 1967,
+    "mean": 1967.2,
+    "min": 1923,
+    "max": 2002
+  },
+  "country_mix": {
+    "US": 29,
+    "CA": 1
+  }
+}
