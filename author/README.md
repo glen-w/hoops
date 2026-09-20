@@ -13,6 +13,7 @@ They are **not** citeable sidecar artifacts. Do not point CHAPTER-MAP at these p
 | `author/cba_defined_terms_pocket/` | Pocket / motif companion (not a derived product) |
 | `author/process/` | Spike diaries, phase reports, hooks, exploratory scripts |
 | `author/creative_pops_motifs.csv` | Team creative-pops motif index |
+| `author/derived-creative/teams/` | Mascot bestiary + abbr phonology (parked from data/derived) |
 
 Machine-only scratch (secrets, huge dumps, throwaway REPL) stays under gitignored `local/`.
 

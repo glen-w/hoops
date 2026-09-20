@@ -3,8 +3,8 @@
 Generate relocation graph (edges & nodes) from teams.csv.
 
 Note: Mascot bestiary and abbreviation phonology generation removed.
-These interpretive analysis products have been archived in local/archive/teams/
-per SCOPE policy (creative/interpretive content stays gitignored).
+Those interpretive packs live under author/derived-creative/teams/ (committed
+author workspace per SCOPE — not citeable artifacts).
 """
 
 import csv
