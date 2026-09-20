@@ -131,6 +131,9 @@ Track which data products support which sections of the manuscript, ensuring eve
 | TEAMS / relocation graph | `data/derived/teams/relocation_edges.csv` | TBD | ready — nodes and edges from `teams.csv` former_names; see `relocation_methodology.md` |
 | TEAMS / mascot bestiary | `data/derived/teams/mascot_bestiary.csv` | TBD | ready — 441 rows; 30 HIGH with mascot text, 411 GAP; see `mascot_methodology.md` |
 | TEAMS / abbreviation phonology | `data/derived/teams/abbr_phonology.csv` | TBD | ready — 441 abbreviation pattern rows; see `abbr_phonology_methodology.md` |
+| CREATIVE / home-court pilgrimage | `data/derived/creative/home_court_pilgrimage/` | TBD | ready — cite-only from home_court_2024_playoffs.csv |
+| CREATIVE / bookshelf phylogeny | `data/derived/creative/bookshelf_phylogeny/` | TBD | ready — cite-only from books/comparable.csv |
+| CREATIVE / who owns the air | `data/derived/creative/who_owns_the_air/` | TBD | ready — cite-only from broadcast_ads; no fabricated deal dollars |
 
 ## Column Definitions
 
