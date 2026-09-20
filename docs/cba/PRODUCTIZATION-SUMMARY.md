@@ -1,5 +1,7 @@
 # CBA Parser Productization Summary
 
+The package this note describes is `src/hoops_data/cba/`. The indexes the chapter map and `scripts/cba_lookup.py` actually read were landed later under `data/cba/<edition>/derived/`. Paths below that say `data/derived/cba/` are the older fixture tree.
+
 ## Overview
 
 Successfully productized the CBA parse spike into `glen-w/hoops` per SPIKE-REPORT P0 requirements. The spike-derived parser is now a proper Python package with validation gates, CLI tools, and documentation.

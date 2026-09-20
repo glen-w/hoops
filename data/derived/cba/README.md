@@ -1,6 +1,10 @@
 # NBA CBA Derived Structure
 
-This directory contains **derived structural metadata** extracted from NBA Collective Bargaining Agreement PDFs.
+Older extractor fixture. The committed 2017 and 2023 indexes — the ones lookup and the chapter map use — are in [`data/cba/`](../../cba/README.md). This folder is not a second copy of that tree. The JSON shapes differ.
+
+What is here: `2023/structure.fixture.json`, a tiny stand-in for the schema in `schemas/cba_structure.schema.json`. `scripts/cba/ci_validate.sh` still looks in this folder.
+
+The notes below describe the fixture schema, not the spike indexes in `data/cba/`.
 
 ## What's Committed
 
@@ -74,7 +78,7 @@ Historical reference for comparison and evolution analysis.
 Validate structure files:
 
 ```bash
-python scripts/cba/validate_cba_structure.py data/derived/cba/*/structure.json
+python scripts/cba/validate_cba_structure.py data/derived/cba/2023/structure.fixture.json
 ```
 
 ## IP and Fair Use

@@ -4,7 +4,7 @@ This document describes the deterministic pipeline for extracting structural met
 
 ## Overview
 
-The CBA structure pipeline converts official NBA CBA PDFs into machine-readable structural metadata suitable for analysis and cross-referencing. The pipeline commits **only derived artifacts** (structural metadata), never the fulltext of the CBA itself.
+The CBA structure pipeline converts official NBA CBA PDFs into machine-readable structural metadata suitable for analysis and cross-referencing. The pipeline commits **only derived artifacts** (structural metadata), never the fulltext of the CBA itself. The indexes lookup uses are in `data/cba/<edition>/derived/`. The flow diagram below still names `data/derived/cba/`, which is the older fixture tree (`structure.fixture.json`). Those two JSON shapes are not interchangeable.
 
 **Related:** For querying structure metadata during drafting, see [CBA-LOOKUP.md](CBA-LOOKUP.md) — quick reference CLI for Scrivener mid-draft.
 

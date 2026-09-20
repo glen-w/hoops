@@ -1,5 +1,6 @@
-# leagues_seed.yaml — Curated source of truth for global basketball teams
-# This file is the P0 seed for the teams data pipeline.
+# leagues_seed.yaml — Curated source of truth for data/derived/teams/teams.csv
+# This file is the P0 seed for scripts/teams/fetch_and_normalize_teams.py.
+# src/hoops_data/teams/leagues_seed.yaml is a separate, older league list. Not a copy of this file.
 # Schema: league_id, name, gender, tier, wikidata_qid, wikipedia_en, teams[]
 # Team schema: team_id, name, short_name, wikidata_qid, wikipedia_en, status
 # status values: ready_for_p0c (has QID, ready to fetch) | ready_for_p0e | ready_for_p0f | gap (no QID; skip fetch)
