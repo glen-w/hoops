@@ -170,6 +170,11 @@ Track which data products support which sections of the manuscript, ensuring eve
 
 **Teams P0e (2026-09-19):** Expanded to 194-row unified desk appending 8 top domestic leagues: Liga ACB (ES men, 18), LNB Élite (FR men, 16), Basketball Bundesliga (DE men, 18), Lega Basket Serie A (IT men, 16), Greek Basketball League (GR men, 14), Liga Femenina de Baloncesto (ES women, 9 with QIDs + 7 gaps), Ligue Féminine de Basketball (FR women, 10 with QIDs + 2 gaps), WNBL (AU women, 9). Total 11 documented QID gaps. Abbreviations uniquified within each league. Seed merged from P0e fragment (2026-09-19 access date, 2026-27 season). All clubs fetched/normalized from Wikidata. Colours/logos/ownership enrichment still deferred.
 
+| COLOUR / paint language | `data/derived/paint/dulux_colours.csv` (+ pantone seed) | B4QRGG3Q; 9XJJWT6G | READY (seed; full Dulux 5032 on box raw) |
+| COLOUR / team hex cite | `data/derived/teams/nba_team_colours_cited.csv` | VPFRT5BC | READY (MEDIUM; wiki module; teams.csv GAP 0/30) |
+| COLOUR / paint×team crosswalk | `data/derived/paint/team_colour_paint_matches.csv` | VPFRT5BC | READY (CIE76 ΔE; 180 rows) |
+| COLOUR / paint hooks | `docs/colour/paint_team_hooks.md` (from pack `hooks.md`) | B4QRGG3Q | READY (5 cite-backed hooks) |
+
 ## Maintenance
 
 Update this map whenever:
