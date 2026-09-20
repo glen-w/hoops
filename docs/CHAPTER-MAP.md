@@ -124,6 +124,9 @@ Track which data products support which sections of the manuscript, ensuring eve
 | TEAMS / FIBA BAT — creative cite-backed postcards | `docs/creative/bat-arbitration-postcards.md` | TBD | ready — 7 postcards; counts from `data/derived/fiba-bat-2022/` and the FIBA BAT Statistics PDF (access 2026-09-20); motif index `docs/creative/bat_postcard_motifs.csv` |
 | CBA / salary — Cap·Tax·Apron·MLE (2016-17–2026-27) | `data/derived/salary_cap_apron/nba_salary_cap_apron_history.csv` | TBD | ready — pr.nba.com only; aprons from 2023-24 |
 | CBA / salary — Cap/apron methodology | `data/derived/salary_cap_apron/methodology.md` | TBD | ready — primary-source-only rule |
+| CREATIVE / home-court pilgrimage | `data/derived/creative/home_court_pilgrimage/` | TBD | ready — cite-only from home_court_2024_playoffs.csv; quirky pop-sci field guide to 2024 playoffs as ritual geography; motif: arenas as pilgrimage stops |
+| CREATIVE / bookshelf phylogeny | `data/derived/creative/bookshelf_phylogeny/` | TBD | ready — cite-only from books/comparable.csv; academia-adjacent cladogram-in-prose of 19 basketball books; clusters by era/method/access; motif: citation ecology |
+| CREATIVE / who owns the air | `data/derived/creative/who_owns_the_air/` | TBD | ready — cite-only from broadcast_ads/known_public_facts.csv + binder artifacts; field notes on national TV/ads money as media ecology; motif: three streams (rights/ad sales/sponsorship); no fabricated deal dollars |
 
 ## Column Definitions
 
