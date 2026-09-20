@@ -50,3 +50,7 @@ Compares the ROADMAP/mentions drafted 2023-24 line (88.9 FGA, ~47% FG, 35.1 3PA,
 ## Non-goals
 
 No Kaggle dump (credentials still blocked per ROADMAP). No playoff-only mix. No invented pace for early eras.
+
+## Layout note
+
+Root-level `data/derived/avg_game_by_decade.csv` / `_methodology.md` / `.md` were retired after the 2026-09-20 thicken. Cite files in this folder only.

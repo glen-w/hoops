@@ -52,9 +52,9 @@ When using or redistributing this data, please credit:
 
 ## Related Files
 
-- **Derived table:** `data/derived/avg_game_by_decade.csv`
-- **Methodology:** `data/derived/avg_game_by_decade_methodology.md`
-- **Transform script:** `scripts/build_avg_game_by_decade.py`
+- **Canonical pack:** `data/derived/avg_game_by_decade/` (cite `avg_game_by_decade.csv` + `methodology.md`)
+- **Reference rebuild (comparison only):** `scripts/build_avg_game_by_decade.py` → `avg_game_by_decade_from_reference.csv`
+- **This file:** older committed season extract; pack methodology notes where live BRef may diverge
 
 ## Notes
 

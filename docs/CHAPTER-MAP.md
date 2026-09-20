@@ -98,7 +98,7 @@ Track which data products support which sections of the manuscript, ensuring eve
 | AVERAGE / teams composite | `data/derived/average/average_team_profile.md` | TBD | ready — ownership mode majority; median capacity 19019; colour GAP |
 | AVERAGE / players universe | `data/derived/average/nba_players_historical.csv` | TBD | ready — 4550 rows; coverage ≤2018 |
 | AVERAGE / videogame ratings seed | `data/derived/average/nba_videogame_ratings_seed.csv` | TBD | ready — 97 rows; see sources note |
-| AVERAGE / methodology | `docs/average/methodology.md` | TBD | ready — no mean hex; no string-mean names |
+| AVERAGE / methodology | `data/derived/average/methodology.md` | TBD | ready — no mean hex; no string-mean names |
 | COLOUR / paint corpora seed | `data/derived/paint/dulux_colours.csv` | B4QRGG3Q; 9XJJWT6G | ready — Dulux 442 + Pantone 540 seeds with per-row source URLs |
 | COLOUR / NBA team hex cite | `data/derived/teams/nba_team_colours_cited.csv` | VPFRT5BC | ready — MEDIUM from wiki sports-colour module; does not fill teams.csv colour GAP |
 | COLOUR / paint × team crosswalk | `data/derived/paint/team_colour_paint_matches.csv` | VPFRT5BC | ready — CIE76 ΔE nearest paint; 180 match rows |
