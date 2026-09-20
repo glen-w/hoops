@@ -7,3 +7,4 @@ Cite-backed writing that sits next to the desks. Voice can be imaginative. Numbe
 | Ghost franchises | `ghost-franchises.md` | NBA and EuroLeague ownership ledgers. Motif index: `ghost_franchise_motifs.csv` |
 | Box-score sonnets | `box-score-sonnets/` | Decade averages, sample seasons, and the NBA height series |
 | FIBA BAT postcards | `bat-arbitration-postcards.md` | `data/derived/fiba-bat-2022/`. Motif index: `bat_postcard_motifs.csv` |
+| Blank cells, BAT, referees | `blank-cells-bat-referees/` | Salary cap apron, FIBA BAT timeline, NBA referee workloads. Motif index: `blank-cells-bat-referees/motif_tags.csv` |
