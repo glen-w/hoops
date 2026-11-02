@@ -1,0 +1,5 @@
+**Source key:** PENDING
+
+NBA broadcast production—camera positioning, lighting, colour grading, replay selection, and close-up frequency—constitutes a powerful visual vocabulary that shapes viewer perception of players and the game. The visual production side of NBA broadcasting remains underexplored as a site of gender representation: How systematically do production choices vary by player gender or gender expression? Do women's games receive different technical treatment in camera work, lighting, or editing than men's games? What is the demographic composition of NBA broadcast technical crews—directors, cinematographers, editors, lighting designers—and how does gender representation in those roles correlate with visual aesthetics? How does gender intersect with race, class, and national origin in production choices?
+
+Despite critical scholarship on sports media and broadcast racism, gender's role in NBA visual production remains largely unexamined. This gap is particularly pressing given basketball's complicated relationship to masculinity and growing visibility of women's professional basketball and non-binary athletes.

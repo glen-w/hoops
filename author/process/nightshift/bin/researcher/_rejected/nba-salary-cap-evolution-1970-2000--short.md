@@ -1,0 +1,1 @@
+The NBA salary cap system was introduced in the late 1970s. Collective bargaining agreements and cap calculation methods evolved over time, impacting franchise financial health and competitive balance.

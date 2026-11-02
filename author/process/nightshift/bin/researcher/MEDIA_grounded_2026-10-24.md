@@ -1,0 +1,1 @@
+4.2k: National/regional/international rights tiers (documented through 2024-25), sponsorship landscape, academic literature review (Crawford, Foster, Kunz, Mongeon, Hutchins, Salaga, He & Tao), League Pass blackouts. Flags 3 medium-priority gaps (blackout elasticity, streaming tier substitution, international deal structures). Ready for manuscript integration.

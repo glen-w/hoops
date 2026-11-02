@@ -1,0 +1,1 @@
+Expanded. COVID home advantage collapse: +2.1 pts → +0.4 pts (~1.7 per 1,000 fans). Refs not biased (Gong, Ehrlich & Potter, Szabó). Driver: player effort (Leota). Gentrification: property values rise (causal); displacement not causally proven (ethnographic only).

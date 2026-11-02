@@ -1,0 +1,1 @@
+Status summary: 3 ready for integration (MEDIA/STADIUM grounded + RSN analysis), 2 completed data builds (salary cap, sponsorship 2024-25), 5 blockers, 3 editorial decisions pending. Next: integrate MEDIA/STADIUM into manuscript, merge RSN with MEDIA chapter, resolve editorial scope, Glen restores Paperful venv.

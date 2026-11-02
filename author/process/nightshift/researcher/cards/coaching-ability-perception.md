@@ -1,0 +1,5 @@
+**Coaching ability perception**
+
+NBA teams evaluate coaches through overlapping frameworks that rarely align. The "eye-test"—subjective assessment of philosophy, communication, and team intangibles—remains influential in hiring decisions, yet predicting coaching success from these criteria proves difficult. Empirical measures (team win–loss records, player development rates, adjustment speed in-game) correlate inconsistently with hiring value, partly because coaching impact is confounded with roster quality, ownership stability, and franchise resources. Research on coaching effectiveness across sports suggests individual coach impact on outcomes is modest, yet hiring and firing decisions suggest otherwise: coaches are dismissed for failures partly attributed to front-office decisions or injury. The gap between how teams *perceive* coaching ability and how they *measure* it—or whether those measures predict future success—remains under-theorised in basketball scholarship.
+
+**Source key:** PENDING

@@ -1,0 +1,1 @@
+Maps 3 ready-to-integrate components (MEDIA rights timeline + RSN consolidation + sponsorship escalation; STADIUM arena financing post-2010 + validation gaps; FIN salary cap complete). Immediate use: manuscript draft can begin while blockers resolve parallel. Data gap priorities documented per chapter.

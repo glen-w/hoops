@@ -1,0 +1,1 @@
+Historical sources and scholarly analyses describe NBA franchise revenue evolution from 1950 to 2000. Introduction of free agency in the mid-1970s altered revenue-sharing formulas and competitive financial capacity across franchises.

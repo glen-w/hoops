@@ -1,0 +1,3 @@
+## NBA Salary Cap Evolution (1970‑2000)
+
+This card reviews the development of the NBA salary‑cap system from its inception in the late 1970s through the turn of the millennium. It will cover the legislative background, the collective‑bargaining agreements that introduced the cap, the mechanisms for calculating cap limits, and the impact on franchise financial health and competitive balance. Key topics include the 1983‑84 cap introduction, the 1995 luxury‑tax amendment, and the 1999‑2000 cap‑increase tied to league revenue growth. Sources will be drawn from league collective‑bargaining documents, academic analyses of sports economics, and contemporary media reports. Zotero key: PENDING (to be added after source retrieval).

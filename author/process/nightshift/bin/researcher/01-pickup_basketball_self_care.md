@@ -1,0 +1,1 @@
+Chapters written, citing reads. Draft Chapter 1: Pickup Basketball as Self-Care explores the therapeutic benefits of playing pickup games. It discusses how the game can help alleviate stress and anxiety, and how it can be a form of self-care. The chapter also touches on the importance of community and social connections in the game.

@@ -1,0 +1,8 @@
+# NBA Media Ownership and Basketball Coverage, 1950–2000
+
+{Simmons, 2001}; PENDING
+
+Media conglomerate consolidation reshaped NBA broadcast exposure from the 1950s through the 1990s. Newspaper chains (Knight-Ridder, Gannett, Tribune Co.) acquired local papers that held team broadcast rights, while television networks (CBS, NBC, ABC) negotiated league-wide packages. The 1980s cable boom — Turner Broadcasting (TBS/TNT), ESPN — introduced national cable windows, fragmenting the previous network duopoly. Ownership ties created conflicts: Tribune Co. owned the Chicago Bulls' WGN superstation *and* the Chicago Tribune sports section; Time Warner owned both Turner Sports and Sports Illustrated. Editorial independence eroded as broadcast partners influenced story selection. The 1990s regional sports network (RSN) wave — Fox Sports Net, Comcast SportsNet — shifted control to cable conglomerates, tying local broadcast revenue to carriage fees rather than advertising. Scholarly work (McChesney 1999; Wenner 1998) documents how conglomerate synergy prioritised cross-promotion over critical coverage. Primary sources: FCC ownership filings, network affiliate agreements, NBA broadcast contracts (1954–2000), *Broadcasting & Cable* yearbooks, *Sports Business Journal* archives. Gaps remain in quantifying ownership-driven coverage bias and RSN revenue splits pre-1995.
+
+---
+*Card created 2026-10-29. Zotero key PENDING — human review required.*

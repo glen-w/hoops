@@ -1,0 +1,1 @@
+PENDING ok. The NBA rim ring material grade and stock diameter are pending following the second Paperful miss.

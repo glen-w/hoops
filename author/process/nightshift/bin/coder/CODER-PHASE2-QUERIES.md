@@ -1,0 +1,1 @@
+✓ Pre-written 5 paperful_ask queries (3× MEDIA 2025-26, 2× sponsors). Execution checklist, timeout notes, fallback paths, scope boundaries documented.

@@ -1,0 +1,6 @@
+event_year,event,team_or_market,fee_usd,currency,status,source_key,confidence,notes
+2004,NBA expansion,Charlotte Bobcats,300000000,USD,reported,PENDING,UNVERIFIED,Model-only figure; verify against official NBA Board of Governors announcement before use
+2008,NBA relocation,Seattle SuperSonics to Oklahoma City,45000000,USD,reported,paperful:3EGEXSSS,MEDIUM,Settlement payment to City of Seattle to terminate Key Arena lease; not confirmed as a league relocation fee
+2013,NBA relocation,Sacramento Kings (sale/relocation vote),,USD,GAP,PENDING,GAP,Move withdrawn; no fee found in supplied excerpts
+2026,NBA expansion,Seattle,,USD,GAP,PENDING,GAP,Expansion fee unverified; open thread
+2026,NBA expansion,Las Vegas,,USD,GAP,PENDING,GAP,Expansion fee unverified; open thread

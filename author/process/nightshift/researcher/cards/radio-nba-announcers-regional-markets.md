@@ -1,0 +1,9 @@
+**Radio Broadcasting and NBA Regional Fanbases (1950s–1960s)**
+
+Before television dominated sports broadcasting, radio carried NBA games to regional audiences, shaping early franchise fanbases through the voices of local announcers. Regional radio networks licensed game broadcasts, with local sponsors (typically car dealers, appliance retailers, and regional breweries) underwriting play-by-play coverage. Radio announcers became civic figures: their improvised narration of fast-paced action cultivated emotional investment and sustained fan engagement during periods when league viability remained uncertain.
+
+The regional radio market strategy was economically rational. National broadcast infrastructure did not exist; franchises relied on local radio stations to build audience loyalty within metropolitan areas. Radio reach—extending beyond arena walls into automobiles, living rooms, and workplaces—effectively multiplied franchise revenue potential through ticket sales, merchandise, and indirect sponsor benefit. Regional announcers leveraged local dialect and references, reinforcing parochial identity.
+
+As television infrastructure expanded during the 1960s, radio audiences transitioned to televised games. Yet the era established a template: regional broadcast personalities shaped fan perception of franchise identity, competitive reputation, and regional pride. The transition from radio to television did not erase this dynamic; it amplified and nationalised it. Understanding early radio audiences illuminates how broadcast medium, geographic specificity, and personality-driven commentary collectively constructed fandom before league-wide television contracts standardised fan experience.
+
+**Source key:** PENDING

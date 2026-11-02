@@ -1,0 +1,1 @@
+The sixth chapter, Bibliometric Landscape, is written.

@@ -1,0 +1,1 @@
+STADIUM/FIN chapter scaffold: pre-2010 patterns (library available); post-2010 Vegas/SoFi/Crypto/Intuit sourcing checklist (SEC filings, municipal bonds, News, local permits). Guidance: cite verified sources only, no invented subsidies. Fallback: strong pre-2010 narrative + note research gap.

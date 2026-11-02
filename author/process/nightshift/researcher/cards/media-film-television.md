@@ -1,0 +1,5 @@
+## Media: Documentaries, Television, and Filmed Narratives, 1980–2026
+
+**Source key:** PENDING
+
+NBA franchises, players, and communities have been portrayed in documentaries, television programming, films, and streamed media content produced by external studios, broadcasters, and franchises themselves. These visual media narratives shape public understanding of franchise decision-making, player activism, community impacts, ownership conduct, and labour practices. This card reviews how documentaries and television productions have covered franchises from 1980 to 2026—including films about specific franchises, players, and communities; Netflix originals and ESPN documentaries; and franchise-produced content. Key investigation areas: documentary and film narratives about franchise history and decision-making; coverage of player activism, social responsibility, and community engagement; portrayal of franchise labour practices and worker issues; how visual media affect public discourse compared to journalism and books; role of franchise-produced content in narrative control; investigative documentaries examining franchise accountability.

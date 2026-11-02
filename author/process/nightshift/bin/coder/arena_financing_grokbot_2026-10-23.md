@@ -1,0 +1,1 @@
+Expanded. Private: Chase $1.4B, Intuit ~$2B. Public subsidy: Golden 1/Fiserv/Little Caesars 38–48%. Barclays ambiguous (PILOT). Bradbury et al. 130+ studies: limited growth. Long 2005: +40% when omitted costs counted. 9 Zotero keys flagged for validation.

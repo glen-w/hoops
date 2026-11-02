@@ -1,0 +1,7 @@
+## Arena Food Operations and Franchise Revenue
+
+Concession operations constitute a surprisingly overlooked element in professional basketball's revenue architecture. Whilst naming rights and broadcast deals attract scholarly scrutiny, food and beverage service demonstrates its own complexity: vendor partnerships route payments to arena operators, luxury suite catering commands premium margins, and operational efficiency maps directly to bottom-line profitability. The spatial design of concourse infrastructure—refrigeration, point-of-sale systems, traffic flow—reflects decades of incremental optimization.
+
+Since the 1950s, concession revenue has shifted from simple refreshments toward premium corporate catering and hospitality-suite dining, mirroring broader transformations in arena clientele and franchise business models. Contemporary venue operators coordinate multiple vendor relationships and revenue-sharing arrangements, yet empirical studies of concession margin variation across NBA franchises remain sparse. Financial analysts signal this channel as material to operating performance and franchise valuation, particularly as arena development merges hospitality and sports infrastructure.
+
+{Surname, YYYY} | **Source key:** PENDING

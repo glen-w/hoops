@@ -1,0 +1,5 @@
+Nielsen, 1960–2000
+
+Nielsen ratings served as the primary audience measurement system for professional basketball broadcasts from the 1960s onward, tracking a sample of households and calculating percentage ratings across the total viewing population. Both national and demographic breakdowns informed advertising valuations. Broadcasters and sponsors relied on these figures to negotiate licensing fees and sponsorship rates.
+
+However, documented disputes emerged when sponsors questioned reported ratings' accuracy, particularly in regional markets and specific demographic segments. Measurement discrepancies between reported Nielsen figures and actual viewership remained largely unresolved through the 20th century, lacking access to archival verification. These gaps in measurement reliability created persistent friction in sponsorship negotiations, as franchise valuations and advertising rates depended directly on audience sizes Nielsen reported. The tension between reported and suspected actual viewership influenced both sponsor confidence and the evolution of broadcast revenue structures throughout professional basketball's television era.

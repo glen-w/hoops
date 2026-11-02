@@ -1,0 +1,7 @@
+Franchise ownership structures in American professional basketball from 1950 to 2000 centred on capital consolidation and tax-advantaged investment strategies. {Flint, 1987} characterizes franchise ownership as "entrepreneurial capitalism," in which owners accumulated financial returns whilst their ideological worldview was reinforced through television subsidy and mass consumption. This operated not through overt coercion but through manufactured excitement and consumer massification, reinforcing capitalist interests subtly across the sports industry.
+
+{Nixon, 1974} identifies the commercial-legal mechanisms undergirding this structure. The Milwaukee Braves franchise exemplifies depreciation-based tax strategies: a $50,000 franchise fee generated annual tax write-offs of $600,000 against $6 million in player costs, yielding approximately $3 million in tax savings over ten years at roughly 50 per cent corporate tax rates. Franchise resale and depreciation-cycle reinitiation amplified these advantages. Professional sports ownership thus attracted "shrewd business men with surplus capital to invest, investments to shelter, and personal income tax liabilities to reduce" {Nixon, 1974}.
+
+Internal organizational structures and demographic characteristics of franchise leadership influenced team-level outcomes {Staub, n.d.}, suggesting that ownership culture shaped competitive and financial performance.
+
+**Sources:** Flint (AXWP9GAA, 1987); Nixon (924ZV3FX, 1974); Staub (KPJUUC2W, n.d.). Additional sources: ER8TGXNR, DLMQ5K9Y, AG49JIN4, BGHZATPS.

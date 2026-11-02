@@ -1,0 +1,7 @@
+Competitive balance in professional leagues depends on structural mechanisms that distribute resources and talent opportunities relatively equally across franchises. The NBA implements several interconnected systems: the draft awards lower-ranked teams earlier selection opportunities; the salary cap limits total player payroll per franchise; the luxury tax penalizes excessive spending; revenue sharing redistributes broadcast and merchandise income from larger to smaller markets. Empirical research examines whether these systems produce balanced outcomes where any franchise might win on merit rather than inherited advantage.
+
+Key questions include: do draft mechanics adequately offset inherited wealth? Does revenue sharing meaningfully level the playing field for smaller-market teams? How do rule changes (shooting distance, three-second rule) affect competitive opportunity? Do relocations or expansions strain league-wide balance?
+
+Historical data tracking championship concentration, playoff appearance rates by franchise size, and parity indices measure whether competitive balance improved or declined since the modern salary cap era began in 1985. Understanding competitive balance reveals whether professional leagues function as genuine competitions or reflect pre-existing economic and organizational inequality.
+
+**Source key:** PENDING

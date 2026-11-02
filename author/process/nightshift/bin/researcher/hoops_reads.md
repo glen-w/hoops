@@ -1,0 +1,1 @@
+hoops_reads: list of hoops papers to summarize, then write grounded chapter bytes. Cite paths in papers_cited.

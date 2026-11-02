@@ -1,0 +1,7 @@
+# Broadcast Journalism Archives NBA 1950-2000
+
+{Surname, YYYY} — PENDING
+
+Primary sources for NBA broadcast journalism 1950-2000 are fragmented across network production archives (CBS Sports, NBC Sports, ESPN), NBA Entertainment internal memos, team-owned regional network contracts, and broadcaster employment agreements. Key figures — Johnny Most (Celtics), Chick Hearn (Lakers), Marv Albert (NBC), Hubie Brown (CBS/ESPN), Doug Collins (NBC/TNT) — left limited archival footprints beyond game tapes. The Naismith Hall of Fame holds oral history interviews with several broadcasters; university collections (Syracuse Newhouse, Missouri, Northwestern) house sports media papers. Editorial independence tensions appear in league-controlled feed disputes (1980s NBA Entertainment vs. network producers) and sponsor influence on commentator hiring. Team-owned broadcasters (Most, Hearn) operated under club editorial guidelines; network talent negotiated separate agreements. No comprehensive finding aid exists — researchers must piece together NBA Entertainment archives (Secaucus/NY), network vaults, and Hall of Fame oral histories. Critical gap: regional network broadcaster contracts and editorial guidelines remain largely uncollected.
+
+Sources: Naismith Hall of Fame oral history catalogue; NBA Entertainment archive index (partial); network sports division finding aids; university sports media collections.

@@ -1,0 +1,5 @@
+# Stadium Concessions and Franchise Revenue
+
+Contemporary NBA arenas operate multi-tiered food and beverage operations that constitute material revenue streams for franchises. Concession economics encompass vendor partnerships, revenue-sharing arrangements with food service contractors, and luxury food services in premium seating—from standard concourse offerings to high-margin suite dining. These ancillary revenues reflect broader trends in sports facility financing: franchises capture profits from concessions whilst public authorities absorb infrastructure costs and long-term debt. Scholarly research on professional sports venue financing has highlighted how ancillary revenue streams (concessions, naming rights, sponsorships) offset public subsidies, yet the specific mechanics of concession revenue distribution, the profitability dependencies of franchises on food service, and the financial relationships between venues and operators remain underexamined in most analyses.
+
+**Source key:** PENDING

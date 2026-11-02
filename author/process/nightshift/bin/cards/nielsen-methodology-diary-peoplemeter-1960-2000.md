@@ -1,0 +1,8 @@
+# Nielsen Methodology: Diary vs. People-Meter Transition (1960–2000)
+
+{Nielsen Media Research, 1960–2000; PENDING}
+
+Nielsen's television audience measurement evolved from paper diaries to electronic people-meters during the NBA's broadcast expansion era. The diary method (1950s–1980s) relied on household members self-reporting viewing in 15-minute increments over a one-week sweep period, introducing recall bias and undercounting late-night sports. People-meters, rolled out in top-25 markets from 1987 onward, captured second-by-second tuning via set-top boxes and household member buttons, reducing co-viewing ambiguity but initially excluding smaller NBA markets. Local market measurement gaps persisted: markets below the top 50 often lacked people-meters until the late 1990s, meaning NBA games on regional sports networks in cities like Sacramento, Charlotte, or Orlando were measured by diary well into the 1990s. Sponsor disputes arose when diary sweeps coincided with NBA playoffs, inflating ratings for networks but misrepresenting regular-season delivery. Nielsen's 1993 "Local People Meter" (LPM) pilot in New York and Chicago revealed 10–15% lower sports ratings than diary estimates, prompting advertiser pushback. Basketball-specific sample sizes remained undisclosed in public reports; Nielsen treated sports as a daypart rather than a genre, limiting granularity for rights negotiations. Key sources: Nielsen methodological bulletins (1960–2000), Television Bureau of Advertising (TVB) critiques, and network sales research memos archived at the Library of Congress and Paley Center.
+
+---
+*Card created from mirror/Zotero; Paperful miss filed to nightshift_requests.json. Key PENDING — human to supply Zotero key.*

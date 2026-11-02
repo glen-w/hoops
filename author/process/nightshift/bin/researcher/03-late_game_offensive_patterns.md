@@ -1,0 +1,1 @@
+Draft Chapter 3: Late-Game Offensive Patterns analyzes the strategies and tactics used by teams in the final minutes of games. It examines the importance of time management, player positioning, and ball movement in creating scoring opportunities. The chapter also discusses the role of coaching in late-game strategy.

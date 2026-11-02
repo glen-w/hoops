@@ -1,0 +1,1 @@
+No historical sources or scholarly analyses found describing NBA arena and stadium operations from 1950 to 2000. Further research is needed to determine the impact of facility capacity, seating economics, and venue quality on franchise revenue and attendance.

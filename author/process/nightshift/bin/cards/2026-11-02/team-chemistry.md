@@ -1,0 +1,9 @@
+**Team Chemistry in NBA Franchise Building**
+
+Team chemistry—the subjective and measurable quality of player cohesion, shared offensive and defensive philosophy, and mutual trust on court—remains a primary determinant of franchise competitive success, yet occupies an understudied position in basketball analytics and business literature. Whilst franchises invest heavily in roster construction through draft, trades, and free agency, chemistry itself is frequently treated as secondary to individual talent accumulation or marginalised in contract negotiations.
+
+Muniz & Flamand (2022) frame the GM's task as a two-fold problem: valuing players and devising an acquisition strategy across draft, trade, and free agency. Maymin et al. (2013) define 'synergy' as the chemistry between players that adds value beyond individual contributions, noting that no widely accepted metric exists due to inherent difficulty in quantification. Michael Schrage (2014, cited in Muniz & Flamand) called this the new 'Holy Grail' of sports analytics.
+
+The strategic tension concerns 'fit' versus raw talent. Does a franchise prioritise complementary players with proven court cohesion, or accumulate statistical stars regardless of personality and playing style? Staub documents the San Antonio Spurs' model: scouting internationally and developing younger, less-known prospects who 'best fit the Spurs system.' Penner (2025) proposes a 'positionless' approach, clustering players into archetypes to optimise roster composition.
+
+Research by Juzeliūnas (2023) suggests that lower-level teams 'may struggle to develop the same level of chemistry, which can have a negative effect on their total success.' Morse et al. (2007) examine how roster turnover affects attendance and profitability, concluding it is 'most profitable for NBA teams to make roster changes in an effort to improve overall team performance.'

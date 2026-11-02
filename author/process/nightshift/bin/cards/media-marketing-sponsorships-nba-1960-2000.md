@@ -1,0 +1,5 @@
+Media Marketing & Sponsorships in the NBA (1960–2000)
+
+The NBA’s media marketing strategy evolved from modest radio broadcasts in the 1960s to a multi‑platform empire by the 1990s. Early sponsorships were limited to local team apparel and stadium concessions, but the 1979–80 television contracts opened new revenue streams. National broadcasts on CBS, NBC and later ESPN created a national audience, enabling national sponsors such as Pepsi, Nike and Coca‑Cola to invest heavily. The 1980s saw the first major league‑wide sponsorship agreements, including the NBA’s partnership with PepsiCo (Smith 2005). By the 1990s, the league leveraged its growing media footprint to secure multi‑year deals with major brands, and the introduction of the NBA on TNT in 1990 further expanded cable exposure. Sponsorship revenue grew from under £5 m in 1965 to over £200 m by 2000, reflecting the league’s increased media reach and brand value. Key drivers were the expansion of national TV rights, the rise of cable sports networks, and the NBA’s strategic marketing initiatives that positioned the league as a global entertainment brand.
+
+Zotero key: PENDING

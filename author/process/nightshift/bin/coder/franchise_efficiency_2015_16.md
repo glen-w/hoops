@@ -1,0 +1,1 @@
+Franchise efficiency 2015-16 data updated with verified payroll figures and notes on Forbes citation limitations.

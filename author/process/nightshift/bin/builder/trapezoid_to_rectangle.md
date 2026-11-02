@@ -1,0 +1,1 @@
+The trapezoid-to-rectangle key transition diagram is referenced in the FIBA 2024 equipment specifications.

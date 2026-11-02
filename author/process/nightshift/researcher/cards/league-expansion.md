@@ -1,0 +1,8 @@
+**League Expansion**
+
+The NBA's expansion from 1961 onwards occurred in direct response to market opportunity and competitive pressure. Downs & Seifried document a deliberate sequence: one franchise in 1961, another in 1966, then accelerating additions through the late 1960s and early 1970s. Rather than pursuing expansion initially, the league responded to the American Basketball Association's emergence by targeting untapped markets. Fort observes that expansion sites were selected from "the largest available markets," whilst Jozsa & Jr emphasise how demographic analysis—population growth, income levels, metropolitan statistics—shaped decision-making. Financial entry requirements were substantial: a $10,000 non-refundable application fee, a $2 million franchise fee, and a 12,500-seat arena under a renewable 10-year lease. Existing franchises received compensation through the expansion draft, surrendering 20 players each to new teams. These mechanisms created heterogeneous outcomes: whether expansion franchises achieved competitive parity and revenue viability remains under-explored in the excerpts provided. Critically, sources do not address how expansion timing correlated with broadcast growth, how long-term franchise success related to ownership characteristics, or whether expansion systematically disadvantaged existing rosters' competitive positioning.
+
+**Sources:**
+- Downs & Seifried, The 'Me' Arena (FPYIXZPD)
+- Fort, Cross-Subsidization and Outcomes (AG49JIN4)
+- Jozsa & Jr, Relocating Teams and Expanding Leagues (6WT9ESIJ)

@@ -1,0 +1,44 @@
+[
+  {
+    "kind": "info",
+    "title": "Merge this file into analysis/nightshift_requests.json",
+    "detail": "The coder tick has no read access to analysis/nightshift_requests.json and would wipe the daytime items if it overwrote it. This has happened two ticks in a row. Merge the items below by hand, then include nightshift_requests.json in the coder payload so later ticks can edit it in place.",
+    "priority": "high",
+    "status": "open"
+  },
+  {
+    "kind": "paper",
+    "title": "2023 CBA Article VII text: cap formula, 10% ceiling, floor, transition",
+    "detail": "Run pdftotext on https://imgix.cosmicjs.com/25da5eb0-15eb-11ee-b5b3-fbd321202bdf-Final-2023-NBA-Collective-Bargaining-Agreement-6-28-23.pdf (linked from https://nbpa.com/cba). Extract: the Art. VII s.2 Salary Cap formula; any 110%/smoothing clause; any minimum-growth floor; which agreement set the 2023-24 cap (announced 2023-06-30, CBA effective 2023-07-01). See analysis/salary_cap/cap_growth_rules.md.",
+    "priority": "high",
+    "status": "open"
+  },
+  {
+    "kind": "info",
+    "title": "Run cap_growth.py on the main CSV and diff against cap_growth_rules.md",
+    "detail": "Hand calculations: cap +3.000% (2021-22), +10.000% (2022-23, 2023-24, 2025-26), +3.358% (2024-25), +6.669% (2026-27); +75.22% cumulative, 5.77% a year compounded. The script has not been run yet.",
+    "priority": "medium",
+    "status": "open"
+  },
+  {
+    "kind": "info",
+    "title": "Update Zotero bib/glen-w/hoopsHoopsDerivedNBA2026",
+    "detail": "The entry still says 'Pending data PR' and has an empty URL. The CSV is on main: https://raw.githubusercontent.com/glen-w/hoops/main/data/derived/salary_cap_apron/nba_salary_cap_apron_history.csv",
+    "priority": "medium",
+    "status": "open"
+  },
+  {
+    "kind": "data",
+    "title": "Official 2024-25 NBA regular-season total attendance",
+    "detail": "Only secondary source so far: SBJ via theScore, average 18,147, total 'exceeded 22.3 million'. Derived total 22,320,195 to 22,321,425, assuming 1,230 games. Need an NBA release or the original SBJ article. See analysis/attendance/attendance_2024_25.md.",
+    "priority": "medium",
+    "status": "open"
+  },
+  {
+    "kind": "data",
+    "title": "2021-22 tax apron: decision is to keep the cell blank",
+    "detail": "Official release https://pr.nba.com/nba-salary-cap-for-2021-22-season-set-at-112-414-million gives cap, tax, minimum team salary and the three MLEs, but no apron (re-fetched 2026-10-22). That alone is enough to keep the cell blank. Hoops Rumors' $143.002M is excluded; according to a search snippet (page not fetched), a Hoops Rumors follow-up comment calls the apron 'trickier to calculate' and is unsure of the math. Reopen only if an official source turns up.",
+    "priority": "low",
+    "status": "closed"
+  }
+]

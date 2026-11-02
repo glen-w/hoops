@@ -1,0 +1,11 @@
+season,games,reviewed_calls,correct_calls,incorrect_calls,incorrect_noncalls,errors_favouring_home,errors_favouring_away,error_rate_pct,home_share_of_errors_pct,source
+2015,139,924,672,24,228,129,123,27.3,51.2,"github.com/atlhawksfanatic/L2M 1-tidy/L2M/L2M.csv fetched 2026-10-25; descriptive only, no tests"
+2016,439,2759,2002,107,650,399,358,27.4,52.7,"github.com/atlhawksfanatic/L2M 1-tidy/L2M/L2M.csv fetched 2026-10-25; descriptive only, no tests"
+2017,428,2209,1622,37,550,270,317,26.6,46.0,"github.com/atlhawksfanatic/L2M 1-tidy/L2M/L2M.csv fetched 2026-10-25; descriptive only, no tests"
+2018,475,2423,1830,60,533,309,284,24.5,52.1,"github.com/atlhawksfanatic/L2M 1-tidy/L2M/L2M.csv fetched 2026-10-25; descriptive only, no tests"
+2019,453,2558,1837,73,648,375,346,28.2,52.0,"github.com/atlhawksfanatic/L2M 1-tidy/L2M/L2M.csv fetched 2026-10-25; descriptive only, no tests"
+2020,389,2204,1653,68,483,265,286,25.0,48.1,"github.com/atlhawksfanatic/L2M 1-tidy/L2M/L2M.csv fetched 2026-10-25; descriptive only, no tests"
+2021,405,2161,1679,88,394,234,248,22.3,48.5,"github.com/atlhawksfanatic/L2M 1-tidy/L2M/L2M.csv fetched 2026-10-25; descriptive only, no tests"
+2022,441,2684,2010,95,579,347,327,25.1,51.5,"github.com/atlhawksfanatic/L2M 1-tidy/L2M/L2M.csv fetched 2026-10-25; descriptive only, no tests"
+2023,474,3053,2350,88,615,359,344,23.0,51.1,"github.com/atlhawksfanatic/L2M 1-tidy/L2M/L2M.csv fetched 2026-10-25; descriptive only, no tests"
+2024,39,222,172,8,42,24,26,22.5,48.0,"github.com/atlhawksfanatic/L2M 1-tidy/L2M/L2M.csv fetched 2026-10-25; descriptive only, no tests"

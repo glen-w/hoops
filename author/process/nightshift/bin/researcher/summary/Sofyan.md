@@ -1,0 +1,1 @@
+A bibliometric review of basketball game publication trends over the past five decades.

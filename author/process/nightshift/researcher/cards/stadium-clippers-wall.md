@@ -1,0 +1,5 @@
+**Source key:** PENDING
+
+Clippers wall
+
+The LA Clippers' 2024 relocation to Intuit Dome introduced a distinctive architectural feature: an advanced acoustic wall behind the basket, designed to enhance sound dynamics and fan engagement. The wall's tilted geometry and retractable mechanism reflect contemporary arena design trends integrating acoustics research with spectator experience optimization. Engineering specifications document how the wall's design affects crowd noise reverberation, audio amplification, and broadcast signal quality. The Clippers positioned the feature as a competitive differentiator for Intuit Dome relative to comparable NBA venues. However, independent peer-reviewed assessments of the wall's acoustic performance and competitive impact remain limited in published sports architecture and venue design literature. Future empirical studies examining arena noise levels, player communication clarity, and fan perception would provide stronger grounding for claims about performance implications and architectural innovation.

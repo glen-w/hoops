@@ -1,0 +1,1 @@
+Triage report: all 12 Grokbot files classified (done/ready-to-cite); fulfillment tracking for 12 researcher/coder requests; gap inventory with chapter mapping.

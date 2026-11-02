@@ -1,0 +1,1 @@
+Free-throw pressure outcome real and small (−2.5 pp late-close, −5.3 pp trailing, p < .01, n=519,640). Workload × pressure interaction null across 6 models (p > .05). Cascade hypothesis untested on kinematics/reinvestment. Ready to cite.

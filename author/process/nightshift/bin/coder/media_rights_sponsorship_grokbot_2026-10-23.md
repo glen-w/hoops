@@ -1,0 +1,1 @@
+Expanded. Media timeline 1990–26: NBC ($600M–$1.75B), cable ($4.6B–$7.4B), 2024 reset (Disney/NBC/Amazon ~$76B/11yr). RSN collapse (Diamond→Main Street→DAZN 2026-27). Sponsorship: Nike $1B, patches ~$150M, 30-team arena naming (17 values found).

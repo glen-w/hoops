@@ -1,0 +1,1 @@
+HR failed. Need to re-run hoops_list -> hoops_summary on $PAPERFUL_OUT/hoops mirrored paperful-summary notes; cite paths in papers_cited.

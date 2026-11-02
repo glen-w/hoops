@@ -1,0 +1,1 @@
+9-arena validation plan: SoFi (CRITICAL—unverified), Barclays (PILOT ongoing subsidy), Intuit (land-value method), Golden 1+Little Caesars (Sroka 2024 anchor), Allegiant (NFL comparator), Crypto.com (1999 pre-cutoff context). Checklist format (arena/key/status/validation/integration readiness) ready for mirror-online triage.

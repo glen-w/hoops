@@ -1,0 +1,1 @@
+Roadmap: merge grounded MEDIA/FIN/STADIUM into chapters 12/14/9; expand skeletons (interior, sponsorship, maintenance); consolidate oversized blocks; write transitions; ANALYTICS core; SOCIETY beyond race. Four highest-priority requests blocked by Paperful environ or data gaps; 19 medium/low queued.

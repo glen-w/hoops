@@ -1,0 +1,1 @@
+[{"kind":"info","title":"NBA radio broadcasting primary sources 1950-2000","detail":"Locate team media guides, Arbitron reports, flagship station contracts, and league office correspondence on radio rights for 1950-2000. Priority: rights fee data per franchise, Arbitron methodology for sports, sponsor integration evidence.","priority":"high","status":"queued"}]

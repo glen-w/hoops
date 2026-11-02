@@ -1,0 +1,1 @@
+Handoff doc for researcher. What's done (MEDIA, STADIUM, GAME TIME grounded analyses ready). Blockers (3) and pending decisions (2). Citation pointers, data artifacts in _grokbot/, quick pulls for manuscript. Next actions prioritized. File locations. Prepared 2026-10-23.

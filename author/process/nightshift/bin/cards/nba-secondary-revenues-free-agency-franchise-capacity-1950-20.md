@@ -1,0 +1,7 @@
+# Secondary Revenues, Free Agency, and Franchise Financial Capacity (1950–2000)
+
+The NBA's franchise financial capacity depended substantially on secondary revenue streams beyond national broadcasting rights. Gate receipts, local sponsorship, and merchandise formed a critical second tier; importantly, gate revenue was not shared with the visiting team, meaning home-market size conferred direct competitive advantage (Hausman & Leonard, 1997; 5ZFB9FVM). Early-1990s snapshots reveal gate receipts, local television, and merchandising varied markedly across franchises.
+
+The 1976 free-agency settlement, secured through antitrust litigation following the ABA–NBA salary war, fundamentally altered franchise financial dynamics. Free agency raised player salaries league-wide (Kahn, 2000; 8G9S68R7). Franchise operating costs surged, creating divergence: franchises with larger gate and sponsorship capacity absorbed rising payrolls more readily, whilst smaller-market franchises faced proportionally tighter constraints.
+
+Fort documents that average NBA franchise values grew at 16 % annually (1950–1990), accelerating to over 30 % in the 1980s (Fort, n.d.; AG49JIN4). Yet beneath aggregate growth, widening financial capacity gaps emerged, rooted in secondary revenue variance and market size. This disparity intensified through 2000.

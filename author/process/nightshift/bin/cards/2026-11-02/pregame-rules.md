@@ -1,0 +1,7 @@
+# Pregame Rules and Procedures
+
+Pregame rituals structure the opening moments of an NBA game, establishing ceremonial and regulatory foundations before play commences. The National Basketball Association prescribes formal procedures governing player introductions, the national anthem, the opening jump ball or coin toss, and warmup periods. These ceremonies serve both regulatory and symbolic functions: they ensure all players are present and ready for play, whilst establishing a shared temporal marker for crowd energy and team synchronisation.
+
+The opening jump ball—historically contested between two players at centre court—has evolved in significance as teams have optimised tipoff strategies and coaching emphasis on early momentum. Modern pregame procedures include detailed specifications for equipment checks, referee protocols, and timing intervals between player introduction and the start of play. The national anthem presents a recurring site of athlete activism and player voice, with various NBA players and teams utilising pregame moments to signal political and social commitments.
+
+How pregame ceremonies influence team readiness, crowd psychology, and early-game performance remains underexplored in basketball scholarship. **Source key:** PENDING

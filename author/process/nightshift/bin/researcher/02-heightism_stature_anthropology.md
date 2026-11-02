@@ -1,0 +1,1 @@
+Draft Chapter 2: Heightism & Anthropology of Stature examines the cultural significance of height in basketball. It explores how height has been used as a proxy for ability and how it has impacted the game. The chapter also delves into the anthropological aspects of height and its relationship to power dynamics.

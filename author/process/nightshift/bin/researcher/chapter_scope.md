@@ -1,0 +1,1 @@
+Cross-check chapter scope against papers_cited map. Document paper-to-chapter alignment for grounding verification.

@@ -1,0 +1,11 @@
+**Home-court advantage in the NBA**
+
+Home-court advantage — the structural win-rate benefit a team accrues by playing in its own arena — operates through three mechanisms: crowd-generated psychological and acoustic effects, physiological costs of opponent travel and disrupted rest, and facility familiarity.
+
+**Quantified crowd effects.** Empirical research documents substantial crowd contribution. Leota et al. (2022) exploited the 2020–2021 NBA season's crowd restrictions as a natural experiment: with crowds present, home teams won 58.65 per cent of games; without crowds, only 50.60 per cent. The differential isolates crowd effect from travel and facility benefits. Boudreaux et al. (2017) employed a more precise method, comparing the two teams sharing the Staples Center (identical venue, minimal travel differential). They estimated crowd effect raises home win probability by 21–22.8 percentage points, concluding "essentially the entire home advantage between the two teams is attributable to the crowd effect."
+
+**Travel and circadian disruption.** McHill & Chinoy (2020) analysed the 2019–2020 NBA "bubble" — 22 teams isolated in Orlando, no travel variation — and documented that eliminating travel reduced traditional home-court advantage in win percentage, shooting accuracy, and rebounding, implicating travel fatigue and circadian misalignment in opponent disadvantage.
+
+**Facility familiarity and acoustic engineering.** Court familiarity — dimensions, rim characteristics, sightlines, preparation routines — delivers incremental advantage. Recent franchise investment in arena acoustic design reflects explicit recognition that physical environment shapes competitive outcomes. The LA Clippers' Intuit Dome (opened 2024) exemplifies this engineering focus, designed to amplify crowd noise as a deliberate competitive asset. López-García et al. (2025) note that basketball exhibits "one of the strongest HA effects among team sports" and that advantage has fluctuated historically due to rule changes, logistics improvements, and conditioning advances.
+
+**Sources:** Leota et al. (2022) [BX95KRGC]; Boudreaux et al. (2017) [I3X565AZ]; McHill & Chinoy (2020) [RIBT4TY9]; López-García et al. (2025) [S4SBYLSK].

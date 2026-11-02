@@ -1,0 +1,9 @@
+# Broadcast Ratings and Professional Basketball Sponsorship, 1960–2000
+
+Nielsen ratings became the definitive metric for measuring television audience size, directly determining sponsorship value in professional basketball broadcasting. Sponsors valued broadcast placements primarily on Nielsen-measured reach: higher-rated broadcasts commanded proportionally higher advertising fees, creating a quantified link between measured viewership and franchise broadcast revenue. By the 1970s and 1980s, Nielsen ratings functioned as the financial backbone of basketball sponsorship negotiations, enabling sponsors to justify spending and franchises to project broadcast income.
+
+However, Nielsen's methodology had recognised limitations and gaps [PENDING: specific measurement biases, cable coverage gaps, demographic undercount methodologies]. The basketball industry acknowledged these measurement uncertainties [PENDING: documented industry disputes over rating accuracy], yet continued to base sponsor contracts entirely on Nielsen figures, suggesting either acceptance of the methodology or lack of viable alternatives. Cable's growth in the 1980s–1990s fragmented viewership further, complicating Nielsen's traditional network-based measurements and creating discrepancies between reported and actual reach [PENDING: specific chronology of cable measurement adaptation, documented discrepancies].
+
+The relationship between broadcast ratings and franchise financial capacity remained unbroken through the study period, but the reliability of that relationship for franchise planning deteriorated as the audience measurement infrastructure proved insufficient to track evolving broadcast distribution.
+
+PENDING. Sources: Nielsen broadcast rating methodologies (1960–2000); scholarly analysis of basketball sponsorship impact.

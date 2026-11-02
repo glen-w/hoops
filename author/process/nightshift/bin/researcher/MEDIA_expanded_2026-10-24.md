@@ -1,0 +1,1 @@
+MEDIA chapter: expanded sponsorship section (public/private split), RSN collapse asymmetry (teams recovered ~60%, fragmented regional map), streaming elasticity importance (per-subscriber vs. total revenue mechanism). Tier substitution question flagged as highest-priority blocker.

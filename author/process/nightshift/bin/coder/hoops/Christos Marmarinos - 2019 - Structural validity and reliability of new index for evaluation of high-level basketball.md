@@ -1,0 +1,1 @@
+Christos Marmarinos - 2019 - Structural validity and reliability of new index for evaluation of high-level basketball

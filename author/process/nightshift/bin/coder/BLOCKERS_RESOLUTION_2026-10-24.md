@@ -1,0 +1,1 @@
+Step-by-step Paperful venv restore (one bash command) + 4 sequential paperful_ask queries (FTA pressure, revenue-sharing, team revenue, sponsorship valuation). Zotero mirror validation checklist reference. 3 editorial decisions matrix (2025-26 scope, Ponzo disposition, shufinskiy metadata). hoops_record path defer to post-integration.

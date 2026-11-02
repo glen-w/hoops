@@ -1,0 +1,1 @@
+FIN chapter: Chase vs. Golden 1 outcomes section added (private vs. shared ownership/liability, 40-year horizon), property-appreciation feedback loop expanded (prices→rents→displacement risk), tax abatement renewal clarified as genuinely unsolved (renewals occur 2036–38, not yet decided). Intuit Dome case study tied to gentrification.

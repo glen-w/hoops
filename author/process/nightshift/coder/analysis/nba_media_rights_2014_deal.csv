@@ -1,0 +1,5 @@
+season_start,season_end,partner,category,value,unit,currency,source_key,as_of,confidence,notes
+2016-17,2024-25,ESPN,national_media_rights,1400000000,USD_per_year,USD,paperful:TVAJ23CR,2026-11-02,MEDIUM,"Reported ESPN annual value; excerpt describes ESPN news item, not official league release; no URL in excerpt"
+2016-17,2024-25,Turner,national_media_rights,1200000000,USD_per_year,USD,paperful:TVAJ23CR,2026-11-02,MEDIUM,"Reported Turner annual value; excerpt describes ESPN news item, not official league release; no URL in excerpt"
+2016-17,2024-25,ESPN; Turner,national_media_rights_total,24000000000,USD_total,USD,paperful:G2FZHP37,2026-11-02,MEDIUM,"Reported nine-year total; excerpt is a law journal article, not an official NBA release; no URL in excerpt"
+2016-17,2016-17,NBA,team_revenue_boost_low,30000000,USD_per_team_year,USD,paperful:G2FZHP37,2026-11-02,LOW,"Article says approximately $30M per team before boost; context only, not a salary-cap figure"

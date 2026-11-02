@@ -1,0 +1,7 @@
+**Arena Financing and Equipment Standards**
+
+Milwaukee pioneered public arena financing as urban strategy. In 1946, city council approved a sports arena with $2.6 million public funding—described as "the first attempt by a city to build an arena to position itself as a major market" [FPYIXZPD]. The facility opened in 1950 at approximately $6 million total cost with 11,046 seats, becoming the first multipurpose arena constructed post-World War II. This public-capital model—underwriting private-specification facilities—became the "Milwaukee Model," subsequently adopted across North America.
+
+NBA equipment standards are partially specified. Official basketball measures 0.591 kg mass, with rim interior diameter 0.45 m and backboards of safety tempered glass [Y4B655RD]. The 1940–41 National Basketball Committee legalized fan-shaped backboards with rounded corners [5VRHQ89B]. Full engineering standards—backboard dimensions, mounting height, material tensile specifications, and standards bodies such as ASTM or ISO—remain absent from available sources.
+
+Three knowledge gaps remain: complete Milwaukee funding breakdown (from initial $2.6 million commitment through final $6 million cost); Dallas Mavericks' American Airlines Centre financing post-2000; and early-arena operational costs including staffing, maintenance, and revenue.

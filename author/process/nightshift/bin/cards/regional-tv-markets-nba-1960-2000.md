@@ -1,0 +1,7 @@
+# Regional TV Markets & NBA Franchise Revenue, 1960–2000
+
+{Regional TV Markets, 1960–2000; PENDING}
+
+Regional television was the financial backbone of NBA franchises before national cable dominance. From the 1960s through the 1990s, local broadcast deals — often with independent UHF stations or regional sports networks (RSNs) — provided the largest single revenue stream for most teams. The Lakers' 1965 deal with KHJ-TV ($500k/year) and the Knicks' MSG Network launch (1969) set early templates. By the 1980s, RSNs like Prism (Philadelphia), SportsChannel (Chicago/New York), and Home Team Sports (Baltimore/Washington) created competitive bidding for local rights. Revenue-sharing models varied: some teams kept 100% of local TV revenue; others pooled a portion into league-wide funds (e.g., the 1983 NBA-TV revenue split). The 1990s RSN boom — Fox Sports Net (1996), Comcast SportsNet — drove local rights fees from ~$1–2M/year (early 1980s) to $10–30M/year (late 1990s) for large markets. Small-market teams (Milwaukee, Sacramento) lagged, widening financial disparity. Scholarly gap: no comprehensive study maps every team's local TV contract trajectory 1960–2000 alongside franchise valuations. Primary sources: team media guides, FCC filings, *Broadcasting & Cable* archives, RSN press kits, NBA Board of Governors minutes (restricted).
+
+Key question: how did regional TV revenue concentration in top-10 markets (NY, LA, Chicago, Philly, Boston, Detroit, SF Bay, DC, Dallas, Houston) distort competitive balance before the 1995 CBA luxury tax?

@@ -1,0 +1,1 @@
+MEDIA chapter scaffold: pre-2024 library available (TV deals, ABC/ESPN/TNT); 2024-25 streaming + sponsorship sourcing checklist for researcher (pr.nba.com, SEC filings, trade press, team websites). Fallback: mark 2024-25 out-of-scope if unavailable.

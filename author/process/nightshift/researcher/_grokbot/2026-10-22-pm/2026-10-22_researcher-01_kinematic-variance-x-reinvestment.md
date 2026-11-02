@@ -1,0 +1,48 @@
+# Does kinematic variance (Rusdiana) line up with reinvestment (Kinrade)?
+
+**Request:** 2026-10-22-overtime-researcher-01 (paper, high)
+**Status:** done. The short answer is that nobody has tested this in basketball.
+**Sources:** OpenAlex, Crossref and Semantic Scholar, plus one author accepted manuscript (Malhotra 2015). Every DOI below resolved. Zotero keys are in brackets.
+
+## Bottom line (suggestions, not orders)
+- **No study found measures Rusdiana-style free-throw kinematics and a Kinrade-style reinvestment score in the same cohort.** That includes both the Decision-Specific Reinvestment Scale (DSRS) and the Movement-Specific Reinvestment Scale (MSRS). No cross-cohort validation turned up either. As things stand, the "cascade" link is a hypothesis built from two separate literatures.
+- **These two anchors don't measure what the draft may assume:**
+  - **Rusdiana et al. 2020** is a conference proceedings paper (ICSSHPE 2019) with n = 10 players aged 16–18. It is correlational and uses Kinovea 2D video with a RAST fatigue protocol. Of eight kinematic indicators, only **wrist angular velocity** was significantly related to free-throw outcome under fatigue. It reports **no variance or variability measure** and no psychological measure at all. "Kinematic variance (Rusdiana)" may be over-reading it. [6REBX2D3, already in hoops/free throws]
+  - **Kinrade et al. 2015** is about *decision* reinvestment. The DSRS was tested on a computer-based basketball **passing-decision** task, and the rumination subscale did most of the predicting. Nothing in it involves shooting or movement. [FITU79BR]
+- **The nearest direct evidence comes from golf putting, and it points the "wrong" way.** Malhotra et al. 2015 is the only study found that correlates MSRS reinvestment scores with trial-to-trial kinematic **variability**. Higher reinvestment scores went with **lower** variability of impact velocity and face angle during practice, in novices, with no pressure manipulation. A chapter that argues "high reinvesters move more variably" should treat this as a counter-example.
+
+## Annotated papers
+
+### Same-person reinvestment × kinematics (closest to the ask)
+| Paper | What it actually found | Sample / sport | Fit |
+|---|---|---|---|
+| Malhotra, Poolton, Wilson, Omuro & Masters (2015). Dimensions of movement specific reinvestment in practice of a golf putting task. *Psychol Sport Exerc* 18, 1–8. https://doi.org/10.1016/j.psychsport.2014.11.008 [6NMFFTRA] | Both MSRS dimensions were *negatively* correlated with stroke variability (SD impact velocity, SD face angle). Movement self-consciousness was positively related to proficiency. Variability partly mediated the MSRS→proficiency link early in practice. | n = 30 novices, golf putting, SAM PuttLab kinematics; practice only, no pressure | **Direct test of the correlation, but in another sport and with the opposite sign.** |
+| Klämpfl, Lobinger & Raab (2013). Reinvestment – the cause of the yips? *PLoS ONE* 8(12), e82470. https://doi.org/10.1371/journal.pone.0082470 [AWUHXZ8R] | MSRS did **not** predict yips behaviour, measured as performance plus movement variability, under either attention condition. | n = 19 yips-affected golfers | Null result for reinvestment → variability. |
+| van Ginneken et al. (2018). Conscious control is associated with freezing of mechanical degrees of freedom during motor learning. *J Mot Behav* 50(4), 436–456. https://doi.org/10.1080/00222895.2017.1365045 [R3JBSWVD] | A higher propensity for conscious control went with *less* throwing-arm variability ("freezing") in error-strewn practice. | Lab throwing task, learners | Again links conscious control to *reduced* variability. |
+| Zhu et al. (2011). Neural co-activation as a yardstick of implicit motor learning and the propensity for conscious control of movement. *Biol Psychol* 87(1), 66–73. https://doi.org/10.1016/j.biopsycho.2011.02.004 [IJD8QBA2] | Ties T3–Fz EEG coherence (verbal–motor co-activation) to reinvestment propensity. Coherence rose under pressure in explicit learners. | Golf putting | A neural (not kinematic) marker. Note that Parr et al. 2023 found these EEG indices only weakly supported. |
+| Parr, Gallicchio & Wood (2023). EEG correlates of verbal and conscious processing of motor control… systematic review. *Int Rev Sport Exerc Psychol* 16(1), 396–427. https://doi.org/10.1080/1750984x.2021.1878548 [B4FT8QJ4] | Only 36% (alpha power) and 47% (coherence) of the 38 studies supported the putative conscious-processing markers. | Review | A caution against using EEG as a reinvestment proxy. |
+
+### Manipulated conscious processing → kinematics (no trait scale)
+| Paper | Finding | Sample | Fit |
+|---|---|---|---|
+| Toner & Moran (2011). The effects of conscious processing on golf putting proficiency and kinematics. *J Sports Sci* 29(7), 673–683. https://doi.org/10.1080/02640414.2011.553964 [9XUJRPUJ] | Technical-adjustment instructions **reduced stroke consistency** without hurting holing rate. Conscious *monitoring* hurt holing rate but not consistency. | Expert golfers | Shows that "conscious control" and "conscious monitoring" leave different kinematic signatures, a nuance worth carrying into the free-throw story. |
+| Gray (2004). Attending to the execution of a complex sensorimotor skill. *J Exp Psychol Appl* 10(1), 42–54. https://doi.org/10.1037/1076-898x.10.1.42 [29H4I5CF] | A skill-focused dual task raised **movement variability** and errors in *experts* only. Slumping experts attended more to execution. | Simulated baseball batting | The cleanest "skill focus → more variability" result. It manipulates attention rather than measuring trait reinvestment. |
+| Cooke et al. (2010). Psychological, muscular and kinematic factors mediate performance under pressure. *Psychophysiology*. https://doi.org/10.1111/j.1469-8986.2010.01021.x [UXGADH22] | Pressure raised muscle activity and lateral clubhead acceleration, which partly mediated the performance drop. | n = 58, golf putting | A pressure → kinematics → outcome pathway, without a reinvestment measure. |
+| Lam, Maxwell & Masters (2009). Analogy versus explicit learning of a modified basketball shooting task. *J Sports Sci* 27(2), 179–191. https://doi.org/10.1080/02640410802448764 [ME4JJMFX] | Explicit learners broke down under a secondary task and analogy learners didn't. **No kinematic group differences.** | n = 27 novices, modified basketball shot | The only basketball-shooting study here. Kinematics didn't separate the groups. |
+
+### Reinvestment scales and their predictive validity (Kinrade's side)
+- Kinrade, Jackson & Ashford (2010). Development and validation of the Decision-Specific Reinvestment Scale. *J Sports Sci* 28(10), 1127–1135. https://doi.org/10.1080/02640414.2010.499439 [WZTH4FH4]. Two factors: decision reinvestment and decision rumination. Scores correlated r = .74 with coaches' choking ratings in 59 team-sport players.
+- Kinrade, Jackson & Ashford (2010). Dispositional reinvestment and skill failure in cognitive and motor tasks. *Psychol Sport Exerc* 11(4), 312–319. https://doi.org/10.1016/j.psychsport.2010.02.005 [6T2X99VS]. In 63 students, Reinvestment Scale scores tracked pressure decrements in peg-board, golf-putting and working-memory tasks.
+- Jackson, Ashford & Norsworthy (2006). *J Sport Exerc Psychol* 28(1), 49–68. https://doi.org/10.1123/jsep.28.1.49 [W9WJQ8CX]. Field-hockey and soccer dribbling. High reinvesters were more prone to failure under pressure. There were no kinematics.
+- Masters (1992). Knowledge, knerves and know-how. *Br J Psychol* 83(3), 343–358. https://doi.org/10.1111/j.2044-8295.1992.tb02446.x [MZH5RB84], and Masters & Maxwell (2008). The theory of reinvestment. *Int Rev Sport Exerc Psychol* 1(2), 160–183. https://doi.org/10.1080/17509840802287218 [M4M9SCEP]. These are the theory anchors.
+- Iwatsuki et al. (2018). *J Hum Kinet* 65(1), 281–290. https://doi.org/10.2478/hukin-2018-0042 [IRZSWU9G]. In 160 tennis players, movement self-consciousness (not conscious motor processing) plus low self-efficacy predicted perceived choking.
+
+## Where the evidence is thin
+1. There is **no basketball study pairing a reinvestment scale with free-throw kinematics.** The closest are golf studies (Malhotra; Klämpfl) and they disagree on direction.
+2. **The theory doesn't actually predict "more variance".** Freezing degrees of freedom (van Ginneken) and *reduced* variability in high reinvesters (Malhotra) are both consistent with conscious control. Gray (2004) and Toner & Moran (2011) show *increased* variability under skill focus in experts. Skill level and the type of conscious processing look like the moderators.
+3. **Rusdiana gives a fatigue → kinematics → outcome correlation (n = 10).** It doesn't give variance or a reinvestment link. Uygur et al. (2010, see researcher-05) found *no* fatigue effect on free-throw joint angles in 10 collegiate players.
+
+## A possible way to phrase it (optional)
+> "Two literatures sit side by side without touching: one shows that fatigue can alter free-throw mechanics in small samples, the other that some players are dispositionally prone to take conscious control under pressure. Whether the second shows up as the first, as measurable wobble at the release, has, so far as we can find, never been tested on a basketball court. Golf's best attempt found that the self-monitors were actually *steadier* in practice."
+
+A study that would close the gap, if the coder or a collaborator wants to sketch one: MSRS and DSRS scores, IMU or video release kinematics, and free throws under low pressure, high pressure and post-fatigue, all in the same players.

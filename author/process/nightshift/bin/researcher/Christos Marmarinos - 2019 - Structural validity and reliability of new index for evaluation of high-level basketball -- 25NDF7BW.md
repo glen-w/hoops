@@ -1,0 +1,1 @@
+Structural validity and reliability of new index for evaluation of high-level basketball performance.

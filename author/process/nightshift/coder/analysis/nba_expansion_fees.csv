@@ -1,0 +1,7 @@
+year,event,team,amount_usd,source_key,source_url,confidence,notes
+2004,expansion_fee,Charlotte Bobcats,300000000,M7KEA87F,,HIGH,"Vrooman (2009) states Bobcats paid $300M; official NBA release not retrieved"
+2001,relocation_fee,Vancouver Grizzlies,30000000,M7KEA87F,,HIGH,"Same source; relocation fee, not expansion"
+2002,relocation_fee,Charlotte Hornets,30000000,M7KEA87F,,HIGH,"Same source; relocation fee, not expansion"
+2008,relocation_settlement,Seattle SuperSonics,45000000,3EGEXSSS,,HIGH,"Settlement to city of Seattle; not an expansion fee"
+2026,expansion_fee,Seattle,,PENDING,,GAP,"No cited expansion fee; Paperful miss"
+2026,expansion_fee,Las Vegas,,PENDING,,GAP,"No cited expansion fee; no excerpt mention"

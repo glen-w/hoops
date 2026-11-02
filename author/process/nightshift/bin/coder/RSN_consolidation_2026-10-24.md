@@ -1,0 +1,1 @@
+Main Street Sports Group shutdown (Apr 2026, 13 NBA teams), DAZN regional consolidation (Pacers/Spurs/Cavs model), Spain DAZN deal (2025-26 onward). League planning centralized local package 2027-28. Ready for MEDIA chapter broadcast section.

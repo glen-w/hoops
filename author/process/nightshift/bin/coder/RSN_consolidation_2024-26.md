@@ -1,0 +1,1 @@
+Main Street Sports Group wind-down (Apr 2026, 13 NBA teams), DAZN US local + Spain consolidation, YouTube centralized hub (2027-28 target). Grounded sources: SBJ, SBJ, Cord Cutters News. Ready for MEDIA chapter regional broadcast section. Narrative: revenue volatility, streaming consolidation, international bundling.

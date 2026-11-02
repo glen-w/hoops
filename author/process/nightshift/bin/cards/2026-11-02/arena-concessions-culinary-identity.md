@@ -1,0 +1,7 @@
+# Arena Culinary Programming and Franchise Identity
+
+From the 1980s onward, NBA arenas transformed food concessions from standardised vendor operations into curated culinary experiences reflecting regional food cultures. Contemporary franchises like the New Orleans Smoothie King Center and Brooklyn Barclays Center exemplify this evolution: menus feature local ingredients, partnerships with regional chefs, and premium offerings designed to differentiate franchise identity and bind food culture to fan engagement.
+
+Research documents how culinary programming functions as franchise differentiation strategy and community investment vehicle. High-end suites command premium pricing through tasting menus; general concourses incorporate local specialties; some franchises partner with minority-owned food vendors as corporate responsibility initiatives. {Surname, YYYY} demonstrates how food branding has become integral to franchise positioning, merging concession revenue with experiential value and local cultural authenticity. This evolution reflects the broader transformation of arena space: from utilitarian venue to immersive environment where food culture, labour equity, and fan engagement converge.
+
+**Source key:** PENDING

@@ -1,0 +1,13 @@
+# Nielsen Methodology for NBA Broadcasts, 1960–2000
+
+{Nielsen, 1960-2000; PENDING}
+
+Nielsen Media Research dominated U.S. television audience measurement throughout the NBA's broadcast era. From the 1960s through the early 1980s, Nielsen relied on paper diary methodology: households in sampled markets recorded viewing habits over a one-week sweep period, typically four times per year (February, May, July, November). Diary response rates declined from roughly 60% in the 1960s to below 40% by 1980, introducing non-response bias that disproportionately affected younger, urban demographics — core NBA audiences.
+
+The transition to People Meter technology began in 1987 in New York and Los Angeles, expanding to 25 markets by 1990 and 56 by 1995. People Meters captured minute-by-minute tuning via electronic set-top boxes and household member identification buttons, eliminating recall bias but introducing installation bias (cable-only homes initially underrepresented). For NBA broadcasts, this shift mattered: diary sweeps often missed mid-week regular-season games, while People Meters captured the full 82-game schedule plus playoffs.
+
+Basketball-specific sample sizes remained small. In 1990, Nielsen's national People Meter panel comprised roughly 5,000 households; local market panels in NBA cities ranged from 200–600 households. A single rating point in New York represented ~65,000 households; in smaller markets (Sacramento, Milwaukee), one point equaled ~5,000–8,000 households. This granularity limited statistical reliability for individual NBA telecasts, especially on regional sports networks (RSNs) where audiences fragmented across cable systems.
+
+Local market measurement gaps persisted. Nielsen's Designated Market Areas (DMAs) often combined multiple NBA territories (e.g., Baltimore/Washington) or split single franchises across DMAs (e.g., New York metro across three DMAs). RSN carriage disputes meant some NBA games aired on non-measured cable tiers. Nielsen's 1997 "Local People Meter" rollout in top-10 markets improved granularity but arrived late for the 1990s RSN boom. Scholarly work by Eastman & Ferguson (1997) and Webster & Lichty (1991) documents these limitations; NBA-specific analyses appear in league internal memos (NBA Archives, 1985–1999) and Sports Business Journal coverage (1994–2000).
+
+Key sources: Nielsen methodological reports (1960–2000, held at Library of Congress and Paley Center); NBA broadcast audit files (1980–1999); Eastman & Ferguson, *Media Programming* (1997); Webster & Lichty, *Ratings Analysis* (1991).

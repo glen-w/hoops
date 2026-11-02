@@ -1,0 +1,9 @@
+**Stadium: Warriors–Oakland**
+
+The Golden State Warriors' relocation from Oakland to San Francisco exemplifies patterns of sports franchise mobility and urban transformation in contemporary metropolitan America. The Oracle Arena, opened in 1997 in downtown Oakland, hosted the Warriors for four decades before the team's 2019 move to the newly built Chase Center in San Francisco.
+
+The Warriors' relocation reflected shifting investment priorities and metropolitan economics. Although Oracle Arena remained functionally adequate, ownership pursued a modern facility with enhanced revenue-generating amenities and access to San Francisco's wealthier consumer base. Chase Center, completed in 2019, incorporated sustainable design, premium seating, and integrated technology unavailable at the ageing Oakland venue. The new facility demonstrated how sports franchises prioritise architectural modernity and revenue optimisation over historical continuity.
+
+For Oakland, the relocation carried substantial economic and cultural consequences. The Warriors' presence had anchored downtown regeneration efforts and provided stable employment. The franchise's departure triggered discussion of fan displacement—both emotional, through severing decades-long community bonds, and economic, as relocated supporters faced increased travel costs. Broader impacts on Oakland's downtown economy and civic identity following the Warriors' departure warrant careful documentation, though detailed peer-reviewed scholarship on fan displacement outcomes and subsequent urban development remains limited.
+
+**Source key:** PENDING

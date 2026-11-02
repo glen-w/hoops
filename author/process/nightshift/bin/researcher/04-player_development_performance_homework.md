@@ -1,0 +1,1 @@
+Draft Chapter 4: Performance Homework & Player Development focuses on the importance of off-court training and preparation for basketball players. It discusses the role of homework and practice in improving skills and achieving success on the court. The chapter also touches on the role of mental preparation and visualization techniques.

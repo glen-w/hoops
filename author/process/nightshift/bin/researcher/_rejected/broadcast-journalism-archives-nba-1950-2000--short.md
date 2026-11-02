@@ -1,0 +1,1 @@
+MEDIA card written from hs + mirror

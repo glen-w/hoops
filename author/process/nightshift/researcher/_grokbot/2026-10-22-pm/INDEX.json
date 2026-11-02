@@ -1,0 +1,120 @@
+{
+  "night_id": "2026-10-22-pm",
+  "ingested_at": "2026-10-22T11:25:54Z",
+  "count": 14,
+  "duty": "Triage these grokbot drops: parse useful papers/data/info, file grounded notes into your sandbox, mark fulfilled requests, note junk or duplicates.",
+  "items": [
+    {
+      "file": "2026-10-22_nightshift-log.md",
+      "source": "2026-10-22_nightshift-log.md",
+      "sha16": "daedf9f2ce0e7d25",
+      "bytes": 11659,
+      "preview": "# Nightshift log: 2026-10-22 (night_id 2026-10-22-overtime)\n\nProcessed 6 requests from `requests.json` (sha256 502f50ac\u20268b26b18ed, updated 09:24 UTC = 11:24 Paris). Finished around 12:20 Paris time (CEST, UTC+2).\n\n**Constraints honoured:**\n- Nothing was sent or posted, and nothing was bought.\n- `requests.json` was not edited, and no files of Glen's were deleted or overwritten outside grokbot_outputs.\n- Zotero \"my pubs\" was not touched. No Zotero item was deleted or trashed, and no existing item's fields or notes were edited. The only change to existing items was adding collections.\n- The API key was never printed.\n\n**Verification:** every DOI cited resolved via Crossref and OpenAlex. No citations were invented. Where only a title was found and no abstract, that's stated in the brief.\n\n| id | title | status | output file(s) | note |\n|---|---|---|---|---|\n| 2026-10-22-overtime-researcher-01 | Kinematic variance \u00d7 Kinrade reinvestment | done | 2026-10-22_researcher-01_kinematic-variance-x-reinvestment.md | No same-cohort or cross-cohort basketball study exists. The closest is golf (Malhotra 2015), where high reinvesters were *less* variable. Rusdiana has no variance measure; Kinrade 2",
+      "triage": "pending"
+    },
+    {
+      "file": "2026-10-22_researcher-01_kinematic-variance-x-reinvestment.md",
+      "source": "2026-10-22_researcher-01_kinematic-variance-x-reinvestment.md",
+      "sha16": "97eb267f5ea2708f",
+      "bytes": 9703,
+      "preview": "# Does kinematic variance (Rusdiana) line up with reinvestment (Kinrade)?\n\n**Request:** 2026-10-22-overtime-researcher-01 (paper, high)\n**Status:** done. The short answer is that nobody has tested this in basketball.\n**Sources:** OpenAlex, Crossref and Semantic Scholar, plus one author accepted manuscript (Malhotra 2015). Every DOI below resolved. Zotero keys are in brackets.\n\n## Bottom line (suggestions, not orders)\n- **No study found measures Rusdiana-style free-throw kinematics and a Kinrade-style reinvestment score in the same cohort.** That includes both the Decision-Specific Reinvestment Scale (DSRS) and the Movement-Specific Reinvestment Scale (MSRS). No cross-cohort validation turned up either. As things stand, the \"cascade\" link is a hypothesis built from two separate literatures.\n- **These two anchors don't measure what the draft may assume:**\n  - **Rusdiana et al. 2020** is a conference proceedings paper (ICSSHPE 2019) with n = 10 players aged 16\u201318. It is correlational and uses Kinovea 2D video with a RAST fatigue protocol. Of eight kinematic indicators, only **wrist angular velocity** was significantly related to free-throw outcome under fatigue. It reports **no varian",
+      "triage": "pending"
+    },
+    {
+      "file": "2026-10-22_researcher-02_code_1_build_ft.py",
+      "source": "2026-10-22_researcher-02_code_1_build_ft.py",
+      "sha16": "865b8fa9d46e05f8",
+      "bytes": 4762,
+      "preview": "\"\"\"Build attempt-level NBA free-throw table with game context + workload.\nSource: shufinskiy/nba_data (stats.nba.com play-by-play + shotdetail mirror), seasons 2015-16..2023-24.\n\"\"\"\nimport pandas as pd, numpy as np, sys, re\nD='../data/'\nSEASONS=range(2015,2024)\nCOLS=['GAME_ID','EVENTNUM','EVENTMSGTYPE','EVENTMSGACTIONTYPE','PERIOD','PCTIMESTRING','HOMEDESCRIPTION','VISITORDESCRIPTION','SCORE','SCOREMARGIN',\n      'PERSON1TYPE','PLAYER1_ID','PLAYER1_NAME','PLAYER1_TEAM_ID','PERSON2TYPE','PLAYER2_ID','PLAYER2_TEAM_ID','PERSON3TYPE','PLAYER3_ID','PLAYER3_TEAM_ID']\n# FT action types: 10 1of1,11 1of2,12 2of2,13-15 1-3of3, 16 technical, 18/19 flagrant 1of2/2of2, 20 flagrant 1of1, 21/22 tech 1of2/2of2, 25/26 clear-path 1of2/2of2, 27-29 flagrant 1-3of3\nTECH={16,21,22}\ndef clock(s):\n    m,sec=s.split(':'); return int(m)*60+int(sec)\ndef elapsed(period,rem):\n    base=np.where(period<=4,(period-1)*720,2880+(period-5)*300)\n    plen=np.where(period<=4,720,300)\n    return base+plen-rem\n\ndef minutes_by_game(pbp):\n    \"\"\"Approximate per-player seconds on court, cumulative within game, from subs + period-first-appearance.\"\"\"\n    rows=[]  # (game, player, team, period, start_el, end_el)\n    for (g,p)",
+      "triage": "pending"
+    },
+    {
+      "file": "2026-10-22_researcher-02_code_2_enrich.py",
+      "source": "2026-10-22_researcher-02_code_2_enrich.py",
+      "sha16": "19a37179f33cece1",
+      "bytes": 3434,
+      "preview": "import pandas as pd, numpy as np\nft=pd.read_parquet('ft_raw.parquet'); mi=pd.read_parquet('minutes_intervals.parquet'); sc=pd.read_parquet('sched.parquet')\nmi['SECS']=(mi.END-mi.START).clip(lower=0)\npg=mi.groupby(['GAME_ID','PLAYER_ID','TEAM_ID','SEASON','SEASON_TYPE'],as_index=False).SECS.sum()\npg['MIN']=pg.SECS/60\n# validation: team minutes per game\ntg=pg.groupby(['GAME_ID','TEAM_ID']).MIN.sum()\nprint('team-min per game: median',tg.median(),'p5',tg.quantile(.05),'p95',tg.quantile(.95))\nsc['DATE']=pd.to_datetime(sc.GAME_DATE.astype(str))\nsc=sc.drop_duplicates(['GAME_ID','TEAM_ID'])\npg=pg.merge(sc[['GAME_ID','TEAM_ID','DATE']],on=['GAME_ID','TEAM_ID'],how='left')\nprint('missing dates',pg.DATE.isna().mean())\n# team schedule b2b (rest days) incl. both rg & po, within season\nts=sc.copy(); ts['SEASON_KEY']=ts.GAME_ID.astype(str).str[1:3]\nts=ts.sort_values(['TEAM_ID','DATE'])\nts['PREV']=ts.groupby(['TEAM_ID','SEASON_KEY']).DATE.shift(1)\nts['REST_DAYS']=(ts.DATE-ts.PREV).dt.days-1\nts['B2B']=(ts.REST_DAYS==0).astype(int)\n# player workload: cumulative season minutes/games before game (regular+playoffs chained), minutes in prior 7 days\npg['SEASON_KEY']=pg.GAME_ID.astype(str).str[1:3]\npg=pg.",
+      "triage": "pending"
+    },
+    {
+      "file": "2026-10-22_researcher-02_code_3_analyze.py",
+      "source": "2026-10-22_researcher-02_code_3_analyze.py",
+      "sha16": "dca3af55131c7afb",
+      "bytes": 4214,
+      "preview": "import pandas as pd, numpy as np, statsmodels.api as sm, statsmodels.formula.api as smf\nfrom statsmodels.stats.proportion import proportion_confint\nft=pd.read_parquet('ft_enriched.parquet')\nft=ft[ft.SEASON_MIN.notna()|ft.PLAYOFF.eq(1)].copy()\nlg=ft.MADE.mean(); K=20\ngrp=ft.groupby(['PLAYER_ID','SEASON']).MADE\nft['PS_N']=grp.transform('size'); ft['PS_M']=grp.transform('sum')\nft['BASE']=(ft.PS_M-ft.MADE+K*lg)/(ft.PS_N-1+K)\nft['BASE_LOGIT']=np.log(ft.BASE/(1-ft.BASE))\n# seasonal workload quartile (regular-season minutes, within season, among players with >=1 FT)\nps=ft.drop_duplicates(['PLAYER_ID','SEASON'])[['PLAYER_ID','SEASON','SEASON_MIN']]\nps['WL_Q']=ps.groupby('SEASON').SEASON_MIN.transform(lambda s: pd.qcut(s.rank(method='first'),4,labels=['Q1_low','Q2','Q3','Q4_high']))\nft=ft.merge(ps[['PLAYER_ID','SEASON','WL_Q']],on=['PLAYER_ID','SEASON'],how='left')\nft['HIGH_WL']=(ft.WL_Q=='Q4_high').astype(int)\nft['CUM_MIN_500']=ft.CUM_MIN_BEFORE/500; ft['MIN7D_30']=ft.MIN_PRIOR_7D/30; ft['INGAME_10']=ft.INGAME_MIN_BEFORE/10\nft['CONTEXT']=np.select([ft.LATE_CLOSE==1,ft.CLUTCH==1,ft.LOW_PRESSURE==1],['late_close(<=1min,<=3pts)','clutch_other(<=5min,<=5pts)','low_pressure(Q1-3 or margin>=20)'",
+      "triage": "pending"
+    },
+    {
+      "file": "2026-10-22_researcher-02_code_4_robustness_and_proxies.py",
+      "source": "2026-10-22_researcher-02_code_4_robustness_and_proxies.py",
+      "sha16": "6102b38e0df4376b",
+      "bytes": 4104,
+      "preview": "import pandas as pd, numpy as np, statsmodels.api as sm, statsmodels.formula.api as smf\nft=pd.read_parquet('ft_analysis.parquet')\nbase='MADE ~ BASE_LOGIT + SECOND_OF_PAIR + TECHNICAL + C(SEASON) + LATE_CLOSE + CLUTCH + PLAYOFF + B2B + INGAME_10 + CUM_MIN_500 + MIN7D_30 + HIGH_WL'\nout=[]\ndef fit(name,f,df):\n    m=smf.glm(f,data=df,family=sm.families.Binomial()).fit(cov_type='cluster',cov_kwds={'groups':df.PLAYER_ID.astype('int64')})\n    pr=m.predict(df); sc=(pr*(1-pr)).mean(); ci=m.conf_int()\n    for t in m.params.index:\n        if t.startswith('C(SEASON)') or t=='Intercept': continue\n        out.append(dict(model=name,term=t,coef_logodds=round(m.params[t],4),se_cluster_player=round(m.bse[t],4),ci95_low=round(ci.loc[t,0],4),ci95_high=round(ci.loc[t,1],4),p_value=round(m.pvalues[t],4),approx_ame_pp=round(100*sc*m.params[t],2),n=int(m.nobs),\n          source='stats.nba.com PBP via shufinskiy/nba_data; logit with player-season leave-one-out FT% baseline; SE clustered by player',confidence='MEDIUM (observational; associations only)'))\n    print(name,int(m.nobs))\nfit('M4_lateclose_interactions',base+' + LATE_CLOSE:B2B + LATE_CLOSE:HIGH_WL + LATE_CLOSE:INGAME_10 + LATE_CLOSE:MIN7D_30',ft)",
+      "triage": "pending"
+    },
+    {
+      "file": "2026-10-22_researcher-02_ft-pressure-workload-nba.md",
+      "source": "2026-10-22_researcher-02_ft-pressure-workload-nba.md",
+      "sha16": "e5e26f8f6852e42d",
+      "bytes": 9364,
+      "preview": "# NBA free-throw % by pressure context vs workload, 2015-16 to 2023-24\n\n**Request:** 2026-10-22-overtime-researcher-02 (data, high)\n**Status:** done. This is a real pull, about 520k attempts. It tests the Hore \u2192 Rusdiana \u2192 Kinrade \"cascade\" at outcome level only, and **the cascade prediction is not supported**.\n\n## Files\n| File | What |\n|---|---|\n| `2026-10-22_researcher-02_ft_pressure_workload_summary.csv` | A tidy summary. One row per season type \u00d7 pressure context \u00d7 split (season-minutes quartile, back-to-back, in-game minutes before the free throw). Columns: n, makes, FT%, Wilson 95% CI, **expected FT% from the shooters' own baselines**, observed minus expected (pp), `source`, `confidence`. |\n| `2026-10-22_researcher-02_ft_models.csv` | Logistic models M1\u2013M6. Columns: coefficients, player-clustered SEs, CIs, p, approximate average marginal effect in pp, `source`, `confidence`. |\n| `2026-10-22_researcher-02_ft_attempts_2015-2024.csv.gz` | Attempt-level data (519,640 rows, 12 MB gzipped), with game context, rest days, reconstructed minutes and the shooter baseline, for the coder to slice further. |\n| `2026-10-22_researcher-02_code_*.py` | The four pipeline scripts, so the pull is",
+      "triage": "pending"
+    },
+    {
+      "file": "2026-10-22_researcher-02_ft_attempts_2015-2024.csv.gz",
+      "source": "2026-10-22_researcher-02_ft_attempts_2015-2024.csv.gz",
+      "sha16": "bddc078d09af82b7",
+      "bytes": 12237193,
+      "preview": "",
+      "triage": "pending"
+    },
+    {
+      "file": "2026-10-22_researcher-02_ft_models.csv",
+      "source": "2026-10-22_researcher-02_ft_models.csv",
+      "sha16": "8d450a494d3c58f9",
+      "bytes": 17601,
+      "preview": "model,term,coef_logodds,se_cluster_player,ci95_low,ci95_high,p_value,approx_ame_pp,n,source,confidence\nM1_context,BASE_LOGIT,0.9823,0.0079,0.9669,0.9977,0.0,16.52,519640,stats.nba.com PBP via shufinskiy/nba_data; logit with player-season leave-one-out FT% baseline; SE clustered by player,MEDIUM (observational; associations only)\nM1_context,SECOND_OF_PAIR,0.2666,0.0081,0.2507,0.2825,0.0,4.48,519640,stats.nba.com PBP via shufinskiy/nba_data; logit with player-season leave-one-out FT% baseline; SE clustered by player,MEDIUM (observational; associations only)\nM1_context,TECHNICAL,-0.0198,0.0232,-0.0652,0.0256,0.393,-0.33,519640,stats.nba.com PBP via shufinskiy/nba_data; logit with player-season leave-one-out FT% baseline; SE clustered by player,MEDIUM (observational; associations only)\nM1_context,LATE_CLOSE,-0.1065,0.0298,-0.1649,-0.0481,0.0004,-1.79,519640,stats.nba.com PBP via shufinskiy/nba_data; logit with player-season leave-one-out FT% baseline; SE clustered by player,MEDIUM (observational; associations only)\nM1_context,CLUTCH,-0.0926,0.0177,-0.1273,-0.0578,0.0,-1.56,519640,stats.nba.com PBP via shufinskiy/nba_data; logit with player-season leave-one-out FT% baseline; SE clustere",
+      "triage": "pending"
+    },
+    {
+      "file": "2026-10-22_researcher-02_ft_pressure_workload_summary.csv",
+      "source": "2026-10-22_researcher-02_ft_pressure_workload_summary.csv",
+      "sha16": "767f9db40c9fa22a",
+      "bytes": 38658,
+      "preview": "season_scope,season_type,context,split_dim,split_level,n_attempts,n_made,ft_pct,ci95_low,ci95_high,expected_pct_from_shooter_baseline,diff_vs_expected_pp,source,confidence\n2015-16..2023-24,all,all,none,all,519640,401587,0.7728,0.7717,0.774,0.775,-0.22,stats.nba.com play-by-play + shotdetail via shufinskiy/nba_data (GitHub mirror); minutes reconstructed from substitutions,HIGH\n2015-16..2023-24,all,all,season_minutes_quartile,Q1_low,15579,10913,0.7005,0.6933,0.7076,0.7365,-3.61,stats.nba.com play-by-play + shotdetail via shufinskiy/nba_data (GitHub mirror); minutes reconstructed from substitutions,HIGH\n2015-16..2023-24,all,all,season_minutes_quartile,Q2,64220,47074,0.733,0.7296,0.7364,0.7426,-0.96,stats.nba.com play-by-play + shotdetail via shufinskiy/nba_data (GitHub mirror); minutes reconstructed from substitutions,HIGH\n2015-16..2023-24,all,all,season_minutes_quartile,Q3,139348,105849,0.7596,0.7574,0.7618,0.7617,-0.21,stats.nba.com play-by-play + shotdetail via shufinskiy/nba_data (GitHub mirror); minutes reconstructed from substitutions,HIGH\n2015-16..2023-24,all,all,season_minutes_quartile,Q4_high,300478,237740,0.7912,0.7897,0.7927,0.7901,0.11,stats.nba.com play-by-play + shotdeta",
+      "triage": "pending"
+    },
+    {
+      "file": "2026-10-22_researcher-03_automaticity-baseline-proxies.md",
+      "source": "2026-10-22_researcher-03_automaticity-baseline-proxies.md",
+      "sha16": "17e52b2a1660e352",
+      "bytes": 6701,
+      "preview": "# Proxy measures for an \"automaticity baseline\" to predict reinvestment susceptibility\n\n**Request:** 2026-10-22-overtime-researcher-03 (info, med)\n**Status:** done. This is a literature grounding plus a quick reliability check on the NBA data.\n**Companion data:** `2026-10-22_researcher-03_player_season_automaticity_proxies.csv` has one row per player-season, 2015-16 to 2023-24. It holds low-pressure FT%, pressure FT%, the gap between them, FT% over the first 20 and last 20 games, game-to-game FT% SD, minutes and games, with `source` and `confidence` columns.\n\n## What the literature uses to index automaticity (and what each would mean on an NBA court)\n| Proxy | Literature basis | Feasible with public NBA data? |\n|---|---|---|\n| **Dual-task cost.** Performance with vs without a secondary task: small cost means automated. | The standard operationalisation. Kal et al. 2018 review 25 trials. Beilock & Carr 2001 and Gray 2004 show experts are robust to extraneous dual tasks but hurt by skill-focused ones. | **No.** Lab only. |\n| **Trait reinvestment scales** (MSRS movement; DSRS decision). | Masters & Maxwell 2008. Kinrade et al. 2010 (DSRS r = .74 with coach choking ratings). Jackson et",
+      "triage": "pending"
+    },
+    {
+      "file": "2026-10-22_researcher-03_player_season_automaticity_proxies.csv",
+      "source": "2026-10-22_researcher-03_player_season_automaticity_proxies.csv",
+      "sha16": "2f4b026522295141",
+      "bytes": 785738,
+      "preview": "PLAYER_ID,SEASON,PLAYER_NAME,fta,ft_pct,season_min,season_gp,lowpress_fta,lowpress_ft_pct,press_fta,press_ft_pct,press_minus_lowpress_pp,first20g_fta,first20g_ft_pct,last20g_fta,last20g_ft_pct,pergame_ftpct_sd_games4plus,n_games4plus,source,confidence\n708,2015-16,Kevin Garnett,21,0.6667,555.75,38.0,17,0.8235,4,0.0,-82.3529,21,0.6667,0,,,0,stats.nba.com PBP via shufinskiy/nba_data; derived,VERY LOW (tiny pressure sample)\n977,2015-16,Kobe Bryant,281,0.8256,1863.45,66.0,206,0.8155,22,0.9091,9.3557,98,0.7857,98,0.8673,0.1858,37,stats.nba.com PBP via shufinskiy/nba_data; derived,LOW\n1495,2015-16,Tim Duncan,152,0.7039,1536.5167,61.0,125,0.704,8,0.75,4.6,63,0.7302,57,0.6667,0.1804,16,stats.nba.com PBP via shufinskiy/nba_data; derived,VERY LOW (tiny pressure sample)\n1713,2015-16,Vince Carter,92,0.8478,1005.2167,60.0,56,0.8929,5,1.0,10.7143,50,0.88,0,,,8,stats.nba.com PBP via shufinskiy/nba_data; derived,VERY LOW (tiny pressure sample)\n1713,2016-17,Vince Carter,122,0.7787,1799.55,73.0,93,0.7957,8,0.75,-4.5699,54,0.6667,59,0.8644,0.1717,13,stats.nba.com PBP via shufinskiy/nba_data; derived,VERY LOW (tiny pressure sample)\n1713,2017-18,Vince Carter,37,0.7568,1025.9667,58.0,25,0.76,0,,,37,0.756",
+      "triage": "pending"
+    },
+    {
+      "file": "2026-10-22_researcher-04_fatigue-executive-control.md",
+      "source": "2026-10-22_researcher-04_fatigue-executive-control.md",
+      "sha16": "0a669eade5d51487",
+      "bytes": 10894,
+      "preview": "# Does fatigue degrade prefrontal inhibition and working memory, and so the control reinvestment needs?\n\n**Request:** 2026-10-22-overtime-researcher-04 (paper, med)\n**Status:** done. There's good evidence for parts of the chain, but the full chain is untested.\n**Sources:** OpenAlex, Crossref, Semantic Scholar and PubMed or publisher abstracts. Every DOI below resolved. Zotero keys are in brackets.\n\n## Bottom line (suggestions, not orders)\n1. **\"Central fatigue\" covers two different things.** The literature splits cleanly:\n   - **Exercise-induced (physical) fatigue \u2192 executive function.** Hard or exhausting exercise *does* transiently hurt some executive measures. The effect is intensity-dependent and often small:\n     - Chang 2012 and McMorris & Hale 2012 (meta-analyses) report small overall effects; moderate exercise can even *speed* cognition.\n     - Labelle 2013 found switching errors rose with intensity.\n     - Schmit 2015 found more fast impulsive errors and weaker online correction near exhaustion, but **selective response inhibition held up**.\n     - Rooks 2010 found that prefrontal oxygenation falls at very hard intensities, which is the physiological basis of \"transient hy",
+      "triage": "pending"
+    },
+    {
+      "file": "2026-10-22_researcher-05_release-variability-under-pressure.md",
+      "source": "2026-10-22_researcher-05_release-variability-under-pressure.md",
+      "sha16": "959d6de51075da30",
+      "bytes": 8946,
+      "preview": "# Free-throw release stability under pressure, and whether fatigue predicts it\n\n**Request:** 2026-10-22-overtime-researcher-05 (paper, high)\n**Status:** done. The evidence is partial, and the \"predictable from fatigue or workload\" part is untested.\n**Sources:** OpenAlex, Crossref and Semantic Scholar abstracts. Every DOI below resolved. Zotero keys are in brackets.\n\n## Bottom line (suggestions, not orders)\n- **Pressure \u2192 free-throw kinematics.** One recent study measures it directly. **Cruz et al. 2026** (*Sci Rep*) found that pressure and sensory occlusion \"altered joint kinematics\" and raised prefrontal oxygenation (fNIRS) in 24 youth players taking 100 free throws per condition. The abstract doesn't say whether *release variability* specifically went up, so read the full text before quoting a direction. The other direct test, **Mascret et al. 2016**, found **no effect** of a social-stress test on movement execution in novices.\n- **What's well established is that miss/make differences show up as late variability.** Mullineaux & Uhl (2010) found elbow\u2013wrist coordination variability rose in the last 0.01 s before release on **misses**. Button et al. (2003) and Verhoeven & Newell (2",
+      "triage": "pending"
+    }
+  ]
+}

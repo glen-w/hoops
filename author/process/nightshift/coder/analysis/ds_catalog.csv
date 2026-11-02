@@ -1,0 +1,15 @@
+id,title,lang,access,url,caution
+PXFIX2G8,nbastatR,R,api+scrape,https://github.com/abresler/nbastatR,
+ASRNZRRW,pbpstats,Python,api,https://github.com/dblackrun/pbpstats,
+NEGCDXKA,hoopR (sportsdataverse),R,api+scrape,https://github.com/sportsdataverse/hoopR,KenPom needs subscription
+ZV8R54SA,BasketballAnalyzeR,R,analysis-lib,https://cran.r-project.org/package=BasketballAnalyzeR,
+9FJZPDKM,nba_api,Python,api,https://github.com/swar/nba_api,Rate-limit/ToS; do not redistribute raw dumps without license check
+7FHGENDV,Barttorvik (T-Rank) college basketball,web,scrape,https://barttorvik.com/,Verify scrape/ToS for bulk use
+WNKIH56T,Basketball-Reference,web,scrape,https://www.basketball-reference.com/,Not a bulk open dump license; scrape with etiquette
+RTJ8Q7E6,KenPom,web,paywall,https://kenpom.com/,Cite-only for manuscript unless subscribed
+6HB5G2B3,NBA Stats (stats.nba.com),web,api,https://www.stats.nba.com/,Endpoints change; tracking/advanced uneven by era
+ZJQF9C6X,Basketball_reference_scraper,Python,scrape,https://github.com/vishaalagartha/basketball_reference_scraper,Rate-limit politely; commercial ToS check
+VVBZ3IXN,wyattowalsh/basketball (Kaggle nbadb),SQLite,bulk,https://www.kaggle.com/datasets/wyattowalsh/basketball,Needs Kaggle auth; parked for later
+4J27S9CP,wehoop,R,api+scrape,https://github.com/sportsdataverse/wehoop,WNBA and women's college
+NVTWTCHG,Barttorvik T-Rank NCAA team ratings CSVs,CSV,open,https://barttorvik.com/,Season-end CSVs from ~2008
+CTJJ3N4H,awesome-nba-data,index,index,https://github.com/JovaniPink/awesome-nba-data,Curation and ToS matrix; not a license grant

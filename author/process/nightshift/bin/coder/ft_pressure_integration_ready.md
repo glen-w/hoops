@@ -1,0 +1,1 @@
+FT Pressure Integration Ready — guidance for GAME TIME section. Cites Solomonov, Cao, Goldschmied (4 Zotero keys). Effect: −2.5–5.3pp. No workload confound.

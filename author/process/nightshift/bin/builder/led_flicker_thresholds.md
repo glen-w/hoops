@@ -1,0 +1,1 @@
+LED flicker thresholds for 4K/8K broadcast compliance are defined by FIBA 2024, EBU R103, and SMPTE ST 2082-1.

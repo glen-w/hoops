@@ -1,0 +1,6 @@
+# Arena Concessions & Vendor Consolidation: Labour Conditions
+
+Stadium food operations have become dominated by two corporate vendors—Aramark and Levy Restaurants—whose concession contracts reshape franchise economics and worker conditions. These vendors operate on tight margins within public-private arena partnerships, where franchise revenue-sharing agreements and labour cost pressures collide. The scholarly record on how consolidation influences wages, collective bargaining, and public equity remains thin. Key holes: How do vendor contracts structure franchise profitability in concessions revenue? What labour standards govern Aramark and Levy operations in NBA arenas? When tax-funded venues depend on low-wage concession labour, how do vendor consolidation dynamics alter the public subsidy calculation? Grounding requires primary vendor documents, labour studies, and municipal bond prospectuses that link concession revenue forecasts to worker equity assumptions—still largely absent from the literature and accessible archives.
+
+**Source key:** PENDING (vendor labour conditions; Aramark/Levy consolidation; vendor-franchise revenue-sharing models; public-private equity implications)
+

@@ -1,0 +1,13 @@
+Arena,City,State,Opening_Year,Renovation_Year,Capex_USD_Millions,Currency,Source,Confidence,Notes
+Crypto.com Arena,Los Angeles,CA,1999,2021,,USD,,MEDIUM,"Formerly Staples Center; $700M renovation 2021 reported in media (need cite)"
+FedExForum,Memphis,TN,2004,,,USD,,HIGH,"Public facility; opened 2004 (MOU 2000)"
+American Airlines Center,Dallas,TX,2001,,,USD,,MEDIUM,"Opened 2001; $420M cost reported (need SEC/muni bond verify)"
+Spectrum Center,Charlotte,NC,2005,2019,,USD,,MEDIUM,"Originally Time Warner Cable Arena (2005); $275M renovation 2019 (need verify)"
+Smoothie King Center,New Orleans,LA,1999,2014,,USD,,MEDIUM,"Formerly New Orleans Arena; $113M renovation 2014 (need verify)"
+AT&T Center,San Antonio,TX,2002,2016,,USD,,MEDIUM,"Opened 2002; $265M renovation 2016 (need verify)"
+Chase Center,San Francisco,CA,2019,,,USD,,MEDIUM,"Warriors arena; $1.4B total cost reported (need SEC filing)"
+Intuit Dome,Los Angeles,CA,2024,,,USD,,MEDIUM,"Clippers/UKG arena; ~$2.0B reported (need verify)"
+Barclays Center,Brooklyn,NY,2012,,,USD,,MEDIUM,"Nets/Islanders; $1.0B reported (need SEC/public authority)"
+T-Mobile Arena,Las Vegas,NV,2016,,,USD,,MEDIUM,"Multi-use; ~$375M (need verify if arena-specific capex only)"
+Paycom Center,Oklahoma City,OK,2002,2021,,USD,,MEDIUM,"Opened 2002 as Ford Center; $200M+ renovation (need verify)"
+Amazon Arena,Seattle,WA,2024,,,USD,,MEDIUM,"Climate Pledge Arena rebuild; $1B+ (need verify)"

@@ -1,0 +1,5 @@
+# NBA Draft & Roster Construction 1950–2000
+
+The NBA draft evolved from territorial picks (1950–1965) to a pure reverse-order lottery (1985 onward). Early franchises exploited territorial rights — Cincinnati claimed Oscar Robertson, Philadelphia Wilt Chamberlain — cementing competitive imbalance. The 1966 elimination of territorial picks and 1975 hardship rule (Spencer Haywood) forced league-wide scouting infrastructures. By the 1980s, Portland (1984 Bowie over Jordan) and Boston (1986 Bias tragedy) showed draft stakes. The 1989 reduction to two rounds concentrated talent; the 1995 rookie scale contract capped salaries, shifting roster construction toward veteran free agency. Scholarly consensus: draft mechanics drove parity more than revenue sharing (Quirk & Fort, 1997; Berri & Schmidt, 2010).
+
+Key sources: NBA Official Guides (1950–2000); *Sporting News* draft coverage; Kahn (1993) *The Breaks of the Game*; Pluto (1992) *Tall Tales*; Berri, Schmidt & Brook (2006) *The Wages of Wins* Ch. 4; Coon (2011) CBA FAQ archives. Zotero: PENDING.

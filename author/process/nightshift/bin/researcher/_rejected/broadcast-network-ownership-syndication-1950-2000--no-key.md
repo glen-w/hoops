@@ -1,0 +1,7 @@
+# NBA Broadcast Ownership and Regional Syndication (1950–2000)
+
+**Sources:** Bell, Fortunato, Hoehn, Hausman & Leonard. Full citations via Zotero (S1–S8); see hoops_summary.
+
+The NBA operated a hybrid broadcast governance model in which the league's central office negotiated and controlled national television contracts while individual teams retained full authority over local and regional broadcasts of non-nationally-televised games. During the 1990–91 season, national contracts with NBC and TNT generated approximately $180 million, distributed equally among 27 teams (~$6.8M each); the league controlled ~80% of all revenues distributed to teams, while franchises retained 100% of local broadcast revenues. This structure incentivized teams to maximize local market penetration via regional sports networks and independent stations.
+
+From the early 1980s, the league imposed restraints to protect national contract value: the Board of Governors capped each team at 41 over-the-air free-broadcast games annually (half the regular season) and later conflicted with superstations WGN and WTBS over geographic market intrusion. By 1998–2002, the NBC/Turner package reached $2.4 billion over four years. This bifurcated ownership structure—league-controlled national (equally distributed) and team-controlled local (100% retained)—created regional disparities in audience access and revenue capture.

@@ -1,0 +1,5 @@
+# Real Debt Burden in Arena Financing: Deflator Adjustment Post-2010
+
+Little Caesars Arena (2018A senior TI refunding) issued $287.4M par; Amway Center (2017A senior TDT) issued $159.9M par. Using ENR CCI deflators (2000–2026), the nominal debt schedules mask divergent real cost trajectories. The period 2010–2018 experienced modest deflation in construction indices (ENR CCI declined ~8%), meaning arena construction costs fell in real terms even as nominal bond par climbed. Post-2020, inflationary pressure reversed: nominal debt fixed 2018–2019 now carries elevated real burden as cost indices rose 40%+.
+
+Municipal revenue assumptions (TI tax-increment financing, TDT tourism development tax) projected in 2015–2017 bond prospectuses assumed flat or declining deflation. Actual inflation 2021–2026 has increased real tax-base requirements to service nominal coupons. Franchise valuation, meanwhile, benefited from nominal appreciation while the public sector absorbed real debt growth.

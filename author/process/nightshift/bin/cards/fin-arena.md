@@ -1,0 +1,7 @@
+# Arena Financing Claims
+
+## Milwaukee Arena: The 'Milwaukee Model' (1946–1950)
+
+The Milwaukee Arena, approved by city council in 1946 and opened in 1950, exemplifies the emergence of municipal public-funding models for professional sports infrastructure. The city of Milwaukee committed **$2.6 million** in public funds toward a total construction cost of approximately **$6 million**, establishing what scholars identify as the **'Milwaukee Model'** — the first systematic instance of a municipality constructing a sports arena to specifications demanded by private business entities using exclusively public capital (Downs & Seifried, 2024). The 11,046-seat dual-sport venue accommodated both the NHL and NBA, featuring improved spectator sightlines, ample parking, concessions, television-broadcast infrastructure, and enhanced vertical and horizontal circulation. This municipal investment proved transformative: Propheter (2015) notes that the Milwaukee project established a prototype that subsequent cities, faced with franchise-recruitment pressures in the 1950s–1960s, adopted as a model for facility construction. The arena thus anchors the historical shift from private-only sports infrastructure to public–private hybrid funding, a pattern that accelerated through the latter twentieth century.
+
+**Sources:** Downs & Seifried (FPYIXZPD); Propheter (CGMDP7GN).

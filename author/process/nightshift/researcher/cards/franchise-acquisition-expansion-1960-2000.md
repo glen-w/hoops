@@ -1,0 +1,7 @@
+# Franchise Acquisition and Expansion Economics, 1960–2000
+
+The NBA's expansion policy shifted decisively when the American Basketball Association (ABA) formed in 1967, forcing existing owners to abandon their earlier reluctance to expand {Downs & Seifried, FPYIXZPD}. Between 1961 and 1974, the league added eight franchises in response to demographic opportunity and competitive threat. Expansion fees remain poorly documented in archival material; baseball's Milwaukee Braves sale (~$6 million player costs, $50k franchise fee) provides limited contemporary comparison {924ZV3FX}.
+
+Capital appreciation, not operational revenue, drove ownership returns. Fort (2024) calculates franchise values appreciated at approximately 16 per cent annually from 1950 to 1990, accelerating to over 30 per cent yearly during the 1980s {AG49JIN4}. By century's end, valuations had climbed steeply: the 2007 SuperSonics sale reached $350 million {3EGEXSSS}. Neuhaus & Thomas (2024) report league revenues grew from US$2.5 billion in 2001 to US$8.9 billion in 2019, with all franchises valued above US$1.5 billion {T3SY7PN6}.
+
+Owner wealth derived primarily from capital-intensive sectors: oil and energy (27 per cent), real estate development (27 per cent), and manufacturing and finance {Flint, 1987, AXWP9GAA}. This profile suggests NBA ownership remained a capital-accumulation vehicle for existing industrial and financial élites rather than a pathway for aspirant entrepreneurs.

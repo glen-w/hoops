@@ -1,0 +1,9 @@
+season,category,value,unit,currency,source_url,as_of,confidence,notes
+2024-25,salary_cap,140588000,USD,USD,https://pr.nba.com/2024-25-nba-season-salary-cap,2026-09-19,HIGH,"Official NBA release (2024-06-30): 2024-25 season salary cap set at $140.588 million"
+2024-25,tax_level,170814000,USD,USD,https://pr.nba.com/2024-25-nba-season-salary-cap,2026-09-19,HIGH,"Official NBA release (2024-06-30): 2024-25 luxury tax level set at $170.814 million"
+2024-25,minimum_team_salary,126529000,USD,USD,https://pr.nba.com/2024-25-nba-season-salary-cap,2026-09-19,HIGH,"Official NBA release (2024-06-30): 2024-25 minimum team salary set at $126.529 million"
+2024-25,first_apron,178132000,USD,USD,https://pr.nba.com/2024-25-nba-season-salary-cap,2026-09-19,HIGH,"Official NBA release (2024-06-30): first apron level set at $178.132 million"
+2024-25,second_apron,188931000,USD,USD,https://pr.nba.com/2024-25-nba-season-salary-cap,2026-09-19,HIGH,"Official NBA release (2024-06-30): second apron level set at $188.931 million"
+2025-26,salary_cap,154647000,USD,USD,https://pr.nba.com/nba-salary-cap-2025-26-season,2026-09-19,MEDIUM,"Estimated under 2025-26 media deal; subject to BRI reconciliation 2025-06-30"
+2025-26,tax_level,187895000,USD,USD,https://pr.nba.com/nba-salary-cap-2025-26-season,2026-09-19,MEDIUM,"Estimated under 2025-26 media deal; subject to BRI reconciliation 2025-06-30"
+2025-26,minimum_team_salary,139182000,USD,USD,https://pr.nba.com/nba-salary-cap-2025-26-season,2026-09-19,MEDIUM,"Estimated under 2025-26 media deal; subject to BRI reconciliation 2025-06-30"

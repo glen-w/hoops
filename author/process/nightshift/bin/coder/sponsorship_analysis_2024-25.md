@@ -1,0 +1,1 @@
+Naming rights landscape: 30 teams, values range $0–$700M (Crypto.com Lakers), median ~$117M. Jersey patches: $285.8M aggregate (2024-25 GlobalData estimate), ~$9.5M/team avg. Confidence grading (high/medium/low). Integration notes: revenue stability indicator, market concentration in mega-deals, escalation curves pending multi-year data.

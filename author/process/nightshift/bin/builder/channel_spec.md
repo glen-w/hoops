@@ -1,0 +1,1 @@
+Paperful missed the pebble/channel spec again, prompting a second miss marker in STATUS.md, while two threads remain open.

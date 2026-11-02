@@ -1,0 +1,1 @@
+✓ Complete status: completed salary-cap + FT ready, immediate researcher actions (3 items), phase 2 blockers documented, ETA table 2026-10-24.

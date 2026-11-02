@@ -1,0 +1,1 @@
+Hoops docs — DATA-REPOS open-dataset catalog: Catalog of open/cite-scrape basketball data repos and access notes.

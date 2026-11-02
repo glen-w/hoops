@@ -1,0 +1,1 @@
+The sixth chapter, Bibliometric Landscape, has been drafted, citing hoops_reads/bibliometric_landscape_basketball.md.

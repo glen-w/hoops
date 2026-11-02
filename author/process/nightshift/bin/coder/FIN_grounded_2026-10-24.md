@@ -1,0 +1,1 @@
+✓ Created: 8 sections, 350+ lines. Revenue-sharing pool mechanics, salary cap/apron thresholds, team revenue sources by %, academic literature table, caveats. Ready for Zotero validation and salary-cap CSV compilation.

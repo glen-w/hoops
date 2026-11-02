@@ -1,0 +1,9 @@
+## Player Injuries and Health
+
+Injury is an occupational hazard in professional basketball, yet systematic longitudinal research on NBA injury epidemiology, prevention, and recovery remains thin relative to other major sports. Published studies address specific conditions—anterior cruciate ligament (ACL) tears, ankle sprains, lower-back injuries, concussions—but few comprehensive investigations track injury burden across the entire league population or career arcs. The prevalence and type-distribution of injuries shift by position, age, and workload.
+
+Load management has emerged as a prominent franchise strategy, with teams selectively reducing minutes for elite players during regular seasons to prioritise playoff availability {PENDING: cite longitudinal load management effectiveness studies and policy variation across franchises}. Return-to-play protocols involve complex biomechanical and physiological assessments, yet transparency about medical decision-making remains limited for media and fans.
+
+Injury's career trajectory consequences are substantial. Early-career serious injuries truncate earning potential, whilst repeated knee and back injuries shape positional longevity and statistical output across decades. Yet longitudinal studies tracking injury impact on career earnings, franchise tenure, and post-basketball employment remain sparse.
+
+Structural supports—sports medicine staffing, nutrition, recovery technology—vary markedly across franchises, raising questions about equity in access to injury prevention and rehabilitation infrastructure {PENDING: comparative franchise analysis}.

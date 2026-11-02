@@ -1,0 +1,7 @@
+**Franchise Ownership**
+
+Ownership structures in the NBA have undergone significant shifts from 2000 to 2026. Historically, individual or family-run ownership dominated; increasingly, institutional capital and private-equity firms have entered NBA ownership. These transitions reflect both NBA-mandated ownership concentration rules (prohibiting fragmented ownership groups) and broader trends toward professionalised sports management and investment returns.
+
+Ownership composition shapes franchise strategy. Single dominant owners or family offices may prioritise long-term legacy and community standing; institutional investors may emphasise return-on-investment (ROI) timelines and operational efficiency. Ownership succession—whether to heirs, co-owners, or external sale—triggers strategy shifts. Franchise sales and valuations have escalated, attracting capital from hedge funds, real-estate firms, and tech entrepreneurs. Understanding how ownership structures, decision-making protocols, and fiduciary duties within ownership groups drive franchise spending, talent acquisition, labour strategies, and arena investment is essential to analysing franchise operations and their social impacts.
+
+**Source key:** PENDING

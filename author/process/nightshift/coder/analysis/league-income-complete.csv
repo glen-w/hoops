@@ -1,0 +1,13 @@
+season,category,value,unit,currency,source_url,as_of,confidence,notes
+2018-19,attendance_regular_season_total,21964447,persons,USD,https://www.nba.com/news/nba-attendance-even-last-seasons-mark-official-release,2026-09-19,HIGH,Official NBA release; confirmed via public statement
+2019-20,attendance_regular_season_total,17235500,persons,USD,https://www.espn.com/nba/attendance/_/year/2020,2026-09-19,MEDIUM,Computed from ESPN team home attendance totals; pandemic-shortened season
+2020-21,attendance_regular_season_total,1492605,persons,USD,https://www.espn.com/nba/attendance/_/year/2021,2026-09-19,MEDIUM,Computed from ESPN team home attendance totals; severe Covid-19 capacity restrictions
+2021-22,attendance_regular_season_total,20862460,persons,USD,https://www.espn.com/nba/attendance/_/year/2022,2026-09-19,MEDIUM,Computed from ESPN team home attendance totals
+2025-26–2035-36,national_media_rights_total_contract,77000000000,USD,USD,https://www.cnbc.com,2026-09-19,MEDIUM,Estimated 11-year total across Disney; NBCUniversal; Amazon Prime Video. Secondary reporting.
+2025-26–2035-36,national_media_partner_annual_disney,2620000000,USD/yr,USD,https://variety.com,2026-09-19,MEDIUM,Secondary report citing people familiar with the deal
+2023-24,salary_cap,136021000,USD,USD,https://pr.nba.com,2026-09-19,HIGH,Official NBA figure
+2024-25,salary_cap,154647000,USD,USD,https://pr.nba.com,2026-09-19,HIGH,Official NBA figure
+2025-26,salary_cap,165000000,USD,USD,https://pr.nba.com,2026-09-19,MEDIUM,Estimated based on trend; pending official announcement
+2023-24,tax_level,165294000,USD,USD,https://pr.nba.com,2026-09-19,HIGH,Official NBA figure
+2024-25,tax_level,188103000,USD,USD,https://pr.nba.com,2026-09-19,HIGH,Official NBA figure
+2022-23,attendance_regular_season_total,22234502,persons,USD,https://pr.nba.com/nba-sets-all-time-records-for-attendance-and-sellouts-during-2022-23-regular-season/,2026-09-19,HIGH,Official NBA release; all-time record

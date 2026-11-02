@@ -1,0 +1,9 @@
+**Arena Food Service & Concessions Revenue**
+
+Modern NBA franchises generate significant revenue through arena food and beverage concessions—a revenue stream often underestimated in franchise valuation models. Concessions typically represent 8–15% of total arena revenue, behind ticket sales and naming rights but ahead of parking. The model has evolved from simple hot dog and popcorn stands to sophisticated hospitality operations: premium seating areas feature curated catering menus, luxury suites command dedicated food service, and general seating offers branded concession partnerships with regional restaurant chains.
+
+The economics rest on two pillars: per-capita spending and volume. NBA franchises report average per-capita concessions spending of $12–18 per attendee (2010–2020), though luxury seating multiplies this threefold. Vendor partnerships—such as Aramark, Sodexo, and regional concessionaires—operate under revenue-sharing agreements, typically splitting 60/40 or 70/30 in favour of the franchise. The franchise retains food and beverage rights and negotiates exclusive partnerships with quick-serve brands (Coca-Cola, McDonald's), adding licensing fees on top of concessions splits.
+
+Post-2008, arena operators aggressively optimized concessions through dynamic pricing, private suite expansion, and alcohol service expansion. Franchises capitalizing on premium seating growth—Dallas, Miami, New York—saw concessions contribute 12–18% of arena revenue by 2015. Smaller-market franchises, however, lagged, reflecting the tight coupling between seating mix and concessions yield.
+
+**Source key: PENDING**

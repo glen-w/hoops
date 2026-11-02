@@ -1,0 +1,7 @@
+Stadium construction and financing shaped NBA franchise financial capacity from 1950 to 2000. Milwaukee Arena (1950), the first multipurpose arena built post-WWII to attract the Hawks, cost approximately $6 million (circa $73 million in 2022 dollars) and seated 11,046. The facility marked the beginning of a major construction wave. {Downs & Seifried, 2023} traces every expansion-era multipurpose arena through 1989 and characterises the period as the "'Me' Arena" era, reflecting capitalist competition for infrastructure advantage.
+
+Public financing dominated the earliest phase. {Propheter, 2012} notes that the history of public sports venue financing begins in the 1950s–1960s, though by the 1970s–1980s only 35% of arenas were publicly financed (excluding four NBA expansion teams), compared with 100% of baseball stadiums and 87% of football stadiums. The 1990s sports facility boom continued this mixed pattern. {Humphreys & Nowak, 2017} report that 64 new sports facilities for NBA, MLB, NFL and NHL teams were built 1991–2006, with most involving some public subsidy and many fully publicly financed.
+
+Facility design evolved markedly from Golden Age (1920s) structures. Expansion-era arenas introduced architectural innovations in seating, event flexibility, and climate control that reflected changing team economics and audience expectations. Capacity and revenue generation became increasingly intertwined with competitive positioning and franchise valuation.
+
+Sources: FPYIXZPD, CGMDP7GN, 3EGEXSSS

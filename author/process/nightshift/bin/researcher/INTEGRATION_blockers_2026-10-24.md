@@ -1,0 +1,1 @@
+Updated: paperful env failure documented, all three lit-gap requests (tech fouls STADIUM, streaming MEDIA, displacement FIN/STADIUM) + Tencent data (MEDIA) already in nightshift_requests.json entries 1–4. Awaiting daytime triage. Merge grounded MEDIA/FIN/STADIUM drafts after blockers resolved or marked proprietary/missing.

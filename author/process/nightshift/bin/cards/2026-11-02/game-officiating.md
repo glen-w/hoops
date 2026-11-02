@@ -1,0 +1,7 @@
+# Game Officiating and Referee Procedures
+
+The conduct and authority of NBA referees shapes the competitive dynamics, player agency, and spectator experience of professional basketball. Referees enforce the written rules of the game whilst exercising discretionary judgment in real-time: calling fouls, detecting travelling violations, and managing player conduct. The three-referee crew—two on the perimeter, one at the baseline—coordinates across court space to monitor simultaneous actions, detect infractions, and maintain game tempo.
+
+Referee decision-making, particularly in high-stakes moments, has long been a subject of player complaint, fan scrutiny, and media criticism. The introduction of instant replay and video review in the 2000s altered the relationship between live judgment and post-hoc correction, creating temporal delays and sometimes amplifying uncertainty about what constitutes a 'clear and conclusive' replay reversal. Referee demographics, training pipelines, and the physical and cognitive demands of officiating remain underexamined in academic literature.
+
+How referee judgments, discretionary enforcement, and potential biases affect competitive outcomes, player behaviour, and the sport's legitimacy as meritocratic competition deserves sustained empirical investigation. **Source key:** PENDING

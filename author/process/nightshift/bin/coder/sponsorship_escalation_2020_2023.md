@@ -1,0 +1,1 @@
+Total sponsorship 2020-21 ($1.46B) → 2022-23 ($1.66B, +1.3%). Jersey patches $150M/yr (2017–20) → $294M (2023-24). Naming renewals show 20–30% premium. Ready for FIN chapter revenue predictability narrative.

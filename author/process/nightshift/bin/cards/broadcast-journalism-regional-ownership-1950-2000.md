@@ -1,0 +1,9 @@
+# Broadcast Journalism and Regional Network Ownership in NBA History, 1950–2000
+
+[PENDING: Primary sources on regional broadcast archives, network production documentation]
+
+The NBA's broadcast history reveals deep structural inequalities rooted in regional network ownership and control. Unlike the national league model, early NBA broadcasts operated through a fragmented system: some franchises owned or controlled their own regional broadcasts (Lakers with KTLA, Celtics with regional New England coverage), while others relied on league-licensed syndication. This asymmetry created competitive and financial disparities.
+
+Broadcast journalism in this era—play-by-play commentary by figures like Johnny Most (Celtics), Chick Hearn (Lakers), and Marv Albert (Knicks)—became inseparable from franchise success and regional brand power. Teams with strong broadcast presence and editorial influence (Lakers, Celtics, Knicks) built sustained regional audiences and revenue streams unavailable to smaller-market teams. The transition from radio (1950s–1960s) to television (1960s–1980s) accelerated this trend; network ownership structures determined which regions received quality, comprehensive coverage.
+
+By 2000, the unequal distribution of broadcast rights and media measurement (Nielsen's limitations in smaller markets) had calcified into competitive advantage for well-capitalized franchises. Public broadcasting data and archival journalism records remain scattered across regional institutions; institutional media studies and sports history literature have not fully documented this structural inequality.

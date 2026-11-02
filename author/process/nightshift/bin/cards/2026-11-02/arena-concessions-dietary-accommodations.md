@@ -1,0 +1,7 @@
+# Dietary Accommodations and Accessibility in NBA Arena Food Operations
+
+Contemporary NBA arenas increasingly advertise vegan, gluten-free, and allergen-aware menu options as markers of franchise inclusivity. Yet the scholarly record largely ignores the operational realities of dietary accommodation: the labour intensification required to manage complex dietary protocols, the distribution of this burden across concession staff, and the extent to which worker precarity affects the reliability of dietary safety in practice.
+
+When franchises invest in public commitment to dietary inclusivity, the question of how these commitments translate into working conditions for arena food-service employees remains underexamined. Do dietary accommodation protocols increase back-of-house labour demand without corresponding wage adjustment or staffing expansion? Does the concentration of dietary knowledge in fewer, more-trained workers exacerbate wage inequality? Modern stadium design increasingly attempts to embed accessibility and allergen protocols into infrastructure; the extent to which such design choices affect worker scheduling, training investment, and labour equity remains an open empirical question.
+
+{Scholar, YYYY}; **Source key:** PENDING.

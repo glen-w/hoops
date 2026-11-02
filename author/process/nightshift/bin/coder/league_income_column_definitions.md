@@ -1,0 +1,1 @@
+Apply the schema from league_income_column_definitions.md to the file league_income_ingredients.csv.

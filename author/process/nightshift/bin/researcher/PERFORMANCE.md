@@ -1,0 +1,1 @@
+The key factors in basketball performance include technical-tactical, physical, and psychological domains. Technical-tactical factors include shooting efficiency, rebounds, and assists. Physical factors include height, body mass, physical fitness, and speed. Psychological factors include psychological quality and coaching decisions.

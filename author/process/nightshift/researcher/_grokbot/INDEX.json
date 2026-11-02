@@ -1,0 +1,78 @@
+{
+  "triage_date": "2026-10-22",
+  "status": "resolved",
+  "requests": [
+    {
+      "id": "cite-galvanovskis-2022",
+      "kind": "paper_citation",
+      "title": "Impact of Sound on the Performance of Basketball Free Throw",
+      "authors": "Agris Galvanovskis, Pauls Gustavs Miglinieks, Rihards Parandjuks",
+      "year": 2022,
+      "source": "Human, Technologies and Quality of Education",
+      "volume": 76,
+      "pages": "1061-1072",
+      "doi": "10.22364/htqe.2022.76",
+      "status": "complete",
+      "bibtex_ready": true,
+      "notes": "Crowd noise and free-throw accuracy study from University of Latvia"
+    },
+    {
+      "id": "cite-rusdiana-2020",
+      "kind": "paper_citation",
+      "title": "The Effect of Fatigue on the Kinematics of Free Throw Shooting in Basketball",
+      "authors": "Agus Rusdiana, et al.",
+      "year": 2020,
+      "source": "ICSSHPE 2019 proceedings",
+      "publisher": "Atlantis Press",
+      "pages": "unknown",
+      "doi": null,
+      "status": "partial",
+      "bibtex_ready": false,
+      "notes": "Kinematic analysis of free throws under fatigue; missing full page numbers"
+    },
+    {
+      "id": "cite-hore-2018",
+      "kind": "paper_citation",
+      "title": "A Machine Learning Based Approach Towards Building a Sustainability Model for NBA Players",
+      "authors": "Sirshendu Hore, Tanmay Bhattacharya",
+      "year": 2018,
+      "source": "2018 Second International Conference on Inventive Communication and Computational Technologies",
+      "publisher": null,
+      "doi": null,
+      "status": "partial",
+      "bibtex_ready": false,
+      "notes": "Conference paper; author affiliation: Amity University; cited 10 times on Google Scholar; missing proceedings DOI"
+    },
+    {
+      "id": "cite-coves-2020",
+      "kind": "paper_citation",
+      "title": "Relationship between kinematic variability and performance in basketball free-throw",
+      "authors": "Coves, Caballero, Moreno",
+      "year": 2020,
+      "source": "International Journal of Performance Analysis in Sport",
+      "volume": 20,
+      "issue": 6,
+      "pages": "931-941",
+      "doi": "10.1080/24748668.2020.1820172",
+      "status": "complete",
+      "bibtex_ready": true,
+      "notes": "4th confirmed paper on kinematic variability in free-throw performance"
+    }
+  ],
+  "summary": {
+    "total_papers": 4,
+    "complete_citations": 2,
+    "partial_citations": 2,
+    "ready_for_bibtex": 2,
+    "blocking_issues": [
+      "Rusdiana 2020: missing page numbers from Atlantis Press proceedings",
+      "Hore 2018: conference proceedings DOI needed; consider contacting author via Google Scholar or institutional profile"
+    ]
+  },
+  "next_steps": [
+    "Retrieve summaries from hoops_list for all 4 papers",
+    "Update hoops_data.bib with complete/partial citations",
+    "Ground draft chapters (01_introduction.md, 02_wellness_through_play.md, 03_performance_evaluation.md) with paper facts",
+    "Resolve Rusdiana page numbers (Atlantis Press ICSSHPE 2019) and Hore DOI (IICCCT 2018 proceedings)"
+  ]
+}

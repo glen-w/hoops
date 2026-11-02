@@ -1,0 +1,7 @@
+## NBA Broadcast Journalism and Regional Network Power, 1950–2000
+
+The institutional development of NBA broadcast journalism between 1950 and 2000 reflected a fundamental tension between league centralization and regional autonomy. Before the 1961 Sports Broadcast Act, teams negotiated television deals independently, limiting broadcast reach and infrastructure investment. The Act enabled the NBA as a single body to control national contracts while teams retained local broadcast rights—a hybrid model persisting through 2000 (Neuhaus & Thomas; Bell).
+
+Within this structure, regional broadcasters wielded outsized influence. The Lakers' Chick Hearn, the Celtics' Johnny Most, and the Knicks' Marv Albert became franchises' prime assets, shaping team identity and fan engagement through live commentary. National broadcast slot selection in the 1980s–1990s prioritized star players and popular teams (Lavelle), reinforcing revenue disparity. By 1991, national contracts exceeded $180 million, distributed equally among teams, while teams kept 100 percent of local revenue (Bell)—a structural incentive advantaging larger media markets. Broadcast restrictions, including 1980s superstation limits, protected national contracts while constraining smaller-market teams' revenue opportunities (Bell).
+
+**Sources:** Neuhaus & Thomas (S4), Bell (S6), Lavelle (S2). PENDING verification: AG49JIN4, N4V2QEU3, 3WQCFZUY, E4APG5PE, T3SY7PN6, HMTBENU9, 8ACQXKTQ.

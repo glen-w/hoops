@@ -1,0 +1,1 @@
+✓ Researcher tool for validating 4 arena keys (Vegas/SoFi/Crypto.com/Intuit). Checks Zotero + Crossref, flags READY vs RESEARCH GAP.

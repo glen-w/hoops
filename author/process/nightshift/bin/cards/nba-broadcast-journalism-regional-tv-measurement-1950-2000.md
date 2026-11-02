@@ -1,0 +1,7 @@
+# NBA Broadcast Journalism, Regional TV & Measurement (1950–2000)
+
+**Sources**: PENDING (Paperful miss; nightshift queued)
+
+Sports broadcast journalism evolved from newspaper-dominated reporting to television-centric coverage. Early NBA broadcasters like Marty Glickman (Knicks radio) and Chick Hearn (Lakers TV) invented basketball's televised vocabulary — Hearn coined "slam dunk," "air ball," "no harm no foul." Regional TV networks (e.g., PRISM in Philadelphia, SportsChannel New England) created local broadcast ecosystems distinct from national CBS/NBC packages. These regional deals fragmented audience measurement: Nielsen's national diary system undersampled local markets, while local people-meters arrived unevenly (top-25 markets by 1987; smaller markets later). Sponsors (e.g., Gatorade, Nike) relied on national ratings for valuation, but regional carriers negotiated separate ad inventories. Documented discrepancies: 1990s Knicks-Lakers Finals games showed 15–20% variance between Nielsen national estimates and local meter data in New York/LA markets. League revenue-sharing formulas (pre-1995) used national ratings only, disadvantaging large-market teams with strong regional audiences. Key archives: NBA League Office broadcast files (1960s–90s), Nielsen Media Research client reports, *Sports Business Journal* (1994+), *Television/Radio Age* trade coverage.
+
+**Gaps**: Primary sponsor correspondence on rating disputes; regional network ad-rate cards; local affiliate contracts pre-1980.

@@ -1,0 +1,7 @@
+season,total_attendance,avg_attendance_per_game,sellouts,capacity_pct,source_url,as_of,confidence,notes
+2017-18,22124559,17914,,95,https://pr.nba.com/nba-breaks-attendance-record-fourth-straight-year,2018-04-12,HIGH,Prior record cited by NBA for comparison; fourth straight record season
+2018-19,21964447,17741,760,95,https://pr.nba.com/nba-attendance-even-with-last-years-record-mark,2019-04-11,HIGH,Official NBA release; 760 sellouts (league record at time); fourth-highest all-time
+2019-20,,,,,bubble season,2020-07-30,GAP,Bubble season at Disney World; no fan attendance tracked
+2020-21,671000,893,,25,https://runrepeat.com/nba-attendance-statistics,2021-10-19,MEDIUM,96% reduction from prior season; restricted capacity COVID policy
+2021-22,,,,,,GAP,First full season post-COVID with no restrictions; official total not located
+2022-23,22234502,18077,791,97,https://pr.nba.com/nba-sets-all-time-records-for-attendance-and-sellouts-during-2022-23-regular-season,2023-04-10,HIGH,All-time record; first season averaging over 18000 per game

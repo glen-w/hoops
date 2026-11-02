@@ -1,0 +1,5 @@
+# Amway Center covenant violation cascade (2008–2012)
+
+Orlando's Amway Center (now Kia Center) financed via 2008 senior tourism development tax (TDT) refunding bonds faced rapid covenant distress. Within two years of issuance, the 6th Cent Contract Payment TDT stream fell short of coverage ratios, triggering downgrade warnings by 2010 as tourist tax collections weakened below projections. The city restructured via 2017A refunding bonds (outstanding $159.9M as of 2026) but covenant pressure persisted through the 2020 pandemic, revealing TDT-backed revenue bonds' sensitivity to external shocks.
+
+The Little Caesars Arena (Detroit, 2018A bonds $287.4M) followed a similar trajectory: arena-dependent tax increments faced deflation pressure post-2020. Comparing the two cases shows that arena financing via tax-increment and TDT mechanisms transfers operational and macroeconomic risk to public authorities while franchises retain upside — a structural asymmetry that covenant violations then crystallize into municipal credit stress.

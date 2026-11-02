@@ -1,0 +1,1 @@
+List of 40 hoops items

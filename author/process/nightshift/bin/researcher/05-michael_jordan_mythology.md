@@ -1,0 +1,1 @@
+Draft Chapter 5: Jordan Mythology explores the cultural impact and mythology surrounding Michael Jordan. It examines how Jordan's on-court success and off-court persona have influenced the game and popular culture. The chapter also delves into the ways in which Jordan's legacy continues to shape the game today.

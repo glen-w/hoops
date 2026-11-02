@@ -1,0 +1,5 @@
+Construction cost inflation shapes franchise financial capacity and competitive disparity. The Engineering News-Record Cost Index (ENR CCI)—materials and labor composite since 1913—anchors arena economics from 2000 to 2026.
+
+Two mechanisms link inflation to franchise inequality: (1) purchasing power erosion—wealthy franchises absorb escalating renovation costs, smaller-market teams defer, creating facilities gaps; (2) debt binding constraint—major projects financed via municipal bonds (Little Caesars Arena, Amway Center, 2010s), where inflation directly raises debt service, favoring high-revenue franchises and penalizing weaker markets.
+
+ENR CCI serves as a reliable public proxy for construction cost pressures on franchise decisions. Municipal bond prospectuses for Little Caesars Arena (Detroit) and Amway Center (Orlando) document debt structures absorbing these costs, illustrating how construction inflation amplifies franchise financial disparity across NBA markets.

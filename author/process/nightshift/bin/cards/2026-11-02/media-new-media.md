@@ -1,0 +1,7 @@
+New digital media platforms have fundamentally altered how NBA franchises communicate directly with fans, bypassing traditional gatekeeping structures. Streaming services, team-owned websites, social media channels, and direct-to-fan content strategies represent a shift toward managed communication where franchises control narrative presentation without journalist mediation. However, scholarship remains sparse on how these platforms compete with traditional sports journalism, affect investigative capacity, and influence franchise accountability.
+
+The proliferation of team-operated content (YouTube channels, TikTok accounts, official podcasts, streaming feeds) creates a fragmented media ecology where fan-generated content, official team content, and traditional journalism occupy overlapping but distinct spaces. Questions persist: Do digital-native platforms reinforce franchise messaging without critical scrutiny? How do journalist-and-fan relationships change when direct communication channels bypass newsrooms? Do emerging platforms (streaming, Discord, podcasts) generate their own accountability mechanisms, or do they amplify franchise control?
+
+Understanding this digital shift remains essential for assessing franchise transparency, player voice, and fan agency in contemporary basketball culture.
+
+**Source key:** PENDING

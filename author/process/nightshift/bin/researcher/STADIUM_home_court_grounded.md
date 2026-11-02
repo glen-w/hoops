@@ -1,0 +1,1 @@
+Grounded: westward travel (McHill & Chinoy, bubble 2020), familiarity ~40% (Ponzo & Scoppa pending sport check), pre-2010 arenas (66% public of $21.7B), Chase Center ($1B cost, $2B contractual income, $60M Rakuten). Pending: crowd effects quantified (Monash 2021, AEI working paper), referee mechanism, playoff %, London, post-2010 arena cases, Ponzo & Scoppa sport.

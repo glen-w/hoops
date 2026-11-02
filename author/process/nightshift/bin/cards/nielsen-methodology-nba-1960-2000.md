@@ -1,0 +1,8 @@
+# Nielsen Methodology for NBA Broadcast Markets, 1960–2000
+
+{Beville, 1988; PENDING}
+
+Nielsen's television audience measurement evolved from paper diaries (1950s–1980s) to electronic people-meters (late 1980s onward). For NBA markets, diary methodology undersampled younger, urban, and minority households — core basketball demographics — creating systematic undercounts of local game viewership. People-meter rollout began in top-10 markets (1987) but lagged in smaller NBA cities (Sacramento, Milwaukee, Utah) into the 1990s. Basketball-specific sample sizes were rarely disclosed; Nielsen treated NBA games as generic "sports" programming. Local market measurement gaps persisted: regional sports networks (RSNs) carrying NBA games often fell below minimum reporting thresholds, especially pre-1990. The 1993–94 "extended market" initiative added 56 markets but diary-only measurement continued in many. Scholars (Eastman & Ferguson, 1997; Webster & Lichty, 1991) note diary keepers over-reported prestige viewing (primetime network) and under-reported late-night/weekend sports. For NBA franchise revenue, this meant RSN carriage fees and local advertising rates were negotiated on flawed data through the 1990s. Key sources: Nielsen methodological reports (1960–2000), *Journal of Broadcasting & Electronic Media* symposia, ARF/ESRF validation studies.
+
+---
+*Card created 2026-10-29. Zotero key PENDING — human review needed.*

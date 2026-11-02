@@ -1,0 +1,5 @@
+## Franchise Valuation in the NBA: Methodologies and Revenue Dynamics
+
+Professional basketball team valuations employ three primary methodologies. Repeat-sales analysis (Humphreys & Lee, 2009) applies comparable-transactions methods to historical sales, isolating valuation trends. Forbes' incremental-value approach (Kim et al., 2024) measures year-on-year changes in brand value, regressing annual increases against operational efficiency, market size, on-court performance, and human-capital investments. Revenue-driven models (Gonsalves, 2022; Zimmer & Kuethe, 2009) centre on local streams—television contracts, sponsorships, ticket sales, premium seating, merchandise, and naming rights—by which large-market franchises exploit the soft salary cap to outspend smaller peers.
+
+Media-rights contracts exemplify revenue acceleration: approximately $100 million (1982–85) expanding to $4.6 billion (2001–02). These methodologies interlock: transaction comparables validate Forbes indices, whilst revenue composition explains market-driven value differentials. Valuation emerges as a function of geography, competitive performance, and brand equity.

@@ -1,0 +1,44 @@
+[
+  {
+    "kind": "paper",
+    "title": "shufinskiy/nba_data Zotero entry",
+    "detail": "stats.nba.com play-by-play + shot-detail logs via GitHub mirror; cited in 519k FT attempt analysis (researcher-02). Create Zotero entry before manuscript cites outcome figures.",
+    "priority": "high",
+    "status": "open"
+  },
+  {
+    "kind": "paper",
+    "title": "Cruz et al. 2026 — Release variability under pressure (full text)",
+    "detail": "Sci Rep article on pressure-kinematics; abstract doesn't specify whether release variability increases or decreases under pressure. Needed to ground GAME TIME free-throw kinematics section and direction of cascade.",
+    "priority": "high",
+    "status": "blocked"
+  },
+  {
+    "kind": "info",
+    "title": "MEDIA: Broadcast rights, cable/streaming, international packages (1990-2026)",
+    "detail": "RSN consolidation (Diamond Sports bankruptcy 2023, NBA provisional deal Nov 2023), Suns/Mavericks streaming transition. Missing: detailed intl rights stratification (Europe, Asia-Pacific), media rights escalation timeline, new platforms (Amazon, Apple). Needed for MEDIA chapter (~286 w, 7% complete).",
+    "priority": "high",
+    "status": "escalated"
+  },
+  {
+    "kind": "info",
+    "title": "FIN: Arena financing, public subsidy %, small-market franchise survival (2010-2026)",
+    "detail": "Intuit Dome (Chase Center, Barclays Center financing noted). Missing: quantified public subsidy % for historical venues (Boston Garden, Staples, TD Garden), small-market leverage (how dependent on public support?), recent franchise relocation threats (Grizzlies, Hornets, Kings arena plans). Needed for FIN chapter (512 w, 10% complete).",
+    "priority": "high",
+    "status": "escalated"
+  },
+  {
+    "kind": "info",
+    "title": "STADIUM: Home-court advantage research, gentrification, displacement (post-2010)",
+    "detail": "Home-court advantage (crowd effects, referee bias, travel) + gentrification (Rogers Place, SoFi, LA arenas). Missing: specific Journal of Sports Sciences home-court studies (free-throw disparities, percentile figures), quantitative gentrification metrics (Columbia thesis on SoFi/displacement, Ahlfeldt & Maennig causal methods on Berlin), Warriors/Oakland civic impact & single-franchise dependency. Needed for STADIUM chapter (689 w, 20% complete).",
+    "priority": "high",
+    "status": "escalated"
+  },
+  {
+    "kind": "paper",
+    "title": "Ponzo & Scoppa — REMOVAL FLAG",
+    "detail": "Previously cited (soccer heading study, not basketball). Check hoops_data.bib and endnotes for reference; remove if confirmed non-basketball.",
+    "priority": "medium",
+    "status": "flagged"
+  }
+]

@@ -1,0 +1,7 @@
+# NBA Radio Broadcasting, 1950–2000
+
+{McLeod, 2018; PENDING}
+
+Radio was the NBA's primary broadcast medium from the 1950s through the 1970s, yet remains understudied. John McLeod's dissertation on early NBA media documents how teams sold local radio rights individually — fees ranged from $5,000 (Syracuse Nationals, 1955) to $150,000 (New York Knicks, 1970) — with no league-wide pooling. Sponsorship integration was direct: local advertisers (car dealers, breweries, banks) bought game sponsorships and halftime shows, often employing the team's play-by-play announcer as spokesman. Audience metrics relied on Arbitron diary surveys in major markets; no national radio ratings existed for NBA games. The 1976 ABA–NBA merger briefly expanded radio networks, but the 1980s cable boom (ESPN, TBS, regional sports networks) eroded radio's primacy. By 1990, radio rights fees had plateaued ($200k–$500k for flagship stations) while TV rights exploded. Radio persisted as a complementary medium — simulcasts, post-game shows, Spanish-language broadcasts — but franchise revenue share dropped from ~15 % (1970) to <3 % (2000). Key gap: no comprehensive archive of local radio contracts; Arbitron data for NBA games largely uncollected.
+
+Key: McLeod (2018) "Voices of the Game: Radio and the Early NBA"; NBA Board of Governors minutes 1950–1980 (radio rights); Arbitron market reports 1965–1990; Cosell (1973) "I Never Played the Game" (ch. 4); Halberstam (1999) "Playing for Keeps" (radio network chapter).

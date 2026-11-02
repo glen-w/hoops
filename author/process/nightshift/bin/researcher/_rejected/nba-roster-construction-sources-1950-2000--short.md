@@ -1,0 +1,1 @@
+No historical sources or scholarly analyses found describing NBA team roster construction, player acquisition, and draft rules from 1950 to 2000. Further research is needed to understand how NBA teams built competitive rosters during this period.

@@ -1,0 +1,9 @@
+# Pre-game: Tipoff
+
+The tipoff—opening jump ball in NBA games—sits at the intersection of rule mechanics and ritual threshold. Basketball rules trace the jump-ball concept to the sport's origins as a method of putting the ball in play. Originally, a centre jump followed every basket, designed to give both teams equal chance at possession. Early rules took this for granted; James Naismith himself noted that "there was never any objection to a team that had an exceptional jumper and could secure the tip every time," recognising that height advantage created structural disparity.
+
+By the early 1900s, tall players and the premium placed on jumping ability prompted organised objection. The National Basketball Rules Committee and National Association of Basketball Coaches spent eight years gathering evidence on the centre jump before recommending elimination. In 1937, the rule changed: instead of jump balls after every score, the centre jump now occurs only at game start and after jump-ball situations, shifting more possessions to side throws or free-throw mechanics. Woodard described this change as bringing "a period of revolution unparalleled in major sports"—faster play, higher scoring, and growing attendance. The removal of continuous centre jumps fundamentally altered game tempo and strategic advantage.
+
+Modern tipoff adds ritual layers beyond the rule: player introductions, national anthem, ceremonial presence, and crowd energy concentrate in those minutes. The psychological and ceremonial dimensions—how opening rituals affect player focus, how crowd noise propagates during tipoff, how early-possession advantage correlates with match outcomes—remain under-studied in available sources.
+
+**Source key:** A Study of Basketball as an Interscholastic Game in Transition (Rule History); Scientific Basketball (Rule definitions); Psychology of opening ritual—**PENDING**; Crowd noise and communication—**PENDING**.

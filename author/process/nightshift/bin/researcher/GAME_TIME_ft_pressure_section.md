@@ -1,0 +1,1 @@
+Grounded: 519k FT attempts 2015-24, late-close −2.5–3pp, trailing −5.3pp, playoffs −1pp, no B2B/workload effect, no workload×pressure interaction (cascade hypothesis not supported). Logistic regression, selection-effect caveats, next steps.

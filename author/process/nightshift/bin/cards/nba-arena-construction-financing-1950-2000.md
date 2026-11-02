@@ -1,0 +1,9 @@
+**Arena Construction Financing and NBA Competitive Positioning, 1950–2000**
+
+Venue infrastructure defined franchise competitiveness throughout professional basketball's postwar growth. Whilst early franchises operated in multipurpose arenas and gymnasiums, facility modernization became a competitive requirement. Most venue financing derived from municipal bonds, public appropriations, or mixed public-private arrangements rather than franchisee investment, creating disparities in arena quality and economic impact.
+
+Franchise relocation patterns reflected venue deficiencies. Teams in aging arenas faced attendance pressures and reduced local revenue capacity. Relocation threats—Detroit, Kansas City, New Orleans—leveraged arena quality as negotiation leverage. Cities with modern facilities attracted league expansion; newer venues with improved seating, climate control, and technology enhanced gate revenue and fan experience.
+
+Stadium construction costs and operating expenses directly affected franchise profitability. Venue improvements funded through municipal or state investment shifted costs from franchises to public authorities, creating competitive advantages. Better facilities supported premium ticket pricing and ancillary revenue (concessions, premium seating), enhancing franchise financial capacity.
+
+The relationship between venue infrastructure and competitive positioning warrants systematic analysis of municipal funding mechanisms, venue ownership structures, operating cost allocation, and how facility investment decisions shaped franchise economics. (PENDING: detailed documentation of arena financing arrangements and venue improvement timelines for individual franchises)

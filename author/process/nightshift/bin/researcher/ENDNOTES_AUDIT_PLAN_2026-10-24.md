@@ -1,0 +1,1 @@
+Audit checklist + sample spot-check scope (10% of 38k endnotes) for daytime Zotero reconciliation. Flags: author/year completeness, duplicates, bibliography expansion needed.

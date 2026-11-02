@@ -1,0 +1,5 @@
+# Arena Concessions: Labour and Vendor Chains
+
+Food and beverage concessions generate substantial venue revenue but remain largely outsourced to major vendors—Aramark, Levy Restaurants, Sports Service Enterprises—who operate most NBA arenas. Typical revenue splits award franchises 30–40 per cent of gross concession sales, with vendors absorbing operational costs and staffing. This contractual structure shapes labour conditions: concession workers often face seasonal employment, minimal benefits, and wages near minimum thresholds. Vendor consolidation has intensified over the past two decades, reducing franchise negotiating leverage whilst constraining worker bargaining power. Recent labour studies and sustainability reports from major vendors document the tension between franchise profitability demands and worker equity. Understanding arena economics requires mapping this vendor chain—the franchise's outsourced dependence on professional catering corporations. This relationship directly influences revenue-sharing in arena lease negotiations and refinancing arrangements.
+
+**Source key:** PENDING

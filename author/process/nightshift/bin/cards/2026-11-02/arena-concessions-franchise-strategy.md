@@ -1,0 +1,7 @@
+# Franchise Food and Beverage Operations: Strategic Management and Vendor Relationships
+
+NBA franchises integrate food and beverage operations into their broader revenue model alongside ticketing, merchandise, and premium seating. Gonsalves (2022), Santomier et al. (2023), and Jozsa (2018) position concessions as a discrete, trackable revenue stream within Basketball-Related Income (BRI). Jozsa identifies "cash inflows from concessions" as a distinct financial category; Gonsalves and Santomier situate F&B within the Fan Cost Index and BRI calculations.
+
+Yet the strategic mechanics of franchise food operations remain largely unexamined: whether franchises manage concessions in-house or outsource to major vendors (Aramark, Levy, SSE); how branded food offerings and celebrity partnerships drive differentiation and margin; or how F&B revenue integrates into competitive advantage and profitability. The existing literature confirms concessions as a known revenue stream but does not drill into vendor relationships, operational models, pricing strategy, or labour structures.
+
+**Source key:** Jozsa (2018); Gonsalves (2022); Santomier et al. (2023) — **PENDING:** Franchise in-house vs. contracted F&B case studies; vendor contract analysis; branded food and celebrity partnerships.

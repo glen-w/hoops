@@ -1,0 +1,5 @@
+## Sportswriting and NBA Narrative Authority
+
+Print journalism shaped early NBA narrative and franchise reputation. Beat writers and columnists—figures like Bob Ryan, Dave Anderson, and J.A. Adande—cultivated regional fan bases through newspaper columns and magazine features. Editorial independence varied: some writers challenged franchise authority and questioned championship myths; others amplified promotional narratives. From the 1950s onwards, sportswriters gained cultural authority to define which teams were legitimate, which players were exceptional, and which owners were competent or corrupt. The rise of national sports media (ESPN, SI) concentrated narrative power, yet regional papers preserved local voices. Scholarly documentation of sportswriter influence on franchise reputation, fan loyalty, and league legitimacy remains sparse; journalism history and sports sociology offer windows but systematic analysis is lacking.
+
+**Source key:** PENDING

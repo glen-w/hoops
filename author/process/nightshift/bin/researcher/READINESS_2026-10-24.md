@@ -1,0 +1,1 @@
+Readiness summary: 3 chapters on disk, 4 blockers queued, Paperful env down, Zotero 0 hits confirmed. Ready for merge once blockers resolved or marked missing.

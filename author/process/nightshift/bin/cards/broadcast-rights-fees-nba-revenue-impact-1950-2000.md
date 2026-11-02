@@ -1,0 +1,5 @@
+**Broadcast Rights Fees and NBA Franchise Revenue (1950–2000)**
+
+Television broadcast rights evolved from a marginal income stream to the dominant franchise revenue source during the 1950–2000 period. Initial contracts with DuMont and NBC (1950s–60s) provided minimal compensation, with teams struggling to secure airtime. The 1961 Sports Broadcasting Act enabled collective league negotiations, removing antitrust constraints. Cable television—particularly ESPN (launched 1979) and Turner Broadcasting (1980s)—accelerated rights valuations dramatically. Network television fees rose in tandem, and international rights sales expanded the revenue base. By 2000, broadcast rights (network, cable, and local agreements combined) represented 30–40% of franchise revenue in major markets. This shift fundamentally reshaped franchise profitability, enabled smaller-market teams to maintain competitive payrolls, and concentrated wealth among franchises in large television markets.
+
+*Sources: PENDING*

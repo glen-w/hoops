@@ -1,0 +1,5 @@
+# NBA Analytics Evolution 1950-2000 (PENDING)
+
+Statistical analysis and quantitative methods evolved in professional basketball from 1950 to 2000, yet secondary scholarship on this period remains sparse. Early innovations by coaches and front offices—box-score refinements, efficiency metrics, adoption of quantitative thinking by teams and broadcasters—shaped player evaluation and competitive strategy. Foundational sources are scattered: dissertations on early statistical pioneers, archival materials on league and team analytics adoption, primary documents from statistical innovators (coaches, scouts, statisticians), and contemporary broadcasts revealing analytical framing remain largely inaccessible or unindexed. Paperful search yielded no results. Research escalated to nightshift for targeted archival and dissertation search, focusing on NBA statistical thought leaders and quantitative method adoption timelines in this formative era.
+
+**Status:** PENDING human literature research and completion.

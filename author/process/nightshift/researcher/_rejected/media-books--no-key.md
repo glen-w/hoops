@@ -1,0 +1,7 @@
+**Media Books: Basketball Literature and Investigative Narratives**
+
+Basketball memoirs, biographies, and analytical books represent a parallel media discourse—one less constrained by franchise gatekeeping and daily newsroom economics. Sports memoirs by players, coaches, and executives document insider perspectives on ownership decisions, labour negotiations, and franchise culture that daily journalism may not sustain. Critical sports books by journalists and scholars investigate systemic issues (labour conditions, revenue distribution, race, ownership accountability) with narrative depth unavailable in daily reporting.
+
+Key categories: player memoirs on franchise governance and labour conflict; executive and coach memoirs on decision-making and ownership relationships; investigative non-fiction on NBA labour history, financial practices, and community impact; analytical works on sports economics and governance. These texts face different constraints than journalism—longer development timelines, publisher gatekeeping, author access barriers—but potentially greater depth.
+
+Basketball literature documents labour disputes, ownership conduct, and franchise accountability that daily press may suppress or underreport due to advertiser relationships and access restrictions. Understanding media accountability requires examining how book-length narratives fill gaps left by franchise gatekeeping of daily journalism and whether this parallel discourse reaches sufficient audiences.

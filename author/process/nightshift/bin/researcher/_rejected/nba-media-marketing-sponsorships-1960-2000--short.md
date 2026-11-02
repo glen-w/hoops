@@ -1,0 +1,1 @@
+The NBA's media marketing and sponsorships evolved significantly from 1960 to 2000. Primary sources, such as league marketing reports and corporate sponsorship contracts, reveal the growth of revenue streams during this period. Scholarly analyses also provide insight into the impact of these developments on the league's financial health and competitive balance.

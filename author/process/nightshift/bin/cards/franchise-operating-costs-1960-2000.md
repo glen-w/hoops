@@ -1,0 +1,5 @@
+# Franchise Operating Costs 1960–2000
+
+{Scully, 1989} examines MLB revenue sharing and competitive balance; analogous NBA structures understudied. {Quirk & Fort, 1992} model franchise valuation, debt, and operating costs across leagues — NBA data sparse pre-1980. {Fort, 2000} documents NBA franchise sales, arena financing, and operating expense categories (player payroll, front office, travel, arena lease). {Berri et al., 2006} compile NBA payroll and revenue shares 1985–2000; earlier decades rely on {NBA Board of Governors minutes, 1960–1985} (PENDING) and {Sports Business Journal archives, 1989–2000}. Key gap: systematic operating cost breakdowns 1960–1984 — team-level P&L statements largely private. Daytime Grokbot queued for franchise financial statements via league archives and newspaper financial disclosures.
+
+Zotero: PENDING (Scully 1989; Quirk & Fort 1992; Fort 2000; Berri et al. 2006)

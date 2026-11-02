@@ -1,0 +1,7 @@
+# NBA sports journalists and media coverage, 1950–2000
+
+The development of basketball media coverage from the mid-twentieth century through 2000 reflects institutional transformations in sports journalism and the decisive influence of television networks. Before ESPN's launch in 1979, local sportswriters covered the NBA with regional reach; Vos et al. (2019) found that seasoned journalists reported significant shifts in professional values—towards star athlete status and television-driven income—compared to previous eras [HTW933S7].
+
+ESPN's emergence fundamentally reshaped basketball discourse and media practice. Colás (2017) argues the network functioned as a "self-appointed custodian of the visual remnants of sporting history," drawing archival footage from its own expanding vault whilst SportsCenter highlights curated taste for a generation [22W7MVP2]. Gamache (2014) contextualises this within broader transformations: ESPN "changed sports talk radio from a local to a national perspective, made national figures out of local sportswriters" and fundamentally altered how basketball reached audiences through television [YBTV8HET].
+
+These institutional shifts—from dispersed regional coverage to centralised national media narratives—established preconditions for modern basketball's cultural prominence and athlete celebrity.

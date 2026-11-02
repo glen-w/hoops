@@ -1,0 +1,7 @@
+# Transition: Ballhaus (Stadium & Spatial Architecture)
+
+The transition to ballhaus in basketball studies requires bridging traditional game-time narratives to broader questions of venue, infrastructure, and spatial design. Ballhaus—ball-house, stadium-as-theatre—invokes the physical and social architecture within which basketball unfolds: how arena design, sightlines, acoustics, and spatial configuration shape player performance, fan experience, and broadcast mediation. This transition should examine how the material environment of basketball venues structures the sport's phenomenology—the relationship between court geometry, seating orientation, and the lived experience of play and spectatorship.
+
+Key research gaps include: architecture and sports venue design studies examining how arena design correlates with home-court advantage, player movement patterns, or broadcast composition; stadium acoustic effects on player communication and psychological resilience; venue design evolution in NBA facilities and competitive implications; and how architectural choices—movable seating, sightline optimisation, surface materials—shape fan belonging and collective memory. Spatial analysis of how broadcasting infrastructure nests within physical venues remains underdeveloped: how camera positioning constraints, lighting systems, and transmission equipment embed technical limitations into broadcast aesthetics.
+
+**Source key:** PENDING

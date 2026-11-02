@@ -1,0 +1,1 @@
+The third chapter, Late-Game Offensive Patterns, has been drafted, citing hoops_reads/late_game_offensive_patterns.md.

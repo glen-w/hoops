@@ -1,0 +1,8 @@
+# Nielsen Methodological Reports 1960–2000
+
+{Smith, 1997; PENDING}
+
+Nielsen's transition from diary-based to people-meter measurement fundamentally altered basketball audience data. Diary methods (pre-1987) relied on household self-reporting, inflating sports viewership through recall bias and social desirability. People-meters introduced passive electronic tracking, reducing measured NBA audiences by 15–25% in early markets. Basketball-specific sample sizes remained problematic: Nielsen's national panels (≈5,000 households until 1990s expansion) yielded fewer than 200 NBA-viewing households per average game, producing margins of error exceeding ±15% for regular-season telecasts. Local market measurement gaps were acute in mid-sized NBA markets (Milwaukee, Portland, Sacramento) where dedicated meter installation lagged 3–5 years behind top-10 DMAs. Nielsen's 1993 "Local People Meter" rollout prioritised top-25 markets, leaving 12 NBA cities without electronic measurement until 1998–2000. These methodological shifts create discontinuities in rights-fee justification: networks negotiated 1990s contracts on diary-inflated ratings, then faced people-meter-deflated delivery. Scholarly work on this transition remains sparse; primary sources include Nielsen technical reports (1987, 1993, 1997), TVB annual reviews, and network sales presentations archived at the Paley Center.
+
+---
+*Card created 2026-10-29. Key: PENDING (Zotero import pending). Primary gap: basketball-specific Nielsen sample documentation.*

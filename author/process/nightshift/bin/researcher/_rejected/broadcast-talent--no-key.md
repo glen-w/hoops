@@ -1,0 +1,5 @@
+Sports broadcasting talent shaped the televised basketball experience from the mid-twentieth century. Scholarly analysis of commentary function (Comisky, Bryant, and Zillmann, 1977) argues that commentators 'embellish the actual happening with play-by-play, colour commentary,' functioning as 'critical contributors to the spectator's appreciation of televised sports.' Meier (1984) analysed broadcast packaging of championship games (1982–83), segmenting advertisements, pre- and postgame programming, and live-play content.
+
+Keene and Cummins (2009) differentiated play-by-play announcers from colour commentators, showing how prior athletic experience shapes perceived expertise. Reaser (2003) distinguished radio narration (translating visual action) from television commentary (reinforcing shared experience). Gendered and racialized discourse analysis (Billings et al., 2002) examines how commentary reinforces athlete representation.
+
+Scholarly coverage concentrates in 1970s onwards; earlier talent histories (1950–1967) require archival sources and sports journalism records.

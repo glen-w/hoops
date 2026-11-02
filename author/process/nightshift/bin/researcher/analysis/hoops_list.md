@@ -1,0 +1,1 @@
+Hoops list generated with 6 items.

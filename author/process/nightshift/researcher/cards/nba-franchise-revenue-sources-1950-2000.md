@@ -1,0 +1,9 @@
+# NBA Franchise Revenue Sources 1950–2000
+
+{Scully, 1989; PENDING}
+
+Gerald Scully's seminal work on the business of major league sports establishes the foundational revenue framework for NBA franchises in the pre-modern era. Gate receipts dominated franchise income through the 1970s, typically comprising 60–75% of total revenue. Local television contracts emerged as the second pillar, but remained modest — often under $500,000 annually per team into the early 1980s. National broadcast revenue (ABC, CBS) was pooled and distributed equally, providing a revenue floor but not a growth engine. Sponsorship and merchandise were negligible: arena naming rights did not exist; jersey patches were prohibited; team merchandise sales were largely concessionaire-run with minimal franchise share.
+
+The 1976 Oscar Robertson settlement and ensuing free agency transformed the cost side faster than the revenue side. Player salaries exploded from a league average of $35,000 (1970) to $180,000 (1980), while gate-driven revenue grew linearly. Franchises in large markets (New York, Los Angeles, Chicago) leveraged local cable deals (e.g., MSG, SportsChannel) to decouple from gate dependence. Small-market teams (Milwaukee, Kansas City, Utah) faced structural deficits. The 1983 revenue-sharing reforms — triggered by the NBA's near-collapse — introduced a luxury tax precursor and expanded the national TV pool, but gate receipts remained the primary variable until the 1990s cable boom.
+
+Key gap: no scholarly synthesis quantifies the *franchise-level* revenue mix (gate vs. local TV vs. national TV vs. other) annually across all teams 1950–2000. Existing work relies on league aggregates or case studies (Knicks, Lakers, Celtics).

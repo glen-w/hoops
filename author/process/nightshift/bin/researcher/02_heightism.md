@@ -1,0 +1,1 @@
+The second chapter, Heightism & Anthropology of Stature, has been drafted, citing hoops_reads/heightism_stature_anthropology.md.

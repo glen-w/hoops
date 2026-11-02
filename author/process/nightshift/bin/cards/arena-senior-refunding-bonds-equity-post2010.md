@@ -1,0 +1,7 @@
+# Senior refunding bonds: public finance equity post-2010
+
+**Surname, YYYY:** Grokbot analysis of Detroit (Little Caesars, 2018A) and Orlando (Amway/Kia, 2017A) senior revenue bond refunds. **PENDING verification.**
+
+Detroit's Little Caesars Arena issued $287.4M in 2018A senior tax-increment (TI) refunding bonds; Orlando's Amway Center issued $159.9M in 2017A senior tourism-development-tax (TDT) refunding revenue bonds. Both structure public risk: cities pledge future tax streams (property-value increases, hotel taxes) to cover franchise arena debt, shifting refinancing risk from private operators to municipal coffers. Senior bonds rank ahead of junior claims, signaling lender confidence in tax-base resilience. Cost deflators (ENR CCI 2000–2026) show construction inflation: 2018 CCI reached ~8,600 vs. 2000 baseline ~6,200—a 39% rise—yet refunding par amounts remain fixed, implying initial municipal subsidies absorbed inflationary losses. This structure concentrates venue-debt burden on public revenues (property taxes, hotel levies) while franchises retain operating upside, illustrating how post-2010 arena financing redistributes public risk for private gain.
+
+**Data:** hoops/_grokbot/2026-11-01/2026-11-01_coder-01_little-caesars-arena-bond-terms.csv; hoops/_grokbot/2026-11-01/2026-11-01_coder-02_amway-center-bond-terms.csv; hoops/_grokbot/2026-11-01/2026-11-01_coder-03_enr-cci-and-public-deflators-2000-2026.csv.

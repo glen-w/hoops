@@ -1,0 +1,7 @@
+**Arena Concessions: Design, Accessibility, and Infrastructure Integration**
+
+Modern NBA arenas balance operational efficiency with fan equity through food-service infrastructure design. Since 2010, venues including the Smoothie King Center (New Orleans) and Crypto.com Arena (Los Angeles) have integrated sustainable concourse layouts, allergen-aware signage, and tiered menu accessibility—though implementation varies widely. Design scholarship and stadium management analyses suggest that concourse width, queue systems, and seating-tier food proximity directly affect attendance equity: premium seats receive catered service and curated menus, while standing-room and upper-level access rely on central concourse vendors.
+
+Recent sustainability initiatives (LEED certification, waste-reduction commitments) have shifted vendor partnerships towards regional sourcing and dietary accommodation (vegan, gluten-free, culturally diverse menus). However, scholarly documentation of how design choices embed equity or reinforce pricing tiers remains sparse. Labour conditions in back-of-house food prep and delivery chains, and how architectural constraints shape worker mobility and wage standards, remain largely unexamined in publicly available sources.
+
+**{Author, YYYY}** — Source key: PENDING

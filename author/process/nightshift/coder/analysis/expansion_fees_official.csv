@@ -1,0 +1,2 @@
+transaction_id,team,season,fee_amount_usd,currency,source_key,source_url,confidence,status,notes
+EXPANSION-FEE-PENDING,,,,USD,PENDING,,PENDING,PENDING,"Paperful 2026-10-29 excerpts give no official NBA expansion fee amounts, transaction announcements, or URLs; no figures invented."

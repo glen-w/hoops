@@ -1,0 +1,7 @@
+**Franchise Valuation**
+
+An NBA franchise operates as an investment asset, valued through market-based methodologies that reflect revenue streams, market positioning, and ownership trajectories. Valuation frameworks typically employ earnings multiples (applied to EBITDA or operating income), revenue multiples (2×–5× depending on market and stability), and comparable-sales analysis (recent franchise transactions as benchmarks). From 2000 to 2026, franchise valuations have escalated substantially—reflecting expanding media rights revenues, sponsorship diversification, and institutional capital inflows—though valuations remain sensitive to local market dynamics, ownership stability, and arena infrastructure investment.
+
+Institutional and private-equity involvement in franchise ownership has grown, reshaping capital structures and expected returns. Understanding how franchises are valued illuminates investment rationales, ownership decision-making on arena capital expenditure, labour cost management, and long-term financial strategy within a league-constrained environment. Research into franchise valuation methodologies, historical pricing trends, and ownership-acquisition drivers provides ground for analysing how financial markets shape franchise operations and strategic priorities.
+
+**Source key:** PENDING

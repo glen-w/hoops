@@ -1,0 +1,1 @@
+The NBA's revenue streams have undergone significant changes from 1950 to 2000. Gate receipts, sponsorship revenue, and merchandise sales have all contributed to the league's financial growth. The introduction of free agency in the mid-1970s altered revenue-sharing formulas and competitive financial capacity across franchises.

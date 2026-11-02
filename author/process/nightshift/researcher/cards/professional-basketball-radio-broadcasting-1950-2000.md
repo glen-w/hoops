@@ -1,0 +1,11 @@
+# Professional Basketball Radio Broadcasting, 1950–2000
+
+{Surname, YYYY}; PENDING
+
+Radio was the NBA's primary broadcast medium through the 1950s and 1960s, with local stations carrying games to regional audiences before national television contracts matured. Early radio rights fees were modest — often barter arrangements or nominal sums — but provided critical fan engagement in markets without TV clearance. Play-by-play announcers like Marty Glickman (Knicks), Johnny Most (Celtics), and Chick Hearn (Lakers) became synonymous with their franchises, shaping team identity through distinctive calls and narrative framing. Regional syndication disparity — more broadcast hours in major metros than secondary cities — shaped franchise fan development independently of roster talent.
+
+Radio audience measurement relied on Hooper and later Nielsen radio diaries, with basketball-specific sample sizes rarely reported separately from general sports programming. Sponsorship integration was direct: local advertisers (car dealers, breweries, banks) bought spot packages and sponsored halftime/postgame shows, creating revenue streams independent of gate receipts. Team-owned radio networks emerged in the 1970s–1980s (e.g., Bulls, Lakers), allowing franchises to control inventory and capture national syndication revenue.
+
+The 1980s–1990s saw radio's role shift from primary to complementary: national TV (CBS, NBC) carried marquee games, while radio retained local loyalty and in-car/at-work listening. Rights fees escalated modestly; by the late 1990s, major-market radio rights reached low-seven-figure annual values. Radio also served as a developmental pipeline for TV broadcasters (Marv Albert, Mike Breen). Scholarly treatment remains thin; key sources include NBA league office archives (radio contracts 1950s–1990s), local station logs, and broadcaster memoirs (Glickman, Hearn, Most).
+
+**Gaps**: No comprehensive academic monograph on NBA radio history; radio rights fee data fragmented across team archives; Nielsen radio diary methodology for basketball vs. other sports undocumented; sponsor contract terms rarely public.

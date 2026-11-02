@@ -1,0 +1,7 @@
+**Sports Broadcasting Act of 1961 and NBA Revenue Growth**
+
+The Sports Broadcasting Act of 1961 (Public Law 873) fundamentally transformed professional basketball's financial model. Before 1961, individual NBA teams negotiated television rights independently; the Act enabled leagues to pool broadcasting rights and negotiate collectively (Neuhaus & Thomas, 2024; Weiner, 2002). This centralisation proved pivotal. Individual negotiation fragmented revenue flows; pooled rights allowed coordinated, league-wide deals that increased bargaining leverage against networks.
+
+By the late 1990s, network television became the NBA's largest revenue source. The NBC and Turner Networks contract (1998–2002) was valued at $2.4 billion (Fortunato, 2001, 2000). Tommy Roy, Co-Executive Producer for NBA on NBC, described a self-reinforcing cycle: stronger coverage attracted audiences, which justified higher advertising rates, in turn raising rights fees. By 2001/02, NBA rights fees reached $661 million annually (Hoehn, 2003). Collective negotiation, enabled by the 1961 statute, became foundational to franchise financial stability and competitive equilibrium.
+
+**(Neuhaus & Thomas, 2024; Fortunato, 2001, 2000; Weiner, 2002; Hoehn, 2003; T3SY7PN6; CLVYPM2N; PJ35JCEH)**

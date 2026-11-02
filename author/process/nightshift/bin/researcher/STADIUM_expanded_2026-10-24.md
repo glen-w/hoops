@@ -1,0 +1,1 @@
+STADIUM chapter: COVID-proved interpretation strengthened (fans affect player behavior, not ref behavior; tech fouls gap remains open), naming rights as community identity expanded (ties to FIN gentrification framing), international venues section linked to MEDIA strategy. Security/concessions/design gaps flagged.

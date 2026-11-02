@@ -1,0 +1,1 @@
+Vegas test case strategy: inspect schema, try variants (vegas-allegiant-2020 first), fallback to paperful_ask per venue. Target 2026-10-24 EOD (should be <1 hour). Output → analysis/hoops_record_output_*.json.

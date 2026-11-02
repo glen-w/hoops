@@ -1,0 +1,1 @@
+The chapters have been cited and the drafting is complete. The chapters are: Pickup Basketball as Self-Care, Heightism & Anthropology of Stature, Late-Game Offensive Patterns, Performance Homework & Player Development, Jordan Mythology, Bibliometric Landscape.

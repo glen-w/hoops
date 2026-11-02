@@ -1,0 +1,6 @@
+season,category,value,unit,currency,source_url,as_of,confidence,source_key,notes,season_start,season_end,partner
+2016-17 to 2024-25,national_media_rights_partners,ABC/ESPN; TNT/Turner,text,,https://pr.nba.com/nba-partnerships-walt-disney-company-turner-broadcasting-system/,2026-09-19,HIGH,bib/glen-w/hoopsHoopsDerivedLeague2026,OFFICIAL NBA Communications 2014-10-06: nine-year agreements; telecasts begin 2016-17 through 2024-25. No contract value stated.,,,
+,national_media_rights_partners,24,billion,USD,,2026-11-02,MEDIUM,TVAJ23CR,Combined $24B nine-year deal per 2014 news headline [S6]. Secondary source; no official NBA/network primary in supplied excerpts.,2016-17,2024-25,ABC/ESPN; TNT/Turner
+,national_media_rights_partners,1.4,billion_per_year,USD,,2026-11-02,MEDIUM,TVAJ23CR,Approximately $1.4B per year [S6]. Secondary source; unverified against official ESPN/Disney release.,2016-17,2024-25,ESPN
+,national_media_rights_partners,1.2,billion_per_year,USD,,2026-11-02,MEDIUM,TVAJ23CR,Approximately $1.2B per year [S6]. Secondary source; unverified against official Turner release.,2016-17,2024-25,TNT/Turner
+,national_media_rights_partners,2.6,billion_per_year,USD,,2026-11-02,LOW,Y5KFG5YX,2023 academic paper rounds combined annual value to approximately US$2.6B per year [S1]; cites secondary references.,2016-17,2024-25,ESPN; TNT/Turner

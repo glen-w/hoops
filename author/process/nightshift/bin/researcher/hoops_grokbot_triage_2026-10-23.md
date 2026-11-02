@@ -1,0 +1,1 @@
+Full triage: 12 files integrated (MEDIA timeline + RSN collapse, FIN arena financing + consensus, STADIUM price effects + referee bias + gentrification gap). Zotero summary: 77 new (tagged nightshift-2026-10-23), 8 reused, 0 deleted.
